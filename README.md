@@ -1,3 +1,8 @@
 # arxiv_bot
 
-This is a simple Python library.
+This is a Python library for arXiv bots.
+
+# Bluesky API
+
+# arXiv API
+
