@@ -7,7 +7,5 @@ category = 'gr-qc'
 today = datetime.now().strftime('%Y-%m-%d')
 date = '2024-07-25'
 
-filename = category + '-' + today + '.txt'
-
 # スクリプトを実行
 fetch_arxiv(category, date)
