@@ -1,0 +1,45 @@
+Title: Quantum Gravity Corrections to Hawking Radiation via GUP
+Authors: Gaurav Bhandari, S. D. Pathak, Manabendra Sharma, Maxim Yu Khlopov
+Summary: In this paper we explore the effects of a Generalized Uncertainty Principle
+(GUP) on Schwarzschild black hole. In particular, we incorporate the effects of
+GUP into the Parikh-Wilczek tunneling process for Hawking radiation. To this
+effect, we observe that results obtained due to GUP correction resemble that of
+the Reissner-Nordstr\"{om} black hole, showing similarities to the nature of an
+electric charge. We also find that, within this framework, the emission is not
+purely thermal, thus addressing the information loss problem through the
+correlation function.
+Link: http://arxiv.org/abs/2407.19268v1
+----
+Title: Reduced geometry and its role in explicit spacetime symmetry violation
+Authors: Carlos M. Reyes, César Riquelme, Marco Schreck, Alex Soto
+Summary: The incompatibility of explicit diffeomorphism violation with Riemannian
+geometry within the gravitational Standard-Model Extension (SME) is revisited.
+We review two methods of how to deal with this problem. The first is based on
+an approach proposed originally by St\"{u}ckelberg and the latter is to
+restrict spacetime geometry via the dynamical field equations and the second
+Bianchi identity. Moreover, a third technique is introduced, which is novel and
+relies on isometries of a gravitational system. Our conclusion is that an SME
+background field configuration compatible with Riemannian geometry is more
+likely to be determined the more diffeomorphisms are isometries of the
+particular system. This finding has the potential to provide an alternative
+treatment of explicit spacetime symmetry violation in gravity.
+Link: http://arxiv.org/abs/2407.19264v1
+----
+Title: Solutions of Friedmann's Equations and Cosmological Consequences
+Authors: Yisong Yang
+Summary: The Einstein equations of general relativity reduce, when the spacetime
+metric is of the Friedmann--Lemaitre--Robertson--Walker type governing an
+isotropic and homogeneous universe, to the Friedmann equations, which is a set
+of nonlinear ordinary differential equations, determining the law of evolution
+of the spatial scale factor, in terms of the Hubble ``constant''.
+  It is a challenging task, not always possible, to solve these equations. In
+this talk, we present some insights from solving and analyzing the Friedmann
+equations and their implications to evolutionary cosmology. In particular, in
+the Chaplygin fluid universe, we derive a universal formula for the asymptotic
+exponential growth rate of the scale factor which indicates that, as far as
+there is a tiny presence of nonlinear (exotic) matter, linear (conventional)
+matter makes contribution to the dark energy, which becomes significant near
+the phantom divide line. Joint work with Shouxin Chen, Gary W. Gibbons, and
+Yijun Li.
+Link: http://arxiv.org/abs/2407.19250v1
+----

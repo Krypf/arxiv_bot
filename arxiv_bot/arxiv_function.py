@@ -1,6 +1,7 @@
 #%%
 import arxiv
 from datetime import datetime
+import os
 #%%
 def get_results(category):
     # Construct the default API client.
@@ -16,30 +17,38 @@ def get_results(category):
     return results
 
 #%%
-def save_text_append(text, filename):
+def save_text_append(text, file_path):
     """
     Appends the specified text to the given file.
 
     Args:
         text: The text to append.
-        filename: The name of the file to append to.
+        file_path: The path of the file to append to.
     """
     # Append the text to the file
-    with open(filename, 'a') as f:
+    with open(file_path, 'a') as f:
         f.write(text)
 #%%
 def fetch_arxiv(category, date):
+    sub_folder = category
+    
+    # Create the subfolder if it does not exist
+    if not os.path.exists(sub_folder):
+        os.makedirs(sub_folder)
+    
     results = get_results(category)
     # Filter entries matching today's date
     todays_entries = [result for result in results if result.updated.date() == datetime.strptime(date, '%Y-%m-%d').date()]
     
+    file_name = category + '-' + date + '.txt'
+    # Create the file path
+    file_path = os.path.join(sub_folder, file_name)
     # Create an empty file
-    filename = category + '-' + date + '.txt'
-    open(filename, 'w').close()
+    open(file_path, 'w').close()
 
     # Display the result
     if not todays_entries:
-        save_text_append("No entries found for today.", filename)
+        save_text_append("No entries found for today.", file_path)
     else:
         for entry in todays_entries:
             title = entry.title
@@ -47,8 +56,12 @@ def fetch_arxiv(category, date):
             summary = entry.summary
             link = entry.entry_id
             
-            print(f"Title: {title}")
-            print(f"Authors: {authors}")
-            print(f"Summary: {summary}")
-            print(f"Link: {link}")
-            print("----")
+            text = f"Title: {title}\n"
+            text += f"Authors: {authors}\n"
+            text += f"Summary: {summary}\n"
+            text += f"Link: {link}\n"
+            text += "----\n"
+            save_text_append(text, file_path)
+
+if __name__ == '__main__':
+    print('This is a module arxiv_function.py')

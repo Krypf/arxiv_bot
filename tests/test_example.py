@@ -1,5 +1,5 @@
 import unittest
-from arxiv_bot.example_module import hello_world
+from ..arxiv_bot.example_module import hello_world
 
 class TestExampleModule(unittest.TestCase):
     def test_hello_world(self):
