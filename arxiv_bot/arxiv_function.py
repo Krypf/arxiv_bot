@@ -2,6 +2,8 @@
 import arxiv
 from datetime import datetime
 import os
+from typing import List
+
 #%%
 def get_results(category):
     # Construct the default API client.
@@ -62,6 +64,24 @@ def fetch_arxiv(category, date):
             text += f"Link: {link}\n"
             text += "----\n"
             save_text_append(text, file_path)
+#%%
+#%% https://chatgpt.com/share/7dfbd5e5-9c8d-4939-a815-efd595b5f229
+def read_categories_file(folder='') -> List[str]:
+    file_name = folder + '/' + 'categories.txt'
+    try:
+        with open(file_name, 'r', encoding='utf-8') as file:
+            # read each line
+            lines = file.readlines()
+            # Strip newline characters from each line
+            categories_list = [line.strip() for line in lines]
+            return categories_list
+    except FileNotFoundError:
+        print(f"File '{file_name}' not found in the current directory.")
+        return []
+    except Exception as e:
+        print(str(e))
+        return []
+#%%
 
 if __name__ == '__main__':
     print('This is a module arxiv_function.py')
