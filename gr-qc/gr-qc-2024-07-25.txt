@@ -1,160 +1,124 @@
 Title: Kasner interiors from analytic hairy black holes
 Authors: Daniel Areán, Hyun-Sik Jeong, Juan F. Pedraza, Le-Chen Qu
-Summary: We conduct an exhaustive study of the interior geometry of a family of
-asymptotically AdS$_{d+1}$ hairy black holes in an analytically controllable
-setup. The black holes are exact solutions to an Einstein-Maxwell-Dilaton
-theory and include the well-known Gubser-Rocha model. After reviewing the
-setup, we scrutinize the geometry beyond the horizon, finding that these
-backgrounds can exhibit timelike or Kasner singularities. We generalize the no
-inner-horizon theorem for hairy black holes to accommodate these findings. We
-then consider observables sensitive to the geometry behind the horizon, such as
-Complexity = Anything and the thermal $a$-function. In the Kasner case, we
-propose a new variant of complexity that characterizes the late-time rate by
-the Kasner exponents, extending previous work by J{\o}rstad, Myers and Ruan.
-Additionally, we elucidate the power-law behavior of the thermal $a$-function
-near the singularity, directly relating it to the Kasner exponents. Finally, we
-introduce axion-like fields in the Gubser-Rocha model to study the impact of
-translational symmetry breaking on the black hole interior. We show that Kasner
-singularities occur for both explicit and spontaneous symmetry breaking, with
-the Kasner exponents depending on the strength of broken translations only in
-the latter case.
 Link: http://arxiv.org/abs/2407.18430v1
 ----
 Title: IDEAL characterization of vacuum pp-waves
 Authors: Igor Khavkine, David McNutt, Lode Wylleman
-Summary: An IDEAL characterization of a particular spacetime metric, $g_0$, consists
-of a set of tensorial equations $T[g] = 0$ arising from expressions constructed
-from the metric, $g$, its curvature tensor and its covariant derivatives and
-which are satisfied if and only if $g$ is locally isometric to the original
-metric $g_0$. Earlier applications of the IDEAL classification of spacetimes
-relied on the construction of particular scalar polynomial curvature invariants
-as an important step in the procedure.
-  In this paper we investigate the well-known class of vacuum pp-wave
-spacetimes, where all scalar polynomial curvature invariants vanish, and
-determine the applicability of an IDEAL classification for these spacetimes. We
-consider a modification of the IDEAL approach which permits a corresponding
-extension of the Stewart-Walker lemma. With this change, we are able to
-construct invariants and IDEAL-ly classify all of the vacuum pp-wave solutions
-which admit a two- or higher-dimensional isometry group, with the exception of
-one case.
 Link: http://arxiv.org/abs/2407.18410v1
 ----
 Title: Gravitational wave surrogate model for spinning, intermediate mass ratio binaries based on perturbation theory and numerical relativity
 Authors: Katie Rink, Ritesh Bachhar, Tousif Islam, Nur E. M. Rifat, Kevin Gonzalez-Quesada, Scott E. Field, Gaurav Khanna, Scott A. Hughes, Vijay Varma
-Summary: We present BHPTNRSur2dq1e3, a reduced order surrogate model of gravitational
-waves emitted from binary black hole (BBH) systems in the comparable to large
-mass ratio regime with aligned spin ($\chi_1$) on the heavier mass ($m_1$). We
-trained this model on waveform data generated from point particle black hole
-perturbation theory (ppBHPT) with mass ratios varying from $3 \leq q \leq 1000$
-and spins from $-0.8 \leq \chi_1 \leq 0.8$. The waveforms are $13,500 \ m_1$
-long and include all spin-weighted spherical harmonic modes up to $\ell = 4$
-except the $(4,1)$ and $m = 0$ modes. We find that for binaries with $\chi_1
-\lesssim -0.5$, retrograde quasi-normal modes are significantly excited,
-thereby complicating the modeling process. To overcome this issue, we introduce
-a domain decomposition approach to model the inspiral and merger-ringdown
-portion of the signal separately. The resulting model can faithfully reproduce
-ppBHPT waveforms with a median time-domain mismatch error of $8 \times
-10^{-5}$. We then calibrate our model with numerical relativity (NR) data in
-the comparable mass regime $(3 \leq q \leq 10)$. By comparing with spin-aligned
-BBH NR simulations at $q = 15$, we find that the dominant quadrupolar
-(subdominant) modes agree to better than $\approx 10^{-3} \ (\approx 10^{-2})$
-when using a time-domain mismatch error, where the largest source of
-calibration error comes from the transition-to-plunge and ringdown
-approximations of perturbation theory. Mismatch errors are below $\approx
-10^{-2}$ for systems with mass ratios between $6 \leq q \leq 15$ and typically
-get smaller at larger mass ratio. Our two models - both the ppBHPT waveform
-model and the NR-calibrated ppBHPT model - will be publicly available through
-gwsurrogate and the Black Hole Perturbation Toolkit packages.
 Link: http://arxiv.org/abs/2407.18319v1
 ----
 Title: Searching for String Bosenovas with Gravitational Wave Detectors
 Authors: Dawid Brzeminski, Anson Hook, Junwu Huang, Clayton Ristow
-Summary: We study the phenomenology of string bosenova explosions in vector
-superradiance clouds around spinning black holes, focusing on the observable
-consequences in gravitational wave detectors and accelerometers. During the
-growth of the superradiance cloud, the dark gauge field might reach a critical
-field strength, when a network of dark photon strings is produced via a
-superheated phase transition. These dark photon strings will then absorb the
-energy in the background fields and get ejected from the cloud, with total
-energy as large as the rotational energy of the black hole. In this paper, we
-study the subsequent evolution of this dense string network, and the resulting
-observational consequences depending on the unknown string tension, or almost
-equivalently, the ratio between the quartic and the gauge coupling in the
-Abelian Higgs model. Strings with large tension will dissipate into
-gravitational waves, detectable over a wide range of frequencies, from $\sim$
-nHz near supermassive black holes, to $\gtrsim 10$ MHz around stellar mass
-black holes. This is the first known source of high frequency gravitational
-waves, unconstrained by cosmological observations. The strain of this
-gravitational wave can be larger than $10^{-14}$ at low frequencies, lasting
-for longer than typical duration of experiments. Small tension strings, with
-total lengths in the network as large as $10^{40}$ km, can travel to the earth
-with appreciable rate from any black hole in the Milky Way and interact with
-earth based accelerometers. If the Standard Model particles are directly
-charged under the dark photon, e.g. B-L, this interaction leads to an
-acceleration of Standard Model particles that is independent of the coupling
-constant. We work out the spectral density of this acceleration, and project
-that modern accelerometers and equivalence principle tests can be sensitive to
-the passing of these strings.
 Link: http://arxiv.org/abs/2407.18991v1
 ----
 Title: Gravitational radiation reaction for compact binary systems at the fourth-and-a-half post-Newtonian order
 Authors: Luc Blanchet, Guillaume Faye, David Trestini
-Summary: We compute the gravitational radiation-reaction force on a compact binary
-source at the fourth-and-a-half post-Newtonian (4.5PN) order of general
-relativity, i.e., 2PN order beyond the leading 2.5PN radiation reaction. The
-calculation is valid for general orbits in a general frame, but in a particular
-coordinate system which is an extension of the Burke-Thorne coordinate system
-at the lowest order. With the radiation-reaction acceleration, we derive (from
-first principles) the flux-balance laws associated with the energy, the angular
-and linear momenta, and the center-of-mass position, in a general frame and up
-to 4.5PN order. Restricting our attention to the frame of the center of mass,
-we point out that the equations of motion acquire a non-local-in-time
-contribution at the 4.5PN order, made of the integrated flux of linear momentum
-(responsible for the recoil of the source) together with the instantaneous flux
-of center-of-mass position. The non-local contribution was overlooked in the
-past literature, which assumed locality of the radiation-reaction force in the
-center of mass frame at 4.5PN order. We discuss the consequences of this
-non-local effect and obtain consistent non-local equations of motion and flux
-balance laws at 4.5PN order in the center-of-mass frame.
 Link: http://arxiv.org/abs/2407.18295v1
 ----
 Title: Conformal quantum mechanics of causal diamonds: Quantum instability and semiclassical approximation
 Authors: H. E. Camblong, A. Chakraborty, P. Lopez-Duque, C. Ordóñez
-Summary: Causal diamonds are known to have thermal behavior that can be probed by
-finite-lifetime observers equipped with energy-scaled detectors. This
-thermality can be attributed to the time evolution of observers within the
-causal diamond, governed by one of the conformal quantum mechanics (CQM)
-symmetry generators: the noncompact hyperbolic operator $S$. In this paper, we
-show that the unbounded nature of $S$ endows it with a quantum instability,
-which is a generalization of a similar property exhibited by the inverted
-harmonic oscillator potential. Our analysis is semiclassical, including a
-detailed phase-space study of the classical dynamics of $S$ and its dual
-operator $R$, and a general semiclassical framework yielding basic instability
-and thermality properties that play a crucial role in the quantum behavior of
-the theory. For an observer with a finite lifetime $\mathcal{T}$, the detected
-temperature
-  $T_D = 2 \hbar/(\pi \mathcal{T})$ is associated with a Lyapunov exponent
-$\lambda_L = \pi T_D/\hbar$, which is half the upper saturation bound of the
-information scrambling rate.
 Link: http://arxiv.org/abs/2407.18191v1
 ----
 Title: Large $D$ gravity and low $D$ string via $α^{\prime}$ corrections
 Authors: Shuxuan Ying
-Summary: In this paper, we generalize the correspondence between large $D$ gravity and
-low $D$ string theory to the most general case, including its T-dual solutions.
-It is well-known that the large $D$ limit of the Schwarzschild-Tangherlini
-black hole in gravity becomes a two-dimensional near-horizon geometry.
-Similarly, the large $D$ limit of its T-dual solution, obtained by the Buscher
-rules, namely the string black hole with a naked singularity, reduces to a
-two-dimensional near-singularity geometry. Both of these geometries are
-described by the two-dimensional low-energy effective action of string theory
-and are related to each other by scale-factor duality. Secondly, we demonstrate
-that these near-horizon/singuglarity geometries, including complete
-$\alpha^{\prime}$ corrections, can be described by the two-dimensional
-Hohm-Zwiebach action. This approach allows for the derivation of
-non-perturbative and non-singular solutions. Furthermore, the Hohm-Zwiebach
-action provides a systematic way to investigate the $\alpha^{\prime}$-corrected
-near-horizon/singularity geometries of different kinds of black holes, which
-are difficult to achieve through the Wess-Zumino-Witten (WZW) model method.
 Link: http://arxiv.org/abs/2407.18179v1
+----
+Title: Conformal quantum mechanics of causal diamonds: Time evolution and thermality via path integral functionals
+Authors: H. E. Camblong, A. Chakraborty, P. Lopez-Duque, C. Ordóñez
+Link: http://arxiv.org/abs/2407.18177v1
+----
+Title: Weyl gauge invariant DBI action in conformal geometry
+Authors: D. M. Ghilencea
+Link: http://arxiv.org/abs/2407.18173v1
+----
+Title: Probing Penrose-type singularities in sonic black holes
+Authors: Satadal Datta, Uwe R. Fischer
+Link: http://arxiv.org/abs/2407.18165v1
+----
+Title: New black ring with all independent conserved charges in five-dimensional minimal supergravity
+Authors: Ryotaku Suzuki, Shinya Tomizawa
+Link: http://arxiv.org/abs/2407.18142v1
+----
+Title: Prospects for Observing High-redshift Radio-loud Quasars in the SKA Era: Paving the Way for 21-cm Forest Observations
+Authors: Qi Niu, Yichao Li, Yidong Xu, Hong Guo, Xin Zhang
+Link: http://arxiv.org/abs/2407.18136v1
+----
+Title: What is the Curvature of 2D Euclidean Quantum Gravity?
+Authors: R. Loll, T. Niestadt
+Link: http://arxiv.org/abs/2407.18120v1
+----
+Title: Deriving Weyl double copies with sources
+Authors: Kymani Armstrong-Williams, Nathan Moynihan, Chris D. White
+Link: http://arxiv.org/abs/2407.18107v1
+----
+Title: Metrics depending on one variable in D-dimensional Einstein-Maxwell Theory
+Authors: W. A. Sabra
+Link: http://arxiv.org/abs/2407.18089v1
+----
+Title: Testing non-local gravity through Ultra-Diffuse Galaxies kinematics
+Authors: Filippo Bouchè, Salvatore Capozziello, Ciro De Simone, Vincenzo Salzano
+Link: http://arxiv.org/abs/2407.18084v1
+----
+Title: Neutrino cosmology after DESI: tightest mass upper limits, preference for the normal ordering, and tension with terrestrial observations
+Authors: Jun-Qian Jiang, William Giarè, Stefano Gariazzo, Maria Giovanna Dainotti, Eleonora Di Valentino, Olga Mena, Davide Pedrotti, Simony Santos da Costa, Sunny Vagnozzi
+Link: http://arxiv.org/abs/2407.18047v1
+----
+Title: Signatures of Low Mass Black Hole-Neutron Star Mergers
+Authors: Rahime Matur, Ian Hawke, Nils Andersson
+Link: http://arxiv.org/abs/2407.18045v1
+----
+Title: Irreducible decompositions of tensors via the Brauer algebra and applications to metric-affine gravity
+Authors: Thomas Helpin
+Link: http://arxiv.org/abs/2407.18019v1
+----
+Title: A higher-level large-eddy filtering strategy for general relativistic fluid simulations
+Authors: Thomas Celora, Nils Andersson, Ian Hawke, Greg L. Comer, Marcus J. Hatton
+Link: http://arxiv.org/abs/2407.18012v1
+----
+Title: The model of the local Universe in the framework of the second-order perturbation theory
+Authors: Szymon Sikora, Jan J. Ostrowski
+Link: http://arxiv.org/abs/2407.18007v1
+----
+Title: Toward a test of Gaussianity of a gravitational wave background
+Authors: Reginald Christian Bernardo, Stephen Appleby, Kin-Wang Ng
+Link: http://arxiv.org/abs/2407.17987v1
+----
+Title: Relativistic gravity in the inhomogeneous Universe
+Authors: Theodore Anton
+Link: http://arxiv.org/abs/2407.17984v1
+----
+Title: Accelerated expansion of the Universe and the Higgs true vacuum
+Authors: Muhammad Usman, Asghar Qadir
+Link: http://arxiv.org/abs/2407.17932v1
+----
+Title: Differential Forms vs Geometric Algebra: The quest for the best geometric language
+Authors: Pablo Bañón Pérez, Maarten DeKieviet
+Link: http://arxiv.org/abs/2407.17890v1
+----
+Title: Schwarzschild black-hole immersed in uniform electric or magnetic backgrounds in Entangled Relativity
+Authors: Olivier Minazzoli, Maxime Wavasseur
+Link: http://arxiv.org/abs/2407.17846v1
+----
+Title: Dissipative Quintessential Cosmic Inflation
+Authors: Kourosh Nozari, Fateme Rajabi, Narges Rashidi
+Link: http://arxiv.org/abs/2407.17808v1
+----
+Title: Aspects of Rotating Anisotropic Dark Energy Stars
+Authors: O. P. Jyothilakshmi, Lakshmi J. Naik, V. Sreekanth
+Link: http://arxiv.org/abs/2407.17753v1
+----
+Title: Fractional Scalar Field Cosmology
+Authors: S. M. M. Rasouli, S. Cheraghchi, P. V. Moniz
+Link: http://arxiv.org/abs/2407.17747v1
+----
+Title: Monte Carlo studies of quantum cosmology by the generalized Lefschetz thimble method
+Authors: Chien-Yu Chou, Jun Nishimura
+Link: http://arxiv.org/abs/2407.17724v1
+----
+Title: Holographic Dark Energy with Torsion
+Authors: Yongjun Yun, Jungjai Lee
+Link: http://arxiv.org/abs/2407.16992v2
 ----

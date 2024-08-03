@@ -29,4 +29,4 @@ date_iterator = date_range(start_date, end_date)
 # Run the script for the dates in the range.
 for date in date_iterator:
     date = date.strftime('%Y-%m-%d')
-    arxiv_function.fetch_arxiv(category, date)
+    arxiv_function.fetch_arxiv(category, date, __max_results=200)

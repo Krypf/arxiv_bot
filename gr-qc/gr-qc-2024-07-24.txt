@@ -1,1 +1,64 @@
-No entries found for today.
+Title: Neutron stars as extreme gravity probes
+Authors: Hector O. Silva
+Link: http://arxiv.org/abs/2407.17578v1
+----
+Title: Spatial curvature in coincident gauge $f(Q)$ cosmology
+Authors: Erik Jensko
+Link: http://arxiv.org/abs/2407.17568v1
+----
+Title: Heterotic Strings and Quantum Entanglement
+Authors: Atish Dabholkar, Upamanyu Moitra
+Link: http://arxiv.org/abs/2407.17553v1
+----
+Title: Observational Signatures of Highly Magnified Gravitational Waves from Compact Binary Coalescence
+Authors: Rico K. L. Lo, Luka Vujeva, Jose María Ezquiaga, Juno C. L. Chan
+Link: http://arxiv.org/abs/2407.17547v1
+----
+Title: Generalized Uncertainty Principle theories and their classical interpretation
+Authors: Matteo Bruno, Sebastiano Segreto, Giovanni Montani
+Link: http://arxiv.org/abs/2407.17408v1
+----
+Title: A better space of generalized connections
+Authors: Juan Orendain, Jose A. Zapata
+Link: http://arxiv.org/abs/2407.17400v1
+----
+Title: Anisotropic Dark Energy Stars within Vanishing Complexity Factor Formalism: Hydrostatic Equilibrium, Radial Oscillations, and Observational Implications
+Authors: G. Panotopoulos, A. Rincon, I. Lopes
+Link: http://arxiv.org/abs/2407.17335v1
+----
+Title: Hayward spacetime with axion scalar field
+Authors: Jun-Ru Chen, Yong-Qiang Wang
+Link: http://arxiv.org/abs/2407.17278v1
+----
+Title: The Möbius Game: A Quantum-Inspired Test of General Relativity
+Authors: Eleftherios-Ermis Tselentis, Ämin Baumeler
+Link: http://arxiv.org/abs/2407.17203v1
+----
+Title: Astrophysical and cosmological scenarios for gravitational wave heating
+Authors: Nigel T. Bishop, Vishnu Kakkat, Amos S. Kubeka, Monos Naidoo, Petrus J. van der Walt
+Link: http://arxiv.org/abs/2407.17143v1
+----
+Title: Logarithmic doublets in CCFT
+Authors: Agnese Bissi, Laura Donnay, Beniamino Valsesia
+Link: http://arxiv.org/abs/2407.17123v1
+----
+Title: Method to search for inspiraling planetary-mass ultra-compact binaries using the generalized frequency-Hough transform in LIGO O3a data
+Authors: Andrew L. Miller, Nancy Aggarwal, Sebastien Clesse, Federico De Lillo, Surabhi Sachdev, Pia Astone, Cristiano Palomba, Ornella J. Piccinni, Lorenzo Pierini
+Link: http://arxiv.org/abs/2407.17052v1
+----
+Title: Large fluctuations and Primordial Black Holes
+Authors: Sayantan Choudhury, M. Sami
+Link: http://arxiv.org/abs/2407.17006v1
+----
+Title: Gravitational waves from black hole emission
+Authors: Tousif Islam, Gaurav Khanna, Steven L. Liebling
+Link: http://arxiv.org/abs/2407.16989v1
+----
+Title: Static vacuum 3+1 black holes that cannot be put into stationary rotation
+Authors: Javier Peraza, Martin Reiris
+Link: http://arxiv.org/abs/2407.16960v1
+----
+Title: Phantom black holes and wormholes in Einstein-bumblebee gravity
+Authors: Chikun Ding, Changqing Liu, Yuehua Xiao, Jun Chen
+Link: http://arxiv.org/abs/2407.16916v1
+----

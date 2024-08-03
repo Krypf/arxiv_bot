@@ -9,4 +9,4 @@ category = categories_content[0]
 today = datetime.now().strftime('%Y-%m-%d')
 
 # スクリプトを実行
-arxiv_function.fetch_arxiv(category, today)
+arxiv_function.fetch_arxiv(category, today, __max_results = 200)

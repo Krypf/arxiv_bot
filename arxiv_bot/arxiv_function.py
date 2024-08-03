@@ -5,14 +5,14 @@ import os
 from typing import List
 
 #%%
-def get_results(category):
+def get_results(category, _max_results=100):
     # Construct the default API client.
     client = arxiv.Client()
 
     # Search for the 10 most recent articles matching the keyword "quantum."
     search = arxiv.Search(
         query="cat:" + category,
-        max_results=100,
+        max_results=_max_results,
         sort_by=arxiv.SortCriterion.SubmittedDate
     )
     results = client.results(search)
@@ -31,14 +31,14 @@ def save_text_append(text, file_path):
     with open(file_path, 'a') as f:
         f.write(text)
 #%%
-def fetch_arxiv(category, date):
+def fetch_arxiv(category, date, __max_results=100):
     sub_folder = category
     
     # Create the subfolder if it does not exist
     if not os.path.exists(sub_folder):
         os.makedirs(sub_folder)
     
-    results = get_results(category)
+    results = get_results(category, _max_results = __max_results)
     # Filter entries matching today's date
     todays_entries = [result for result in results if result.updated.date() == datetime.strptime(date, '%Y-%m-%d').date()]
     
@@ -55,15 +55,16 @@ def fetch_arxiv(category, date):
         for entry in todays_entries:
             title = entry.title
             authors = ", ".join(author.name for author in entry.authors)
-            summary = entry.summary
+            
             link = entry.entry_id
             
             text = f"Title: {title}\n"
             text += f"Authors: {authors}\n"
-            text += f"Summary: {summary}\n"
+            # summary = entry.summary; text += f"Summary: {summary}\n";
             text += f"Link: {link}\n"
             text += "----\n"
             save_text_append(text, file_path)
+            print(f"{file_name} has been saved.")
 #%%
 #%% https://chatgpt.com/share/7dfbd5e5-9c8d-4939-a815-efd595b5f229
 def read_categories_file(folder='') -> List[str]:
