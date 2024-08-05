@@ -1,366 +1,84 @@
 Title: Rapid Likelihood Free Inference of Compact Binary Coalescences using Accelerated Hardware
 Authors: Deep Chatterjee, Ethan Marx, William Benoit, Ravi Kumar, Malina Desai, Ekaterina Govorkova, Alec Gunny, Eric Moreno, Rafia Omer, Ryan Raikman, Muhammed Saleem, Shrey Aggarwal, Michael W. Coughlin, Philip Harris, Erik Katsavounidis
-Summary: We report a gravitational-wave parameter estimation algorithm, AMPLFI, based
-on likelihood-free inference using normalizing flows. The focus of AMPLFI is to
-perform real-time parameter estimation for candidates detected by
-machine-learning based compact binary coalescence search, Aframe. We present
-details of our algorithm and optimizations done related to data-loading and
-pre-processing on accelerated hardware. We train our model using binary
-black-hole (BBH) simulations on real LIGO-Virgo detector noise. Our model has
-$\sim 6$ million trainable parameters with training times $\lesssim 24$ hours.
-Based on online deployment on a mock data stream of LIGO-Virgo data, Aframe +
-AMPLFI is able to pick up BBH candidates and infer parameters for real-time
-alerts from data acquisition with a net latency of $\sim 6$s.
 Link: http://arxiv.org/abs/2407.19048v1
 ----
 Title: Generative Flow Networks in Covariant Loop Quantum Gravity
 Authors: Joseph Bunao, Pietropaolo Frisoni, Athanasios Kogios, Jared Wogan
-Summary: Spin foams arose as the covariant (path integral) formulation of quantum
-gravity depicting transition amplitudes between different quantum geometry
-states. As such, they provide a scheme to study the no boundary proposal,
-specifically the nothing to something transition and compute relevant
-observables using high performance computing (HPC). Following recent advances,
-where stochastic algorithms (Markov Chain Monte Carlo-MCMC) were used, we
-employ Generative Flow Networks, a newly developed machine learning algorithm
-to compute the expectation value of the dihedral angle for a 4-simplex and
-compare the results with previous works.
 Link: http://arxiv.org/abs/2407.19036v1
 ----
 Title: Rates and beaming angles of GRBs associated with compact binary coalescences
 Authors: Shasvath J. Kapadia, Dimple, Dhruv Jain, Resmi Lekshmi, Kuntal Misra, K. G. Arun
-Summary: Some, if not all, binary neutron star (BNS) coalescences, and a fraction of
-neutron - star black hole (NSBH) mergers, are thought to produce sufficient
-mass-ejection to power Gamma-Ray Bursts (GRBs). However, this fraction, as well
-as the distribution of beaming angles of BNS-associated GRBs, are poorly
-constrained from observation. Recent work applied machine learning tools to
-analyze GRB light curves observed by {\textit{Fermi}}/GBM and {\it Swift}/BAT.
-GRBs were segregated into multiple distinct clusters, with the tantalizing
-possibility that one of them (BNS cluster) could be associated with BNSs and
-another (NSBH cluster) with NSBHs. As a proof of principle, assuming that all
-GRBs detected by {\it Fermi}/GBM and {\it Swift}/BAT associated with BNSs
-(NSBHs) lie in the BNS (NSBH) cluster, we estimate their rates
-($\mathrm{Gpc}^{-3}\mathrm{yr}^{-1}$). We compare these rates with
-corresponding BNS and NSBH rates estimated by the LIGO-Virgo-Kagra (LVK)
-collaboration from the first three observing runs (O1, O2, O3). We find that
-the BNS rates are consistent with LVK's rate estimates, assuming a uniform
-distribution of beaming fractions ($f_b \in [0.01, 0.1]$). Conversely, using
-the LVK's BNS rate estimates, assuming all BNS mergers produce GRBs, we are
-able to constrain the beaming angle distribution to $\theta_j \in [0.8^{\circ},
-38.8^{\circ}]$ at $90\%$ confidence. We similarly place a lower limit on the
-fraction of GRB-Bright NSBHs to $f_B \gtrsim 0.10$ ($f_B \gtrsim 0.022$) with
-{\it Fermi}/GBM ({\it Swift}/BAT) data.
 Link: http://arxiv.org/abs/2407.19033v1
 ----
 Title: Waveform models for the gravitational-wave memory effect: Extreme mass-ratio limit and final memory offset
 Authors: Arwa Elhashash, David A. Nichols
-Summary: The gravitational-wave (GW) memory effect is a strong-field relativistic
-phenomenon that is associated with a persistent change in the GW strain after
-the passage of a GW. The nonlinear effect arises from interactions of GWs
-themselves in the wave zone and is an observable effect connected to the
-infrared properties of general relativity. The detection of the GW memory
-effect is possible with LIGO and Virgo in a population of binary-black-hole
-(BBH) mergers or from individual events with next-generation ground- and
-space-based GW detectors or pulsar timing arrays. Matched-filtering-based
-searches for the GW memory require accurate, and preferably rapid-to-evaluate
-waveform models of the memory effect's GW signal. One important element of such
-a waveform model is a model for the final memory offset -- namely, the net
-change in strain between early and late times. In this paper, we construct a
-model for the final memory offset from the merger of nonspinning BBH systems in
-quasicircular orbits. A novel ingredient of this model is that we first compute
-the memory signal for extreme mass-ratio inspirals using a high
-post-Newtonian-order analytic calculation, and we use this analytical result to
-fix the coefficient in the fit which is linear in the mass-ratio. The resulting
-memory-offset fit could be used for detecting the GW memory for binaries that
-merge on a timescale that is short relative to the inverse of the low-frequency
-cutoff of a GW detector. Additionally, this fit will be useful for analytic
-waveform models of the GW memory signals in the time and frequency domains.
 Link: http://arxiv.org/abs/2407.19017v1
 ----
 Title: Spinning Black Hole Scattering at $\mathcal{O}(G^3 S^2)$: Casimir Terms, Radial Action and Hidden Symmetry
 Authors: Dogan Akpinar, Fernando Febres Cordero, Manfred Kraus, Michael S. Ruf, Mao Zeng
-Summary: We resolve subtleties in calculating the post-Minksowskian dynamics of binary
-systems, as a spin expansion, from massive scattering amplitudes of fixed
-finite spin. In particular, the apparently ambiguous spin Casimir terms can be
-fully determined from the gradient of the spin-diagonal part of the amplitudes
-with respect to $S^2 = -s(s+1)\hbar^2$, using an interpolation between massive
-amplitudes with different spin representations. From two-loop amplitudes of
-spin-0 and spin-1 particles minimally coupled to gravity, we extract the spin
-Casimir terms in the conservative scattering angle between a spinless and a
-spinning black hole at $\mathcal{O}(G^3 S^2)$, finding agreement with known
-results in the literature. This completes an earlier study [Phys. Rev. Lett.
-130 (2023), 021601] that calculated the non-Casimir terms from amplitudes. We
-also illustrate our methods using a model of spinning bodies in
-electrodynamics, finding agreement between scattering amplitude predictions and
-classical predictions in a root-Kerr electromagnetic background up to
-$\mathcal{O}(\alpha^3 S^2)$. For both gravity and electrodynamics, the finite
-part of the amplitude coincides with the two-body radial action in the aligned
-spin limit, generalizing the amplitude-action relation beyond the spinless
-case. Surprisingly, the two-loop amplitude displays a hidden spin-shift
-symmetry in the probe limit, which was previously observed at one loop. We
-conjecture that the symmetry holds to all orders in the coupling constant and
-is a consequence of integrability of Kerr orbits in the probe limit at the
-first few orders in spin.
 Link: http://arxiv.org/abs/2407.19005v1
 ----
 Title: A new approach to renormalization group improved gravitational action
 Authors: Alfio Bonanno, Konstantinos F. Dialektopoulos, Vasilios Zarikas
-Summary: A new gravitational action is presented that could be a fair minimal
-description of the effective gravitational action in the context of Asymptotic
-Safety. It generates consistent modified Einstein equations where $\Lambda$ and
-$G$ are functions of spacetime. In addition, these equations respect, without
-any ad hoc choices, the Bianchi identities. We analyse this action in a quantum
-cosmology scenario. Furthermore, assuming homogeneous and isotropic spacetime,
-the action gives a non singular cosmology with power law inflation. Tensor and
-scalar perturbations have been used to constraint the free parameters.
 Link: http://arxiv.org/abs/2407.18883v1
 ----
 Title: Diagnostic Approaches for Interacting generalized holographic Ricci Dark Energy Models
 Authors: Omar Enkhili, Farida Bargach, Dalale Mhamdi, Taoufik Ouali, Ahmed Errahmani
-Summary: In this paper, we present an analytical solution for the interacting
-generalized holographic dark energy model, assuming a linear interaction rate
-between dark energy and dark matter. We determine the equation of state
-parameter, the generalized holographic Ricci dark energy density, the matter
-density, and the deceleration parameter. By analyzing the behavior of these
-cosmological parameters, we demonstrate that our model aligns with recent
-observations and reproduces the late-time accelerated expansion of the
-Universe. To compare our model with the $\Lambda$CDM model, we use various
-diagnostic tools including statefinder, $Om(z)$-diagnostic, statefinder
-hierarchy, growth rate analysis, and $\omega_H$-$\omega'_H$ plane. We also
-analyze the stability of the model by examining the speed of sound. These
-methods show that the dynamics of the Universe remain very close to that of the
-standard cosmological model.
 Link: http://arxiv.org/abs/2407.18869v1
 ----
 Title: A Comment on Deriving the Gibbons-Hawking-York Term From the String Worldsheet
 Authors: Amr Ahmadain, Vasudev Shyam, Zihan Yan
-Summary: In this note, we show that the noncovariant metric boundary term obtained
-from the nonlinear sigma model worldsheet derivation of the bulk off-shell
-sphere partition function is closely related to the Einstein boundary term in
-the Gamma-Gamma noncovariant action. In fact, when expressed in terms of the
-trace of the extrinsic curvature tensor, we illustrate that this boundary term
-has one-half the coefficient of the Gibbons-Hawking-York boundary term required
-such that the total (bulk plus boundary) off-shell classical action has a
-well-posed variational principle with Dirichlet boundary conditions.
 Link: http://arxiv.org/abs/2407.18866v1
 ----
 Title: Gravitational waves from a curvature-induced phase transition of a Higgs-portal dark matter sector
 Authors: Andreas Mantziris, Orfeu Bertolami
-Summary: The study of interactions between dark matter and the Higgs field opens an
-exciting connection between cosmology and particle physics, since such
-scenarios can impact the features of dark matter as well as interfering with
-the spontaneous breaking of the electroweak symmetry. Furthermore, such
-Higgs-portal models of dark matter should be suitably harmonised with the
-various epochs of the universe and the phenomenological constraints imposed by
-collider experiments. At the same time, the prospect of a stochastic
-gravitational wave background offers a promising new window into the primordial
-universe, which can complement the insights gained from accelerators. In this
-study, we examined whether gravitational waves can be generated from a
-curvature-induced phase transition of a non-minimally coupled dark scalar field
-with a portal coupling to the Higgs field. The main requirement is that the
-phase transition is of first order, which can be achieved through the
-introduction of a cubic term on the scalar potential and the sign change of the
-curvature scalar. This mechanism was investigated in the context of a dynamical
-spacetime during the transition from inflation to kination, while also
-considering the possibility for inducing electroweak symmetry breaking in this
-manner for a sufficiently low reheating temperature when the Higgs-portal
-coupling is extremely weak. We considered a large range of inflationary scales
-and both cases of positive and negative values for the non-minimal coupling,
-while taking into account the bound imposed by Big Bang Nucleosythesis. The
-resulting gravitational wave amplitudes are boosted by kination and thus
-constrain the parameter space of the couplings significantly. Even though the
-spectra lie at high frequencies for the standard high inflationary scales,
-there are combinations of parameter space where they could be probed with
-future experiments.
 Link: http://arxiv.org/abs/2407.18845v1
 ----
 Title: Generalized Hamilton spaces: new developments and applications
 Authors: J. J. Relancio, L. Santamaría-Sanz
-Summary: In this work, we make new developments in generic cotangent bundle
-geometries, depending on all phase-space variables. In particular, we will
-focus on the so-called generalized Hamilton spaces, discussing how the main
-ingredients of this geometrical framework, such as the Hamiltonian and the
-nonlinear and affine connections, can be derived from a given metric. Several
-properties of this kind of spaces are demonstrated for autoparallel
-Hamiltonians. Moreover, we study the spacetime and momentum isometries of the
-metric. Finally, we discuss the possible applications of cotangent bundle
-geometries in quantum gravity, such as the construction of deformed
-relativistic kinematics and non-commutative spacetimes.
 Link: http://arxiv.org/abs/2407.18819v1
 ----
 Title: The vacuum weighted Einstein field equations
 Authors: M. Brozos-Vázquez, D. Mojón-Álvarez
-Summary: On a spacetime $(M,g)$ endowed with a density function $h$, we consider the
-vacuum weighted Einstein field equations: \[h\rho-\operatorname{Hes}_h+\Delta h
-g=0.\] First, it is shown that the equation characterizes critical metrics for
-an appropriate action. Then, after describing locally conformally flat
-solutions in arbitrary dimension, four-dimensional solutions with harmonic
-curvature are classified.
 Link: http://arxiv.org/abs/2407.18791v1
 ----
 Title: Comment on "Exact massless spinor quasibound states of Schwarzschild black hole"
 Authors: R. R. S. Oliveira
-Summary: In this comment, we point out a series of errors made by Senjaya in your
-paper (2024) \cite{Senjaya}. In particular, these errors involved the Dirac
-equation in the 3+1 dimensional Schwarzschild spacetime, tetrad field, curved
-gamma matrices, and the time-independent Dirac equation written in terms of the
-inner/scalar product between the gamma matrices and the orbital angular
-momentum (i.e., $\vec{\gamma}\cdot\vec{L}$). Besides, the strange/peculiar
-thing about all this is that even Senjaya \cite{Senjaya} citing Collas and
-Klein \cite{Collas}, where the (mathematical) formalism is correct, everything
-indicates that he ``ignored'' or ``forgot'' to use such formalism in your
-paper. Therefore, using Ref. \cite{Collas}, we show here the correct form of
-the errors made by Senjaya \cite{Senjaya}.
 Link: http://arxiv.org/abs/2407.18790v1
+----
+Title: Causality and stability in relativistic hydrodynamic theory -- a choice to be endured
+Authors: Sayantani Bhattacharyya, Sukanya Mitra, Shuvayu Roy
+Link: http://arxiv.org/abs/2407.18997v1
 ----
 Title: Hawking radiation with pure states
 Authors: K. Sravan Kumar, João Marto
-Summary: Hawking's seminal work on black hole radiation highlights a critical issue in
-our understanding of quantum field theory in curved spacetime (QFTCS),
-specifically the problem of unitarity loss (where pure states evolve into mixed
-states). In this paper, we examine a recent proposal for a direct-sum QFTCS,
-which maintains unitarity through a novel quantization method that employs
-superselection rules based on discrete spacetime transformations. This approach
-describes a quantum state as components that evolve within superselection
-sectors of the complete Hilbert space, adhering to the discrete symmetries of a
-Schwarzschild black hole. Consequently, it represents a maximally entangled
-pure state as a direct-sum of two components in the interior and exterior
-regions of the black hole, thereby preserving the unitarity of Hawking
-radiation by keeping it in the form of pure states.
 Link: http://arxiv.org/abs/2407.18652v1
 ----
 Title: Towards unveiling the large-scale nature of gravity with the wavelet scattering transform
 Authors: Georgios Valogiannis, Francisco Villaescusa-Navarro, Marco Baldi
-Summary: We present the first application of the Wavelet Scattering Transform (WST) in
-order to constrain the nature of gravity using the three-dimensional (3D)
-large-scale structure of the universe. Utilizing the Quijote-MG N-body
-simulations, we can reliably model the 3D matter overdensity field for the f(R)
-Hu-Sawicki modified gravity (MG) model down to $k_{\rm max}=0.5$ h/Mpc.
-Combining these simulations with the Quijote $\nu$CDM collection, we then
-conduct a Fisher forecast of the marginalized constraints obtained on gravity
-using the WST coefficients and the matter power spectrum at redshift z=0. Our
-results demonstrate that the WST substantially improves upon the 1$\sigma$
-error obtained on the parameter that captures deviations from standard General
-Relativity (GR), yielding a tenfold improvement compared to the corresponding
-matter power spectrum result. At the same time, the WST also enhances the
-precision on the $\Lambda$CDM parameters and the sum of neutrino masses, by
-factors of 1.2-3.4 compared to the matter power spectrum, respectively. Despite
-the overall reduction in the WST performance when we focus on larger scales, it
-still provides a relatively $4.5\times$ tighter 1$\sigma$ error for the MG
-parameter at $k_{\rm max}=0.2$ h/Mpc, highlighting its great sensitivity to the
-underlying gravity theory. This first proof-of-concept study reaffirms the
-constraining properties of the WST technique and paves the way for exciting
-future applications in order to perform precise large-scale tests of gravity
-with the new generation of cutting-edge cosmological data.
 Link: http://arxiv.org/abs/2407.18647v1
 ----
 Title: A semi-analytic treatment of quasinormal excitation factors in the eikonal regime
 Authors: Chun-Hung Chen, Hing-Tong Cho, Anna Chrysostomou, Alan S. Cornell
-Summary: In this paper, we present an enhanced semi-analytic method for calculating
-quasinormal excitation factors in the eikonal regime, specifically for
-Schwarzschild black holes. To achieve improved accuracy in our quasinormal mode
-computations, we extend the Dolan and Ottewill inverse multipolar expansion
-technique and incorporate higher-order corrections from the WKB method of Iyer
-and Will. Our approach is carried out to a higher order than previous methods,
-thereby reducing the relative error, particularly for lower multipolar numbers.
-We validate our results by comparing them with those obtained using the Mano,
-Suzuki, and Takasugi method, demonstrating excellent agreement. A key advantage
-of our method is its ability to extract quasinormal excitation factors, which
-are crucial for accurately modeling gravitational wave signals from binary
-black hole mergers. This advancement provides a useful tool for future
-gravitational wave studies, enabling better quantification of quasinormal mode
-excitations and more precise identification of individual modes during black
-hole ringdowns.
 Link: http://arxiv.org/abs/2407.18644v1
 ----
 Title: Can we learn from matter creation to solve the $H_{0}$ tension problem?
 Authors: Emilio Elizalde, Martiros Khurshudyan, Sergei D. Odintsov
-Summary: The $H_{0}$ tension problem is studied in the light of a matter creation
-mechanism (an effective approach to replacing dark energy), the way to define
-the matter creation rate being of pure phenomenological nature. Bayesian
-(probabilistic) Machine Learning is used to learn the constraints on the free
-parameters of the models, with the learning being based on the generated
-expansion rate, $H(z)$. Taking advantage of the method, the constraints for
-three redshift ranges are learned. Namely, for the two redshift ranges: $z\in
-[0,2]$~(cosmic chronometers) and $z\in [0,2.5]$~(cosmic chronometers + BAO),
-covering already available $H(z)$ data, to validate the learned results; and
-for a third redshift interval, $z\in[0,5]$, for forecasting purposes. It is
-learned that the $3\alpha H_{0}$ term in the creation rate provides options
-that have the potential to solve the $H_{0}$ tension problem.
 Link: http://arxiv.org/abs/2407.20285v1
 ----
 Title: On supertranslation invariant Lorentz charges
 Authors: Sumanta Chakraborty, Sk Jahanur Hoque, Amitabh Virmani
-Summary: In recent papers, Fuentealba, Henneaux, and Troessaert (FHT) gave definitions
-for supertranslation invariant Lorentz charges in the ADM Hamiltonian formalism
-and showed that their definitions match with the Chen, Wang, Yau (CWY)
-definitions of Lorentz charges at null infinity which are free from
-``supertranslation ambiguities''. In this brief note, motivated by the analysis
-of FHT, we write expressions for the supertranslation invariant Lorentz charges
-in Beig-Schmidt variables at spacelike and timelike infinity. We present
-calculations, building upon the work of Comp\`ere, Gralla, and Wei (CGW), to
-show that our expressions for supertranslation invariant Lorentz charges match
-the CWY definitions at null infinity.
 Link: http://arxiv.org/abs/2407.18536v1
 ----
 Title: Neutrino Lorentz invariance violation from the CPT-even SME coefficients through a tensor interaction with cosmological scalar fields
 Authors: Rubén Cordero, Luis A. Delgadillo, O. G. Miranda, C. A. Moura
-Summary: Numerous non-standard interactions between neutrinos and scalar fields have
-been suggested in the literature. In this work, we have outlined the case of
-tensorial neutrino non-standard interactions with scalar fields, which can be
-related to the effective CPT-even dimension-4 operators of the Standard Model
-Extension (SME). Moreover, in this paper, we have mostly analyzed the projected
-sensitivities to the CPT-even isotropic $c_{\alpha \beta}$ and $Z-$spatial
-$c_{\alpha \beta}^{ZZ}$ SME coefficients, in the context of a long-baseline
-experimental configuration. We study the particular case of DUNE and show its
-sensitivity to this type of new physics. The current IceCube experiment and
-upcoming neutrino experiments such as KM3NeT, IceCube-Gen2, and GRAND proposals
-may clarify these classes of neutrino non-standard interactions.
 Link: http://arxiv.org/abs/2407.18513v1
 ----
 Title: Shadow, ISCO, Quasinormal modes, Hawking spectrum, Weak Gravitational lensing, and parameter estimation of a Schwarzschild Black Hole Surrounded by a Dehnen Type Dark Matter Halo
 Authors: Sohan Kumar Jha
-Summary: We consider \s black hole (BH) embedded in a Dehnen-$(1,4,0)$ type dark
-matter halo (DDM) with two additional parameters - core radius $r_s$ and core
-density $\rho_s$ apart from mass $M$. We analyze the event horizon, photon
-orbits, and ISCO around DDM BHs and emphasize the impact of DDM parameters on
-them. Our study reveals the adverse effect of dark matter (DM) on the radii of
-photon orbits, the innermost stable circular orbit (ISCO), and the event
-horizon. We find the expressions for specific energy and angular momentum for
-massive particles in time-like geodesics around DDM BH and investigate their
-dependence on DDM parameters. We display BH shadows for various values of core
-density and radius that reveal smaller shadows cast by a \s BH surrounded by
-DDM (SDDM) than a \s BH in vacuum (SV). We then move on to study quasinormal
-modes (QNMs) with the help of the $6th$ order WKB method, the greybody factor
-using the semi-analytic bounds method, and the Hawking spectrum for scalar and
-electromagnetic perturbations. Core density and radius are found to have a
-significant impact on QNMs. Since QNMs for scalar and electromagnetic
-perturbations differ significantly, we can differentiate the two based on QNM
-observation. The greybody factor and the power emitted as Hawking radiation are
-adversely impacted by the presence of DM. We then study the weak gravitational
-lensing using the Gauss-Bonnet theorem and obtain a deflection angle with
-higher-order correction terms. Here, we see the deflection angle gets
-attenuated due to DM. Finally, we use bounds on the deviation from \s,
-$\delta$, reported by EHT for $M87^*$, Keck, and VLTI observatories for $Sgr
-A^*$ to gauge the viability of our model. Our model is found to be concordant
-with observations for finite parameter space. This leads to the possibility of
-our galactic center being surrounded by DDM.
 Link: http://arxiv.org/abs/2407.18509v1
 ----
 Title: Controlled closed timelike geodesics in a rotating Alcubierre spacetime
 Authors: Achintya Sajeendran, Timothy C. Ralph
-Summary: We present two modifications to the rotating Alcubierre metric [1], which was
-shown to permit closed timelike curves (CTCs). We find that if the rotation
-rate of the spacetime is made spatially dependent, in certain cases there exist
-simple approximate timelike geodesics that are also CTCs, provided that the
-velocity of the warp bubble varies slowly. The second modification is
-essentially the original Alcubierre metric [ 2 ] with a periodic boundary,
-resulting in a cylindrical spacetime which can also be related to the rotating
-Alcubierre metric. Furthermore, this spacetime contains simple exact timelike
-geodesics that are also CTCs. In both modifications, the CTC geodesics that we
-have found allow for a simple model of a particle interacting with a CTC for a
-finite proper time interval, entering and exiting in chronology-respecting
-space. Given the simplicity of both of these exotic spacetimes, despite their
-questionable physical realisability, we suggest that they may be useful in
-studies of quantum fields near CTCs.
 Link: http://arxiv.org/abs/2407.18993v1
 ----

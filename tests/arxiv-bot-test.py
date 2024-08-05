@@ -20,8 +20,8 @@ def date_range(start_date, end_date):
 category = sys.argv[1]
 
 # Define the start and end dates
-start_date = datetime.strptime('2024-07-24', '%Y-%m-%d')
-end_date = datetime.strptime('2024-07-25', '%Y-%m-%d')
+start_date = datetime.strptime(sys.argv[2], '%Y-%m-%d')
+end_date = datetime.strptime(sys.argv[3], '%Y-%m-%d')
 
 # Create the date range iterator
 date_iterator = date_range(start_date, end_date)

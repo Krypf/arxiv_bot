@@ -1,56 +1,16 @@
 Title: Ultra-light dark matter with non-canonical kinetics reopening the mass window
 Authors: Shiyun Lu, Amara Ilyas, Xiao-Han Ma, Bo Wang, Dongdong Zhang, Yi-Fu Cai
-Summary: Fuzzy dark matter (FDM) with mass around $10^{-22}$ eV is viewed as a
-promising paradigm in understanding the structure formation of the local
-universe at small scales. Recent observations, however, begin to challenge FDM
-in return. We focus on the arguments between the solution to CDM small-scale
-curiosities and recent observations on matter power spectrum, and find its
-implication on an earlier formation of small-scale structure. In this article,
-we propose a scheme of k-ULDM scalar field with a differently-evolving sound
-speed, thanks to the non-canonical kinetics. With the help of the
-Dirac-Born-Infeld (DBI) theory, we illustrate to change the behavior of the
-quantum pressure term countering collapse, therefore change the history of
-structure growth. We find that it can truly reopen the ULDM mass window closed
-by the Lyman-$\alpha$ problem. We will discuss such examples in this paper,
-while more possibilities remain to be explored.
 Link: http://arxiv.org/abs/2407.19521v1
 ----
 Title: Tidal forces in collapsing compact objects
 Authors: Ashok B. Joshi, Dipanjan Dey, Pankaj S. Joshi, Vivekkumar R. Tank
-Summary: In this work, we investigate tidal forces in the Lemaitre-Tolman-Bondi (LTB)
-metric, focusing on both hidden and locally visible singularities. We discuss
-the strength of these singularities in terms of deformationally strong
-singularities. Specifically, we analyze tidal forces in LTB spacetime,
-calculating radial and angular tidal forces and Jacobi fields for the radially
-co-moving shell. To provide a comparative study, we consider both homogeneous
-and inhomogeneous cases. The matter field distribution at one-time slice can
-differ significantly from another, highlighting the potential for
-time-dependent tidal deformation as a distinct observational signature. We
-focus on a specific feature: the time-varying maximum of stretching in the
-radial tidal force, which we term the "critical tidal boundary." In the
-inhomogeneous case, close to singularity time ($t<t_{s}$), the magnitudes of
-tidal forces vary substantially, with significant differences in compressive
-and stretching forces within a small physical radius $R(t,r)$. The resulting
-singularity in the LTB metrics at the end state of gravitational collapse
-appears to be an Ori-strong singularity, characterized by infinite tidal
-deformation.
 Link: http://arxiv.org/abs/2407.19508v1
 ----
 Title: Higgs Mechanism for the Ashtekar Self-Dual Connection
 Authors: Bruno Alexandre
-Summary: We introduce the Higgs mechanism for the self-dual spin connection (also
-known as the Ashtekar connection), using the Pleba\'{n}ski formulation of
-gravity. We develop our formalism within the framework of the chiral action and
-derive the equations of motion of the theory. One particular test model is
-explored: since anisotropy is an intrinsic property of the theory, a modified
-version of the spatially flat Bianchi I model with two different scale factors
-is considered. We apply our formalism and derive the Friedmann equations which
-regulate the scale factors and the Higgs field. We also present a Proca-like
-term for the connection, which when reduced to minisuperspace with a positive
-$\Lambda$ yields a De Sitter universe with the solution scaled by a constant
-that depends on the mass of the gauge fields. We finally investigate the effect
-of these mass terms on gravitational waves and find that the wave equation
-remains unchanged relatively to GR; however the Weyl tensor is scaled by a
-constant which depends on the mass of the connection components.
 Link: http://arxiv.org/abs/2407.19363v1
+----
+Title: A parametrized quasi-normal mode framework for modified Teukolsky equations
+Authors: Pablo A. Cano, Lodovico Capuano, Nicola Franchini, Simon Maenaut, Sebastian H. Völkel
+Link: http://arxiv.org/abs/2407.15947v2
 ----

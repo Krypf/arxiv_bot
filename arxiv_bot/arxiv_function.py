@@ -64,7 +64,7 @@ def fetch_arxiv(category, date, __max_results=100):
             text += f"Link: {link}\n"
             text += "----\n"
             save_text_append(text, file_path)
-            print(f"{file_name} has been saved.")
+    print(f"{file_name} has been saved.")
 #%%
 #%% https://chatgpt.com/share/7dfbd5e5-9c8d-4939-a815-efd595b5f229
 def read_categories_file(folder='') -> List[str]:

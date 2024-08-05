@@ -1,345 +1,104 @@
+Title: Test of the Equivalence Principle for Superconductors
+Authors: M. P. Ross, S. M. Fleischer, I. A. Paulson, P. Lamb, B. M. Iritani, E. G. Adelberger, C. A. Hagedorn, K. Venkateswara, C. Gettings, E. A. Shaw, S. K. Apple, J. H. Gundlach
+Link: http://arxiv.org/abs/2407.21232v1
+----
+Title: Entropy production due to spacetime fluctuations
+Authors: Thiago H Moreira, Lucas C. Céleri
+Link: http://arxiv.org/abs/2407.21186v1
+----
+Title: Dynamical generation of electroweak scale from the conformal sector: A strongly coupled Higgs via the Dyson--Schwinger approach
+Authors: Arpan Chatterjee, Marco Frasca, Anish Ghoshal, Stefan Groote
+Link: http://arxiv.org/abs/2407.21179v1
+----
+Title: Hawking Temperature and the Inverse-Radius Scale of the Horizon
+Authors: Michael R. R. Good, Yen Chin Ong
+Link: http://arxiv.org/abs/2407.21114v1
+----
+Title: gwforge: A user-friendly package to generate gravitational-wave mock data
+Authors: Koustav Chandra
+Link: http://arxiv.org/abs/2407.21109v1
+----
+Title: Quantum Effects in 3+1 Schwarzschild-de Sitter Spacetime: Properties of the Hadamard Function
+Authors: Ian M. Newsome, Silvia Pla, Paul R. Anderson
+Link: http://arxiv.org/abs/2407.21108v1
+----
+Title: Road to Singularity Theorems with Torsion
+Authors: Armin van de Venn, Ujjwal Agarwal, David Vasak
+Link: http://arxiv.org/abs/2407.21107v1
+----
+Title: Separating deterministic and stochastic gravitational wave signals in realistic pulsar timing array datasets
+Authors: Irene Ferranti, Golam Shaifullah, Aurelien Chalumeau, Alberto Sesana
+Link: http://arxiv.org/abs/2407.21105v1
+----
 Title: General Relativistic Magneto-Hydrodynamic Simulations with BAM: Implementation and Code Comparison
 Authors: Anna Neuweiler, Tim Dietrich, Bernd Brügmann, Edoardo Giangrandi, Kenta Kiuchi, Federico Schianchi, Philipp Mösta, Swapnil Shankar, Bruno Giacomazzo, Masaru Shibata
-Summary: Binary neutron star mergers are among the most energetic events in our
-Universe, with magnetic fields significantly impacting their dynamics,
-particularly after the merger. While numerical-relativity simulations that
-correctly describe the physics are essential to model their rich phenomenology,
-the inclusion of magnetic fields is crucial for realistic simulations. For this
-reason, we have extended the BAM code to enable general relativistic
-magneto-hydrodynamic (GRMHD) simulations employing a hyperbolic `divergence
-cleaning' scheme. We present a large set of standard GRMHD tests and compare
-the BAM code to other GRMHD codes, SPRITZ, GRaM-X, and SACRA$_{\rm KK22}$,
-which employ different schemes for the evolution of the magnetic fields.
-Overall, we find that the BAM code shows a good performance in simple
-special-relativistic tests. In addition, we find good agreement and consistent
-results when comparing GRMHD simulation results between BAM and SACRA$_{\rm
-KK22}$.
 Link: http://arxiv.org/abs/2407.20946v1
 ----
 Title: Universal structure of islands in evaporating black holes
 Authors: Yoshinori Matsuo
-Summary: The entanglement entropy of the Hawking radiation contains contributions from
-a region inside the black hole, which is called islands, implying that the
-Hawking radiation contains the information of islands. The boundary of the
-island is given by the quantum extremal surface, whose position is determined
-so that the entanglement entropy is extremized. In many cases of stationary
-black holes and a few cases of evaporating black holes, it was already
-confirmed that the quantum extremal surface is located outside the horizon for
-stationary black holes and is inside the horizon for evaporating black holes.
-In this paper, we calculate islands in general black holes and show that the
-island extends to the outside of the horizon for stationary black holes but is
-hidden inside the horizon for evaporating black holes independent of details of
-the black hole.
 Link: http://arxiv.org/abs/2407.20921v1
 ----
 Title: An Analysis of a 2x2 Keyfitz-Kranzer Type Balance System with Varying Generalized Chaplygin Gas
 Authors: Jack Frew, Nigel Keyser, Ethan Kim, Griffin Paddock, Camden Toumbleston, Sara Wilson, Charis Tsikkou
-Summary: We consider a system of two balance laws of Keyfitz-Kranzer type with varying
-generalized Chaplygin gas, which exhibits negative pressure and is a product of
-a function of time and the inverse of a power of the density. The Chaplygin gas
-is a fluid designed to accommodate measurements for the early universe and
-late-time universal expansion while obeying the pressure-density-time relation.
-We produce an explanation and description of the non-self-similar Riemann
-solutions, including the non-classical singular solutions. We also find that
-due to a direct dependence on time, a change in the regions allowing for
-combinations of classical and non-classical singular solutions occurs,
-therefore a Riemann solution can have different solutions over several time
-intervals. Our findings are confirmed numerically using the local
-Lax-Friederichs scheme.
 Link: http://arxiv.org/abs/2407.20869v1
 ----
 Title: Exceptional point and hysteresis in perturbations of Kerr black holes
 Authors: João Paulo Cavalcante, Maurício Richartz, Bruno Carneiro da Cunha
-Summary: We employ the isomonodromic method to study linear scalar massive
-perturbations of Kerr black holes for generic scalar masses $M\mu$ and generic
-black hole spins $a/M$. A degeneracy between the longest-living quasinormal
-mode and the first overtone is found for $(M\mu)_c \simeq 0.3704981$ and
-$(a/M)_c\simeq 0.9994660$. We show that the longest-living mode and the first
-overtone change continuously into each other as we vary the parameters around
-the point of degeneracy, providing evidence for the existence of a geometric
-phase around an exceptional point. We interpret our findings through a
-thermodynamic analogy.
 Link: http://arxiv.org/abs/2407.20850v1
 ----
 Title: Quadrupole formulae with cosmological constant: comparison
 Authors: Denis Dobkowski-Ryłko, Jerzy Lewandowski
-Summary: We consider three different approaches (by Ashtekar, Bonga and Kesavan; Hoque
-and Virmani; and Dobkowski-Ry\l{}ko and Lewandowski) to investigate
-gravitational radiation produced by time changing matter source in de Sitter
-spacetime. All of them lead to generalizations of the quadrupole formula,
-however, due to different gauge conditions and choices of the hypersurfaces,
-across which the energy flux is computed, it is nontrivial to see that they all
-coincide, as one would expect from the symplectic theory. Each of the
-expressions for the radiated energy in the form of gravitational waves is
-expressed in terms of the mass and pressure quadrupole moments and written
-explicitly up to the linear order in $\sqrt{\Lambda}$, or equvalently in Hubble
-parameter $H$. It is shown that up to the first order all three of the
-generalizations of the quadrupole formula agree.
 Link: http://arxiv.org/abs/2407.20800v1
 ----
 Title: Phase Transition Dynamics of Black Holes Influenced by Kaniadakis and Barrow Statistics
 Authors: Jafar Sadeghi, Mohammad Ali S. Afshar, Mohammad Reza Alipour, Saeed Noori Gashti
-Summary: In this study, we investigate the dynamics and frame-by-frame phase
-transition of the first order in black hole thermodynamics. For our analysis,
-we will utilize the Kramers escape rate. Our focus is on charged anti-de Sitter
-(AdS) black holes influenced by Kaniadakis and Barrow statistics. The selection
-of these black holes aims to examine the effects of entropy variation on the
-dynamics of phase transition and to demonstrate that the Kramers escape rate,
-as an efficient tool, can effectively represent the dynamic transition from a
-small to a large black hole within the domain of first-order phase transitions.
-It is noteworthy that while the transition from small to large black holes
-should ostensibly dominate the entire process, our results indicate that the
-escape rate undergoes changes as it passes through the midpoint of the phase
-transition, leading to a reverse escape phenomenon. The findings suggest that
-the dynamic phase transition in charged AdS black holes affected by entropy
-change bears a significant resemblance to the outcomes of models influenced by
-Bekenstein-Hawking entropy\cite{23}. This similarity in results could serve as
-an additional motivation to further explore the potential capabilities of
-Kaniadakis and Barrow statistics in related cosmological fields. These
-capabilities could enhance our understanding of other cosmological properties
 Link: http://arxiv.org/abs/2407.20779v1
 ----
 Title: Quasinormal modes of rapidly rotating Einstein-Gauss-Bonnet-dilaton black holes
 Authors: Jose Luis Blázquez-Salcedo, Fech Scen Khoo, Burkhard Kleihaus, Jutta Kunz
-Summary: Quasinormal modes of rapidly rotating black holes are crucial in
-understanding the ringdown phase after a merger. While for Kerr black holes
-these modes have been known for a long time, their calculation has remained a
-challenge in alternative theories of gravity. We obtain the spectrum of
-quasinormal modes of rapidly rotating black holes in
-Einstein-Gauss-Bonnet-dilaton theory without resorting to perturbation theory
-in the coupling constant. Our approach is based on a spectral decomposition of
-the linear perturbations of the metric and the scalar field. The quasinormal
-modes approach smoothly the slow rotation and weak coupling limits known from
-perturbative studies.
 Link: http://arxiv.org/abs/2407.20760v1
 ----
 Title: Hamiltonian formulation for scalar model of spontaneous spacetime symmetry violation in gravity
 Authors: João Victor V. Santos, Marco Schreck
-Summary: The focus of this article is on a modification of General Relativity (GR)
-governed by a dynamical scalar field. The latter is able to acquire a nonzero
-spacetime-dependent vacuum expectation value, which gives rise to a spontaneous
-violation of spacetime symmetries. Based on the (3+1) decomposition, we
-demonstrate how to develop the Hamiltonian formulation for this model. Having
-done so, our primary interest is to understand how spontaneous spacetime
-symmetry violation manifests itself in such a setting. In particular, we find
-that the constraint structure of GR is preserved, although the constraints are
-clearly modified by the scalar background field. These results emphasize the
-beauty of spontaneous spacetime symmetry violation in gravity from the
-viewpoint of the Hamiltonian formulation. They may pose the base for further
-studies of more sophisticated models of vector and higher-rank tensor fields.
-Moreover, the description developed can bear fruits when applied within
-phenomenological quests for spacetime symmetry violation in gravity, in
-particular, at cosmological scales.
 Link: http://arxiv.org/abs/2407.20688v1
 ----
 Title: Quantum and thermal pressures from light scalar fields
 Authors: Hauke Fischer, Christian Käding, Mario Pitschmann
-Summary: Light scalar fields play a variety of roles in modern physics, especially in
-cosmology and modified theories of gravity. For this reason, there is a zoo of
-experiments actively trying to find evidence for many scalar field models that
-have been proposed in theoretical considerations. Among those are setups in
-which the pressures expected to be induced by light scalar fields between two
-parallel plates are studied, for example, Casimir force experiments. While it
-is known that classical and quantum pressures caused by light scalar fields
-could have significant impacts on such experiments, in this article, we show
-that this can also be the case for thermal pressure. More specifically, we
-derive expressions for the quantum and thermal pressures induced by exchanges
-of light scalar field fluctuations between two thin parallel plates. As
-particular examples, we then look at screened scalar fields. For chameleon,
-symmetron and environment-dependent dilaton models, we find large regions in
-their parameter spaces that allow for thermal pressures to equal or exceed the
-quantum pressures. By comparing with earlier constraints from quantum pressure
-calculations, we conclude that thermal pressures induced by chameleons are
-actually of experimental significance.
 Link: http://arxiv.org/abs/2407.20658v1
 ----
 Title: Attractive gravity probe surface in Einstein-Maxwell system
 Authors: Kangjae Lee, Keisuke Izumi, Tetsuya Shiromizu, Hirotaka Yoshino, Yoshimune Tomikawa
-Summary: We derive areal inequalities for five types of attractive gravity probe
-surfaces, which were proposed by us in order to characterize the strength of
-gravity in different ways including weak gravity region, taking into account of
-contributions of electric and magnetic charges, angular momentum, gravitational
-waves, and matters. These inequalities are generalizations of the Riemannian
-Penrose inequality for minimal surfaces, and lead to the concept of extremality
-for a given surface whose condition is given in terms of the gravitational mass
-and the electromagnetic charges. This means that the extremality is a
-characteristic property not only of black hole horizons or minimal surfaces but
-also of surfaces in weak gravity region. We also derive areal inequalities and
-extremality conditions for surfaces in asymptotically locally anti-de Sitter
-spacetimes.
 Link: http://arxiv.org/abs/2407.20636v1
 ----
 Title: Four $\mathbb{S}\mathbb{T}\mathbb{U}$ Black Holes Shadows
 Authors: Yassine Sekhmani, Dhruba Jyoti Gogoi, Ratbay Myrzakulov, Giuseppe Gaetano Luciano, Javlon Rayimbaev
-Summary: In this work, we examine the optical behaviors and thermodynamic phase
-structures using shadow analysis for four $\mathbb{S}\mathbb{T}\mathbb{U}$
-black holes. The study is conducted for four cases of charge configurations on
-the parameter space $\mathcal{M}\left(q_1,q_2,q_3,q_4\right)$. As a matter of
-fact, both the electric charge as a parameter and the parameter space
-$\mathcal{M}\left(q_1,q_2,q_3,q_4\right)$ affect the geometry of the black hole
-shadow, particularly the size of the shadow. We also introduce a constraint on
-the charge of the black hole from the observational results of the M87$^\star$
-{\color{black}and Sgr A$^\star$} shadow. Furthermore, we show that the electric
-charge and the parameter space $\mathcal{M}\left(q_1,q_2,q_3,q_4\right)$ have a
-non-trivial impact on the variation of the energy emission rate. Interestingly
-enough, we find novel scenarios in which the evaporation is slower, which
-causes the lifetime of the black holes to be considerably elongated. On the
-other side, the phase structure of four $\mathbb{S}\mathbb{T}\mathbb{U}$ black
-holes is explored for two cases of electric charge configuration. The findings
-show a perfect correlation between the shadow and event horizon radii. This
-correlation is, in fact, helpful in discovering the phase transition in terms
-of the shadow radius. In addition, the microstructure is being analyzed in
-terms of shadow analysis, providing similar behavior to the ordinary situation
-of the Ruppeiner formalism.
 Link: http://arxiv.org/abs/2407.20621v1
 ----
 Title: Comprehensive Study of Bouncing Cosmological Models in $f(Q,T)$ Theory
 Authors: M. Zeeshan Gul, M. Sharif, Shamraiza Shabbir
-Summary: The main objective of this article is to investigate the viability of
-bouncing cosmological scenarios using different forms of scale factors with
-perfect matter configuration in the framework of extended symmetric
-teleparallel theory. This modified proposal is defined by the function
-$f(Q,T)$, where $Q$ characterizes non-metricity and $T$ denotes the trace of
-energy-momentum tensor. We investigate the modified field equations of this
-theory using different parametric values of the Hubble parameter and
-non-metricity to derive viable solutions. These solutions are relevant in
-various cosmological bounce models such as symmetric-bounce, super-bounce,
-oscillatory-bounce, matter-bounce and exponential-bounce models. Furthermore,
-we examine the behavior of energy density and pressure to analyze the
-characteristics of dark energy. A comprehensive analysis is also conducted to
-explore the behavior of the equation of state parameter and deceleration
-parameter to examine the evolutionary eras of the cosmos. Our findings show
-that the $f(Q,T)$ gravity describes the cosmic expansion in the vicinity of the
-bouncing point during the early and late times of cosmic evolution.
 Link: http://arxiv.org/abs/2407.20605v1
 ----
 Title: Ray Tracing Through Absorbing Dielectric Media in the Schwarzschild Spacetime
 Authors: Adam Rogers
-Summary: General Relativity describes the trajectories of light-rays through curved
-spacetime near a massive object. In addition to gravitational lensing, we
-include an absorbing dielectric medium given by a complex refractive index
-known as the Drude model. When absorption is included the eikonal becomes
-complex, with the imaginary part related to the absorption along a ray between
-emission and observation points. We extend results from the literature to
-include dispersion in the index of refraction. The complex Hamiltonian splits
-into a real part that describes the equations of motion and a constraint
-equation that governs the momentum loss in the system. We work in coordinates
-which are fully real, with a real metric in physical spacetime. We assume the
-dust and plasma distributions of the Drude matter to coincide and vary as a
-power-law $1/r^h$. We find that transmission requires $h>1$, otherwise
-exponential absorption occurs along ray paths. We use ray-tracing through
-strongly absorbing matter near the surface of the compact star, as well as
-specializing to a point-lens in the weak-field limit with weakly absorbing
-matter to generate potentially observable light curves for distant observers.
-In the appropriate limits, our theory reproduces results from the literature.
 Link: http://arxiv.org/abs/2407.20567v1
 ----
 Title: The Kramers escape rate of phase transitions for the 6-dimensional Gauss-Bonnet AdS black hole with triple phases
 Authors: Chen Ma, Pan-Pan Zhang, Bin Wu, Zhen-Ming Xu
-Summary: In this study, we obtain specific picture of the phase transitions for the
-6-dimensional Gauss-Bonnet Anti-de Sitter (AdS) black hole with triple phases,
-using the generalized free energy we constructed and Kramers escape rate in
-stochastic motion. There are six possible phase transition processes between
-the three different stable states (small, medium, and large black hole states).
-During these phase transitions, there are two key temperatures. One is the
-temperature at which the medium black hole state emerges, and the other is the
-temperature at which the small black hole state annihilates. Meanwhile, two
-dynamic equilibrium processes are formed. One is a dynamic equilibrium of the
-transition from the medium black hole state to the large black hole state and
-the transition from the small black hole state to the medium black hole state.
-The other is a dynamic equilibrium of the transition from the small black hole
-state to the medium black hole state and the transition from the medium black
-hole state to the small black hole state.
 Link: http://arxiv.org/abs/2407.20512v1
 ----
 Title: The NANOGrav 15 yr data set: Posterior predictive checks for gravitational-wave detection with pulsar timing arrays
 Authors: Gabriella Agazie, Akash Anumarlapudi, Anne M. Archibald, Zaven Arzoumanian, Jeremy George Baier, Paul T. Baker, Bence Bécsy, Laura Blecha, Adam Brazier, Paul R. Brook, Sarah Burke-Spolaor, J. Andrew Casey-Clyde, Maria Charisi, Shami Chatterjee, Katerina Chatziioannou, Tyler Cohen, James M. Cordes, Neil J. Cornish, Fronefield Crawford, H. Thankful Cromartie, Kathryn Crowter, Megan E. DeCesar, Paul B. Demorest, Heling Deng, Lankeswar Dey, Timothy Dolch, Elizabeth C. Ferrara, William Fiore, Emmanuel Fonseca, Gabriel E. Freedman, Emiko C. Gardiner, Nate Garver-Daniels, Peter A. Gentile, Kyle A. Gersbach, Joseph Glaser, Deborah C. Good, Kayhan Gültekin, Jeffrey S. Hazboun, Ross J. Jennings, Aaron D. Johnson, Megan L. Jones, Andrew R. Kaiser, David L. Kaplan, Luke Zoltan Kelley, Matthew Kerr, Joey S. Key, Nima Laal, Michael T. Lam, William G. Lamb, Bjorn Larsen, T. Joseph W. Lazio, Natalia Lewandowska, Tingting Liu, Duncan R. Lorimer, Jing Luo, Ryan S. Lynch, Chung-Pei Ma, Dustin R. Madison, Alexander McEwen, James W. McKee, Maura A. McLaughlin, Natasha McMann, Bradley W. Meyers, Patrick M. Meyers, Chiara M. F. Mingarelli, Andrea Mitridate, Cherry Ng, David J. Nice, Stella Koch Ocker, Ken D. Olum, Timothy T. Pennucci, Benetge B. P. Perera, Nihan S. Pol, Henri A. Radovan, Scott M. Ransom, Paul S. Ray, Joseph D. Romano, Jessie C. Runnoe, Alexander Saffer, Shashwat C. Sardesai, Ann Schmiedekamp, Carl Schmiedekamp, Kai Schmitz, Brent J. Shapiro-Albert, Xavier Siemens, Joseph Simon, Magdalena S. Siwek, Sophia V. Sosa Fiscella, Ingrid H. Stairs, Daniel R. Stinebring, Kevin Stovall, Abhimanyu Susobhanan, Joseph K. Swiggum, Stephen R. Taylor, Jacob E. Turner, Caner Unal, Michele Vallisneri, Sarah J. Vigeland, Haley M. Wahl, Caitlin A. Witt, David Wright, Olivia Young
-Summary: Pulsar-timing-array experiments have reported evidence for a stochastic
-background of nanohertz gravitational waves consistent with the signal expected
-from a population of supermassive--black-hole binaries. Those analyses assume
-power-law spectra for intrinsic pulsar noise and for the background, as well as
-a Hellings--Downs cross-correlation pattern among the
-gravitational-wave--induced residuals across pulsars. These assumptions are
-idealizations that may not be realized in actuality. We test them in the
-NANOGrav 15 yr data set using Bayesian posterior predictive checks: after
-fitting our fiducial model to real data, we generate a population of simulated
-data-set replications, and use them to assess whether the optimal-statistic
-significance, inter-pulsar correlations, and spectral coefficients assume
-extreme values for the real data when compared to the replications. We confirm
-that the NANOGrav 15 yr data set is consistent with power-law and
-Hellings--Downs assumptions. We also evaluate the evidence for the stochastic
-background using posterior-predictive versions of the frequentist optimal
-statistic and of Bayesian model comparison, and find comparable significance
-(3.2\ $\sigma$ and 3\ $\sigma$ respectively) to what was previously reported
-for the standard statistics. We conclude with novel visualizations of the
-reconstructed gravitational waveforms that enter the residuals for each pulsar.
-Our analysis strengthens confidence in the identification and characterization
-of the gravitational-wave background as reported by NANOGrav.
 Link: http://arxiv.org/abs/2407.20510v1
 ----
 Title: Linear-Quadratic GUP and Thermodynamic Dimensional Reduction
 Authors: H. Ramezani, K. Nozari
-Summary: In this paper we investigate the statistical mechanics within the
-Linear-Quadratic GUP (LQGUP, i.e, GUP with linear and quadratic terms in
-momentum) models in the semiclassical regime. Then, some thermodynamic
-properties of a system of 3-dimensional harmonic oscillators are investigated
-by calculating the deformed partition functions. According to the equipartition
-theorem, we show that the number of accessible microstates decreases sharply in
-the very high temperatures regime. When the thermal de Broglie wavelength is of
-the order of the Planck length, three degrees of freedom are frozen in this
-setup. In other words, it is observed that there is an effective reduction of
-the degrees of freedom from 6 to 3 for a system of 3D harmonic oscillators in
-this framework. The calculations are carried out using both approximate
-analytical and exact numerical methods. The results of the analytical method
-are also presented in the form of thermal wavelengths for better understanding.
-Finally, the case of a 2-dimensional harmonic is treated as another example to
-comprehend the results, leading to a reduction of the degrees of freedom from 4
-to 2.
 Link: http://arxiv.org/abs/2407.20497v1
 ----
 Title: Mixmaster Universe in a 2D non-commutative GUP framework
 Authors: Sebastiano Segreto, Giovanni Montani
-Summary: In this work, we examine the dynamical aspects of the cosmological Mixmaster
-model within the framework of non-commutative generalized uncertainty principle
-(GUP) theories. The theory is formulated classically by introducing a
-well-defined symplectic form that differs from the ordinary one, thereby
-inducing a general deformation of the Poisson brackets describing a precise
-class of GUP theories. In this general setting, we first investigate the
-behavior of the Bianchi I and Bianchi II models using Misner variables. Then,
-we study the Bianchi IX model in the Mixmaster approximation, which is
-well-known for accurately reproducing the dynamics of the point-particle
-Universe approaching the cosmological singularity. We derive the corresponding
-Belinsky-Khalatnikov-Lifshitz (BKL) map and then, by selecting a specific GUP
-model associated with string theory, we explicitly investigate its resulting
-features shaped by the non-commutative GUP scheme. Our findings reveal that the
-chaotic and ergodic behavior typically observed in the standard BKL map, which
-characterizes the point-Universe's approach to the singularity, is replaced by
-quasi-periodic orbits in the parameter space of the theory. This corresponds to
-an oscillatory behavior of the Universe's scale factors, dependent on the
-initial conditions.
 Link: http://arxiv.org/abs/2407.20476v1
 ----
 Title: Automated determination of the end time of junk radiation in binary black hole simulations
 Authors: Isabella G. Pretto, Mark A. Scheel, Saul A. Teukolsky
-Summary: When numerically solving Einstein's equations for the evolution of binary
-black holes, physical imperfections in the initial data manifest as a
-transient, high-frequency pulse of ''junk radiation.'' This unphysical signal
-must be removed before the waveform can be used. Improvements in the efficiency
-of numerical simulations now allow waveform catalogs containing thousands of
-waveforms to be produced. Thus, an automated procedure for identifying junk
-radiation is required. To this end, we present a new algorithm based on the
-empirical mode decomposition (EMD) from the Hilbert-Huang transform. This
-approach allows us to isolate and measure the high-frequency oscillations
-present in the measured irreducible masses of the black holes. The decay of
-these oscillations allows us to estimate the time from which the junk radiation
-can be ignored. To make this procedure more precise, we propose three distinct
-threshold criteria that specify how small the contribution of junk radiation
-has to be before it can be considered negligible. We apply this algorithm to
-3403 BBH simulations from the SXS catalog to find appropriate values for the
-thresholds in the three criteria. We find that this approach yields reliable
-decay time estimates, i.e., when to consider the simulation physical, for over
-98.6% of the simulations studied. This demonstrates the efficacy of the EMD as
-a suitable tool to automatically isolate and characterize junk radiation in the
-simulation of binary black hole systems.
 Link: http://arxiv.org/abs/2407.20470v1
 ----

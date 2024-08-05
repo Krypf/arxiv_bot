@@ -1,362 +1,92 @@
 Title: Spontaneous symmetry breaking as a result of extra dimensions compactification
 Authors: Dmitry Chirkov, Alex Giacomini, Alexey Toporensky, Petr Tretyakov
-Summary: We consider dynamics of a scalar field in compactification scenario of
-Einstein-Gauss-Bonnet cosmology. It is shown that if the field is non-minimally
-coupled to curvature, its asymptotic value under certain conditions may be
-shifted from the minimum of its potential. This means that due to influence of
-extra dimensions a scalar field with $\lambda \phi^4$ potential can stabilise
-away from $\phi=0$ stable point which means an effective symmetry breaking
-occurs in such a system.
 Link: http://arxiv.org/abs/2407.20409v1
+----
+Title: Non-singular naked solutions in quantum spacetime
+Authors: I. P. R. Baranov, H. A. Borges, F. C. Sobrinho, S. Carneiro
+Link: http://arxiv.org/abs/2407.21076v1
 ----
 Title: Exceeding the conformal limit inside rotating neutron stars: Implications to modified theories of gravity
 Authors: Raissa F. P. Mendes, Caroline F. Sodré, Felipe T. Falciano
-Summary: At the supranuclear densities achieved inside a neutron star, matter may
-exhibit extreme properties. In particular, it may be the case that a suitable
-average of the speed of sound squared exceeds the so-called conformal limit,
-i.e., $\langle c_s^2 \rangle > 1/3$, a condition that is equivalent to the
-positiveness of the trace of the energy-momentum tensor at the stellar center.
-This property, that holds for highly compact neutron stars obeying many (but
-not any) realistic equations of state, would turn these objects into
-interesting laboratories for tests of several scalar extensions of general
-relativity. In this paper, we investigate how rapid rotation influences the
-superconformality of the averaged speed of sound squared and modified gravity
-effects that depend thereupon, paying particular attention to scalar-tensor
-theories prone to the spontaneous scalarization effect.
 Link: http://arxiv.org/abs/2407.20345v1
 ----
 Title: Horndeski speed tests with scalar-photon couplings
 Authors: Eugeny Babichev, Christos Charmousis, Benjamin Muntz, Antonio Padilla, Ippocratis D. Saltas
-Summary: We revisit multi-messenger constraints from neutron star mergers on the speed
-of propagation of gravitational and electromagnetic waves in Horndeski and
-beyond Horndeski theories. By considering non-trivial couplings between the
-dark energy field and the electromagnetic sector, the electromagnetic wave can
-propagate through the cosmological background at non-unit speed, altering the
-phenomenological constraints on its gravitational counterpart. In particular,
-we show that recent models derived from a Kaluza-Klein compactification of
-higher dimensional Horndeski models fall into a broader class of theories
-disformally related to those whose gravitational waves propagate with unit
-speed. This disformal equivalence can, however, be broken by the gravitational
-couplings to other sectors with interesting phenomenological consequences. We
-also consider higher order couplings between the scalar and the photon with
-second order field equations, and show that they are not compatible with
-constraints coming from multi-messenger speed tests and the decay of the
-gravitational wave.
 Link: http://arxiv.org/abs/2407.20339v1
 ----
 Title: Delayed jet launching in binary neutron star mergers with realistic initial magnetic fields
 Authors: Ricard Aguilera-Miret, Carlos Palenzuela, Federico Carrasco, Stephan Rosswog, Daniele Viganò
-Summary: We analyze a long-lived hyper-massive neutron star merger remnant
-(post-merger lifetime $>250$ ms) that has been obtained via large eddy
-simulations with a gradient subgrid-scale model. We find a clear helicoidal
-magnetic field structure that is governed by the toroidal component of the
-magnetic field. Although no jet emerges during the simulation time, we observe
-at late times a significant increase of the poloidal component of the magnetic
-field at all scales. We also compare with the results of several binary neutron
-star simulations with moderate resolution of $120$~m, that are evolved up to
-$50$~ms after the merger, which differ in terms of the initial topology and
-strength of the magnetic field. We find that the best choice is an isotropic
-small-scale magnetic field distribution that mimics the turbulent state that
-generically develops during the merger. This initial configuration reaches a
-closer agreement with our high-resolution simulation results than the purely
-dipolar large-scale fields that are commonly employed in these type of
-simulations. This provides a recipe to perform such simulations avoiding the
-computationally expensive grids required to faithfully capture the
-amplification of the magnetic field by Kelvin-Helmholtz instabilities.
 Link: http://arxiv.org/abs/2407.20335v1
 ----
 Title: Entropy and Spectrum of Near-Extremal Black Holes: semiclassical brane solutions to non-perturbative problems
 Authors: Sergio Hernández-Cuenca
-Summary: The black hole entropy has been observed to generically turn negative at
-exponentially low temperatures $T\sim e^{-S_0}$ in the extremal
-Bekenstein-Hawking entropy $S_0$, a seeming pathology often attributed to
-missing non-perturbative effects. In fact, we show that this negativity must
-happen for any effective theory of quantum gravity with an ensemble
-description. To do so, we identify the usual gravitational entropy as an
-annealed entropy $S_a$, and prove that this quantity gives $S_0$ at extremality
-if and only if the ground-state energy is protected by supersymmetry, and
-diverges negatively otherwise. The actual thermodynamically-behaved quantity is
-the average or quenched entropy $S_q$, whose calculation is poorly understood
-in gravity: it involves replica wormholes in a regime where the topological
-expansion breaks down. Using matrix integrals we find new instanton saddles
-that dominate gravitational correlators at $T\sim e^{-S_0}$ and are dual to
-semiclassical wormholes involving dynamical branes. These brane solutions give
-the leading contribution to any black hole very near extremality, and a duality
-with matrix ensembles would not make sense without them. In the non-BPS case,
-they are required to make $S_q$ non-negative and also enhance the negativity of
-$S_a$, both effects consistent with matrix integrals evaluated exactly. Our
-instanton results are tested against the on-shell action of D3-branes dual to
-multiply wrapped Wilson loops in $\mathcal{N}=4$ super-YM, and a precise match
-is found. Our analysis of low-energy random matrix spectra also explains the
-origin of spectral gaps in supersymmetric theories, not only when there are BPS
-states at zero energy, but also for purely non-BPS supermultiplets. In the
-former, our prediction for the gap in terms of the degeneracy of BPS states
-agrees with the R-charge scaling in gapped multiplets of $\mathcal{N}=2$
-super-JT gravity.
 Link: http://arxiv.org/abs/2407.20321v1
 ----
 Title: $I$-Love-$Q$, and $δM$ too: The role of the mass in universal relations of compact stars
 Authors: Eneko Aranguren, José A. Font, Nicolas Sanchis-Gual, Raül Vera
-Summary: In the study of rotating neutron stars the $I$-Love-$Q$ relations refer to
-the existence of various approximate, equation of state-independent relations
-involving the moment of inertia, the Love number and the quadrupole moment.
-These relations are relevant for observational astrophysics, since they allow
-(in theory) the inference of any two quantities within the $I$-Love-$Q$ triad
-out of the third one alone. However, the quantities involved in the relations
-are, in fact, normalized by a parameter $M_0$ that arises in the usual
-perturbative analytical approach as the mass of the background configuration.
-Since $M_0$ is not the mass of the rotating star $M_S$, it is not an
-observational quantity, which may affect the application of the relations to
-actual observations. This situation is usually ignored in most studies by
-taking $M_0$ to be the mass of the star, an approximation that can, in some
-cases, be inconsistent. In this paper we extract the value of $M_0$ using an
-$\textit{extended}$ version of the universal relations that involve a fourth
-parameter, $\delta M$, proportional to the difference $M_S-M_0$. We analyze to
-which degree this extended set of relations yields a more precise inference of
-compact star properties and equation of state parameters.
 Link: http://arxiv.org/abs/2407.20151v1
 ----
 Title: Deciphering the Instability of the Black Hole Ringdown Quasinormal Spectrum
 Authors: A. Ianniccari, A. J. Iovino, A. Kehagias, P. Pani, G. Perna, D. Perrone, A. Riotto
-Summary: The spectrum of the quasinormal modes of the gravitational waves emitted
-during the ringdown phase following the merger of two black holes is of primary
-importance in gravitational astronomy. However, the spectrum is extremely
-sensitive to small disturbances of the system, thus potentially jeopardizing
-the predictions of the gravitational wave observables. We offer an analytical
-and intuitive explanation of such an instability and its properties based on
-the transfer matrix approach of quantum mechanics. We also give a simple
-interpretation of the fact that the prompt ringdown response in the time domain
-and the black hole greybody factor receive parametrically small corrections,
-thus being robust observables.
 Link: http://arxiv.org/abs/2407.20144v1
 ----
 Title: Spectral instability of black holes: relating the frequency domain to the time domain
 Authors: Yiqiu Yang, Zhan-Feng Mai, Run-Qiu Yang, Lijing Shao, Emanuele Berti
-Summary: Recent work has shown that the quasinormal mode spectrum of black holes is
-unstable under small perturbations (of order $\epsilon$) of the radial
-potential, while the early time-domain ringdown waveform is only marginally
-affected. In this paper we provide further insight into the apparent tension
-between the frequency-domain and the time-domain descriptions by analyzing the
-scattering properties of the problem. In the frequency domain, we study
-analytically the solutions corresponding to the perturbed potential. We show
-that there are two qualitatively different classes of instabilities, and that
-both Schwarzschild and Kerr black holes are affected by what we call a "Type
-II" instability, i.e., an exponential migration of the mode frequencies away
-from their unperturbed value as the perturbing "bump" moves away from the peak
-of the unperturbed potential. In the time domain, we elucidate the effect of
-the spectral instability in terms of the causal structure of the Green's
-function. By using an equivalent scattering problem we confirm analytically
-(and show numerically) that the deviation from the unperturbed waveform in the
-early ringdown stage is proportional to $\epsilon$ when
-$\epsilon\lesssim10^{-2}$.
 Link: http://arxiv.org/abs/2407.20131v1
 ----
 Title: The interaction between gravitational waves and a viscous fluid shell on a Schwarzschild background
 Authors: Nigel T. Bishop
-Summary: Previous work has shown that the interaction between gravitational waves
-(GWs) and a shell of viscous matter leads to damping of the GWs and heating of
-the matter, and that these effects may be astrophysically significant. This
-result was derived using the theory of linear perturbations about a Minkowki
-background, and in this work the model is extended to be more physically
-realistic by allowing the background geometry to be Schwarzschild. It is found
-that the difference between using a Schwarzschild or Minkowski background is
-minimal when either $r\gg M$ or $\lambda< M$, where $r$ is the radius of the
-shell, $\lambda$ is the GW wavelength and $M$ is the mass of the system in
-geometric units (so that $1M_\odot=1.48$km). However, when $r\sim 6M$ and
-$\lambda\sim 25M$, then the damping and heating effects are about 9 times
-larger on a Schwarzschild background than on Minkowski, and such situations
-occur astrophysically.
 Link: http://arxiv.org/abs/2407.20032v1
 ----
 Title: Stability and topological nature of charged Gauss-Bonnet AdS black holes in five dimensions
 Authors: Imtak Jeon, Bum-Hoon Lee, Wonwoo Lee, Madhu Mishra
-Summary: We examine the thermodynamic characteristics and phase structures of a black
-hole, where the black hole horizon could be a hypersurface with positive, zero,
-or negative constant curvature, within the framework of Einstein-Maxwell
-theory, incorporating a negative cosmological constant and a Gauss-Bonnet
-correction. Our research follows the topological approach to black hole
-thermodynamics where we treat anti-de Sitter (AdS) black holes as topological
-defects in thermodynamic space. We study the nature of the black hole's
-critical points and local stability by computing the winding
-numbers/topological charge associated with the zero point of the vector field,
-derived from the temperature of extremal points and generalized off-shell Gibbs
-free energy, respectively. Black holes are classified into different
-topological classes based on their topological number. In this study, we found
-unlike the charged AdS black hole, the charged GB AdS black hole exhibits a
-critical point. Our findings reveal the occurrence of a liquid/gas-like
-first-order phase transition between small-large black hole phases of the
-spherical charged GB AdS black hole. We conclude that the charged GB AdS and
-charged AdS black holes belong to different topological classes in the grand
-canonical ensemble. Furthermore, connecting with the previous studies, we
-conclude that the charged AdS and charged GB AdS black holes in canonical and
-charged GB in the grand canonical ensemble belong to the same topological
-classes.
 Link: http://arxiv.org/abs/2407.20016v1
 ----
 Title: Reconstructing source motion from gravitational wave strain
 Authors: Joseph Bayley, Chris Messenger, Graham Woan
-Summary: Searches for un-modelled burst gravitational wave signals return potential
-candidates for short duration signals. As there is no clear model for the
-source in these searches, one needs to understand and reconstruct the system
-that produced the gravitational waves. Here we aim to reconstruct the source
-motion and masses of a system based only on its gravitational wave strain. We
-train a normalising flow on two models including circular orbits and random
-unphysical motion of two point masses. These models are used as a toy problem
-to illustrate the technique. We then reconstruct a distribution of possible
-motions of masses that can produce the given gravitational wave signal. We
-demonstrate the ability to reconstruct the full distribution of possible mass
-motions from strain data across multiple gravitational wave detectors. This
-distribution encompasses the degenerate motions that are expected to produce
-identical gravitational wave strains.
 Link: http://arxiv.org/abs/2407.20006v1
+----
+Title: Holographic dark energy in Barrow cosmology with Granda-Oliveros IR cutoff
+Authors: M. Motaghi, A. Sheykhi, E. Ebrahimi
+Link: http://arxiv.org/abs/2407.21074v1
 ----
 Title: (In)stability of de Sitter Quasinormal Mode spectra
 Authors: Claude Warnick
-Summary: We consider how the quasinormal spectrum for the conformal wave operator on
-the static patch of de Sitter changes in response to the addition of a small
-potential. Since the quasinormal modes and co-modes are explicitly known, we
-are able to give explicit formulae for the instantaneous rate of change of each
-frequency in terms of the perturbing potential. We verify these exact
-computations numerically using a novel technique extending the spectral
-hyperboloidal approach of Jaramillo et al. (2021). We propose a definition for
-a family of pseudospectra that we show capture the instability properties of
-the quasinormal frequencies.
 Link: http://arxiv.org/abs/2407.19850v1
 ----
 Title: Astrophysical insights into magnetic Penrose process around parameterized Konoplya-Rezzolla-Zhidenko black hole
 Authors: Tursunali Xamidov, Sanjar Shaymatov, Pankaj Sheoran, Bobomurat Ahmedov
-Summary: In this study, we investigate the parameterized Konoplya-Rezzolla-Zhidenko
-(KRZ) black hole (BH) spacetime in the presence of an external asymptotically
-uniform magnetic field. We first examine the innermost stable circular orbit
-(ISCO) radii for both neutral and charged test particles, demonstrating that
-the deformation parameters, $\delta_1$ and $\delta_2$, reduce the ISCO values.
-Subsequently, we assess the energy efficiency of the magnetic Penrose process
-(MPP) for an axially symmetric parameterized BH, analyzing the effects of the
-deformation parameters and the magnetic field on the energy extraction process.
-Our findings indicate that the rotational deformation parameter $\delta_2$ is
-crucial for the efficiency of energy extraction from the BH. The synergy
-between the rotational deformation parameter and the magnetic field
-significantly boosts the energy extraction efficiency, with values exceeding
-$100\%$. Interestingly, for extremal BHs with negative $\delta_2$ values, the
-energy efficiency increases, in contrast to Kerr BHs where the MPP effect
-diminishes. Additionally, we explore the astrophysical implications of the MPP
-by deriving the maximum energy of a proton escaping from the KRZ parameterized
-BH due to the beta decay of a free neutron near the horizon. Our results show
-that negative $\delta_2$ values require stronger magnetic fields to achieve
-equivalent energy levels for high-energy protons, providing deeper insights
-into high-energy astrophysical phenomena around the parameterized BH.
 Link: http://arxiv.org/abs/2407.19800v1
 ----
 Title: Proving the absence of large one-loop corrections to the power spectrum of curvature perturbations in transient ultra-slow-roll inflation within the path-integral approach
 Authors: Ryodai Kawaguchi, Shinji Tsujikawa, Yusuke Yamada
-Summary: We revisit one-loop corrections to the power spectrum of curvature
-perturbations $\zeta$ in an inflationary scenario containing a transient
-ultra-slow-roll (USR) period. In Ref.[1], it was argued that one-loop
-corrections to the power spectrum of $\zeta$ can be larger than the tree-level
-one within the parameter region generating the seeds of primordial black holes
-during the USR epoch, which implies the breakdown of perturbation theory. We
-prove that this is not the case by using a master formula for one-loop
-corrections to the power spectrum obtained in Ref.[2]. We derive the same
-formula within the path-integral formalism, which is simpler than the original
-derivation in [2]. To show the smallness of one-loop corrections, the
-consistency relations and the effective constancy of tree-level mode functions
-of $\zeta$ for super-Hubble modes play essential roles, with which the master
-formula gives a simple expression for one-loop corrections. For concreteness,
-we provide a reduced set of interactions including the leading-order one, while
-establishing the consistency relations in a self-consistent manner. We also
-show how the consistency relations of various operators hold explicitly, which
-plays a key role in proving the absence of large one-loop corrections.
 Link: http://arxiv.org/abs/2407.19742v1
 ----
 Title: Magnetic Penrose Process and Kerr Black Hole Mimickers
 Authors: Divyesh P. Viththani, Tapobroto Bhanja, Vishva Patel, Pankaj S. Joshi
-Summary: The present study investigates the negative energy orbits and energy
-extraction efficiency using the magnetic Penrose process in various regular
-black hole geometries surrounded by electromagnetic fields. Utilizing numerical
-simulations, we analyze the efficiency of this process in Kerr and
-Simpson-Visser geometries, focusing on extremal black holes. Interestingly, our
-study demonstrates that the energy extraction efficiency remains
-indistinguishable between Kerr and Simpson-Visser geometries, regardless of the
-regularization parameter ($l$); this trend is consistent with previous studies
-of the Penrose process and superradiance. Additionally, we present results for
-the rotating Hayward black hole, showing that efficiency is influenced by spin
-and deviation parameters ($g$), as well as the induced magnetic field and
-charge of the compact object. Notably, we observe that energy extraction
-efficiency is highest in the rotating Hayward black hole compared to Kerr and
-Simpson-Visser geometries, particularly in scenarios where the magnetic field
-and charge are minimal. Our study highlights the significant role of spin,
-charge and magnetic field characteristics in maximizing energy extraction
-efficiency, particularly in the rotating Hayward black hole context.
 Link: http://arxiv.org/abs/2407.19738v1
 ----
 Title: Thermodynamics and phase transition of Bardeen-AdS-class black holes
 Authors: Shan-Ping Wu, Shao-Wen Wei
-Summary: In a generalized parameter space, regular black holes can be regarded as
-non-singular solutions under specific parameters in Einstein gravity theory
-coupled with non-linear electromagnetic fields. Following this concept, we
-investigate the thermodynamic states and phase transitions of Bardeen-AdS-class
-black holes, revealing that the system can be classified into two categories,
-Type I and Type II, based on whether it adopts a pure Bardeen-AdS spacetime
-without event horizons or a Bardeen-AdS black hole as its phase state, each
-exhibiting distinct thermodynamic properties. If one includes the Bardeen-AdS
-black holes in the system (Type I), there will be three distinct black hole
-states and the phase transitions between them are analogous to the
-Reissner-Nordstrom-AdS black holes. On the other hand, if the pure Bardeen-AdS
-spacetime is included (Type II), an additional tiny black hole state emerges. A
-phase transition reminiscent of the Hawking-Page transition was found.
-Significantly, in this scenario, thermodynamical characteristic curves exhibit
-discontinuous behavior, which attributes to the multiple horizons. The presence
-of a Bardeen-AdS black hole within the phase structure of the Bardeen-AdS-class
-black hole profoundly modifies the thermodynamical properties of the system,
-highlighting the novel aspects of regular black holes.
 Link: http://arxiv.org/abs/2407.19702v1
 ----
 Title: Quasi-Normal Modes of Loop Quantum Black Holes Formed from Gravitational Collapse
 Authors: Chao Zhang, Anzhong Wang
-Summary: In this paper, we study the quasi-normal modes (QNMs) of a scalar field in
-the background of a large class of quantum black holes that can be formed from
-gravitational collapse of a dust fluid in the framework of effective loop
-quantum gravity. The loop quantum black holes (LQBHs) are characterized by
-three free parameters, one of which is the mass parameter, while the other two
-are purely due to quantum geometric effects. Among these two quantum
-parameters, one is completely fixed by black hole thermodynamics and its
-effects are negligible for macroscopic black holes, while the second parameter
-is completely free (in principle). In the studies of the QNMs of such LQBHs, we
-pay particular attention to the difference of the QNMs between LQBHs and
-classical ones, so that they can be observed for the current and forthcoming
-gravitational wave observations, whereby place the LQBH theory directly under
-the test of observations.
 Link: http://arxiv.org/abs/2407.19654v1
 ----
 Title: Communicating the gravitational-wave discoveries of the LIGO-Virgo-KAGRA Collaboration
 Authors: Hannah Middleton, Christopher P L Berry, Nicolas Arnaud, David Blair, Jacqueline Bondell, Nicolas Bonne, Debarati Chatterjee, Sylvain Chaty, Storm Colloms, Lynn Cominsky, Livia Conti, Isabel Cordero-Carrión, Robert Coyne, Zoheyr Doctor, Andreas Freise, Aaron Geller, Jen Gupta, Daniel Holz, William Katzman, David Keitel, Joey Shapiro Key, Nutsinee Kijbunchoo, Carl Knox, Coleman Krawczyk, Ryan N Lang, Shane L Larson, Chris North, Sascha Rieger, Aurore Simonnet, Andrew Spencer
-Summary: The LIGO-Virgo-KAGRA (LVK) Collaboration has made breakthrough discoveries in
-gravitational-wave astronomy, a new field of astronomy that provides a
-different means of observing our Universe. Gravitational-wave discoveries are
-possible thanks to the work of thousands of people from across the globe
-working together. In this article, we discuss the range of engagement
-activities used to communicate LVK gravitational-wave discoveries and the
-stories of the people behind the science using the activities surrounding the
-release of the third Gravitational Wave Transient Catalog as a case study.
 Link: http://arxiv.org/abs/2407.18638v2
 ----
 Title: Some Lower Dimensional Quantum Field Theories Reduced from Chern-Simons Gauge Theories
 Authors: Burak Oğuz, Bayram Tekin
-Summary: We study symmetry reductions in the context of Euclidean Chern-Simons gauge
-theories to obtain lower dimensional field theories. Symmetry reduction in
-certain gauge theories is a common tool for obtaining explicit soliton
-solutions. Although pure Chern-Simons theories do not admit solitonic
-solutions, symmetry reduction still leads to interesting results. We establish
-relations at the semiclassical regime between pure Chern-Simons theories on
-$S^3$ and the reduced Quantum Field Theories, based on actions obtained by the
-symmetry reduction of the Chern-Simons action, spherical symmetry being the
-prominent one. We also discuss symmetry reductions of Chern-Simons theories on
-the disk, yielding $BF$-theory in two dimensions, which signals a curious
-relationship between symmetry reductions and the boundary conformal field
-theories. Finally, we study the Chern-Simons-Higgs instantons and show that
-under certain circumstances, the reduced action can formally be viewed as the
-action of a supersymmetric quantum mechanical model. We discuss the extent to
-which the reduced actions have a fermionic nature at the level of the partition
-function.
 Link: http://arxiv.org/abs/2407.17943v2
+----
+Title: Model-agnostic assessment of dark energy after DESI DR1 BAO
+Authors: Bikash R. Dinda, Roy Maartens
+Link: http://arxiv.org/abs/2407.17252v2
+----
+Title: Holographic Action Principle for $T\bar{T}$-deformation
+Authors: Amin Faraji Astaneh
+Link: http://arxiv.org/abs/2407.16391v2
 ----
