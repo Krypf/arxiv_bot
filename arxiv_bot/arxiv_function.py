@@ -68,7 +68,9 @@ def fetch_arxiv(category, date, __max_results=100):
 #%%
 #%% https://chatgpt.com/share/7dfbd5e5-9c8d-4939-a815-efd595b5f229
 def read_categories_file(folder='') -> List[str]:
-    file_name = folder + '/' + 'categories.txt'
+    file_name = 'categories.txt'
+    if folder != '':
+        file_name = folder + '/' + file_name
     try:
         with open(file_name, 'r', encoding='utf-8') as file:
             # read each line
