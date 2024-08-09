@@ -1,0 +1,43 @@
+Title: Krylov complexity of thermal state in early universe
+Authors: Tao Li, Lei-Hua Liu
+Abstract link: http://arxiv.org/abs/2408.03293v1
+
+Title: Gauge theory meets cosmology
+Authors: Massimo Bianchi, Giuseppe Dibitetto, Jose Francisco Morales
+Abstract link: http://arxiv.org/abs/2408.03243v1
+
+Title: Rotating AdS$_3 \times$S$^3$ and Dyonic Strings from 3-Dimensions
+Authors: Nihat Sadik Deger, Ceren Ayse Deral, Aritra Saha, Özgür Sarıoğlu
+Abstract link: http://arxiv.org/abs/2408.03197v1
+
+Title: Combinatorial proof of a Non-Renormalization Theorem
+Authors: Paul-Hermann Balduf, Davide Gaiotto
+Abstract link: http://arxiv.org/abs/2408.03192v1
+
+Title: Flat-Space Limit of Holographic Pseudo Entropy in (A)dS Spacetimes
+Authors: Reza Fareghbal
+Abstract link: http://arxiv.org/abs/2408.03061v1
+
+Title: To $B$ or not to be in single-trace $T\bar T$ holography
+Authors: Amit Giveon, Daniel Vainshtein
+Abstract link: http://arxiv.org/abs/2408.03022v1
+
+Title: Splitting amplitudes at N$^3$LO in QCD
+Authors: Xin Guan, Franz Herzog, Yao Ma, Bernhard Mistlberger, Adi Suresh
+Abstract link: http://arxiv.org/abs/2408.03019v1
+
+Title: Can a naked singularity be formed during the gravitational collapse of a
+  Janis-Newman-Winicour solution?
+Authors: Xiao Yan Chew, Il Gyeong Choi, Hyuk Jung Kim, Dong-han Yeom
+Abstract link: http://arxiv.org/abs/2408.03016v1
+
+Title: Enumerative geometry and modularity in two-modulus K3-fibered Calabi-Yau
+  threefolds
+Authors: Charles Doran, Boris Pioline, Thorsten Schimannek
+Abstract link: http://arxiv.org/abs/2408.02994v1
+
+Title: Large Landscape of 4d Superconformal Field Theories from Small Gauge
+  Theories
+Authors: Minseok Cho, Kazunobu Maruyoshi, Emily Nardoni, Jaewon Song
+Abstract link: http://arxiv.org/abs/2408.02953v1
+
