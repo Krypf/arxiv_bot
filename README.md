@@ -10,6 +10,13 @@ For example,
 python tests/arxiv-bot-test.py gr-qc 2024-07-14 2024-07-21
 ```
 
+# Codes
+
+1. 'arxiv_bot/arxiv-save-HTML.py' によって New Submissions の HTML ソースをダウンロードします。
+2. HTML フォルダのソースから Title, Authors, Link を抜き出します。
+3. Bluesky にアップロードします。
+
+
 # Bluesky API
 
 Bluesky ではデフォルトで API が使えるようになっています。
@@ -29,9 +36,4 @@ arXiv にも API が用意されていますが、API よりも Web ページの
 > arXiv API Access - arXiv info  
 > https://info.arxiv.org/help/api/index.html 
 
-# Codes
-
-1. 'arxiv_bot/arxiv-save-HTML.py' によって New Submissions の HTML ソースをダウンロードします。
-2. HTML フォルダのソースから Title, Authors, Link を抜き出します。
-3. Bluesky にアップロードします。
 
