@@ -3,8 +3,14 @@ import arxiv
 from datetime import datetime
 import os
 from typing import List
+from printlog import printlog
 
 #%%
+def my_replace(text: str) -> str:
+    text = text.replace('Title:\n          ', 'Title: ')
+    text = text.replace('\n        ', '\n')
+    return text
+
 def get_results(category, _max_results=100):
     # Construct the default API client.
     client = arxiv.Client()
@@ -64,10 +70,27 @@ def fetch_arxiv(category, date, __max_results=100):
             text += f"Link: {link}\n"
             text += "----\n"
             save_text_append(text, file_path)
-    print(f"{file_name} has been saved.")
+    printlog(f"{file_name} has been saved.")
 #%%
+def cd_arxiv_bot():
+    # Get the current working directory
+    current_directory = os.getcwd()
+
+    # Define the target directory path
+    folder_strings = '~/arxiv_bot'
+    target_directory = os.path.expanduser(folder_strings)
+
+    # Change to the target directory if not already there
+    if current_directory != target_directory:
+        os.chdir(target_directory)
+        printlog(f"Changed directory to {folder_strings}")
+    else:
+        printlog(f"Already in {folder_strings}")
+
 #%% https://chatgpt.com/share/7dfbd5e5-9c8d-4939-a815-efd595b5f229
 def read_categories_file(folder='') -> List[str]:
+    cd_arxiv_bot()
+    
     file_name = 'categories.txt'
     if folder != '':
         file_name = folder + '/' + file_name
@@ -79,12 +102,15 @@ def read_categories_file(folder='') -> List[str]:
             categories_list = [line.strip() for line in lines]
             return categories_list
     except FileNotFoundError:
-        print(f"File '{file_name}' not found in the current directory.")
+        printlog(f"File '{file_name}' not found in the current directory.")
         return []
     except Exception as e:
-        print(str(e))
+        printlog(str(e))
         return []
-#%%
+#%% constants
+
+categories_content = read_categories_file('arxiv_bot')# the current directory is arxiv_bot and the subfolder is arxiv_bot
 
 if __name__ == '__main__':
     print('This is a module arxiv_function.py')
+    print(f'categories_content is {categories_content}')

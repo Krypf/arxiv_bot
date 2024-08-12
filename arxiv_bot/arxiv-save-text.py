@@ -5,6 +5,7 @@ import re
 from datetime import datetime
 
 from arxiv_function import save_text_append, categories_content
+from printlog import printlog
 
 def read_HTML(category):
     # Specify the file path to the HTML content located in the HTML folder
@@ -43,11 +44,11 @@ def find_dt_and_dd(soup, item_number: str):
                 # print(f"<dd>: {dd_element}")
                 return dt_element, dd_element
             else:
-                print(f"No <dd> found after <dt> containing <a name='item{num}'>[{num}]</a>")
+                printlog(f"No <dd> found after <dt> containing <a name='item{num}'>[{num}]</a>")
         else:
-            print(f"No <dt> found containing <a name='item{num}'>[{num}]</a>")
+            printlog(f"No <dt> found containing <a name='item{num}'>[{num}]</a>")
     else:
-        print(f"No <a name='item{num}'>[{num}]</a> found")
+        printlog(f"No <a name='item{num}'>[{num}]</a> found")
 
     return 0
     
@@ -55,17 +56,21 @@ def find_dt_and_dd(soup, item_number: str):
 def get_arxiv_link(soup_dt):
     # Find the <a> tag with title "Abstract"
     abstract_link = soup_dt.find('a', title='Abstract')
-
+    download_pdf_link = soup_dt.find('a', title='Download PDF')
     # Extract the href attribute
     arxiv_link = abstract_link['href'] if abstract_link else None
-
+    pdf_link = download_pdf_link['href'] if download_pdf_link else None
     # Construct the full URL
     if arxiv_link:
         arxiv_url = f"https://arxiv.org{arxiv_link}"
     else:
         arxiv_url = None
+    if pdf_link:
+        pdf_url = f"https://arxiv.org{pdf_link}"
+    else:
+        pdf_url = None
         
-    return arxiv_url
+    return arxiv_url, pdf_url
 
 def get_title_and_authors(soup_dd):
     # Extract the title
@@ -82,29 +87,30 @@ def get_title_and_authors(soup_dd):
 #%%
 def save_one_post(soup, item_number: str):
     soup_dt, soup_dd = find_dt_and_dd(soup, item_number)
-    arxiv_url = get_arxiv_link(soup_dt)
+    arxiv_url, pdf_url = get_arxiv_link(soup_dt)
     title, authors = get_title_and_authors(soup_dd)
     # Create dictionary
     article_info = {
         'arxiv_url': arxiv_url,
+        'pdf_url': pdf_url,
         'title': title,
         'authors': authors
     }
-    text = f"Title: {article_info['title']}\n"
-    text += f"Authors: {article_info['authors']}\n"
+    text = f"{article_info['title']}\n"
+    text += f"{article_info['authors']}\n"
     # summary = entry.summary; text += f"Summary: {summary}\n";
-    text += f"Link: {article_info['arxiv_url']}\n"
+    text += f"{article_info['arxiv_url']}\n"
+    text += f"{article_info['pdf_url']}\n"
     text += "----\n"
     return text
 
-def main(category):
+def main(category, date):
     sub_folder = category
     # Create the subfolder if it does not exist
     if not os.path.exists(sub_folder):
         os.makedirs(sub_folder)
     # make a file
-    today = datetime.now().strftime('%Y-%m-%d')
-    file_name = category + '-' + today + '.txt'
+    file_name = category + '-' + date + '.txt'
     # Create the file path
     file_path = os.path.join(sub_folder, file_name)
     # Create an empty file
@@ -121,11 +127,15 @@ def main(category):
     # Display the result
     print(f"{file_name} has been saved.")
     return 0
-
-category = categories_content[0]
-main(category)
-
 #%% error 
 def check_no_entry():
     if not True:
         save_text_append("No entries found for today.", file_path)
+
+today = datetime.now().strftime('%Y-%m-%d')
+date = '2024-08-09'
+
+if __name__ == '__main__':
+    for category in categories_content:
+        main(category, today)
+

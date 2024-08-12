@@ -1,14 +1,15 @@
 #%% https://chatgpt.com/share/c8e08b83-0d2d-4430-a447-e0e14a945d8b
 import requests
 import os
-import arxiv_function
-#%% constants
-categories_content = arxiv_function.read_categories_file('arxiv_bot')# the current directory is arxiv_bot and the subfolder is arxiv_bot
+from arxiv_function import categories_content
+
+#%%
 # Directory to save the file
 directory = "HTML"
 #%%
 def main(category):
     # URL to fetch
+    # new submissions
     url = "https://arxiv.org/list/" + category + "/new"
 
     # Create the directory if it doesn't exist

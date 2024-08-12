@@ -4,8 +4,8 @@ __pycache__/
 [0-9][0-9].py
 # folders
 HTML/
-gr-qc/
-hep-ph/
-hep-th/
-math-ph/
-quant-ph/
+# gr-qc/
+# hep-ph/
+# hep-th/
+# math-ph/
+# quant-ph/
