@@ -2,6 +2,7 @@
 import requests
 import os
 from arxiv_function import categories_content
+from printlog import printlog
 
 #%%
 # Directory to save the file
@@ -27,12 +28,11 @@ def main(category):
         # Save the HTML content to a file
         with open(file_path, "w", encoding='utf-8') as file:
             file.write(response.text)
-        print(f"HTML source has been saved to {file_path}")
+        printlog(f"HTML source has been saved to {file_path}")
     else:
-        print(f"Failed to retrieve the webpage. Status code: {response.status_code}")
+        printlog(f"Failed to retrieve the webpage. Status code: {response.status_code}")
 
     return 0
 #%%
-
 for category in categories_content:
     main(category)

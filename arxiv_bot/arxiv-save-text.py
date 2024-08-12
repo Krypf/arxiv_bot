@@ -125,7 +125,7 @@ def main(category, date):
         save_text_append(text, file_path)
         
     # Display the result
-    print(f"{file_name} has been saved.")
+    printlog(f"{file_name} has been saved.")
     return 0
 #%% error 
 def check_no_entry():
@@ -133,7 +133,7 @@ def check_no_entry():
         save_text_append("No entries found for today.", file_path)
 
 today = datetime.now().strftime('%Y-%m-%d')
-date = '2024-08-09'
+# date = '2024-08-09'
 
 if __name__ == '__main__':
     for category in categories_content:

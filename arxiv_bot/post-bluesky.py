@@ -6,6 +6,7 @@ from bluesky_function import read_password, read_text_file
 import time
 from printlog import printlog
 from arxiv_function import categories_content
+from datetime import datetime
 
 #%% constants
 def bsky_login(category):
@@ -82,12 +83,14 @@ def main(category, date, sleep_time=1):
     return 0
 #%%
 
-date = '2024-08-09'
+today = datetime.now().strftime('%Y-%m-%d')
+# date = '2024-08-09'
 
 if __name__ == '__main__':
     for category in categories_content:
         printlog(f"The category is {category}")
-        main(category, date)
+        main(category, today)
+    printlog(f"This is the end of all the posts on {today}")
 
 #%% manual
 # category = 'gr-qc'
