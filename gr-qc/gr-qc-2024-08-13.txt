@@ -1,40 +1,120 @@
-f(R) Gravitation: Equivalence of Frames Upon a Conformal Transformation
-João Pedro Bravo
-https://arxiv.org/abs/2408.04672
-https://arxiv.org/pdf/2408.04672
+Gravitational Wave emission in Binary Neutron Star early post-merger within a dark environment
+D. Suárez-Fontanella, D. Barba-González, C. Albertus, M.Ángeles Pérez-García
+https://arxiv.org/abs/2408.05226
+https://arxiv.org/pdf/2408.05226
 ----
-Radial Mode Stability of Two-Fluid Neutron Stars
-Daniel A. Caballero, Justin L. Ripley, Nicolás Yunes
-https://arxiv.org/abs/2408.04701
-https://arxiv.org/pdf/2408.04701
+Gravitational-Wave Tests of General Relativity with Ground-Based Detectors and Pulsar-Timing Arrays
+Nicolas Yunes, Xavier Siemens, Kent Yagi
+https://arxiv.org/abs/2408.05240
+https://arxiv.org/pdf/2408.05240
 ----
-A New Approach for Calculation of Quasi-Normal Modes and Topological Charges of Regular Black Holes
-MY Zhang, F Hosseinifar, H Chen, T Sathiyaraj, H Hassanabadi
-https://arxiv.org/abs/2408.04704
-https://arxiv.org/pdf/2408.04704
+$C^0$-inextendibility of the Kasner spacetime
+Benedikt Miethke
+https://arxiv.org/abs/2408.05257
+https://arxiv.org/pdf/2408.05257
 ----
-Spherically symmetric loop quantum gravity: Schwarzschild spacetimes with a cosmological constant
-Esteban Mato, Javier Olmedo, Sahil Saini
-https://arxiv.org/abs/2408.04925
-https://arxiv.org/pdf/2408.04925
+Slowly Rotating Boson Stars
+Jorge F. M. Delgado, Juan Carlos Degollado, Luis E. Martínez, Marcelo Salgado
+https://arxiv.org/abs/2408.05262
+https://arxiv.org/pdf/2408.05262
 ----
-Cosmic Anisotropy and Bianchi Characterization: Killing vector fields and the implied finding of their metric frame
-Robbert W. Scholtens, Marcello Seri, Holger Waalkens, Rien van de Weygaert
-https://arxiv.org/abs/2408.04938
-https://arxiv.org/pdf/2408.04938
+postmerger: A flexible mapping of ringdown amplitudes for non-precessing binary black holes
+Costantino Pacilio, Swetha Bhagwat, Francesco Nobili, Davide Gerosa
+https://arxiv.org/abs/2408.05276
+https://arxiv.org/pdf/2408.05276
 ----
-Strong Gravitational Lensing by Bardeen Black Hole in Cloud of Strings
-Bijendra Kumar Vishvakarma, Shubham Kala, Sanjay Siwach
-https://arxiv.org/abs/2408.05018
-https://arxiv.org/pdf/2408.05018
+High-Precision Ringdown Surrogate Model for Non-Precessing Binary Black Holes
+Lorena Magaña Zertuche, Leo C. Stein, Keefe Mitman, Scott E. Field, Vijay Varma, Michael Boyle, Nils Deppe, Lawrence E. Kidder, Jordan Moxon, Harald P. Pfeiffer, Mark A. Scheel, Kyle C. Nelli, William Throwe, Nils L. Vu
+https://arxiv.org/abs/2408.05300
+https://arxiv.org/pdf/2408.05300
 ----
-Sound Speed Resonance of Gravitational Waves in Gauss-Bonnet-coupled inflation
-Andrea Addazi, Yermek Aldabergenov, Yifu Cai
-https://arxiv.org/abs/2408.05091
-https://arxiv.org/pdf/2408.05091
+A comparative study of the absorption cross section of static regular black holes for electromagnetic field
+Rajesh Karmakar
+https://arxiv.org/abs/2408.05310
+https://arxiv.org/pdf/2408.05310
 ----
-Perturbations of classical fields by gravitational shockwaves
-D.V. Fursaev, E.A.Davydov, I.G. Pirozhenko, V.A.Tainov
-https://arxiv.org/abs/2408.05142
-https://arxiv.org/pdf/2408.05142
+A Class of Analytical Models for Black holes Surrounded by Dark Matter Halos
+Zibo Shen, Anzhong Wang, Shaoyu Yin
+https://arxiv.org/abs/2408.05417
+https://arxiv.org/pdf/2408.05417
+----
+Exploring Relativistic World of Electromagnetism on Computer
+Daiju Nakayama, Kin-ya Oda, Koichiro Yasuda
+https://arxiv.org/abs/2408.05481
+https://arxiv.org/pdf/2408.05481
+----
+Interacting Models of Dark Energy and Dark Matter in Einstein scalar Gauss Bonnet Gravity
+Saddam Hussain, Simran Arora, Yamuna Rana, Benjamin Rose, Anzhong Wang
+https://arxiv.org/abs/2408.05484
+https://arxiv.org/pdf/2408.05484
+----
+Light rings and shadows of static black holes in effective quantum gravity
+Wentao Liu, Di Wu, Jieci Wang
+https://arxiv.org/abs/2408.05569
+https://arxiv.org/pdf/2408.05569
+----
+Observed jet power and radiative efficiency of black hole candidates in Kerr + PFDM model
+Bakhtiyor Narzilloev, Ahmadjon Abdujabbarov, Bobomurat Ahmedov, Cosimo Bambi
+https://arxiv.org/abs/2408.05576
+https://arxiv.org/pdf/2408.05576
+----
+Thin-shell wormholes admitting conformal motions in spacetimes of embedding class one
+Peter K.F. Kuhfittig
+https://arxiv.org/abs/2408.05581
+https://arxiv.org/pdf/2408.05581
+----
+Improving Mimetic Gravity with Non-trivial Scalar Potential: Cosmology, Black Holes, Shadow and Photon Sphere
+Shin'ichi Nojiri, Sergei D. Odintsov
+https://arxiv.org/abs/2408.05668
+https://arxiv.org/pdf/2408.05668
+----
+Gravitational Radiation in Generalized Brans Dicke Theory: Compact Binary Systems
+S. Mahmoudi, S. H. Hendi
+https://arxiv.org/abs/2408.05825
+https://arxiv.org/pdf/2408.05825
+----
+Scale-dependent gravity and covariant scale-setting
+Nicolas R. Bertini
+https://arxiv.org/abs/2408.05893
+https://arxiv.org/pdf/2408.05893
+----
+Non-commutativity in modified loop cosmology
+Abolhassan Mohammadi
+https://arxiv.org/abs/2408.05935
+https://arxiv.org/pdf/2408.05935
+----
+Quasinormal modes of accelerating spacetime
+Tao Zhou, Peng-Cheng Li
+https://arxiv.org/abs/2408.05957
+https://arxiv.org/pdf/2408.05957
+----
+Non-linear scattering of plane gravitational and electromagnetic waves
+Breanna Camden, Chris Stevens, John Forbes
+https://arxiv.org/abs/2408.05999
+https://arxiv.org/pdf/2408.05999
+----
+Revisiting Chronology Protection Conjecture in The Dyonic Kerr-Sen Black Hole Spacetime
+Teephatai Bunyaratavej, Piyabut Burikham, David Senjaya
+https://arxiv.org/abs/2408.06023
+https://arxiv.org/pdf/2408.06023
+----
+Next-generation global gravitational-wave detector network: Impact of detector orientation on compact binary coalescence and stochastic gravitational-wave background searches
+Michael Ebersold, Tania Regimbau, Nelson Christensen
+https://arxiv.org/abs/2408.06032
+https://arxiv.org/pdf/2408.06032
+----
+Clarifying Kasner dynamics inside anisotropic black hole with vector hair
+Rong-Gen Cai, Mei-Ning Duan, Li Li, Fu-Guo Yang
+https://arxiv.org/abs/2408.06122
+https://arxiv.org/pdf/2408.06122
+----
+On the KG-constrained general disformal transformation of the Einstein-Hilbert action
+Allan L. Alinea, Joshwa DJ. Ordonez
+https://arxiv.org/abs/2408.06176
+https://arxiv.org/pdf/2408.06176
+----
+Time-dependent, spherically symmetric background in Kaluza-Klein compactified Horndeski theory and the speed of gravity waves
+S. Mironov, M. Sharov, V. Volkova
+https://arxiv.org/abs/2408.06329
+https://arxiv.org/pdf/2408.06329
 ----

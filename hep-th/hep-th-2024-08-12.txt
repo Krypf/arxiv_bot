@@ -1,0 +1,80 @@
+Learning the Simplicity of Scattering Amplitudes
+Clifford Cheung, Aurélien Dersy, Matthew D. Schwartz
+https://arxiv.org/abs/2408.04720
+https://arxiv.org/pdf/2408.04720
+----
+A framework for generalizing toric inequalities for holographic entanglement entropy
+Ning Bao, Keiichiro Furuya, Joydeep Naskar
+https://arxiv.org/abs/2408.04741
+https://arxiv.org/pdf/2408.04741
+----
+Kinks and double-kinks in generalized $\phi^{4n}$-and $\phi^{8n}$-models
+F. C. E. Lima, R. Casana, C. A. S. Almeida
+https://arxiv.org/abs/2408.04761
+https://arxiv.org/pdf/2408.04761
+----
+Geodesics connecting end points of time-like interval in asymptotically AdS spacetime
+Jia-Hao He, Run-Qiu Yang
+https://arxiv.org/abs/2408.04783
+https://arxiv.org/pdf/2408.04783
+----
+A holographic model of magnetohydrodynamics with fortuitous SO(3) symmetry
+Yanqi Wang, Peng-Ju Hu, Yi Pang
+https://arxiv.org/abs/2408.04791
+https://arxiv.org/pdf/2408.04791
+----
+Double Field Theory and $\alpha'$ corrections: explicit examples
+Oleg Lunin, Parita Shah
+https://arxiv.org/abs/2408.04833
+https://arxiv.org/pdf/2408.04833
+----
+Supersymmetry of the Robinson-Trautman solution
+Masato Nozawa
+https://arxiv.org/abs/2408.04848
+https://arxiv.org/pdf/2408.04848
+----
+Parity Violating Marginal Deformation of the 3D Gross-Neveu-Thirring Model
+Gordon W. Semenoff, Riley A. Stewart
+https://arxiv.org/abs/2408.04855
+https://arxiv.org/pdf/2408.04855
+----
+Self-duality from twisted cohomology
+Claude Duhr, Franziska Porkert, Cathrin Semper, Sven F. Stawinski
+https://arxiv.org/abs/2408.04904
+https://arxiv.org/pdf/2408.04904
+----
+Correlators of $\mathcal{N}=4$ SYM on real projective space at strong coupling
+Xinan Zhou
+https://arxiv.org/abs/2408.04926
+https://arxiv.org/pdf/2408.04926
+----
+Polyvector deformations of Type IIB backgrounds
+Kirill Gubarev, Edvard T. Musaev, Timophey Petrov
+https://arxiv.org/abs/2408.05004
+https://arxiv.org/pdf/2408.05004
+----
+New Field Theories with Foliation Structure and Subdimensional Particles from Godbillon-Vey Invariant
+Hiromi Ebisu, Masazumi Honda, Taiichi Nakanishi, Soichiro Shimamori
+https://arxiv.org/abs/2408.05048
+https://arxiv.org/pdf/2408.05048
+----
+On the electron self-energy to three loops in QED
+Claude Duhr, Federico Gasparotto, Christoph Nega, Lorenzo Tancredi, Stefan Weinzierl
+https://arxiv.org/abs/2408.05154
+https://arxiv.org/pdf/2408.05154
+----
+Two-Loop Five-Point Two-Mass Planar Integrals and Double Lagrangian Insertions in a Wilson Loop
+Samuel Abreu, Dmitry Chicherin, Vasily Sotnikov, Simone Zoia
+https://arxiv.org/abs/2408.05201
+https://arxiv.org/pdf/2408.05201
+----
+$SL(2,\mathbb{Z})$ Cosmological Attractors
+Renata Kallosh, Andrei Linde
+https://arxiv.org/abs/2408.05203
+https://arxiv.org/pdf/2408.05203
+----
+Holographic thermal correlators and quasinormal modes from semiclassical Virasoro blocks
+Hewei Frederic Jia, Mukund Rangamani
+https://arxiv.org/abs/2408.05208
+https://arxiv.org/pdf/2408.05208
+----

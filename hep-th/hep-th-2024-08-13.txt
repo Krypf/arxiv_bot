@@ -1,80 +1,95 @@
-Learning the Simplicity of Scattering Amplitudes
-Clifford Cheung, Aurélien Dersy, Matthew D. Schwartz
-https://arxiv.org/abs/2408.04720
-https://arxiv.org/pdf/2408.04720
+Gapped Phases in (2+1)d with Non-Invertible Symmetries: Part I
+Lakshya Bhardwaj, Daniel Pajer, Sakura Schafer-Nameki, Apoorv Tiwari, Alison Warman, Jingxiang Wu
+https://arxiv.org/abs/2408.05266
+https://arxiv.org/pdf/2408.05266
 ----
-A framework for generalizing toric inequalities for holographic entanglement entropy
-Ning Bao, Keiichiro Furuya, Joydeep Naskar
-https://arxiv.org/abs/2408.04741
-https://arxiv.org/pdf/2408.04741
+Minimal Areas from Entangled Matrices
+Jackson R. Fliss, Alexander Frenkel, Sean A. Hartnoll, Ronak M Soni
+https://arxiv.org/abs/2408.05274
+https://arxiv.org/pdf/2408.05274
 ----
-Kinks and double-kinks in generalized $\phi^{4n}$-and $\phi^{8n}$-models
-F. C. E. Lima, R. Casana, C. A. S. Almeida
-https://arxiv.org/abs/2408.04761
-https://arxiv.org/pdf/2408.04761
+3D Stress Tensor for Gravity in 4D Flat Spacetime
+Arjun Bagchi, Prateksh Dhivakar, Sudipta Dutta
+https://arxiv.org/abs/2408.05494
+https://arxiv.org/pdf/2408.05494
 ----
-Geodesics connecting end points of time-like interval in asymptotically AdS spacetime
-Jia-Hao He, Run-Qiu Yang
-https://arxiv.org/abs/2408.04783
-https://arxiv.org/pdf/2408.04783
+Entanglement of Purification as a Measure of Non-Conformality
+M. Asadi
+https://arxiv.org/abs/2408.05522
+https://arxiv.org/pdf/2408.05522
 ----
-A holographic model of magnetohydrodynamics with fortuitous SO(3) symmetry
-Yanqi Wang, Peng-Ju Hu, Yi Pang
-https://arxiv.org/abs/2408.04791
-https://arxiv.org/pdf/2408.04791
+Electroweak Primordial Magnetic Blackhole: Cosmic Production and Physical Implication
+Y.M. Cho, Sang-Woo Kim, Seung Hun Oh
+https://arxiv.org/abs/2408.05531
+https://arxiv.org/pdf/2408.05531
 ----
-Double Field Theory and $\alpha'$ corrections: explicit examples
-Oleg Lunin, Parita Shah
-https://arxiv.org/abs/2408.04833
-https://arxiv.org/pdf/2408.04833
+Deformations of Extremal Black Holes and the UV
+Calvin Y.-R. Chen, Claudia de Rham, Andrew J. Tolley
+https://arxiv.org/abs/2408.05549
+https://arxiv.org/pdf/2408.05549
 ----
-Supersymmetry of the Robinson-Trautman solution
-Masato Nozawa
-https://arxiv.org/abs/2408.04848
-https://arxiv.org/pdf/2408.04848
+SymTFT for (3+1)d Gapless SPTs and Obstructions to Confinement
+Andrea Antinucci, Christian Copetti, Sakura Schafer-Nameki
+https://arxiv.org/abs/2408.05585
+https://arxiv.org/pdf/2408.05585
 ----
-Parity Violating Marginal Deformation of the 3D Gross-Neveu-Thirring Model
-Gordon W. Semenoff, Riley A. Stewart
-https://arxiv.org/abs/2408.04855
-https://arxiv.org/pdf/2408.04855
+Nonrelativistic limit of QFT in curved spacetime
+Riccardo Falcone
+https://arxiv.org/abs/2408.05757
+https://arxiv.org/pdf/2408.05757
 ----
-Self-duality from twisted cohomology
-Claude Duhr, Franziska Porkert, Cathrin Semper, Sven F. Stawinski
-https://arxiv.org/abs/2408.04904
-https://arxiv.org/pdf/2408.04904
+Ringdown in the SYK model
+Matthew Dodelson
+https://arxiv.org/abs/2408.05790
+https://arxiv.org/pdf/2408.05790
 ----
-Correlators of $\mathcal{N}=4$ SYM on real projective space at strong coupling
-Xinan Zhou
-https://arxiv.org/abs/2408.04926
-https://arxiv.org/pdf/2408.04926
+Supersymmetric brick wall diagrams and the dynamical fishnet
+Moritz Kade, Matthias Staudacher
+https://arxiv.org/abs/2408.05805
+https://arxiv.org/pdf/2408.05805
 ----
-Polyvector deformations of Type IIB backgrounds
-Kirill Gubarev, Edvard T. Musaev, Timophey Petrov
-https://arxiv.org/abs/2408.05004
-https://arxiv.org/pdf/2408.05004
+Vacuum polarization at the tip of a water drop
+Rouslan Krechetnikov, Andrei Zelnikov
+https://arxiv.org/abs/2408.05833
+https://arxiv.org/pdf/2408.05833
 ----
-New Field Theories with Foliation Structure and Subdimensional Particles from Godbillon-Vey Invariant
-Hiromi Ebisu, Masazumi Honda, Taiichi Nakanishi, Soichiro Shimamori
-https://arxiv.org/abs/2408.05048
-https://arxiv.org/pdf/2408.05048
+Riemann Surfaces and Winding Numbers of R\'enyi Phase Structure of Charged-Flat Black Holes
+F. Barzi, H. El Moumni, K. Masmar
+https://arxiv.org/abs/2408.05870
+https://arxiv.org/pdf/2408.05870
 ----
-On the electron self-energy to three loops in QED
-Claude Duhr, Federico Gasparotto, Christoph Nega, Lorenzo Tancredi, Stefan Weinzierl
-https://arxiv.org/abs/2408.05154
-https://arxiv.org/pdf/2408.05154
+Torus reduction of maximal conformal supergravity
+Franz Ciceri, Axel Kleinschmidt, Subrabalan Murugesan, Bindusar Sahoo
+https://arxiv.org/abs/2408.06026
+https://arxiv.org/pdf/2408.06026
 ----
-Two-Loop Five-Point Two-Mass Planar Integrals and Double Lagrangian Insertions in a Wilson Loop
-Samuel Abreu, Dmitry Chicherin, Vasily Sotnikov, Simone Zoia
-https://arxiv.org/abs/2408.05201
-https://arxiv.org/pdf/2408.05201
+Stress-energy tensor deformations, Ricci flows and black holes
+Nicolò Brizio, Tommaso Morone, Roberto Tateo
+https://arxiv.org/abs/2408.06031
+https://arxiv.org/pdf/2408.06031
 ----
-$SL(2,\mathbb{Z})$ Cosmological Attractors
-Renata Kallosh, Andrei Linde
-https://arxiv.org/abs/2408.05203
-https://arxiv.org/pdf/2408.05203
+Quantum Complexity of $T\bar{T}$-deformation and Its Implications
+Amin Faraji Astaneh
+https://arxiv.org/abs/2408.06055
+https://arxiv.org/pdf/2408.06055
 ----
-Holographic thermal correlators and quasinormal modes from semiclassical Virasoro blocks
-Hewei Frederic Jia, Mukund Rangamani
-https://arxiv.org/abs/2408.05208
-https://arxiv.org/pdf/2408.05208
+Symmetry topological field theory and non-abelian Kramers-Wannier dualities of generalised Ising models
+Clement Delcamp, Nafiz Ishtiaque
+https://arxiv.org/abs/2408.06074
+https://arxiv.org/pdf/2408.06074
+----
+Massive fields in AdS from Constructive Holography
+Robert de Mello Koch, Pratik Roy, Hendrik J.R. Van Zyl
+https://arxiv.org/abs/2408.06089
+https://arxiv.org/pdf/2408.06089
+----
+One loop determinant in the extremal black hole from quasinormal modes
+Jyotirmoy Mukherjee
+https://arxiv.org/abs/2408.06165
+https://arxiv.org/pdf/2408.06165
+----
+Hydrodynamic Modes of Holographic Weyl Semimetals
+Nishal Rai, Karl Landsteiner
+https://arxiv.org/abs/2408.06192
+https://arxiv.org/pdf/2408.06192
 ----
