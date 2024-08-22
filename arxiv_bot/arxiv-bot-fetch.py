@@ -1,9 +1,8 @@
 #%%
 from datetime import datetime
-import arxiv_function
-#%%
+from arxiv_function import categories_content, fetch_arxiv
+
 #%% constants
-categories_content = arxiv_function.read_categories_file('arxiv_bot')# the current directory is arxiv_bot and the subfolder is arxiv_bot
 
 today = datetime.now().strftime('%Y-%m-%d')
 
@@ -11,7 +10,7 @@ today = datetime.now().strftime('%Y-%m-%d')
 
 def main():
     for category in categories_content:
-        arxiv_function.fetch_arxiv(category, today, __max_results = 200)
+        fetch_arxiv(category, today, __max_results = 200)
     return 0
 
 main()

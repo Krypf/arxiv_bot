@@ -1,33 +1,10 @@
 #%% https://chatgpt.com/share/c8e08b83-0d2d-4430-a447-e0e14a945d8b
 import requests
 import os
-from arxiv_function import categories_content
+from arxiv_function import arxiv_search, categories_content
 from printlog import printlog
 import argparse
 # from typing import Optional
-#%% https://chatgpt.com/share/c59404fb-255c-42db-892a-c19c00d92e8c
-class arxiv_search:
-    def __init__(self, category: str, submissions: str = "new", skip: str = "", show: str = ""):
-        self.category = category
-        self.submissions = submissions
-        self.skip = skip
-        self.show = show
-
-    def make_url(self):
-        # Construct the URL based on the attributes
-        url = f"https://arxiv.org/list/{self.category}/{self.submissions}"
-        
-        # Add query parameters if skip or show are provided
-        if self.skip or self.show:
-            url += "?"
-        if self.skip:
-            url += f"skip={self.skip}"
-            if self.show:
-                url += "&"
-        if self.show:
-            url += f"show={self.show}"
-        
-        return url
 
 #%%
 

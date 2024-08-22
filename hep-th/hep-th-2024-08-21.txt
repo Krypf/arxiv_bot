@@ -1,0 +1,50 @@
+$\text{AdS}_4$ Holography and the Hilbert Scheme
+Samuel Crew, Daniel Zhang, Ziruo Zhang
+https://arxiv.org/abs/2408.10313
+https://arxiv.org/pdf/2408.10313
+----
+Yang-Mills extension of the Loop Quantum Gravity-corrected Maxwell equations
+G. L. L. W. Levy, José A. Helayël-Neto
+https://arxiv.org/abs/2408.10366
+https://arxiv.org/pdf/2408.10366
+----
+Integrating out the fermions in AdS
+Cassiano A. Daniel
+https://arxiv.org/abs/2408.10418
+https://arxiv.org/pdf/2408.10418
+----
+A note on the canonical approach to hydrodynamics and linear response theory
+Luca Martinoia, Rajeev Singh
+https://arxiv.org/abs/2408.10698
+https://arxiv.org/pdf/2408.10698
+----
+CMB Implications of Multi-field Axio-dilaton Cosmology
+Adam Smith, Maria Mylova, Philippe Brax, Carsten van de Bruck, C.P. Burgess, Anne-Christine Davis
+https://arxiv.org/abs/2408.10820
+https://arxiv.org/pdf/2408.10820
+----
+Designer bubble walls in a holographic Weyl semi-metal with magnetic field
+Nick Evans, Wanxiang Fan
+https://arxiv.org/abs/2408.10835
+https://arxiv.org/pdf/2408.10835
+----
+A Holographic Construction of MHV Graviton Amplitudes in Celestial CFT
+Igor Mol
+https://arxiv.org/abs/2408.10944
+https://arxiv.org/pdf/2408.10944
+----
+Confined phases at finite density in the Hardwall model
+Akash Singh, K. P. Yogendran
+https://arxiv.org/abs/2408.10986
+https://arxiv.org/pdf/2408.10986
+----
+Commutator technique for the heat kernel of minimal higher derivative operators
+Andrei O. Barvinsky, Alexander V. Kurov, W. Wachowski
+https://arxiv.org/abs/2408.10990
+https://arxiv.org/pdf/2408.10990
+----
+Representation Theory of Solitons
+Clay Cordova, Nicholas Holfester, Kantaro Ohmori
+https://arxiv.org/abs/2408.11045
+https://arxiv.org/pdf/2408.11045
+----

@@ -1,0 +1,90 @@
+GUTs -- how common are they?
+Johannes Herms, Maximilian Ruhdorfer
+https://arxiv.org/abs/2408.11089
+https://arxiv.org/pdf/2408.11089
+----
+Inching toward the QCD Axions with Axion Magnetic Resonance in Helioscopes
+Hyeonseok Seong, Chen Sun, Seokhoon Yun
+https://arxiv.org/abs/2408.11103
+https://arxiv.org/pdf/2408.11103
+----
+The upcoming CTEQ-TEA parton distributions in a nutshell
+A. Ablat, A. Courtoy, S. Dulat, M. Guzzi, T. J. Hobbs, T.-J. Hou, J. Huston, P. Nadolsky, I. Sitiwaldi, K. Xie, C.-P. Yuan
+https://arxiv.org/abs/2408.11131
+https://arxiv.org/pdf/2408.11131
+----
+Light quark loops in $K^\pm \to \pi^\pm \nu\bar\nu$ from vector meson dominance and update on the Kaon Unitarity Triangle
+E. Lunghi, A. Soni
+https://arxiv.org/abs/2408.11190
+https://arxiv.org/pdf/2408.11190
+----
+Solving the strong CP problem with massless grand-color quarks
+Ravneet Bedi, Tony Gherghetta, Keisuke Harigaya
+https://arxiv.org/abs/2408.11246
+https://arxiv.org/pdf/2408.11246
+----
+Towards a first principles light-front Hamiltonian for the nucleon
+Siqi Xu, Yiping Liu, Chandan Mondal, Jiangshan Lan, Xingbo Zhao, Yang Li, James P. Vary
+https://arxiv.org/abs/2408.11298
+https://arxiv.org/pdf/2408.11298
+----
+Photoproduction $\gamma p \to f_0(980) p$ in an effective Lagrangian approach
+Neng-Chang Wei, Ai-Chao Wang, Fei Huang
+https://arxiv.org/abs/2408.11352
+https://arxiv.org/pdf/2408.11352
+----
+Closure Testing the MSHT PDFs and a First Direct Comparison to the Neural Net Approach
+L. A. Harland-Lang, R.S. Thorne, T. Cridge
+https://arxiv.org/abs/2408.11423
+https://arxiv.org/pdf/2408.11423
+----
+Theoretical study of the open-flavor tetraquark $T_{c\bar{s}}(2900)$ in the process $\bar{B}_s^0 \to K^0 D^0 \pi^0$
+Wen-Tao Lyu, Man-Yu Duan, Xiaoyu Wang, Dian-Yong Chen, En Wang
+https://arxiv.org/abs/2408.11454
+https://arxiv.org/pdf/2408.11454
+----
+Strong decays of doubly charmed and bottom baryons
+Ya-Li Shu, Qing-Fu Song, Qi-Fang Lü
+https://arxiv.org/abs/2408.11578
+https://arxiv.org/pdf/2408.11578
+----
+Single- and double-unresolved limits of polarized tree-level matrix elements
+Thomas Gehrmann, Markus Löchner
+https://arxiv.org/abs/2408.11585
+https://arxiv.org/pdf/2408.11585
+----
+Exploring Axion-Like Particle Couplings through Single Top $tW$-Channel and Top Pair Production at the LHC
+Yasaman Hosseini, Mojtaba Mohammadi Najafabadi
+https://arxiv.org/abs/2408.11588
+https://arxiv.org/pdf/2408.11588
+----
+How the QCD trace anomaly behaves at the core of twin stars?
+José C. Jiménez, Lucas Lazzari, Victor P. Gonçalves
+https://arxiv.org/abs/2408.11614
+https://arxiv.org/pdf/2408.11614
+----
+RODEM Jet Datasets
+Knut Zoch, John Andrew Raine, Debajyoti Sengupta, Tobias Golling
+https://arxiv.org/abs/2408.11616
+https://arxiv.org/pdf/2408.11616
+----
+Exploring Abelian-Non-Abelian Kinetic Mixing in SMEFT and Beyond
+Van Que Tran, Tzu-Chiang Yuan
+https://arxiv.org/abs/2408.11626
+https://arxiv.org/pdf/2408.11626
+----
+Variational autoencoder inverse mapper for extraction of Compton form factors: Benchmarks and conditional learning
+Fayaz Hossen, Douglas Adams, Joshua Bautista, Yaohang Li, Gia-Wei Chern, Simonetta Liuti, Marie Boer, Marija Cuic, Gari R. Goldstein, Michael Engelhardt, Huey-Wen Li
+https://arxiv.org/abs/2408.11681
+https://arxiv.org/pdf/2408.11681
+----
+Tau polarization effects in $\nu_\tau / \bar{\nu}_\tau$-tungsten interactions at the LHC energies
+Reinaldo Francener, Victor P. Goncalves, Diego R. Gratieri
+https://arxiv.org/abs/2408.11736
+https://arxiv.org/pdf/2408.11736
+----
+Vector leptoquark contributions to lepton dipole moments
+Arvind Bhaskar, Diganta Das, Soumyadip Kundu, Anirudhan A. Madathil, Tanumoy Mandal, Subhadip Mitra
+https://arxiv.org/abs/2408.11798
+https://arxiv.org/pdf/2408.11798
+----

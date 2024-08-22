@@ -1,23 +1,9 @@
 #%%
-from bs4 import BeautifulSoup
 import os
 import re
 from datetime import datetime
-
-from arxiv_function import save_text_append, categories_content
+from arxiv_function import save_text_append, categories_content, read_HTML
 from printlog import printlog
-
-def read_HTML(category):
-    # Specify the file path to the HTML content located in the HTML folder
-    directory = "HTML"
-    file_path = os.path.join(directory, "arxiv_" + category + "_new.html")
-    # Read the HTML content from the file
-    with open(file_path, 'r', encoding='utf-8') as file:
-        html_content = file.read()
-    # Parse the HTML content
-    soup = BeautifulSoup(html_content, 'html.parser')
-    return soup
-
 #%% https://chatgpt.com/share/1b7cf3d0-66c0-43f2-a651-3c5cec21d345
 def cross_list_number(soup) -> str:
     cross_list_item = soup.find('a', string="Cross-lists")
@@ -133,7 +119,6 @@ def check_no_entry():
         save_text_append("No entries found for today.", file_path)
 
 today = datetime.now().strftime('%Y-%m-%d')
-# date = '2024-08-09'
 
 if __name__ == '__main__':
     for category in categories_content:

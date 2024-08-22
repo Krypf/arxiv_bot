@@ -1,0 +1,220 @@
+Dirac Theory as a Relativistic Flow
+Asher Yahalom
+https://arxiv.org/abs/2408.10216
+https://arxiv.org/pdf/2408.10216
+----
+Distributed and Secure Kernel-Based Quantum Machine Learning
+Arjhun Swaminathan, Mete Akgün
+https://arxiv.org/abs/2408.10265
+https://arxiv.org/pdf/2408.10265
+----
+Exploring the relation between qubit count in entangled systems and the CKW inequality
+Reza Hamzehofi
+https://arxiv.org/abs/2408.10272
+https://arxiv.org/pdf/2408.10272
+----
+Benchmarking quantum machine learning kernel training for classification tasks
+Diego Alvarez-Estevez
+https://arxiv.org/abs/2408.10274
+https://arxiv.org/pdf/2408.10274
+----
+Quantum scars in many-body systems
+Andrea Pizzi, Bertrand Evrard, Ceren B. Dag, Johannes Knolle
+https://arxiv.org/abs/2408.10301
+https://arxiv.org/pdf/2408.10301
+----
+Strict area law entanglement versus chirality
+Xiang Li, Ting-Chun Lin, John McGreevy, Bowen Shi
+https://arxiv.org/abs/2408.10306
+https://arxiv.org/pdf/2408.10306
+----
+Channel nonlocality under decoherence
+Albert Rico, Moisés Bermejo Morán, Fereshte Shahbeigi, Karol Życzkowski
+https://arxiv.org/abs/2408.10317
+https://arxiv.org/pdf/2408.10317
+----
+SDP bounds on quantum codes
+Gerard Anglès Munné, Andrew Nemec, Felix Huber
+https://arxiv.org/abs/2408.10323
+https://arxiv.org/pdf/2408.10323
+----
+Demonstration of Hardware Efficient Photonic Variational Quantum Algorithm
+Iris Agresti, Koushik Paul, Peter Schiansky, Simon Steiner, Zhengao Yin, Ciro Pentangelo, Simone Piacentini, Andrea Crespi, Yue Ban, Francesco Ceccarelli, Roberto Osellame, Xi Chen, Philip Walther
+https://arxiv.org/abs/2408.10339
+https://arxiv.org/pdf/2408.10339
+----
+Towards Necessary and sufficient state condition for violation of a multi-settings Bell inequality
+Swapnil Bhowmick, Som Kanjilal, A. K. Pan, Souradeep Sasmal
+https://arxiv.org/abs/2408.10350
+https://arxiv.org/pdf/2408.10350
+----
+Self-testing of multiple unsharpness parameters through sequential violations of non-contextual inequality
+Rajdeep Paul, Souradeep Sasmal, A. K. Pan
+https://arxiv.org/abs/2408.10363
+https://arxiv.org/pdf/2408.10363
+----
+Magneto-optical properties of Group-IV--vacancy centers in diamond upon hydrostatic pressure
+Meysam Mohseni, Lukas Razinkovas, Vytautas Žalandauskas, Gergő Thiering, Adam Gali
+https://arxiv.org/abs/2408.10407
+https://arxiv.org/pdf/2408.10407
+----
+Advances in quantum algorithms for the shortest path problem
+Adam Wesołowski, Stephen Piddock
+https://arxiv.org/abs/2408.10427
+https://arxiv.org/pdf/2408.10427
+----
+Eigenvalues and eigenvectors of complex Hadamard matrices
+Mengfan Liang, Lin Chen
+https://arxiv.org/abs/2408.10471
+https://arxiv.org/pdf/2408.10471
+----
+Observation of the Symmetry-Protected Signature of 3-body Interactions
+Liudmila A. Zhukas, Qingfeng Wang, Or Katz, Christopher Monroe, Iman Marvian
+https://arxiv.org/abs/2408.10475
+https://arxiv.org/pdf/2408.10475
+----
+Dependable Classical-Quantum Computer Systems Engineering
+Edoardo Giusto, Santiago Nuñez-Corrales, Phuong Cao, Alessandro Cilardo, Ravishankar K. Iyer, Weiwen Jiang, Paolo Rech, Flavio Vella, Bartolomeo Montrucchio, Samudra Dasgupta, Travis S. Humble
+https://arxiv.org/abs/2408.10484
+https://arxiv.org/pdf/2408.10484
+----
+Metasurface-enabled quantum holograms with hybrid entanglement
+Hong Liang, Wai Chun Wong, Tailin An, Jensen Li
+https://arxiv.org/abs/2408.10485
+https://arxiv.org/pdf/2408.10485
+----
+Interplay of Quantum Resources in Nonlocality Tests
+Hai-Hao Dong, Yuwei Zhu, Su-Yi Cheng, Xingjian Zhang, Cheng-Long Li, Ying-Zhao Li, Hao Li, Lixing You, Xiongfeng Ma, Qiang Zhang, Jian-Wei Pan
+https://arxiv.org/abs/2408.10489
+https://arxiv.org/pdf/2408.10489
+----
+Quantum-Trajectory-Inspired Lindbladian Simulation
+Sirui Peng, Xiaoming Sun, Qi Zhao, Hongyi Zhou
+https://arxiv.org/abs/2408.10505
+https://arxiv.org/pdf/2408.10505
+----
+Lorentz-covariance of Position Operator and its Eigenstates for a massive spin $1/2$ field
+Taeseung Choi
+https://arxiv.org/abs/2408.10540
+https://arxiv.org/pdf/2408.10540
+----
+Implementation of Continuous-Time Quantum Walk on Sparse Graph
+Zhaoyang Chen, Guanzhong Li, Lvzhou Li
+https://arxiv.org/abs/2408.10553
+https://arxiv.org/pdf/2408.10553
+----
+Multi-dimensional continuous time quantum walks related to the birth and death chains
+Yusuke Ide, Norio Konno, Akihiro Narimatsu
+https://arxiv.org/abs/2408.10574
+https://arxiv.org/pdf/2408.10574
+----
+Dirac Equation with Space Contributions Embedded in a Quantum-Corrected Gravitational Field
+M. Baradaran, L.M. Nieto, S. Zarrinkamar
+https://arxiv.org/abs/2408.10598
+https://arxiv.org/pdf/2408.10598
+----
+Number-operator-based inverse engineering technique in a two level system
+Kiran Thengil
+https://arxiv.org/abs/2408.10639
+https://arxiv.org/pdf/2408.10639
+----
+The Limits of Quantum Information Scrambling
+Ahmed Zahia, M. Y. Abd-Rabbou, Atta ur Rahman, Cong Feng Qiao
+https://arxiv.org/abs/2408.10684
+https://arxiv.org/pdf/2408.10684
+----
+Quantum Artificial Intelligence: A Brief Survey
+Matthias Klusch, Jörg Lässig, Daniel Müssig, Antonio Macaluso, Frank K. Wilhelm
+https://arxiv.org/abs/2408.10726
+https://arxiv.org/pdf/2408.10726
+----
+Robust self-testing of the $m-$partite maximally entangled state and observables
+Ritesh K. Singh, Souradeep Sasmal, A. K. Pan
+https://arxiv.org/abs/2408.10732
+https://arxiv.org/pdf/2408.10732
+----
+Fast Algorithms and Implementations for Computing the Minimum Distance of Quantum Codes
+Fernando Hernando, Gregorio Quintana-Ortí, Markus Grassl
+https://arxiv.org/abs/2408.10743
+https://arxiv.org/pdf/2408.10743
+----
+Connection between coherent states and some integrals and integral representations
+Dušan Popov
+https://arxiv.org/abs/2408.10749
+https://arxiv.org/pdf/2408.10749
+----
+Non-linear classification capability of quantum neural networks due to emergent quantum metastability
+Mario Boneberg, Federico Carollo, Igor Lesanovsky
+https://arxiv.org/abs/2408.10765
+https://arxiv.org/pdf/2408.10765
+----
+High-gain photon pair generation in a microring resonator with time-dependent non-perturbative effects
+Youngbin Kim, Seongjin Jeon, Young-Ik Sohn
+https://arxiv.org/abs/2408.10776
+https://arxiv.org/pdf/2408.10776
+----
+Solving an Industrially Relevant Quantum Chemistry Problem on Quantum Hardware
+Ludwig Nützel, Alexander Gresch, Lukas Hehn, Lucas Marti, Robert Freund, Alex Steiner, Christian D. Marciniak, Timo Eckstein, Nina Stockinger, Stefan Wolf, Thomas Monz, Michael Kühn, Michael J. Hartmann
+https://arxiv.org/abs/2408.10801
+https://arxiv.org/pdf/2408.10801
+----
+Optimal Superdense Coding Capacity in the Non-Markovian Regime
+Y. Aiache, S. Al-Kuwari, K. El Anouz, A. El Allati
+https://arxiv.org/abs/2408.10842
+https://arxiv.org/pdf/2408.10842
+----
+An analogue of the P\"oschl-Teller anharmonic oscillator on an $N$-dimensional sphere
+Radosław Szmytkowski
+https://arxiv.org/abs/2408.10860
+https://arxiv.org/pdf/2408.10860
+----
+Generalized Gleason and Kraus Theorems for hybrid classical-quantum probabilities
+S. Camalet
+https://arxiv.org/abs/2408.10882
+https://arxiv.org/pdf/2408.10882
+----
+Proposal of an optical Bell's experiment to test the boundary between determinism and indeterminism in Quantum Mechanics
+Alejandro Hnilo, Marcelo Kovalsky, Mónica Agüero, Myriam Nonaka
+https://arxiv.org/abs/2408.10904
+https://arxiv.org/pdf/2408.10904
+----
+SWAP-less Implementation of Quantum Algorithms
+Berend Klaver, Stefan Rombouts, Michael Fellner, Anette Messinger, Kilian Ender, Katharina Ludwig, Wolfgang Lechner
+https://arxiv.org/abs/2408.10907
+https://arxiv.org/pdf/2408.10907
+----
+Error threshold in active steering protocols for few-qubit systems
+Nico Ackermann, Samuel Morales, Alfredo Levy Yeyati, Sebastian Diehl, Reinhold Egger
+https://arxiv.org/abs/2408.10960
+https://arxiv.org/pdf/2408.10960
+----
+A numerical study of the spatial coherence of light in collective spontaneous emission
+Deniz Yavuz, Anirudh Yadav, David Gold, Thad Walker, Mark Saffman
+https://arxiv.org/abs/2408.10975
+https://arxiv.org/pdf/2408.10975
+----
+Bounding the systematic error in quantum error mitigation due to model violation
+L. C. G. Govia, S. Majumder, S. V. Barron, B. Mitchell, A. Seif, Y. Kim, C. J. Wood, E. J. Pritchett, S. T. Merkel, D. C. McKay
+https://arxiv.org/abs/2408.10985
+https://arxiv.org/pdf/2408.10985
+----
+Microsatellite-based real-time quantum key distribution
+Yang Li, Wen-Qi Cai, Ji-Gang Ren, Chao-Ze Wang, Meng Yang, Liang Zhang, Hui-Ying Wu, Liang Chang, Jin-Cai Wu, Biao Jin, Hua-Jian Xue, Xue-Jiao Li, Hui Liu, Guang-Wen Yu, Xue-Ying Tao, Ting Chen, Chong-Fei Liu, Wen-Bin Luo, Jie Zhou, Hai-Lin Yong, Yu-Huai Li, Feng-Zhi Li, Cong Jiang, Hao-Ze Chen, Chao Wu, Xin-Hai Tong, Si-Jiang Xie, Fei Zhou, Wei-Yue Liu, Nai-Le Liu, Li Li, Feihu Xu, Yuan Cao, Juan Yin, Rong Shu, Xiang-Bin Wang, Qiang Zhang, Jian-Yu Wang, Sheng-Kai Liao, Cheng-Zhi Peng, Jian-Wei Pan
+https://arxiv.org/abs/2408.10994
+https://arxiv.org/pdf/2408.10994
+----
+Enhanced Shadow Tomography of Molecular Excited States from Enforcing $N$-representability Conditions by Semidefinite Programming
+Irma Avdic, David A. Mazziotti
+https://arxiv.org/abs/2408.11025
+https://arxiv.org/pdf/2408.11025
+----
+Shadow Ansatz for the Many-Fermion Wave Function in Scalable Molecular Simulations on Quantum Computing Devices
+Yuchen Wang, Irma Avdic, David A. Mazziotti
+https://arxiv.org/abs/2408.11026
+https://arxiv.org/pdf/2408.11026
+----
+Quantum Machine Learning Algorithms for Anomaly Detection: a Survey
+Sebastiano Corli, Lorenzo Moro, Daniele Dragoni, Massimiliano Dispenza, Enrico Prati
+https://arxiv.org/abs/2408.11047
+https://arxiv.org/pdf/2408.11047
+----
