@@ -1,16 +1,14 @@
 #%%
-import sys
-from datetime import datetime, timedelta
-
 file_name = 'tests/import_module.py'
 with open(file_name, 'r') as file:
     script = file.read()
 exec(script)
-#%%
 # Now you can import the module
 import arxiv_function
 #%%
-
+import sys
+from datetime import datetime, timedelta
+#%%
 def date_range(start_date, end_date):
     current_date = start_date
     while current_date <= end_date:

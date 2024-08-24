@@ -1,0 +1,100 @@
+Nonminimal Superheavy Dark Matter
+Sarunas Verner
+https://arxiv.org/abs/2408.11889
+https://arxiv.org/pdf/2408.11889
+----
+Neutrino Nonstandard Interactions and Lepton Flavor Universality violation at SND@LHC via charm production
+Bhubanjyoti Bhattacharya, Alakabha Datta, Elena Graverini, Lopamudra Mukherjee, Divya Sachdeva, John Waite
+https://arxiv.org/abs/2408.11897
+https://arxiv.org/pdf/2408.11897
+----
+Anapole moment of neutrinos and radioactive sources near liquid xenon detectors
+Gonzalo Herrera, Patrick Huber
+https://arxiv.org/abs/2408.11904
+https://arxiv.org/pdf/2408.11904
+----
+$\phi$-$p$ bound state and completeness of quantum states
+Arkadiusz Kuros, Radoslaw Maj, Stanislaw Mrowczynski
+https://arxiv.org/abs/2408.11941
+https://arxiv.org/pdf/2408.11941
+----
+New Limits on Light Dark Matter-Nucleon Scattering
+Peter Cox, Matthew J. Dolan, Joshua Wood
+https://arxiv.org/abs/2408.12144
+https://arxiv.org/pdf/2408.12144
+----
+Three-zero texture of quark-mass matrices as a solution to the strong CP problem
+Qiuyue Liang, Risshin Okabe, Tsutomu T. Yanagida
+https://arxiv.org/abs/2408.12146
+https://arxiv.org/pdf/2408.12146
+----
+F\'eeton dark matter above the $e^-e^+$ threshold
+Tatsuya Hayashi, Shigeki Matsumoto, Yuki Watanabe, Tsutomu T. Yanagida
+https://arxiv.org/abs/2408.12155
+https://arxiv.org/pdf/2408.12155
+----
+X650->ZZ/WW/H125H95/A450Z -- scalar, tensor or both ?
+Alain Le Yaouanc, François Richard
+https://arxiv.org/abs/2408.12178
+https://arxiv.org/pdf/2408.12178
+----
+Multiple testing for signal-agnostic searches of new physics with machine learning
+Gaia Grosso, Marco Letizia
+https://arxiv.org/abs/2408.12296
+https://arxiv.org/pdf/2408.12296
+----
+Electroweak $W^+ W^+$ production in association with three jets at NLO QCD matched with parton shower
+Barbara Jäger, Santiago Lopez Portillo Chavez
+https://arxiv.org/abs/2408.12314
+https://arxiv.org/pdf/2408.12314
+----
+Q-ball collisions and their Gravitational Waves
+Deog Ki Hong, Stephen J. Lonsdale
+https://arxiv.org/abs/2408.12342
+https://arxiv.org/pdf/2408.12342
+----
+Color superconductivity in the two-flavor quark-meson diquark model
+Jens O. Andersen, Mathias P. Nødtvedt
+https://arxiv.org/abs/2408.12361
+https://arxiv.org/pdf/2408.12361
+----
+From strange-quark tagging to fragmentation tagging with machine learning
+Yevgeny Kats, Edo Ofir
+https://arxiv.org/abs/2408.12377
+https://arxiv.org/pdf/2408.12377
+----
+Singlet-Doublet Fermionic Dark Matter in Gauge Theory of Baryons
+Taramati, Rameswar Sahu, Utkarsh Patel, Kirtiman Ghosh, Sudhanwa Patra
+https://arxiv.org/abs/2408.12424
+https://arxiv.org/pdf/2408.12424
+----
+Nuclear Production and Analytic Attenuation of Energetic MeV Solar Dark Matter
+Shao-Feng Ge, Jie Sheng, Chen Xia, Chuan-Yang Xing
+https://arxiv.org/abs/2408.12448
+https://arxiv.org/pdf/2408.12448
+----
+Thermal and non-thermal dark matters with gravitational neutrino reheating
+Md Riajul Haque, Debaprasad Maity, Rajesh Mondal
+https://arxiv.org/abs/2408.12450
+https://arxiv.org/pdf/2408.12450
+----
+A novel method to indirectly reconstruct neutrinos in collider experiments
+Hongrong Qi, Paoti Chang
+https://arxiv.org/abs/2408.12472
+https://arxiv.org/pdf/2408.12472
+----
+UV Completion of Neutral Triple Gauge Couplings
+John Ellis, Hong-Jian He, Rui-Qing Xiao, Shi-Ping Zeng, Jiaming Zheng
+https://arxiv.org/abs/2408.12508
+https://arxiv.org/pdf/2408.12508
+----
+Interplay between the weak-coupling results and the lattice data in dense QCD
+Yuki Fujimoto
+https://arxiv.org/abs/2408.12514
+https://arxiv.org/pdf/2408.12514
+----
+Spectral eigenfunction decomposition of a Fokker-Planck operator for relativistic heavy-ion collisions
+A. Rizzi, G. Wolschin
+https://arxiv.org/abs/2408.12532
+https://arxiv.org/pdf/2408.12532
+----

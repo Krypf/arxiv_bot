@@ -1,0 +1,30 @@
+On reduced basis methods for eigenvalue problems, with an application to eigenvector continuation
+Louis Garrigue, Benjamin Stamm
+https://arxiv.org/abs/2408.11924
+https://arxiv.org/pdf/2408.11924
+----
+Analysis of nearly planar defects using the Thomas--Fermi--von Weiszacker model
+Dharamveer Kumar, Amuthan A. Ramabathiran
+https://arxiv.org/abs/2408.11933
+https://arxiv.org/pdf/2408.11933
+----
+A strange five vertex model and multispecies ASEP on a ring
+Atsuo Kuniba, Masato Okado, Travis Scrimshaw
+https://arxiv.org/abs/2408.12092
+https://arxiv.org/pdf/2408.12092
+----
+Two-Time Measurement of Entropy Transfer in Markovian Quantum Dynamics
+A. Joye, C.-A. Pillet
+https://arxiv.org/abs/2408.12231
+https://arxiv.org/pdf/2408.12231
+----
+Bihamiltonian structure of the DR hierarchy in the semisimple case
+Alexandr Buryak, Paolo Rossi
+https://arxiv.org/abs/2408.12397
+https://arxiv.org/pdf/2408.12397
+----
+Note on the attraction of an ellipsoid in a spherical universe
+Alain Albouy
+https://arxiv.org/abs/2408.12453
+https://arxiv.org/pdf/2408.12453
+----

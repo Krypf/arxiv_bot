@@ -1,7 +1,16 @@
+#%%
+file_name = 'tests/import_module.py'
+with open(file_name, 'r') as file:
+    script = file.read()
+exec(script)
+#%%
+# Now you can import the module
+# import arxiv_function
 from twitter_function import load_credentials
 from arxiv_function import categories_content
 
 import tweepy
+import os
 # Specify the file you want to read from
 category = credentials_file = categories_content[0]
 
@@ -20,9 +29,12 @@ auth = tweepy.OAuth1UserHandler(
 api = tweepy.API(auth)
 print(api)
 # Function to read content from a text file and tweet it
-def tweet_from_file(filename):
+def tweet_from_file(file_name):
+    parent_folder = 'tests'
+    file_path = os.path.join(parent_folder, file_name)
+    
     try:
-        with open(filename, 'r') as file:
+        with open(file_path, 'r') as file:
             tweet_content = file.read().strip()
             
             # Check if the tweet content is within Twitter's character limit
@@ -33,10 +45,14 @@ def tweet_from_file(filename):
                 print("Tweet content exceeds 280 characters. Please shorten the text.")
                 
     except FileNotFoundError:
-        print(f"File {filename} not found.")
-    except tweepy.TweepError as e:
-        print(f"Error occurred: {e.reason}")
+        print(f"File {file_name} not found.")
+
+    except tweepy.errors.TweepyException as e:
+        print(file_name)
+        print(f"Error occurred: {e}")
 
 # Specify the file you want to tweet from
 tweet_file = "tweet.txt"
 tweet_from_file(tweet_file)
+
+# %%
