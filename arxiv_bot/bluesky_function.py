@@ -82,6 +82,8 @@ def shorten_authors(authors):
     authors_list = authors.split(", ")
     return authors_list[0] + " " + "et al."
 
+# 無駄が多いので後で shorten_paper_info を修正したい
+
 def shorten_paper_info(paper_info):
     title_line, authors_line, arxiv_url, pdf_url = paper_info.split("\n")    
     authors_line = shorten_authors(authors_line)
