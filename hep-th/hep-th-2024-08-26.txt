@@ -1,0 +1,95 @@
+Stringy Scaling
+Sheng-Hong Lai, Jen-Chi Lee, Yi Yang
+https://arxiv.org/abs/2408.12612
+https://arxiv.org/pdf/2408.12612
+----
+Toward stringy horizons
+Elliott Gesteau, Hong Liu
+https://arxiv.org/abs/2408.12642
+https://arxiv.org/pdf/2408.12642
+----
+Out-Of-Time-Ordered-Correlators for the Pure Inverted Quartic Oscillator: Classical Chaos meets Quantum Stability
+Paul Romatschke
+https://arxiv.org/abs/2408.12643
+https://arxiv.org/pdf/2408.12643
+----
+BMN-like sectors in 4d $\mathcal N=4$ SYM with boundaries and interfaces
+Andrea Chaney, Christoph F. Uhlemann
+https://arxiv.org/abs/2408.12651
+https://arxiv.org/pdf/2408.12651
+----
+Generating functions for $\mathcal{N}=2$ BPS structures
+Murad Alim, Daniel Bryan
+https://arxiv.org/abs/2408.12703
+https://arxiv.org/pdf/2408.12703
+----
+AdS$_{3}$ spacetime genus fluctuations and their influence on the false vacuum decay
+Hong Wang, Jin Wang
+https://arxiv.org/abs/2408.12810
+https://arxiv.org/pdf/2408.12810
+----
+Effective field theories of dissipative fluids with one-form symmetries
+Shreya Vardhan, Sašo Grozdanov, Samuel Leutheusser, Hong Liu
+https://arxiv.org/abs/2408.12868
+https://arxiv.org/pdf/2408.12868
+----
+A free field approach to $\widehat{g}_{k}$ and parafermionic $\widehat{g}_{k}/\widehat{u(1)}^{r}$ Ishibashi states
+Xun Liu
+https://arxiv.org/abs/2408.12887
+https://arxiv.org/pdf/2408.12887
+----
+Integrals of motion in conformal field theory with W-symmetry and the ODE/IM correspondence
+Katsushi Ito, Mingshuo Zhu
+https://arxiv.org/abs/2408.12917
+https://arxiv.org/pdf/2408.12917
+----
+Identifying optimal large $N$ limits for marginal $\phi^4$ theory in 4d
+Nadia Flodgren
+https://arxiv.org/abs/2408.13004
+https://arxiv.org/pdf/2408.13004
+----
+Perturbations in $\mathbf{O}(D,D)$ string cosmology from double field theory
+Stephen Angus, Shinji Mukohyama
+https://arxiv.org/abs/2408.13032
+https://arxiv.org/pdf/2408.13032
+----
+S-Matrix Bootstrap and Non-Invertible Symmetries
+Christian Copetti, Lucia Cordova, Shota Komatsu
+https://arxiv.org/abs/2408.13132
+https://arxiv.org/pdf/2408.13132
+----
+Renormalization and running in the 2D $CP(1)$ model
+Diego Buccio, John F. Donoghue, Gabriel Menezes, Roberto Percacci
+https://arxiv.org/abs/2408.13142
+https://arxiv.org/pdf/2408.13142
+----
+Diagram dependance of the $\mathbb{CP}(1)$ beta function
+Kasra Kiaee, Alexander Monin
+https://arxiv.org/abs/2408.13159
+https://arxiv.org/pdf/2408.13159
+----
+Casimir effect of a doubly Lorentz-violating scalar in magnetic field
+Andrea Erdas
+https://arxiv.org/abs/2408.13188
+https://arxiv.org/pdf/2408.13188
+----
+Geometric Actions for Lower-Spin Gravity
+Stéphane Detournay, Quentin Vandermiers
+https://arxiv.org/abs/2408.13198
+https://arxiv.org/pdf/2408.13198
+----
+The symplectic potential for leaky boundaries
+Robert McNees, Céline Zwikel
+https://arxiv.org/abs/2408.13203
+https://arxiv.org/pdf/2408.13203
+----
+Unfolded Formulation of 4d Yang-Mills Theory
+Nikita Misuna
+https://arxiv.org/abs/2408.13212
+https://arxiv.org/pdf/2408.13212
+----
+Celestial amplitudes on electromagnetic backgrounds: T-duality from S-duality
+Tristan McLoughlin, Nathan Moynihan, Andrea Puhm
+https://arxiv.org/abs/2408.13234
+https://arxiv.org/pdf/2408.13234
+----

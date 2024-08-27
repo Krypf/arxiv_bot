@@ -1,0 +1,135 @@
+Quantum Generative Adversarial Networks: Generating and Detecting Quantum Product States
+James E. Steck, Elizabeth C. Behrman
+https://arxiv.org/abs/2408.12620
+https://arxiv.org/pdf/2408.12620
+----
+Surrogate Constructed Scalable Circuits ADAPT-VQE in the Schwinger model
+Erik Gustafson, Kyle Sherbert, Adrien Florio, Karunya Shirali, Yanzhu Chen, Henry Lamm, Semeon Valgushev, Andreas Weichselbaum, Sophia E. Economou, Robert D. Pisarski, Norm M. Tubman
+https://arxiv.org/abs/2408.12641
+https://arxiv.org/pdf/2408.12641
+----
+Probing topological entanglement on large scales
+Robert Ott, Torsten V. Zache, Nishad Maskara, Mikhail D. Lukin, Peter Zoller, Hannes Pichler
+https://arxiv.org/abs/2408.12645
+https://arxiv.org/pdf/2408.12645
+----
+A Monte Carlo Tree Search approach to QAOA: finding a needle in the haystack
+Andoni Agirre, Evert Van Nieuwenburg, Matteo M. Wauters
+https://arxiv.org/abs/2408.12648
+https://arxiv.org/pdf/2408.12648
+----
+New Bounds on Quantum Sample Complexity of Measurement Classes
+Mohsen Heidari, Wojciech Szpankowski
+https://arxiv.org/abs/2408.12683
+https://arxiv.org/pdf/2408.12683
+----
+Spatio-spectral control of spontaneous emission
+Seyyed Hossein Asadpour, Muqaddar Abbas, Hamid R. Hamedi, Julius Ruseckas, Emmanuel Paspalakis, Reza Asgari
+https://arxiv.org/abs/2408.12700
+https://arxiv.org/pdf/2408.12700
+----
+A General Framework for Gradient-Based Optimization of Superconducting Quantum Circuits using Qubit Discovery as a Case Study
+Taha Rajabzadeh, Alex Boulton-McKeehan, Sam Bonkowsky, David I. Schuster, Amir H. Safavi-Naeini
+https://arxiv.org/abs/2408.12704
+https://arxiv.org/pdf/2408.12704
+----
+Quantum Convolutional Neural Networks are (Effectively) Classically Simulable
+Pablo Bermejo, Paolo Braccia, Manuel S. Rudolph, Zoë Holmes, Lukasz Cincio, M. Cerezo
+https://arxiv.org/abs/2408.12739
+https://arxiv.org/pdf/2408.12739
+----
+Comparing the cost of violating causal assumptions in Bell experiments: locality, free choice and arrow-of-time
+Pawel Blasiak, Christoph Gallus
+https://arxiv.org/abs/2408.12740
+https://arxiv.org/pdf/2408.12740
+----
+High-distance codes with transversal Clifford and $T$-gates
+Shubham P. Jain, Victor V. Albert
+https://arxiv.org/abs/2408.12752
+https://arxiv.org/pdf/2408.12752
+----
+Month-long-lifetime microwave spectral holes in an erbium-doped scheelite crystal at millikelvin temperature
+Zhiren Wang, Sen Lin, Marianne Le Dantec, Miloš Rančić, Philippe Goldner, Sylvain Bertaina, Thierry Chanelière, Ren-Bao Liu, Daniel Esteve, Denis Vion, Emmanuel Flurin, Patrice Bertet
+https://arxiv.org/abs/2408.12758
+https://arxiv.org/pdf/2408.12758
+----
+Evaluation of quantum Fisher information for large system
+Qi Liu
+https://arxiv.org/abs/2408.12918
+https://arxiv.org/pdf/2408.12918
+----
+Towards a Resource-Optimized Dynamic Quantum Algorithm via Non-iterative Auxiliary Subspace Corrections
+Chayan Patra, Debaarjun Mukherjee, Sonaldeep Halder, Dibyendu Mondal, Rahul Maitra
+https://arxiv.org/abs/2408.12944
+https://arxiv.org/pdf/2408.12944
+----
+Single-qubit rotations on a binomial code without ancillary qubits
+Yuki Tanaka, Yuichiro Mori, Yuta Shingu, Aiko Yamaguchi, Tsuyoshi Yamamoto, Yuichiro Matsuzaki
+https://arxiv.org/abs/2408.12968
+https://arxiv.org/pdf/2408.12968
+----
+Attractive-repulsive interaction in coupled quantum oscillators
+Bulti Paul, Biswabibek Bandyopadhyay, Tanmoy Banerjee
+https://arxiv.org/abs/2408.12972
+https://arxiv.org/pdf/2408.12972
+----
+High-dimentional Multipartite Entanglement Structure Detection with Low Cost
+Rui Li, Shikun Zhang, Zheng Qin, Chunxiao Du, Yang Zhou, Zhisong Xiao
+https://arxiv.org/abs/2408.13015
+https://arxiv.org/pdf/2408.13015
+----
+Speakable and unspeakable in quantum measurements
+D.Sokolovski, D.Alonso, S.Brouard
+https://arxiv.org/abs/2408.13023
+https://arxiv.org/pdf/2408.13023
+----
+Emergence of global receptive fields capturing multipartite quantum correlations
+Oleg M. Sotnikov, Ilia A. Iakovlev, Evgeniy O. Kiktenko, Mikhail I. Katsnelson, Aleksey K. Fedorov, Vladimir V. Mazurenko
+https://arxiv.org/abs/2408.13033
+https://arxiv.org/pdf/2408.13033
+----
+Enhancing Gaussian quantum metrology with position-momentum correlations
+João C. P. Porto, Lucas S. Marinho, Pedro R. Dieguez, Irismar G. da Paz, Carlos H. S. Vieira
+https://arxiv.org/abs/2408.13060
+https://arxiv.org/pdf/2408.13060
+----
+Experimental practical quantum tokens with transaction time advantage
+Yang-Fan Jiang, Adrian Kent, Damián Pitalúa-García, Xiaochen Yao, Xiaohan Chen, Jia Huang, George Cowperthwaite, Qibin Zheng, Hao Li, Lixing You, Yang Liu, Qiang Zhang, Jian-Wei Pan
+https://arxiv.org/abs/2408.13063
+https://arxiv.org/pdf/2408.13063
+----
+Empirical Power of Quantum Encoding Methods for Binary Classification
+Gennaro De Luca, Andrew Vlasic, Michael Vitz, Anh Pham
+https://arxiv.org/abs/2408.13109
+https://arxiv.org/pdf/2408.13109
+----
+Quantum Rainbow Codes
+Thomas R. Scruby, Arthur Pesah, Mark Webster
+https://arxiv.org/abs/2408.13130
+https://arxiv.org/pdf/2408.13130
+----
+Motion-driven quantum dissipation in an open electronic system with nonlocal interaction
+Yang Wang, Ruanjing Zhang, Feiyi Liu
+https://arxiv.org/abs/2408.13163
+https://arxiv.org/pdf/2408.13163
+----
+Gravitational-wave matched filtering with variational quantum algorithms
+Jason Pye, Edric Matwiejew, Aidan Smith, Manoj Kovalam, Jingbo B. Wang, Linqing Wen
+https://arxiv.org/abs/2408.13177
+https://arxiv.org/pdf/2408.13177
+----
+Improved Recursive QAOA for Solving MAX-CUT on Bipartite Graphs
+Eunok Bae, Hyukjoon Kwon, V Vijendran, Soojoon Lee
+https://arxiv.org/abs/2408.13207
+https://arxiv.org/pdf/2408.13207
+----
+Optimal Quantum Circuit Design via Unitary Neural Networks
+M. Zomorodi, H. Amini, M. Abbaszadeh, J. Sohrabi, V. Salari, P. Plawiak
+https://arxiv.org/abs/2408.13211
+https://arxiv.org/pdf/2408.13211
+----
+Fullerene-encapsulated Cyclic Ozone for the Next Generation of Nano-sized Propellants via Quantum Computation
+Thomas W. Watts, Matthew Otten, Jason T. Necaise, Nam Nguyen, Benjamin Link, Kristen S. Williams, Yuval R. Sanders, Samuel J. Elman, Maria Kieferova, Michael J. Bremner, Kaitlyn J. Morrell, Justin E. Elenewski, Samuel D. Johnson, Luke Mathieson, Kevin M. Obenland, Rashmi Sundareswara, Adam Holmes
+https://arxiv.org/abs/2408.13244
+https://arxiv.org/pdf/2408.13244
+----

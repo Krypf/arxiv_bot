@@ -1,0 +1,25 @@
+The General Three-Body Problem in Conformal-Euclidean Space: Hidden Symmetries and New Properties of a Low-Dimensional Syste
+A. S. Gevorkyan, A. V. Bogdanov, V. V. Mareev
+https://arxiv.org/abs/2408.13969
+https://arxiv.org/pdf/2408.13969
+----
+The free energy of dilute Bose gases at low temperatures interacting via strong potentials
+S. Fournais, L. Junge, T. Girardot, L. Morin, M. Olivieri, A. Triay
+https://arxiv.org/abs/2408.14222
+https://arxiv.org/pdf/2408.14222
+----
+A New Paradigm For Scattering Theory of Linear And Nonlinear Waves: Review And Open Problem
+Avy Soffer
+https://arxiv.org/abs/2408.14269
+https://arxiv.org/pdf/2408.14269
+----
+A $q$-version of the relation between the hypercube, the Krawtchouk chain and Dicke states
+Pierre-Antoine Bernard, Étienne Poliquin, Luc Vinet
+https://arxiv.org/abs/2408.14388
+https://arxiv.org/pdf/2408.14388
+----
+Even More Generalized Hamiltonian Dynamics
+W. A. Horowitz, A. Rothkopf
+https://arxiv.org/abs/2408.14420
+https://arxiv.org/pdf/2408.14420
+----

@@ -1,0 +1,75 @@
+Further Remarks on the Entanglement Entropy of Hopf links
+C. J. Ramírez-Valdez, H. García-Compeán, J. de-la-Cruz-Moreno
+https://arxiv.org/abs/2408.13439
+https://arxiv.org/pdf/2408.13439
+----
+Spacetime dilaton in ${\rm AdS}_3\times X$ holography
+Vit Sriprachyakul
+https://arxiv.org/abs/2408.13488
+https://arxiv.org/pdf/2408.13488
+----
+Partial entanglement entropy threads in island phase
+Qiang Wen, Mingshuai Xu, Haocheng Zhong
+https://arxiv.org/abs/2408.13535
+https://arxiv.org/pdf/2408.13535
+----
+Fragmented perspective of self-organized criticality and disorder in log gravity
+Yannick Mvondo-She
+https://arxiv.org/abs/2408.13544
+https://arxiv.org/pdf/2408.13544
+----
+Dissipation and Decay of Three Dimensional Holographic Quantum Turbulence
+Hua-Bi Zeng, Chuan-Yin Xia, Wei-Can Yang, Yu Tian, Makoto Tsubota
+https://arxiv.org/abs/2408.13620
+https://arxiv.org/pdf/2408.13620
+----
+Gravitational Waves from High Temperature Strings
+Andrew R. Frey, Ratul Mahanta, Anshuman Maharana, Fernando Quevedo, Gonzalo Villa
+https://arxiv.org/abs/2408.13803
+https://arxiv.org/pdf/2408.13803
+----
+On the conformal limit of a QED-inspired model
+O Oliveira, T Frederico, W de Paula
+https://arxiv.org/abs/2408.13923
+https://arxiv.org/pdf/2408.13923
+----
+Towards All Categorical Symmetries in 2+1 Dimensions
+Mathew Bullimore, Jamie J. Pearson
+https://arxiv.org/abs/2408.13931
+https://arxiv.org/pdf/2408.13931
+----
+Non-invertible flavor symmetries in magnetized extra dimensions
+Tatsuo Kobayashi, Hajime Otsuka
+https://arxiv.org/abs/2408.13984
+https://arxiv.org/pdf/2408.13984
+----
+Renyi reflected entropy and entanglement wedge cross section with cosmic branes in AdS/BCFT
+Byoungjoon Ahn, Sang-Eon Bak, Keun-Young Kim, Mitsuhiro Nishida
+https://arxiv.org/abs/2408.14034
+https://arxiv.org/pdf/2408.14034
+----
+Chaos Bound and its violation in Black p-brane
+Pinaki Dutta, Kamal L. Panigrahi, Balbeer Singh
+https://arxiv.org/abs/2408.14056
+https://arxiv.org/pdf/2408.14056
+----
+Measuring Chern-Simons level $k$ by braiding $SU(2)_k$ anyons
+Artem Belov, Andrey Morozov
+https://arxiv.org/abs/2408.14188
+https://arxiv.org/pdf/2408.14188
+----
+Three-dimensional $\operatorname{SL}(2,\mathbb R)$ Yang-Mills theory is three-dimensional gravity with background sources
+Leron Borsten, Dimitri Kanakaris, Hyungrok Kim
+https://arxiv.org/abs/2408.14228
+https://arxiv.org/pdf/2408.14228
+----
+The asymptotic Hopf Algebra of Feynman Integrals
+Mrigankamauli Chakraborty, Franz Herzog
+https://arxiv.org/abs/2408.14304
+https://arxiv.org/pdf/2408.14304
+----
+Towards celestial chiral algebras of self-dual black holes
+Giuseppe Bogna, Simon Heuveline
+https://arxiv.org/abs/2408.14324
+https://arxiv.org/pdf/2408.14324
+----

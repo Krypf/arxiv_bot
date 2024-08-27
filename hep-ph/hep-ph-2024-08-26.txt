@@ -1,0 +1,85 @@
+Colour-electric and colour-magnetic confinement
+N.O. Agasian, Z.V. Khaidukov, M.S. Lukashov, Yu.A. Simonov
+https://arxiv.org/abs/2408.12628
+https://arxiv.org/pdf/2408.12628
+----
+Testing the lepton content of the proton at HERA and EIC
+Leandro Da Rold, Anibal D. Medina, Subhojit Roy, Carlos E.M. Wagner
+https://arxiv.org/abs/2408.12644
+https://arxiv.org/pdf/2408.12644
+----
+Heavy-quark diffusion in 2+1D and Glasma-like plasmas: evidence of a transport peak
+Liane Backfried, Kirill Boguslavski, Paul Hotzy
+https://arxiv.org/abs/2408.12646
+https://arxiv.org/pdf/2408.12646
+----
+The Standard Model CP Violation is Enough
+Gilly Elor, Rachel Houtz, Seyda Ipek, Martha Ulloa
+https://arxiv.org/abs/2408.12647
+https://arxiv.org/pdf/2408.12647
+----
+Gravitationally Misaligned Ultralight Dark Matter and Implications for Neutron Stars
+Hooman Davoudiasl
+https://arxiv.org/abs/2408.12667
+https://arxiv.org/pdf/2408.12667
+----
+Analytic amplitudes for a pair of Higgs bosons in association with three partons
+John M. Campbell, Giuseppe De Laurentis, R. Keith Ellis
+https://arxiv.org/abs/2408.12686
+https://arxiv.org/pdf/2408.12686
+----
+The photon parton distribution function: updates and applications
+Aneesh Manohar, Paolo Nason, Gavin Salam, Giulia Zanderighi
+https://arxiv.org/abs/2408.12719
+https://arxiv.org/pdf/2408.12719
+----
+Improved precision on 2-3 oscillation parameters using the synergy between DUNE and T2HK
+Sanjib Kumar Agarwalla, Ritam Kundu, Masoom Singh
+https://arxiv.org/abs/2408.12735
+https://arxiv.org/pdf/2408.12735
+----
+Spectroscopic Analysis of Singly Heavy Pentaquarks in the Symmetric 15-Plet Representation Using Phenomenological Models
+Ankush Sharma, Alka Upadhyay
+https://arxiv.org/abs/2408.12881
+https://arxiv.org/pdf/2408.12881
+----
+Production of single isolated photons in the Parton Reggeization Approach
+Alexey Chernyshev, Vladimir Saleev
+https://arxiv.org/abs/2408.12906
+https://arxiv.org/pdf/2408.12906
+----
+A study of systematic uncertainties within the MSHT PDF Framework
+Matthew Reader
+https://arxiv.org/abs/2408.12922
+https://arxiv.org/pdf/2408.12922
+----
+Search for the $\Sigma(1380)1/2^-$ state in $\Lambda^+_c \to \gamma \pi^+ \Lambda$ decay by triangle singularity
+Ke Wang, Yu-Fei Wang, Bo-Chao Liu, Fei Huang
+https://arxiv.org/abs/2408.12965
+https://arxiv.org/pdf/2408.12965
+----
+Exploring observable effects of scalar operators beyond SMEFT in the angular distribution of $B\to K^{*0} \tau^+ \tau^- $
+Siddhartha Karmakar, Amol Dighe
+https://arxiv.org/abs/2408.13069
+https://arxiv.org/pdf/2408.13069
+----
+Analysis of the resonance X(4630) at non-zero temperature
+G. Bozkır
+https://arxiv.org/abs/2408.13093
+https://arxiv.org/pdf/2408.13093
+----
+Exact two-loop amplitudes for Higgs plus jet production with a cubic Higgs self-coupling
+Ulrich Haisch, Marco Niggetiedt
+https://arxiv.org/abs/2408.13186
+https://arxiv.org/pdf/2408.13186
+----
+On the impact of the mixed $Z/ \gamma$ PDF at muon colliders
+David Marzocca, Alfredo Stanzione
+https://arxiv.org/abs/2408.13191
+https://arxiv.org/pdf/2408.13191
+----
+Non-unitary limits on different textures for low-scale seesaw models
+Jesús Miguel Celestino-Ramírez, G. Hernández-Tomé, O. G. Miranda, Eduardo Peinado
+https://arxiv.org/abs/2408.13232
+https://arxiv.org/pdf/2408.13232
+----
