@@ -78,19 +78,10 @@ def send_post_to_twitter(client, text, thumb=None, max_letter=280):
         title_line, authors_line, arxiv_url, pdf_url = t.split("\n") 
         tw = make_a_tweet(title_line, authors_line, arxiv_url)
         client.create_tweet(text=tw)
-        print("Tweet posted successfully!")
+        # print("Tweet posted successfully!")
         printlog(f"posted\n{t}")
-    except FileNotFoundError:
-        print(f"File {file_path} not found.")
-
     except tweepy.errors.TweepyException as e:
         print(f"Error occurred: {e}")
-
-    # tb = make_a_rich_text(title_line, authors_line, arxiv_url)
-    # embed_external = make_a_linkcard(title_line, pdf_url, thumb)
-    
-
-    printlog(f"posted\n{t}")
 
     return None
 

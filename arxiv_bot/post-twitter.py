@@ -14,24 +14,20 @@ def main(category, date, sleep_time=1):
     text = read_text_file(category, date, parent_folder=os.path.expanduser("~/arxiv_bot"))
     # Split the text using "----" as the delimiter
     text_array = text.split("\n----\n")
-    for t in text_array:
-        send_post_to_twitter(client, t, thumb)
-        time.sleep(sleep_time)    
+    # for t in text_array:
+    t = text_array[0]
+    send_post_to_twitter(client, t)
+    time.sleep(sleep_time)    
     return 0
-
-def main(category, date, sleep_time=1):
-    
-    return 0
-
-main()
 
 #%%
 
 today = datetime.now().strftime('%Y-%m-%d')
 
 if __name__ == '__main__':
-    for category in categories_content:
-        printlog(f"The category is {category}")
-        main(category, today)
+    # for category in categories_content:
+    category = categories_content[0]
+    printlog(f"The category is {category}")
+    main(category, today)
     printlog(f"This is the end of all the posts on {today}")
 
