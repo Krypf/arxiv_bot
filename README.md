@@ -53,6 +53,26 @@ Python で Bot を作ります。
 > https://docs.bsky.app/docs/tutorials/creating-a-post 
 > https://docs.bsky.app/docs/tutorials/creating-a-post#website-card-embeds
 
+成果物は[こちら](https://bsky.app/profile/krypf.bsky.social/lists/3kzls5tw2uw2t)
+
+# Twitter API
+
+Twitter でも bot を作りました (version 1.0)。
+
+2023年5月以来の悲願でした。
+
+> X Developers  
+> https://developer.x.com/en/portal/petition/essential/terms?plan=free 
+
+Requirement は tweepy です。
+
+> Tweepy https://www.tweepy.org/ 
+
+> tweepy/tweepy: Twitter for Python!  
+> https://github.com/tweepy/tweepy 
+
+成果物は [こちら](https://x.com/i/lists/1828539335723163734) です。
+
 # arXiv API
 
 arXiv にも API が用意されていますが、API よりも Web ページのソースを利用したほうが性能が良いので、main code では使わないつもりです。
