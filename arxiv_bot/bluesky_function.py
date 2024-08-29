@@ -63,35 +63,25 @@ def make_a_linkcard(title_line, pdf_url, thumb):
     )
     return embed_external
 #%%
-def shorten_authors(authors):
-    authors_list = authors.split(", ")
-    return authors_list[0] + " " + "et al."
 
-# 無駄が多いので後で shorten_paper_info を修正したい
+from arxiv_function import check_last, shorten_paper_info
 
-def shorten_paper_info(paper_info):
-    title_line, authors_line, arxiv_url, pdf_url = paper_info.split("\n")    
-    authors_line = shorten_authors(authors_line)
-    
-    return f"{title_line}\n{authors_line}\n{arxiv_url}\n{pdf_url}"# there is not \n in the last
-
-def send_post_to_bluesky(client, text, thumb, max_letter=300):
+def send_post_to_bluesky(client, text, thumb, max_letter=300, today='today'):
     t = text
     if len(t) == 0:
         # last entry
-        t = 'These are all new submissions for today.'
+        t = check_last(t, today)
         client.send_post(t)
-        printlog(f"posted\n{t}")
         return None
     if len(t) > max_letter:
-        t = shorten_paper_info(t)
+        t = shorten_paper_info(t, max_letter)
     
     title_line, authors_line, arxiv_url, pdf_url = t.split("\n") 
     tb = make_a_rich_text(title_line, authors_line, arxiv_url)
     embed_external = make_a_linkcard(title_line, pdf_url, thumb)
     
     client.send_post(tb, embed=embed_external)
-    printlog(f"posted\n{t}")
+    printlog(f"posted on Bluesky\n{t}")
 
     return None
 

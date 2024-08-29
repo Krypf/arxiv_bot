@@ -4,7 +4,7 @@ import time
 from datetime import datetime
 
 from printlog import printlog
-from arxiv_function import categories_content, ArxivText
+from arxiv_function import categories_content, ArxivText, arxiv_formatted_date
 from bluesky_function import bsky_login, send_post_to_bluesky
 #%%
 def main(obj: ArxivText, sleep_time=1):
@@ -12,8 +12,9 @@ def main(obj: ArxivText, sleep_time=1):
     text = obj.read_content()
     # Split the text using "----" as the delimiter
     text_array = text.split("\n----\n")
+    d = arxiv_formatted_date(obj.date)
     for t in text_array:
-        send_post_to_bluesky(client, t, thumb)
+        send_post_to_bluesky(client, t, thumb, today=d)
         time.sleep(sleep_time)    
     printlog(f"This is the end of all the posts on {obj.date}")
     return 0

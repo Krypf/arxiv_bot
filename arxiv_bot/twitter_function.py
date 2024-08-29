@@ -50,8 +50,6 @@ def twitter_login(category):
 
 # Function to read content from a text file and tweet it
 
-from printlog import printlog
-from bluesky_function import shorten_paper_info
 
 def make_a_tweet(title_line, authors_line, arxiv_url, pdf_url):
     tw = str()
@@ -61,18 +59,19 @@ def make_a_tweet(title_line, authors_line, arxiv_url, pdf_url):
     tw += ('\n' + pdf_url)
     return tw
 
-def send_post_to_twitter(client, text, thumb=None, max_letter=280):
+from printlog import printlog
+from arxiv_function import check_last, shorten_paper_info
+
+def send_post_to_twitter(client, text, thumb=None, max_letter=280, today='today'):
     t = text
     if len(t) == 0:
         # last entry
-        t = 'These are all new submissions for today.'
+        t = check_last(t, today)
         client.create_tweet(text=t)
-        printlog(f"posted\n{t}")
         return None
     if len(t) > max_letter:
         # Check if the tweet content is within Twitter's character limit
-        t = shorten_paper_info(t)
-        printlog(f"Tweet content exceeds {max_letter} characters. The shorten_paper_info shortened the text.")
+        t = shorten_paper_info(t, max_letter)
 
     try:
         # Post Tweet
@@ -80,7 +79,7 @@ def send_post_to_twitter(client, text, thumb=None, max_letter=280):
         tw = make_a_tweet(title_line, authors_line, arxiv_url, pdf_url)
         client.create_tweet(text=tw)
         # print("Tweet posted successfully!")
-        printlog(f"posted\n{t}")
+        printlog(f"posted on Twitter\n{t}")
     except tweepy.errors.TweepyException as e:
         printlog(f"Error occurred: {e}")
 

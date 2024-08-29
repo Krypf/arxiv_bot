@@ -141,9 +141,28 @@ def arxiv_formatted_date(date_str):
 
     return (formatted_date)
 
-
-# no usage
 #%%
+def check_last(t, today):
+    t = f"These are all of the new submissions on {today}."
+    printlog(f"posted\n{t}")
+    return t
+
+def shorten_authors(authors):
+    authors_list = authors.split(", ")
+    return authors_list[0] + " " + "et al."
+
+# 無駄が多いので後で shorten_paper_info を修正したい
+
+def shorten_paper_info(paper_info, max_letter: int):
+    title_line, authors_line, arxiv_url, pdf_url = paper_info.split("\n")    
+    authors_line = shorten_authors(authors_line)
+    printlog(f"Tweet content exceeds {max_letter} characters. The shorten_paper_info shortened the text.")
+    
+    return f"{title_line}\n{authors_line}\n{arxiv_url}\n{pdf_url}"# there is not \n in the last
+
+
+#%%
+# no usage
 def my_replace(text: str) -> str:
     text = text.replace('Title:\n          ', 'Title: ')
     text = text.replace('\n        ', '\n')
