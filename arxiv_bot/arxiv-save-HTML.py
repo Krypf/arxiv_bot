@@ -1,14 +1,14 @@
 #%% https://chatgpt.com/share/c8e08b83-0d2d-4430-a447-e0e14a945d8b
 import requests
 import os
-from arxiv_function import arxiv_search, categories_content
+from arxiv_function import ArxivSearch, categories_content
 from printlog import printlog
 import argparse
 # from typing import Optional
 
 #%%
 
-def main(obj: arxiv_search):
+def main(obj: ArxivSearch):
     # Directory to save the file
     directory = "HTML"
     # Create the directory if it doesn't exist
@@ -45,5 +45,5 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     for category in categories_content:
-        obj = arxiv_search(category, args.submissions, args.skip, args.show)
+        obj = ArxivSearch(category, args.submissions, args.skip, args.show)
         main(obj)

@@ -7,7 +7,7 @@ from printlog import printlog
 from bs4 import BeautifulSoup
 
 #%% https://chatgpt.com/share/c59404fb-255c-42db-892a-c19c00d92e8c
-class arxiv_search:
+class ArxivSearch:
     def __init__(self, category: str, submissions: str = "new", skip: str = "", show: str = ""):
         self.category = category
         self.submissions = submissions
@@ -31,18 +31,6 @@ class arxiv_search:
         return url
 
 #%%
-def save_text_append(text, file_path):
-    """
-    Appends the specified text to the given file.
-
-    Args:
-        text: The text to append.
-        file_path: The path of the file to append to.
-    """
-    # Append the text to the file
-    with open(file_path, 'a') as f:
-        f.write(text)
-#%%
 def cd_arxiv_bot():
     # Get the current working directory
     current_directory = os.getcwd()
@@ -57,12 +45,65 @@ def cd_arxiv_bot():
         printlog(f"Changed directory to {folder_strings}")
     else:
         printlog(f"Already in {folder_strings}")
+        
+#%% # https://chatgpt.com/share/a02b3fb5-fb86-4de9-a1fa-5f001dcca01f
+class ArxivText:
+    def __init__(self, category: str, date: str, parent_folder: str = os.path.expanduser("~/arxiv_bot")):
+        self.category = category
+        self.date = date
+        self.parent_folder = parent_folder
+        # Define the path to the file
+        self.file_name = f"{self.category}-{self.date}.txt"
+        self.file_path = os.path.join(self.parent_folder, self.category, self.file_name)
+
+    def read_content(self):
+        # Check if the file exists
+        if not os.path.exists(self.file_path):
+            printlog(f"File {self.file_name} does not exist in the specified directory.")
+            cd_arxiv_bot()
+
+        # Open and read the content of the file
+        with open(self.file_path, 'r', encoding='utf-8') as file:
+            content = file.read()
+
+        return content
+
+#%%
+def read_text_file(category: str, date: str, parent_folder=str()):
+    # Define the path to the file
+    file_name = category + '-' + date + '.txt'
+    file_path = os.path.join(parent_folder, category, file_name)
+    # print(file_path)
+    # Check if the file exists
+    if not os.path.exists(file_path):
+        printlog(f"File {file_name} does not exist in the specified directory.")
+        cd_arxiv_bot()
+
+    # Open and read the content of the file
+    with open(file_path, 'r', encoding='utf-8') as file:
+        content = file.read()
+
+    return content
+
+#%%
+def save_text_append(text, file_path):
+    """
+    Appends the specified text to the given file.
+
+    Args:
+        text: The text to append.
+        file_path: The path of the file to append to.
+    """
+    # Append the text to the file
+    with open(file_path, 'a') as f:
+        f.write(text)
 
 #%% https://chatgpt.com/share/7dfbd5e5-9c8d-4939-a815-efd595b5f229
-def read_text_file(file, folder='') -> List[str]:
+def read_inner_file(file = '', folder='') -> List[str]:
     cd_arxiv_bot()
     
-    file_name = file + '.txt'
+    extension = '.txt'
+    file_name = file + extension
     
     if folder != '':
         file_name = folder + '/' + file_name
@@ -99,7 +140,8 @@ def arxiv_formatted_date(date_str):
     formatted_date = date_obj.strftime('%a, %d %b %Y')
 
     return (formatted_date)
-    
+
+
 # no usage
 #%%
 def my_replace(text: str) -> str:
@@ -158,7 +200,7 @@ def fetch_arxiv(category, date, __max_results=100):
 
 #%% constants
 
-categories_content = read_text_file('categories', folder='arxiv_bot')# the current directory is arxiv_bot and the subfolder is arxiv_bot
+categories_content = read_inner_file(file='categories', folder='arxiv_bot')# the current directory is arxiv_bot and the subfolder is arxiv_bot
 
 if __name__ == '__main__':
     print('This is a module arxiv_function.py')

@@ -1,0 +1,25 @@
+Galilei covariance of the theory of Thouless pumps
+Tilman Esslinger, Gian Michele Graf, Filippo Santi
+https://arxiv.org/abs/2408.14579
+https://arxiv.org/pdf/2408.14579
+----
+(Twisted) canonical supermultiplets and their resolutions as open-closed homotopy algebras
+Simon Jonsson
+https://arxiv.org/abs/2408.15102
+https://arxiv.org/pdf/2408.15102
+----
+On the Hamiltonian for the Hilbert-P\'olya Conjecture
+Enderalp Yakaboylu
+https://arxiv.org/abs/2408.15135
+https://arxiv.org/pdf/2408.15135
+----
+On some minimal characteristics in a model of a system of N particles with interaction
+Igor Pavlov
+https://arxiv.org/abs/2408.15167
+https://arxiv.org/pdf/2408.15167
+----
+Relative Equilibria for Scaling Symmetries and Central Configurations
+Giovanni Rastelli, Manuele Santoprete
+https://arxiv.org/abs/2408.15191
+https://arxiv.org/pdf/2408.15191
+----

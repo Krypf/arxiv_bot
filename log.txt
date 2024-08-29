@@ -4465,3 +4465,801 @@ https://arxiv.org/pdf/2408.14462
 [2024-08-27 12:04:12] posted
 These are all new submissions for today.
 [2024-08-27 12:04:14] This is the end of all the posts on 2024-08-27
+[2024-08-28 03:09:53] Already in ~/arxiv_bot
+[2024-08-28 03:09:58] The category is gr-qc
+[2024-08-28 03:09:58] File gr-qc-2024-08-28.txt does not exist in the specified directory.
+[2024-08-28 03:09:58] Already in ~/arxiv_bot
+[2024-08-28 03:12:04] Already in ~/arxiv_bot
+[2024-08-28 03:12:09] The category is gr-qc
+[2024-08-28 03:12:10] posted
+Inflation and Dark Matter from The Low Entropy Hypothesis and Modeling Mechanism of Modified Gravity
+Jackie C.H. Liu
+https://arxiv.org/abs/2408.13279
+https://arxiv.org/pdf/2408.13279
+[2024-08-28 03:12:11] This is the end of all the posts on 2024-08-27
+[2024-08-28 12:00:01] Already in ~/arxiv_bot
+[2024-08-28 12:00:01] HTML source has been saved to HTML/arxiv_gr-qc_new.html
+[2024-08-28 12:00:01] HTML source has been saved to HTML/arxiv_hep-th_new.html
+[2024-08-28 12:00:01] HTML source has been saved to HTML/arxiv_math-ph_new.html
+[2024-08-28 12:00:01] HTML source has been saved to HTML/arxiv_quant-ph_new.html
+[2024-08-28 12:00:01] HTML source has been saved to HTML/arxiv_hep-ph_new.html
+[2024-08-28 12:00:07] Already in ~/arxiv_bot
+[2024-08-28 12:00:07] gr-qc-2024-08-28.txt has been saved.
+[2024-08-28 12:00:07] hep-th-2024-08-28.txt has been saved.
+[2024-08-28 12:00:07] math-ph-2024-08-28.txt has been saved.
+[2024-08-28 12:00:07] quant-ph-2024-08-28.txt has been saved.
+[2024-08-28 12:00:07] hep-ph-2024-08-28.txt has been saved.
+[2024-08-28 12:00:13] Already in ~/arxiv_bot
+[2024-08-28 12:00:18] The category is gr-qc
+[2024-08-28 12:00:19] posted
+Deep Einstein@Home search for Continuous Gravitational Waves from the Central Compact Objects in the Supernova Remnants Vela Jr. and G347.3-0.5 using LIGO public data
+Jing Ming et al.
+https://arxiv.org/abs/2408.14573
+https://arxiv.org/pdf/2408.14573
+[2024-08-28 12:00:21] posted
+Cosmological Dynamics in Interacting Scalar-Torsion f(T,$\phi$) Gravity: Investigating Energy and Momentum Couplings
+Carlos Rodriguez-Benites, Manuel Gonzalez-Espinoza, Giovanni Otalora, Manuel Alva-Morales
+https://arxiv.org/abs/2408.14614
+https://arxiv.org/pdf/2408.14614
+[2024-08-28 12:00:22] posted
+Universal phenomenological relations between spherical harmonic modes in non-precessing eccentric binary black hole merger waveforms
+Tousif Islam, Tejaswi Venumadhav
+https://arxiv.org/abs/2408.14654
+https://arxiv.org/pdf/2408.14654
+[2024-08-28 12:00:23] posted
+Spontaneous branes formation
+Arkadiy A. Popov, Sergey G. Rubin
+https://arxiv.org/abs/2408.14692
+https://arxiv.org/pdf/2408.14692
+[2024-08-28 12:00:25] posted
+Quantum BPS Cosmology
+Nahomi Kan, Kiyoshi Shiraishi, Maki Takeuchi, Mai Yashiki
+https://arxiv.org/abs/2408.14790
+https://arxiv.org/pdf/2408.14790
+[2024-08-28 12:00:26] posted
+Analysing Hubble Tension and Gravitational Waves for $f(Q,T)$ Gravity Theories
+Shreya Banerjee, Aritrya Paul
+https://arxiv.org/abs/2408.14878
+https://arxiv.org/pdf/2408.14878
+[2024-08-28 12:00:27] posted
+Stability of the Einstein Static Universe in Zero-Point Length Cosmology with Topological Defects
+Kalyan Bhuyan, Mrinnoy M. Gohain
+https://arxiv.org/abs/2408.14943
+https://arxiv.org/pdf/2408.14943
+[2024-08-28 12:00:28] posted
+Combining underground and on-surface third-generation gravitational-wave interferometers
+Francesco Iacovelli, Enis Belgacem, Michele Maggiore, Michele Mancarella, Niccolò Muttoni
+https://arxiv.org/abs/2408.14946
+https://arxiv.org/pdf/2408.14946
+[2024-08-28 12:00:30] posted
+Quasi-local mass on rigid or round spheres in Kerr spacetime
+Jacek Jezierski, Tomasz Smołka
+https://arxiv.org/abs/2408.14978
+https://arxiv.org/pdf/2408.14978
+[2024-08-28 12:00:31] posted
+Dynamical Systems Analysis of f(R,G) Cosmological Model with Dark Sector Coupling
+Shivani Sharma, R. Chaubey
+https://arxiv.org/abs/2408.14989
+https://arxiv.org/pdf/2408.14989
+[2024-08-28 12:00:32] posted
+The constraint on modified black holes with extreme mass ratio inspirals
+Chao Zhang, Guoyang Fu, Yungui Gong
+https://arxiv.org/abs/2408.15064
+https://arxiv.org/pdf/2408.15064
+[2024-08-28 12:00:34] posted
+Evolution of spherical perturbations in the cosmological environment of the Higgs scalar field and an ideal scalar charged fluid
+Yu. G. Ignat'ev
+https://arxiv.org/abs/2408.15129
+https://arxiv.org/pdf/2408.15129
+[2024-08-28 12:00:35] posted
+$\alpha-$surfaces and global coordinates in black hole spacetimes
+Bernardo Araneda, Bernard F. Whiting
+https://arxiv.org/abs/2408.15189
+https://arxiv.org/pdf/2408.15189
+[2024-08-28 12:00:36] posted
+These are all new submissions for today.
+[2024-08-28 12:00:37] The category is hep-th
+[2024-08-28 12:00:39] posted
+Quasitopological Lifshitz dilaton black brane
+A. Bazrafshan, M. Ghanaatian, S. Rezaei, Gh. Forozani
+https://arxiv.org/abs/2408.14516
+https://arxiv.org/pdf/2408.14516
+[2024-08-28 12:00:40] posted
+Generalized symmetry constraints on deformed 4d (S)CFTs
+Monica Jinwoo Kang, Craig Lawrie, Ki-Hong Lee, Jaewon Song
+https://arxiv.org/abs/2408.14532
+https://arxiv.org/pdf/2408.14532
+[2024-08-28 12:00:42] posted
+Kasner eons with matter: holographic excursions to the black hole singularity
+Elena Cáceres, Ángel J. Murcia, Ayan K. Patra, Juan F. Pedraza
+https://arxiv.org/abs/2408.14535
+https://arxiv.org/pdf/2408.14535
+[2024-08-28 12:00:43] posted
+$U(1)$ $R$-Symmetry Topological Operators from Branes in Holography
+Thomas Waddleton
+https://arxiv.org/abs/2408.14542
+https://arxiv.org/pdf/2408.14542
+[2024-08-28 12:00:44] posted
+An Exceptional Cluster Algebra for Higgs plus Jet Production
+Rigers Aliaj, Georgios Papathanasiou
+https://arxiv.org/abs/2408.14544
+https://arxiv.org/pdf/2408.14544
+[2024-08-28 12:00:46] posted
+Non-invertible defects on the worldsheet
+Sriram Bharadwaj, Pierluigi Niro, Konstantinos Roumpedakis
+https://arxiv.org/abs/2408.14556
+https://arxiv.org/pdf/2408.14556
+[2024-08-28 12:00:47] posted
+Strings in AdS$_3$: one-loop partition function and near-extremal BTZ thermodynamics
+Christian Ferko, Sameer Murthy, Mukund Rangamani
+https://arxiv.org/abs/2408.14567
+https://arxiv.org/pdf/2408.14567
+[2024-08-28 12:00:48] posted
+Resurgence in Liouville Theory
+Nathan Benjamin, Scott Collier, Alexander Maloney, Viraj Meruliya
+https://arxiv.org/abs/2408.14574
+https://arxiv.org/pdf/2408.14574
+[2024-08-28 12:00:50] posted
+Braided Scalar Quantum Electrodynamics
+Marija Dimitrijević Ćirić, Biljana Nikolić, Voja Radovanović, Richard J. Szabo, Guillaume Trojani
+https://arxiv.org/abs/2408.14583
+https://arxiv.org/pdf/2408.14583
+[2024-08-28 12:00:51] posted
+Supergravity without gravity and its BV formulation
+Julian Kupka, Charles Strickland-Constable, Fridrich Valach
+https://arxiv.org/abs/2408.14656
+https://arxiv.org/pdf/2408.14656
+[2024-08-28 12:00:53] posted
+Manifestly Covariant Worldline Actions from Coadjoint Orbits. Part II: Twistorial Descriptions
+Euihun Joung, TaeHwan Oh
+https://arxiv.org/abs/2408.14783
+https://arxiv.org/pdf/2408.14783
+[2024-08-28 12:00:54] posted
+A dynamical Einstein-Born-Infeld-dilaton model and holographic quarkonium melting in a magnetic field
+Siddhi Swarupa Jena, Jyotirmoy Barman, Bruno Toniato, David Dudal, Subhash Mahapatra
+https://arxiv.org/abs/2408.14813
+https://arxiv.org/pdf/2408.14813
+[2024-08-28 12:00:55] posted
+Dual overlaps and finite coupling 't Hooft loops
+Tamas Gombor, Zoltán Bajnok
+https://arxiv.org/abs/2408.14901
+https://arxiv.org/pdf/2408.14901
+[2024-08-28 12:00:57] posted
+Note on $\mathcal{N}=8$ supersymmetric mechanics with dynamical and semi-dynamical multiplets
+Erik Khastyan, Sergey Krivonos, Armen Nersessian
+https://arxiv.org/abs/2408.14958
+https://arxiv.org/pdf/2408.14958
+[2024-08-28 12:00:58] posted
+Beltrami fields, dispersive electromagnetic waves and gravitational spheromaks from chiral anomaly
+Sergey N. Solodukhin
+https://arxiv.org/abs/2408.14990
+https://arxiv.org/pdf/2408.14990
+[2024-08-28 12:00:59] posted
+Page transition as a phase transition in approximate quantum error correction
+Haocheng Zhong
+https://arxiv.org/abs/2408.15104
+https://arxiv.org/pdf/2408.15104
+[2024-08-28 12:01:00] posted
+Matching the Vilkovisky-DeWitt Effective Action of Quantum Gravity to String Theory
+Xavier Calmet, Elias Kiritsis, Folkert Kuipers, Dieter Lust
+https://arxiv.org/abs/2408.15146
+https://arxiv.org/pdf/2408.15146
+[2024-08-28 12:01:02] posted
+Gapped theories have torsion anomalies
+Clay Córdova, Daniel S. Freed, Constantin Teleman
+https://arxiv.org/abs/2408.15148
+https://arxiv.org/pdf/2408.15148
+[2024-08-28 12:01:03] posted
+Black hole-de Sitter model, a proposal for the de Sitter phases
+Ida M. Rasulian
+https://arxiv.org/abs/2408.15166
+https://arxiv.org/pdf/2408.15166
+[2024-08-28 12:01:04] posted
+Equivalence of Deformations of Berglund H\"ubsch Mirror Pairs
+Alexander A. Belavin, Doron R. Gepner
+https://arxiv.org/abs/2408.15182
+https://arxiv.org/pdf/2408.15182
+[2024-08-28 12:01:05] posted
+These are all new submissions for today.
+[2024-08-28 12:01:07] The category is math-ph
+[2024-08-28 12:01:08] posted
+Galilei covariance of the theory of Thouless pumps
+Tilman Esslinger, Gian Michele Graf, Filippo Santi
+https://arxiv.org/abs/2408.14579
+https://arxiv.org/pdf/2408.14579
+[2024-08-28 12:01:09] posted
+(Twisted) canonical supermultiplets and their resolutions as open-closed homotopy algebras
+Simon Jonsson
+https://arxiv.org/abs/2408.15102
+https://arxiv.org/pdf/2408.15102
+[2024-08-28 12:01:11] posted
+On the Hamiltonian for the Hilbert-P\'olya Conjecture
+Enderalp Yakaboylu
+https://arxiv.org/abs/2408.15135
+https://arxiv.org/pdf/2408.15135
+[2024-08-28 12:01:12] posted
+On some minimal characteristics in a model of a system of N particles with interaction
+Igor Pavlov
+https://arxiv.org/abs/2408.15167
+https://arxiv.org/pdf/2408.15167
+[2024-08-28 12:01:13] posted
+Relative Equilibria for Scaling Symmetries and Central Configurations
+Giovanni Rastelli, Manuele Santoprete
+https://arxiv.org/abs/2408.15191
+https://arxiv.org/pdf/2408.15191
+[2024-08-28 12:01:15] posted
+These are all new submissions for today.
+[2024-08-28 12:01:16] The category is quant-ph
+[2024-08-28 12:01:17] posted
+Towards Equivalence Checking of Classical Circuits Using Quantum Computing
+Nils Quetschlich, Tobias Forster, Adrian Osterwind, Domenik Helms, Robert Wille
+https://arxiv.org/abs/2408.14539
+https://arxiv.org/pdf/2408.14539
+[2024-08-28 12:01:19] posted
+A recipe for local simulation of strongly-correlated fermionic matter on quantum computers: the 2D Fermi-Hubbard model
+Arash Jafarizadeh, Frank Pollmann, Adam Gammon-Smith
+https://arxiv.org/abs/2408.14543
+https://arxiv.org/pdf/2408.14543
+[2024-08-28 12:01:20] posted
+Scalar Gravitational Aharonov-Bohm Effect: Generalization of the Gravitational Redshift
+Michael E Tobar, Michael T Hatzon, Graeme R Flower, Maxim Goryachev
+https://arxiv.org/abs/2408.14629
+https://arxiv.org/pdf/2408.14629
+[2024-08-28 12:01:21] posted
+Perturbative power series for block diagonalisation of Hermitian matrices
+Ishan N. H. Mankodi, David P. DiVincenzo
+https://arxiv.org/abs/2408.14637
+https://arxiv.org/pdf/2408.14637
+[2024-08-28 12:01:23] posted
+Preparing angular momentum eigenstates using engineered quantum walks
+Yuan Shi, Kristin M. Beck, Veronika Anneliese Kruse, Stephen B. Libby
+https://arxiv.org/abs/2408.14684
+https://arxiv.org/pdf/2408.14684
+[2024-08-28 12:01:24] posted
+Circumventing Traps in Analog Quantum Machine Learning Algorithms Through Co-Design
+Rodrigo Araiza Bravo, Jorge Garcia Ponce, Hong-ye Hu, Susanne F. Yelin
+https://arxiv.org/abs/2408.14697
+https://arxiv.org/pdf/2408.14697
+[2024-08-28 12:01:25] posted
+Realtime Compilation for Continuous Angle Quantum Error Correction Architectures
+Sayam Sethi, Jonathan M. Baker
+https://arxiv.org/abs/2408.14708
+https://arxiv.org/pdf/2408.14708
+[2024-08-28 12:01:27] posted
+Strategy of satellite QKD with passive high brightness entangled photon pair source
+Jin-Woo Kim, Suseong Lim, Heonoh Kim, June-Koo Kevin Rhee
+https://arxiv.org/abs/2408.14768
+https://arxiv.org/pdf/2408.14768
+[2024-08-28 12:01:28] posted
+Molecular Entanglement Witness by Absorption Spectroscopy in Cavity QED
+Weijun Wu, Francesca Fassioli, David A. Huse, Gregory D. Scholes
+https://arxiv.org/abs/2408.14782
+https://arxiv.org/pdf/2408.14782
+[2024-08-28 12:01:29] posted
+Weakly Fault-Tolerant Computation in a Quantum Error-Detecting Code
+Christopher Gerhard, Todd A. Brun
+https://arxiv.org/abs/2408.14828
+https://arxiv.org/pdf/2408.14828
+[2024-08-28 12:01:30] posted
+Practical quantum advantage on partially fault-tolerant quantum computer
+Riki Toshio, Yutaro Akahoshi, Jun Fujisaki, Hirotaka Oshima, Shintaro Sato, Keisuke Fujii
+https://arxiv.org/abs/2408.14848
+https://arxiv.org/pdf/2408.14848
+[2024-08-28 12:01:32] posted
+Compilation of Trotter-Based Time Evolution for Partially Fault-Tolerant Quantum Computing Architecture
+Yutaro Akahoshi, Riki Toshio, Jun Fujisaki, Hirotaka Oshima, Shintaro Sato, Keisuke Fujii
+https://arxiv.org/abs/2408.14929
+https://arxiv.org/pdf/2408.14929
+[2024-08-28 12:01:33] posted
+A little bit of self-correction
+Michael J. Kastoryano, Lasse B. Kristensen, Chi-Fang Chen, András Gilyén
+https://arxiv.org/abs/2408.14970
+https://arxiv.org/pdf/2408.14970
+[2024-08-28 12:01:34] posted
+Dichroic mirror pulses for optimized higher-order atomic Bragg diffraction
+Dominik Pfeiffer, Maximilian Dietrich, Patrik Schach, Gerhard Birkl, Enno Giese
+https://arxiv.org/abs/2408.14988
+https://arxiv.org/pdf/2408.14988
+[2024-08-28 12:01:36] posted
+European Quantum Ecosystems -- Preparing the Industry for the Quantum Security and Communications Revolution
+Noel Farrugia et al.
+https://arxiv.org/abs/2408.15027
+https://arxiv.org/pdf/2408.15027
+[2024-08-28 12:01:37] posted
+Beam Splitter for Dark and Bright States of Light
+Luiz O. R. Solak, Celso J. Villas-Boas, Daniel Z. Rossatto
+https://arxiv.org/abs/2408.15059
+https://arxiv.org/pdf/2408.15059
+[2024-08-28 12:01:38] posted
+Squeezing light to get non-classical work in quantum engines
+A. Tejero, D. Manzano, P.I. Hurtado
+https://arxiv.org/abs/2408.15085
+https://arxiv.org/pdf/2408.15085
+[2024-08-28 12:01:40] posted
+Design of a release-free piezo-optomechanical quantum transducer
+Paul Burger, Joey Frey, Johan Kolvik, David Hambraeus, Raphaël Van Laer
+https://arxiv.org/abs/2408.15134
+https://arxiv.org/pdf/2408.15134
+[2024-08-28 12:01:41] posted
+SWAP and Transpose by displacements, Stabilizer Renyi entropies for continuous variables and qudits and other applications
+Israel Klich
+https://arxiv.org/abs/2408.15161
+https://arxiv.org/pdf/2408.15161
+[2024-08-28 12:01:42] posted
+Detecting quasi-degenerate ground states in 1D topological models via VQE
+Carola Ciaramelletti, Martin Beseda, Mirko Consiglio, Luca Lepori, Tony J. G. Apollaro, Simone Paganelli
+https://arxiv.org/abs/2408.15179
+https://arxiv.org/pdf/2408.15179
+[2024-08-28 12:01:43] posted
+Canonical Form and Finite Blocklength Bounds for Stabilizer Codes
+Dimiter Ostrev
+https://arxiv.org/abs/2408.15202
+https://arxiv.org/pdf/2408.15202
+[2024-08-28 12:01:45] posted
+Continuity of entropies via integral representations
+Mario Berta, Ludovico Lami, Marco Tomamichel
+https://arxiv.org/abs/2408.15226
+https://arxiv.org/pdf/2408.15226
+[2024-08-28 12:01:46] posted
+These are all new submissions for today.
+[2024-08-28 12:01:47] The category is hep-ph
+[2024-08-28 12:01:49] posted
+The Sign of Gauge-Higgs Couplings at Future Lepton Colliders
+Carlos Henrique de Lima, Douglas Tuckler
+https://arxiv.org/abs/2408.14536
+https://arxiv.org/pdf/2408.14536
+[2024-08-28 12:01:50] posted
+Collider and CMB complementarity of leptophilic dark matter with light Dirac neutrinos
+Debasish Borah, Nayan Das, Sahabub Jahedi, Bhavya Thacker
+https://arxiv.org/abs/2408.14548
+https://arxiv.org/pdf/2408.14548
+[2024-08-28 12:01:51] posted
+Effects of Neutron-Antineutron Transitions in Neutron Stars
+Itzhak Goldman, Rabindra N. Mohapatra, Shmuel Nussinov, Robert Shrock
+https://arxiv.org/abs/2408.14555
+https://arxiv.org/pdf/2408.14555
+[2024-08-28 12:01:53] posted
+Long Range Energy-energy Correlator at the LHC
+Yuxun Guo, Xiaohui Liu, Feng Yuan
+https://arxiv.org/abs/2408.14693
+https://arxiv.org/pdf/2408.14693
+[2024-08-28 12:01:54] posted
+Maxwell's equal-area law for Vaidya-Bonner-de Sitter black hole under Lorentz invariance violation
+Yenshembam Priyobarta Singh, Telem Ibungochouba Singh, Sapam Niranjan Singh
+https://arxiv.org/abs/2408.14796
+https://arxiv.org/pdf/2408.14796
+[2024-08-28 12:01:55] posted
+Effect of quark anomalous magnetic moment on neutral dense quark matter under magnetic field
+Mamiya Kawaguchi, Irfan Siddique, Mei Huang
+https://arxiv.org/abs/2408.14808
+https://arxiv.org/pdf/2408.14808
+[2024-08-28 12:01:56] posted
+Lepton flavour violation Signals of the singly charged scalar singlet at the ILC
+Chong-Xing Yue, Xiao-Chen Sun, Na-Qian Zhang, Yang-Yang Bu
+https://arxiv.org/abs/2408.14856
+https://arxiv.org/pdf/2408.14856
+[2024-08-28 12:01:58] posted
+The pole structures of the $X(1840)/X(1835)$ and the $X(1880)$
+Peng-Yu Niu, Zhen-Yu Zhang, Yi-Yao Li, Qian Wang, Qiang Zhao
+https://arxiv.org/abs/2408.14876
+https://arxiv.org/pdf/2408.14876
+[2024-08-28 12:01:59] posted
+Neutrino Masses and Mixing in an Axion Model
+Sin Kyu Kang, Hiroshi Okada
+https://arxiv.org/abs/2408.14942
+https://arxiv.org/pdf/2408.14942
+[2024-08-28 12:02:00] posted
+Greybody factor and Quasinormal modes of scalar and Dirac field perturbation in Schwarzschild-de Sitter-like black hole in Bumblebee gravity model
+Yenshembam Priyobarta Singh, Telem Ibungochouba Singh
+https://arxiv.org/abs/2408.14945
+https://arxiv.org/pdf/2408.14945
+[2024-08-28 12:02:02] posted
+Final-state rescattering mechanism of charmed baryon decays
+Cai-Ping Jia, Hua-Yu Jiang, Jian-Peng Wang, Fu-Sheng Yu
+https://arxiv.org/abs/2408.14959
+https://arxiv.org/pdf/2408.14959
+[2024-08-28 12:02:03] posted
+These are all new submissions for today.
+[2024-08-28 12:02:04] This is the end of all the posts on 2024-08-28
+[2024-08-29 07:16:16] Already in ~/arxiv_bot
+[2024-08-29 07:16:21] The category is hep-th
+[2024-08-29 07:17:47] Already in ~/arxiv_bot
+[2024-08-29 07:17:53] The category is hep-th
+[2024-08-29 07:17:53] posted
+Quasitopological Lifshitz dilaton black brane
+A. Bazrafshan, M. Ghanaatian, S. Rezaei, Gh. Forozani
+https://arxiv.org/abs/2408.14516
+https://arxiv.org/pdf/2408.14516
+[2024-08-29 07:17:54] This is the end of all the posts on 2024-08-28
+[2024-08-29 08:29:39] Changed directory to ~/arxiv_bot
+[2024-08-29 08:53:12] Changed directory to ~/arxiv_bot
+[2024-08-29 09:39:11] Already in ~/arxiv_bot
+[2024-08-29 09:39:16] The category is math-ph
+[2024-08-29 09:39:16] posted
+Galilei covariance of the theory of Thouless pumps
+Tilman Esslinger, Gian Michele Graf, Filippo Santi
+https://arxiv.org/abs/2408.14579
+https://arxiv.org/pdf/2408.14579
+[2024-08-29 09:39:17] This is the end of all the posts on 2024-08-28
+[2024-08-29 09:58:32] Already in ~/arxiv_bot
+[2024-08-29 09:58:37] The category is math-ph
+[2024-08-29 09:58:37] posted
+Galilei covariance of the theory of Thouless pumps
+Tilman Esslinger, Gian Michele Graf, Filippo Santi
+https://arxiv.org/abs/2408.14579
+https://arxiv.org/pdf/2408.14579
+[2024-08-29 09:58:38] This is the end of all the posts on 2024-08-28
+[2024-08-29 10:35:49] Already in ~/arxiv_bot
+[2024-08-29 10:35:55] Start tweeting
+[2024-08-29 10:35:55] The category is gr-qc
+[2024-08-29 10:35:55] Tweet content exceeds 280 characters. The shorten_paper_info shortened the text.
+[2024-08-29 10:35:55] posted
+Deep Einstein@Home search for Continuous Gravitational Waves from the Central Compact Objects in the Supernova Remnants Vela Jr. and G347.3-0.5 using LIGO public data
+Jing Ming et al.
+https://arxiv.org/abs/2408.14573
+https://arxiv.org/pdf/2408.14573
+[2024-08-29 10:35:56] posted
+Cosmological Dynamics in Interacting Scalar-Torsion f(T,$\phi$) Gravity: Investigating Energy and Momentum Couplings
+Carlos Rodriguez-Benites, Manuel Gonzalez-Espinoza, Giovanni Otalora, Manuel Alva-Morales
+https://arxiv.org/abs/2408.14614
+https://arxiv.org/pdf/2408.14614
+[2024-08-29 10:35:58] posted
+Universal phenomenological relations between spherical harmonic modes in non-precessing eccentric binary black hole merger waveforms
+Tousif Islam, Tejaswi Venumadhav
+https://arxiv.org/abs/2408.14654
+https://arxiv.org/pdf/2408.14654
+[2024-08-29 10:35:59] posted
+Spontaneous branes formation
+Arkadiy A. Popov, Sergey G. Rubin
+https://arxiv.org/abs/2408.14692
+https://arxiv.org/pdf/2408.14692
+[2024-08-29 10:36:00] posted
+Quantum BPS Cosmology
+Nahomi Kan, Kiyoshi Shiraishi, Maki Takeuchi, Mai Yashiki
+https://arxiv.org/abs/2408.14790
+https://arxiv.org/pdf/2408.14790
+[2024-08-29 10:36:01] posted
+Analysing Hubble Tension and Gravitational Waves for $f(Q,T)$ Gravity Theories
+Shreya Banerjee, Aritrya Paul
+https://arxiv.org/abs/2408.14878
+https://arxiv.org/pdf/2408.14878
+[2024-08-29 10:36:03] posted
+Stability of the Einstein Static Universe in Zero-Point Length Cosmology with Topological Defects
+Kalyan Bhuyan, Mrinnoy M. Gohain
+https://arxiv.org/abs/2408.14943
+https://arxiv.org/pdf/2408.14943
+[2024-08-29 10:36:04] posted
+Combining underground and on-surface third-generation gravitational-wave interferometers
+Francesco Iacovelli, Enis Belgacem, Michele Maggiore, Michele Mancarella, Niccolò Muttoni
+https://arxiv.org/abs/2408.14946
+https://arxiv.org/pdf/2408.14946
+[2024-08-29 10:36:05] posted
+Quasi-local mass on rigid or round spheres in Kerr spacetime
+Jacek Jezierski, Tomasz Smołka
+https://arxiv.org/abs/2408.14978
+https://arxiv.org/pdf/2408.14978
+[2024-08-29 10:36:07] posted
+Dynamical Systems Analysis of f(R,G) Cosmological Model with Dark Sector Coupling
+Shivani Sharma, R. Chaubey
+https://arxiv.org/abs/2408.14989
+https://arxiv.org/pdf/2408.14989
+[2024-08-29 10:36:08] posted
+The constraint on modified black holes with extreme mass ratio inspirals
+Chao Zhang, Guoyang Fu, Yungui Gong
+https://arxiv.org/abs/2408.15064
+https://arxiv.org/pdf/2408.15064
+[2024-08-29 10:36:09] posted
+Evolution of spherical perturbations in the cosmological environment of the Higgs scalar field and an ideal scalar charged fluid
+Yu. G. Ignat'ev
+https://arxiv.org/abs/2408.15129
+https://arxiv.org/pdf/2408.15129
+[2024-08-29 10:36:11] posted
+$\alpha-$surfaces and global coordinates in black hole spacetimes
+Bernardo Araneda, Bernard F. Whiting
+https://arxiv.org/abs/2408.15189
+https://arxiv.org/pdf/2408.15189
+[2024-08-29 10:36:12] posted
+These are all new submissions for today.
+[2024-08-29 10:36:13] This is the end of all the posts on 2024-08-28
+[2024-08-29 10:36:13] The category is hep-th
+[2024-08-29 10:36:13] posted
+Quasitopological Lifshitz dilaton black brane
+A. Bazrafshan, M. Ghanaatian, S. Rezaei, Gh. Forozani
+https://arxiv.org/abs/2408.14516
+https://arxiv.org/pdf/2408.14516
+[2024-08-29 10:36:14] posted
+Generalized symmetry constraints on deformed 4d (S)CFTs
+Monica Jinwoo Kang, Craig Lawrie, Ki-Hong Lee, Jaewon Song
+https://arxiv.org/abs/2408.14532
+https://arxiv.org/pdf/2408.14532
+[2024-08-29 10:36:16] posted
+Kasner eons with matter: holographic excursions to the black hole singularity
+Elena Cáceres, Ángel J. Murcia, Ayan K. Patra, Juan F. Pedraza
+https://arxiv.org/abs/2408.14535
+https://arxiv.org/pdf/2408.14535
+[2024-08-29 10:36:17] posted
+$U(1)$ $R$-Symmetry Topological Operators from Branes in Holography
+Thomas Waddleton
+https://arxiv.org/abs/2408.14542
+https://arxiv.org/pdf/2408.14542
+[2024-08-29 10:36:19] posted
+An Exceptional Cluster Algebra for Higgs plus Jet Production
+Rigers Aliaj, Georgios Papathanasiou
+https://arxiv.org/abs/2408.14544
+https://arxiv.org/pdf/2408.14544
+[2024-08-29 10:36:20] posted
+Non-invertible defects on the worldsheet
+Sriram Bharadwaj, Pierluigi Niro, Konstantinos Roumpedakis
+https://arxiv.org/abs/2408.14556
+https://arxiv.org/pdf/2408.14556
+[2024-08-29 10:36:21] posted
+Strings in AdS$_3$: one-loop partition function and near-extremal BTZ thermodynamics
+Christian Ferko, Sameer Murthy, Mukund Rangamani
+https://arxiv.org/abs/2408.14567
+https://arxiv.org/pdf/2408.14567
+[2024-08-29 10:36:23] posted
+Resurgence in Liouville Theory
+Nathan Benjamin, Scott Collier, Alexander Maloney, Viraj Meruliya
+https://arxiv.org/abs/2408.14574
+https://arxiv.org/pdf/2408.14574
+[2024-08-29 10:36:24] posted
+Braided Scalar Quantum Electrodynamics
+Marija Dimitrijević Ćirić, Biljana Nikolić, Voja Radovanović, Richard J. Szabo, Guillaume Trojani
+https://arxiv.org/abs/2408.14583
+https://arxiv.org/pdf/2408.14583
+[2024-08-29 10:36:25] posted
+Supergravity without gravity and its BV formulation
+Julian Kupka, Charles Strickland-Constable, Fridrich Valach
+https://arxiv.org/abs/2408.14656
+https://arxiv.org/pdf/2408.14656
+[2024-08-29 10:36:27] posted
+Manifestly Covariant Worldline Actions from Coadjoint Orbits. Part II: Twistorial Descriptions
+Euihun Joung, TaeHwan Oh
+https://arxiv.org/abs/2408.14783
+https://arxiv.org/pdf/2408.14783
+[2024-08-29 10:36:28] posted
+A dynamical Einstein-Born-Infeld-dilaton model and holographic quarkonium melting in a magnetic field
+Siddhi Swarupa Jena, Jyotirmoy Barman, Bruno Toniato, David Dudal, Subhash Mahapatra
+https://arxiv.org/abs/2408.14813
+https://arxiv.org/pdf/2408.14813
+[2024-08-29 10:36:29] posted
+Dual overlaps and finite coupling 't Hooft loops
+Tamas Gombor, Zoltán Bajnok
+https://arxiv.org/abs/2408.14901
+https://arxiv.org/pdf/2408.14901
+[2024-08-29 10:36:31] posted
+Note on $\mathcal{N}=8$ supersymmetric mechanics with dynamical and semi-dynamical multiplets
+Erik Khastyan, Sergey Krivonos, Armen Nersessian
+https://arxiv.org/abs/2408.14958
+https://arxiv.org/pdf/2408.14958
+[2024-08-29 10:36:32] posted
+Beltrami fields, dispersive electromagnetic waves and gravitational spheromaks from chiral anomaly
+Sergey N. Solodukhin
+https://arxiv.org/abs/2408.14990
+https://arxiv.org/pdf/2408.14990
+[2024-08-29 10:36:33] posted
+Page transition as a phase transition in approximate quantum error correction
+Haocheng Zhong
+https://arxiv.org/abs/2408.15104
+https://arxiv.org/pdf/2408.15104
+[2024-08-29 10:36:35] posted
+Matching the Vilkovisky-DeWitt Effective Action of Quantum Gravity to String Theory
+Xavier Calmet, Elias Kiritsis, Folkert Kuipers, Dieter Lust
+https://arxiv.org/abs/2408.15146
+https://arxiv.org/pdf/2408.15146
+[2024-08-29 10:36:36] posted
+Gapped theories have torsion anomalies
+Clay Córdova, Daniel S. Freed, Constantin Teleman
+https://arxiv.org/abs/2408.15148
+https://arxiv.org/pdf/2408.15148
+[2024-08-29 10:36:37] posted
+Black hole-de Sitter model, a proposal for the de Sitter phases
+Ida M. Rasulian
+https://arxiv.org/abs/2408.15166
+https://arxiv.org/pdf/2408.15166
+[2024-08-29 10:36:38] posted
+Equivalence of Deformations of Berglund H\"ubsch Mirror Pairs
+Alexander A. Belavin, Doron R. Gepner
+https://arxiv.org/abs/2408.15182
+https://arxiv.org/pdf/2408.15182
+[2024-08-29 10:36:40] posted
+These are all new submissions for today.
+[2024-08-29 10:36:41] This is the end of all the posts on 2024-08-28
+[2024-08-29 10:36:41] The category is math-ph
+[2024-08-29 10:36:42] posted
+(Twisted) canonical supermultiplets and their resolutions as open-closed homotopy algebras
+Simon Jonsson
+https://arxiv.org/abs/2408.15102
+https://arxiv.org/pdf/2408.15102
+[2024-08-29 10:36:43] posted
+On the Hamiltonian for the Hilbert-P\'olya Conjecture
+Enderalp Yakaboylu
+https://arxiv.org/abs/2408.15135
+https://arxiv.org/pdf/2408.15135
+[2024-08-29 10:36:45] posted
+On some minimal characteristics in a model of a system of N particles with interaction
+Igor Pavlov
+https://arxiv.org/abs/2408.15167
+https://arxiv.org/pdf/2408.15167
+[2024-08-29 10:36:46] posted
+Relative Equilibria for Scaling Symmetries and Central Configurations
+Giovanni Rastelli, Manuele Santoprete
+https://arxiv.org/abs/2408.15191
+https://arxiv.org/pdf/2408.15191
+[2024-08-29 10:36:47] posted
+These are all new submissions for today.
+[2024-08-29 10:36:48] This is the end of all the posts on 2024-08-28
+[2024-08-29 10:36:48] The category is quant-ph
+[2024-08-29 10:36:49] posted
+Towards Equivalence Checking of Classical Circuits Using Quantum Computing
+Nils Quetschlich, Tobias Forster, Adrian Osterwind, Domenik Helms, Robert Wille
+https://arxiv.org/abs/2408.14539
+https://arxiv.org/pdf/2408.14539
+[2024-08-29 10:36:50] posted
+A recipe for local simulation of strongly-correlated fermionic matter on quantum computers: the 2D Fermi-Hubbard model
+Arash Jafarizadeh, Frank Pollmann, Adam Gammon-Smith
+https://arxiv.org/abs/2408.14543
+https://arxiv.org/pdf/2408.14543
+[2024-08-29 10:36:52] posted
+Scalar Gravitational Aharonov-Bohm Effect: Generalization of the Gravitational Redshift
+Michael E Tobar, Michael T Hatzon, Graeme R Flower, Maxim Goryachev
+https://arxiv.org/abs/2408.14629
+https://arxiv.org/pdf/2408.14629
+[2024-08-29 10:36:53] posted
+Perturbative power series for block diagonalisation of Hermitian matrices
+Ishan N. H. Mankodi, David P. DiVincenzo
+https://arxiv.org/abs/2408.14637
+https://arxiv.org/pdf/2408.14637
+[2024-08-29 10:36:54] posted
+Preparing angular momentum eigenstates using engineered quantum walks
+Yuan Shi, Kristin M. Beck, Veronika Anneliese Kruse, Stephen B. Libby
+https://arxiv.org/abs/2408.14684
+https://arxiv.org/pdf/2408.14684
+[2024-08-29 10:36:56] posted
+Circumventing Traps in Analog Quantum Machine Learning Algorithms Through Co-Design
+Rodrigo Araiza Bravo, Jorge Garcia Ponce, Hong-ye Hu, Susanne F. Yelin
+https://arxiv.org/abs/2408.14697
+https://arxiv.org/pdf/2408.14697
+[2024-08-29 10:36:57] posted
+Realtime Compilation for Continuous Angle Quantum Error Correction Architectures
+Sayam Sethi, Jonathan M. Baker
+https://arxiv.org/abs/2408.14708
+https://arxiv.org/pdf/2408.14708
+[2024-08-29 10:36:58] posted
+Strategy of satellite QKD with passive high brightness entangled photon pair source
+Jin-Woo Kim, Suseong Lim, Heonoh Kim, June-Koo Kevin Rhee
+https://arxiv.org/abs/2408.14768
+https://arxiv.org/pdf/2408.14768
+[2024-08-29 10:37:00] posted
+Molecular Entanglement Witness by Absorption Spectroscopy in Cavity QED
+Weijun Wu, Francesca Fassioli, David A. Huse, Gregory D. Scholes
+https://arxiv.org/abs/2408.14782
+https://arxiv.org/pdf/2408.14782
+[2024-08-29 10:37:01] posted
+Weakly Fault-Tolerant Computation in a Quantum Error-Detecting Code
+Christopher Gerhard, Todd A. Brun
+https://arxiv.org/abs/2408.14828
+https://arxiv.org/pdf/2408.14828
+[2024-08-29 10:37:02] posted
+Practical quantum advantage on partially fault-tolerant quantum computer
+Riki Toshio, Yutaro Akahoshi, Jun Fujisaki, Hirotaka Oshima, Shintaro Sato, Keisuke Fujii
+https://arxiv.org/abs/2408.14848
+https://arxiv.org/pdf/2408.14848
+[2024-08-29 10:37:04] posted
+Compilation of Trotter-Based Time Evolution for Partially Fault-Tolerant Quantum Computing Architecture
+Yutaro Akahoshi, Riki Toshio, Jun Fujisaki, Hirotaka Oshima, Shintaro Sato, Keisuke Fujii
+https://arxiv.org/abs/2408.14929
+https://arxiv.org/pdf/2408.14929
+[2024-08-29 10:37:05] posted
+A little bit of self-correction
+Michael J. Kastoryano, Lasse B. Kristensen, Chi-Fang Chen, András Gilyén
+https://arxiv.org/abs/2408.14970
+https://arxiv.org/pdf/2408.14970
+[2024-08-29 10:37:06] posted
+Dichroic mirror pulses for optimized higher-order atomic Bragg diffraction
+Dominik Pfeiffer, Maximilian Dietrich, Patrik Schach, Gerhard Birkl, Enno Giese
+https://arxiv.org/abs/2408.14988
+https://arxiv.org/pdf/2408.14988
+[2024-08-29 10:37:07] Tweet content exceeds 280 characters. The shorten_paper_info shortened the text.
+[2024-08-29 10:37:08] posted
+European Quantum Ecosystems -- Preparing the Industry for the Quantum Security and Communications Revolution
+Noel Farrugia et al.
+https://arxiv.org/abs/2408.15027
+https://arxiv.org/pdf/2408.15027
+[2024-08-29 10:37:09] posted
+Beam Splitter for Dark and Bright States of Light
+Luiz O. R. Solak, Celso J. Villas-Boas, Daniel Z. Rossatto
+https://arxiv.org/abs/2408.15059
+https://arxiv.org/pdf/2408.15059
+[2024-08-29 10:37:10] posted
+Squeezing light to get non-classical work in quantum engines
+A. Tejero, D. Manzano, P.I. Hurtado
+https://arxiv.org/abs/2408.15085
+https://arxiv.org/pdf/2408.15085
+[2024-08-29 10:37:12] posted
+Design of a release-free piezo-optomechanical quantum transducer
+Paul Burger, Joey Frey, Johan Kolvik, David Hambraeus, Raphaël Van Laer
+https://arxiv.org/abs/2408.15134
+https://arxiv.org/pdf/2408.15134
+[2024-08-29 10:37:13] posted
+SWAP and Transpose by displacements, Stabilizer Renyi entropies for continuous variables and qudits and other applications
+Israel Klich
+https://arxiv.org/abs/2408.15161
+https://arxiv.org/pdf/2408.15161
+[2024-08-29 10:37:14] posted
+Detecting quasi-degenerate ground states in 1D topological models via VQE
+Carola Ciaramelletti, Martin Beseda, Mirko Consiglio, Luca Lepori, Tony J. G. Apollaro, Simone Paganelli
+https://arxiv.org/abs/2408.15179
+https://arxiv.org/pdf/2408.15179
+[2024-08-29 10:37:16] posted
+Canonical Form and Finite Blocklength Bounds for Stabilizer Codes
+Dimiter Ostrev
+https://arxiv.org/abs/2408.15202
+https://arxiv.org/pdf/2408.15202
+[2024-08-29 10:37:17] posted
+Continuity of entropies via integral representations
+Mario Berta, Ludovico Lami, Marco Tomamichel
+https://arxiv.org/abs/2408.15226
+https://arxiv.org/pdf/2408.15226
+[2024-08-29 10:37:18] posted
+These are all new submissions for today.
+[2024-08-29 10:37:19] This is the end of all the posts on 2024-08-28
+[2024-08-29 10:37:19] The category is hep-ph
+[2024-08-29 10:37:19] posted
+The Sign of Gauge-Higgs Couplings at Future Lepton Colliders
+Carlos Henrique de Lima, Douglas Tuckler
+https://arxiv.org/abs/2408.14536
+https://arxiv.org/pdf/2408.14536
+[2024-08-29 10:37:21] posted
+Collider and CMB complementarity of leptophilic dark matter with light Dirac neutrinos
+Debasish Borah, Nayan Das, Sahabub Jahedi, Bhavya Thacker
+https://arxiv.org/abs/2408.14548
+https://arxiv.org/pdf/2408.14548
+[2024-08-29 10:37:22] posted
+Effects of Neutron-Antineutron Transitions in Neutron Stars
+Itzhak Goldman, Rabindra N. Mohapatra, Shmuel Nussinov, Robert Shrock
+https://arxiv.org/abs/2408.14555
+https://arxiv.org/pdf/2408.14555
+[2024-08-29 10:37:24] posted
+Long Range Energy-energy Correlator at the LHC
+Yuxun Guo, Xiaohui Liu, Feng Yuan
+https://arxiv.org/abs/2408.14693
+https://arxiv.org/pdf/2408.14693
+[2024-08-29 10:37:25] posted
+Maxwell's equal-area law for Vaidya-Bonner-de Sitter black hole under Lorentz invariance violation
+Yenshembam Priyobarta Singh, Telem Ibungochouba Singh, Sapam Niranjan Singh
+https://arxiv.org/abs/2408.14796
+https://arxiv.org/pdf/2408.14796
+[2024-08-29 10:37:26] posted
+Effect of quark anomalous magnetic moment on neutral dense quark matter under magnetic field
+Mamiya Kawaguchi, Irfan Siddique, Mei Huang
+https://arxiv.org/abs/2408.14808
+https://arxiv.org/pdf/2408.14808
+[2024-08-29 10:37:28] posted
+Lepton flavour violation Signals of the singly charged scalar singlet at the ILC
+Chong-Xing Yue, Xiao-Chen Sun, Na-Qian Zhang, Yang-Yang Bu
+https://arxiv.org/abs/2408.14856
+https://arxiv.org/pdf/2408.14856
+[2024-08-29 10:37:29] posted
+The pole structures of the $X(1840)/X(1835)$ and the $X(1880)$
+Peng-Yu Niu, Zhen-Yu Zhang, Yi-Yao Li, Qian Wang, Qiang Zhao
+https://arxiv.org/abs/2408.14876
+https://arxiv.org/pdf/2408.14876
+[2024-08-29 10:37:30] posted
+Neutrino Masses and Mixing in an Axion Model
+Sin Kyu Kang, Hiroshi Okada
+https://arxiv.org/abs/2408.14942
+https://arxiv.org/pdf/2408.14942
+[2024-08-29 10:37:31] posted
+Greybody factor and Quasinormal modes of scalar and Dirac field perturbation in Schwarzschild-de Sitter-like black hole in Bumblebee gravity model
+Yenshembam Priyobarta Singh, Telem Ibungochouba Singh
+https://arxiv.org/abs/2408.14945
+https://arxiv.org/pdf/2408.14945
+[2024-08-29 10:37:33] posted
+Final-state rescattering mechanism of charmed baryon decays
+Cai-Ping Jia, Hua-Yu Jiang, Jian-Peng Wang, Fu-Sheng Yu
+https://arxiv.org/abs/2408.14959
+https://arxiv.org/pdf/2408.14959
+[2024-08-29 10:37:34] posted
+These are all new submissions for today.
+[2024-08-29 10:37:35] This is the end of all the posts on 2024-08-28

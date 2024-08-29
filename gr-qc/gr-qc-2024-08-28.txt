@@ -1,0 +1,65 @@
+Deep Einstein@Home search for Continuous Gravitational Waves from the Central Compact Objects in the Supernova Remnants Vela Jr. and G347.3-0.5 using LIGO public data
+Jing Ming, Maria Alessandra Papa, Heinz-Bernd Eggenstein, Banafsheh Beheshtipour, Bernd Machenschalk, Reinhard Prix, Bruce Allen, Maximillian Bensch
+https://arxiv.org/abs/2408.14573
+https://arxiv.org/pdf/2408.14573
+----
+Cosmological Dynamics in Interacting Scalar-Torsion f(T,$\phi$) Gravity: Investigating Energy and Momentum Couplings
+Carlos Rodriguez-Benites, Manuel Gonzalez-Espinoza, Giovanni Otalora, Manuel Alva-Morales
+https://arxiv.org/abs/2408.14614
+https://arxiv.org/pdf/2408.14614
+----
+Universal phenomenological relations between spherical harmonic modes in non-precessing eccentric binary black hole merger waveforms
+Tousif Islam, Tejaswi Venumadhav
+https://arxiv.org/abs/2408.14654
+https://arxiv.org/pdf/2408.14654
+----
+Spontaneous branes formation
+Arkadiy A. Popov, Sergey G. Rubin
+https://arxiv.org/abs/2408.14692
+https://arxiv.org/pdf/2408.14692
+----
+Quantum BPS Cosmology
+Nahomi Kan, Kiyoshi Shiraishi, Maki Takeuchi, Mai Yashiki
+https://arxiv.org/abs/2408.14790
+https://arxiv.org/pdf/2408.14790
+----
+Analysing Hubble Tension and Gravitational Waves for $f(Q,T)$ Gravity Theories
+Shreya Banerjee, Aritrya Paul
+https://arxiv.org/abs/2408.14878
+https://arxiv.org/pdf/2408.14878
+----
+Stability of the Einstein Static Universe in Zero-Point Length Cosmology with Topological Defects
+Kalyan Bhuyan, Mrinnoy M. Gohain
+https://arxiv.org/abs/2408.14943
+https://arxiv.org/pdf/2408.14943
+----
+Combining underground and on-surface third-generation gravitational-wave interferometers
+Francesco Iacovelli, Enis Belgacem, Michele Maggiore, Michele Mancarella, Niccolò Muttoni
+https://arxiv.org/abs/2408.14946
+https://arxiv.org/pdf/2408.14946
+----
+Quasi-local mass on rigid or round spheres in Kerr spacetime
+Jacek Jezierski, Tomasz Smołka
+https://arxiv.org/abs/2408.14978
+https://arxiv.org/pdf/2408.14978
+----
+Dynamical Systems Analysis of f(R,G) Cosmological Model with Dark Sector Coupling
+Shivani Sharma, R. Chaubey
+https://arxiv.org/abs/2408.14989
+https://arxiv.org/pdf/2408.14989
+----
+The constraint on modified black holes with extreme mass ratio inspirals
+Chao Zhang, Guoyang Fu, Yungui Gong
+https://arxiv.org/abs/2408.15064
+https://arxiv.org/pdf/2408.15064
+----
+Evolution of spherical perturbations in the cosmological environment of the Higgs scalar field and an ideal scalar charged fluid
+Yu. G. Ignat'ev
+https://arxiv.org/abs/2408.15129
+https://arxiv.org/pdf/2408.15129
+----
+$\alpha-$surfaces and global coordinates in black hole spacetimes
+Bernardo Araneda, Bernard F. Whiting
+https://arxiv.org/abs/2408.15189
+https://arxiv.org/pdf/2408.15189
+----

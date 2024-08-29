@@ -12,7 +12,7 @@ def load_credentials(category):
     # Get the path to the home directory
     home_directory = os.path.expanduser("~")
     # Construct the full file path
-    folder = 'twitter-keys'
+    folder = 'arxiv_bot_keys/twitter-keys'
     directory_path = os.path.join(home_directory, folder)
     file_path = os.path.join(directory_path, category)
 
@@ -26,10 +26,10 @@ def load_credentials(category):
                 credentials[key] = value
         return credentials
     except FileNotFoundError:
-        print(f"File {file_path} not found.")
+        printlog(f"File {file_path} not found.")
         return None
     except Exception as e:
-        print(f"An error occurred: {e}")
+        printlog(f"An error occurred: {e}")
         return None
 
 #%%
@@ -53,11 +53,12 @@ def twitter_login(category):
 from printlog import printlog
 from bluesky_function import shorten_paper_info
 
-def make_a_tweet(title_line, authors_line, arxiv_url):
+def make_a_tweet(title_line, authors_line, arxiv_url, pdf_url):
     tw = str()
     tw += (title_line + '\n')
     tw += (arxiv_url)# only an object arxiv_url
     tw += ('\n' + authors_line)
+    tw += ('\n' + pdf_url)
     return tw
 
 def send_post_to_twitter(client, text, thumb=None, max_letter=280):
@@ -69,19 +70,19 @@ def send_post_to_twitter(client, text, thumb=None, max_letter=280):
         printlog(f"posted\n{t}")
         return None
     if len(t) > max_letter:
+        # Check if the tweet content is within Twitter's character limit
         t = shorten_paper_info(t)
         printlog(f"Tweet content exceeds {max_letter} characters. The shorten_paper_info shortened the text.")
 
     try:
-        # Check if the tweet content is within Twitter's character limit
         # Post Tweet
-        title_line, authors_line, arxiv_url, pdf_url = t.split("\n") 
-        tw = make_a_tweet(title_line, authors_line, arxiv_url)
+        title_line, authors_line, arxiv_url, pdf_url = t.split("\n")
+        tw = make_a_tweet(title_line, authors_line, arxiv_url, pdf_url)
         client.create_tweet(text=tw)
         # print("Tweet posted successfully!")
         printlog(f"posted\n{t}")
     except tweepy.errors.TweepyException as e:
-        print(f"Error occurred: {e}")
+        printlog(f"Error occurred: {e}")
 
     return None
 

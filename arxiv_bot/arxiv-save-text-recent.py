@@ -1,11 +1,11 @@
 #%%
-from arxiv_function import arxiv_search, save_text_append, categories_content, read_HTML, read_text_file, arxiv_formatted_date
+from arxiv_function import ArxivSearch, save_text_append, categories_content, read_HTML, read_inner_file, arxiv_formatted_date
 
 # Sample HTML
 category = categories_content[0]
-dates = read_text_file('date', folder='arxiv_bot')
+dates = read_inner_file(file='date', folder='arxiv_bot')
 
-obj = arxiv_search(category, submissions = 'recent')
+obj = ArxivSearch(category, submissions = 'recent')
 soup = read_HTML(obj.category, submissions=obj.submissions)
 #%%
 # Search for the <a> tag containing the specific date
