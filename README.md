@@ -20,6 +20,8 @@ python tests/arxiv-bot-test.py gr-qc 2024-07-14 2024-07-21
 1. 'arxiv_bot/arxiv-save-HTML.py' によって New Submissions の HTML ソースをダウンロードします。
 2. HTML フォルダのソースから Title, Authors, Link (abs, pdf) を抜き出します。
 3. Bluesky にアップロードします。
+4. Twitter にアップロードします。
+5. Threads にもアップロードします（予定）。
 
 ## arXiv
 
@@ -59,7 +61,7 @@ Python で Bot を作ります。
 
 Twitter でも bot を作りました (version 1.0)。
 
-2023年5月以来の悲願でした。
+Twitter の free bot が息絶えた 2023年5月以来、理論物理分野の arXiv bot は一部のカテゴリーを除いてありませんでしたが、この度復活させました。
 
 > X Developers  
 > https://developer.x.com/en/portal/petition/essential/terms?plan=free 
