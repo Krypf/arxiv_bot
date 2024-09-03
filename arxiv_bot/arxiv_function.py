@@ -142,7 +142,7 @@ def arxiv_formatted_date(date_str):
     return (formatted_date)
 
 #%%
-def check_last(t, today):
+def post_last(t, today):
     t = f"These are all of the new submissions on {today}."
     printlog(f"posted\n{t}")
     return t

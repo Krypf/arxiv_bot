@@ -45,14 +45,14 @@ def bsky_login(category):
     thumb = client.upload_blob(img)
     return client, thumb
 #%%
-def make_a_rich_text(title_line, authors_line, arxiv_url):
+def make_rich_text(title_line, authors_line, arxiv_url):
     tb = client_utils.TextBuilder()
     tb.text(title_line + '\n')
     tb.link(arxiv_url, arxiv_url)
     tb.text('\n' + authors_line)
     return tb
 
-def make_a_linkcard(title_line, pdf_url, thumb):
+def make_linkcard(title_line, pdf_url, thumb):
     embed_external = models.AppBskyEmbedExternal.Main(
         external = models.AppBskyEmbedExternal.External(
             title = title_line,
@@ -64,21 +64,20 @@ def make_a_linkcard(title_line, pdf_url, thumb):
     return embed_external
 #%%
 
-from arxiv_function import check_last, shorten_paper_info
+from arxiv_function import post_last, shorten_paper_info
 
 def send_post_to_bluesky(client, text, thumb, max_letter=300, today='today'):
     t = text
     if len(t) == 0:
-        # last entry
-        t = check_last(t, today)
+        t = post_last(t, today)
         client.send_post(t)
         return None
     if len(t) > max_letter:
         t = shorten_paper_info(t, max_letter)
     
     title_line, authors_line, arxiv_url, pdf_url = t.split("\n") 
-    tb = make_a_rich_text(title_line, authors_line, arxiv_url)
-    embed_external = make_a_linkcard(title_line, pdf_url, thumb)
+    tb = make_rich_text(title_line, authors_line, arxiv_url)
+    embed_external = make_linkcard(title_line, pdf_url, thumb)
     
     client.send_post(tb, embed=embed_external)
     printlog(f"posted on Bluesky\n{t}")

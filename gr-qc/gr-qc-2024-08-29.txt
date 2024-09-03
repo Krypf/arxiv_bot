@@ -1,0 +1,60 @@
+Spin the black circle: horizon absorption on non-circular, planar binary black hole dynamics
+Danilo Chiaramello, Rossella Gamba
+https://arxiv.org/abs/2408.15322
+https://arxiv.org/pdf/2408.15322
+----
+Stability Analysis of Static Spherical Spacetime in Extended Symmetric Teleparallel Gravity
+M. Zeeshan Gul, M. Sharif, Adeeba Arooj
+https://arxiv.org/abs/2408.15389
+https://arxiv.org/pdf/2408.15389
+----
+Stellar modeling via the Tolman IV solution: The cases of the massive pulsar J0740+6620 and the HESS J1731-347 compact object
+Grigoris Panotopoulos
+https://arxiv.org/abs/2408.15422
+https://arxiv.org/pdf/2408.15422
+----
+Traces of Quantum Gravity Effects at Late time Cosmological Dynamics via Distance Measures
+Maryam Roushan, Narges Rashidi, Kourosh Nozari
+https://arxiv.org/abs/2408.15604
+https://arxiv.org/pdf/2408.15604
+----
+Kinematics and Generalized Raychaudhuri equation in f(G) gravity in imperfect fluid case
+Y. Alipour Fakhri, MOjtaba Safdarian, S. Zamani Moghaddam
+https://arxiv.org/abs/2408.15606
+https://arxiv.org/pdf/2408.15606
+----
+On the art of designing effective space-times with free surface flows in Analogue Gravity
+Alexis Bossard, Nicolas James, Valentin Jules, Johan Fourdrinoy, Scott Robertson, Germain Rousseaux
+https://arxiv.org/abs/2408.15629
+https://arxiv.org/pdf/2408.15629
+----
+All non-expanding gravitational waves in $D$-dimensional (anti-)de Sitter space
+Marcello Ortaggio, Jakub Voldřich, José Barrientos
+https://arxiv.org/abs/2408.15638
+https://arxiv.org/pdf/2408.15638
+----
+Quantum tunneling in a quintessence background and the role of GUP
+Sauvik Sen
+https://arxiv.org/abs/2408.15711
+https://arxiv.org/pdf/2408.15711
+----
+Higher-dimensional quantum Oppenheimer-Snyder model
+Zijian Shi, Xiangdong Zhang, Yongge Ma
+https://arxiv.org/abs/2408.15821
+https://arxiv.org/pdf/2408.15821
+----
+Spinning LQG black hole as a particle accelerator
+Ullas P. Suresh, Karthik R, K. M. Ajith, Kartheek Hegde, Shreyas Punacha, A. Naveena Kumara
+https://arxiv.org/abs/2408.15828
+https://arxiv.org/pdf/2408.15828
+----
+Singular lagrangians and the Hamilton-Jacobi formalism in classical mechanics
+Luis G. Romero-Hernández, Jaime Manuel-Cabrera, Ramón E. Chan-López, Jorge M. Paulin-Fuentes
+https://arxiv.org/abs/2408.15871
+https://arxiv.org/pdf/2408.15871
+----
+Crystallized white dwarf stars in scalar-tensor gravity
+Sofía Vidal, Aneta Wojnar, Laur Järv, Daniela Doneva
+https://arxiv.org/abs/2408.15937
+https://arxiv.org/pdf/2408.15937
+----

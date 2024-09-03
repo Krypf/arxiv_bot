@@ -1,0 +1,10 @@
+Two-dimensional Fireballs as a Lagrangian Ermakov System
+Fernando Haas
+https://arxiv.org/abs/2408.16521
+https://arxiv.org/pdf/2408.16521
+----
+Small deviations of Gaussian multiplicative chaos and the free energy of the two-dimensional massless Sinh--Gordon model
+Nikolay Barashkov, Joona Oikarinen, Mo Dick Wong
+https://arxiv.org/abs/2408.16574
+https://arxiv.org/pdf/2408.16574
+----

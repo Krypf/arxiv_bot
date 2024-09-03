@@ -1,0 +1,160 @@
+Quantum Entanglement and Chocolates
+Biao Wu
+https://arxiv.org/abs/2408.16024
+https://arxiv.org/pdf/2408.16024
+----
+Magic of the Heisenberg Picture
+Neil Dowling, Pavel Kos, Xhek Turkeshi
+https://arxiv.org/abs/2408.16047
+https://arxiv.org/pdf/2408.16047
+----
+Squeezed Thermal Reservoir Engineering via Linear Interactions
+Cheng-Lin Lee, Chiao-Hsuan Wang
+https://arxiv.org/abs/2408.16052
+https://arxiv.org/pdf/2408.16052
+----
+Quantum Algorithm for Shortest Vector Problems with Folded Spectrum Method
+Kota Mizuno, Shohei Watabe
+https://arxiv.org/abs/2408.16062
+https://arxiv.org/pdf/2408.16062
+----
+Symmetries, correlation functions, and entanglement of general quantum Motzkin spin-chains
+Varun Menon, Andi Gu, Ramis Movassagh
+https://arxiv.org/abs/2408.16070
+https://arxiv.org/pdf/2408.16070
+----
+Modular variable laser cooling for efficient entropy extraction
+Brennan de Neeve, Thanh-Long Nguyen, Alexander Ferk, Tanja Behrle, Francesco Lancellotti, Matteo Simoni, Stephan Welte, Jonathan Home
+https://arxiv.org/abs/2408.16128
+https://arxiv.org/pdf/2408.16128
+----
+A transition state resonance radically reshapes angular distributions of the F + H2 -> F H(vf = 3) + H reaction in the 62.09-101.67 meV energy range
+Dmitri Sokolovski, Dario De Fazio, Elena Akhmatskaya
+https://arxiv.org/abs/2408.16134
+https://arxiv.org/pdf/2408.16134
+----
+Integrating Quantum Computing Resources into Scientific HPC Ecosystems
+Thomas Beck, Alessandro Baroni, Ryan Bennink, Gilles Buchs, Eduardo Antonio Coello Perez, Markus Eisenbach, Rafael Ferreira da Silva, Muralikrishnan Gopalakrishnan Meena, Kalyan Gottiparthi, Peter Groszkowski, Travis S. Humble, Ryan Landfield, Ketan Maheshwari, Sarp Oral, Michael A. Sandoval, Amir Shehata, In-Saeng Suh, Christopher Zimmer
+https://arxiv.org/abs/2408.16159
+https://arxiv.org/pdf/2408.16159
+----
+Optical Spring Tracking for Enhancing Quantum-Limited Interferometers
+Scott Aronson, Ronald Pagano, Torrey Cullen, Garrett D. Cole, Thomas Corbitt
+https://arxiv.org/abs/2408.16171
+https://arxiv.org/pdf/2408.16171
+----
+Demonstrating two-particle interference with a one-dimensional delta potential well
+Zhi Jiao Deng, Xin Zhang, Yong Shen, Wei Tao Liu, Ping Xing Chen
+https://arxiv.org/abs/2408.16205
+https://arxiv.org/pdf/2408.16205
+----
+Quantum Programming Without the Quantum Physics
+Jun Inoue
+https://arxiv.org/abs/2408.16234
+https://arxiv.org/pdf/2408.16234
+----
+Quantum Advantage via Efficient Post-processing on Qudit Shadow tomography
+Yu Wang
+https://arxiv.org/abs/2408.16244
+https://arxiv.org/pdf/2408.16244
+----
+Coherent Information Phase Transition in a Noisy Quantum Circuit
+Dongheng Qian, Jing Wang
+https://arxiv.org/abs/2408.16267
+https://arxiv.org/pdf/2408.16267
+----
+High-fidelity and robust controlled-Z gates implemented with Rydberg atoms via echoing rapid adiabatic passage
+Ming Xue, Shijie Xu, Xinwei Li, Xiangliang Li
+https://arxiv.org/abs/2408.16274
+https://arxiv.org/pdf/2408.16274
+----
+Distributed quantum machine learning via classical communication
+Kiwmann Hwang, Hyang-Tag Lim, Yong-Su Kim, Daniel K. Park, Yosep Kim
+https://arxiv.org/abs/2408.16327
+https://arxiv.org/pdf/2408.16327
+----
+Estimation Enhancing in Optoelectronic Property: A Novel Approach Using Orbital Interaction Parameters and Tight-Binding
+Ali Haji Ebrahim Zargar, Ali Amini, Ahmad Ayatollahi
+https://arxiv.org/abs/2408.16329
+https://arxiv.org/pdf/2408.16329
+----
+Measuring entanglement along collective operators
+Éloi Descamps, Arne Keller, Pérola Milman
+https://arxiv.org/abs/2408.16356
+https://arxiv.org/pdf/2408.16356
+----
+Unconditionally separating noisy $\mathsf{QNC}^0$ from bounded polynomial threshold circuits of constant depth
+Min-Hsiu Hsieh, Leandro Mendes, Michael de Oliveira, Sathyawageeswar Subramanian
+https://arxiv.org/abs/2408.16378
+https://arxiv.org/pdf/2408.16378
+----
+Engineering of Hyperentangled Complex Quantum Networks
+Murad Ahmad, Liaqat Ali, Muhammad Imran, Rameez-ul-Islam, Manzoor Ikram, Rafi Ud Din, Ashfaq Ahmad, Iftikhar Ahmad
+https://arxiv.org/abs/2408.16397
+https://arxiv.org/pdf/2408.16397
+----
+Improved Circuit Lower Bounds With Applications to Exponential Separations Between Quantum and Classical Circuits
+Sabee Grewal, Vinayak M. Kumar
+https://arxiv.org/abs/2408.16406
+https://arxiv.org/pdf/2408.16406
+----
+Quantum Sieving for Code-Based Cryptanalysis and Its Limitations for ISD
+Lynn Engelberts, Simona Etinski, Johanna Loyer
+https://arxiv.org/abs/2408.16458
+https://arxiv.org/pdf/2408.16458
+----
+Electron Spin Resonance Spectroscopy in a Transmission Electron Microscope
+Antonín Jaroš, Johann Toyfl, Andrea Pupić, Benjamin Czasch, Giovanni Boero, Isobel C. Bicket, Philipp Haslinger
+https://arxiv.org/abs/2408.16492
+https://arxiv.org/pdf/2408.16492
+----
+Multi-Reference UCCSD Variational Quantum Algorithm for Molecular Ground State Energies
+Di Wu, C.L. Bai, H. Sagawa, H.Q. Zhang
+https://arxiv.org/abs/2408.16523
+https://arxiv.org/pdf/2408.16523
+----
+Circuit QED Emission Spectra in the Ultrastrong Coupling Regime: How They Differ from Cavity QED
+Samuel Napoli, Alberto Mercurio, Daniele Lamberto, Andrea Zappalà, Omar Di Stefano, Salvatore Savasta
+https://arxiv.org/abs/2408.16558
+https://arxiv.org/pdf/2408.16558
+----
+Heisenberg-Limited Spin-Mechanical Gravimetry
+Victor Montenegro
+https://arxiv.org/abs/2408.16587
+https://arxiv.org/pdf/2408.16587
+----
+Embedded Complexity and Quantum Circuit Volume
+Zhenyu Du, Zi-Wen Liu, Xiongfeng Ma
+https://arxiv.org/abs/2408.16602
+https://arxiv.org/pdf/2408.16602
+----
+Long-Range $ZZ$ Interaction via Resonator-Induced Phase in Superconducting Qubits
+Xiang Deng, Wen Zheng, Xudong Liao, Haoyu Zhou, Yangyang Ge, Jie Zhao, Dong Lan, Xinsheng Tan, Yu Zhang, Shaoxiong Li, Yang Yu
+https://arxiv.org/abs/2408.16617
+https://arxiv.org/pdf/2408.16617
+----
+Quantum decoherence from complex saddle points
+Jun Nishimura, Hiromasa Watanabe
+https://arxiv.org/abs/2408.16627
+https://arxiv.org/pdf/2408.16627
+----
+Optimal Trace Distance and Fidelity Estimations for Pure Quantum States
+Qisheng Wang
+https://arxiv.org/abs/2408.16655
+https://arxiv.org/pdf/2408.16655
+----
+Designing a compact cavity-enhanced source of entangled photons
+Žiga Pušavec, Lara Ulčakar, Rainer Kaltenbaek
+https://arxiv.org/abs/2408.16666
+https://arxiv.org/pdf/2408.16666
+----
+Dynamics of a V-type atom inside a deformed cavity field and in the presence of an external Microwave field
+Elmira Bolandhemmat, Fardin Kheirandish
+https://arxiv.org/abs/2408.16682
+https://arxiv.org/pdf/2408.16682
+----
+An algebraic characterisation of Kochen-Specker contextuality
+Markus Frembs
+https://arxiv.org/abs/2408.16764
+https://arxiv.org/pdf/2408.16764
+----

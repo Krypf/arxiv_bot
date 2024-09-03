@@ -1,0 +1,55 @@
+Galactic black hole immersed in a dark halo with its surrounding thin accretion disk
+Mohaddese Heydari-Fard, Malihe Heydari-Fard, Nematollah Riazi
+https://arxiv.org/abs/2408.16020
+https://arxiv.org/pdf/2408.16020
+----
+The consequence of higher-order curvature-based constraints on $ f(R, L_m) $ gravity
+J. K. Singh, Shaily, Akanksha Singh, Harshna Balhara, Joao R. L. Santos
+https://arxiv.org/abs/2408.16038
+https://arxiv.org/pdf/2408.16038
+----
+Forward Ray Tracing and Hot Spots in Kerr Spacetime
+Lihang Zhou, Zhen Zhong, Yifan Chen, Vitor Cardoso
+https://arxiv.org/abs/2408.16049
+https://arxiv.org/pdf/2408.16049
+----
+Accurate quasinormal modes of the analogue black holes
+Jerzy Matyjasek, Kristian Benda, Maja Stafińska
+https://arxiv.org/abs/2408.16116
+https://arxiv.org/pdf/2408.16116
+----
+Concept Study of a Storage Ring-based Gravitational Wave Observatory: Gravitational Wave Strain and Synchrotron Radiation Noise
+Thorben Schmirander, Velizar Miltchev, Suvrat Rao, Marcus Brüggen, Florian Grüner, Wolfgang Hillert, Jochen Liske
+https://arxiv.org/abs/2408.16374
+https://arxiv.org/pdf/2408.16374
+----
+How can an extra dimension affect compact star observables in the Klauza-Klein model?
+Anna Horváth, Emese Forgács-Dajka, Gergely Gábor Barnaföldi
+https://arxiv.org/abs/2408.16497
+https://arxiv.org/pdf/2408.16497
+----
+Foliation-generating observers under Lorentz transformations
+Daniel Blixt, Alejandro Jiménez Cano, Aneta Wojnar
+https://arxiv.org/abs/2408.16513
+https://arxiv.org/pdf/2408.16513
+----
+Normal bound states out of massive complex ghosts degrees of freedom in superrenormalizable quantum gravity theories
+Manuel Asorey, Gastao Krein, Ilya L. Shapiro
+https://arxiv.org/abs/2408.16514
+https://arxiv.org/pdf/2408.16514
+----
+Static Planck stars from effective loop quantum gravity
+Edward Wilson-Ewing
+https://arxiv.org/abs/2408.16533
+https://arxiv.org/pdf/2408.16533
+----
+A new approach in classical Klein-Gordon cosmology: "Small Bangs", inflation and Dark Energy
+Eleni-Alexandra Kontou, Nicolai Rothe
+https://arxiv.org/abs/2408.16549
+https://arxiv.org/pdf/2408.16549
+----
+Post-innermost stable circular orbit ringdown of a rapidly spinning black hole: mass ratio dependence of higher harmonic quasi-normal mode excitation
+Daiki Watarai
+https://arxiv.org/abs/2408.16747
+https://arxiv.org/pdf/2408.16747
+----

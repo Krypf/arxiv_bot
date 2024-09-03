@@ -1,0 +1,80 @@
+Extremal rotating BTZ black holes cannot be dressed in (anti-)self-dual Maxwell field
+Hideki Maeda, Jiri Podolsky
+https://arxiv.org/abs/2408.16056
+https://arxiv.org/pdf/2408.16056
+----
+Higher-order gaugino condensates on a twisted $\mathbb T^4$: In the beginning, there was semi-classics
+Mohamed M. Anber, Erich Poppitz
+https://arxiv.org/abs/2408.16058
+https://arxiv.org/pdf/2408.16058
+----
+Notes on peculiarities of Schwinger--DeWitt technique: one-loop double poles, total-derivative terms and determinant anomalies
+Andrei O. Barvinsky, Alexey E. Kalugin
+https://arxiv.org/abs/2408.16174
+https://arxiv.org/pdf/2408.16174
+----
+Unraveling the Physical Meaning Behind Elko's Dual structure
+G. B. de Gracia, R. J. Bueno Rogerio, L. Fabbri
+https://arxiv.org/abs/2408.16196
+https://arxiv.org/pdf/2408.16196
+----
+Modular invariance groups and defect McKay-Thompson series
+Harry Fosbinder-Elkins, Jeffrey A. Harvey
+https://arxiv.org/abs/2408.16263
+https://arxiv.org/pdf/2408.16263
+----
+On one-loop corrections to the Bunch-Davies wavefunction of the universe
+Paolo Benincasa, Giacomo Brunello, Manoj K. Mandal, Pierpaolo Mastrolia, Francisco Vazão
+https://arxiv.org/abs/2408.16386
+https://arxiv.org/pdf/2408.16386
+----
+On the physical and mathematical foundations of quantum physics via functional integrals
+Giampiero Esposito, Tepper L. Gill
+https://arxiv.org/abs/2408.16404
+https://arxiv.org/pdf/2408.16404
+----
+Topological zero modes and bounded modes at smooth domain walls: exact solutions and dualities
+Pasquale Marra, Angela Nigro
+https://arxiv.org/abs/2408.16466
+https://arxiv.org/pdf/2408.16466
+----
+Low-energy limit of N-photon amplitudes in a constant field: Part II
+Misha A. Lopez-Lopez
+https://arxiv.org/abs/2408.16474
+https://arxiv.org/pdf/2408.16474
+----
+Background independent higher derivative double field theory action
+Rasim Yılmaz
+https://arxiv.org/abs/2408.16524
+https://arxiv.org/pdf/2408.16524
+----
+Solitons in 4d Wess-Zumino-Witten models -- Towards unification of integrable systems --
+Masashi Hamanaka, Shan-Chi Huang
+https://arxiv.org/abs/2408.16554
+https://arxiv.org/pdf/2408.16554
+----
+Weak $G_2$-manifolds and scale separation in M-theory from type IIA backgrounds
+Vincent Van Hemelryck
+https://arxiv.org/abs/2408.16609
+https://arxiv.org/pdf/2408.16609
+----
+Intersection Numbers from Companion Tensor Algebra
+Giacomo Brunello, Vsevolod Chestnov, Pierpaolo Mastrolia
+https://arxiv.org/abs/2408.16668
+https://arxiv.org/pdf/2408.16668
+----
+Correlators of long strings on AdS$_3\times$S$^3\times$T$^4$
+Zhe-fei Yu, Cheng Peng
+https://arxiv.org/abs/2408.16712
+https://arxiv.org/pdf/2408.16712
+----
+Ambitwistor Yang-Mills Theory Revisited
+Leron Borsten, Branislav Jurco, Hyungrok Kim, Christian Saemann, Martin Wolf
+https://arxiv.org/abs/2408.16727
+https://arxiv.org/pdf/2408.16727
+----
+Galilean fluids from non-relativistic gravity
+Jelle Hartong, Aditya Mehra, Jørgen Musaeus
+https://arxiv.org/abs/2408.16734
+https://arxiv.org/pdf/2408.16734
+----

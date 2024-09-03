@@ -51,7 +51,7 @@ def twitter_login(category):
 # Function to read content from a text file and tweet it
 
 
-def make_a_tweet(title_line, authors_line, arxiv_url, pdf_url):
+def make_tweet(title_line, authors_line, arxiv_url, pdf_url):
     tw = str()
     tw += (title_line + '\n')
     tw += (arxiv_url)# only an object arxiv_url
@@ -60,13 +60,12 @@ def make_a_tweet(title_line, authors_line, arxiv_url, pdf_url):
     return tw
 
 from printlog import printlog
-from arxiv_function import check_last, shorten_paper_info
+from arxiv_function import post_last, shorten_paper_info
 
 def send_post_to_twitter(client, text, thumb=None, max_letter=280, today='today'):
     t = text
     if len(t) == 0:
-        # last entry
-        t = check_last(t, today)
+        t = post_last(t, today)
         client.create_tweet(text=t)
         return None
     if len(t) > max_letter:
@@ -76,7 +75,7 @@ def send_post_to_twitter(client, text, thumb=None, max_letter=280, today='today'
     try:
         # Post Tweet
         title_line, authors_line, arxiv_url, pdf_url = t.split("\n")
-        tw = make_a_tweet(title_line, authors_line, arxiv_url, pdf_url)
+        tw = make_tweet(title_line, authors_line, arxiv_url, pdf_url)
         client.create_tweet(text=tw)
         # print("Tweet posted successfully!")
         printlog(f"posted on Twitter\n{t}")

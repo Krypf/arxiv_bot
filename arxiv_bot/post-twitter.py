@@ -7,7 +7,7 @@ from arxiv_function import categories_content, ArxivText, arxiv_formatted_date
 from twitter_function import twitter_login, send_post_to_twitter
 #%%
 def main(obj: ArxivText, sleep_time=1):
-    client = twitter_login(category)
+    client = twitter_login(obj.category)
     text = obj.read_content()
 
     # Split the text using "----" as the delimiter
