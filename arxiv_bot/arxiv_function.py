@@ -2,17 +2,27 @@
 import arxiv
 from datetime import datetime
 import os
+import re
+
 from typing import List
 from printlog import printlog
 from bs4 import BeautifulSoup
+from lxml import etree
+from pyquery import PyQuery as pq
+
 
 #%% https://chatgpt.com/share/c59404fb-255c-42db-892a-c19c00d92e8c
 class ArxivSearch:
-    def __init__(self, category: str, submissions: str = "new", skip: str = "", show: str = ""):
+    def __init__(self, category: str, submissions: str = "new", skip: str = "", show: str = "", parent_folder: str = os.path.expanduser("~/arxiv_bot")):
         self.category = category
         self.submissions = submissions
         self.skip = skip
         self.show = show
+        # HTML data
+        self.file_name = f"arxiv_{self.category}_{self.submissions}.html"
+        # Specify the file path to the HTML content located in the HTML folder
+        directory = "HTML"
+        self.file_path = os.path.join(parent_folder, directory, self.file_name)
 
     def make_url(self):
         # Construct the URL based on the attributes
@@ -23,12 +33,83 @@ class ArxivSearch:
             url += "?"
         if self.skip:
             url += f"skip={self.skip}"
+            # skip and show
             if self.show:
                 url += "&"
+        # the show option exists
         if self.show:
             url += f"show={self.show}"
         
         return url
+    
+    def read_HTML(self, library='BeautifulSoup', encoding='utf-8', parser='html.parser'):
+        # Read the HTML content from the file
+        with open(self.file_path, 'r', encoding=encoding) as file:
+            html_content = file.read()
+        
+        if library == 'BeautifulSoup':
+            # Parse the HTML content
+            soup = BeautifulSoup(html_content, parser)
+            return soup
+        if library == 'lxml':                  
+            # Convert to bytes (ensure it's UTF-8 encoded)
+            html_bytes = html_content.encode(encoding)
+            # Parse the HTML content using bytes
+            tree = etree.HTML(html_bytes)
+            return tree
+        if library == 'pyquery':
+            # Parse the HTML content
+            document = pq(html_content.encode('utf-8'))
+            return document
+        else:
+            raise ValueError(f"Unsupported library: {library}. Choose 'BeautifulSoup' or 'lxml'.")
+
+    def find_text_from_HTML(self, tag, text):
+        document = self.read_HTML(library='pyquery')
+        # Find elements containing the search string
+        elements = document(tag).filter(lambda i, e: text in pq(e).text())
+        # Print matching elements and their text
+        list_documents = [element.outer_html() for element in elements.items()]
+        n = len(list_documents)
+        if n == 1:
+            document = pq(list_documents[0])
+            return document
+        else:
+            raise IndexError(f"There are {n} matching elements.")        
+
+    def extract_skip_number(self, string_to_find: str) -> int:
+        tree = self.read_HTML(library='lxml')
+        link = tree.xpath(f'//a[normalize-space()="{string_to_find}"]')
+        # Extract the href attribute
+        if link:
+            href = link[0].get('href')
+            # print(href)
+        else:
+            print("Link not found")
+        match = re.search(r'skip=(\d+)', href)
+        if match:
+            return int(match.group(1))
+        raise ValueError("Skip number not found in the URL")
+
+def read_HTML_soup(category, submissions="new"):
+    # Specify the file path to the HTML content located in the HTML folder
+    directory = "HTML"
+    file_path = os.path.join(directory, "arxiv_" + category + "_" + submissions + ".html")
+    # Read the HTML content from the file
+    with open(file_path, 'r', encoding='utf-8') as file:
+        html_content = file.read()
+    # Parse the HTML content
+    soup = BeautifulSoup(html_content, 'html.parser')
+    return soup
+
+def arxiv_formatted_date(date_str):
+    # Convert the string to a datetime object
+    date_obj = datetime.strptime(date_str, '%Y-%m-%d')
+
+    # Format the date as "Fri, 16 Aug 2024"
+    formatted_date = date_obj.strftime('%a, %-d %b %Y')
+
+    return (formatted_date)
 
 #%%
 def cd_arxiv_bot():
@@ -120,26 +201,6 @@ def read_inner_file(file = '', folder='') -> List[str]:
     except Exception as e:
         printlog(str(e))
         return []
-
-def read_HTML(category, submissions="new"):
-    # Specify the file path to the HTML content located in the HTML folder
-    directory = "HTML"
-    file_path = os.path.join(directory, "arxiv_" + category + "_" + submissions + ".html")
-    # Read the HTML content from the file
-    with open(file_path, 'r', encoding='utf-8') as file:
-        html_content = file.read()
-    # Parse the HTML content
-    soup = BeautifulSoup(html_content, 'html.parser')
-    return soup
-
-def arxiv_formatted_date(date_str):
-    # Convert the string to a datetime object
-    date_obj = datetime.strptime(date_str, '%Y-%m-%d')
-
-    # Format the date as "Fri, 16 Aug 2024"
-    formatted_date = date_obj.strftime('%a, %d %b %Y')
-
-    return (formatted_date)
 
 #%%
 def post_last(t, today):
