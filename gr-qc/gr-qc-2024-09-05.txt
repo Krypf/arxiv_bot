@@ -1,0 +1,45 @@
+Effective geometry of Bell-network states on a dipole graph
+Bekir Baytaş, Nelson Yokomizo
+https://arxiv.org/abs/2408.16878
+https://arxiv.org/pdf/2408.16878
+----
+The universe is not a Lie, but actually an Hopf, algebra
+Niccoló Loret
+https://arxiv.org/abs/2408.16970
+https://arxiv.org/pdf/2408.16970
+----
+On Pseudo $B$-symmetric spacetimes and $f(\mathcal{R})$ gravity
+Young Jin Suh, Krishnendu De, Uday Chand De
+https://arxiv.org/abs/2408.16976
+https://arxiv.org/pdf/2408.16976
+----
+Horizon quantum mechanics for coherent quantum black holes
+Wenbin Feng, Andrea Giusti, Roberto Casadio
+https://arxiv.org/abs/2408.17091
+https://arxiv.org/pdf/2408.17091
+----
+Transit time of black holes on generalized free energy landscape
+Tianqi Yue, Jin Wang
+https://arxiv.org/abs/2408.17104
+https://arxiv.org/pdf/2408.17104
+----
+Explicit solution of the gravitational two-body problem at the second post-Minkowskian order
+Donato Bini, Thibault Damour, Andrea Geralico
+https://arxiv.org/abs/2408.17193
+https://arxiv.org/pdf/2408.17193
+----
+Carrollian Limit of Bimetric Gravity
+J. Kluson
+https://arxiv.org/abs/2408.17194
+https://arxiv.org/pdf/2408.17194
+----
+Comparing Inflationary Models in Extended Metric-Affine Theories of Gravity
+Salvatore Capozziello, Mehdi Shokri
+https://arxiv.org/abs/2408.17415
+https://arxiv.org/pdf/2408.17415
+----
+Corrections to Hawking radiation from asteroid-mass primordial black holes: Numerical evaluation of dissipative effects
+Emily Koivu, John Kushan, Makana Silva, Gabriel Vasquez, Arijit Das, Christopher M Hirata
+https://arxiv.org/abs/2408.17423
+https://arxiv.org/pdf/2408.17423
+----

@@ -32,9 +32,8 @@ def main(today: str, categories_content=categories_content):
     return 0
 
 #%%
-today = datetime.now().strftime('%Y-%m-%d')
-
 if __name__ == '__main__':
+    today = datetime.now().strftime('%Y-%m-%d')
     main(today)
     
 # %%

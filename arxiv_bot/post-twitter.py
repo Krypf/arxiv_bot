@@ -28,8 +28,8 @@ def main(today:str, categories_content=categories_content):
         sub(reader)
     return 0
 
-today = datetime.now().strftime('%Y-%m-%d')
 # today = '2024-08-28'
 if __name__ == '__main__':
+    today = datetime.now().strftime('%Y-%m-%d')
     main(today)
 

@@ -1,0 +1,130 @@
+A quantum random access memory (QRAM) using a polynomial encoding of binary strings
+Priyanka Mukhopadhyay
+https://arxiv.org/abs/2408.16794
+https://arxiv.org/pdf/2408.16794
+----
+Block encoding by signal processing
+Christopher F. Kane, Siddharth Hariprakash, Neel S. Modi, Michael Kreshchuk, Christian W Bauer
+https://arxiv.org/abs/2408.16824
+https://arxiv.org/pdf/2408.16824
+----
+Physical Security of Chip-Based Quantum Key Distribution Devices
+Friederike Jöhlinger, Henry Semenenko, Philip Sibson, Djeylan Aktas, John Rarity, Chris Erven, Siddarth Joshi, Imad Faruque
+https://arxiv.org/abs/2408.16835
+https://arxiv.org/pdf/2408.16835
+----
+Anomalous multi-gap topological phases in periodically driven quantum rotors
+Volker Karle, Mikhail Lemeshko, Adrien Bouhon, Robert-Jan Slager, F. Nur Ünal
+https://arxiv.org/abs/2408.16848
+https://arxiv.org/pdf/2408.16848
+----
+Experimental measurement and a physical interpretation of quantum shadow enumerators
+Daniel Miller, Kyano Levi, Lukas Postler, Alex Steiner, Lennart Bittel, Gregory A. L. White, Yifan Tang, Eric J. Kuehnke, Antonio A. Mele, Sumeet Khatri, Lorenzo Leone, Jose Carrasco, Christian D. Marciniak, Ivan Pogorelov, Milena Guevara-Bertsch, Robert Freund, Rainer Blatt, Philipp Schindler, Thomas Monz, Martin Ringbauer, Jens Eisert
+https://arxiv.org/abs/2408.16914
+https://arxiv.org/pdf/2408.16914
+----
+Rapid, in-situ neutralization of nitrogen- and silicon-vacancy centers in diamond using above-band-gap optical excitation
+Christian Pederson, Nicholas S. Yama, Lane Beale, Matthew L. Markham, Kai-Mei C. Fu
+https://arxiv.org/abs/2408.16921
+https://arxiv.org/pdf/2408.16921
+----
+AI-driven Reverse Engineering of QML Models
+Archisman Ghosh, Swaroop Ghosh
+https://arxiv.org/abs/2408.16929
+https://arxiv.org/pdf/2408.16929
+----
+Comparing quantum and classical Monte Carlo algorithms for estimating Betti numbers of clique complexes
+Ismail Yunus Akhalwaya, Ahmed Bhayat, Adam Connolly, Steven Herbert, Lior Horesh, Julien Sorci, Shashanka Ubaru
+https://arxiv.org/abs/2408.16934
+https://arxiv.org/pdf/2408.16934
+----
+Experimental Verification of Demon-Involved Fluctuation Theorems
+L.-L. Yan, J.-T. Bu, Q. Zeng, K. Zhang, K.-F. Cui, F. Zhou, S.-L. Su, L. Chen, J. Wang, Gang Chen, M. Feng
+https://arxiv.org/abs/2408.16997
+https://arxiv.org/pdf/2408.16997
+----
+Study And Implementation of Unitary Gates in Quantum Computation Using Schrodinger Dynamics
+Kumar Gautam
+https://arxiv.org/abs/2408.17035
+https://arxiv.org/pdf/2408.17035
+----
+Efficient generation of multiqubit entanglement states using rapid adiabatic passage
+Shijie Xu, Xinwei Li, Xiangliang Li, Jinbin Li, Ming Xue
+https://arxiv.org/abs/2408.17048
+https://arxiv.org/pdf/2408.17048
+----
+Demonstration of strong coupling of a subradiant atom array to a cavity vacuum
+Bence Gábor, K. V. Adwaith, Dániel Varga, Bálint Sárközi, András Dombi, T. W. Clark, F. I. B. Williams, David Nagy, András Vukics, Peter Domokos
+https://arxiv.org/abs/2408.17079
+https://arxiv.org/pdf/2408.17079
+----
+Simulating Feedback Cooling of Incoherent Quantum Mixtures
+Kaiwen, Zain Mehdi, Joseph J. Hope, Simon A. Haine
+https://arxiv.org/abs/2408.17092
+https://arxiv.org/pdf/2408.17092
+----
+Using Quantum Solved Deep Boltzmann Machines to Increase the Data Efficiency of RL Agents
+Daniel Kent, Clement O'Rourke, Jake Southall, Kirsty Duncan, Adrian Bedford
+https://arxiv.org/abs/2408.17240
+https://arxiv.org/pdf/2408.17240
+----
+Resource state generation in a hybrid matter-photon quantum information processor
+Yu Liu, Martin B. Plenio
+https://arxiv.org/abs/2408.17265
+https://arxiv.org/pdf/2408.17265
+----
+A Limit on the Power of Entanglement-Assistance in Quantum Communication
+Lasse H. Wolff, Paula Belzig, Matthias Christandl, Bergfinnur Durhuus, Marco Tomamichel
+https://arxiv.org/abs/2408.17290
+https://arxiv.org/pdf/2408.17290
+----
+Modeling flux tunability in Josephson Traveling Wave Parametric Amplifiers with an open-source frequency-domain simulator
+A. Levochkina, I. Chatterjee, P. Darvehi, H. G. Ahmad, P. Mastrovito, D. Massarotti, D. Montemurro, F. Tafuri, G.P. Pepe, Kevin P. O'Brien, M. Esposito
+https://arxiv.org/abs/2408.17293
+https://arxiv.org/pdf/2408.17293
+----
+Variational quantum simulation of ground states and thermal states for lattice gauge theory with multi-objective optimization
+Lang-Xing Cheng, Dan-Bo Zhang
+https://arxiv.org/abs/2408.17300
+https://arxiv.org/pdf/2408.17300
+----
+A Passive and Self-Characterizing Cross-Encoded Receiver for Reference-Frame-Independent Quantum Key Distribution
+Massimo Giacomin, Francesco B. L. Santagiustina, Giuseppe Vallone, Paolo Villoresi, Costantino Agnesi
+https://arxiv.org/abs/2408.17304
+https://arxiv.org/pdf/2408.17304
+----
+A zero-entropy classical shadow reconstruction of density state operators
+J. A. Montañez-Barrera, G. P. Beretta, Kristel Michielsen, Michael R. von Spakovsky
+https://arxiv.org/abs/2408.17317
+https://arxiv.org/pdf/2408.17317
+----
+Phase error rate estimation with basis-efficiency mismatch for decoy-state BB84
+Devashish Tupkary, Shlok Nahar, Pulkit Sinha, Norbert Lütkenhaus
+https://arxiv.org/abs/2408.17349
+https://arxiv.org/pdf/2408.17349
+----
+Nonlinear dynamical Casimir effect and Unruh entanglement in waveguide QED with parametrically modulated coupling
+Egor S. Vyatkin, Alexander V. Poshakinskiy, Alexander N. Poddubny
+https://arxiv.org/abs/2408.17365
+https://arxiv.org/pdf/2408.17365
+----
+Hybrid encoder for discrete and continuous variable QKD
+Mattia Sabatini, Tommaso Bertapelle, Paolo Villoresi, Giuseppe Vallone, Marco Avesani
+https://arxiv.org/abs/2408.17412
+https://arxiv.org/pdf/2408.17412
+----
+Real-time Simultaneous Dual Sensing of Temperature and Magnetic Field using NV-based Nano-diamonds
+Sonia Sarkar, Namita Agrawal, Dasika Shishir, Kasturi Saha
+https://arxiv.org/abs/2408.17418
+https://arxiv.org/pdf/2408.17418
+----
+Quantum state testing with restricted measurements
+Yuhan Liu, Jayadev Acharya
+https://arxiv.org/abs/2408.17439
+https://arxiv.org/pdf/2408.17439
+----
+Analysis on the von Neumann entropy under the measurement-based feedback control
+Kohei Kobayashi
+https://arxiv.org/abs/2408.17442
+https://arxiv.org/pdf/2408.17442
+----

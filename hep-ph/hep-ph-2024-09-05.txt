@@ -1,0 +1,80 @@
+Exploring the impact of magnetic fields, Lorentz violation and EDM on $e^+ e^-\rightarrow l^+ l^-$ scattering
+D. S. Cabral, A. F. Santos
+https://arxiv.org/abs/2408.16790
+https://arxiv.org/pdf/2408.16790
+----
+Heavy quark contributions in Bjorken sum rule with analytic coupling
+I.R. Gabdrakhmanov, N.A Gramotkov, A.V. Kotikov, O.V. Teryaev, D.A. Volkova, I.A. Zemlyakov
+https://arxiv.org/abs/2408.16804
+https://arxiv.org/pdf/2408.16804
+----
+Multi-Component Dark Matter from Minimal Flavor Violation
+Federico Mescia, Shohei Okawa, Keyun Wu
+https://arxiv.org/abs/2408.16812
+https://arxiv.org/pdf/2408.16812
+----
+Minimal targets for dilaton direct detection
+David Cyncynates, Olivier Simon
+https://arxiv.org/abs/2408.16816
+https://arxiv.org/pdf/2408.16816
+----
+HEFT approach to investigate the muon g-2 anomaly at a muon collider
+Fabiola Fortuna, Juan Manuel Márquez, Pablo Roig
+https://arxiv.org/abs/2408.16954
+https://arxiv.org/pdf/2408.16954
+----
+Inflation models with Peccei-Quinn symmetry and axion kinetic misalignment
+Hyun Min Lee, Adriana G. Menkara, Myeong-Jung Seong, Jun-Ho Song
+https://arxiv.org/abs/2408.17013
+https://arxiv.org/pdf/2408.17013
+----
+Thorough Analysis of $\pi^-p\rightarrow K^{*}\Sigma$ Reaction: Probing Nucleon Excited State and Constituent Scaling Laws
+Xiao-Yun Wang, Yuan Gao, Xiang Liu
+https://arxiv.org/abs/2408.17076
+https://arxiv.org/pdf/2408.17076
+----
+Pion Condensation and Pion Star from Holographic QCD
+Yidian Chen, Mingshan Ding, Danning Li, Kazem Bitaghsir Fadafan, Mei Huang
+https://arxiv.org/abs/2408.17080
+https://arxiv.org/pdf/2408.17080
+----
+Superheavy dark matter within the seesaw framework
+O. Deligny
+https://arxiv.org/abs/2408.17111
+https://arxiv.org/pdf/2408.17111
+----
+Observable effects of reflective scattering
+S.M. Troshin, N.E. Tyurin
+https://arxiv.org/abs/2408.17127
+https://arxiv.org/pdf/2408.17127
+----
+Estimating event-by-event multiplicity by a Machine Learning Method for Hadronization Studies
+Gábor Bíró, Gábor Papp, Gergely Gábor Barnaföldi
+https://arxiv.org/abs/2408.17130
+https://arxiv.org/pdf/2408.17130
+----
+Local renormalisation from causal loop-tree duality
+German Sborlini, Jose Rios-Sanchez
+https://arxiv.org/abs/2408.17319
+https://arxiv.org/pdf/2408.17319
+----
+Semi-supervised permutation invariant particle-level anomaly detection
+Gabriel Matos, Elena Busch, Ki Ryeong Park, Julia Gonski
+https://arxiv.org/abs/2408.17409
+https://arxiv.org/pdf/2408.17409
+----
+Imprinting New Physics by using Angular profiles of the FCNC process $B_{c}\to D_{s}^{*}\left(\to \;D_{s}\pi\right)\ell^{+}\ell^{-}$
+Hira Waseem, Abdul Hafeez
+https://arxiv.org/abs/2408.17436
+https://arxiv.org/pdf/2408.17436
+----
+Two-loop QCD corrections to Higgs radiative decay to vector quarkonium
+Yu Jia, Zhewen Mo, Jia-Yue Zhang
+https://arxiv.org/abs/2408.17448
+https://arxiv.org/pdf/2408.17448
+----
+Undulators are ALP Factories
+Wen Yin, Junya Yoshida
+https://arxiv.org/abs/2408.17451
+https://arxiv.org/pdf/2408.17451
+----

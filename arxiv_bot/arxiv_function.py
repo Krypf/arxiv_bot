@@ -59,7 +59,7 @@ class ArxivSearch:
             return tree
         if library == 'pyquery':
             # Parse the HTML content
-            document = pq(html_content.encode('utf-8'))
+            document = pq(html_content.encode(encoding))
             return document
         else:
             raise ValueError(f"Unsupported library: {library}. Choose 'BeautifulSoup' or 'lxml'.")
@@ -77,7 +77,41 @@ class ArxivSearch:
         else:
             raise IndexError(f"There are {n} matching elements.")        
 
-    def extract_skip_number(self, string_to_find: str) -> int:
+    def extract_skip_number_from_list(html_string):
+        # Parse the HTML with etree
+        tree = etree.HTML(html_string)
+
+        # Extract the href attribute of the <a> tag
+        href = tree.xpath('//li/a/@href')[0]
+
+        # Find the skip parameter value
+        match = re.search(r'skip=(\d+)', href)
+        if match:
+            skip_value = match.group(1)
+            return (skip_value)
+
+    def extract_skip_numbers(self, date_to_find, _printlog=True):
+        document = self.find_text_from_HTML('ul', date_to_find)
+        # Find <li> element containing the date
+        list_item_with_date = document('li').filter(lambda index, element: date_to_find in pq(element).html())
+        # Get the next <li> element after the one with the date
+        if list_item_with_date:
+            next_list_item = list_item_with_date.next()
+            # Print the HTML of both the current <li> and the next <li>
+            x = list_item_with_date.outer_html()
+            X = ArxivSearch.extract_skip_number_from_list(x)
+            
+            y = next_list_item.outer_html()
+            Y = ArxivSearch.extract_skip_number_from_list(y)
+            if _printlog:
+                printlog(f"List Item with Date:\n{x}")
+                printlog(f"Next List Item:\n{y}")
+            return (int(X), int(Y))
+        else:
+            printlog(f"No <li> element found with the date: {date_to_find}")
+            exit('1')
+            
+    def extract_skip_number_esc(self, string_to_find: str) -> int:
         tree = self.read_HTML(library='lxml')
         link = tree.xpath(f'//a[normalize-space()="{string_to_find}"]')
         # Extract the href attribute
@@ -91,16 +125,7 @@ class ArxivSearch:
             return int(match.group(1))
         raise ValueError("Skip number not found in the URL")
 
-def read_HTML_soup(category, submissions="new"):
-    # Specify the file path to the HTML content located in the HTML folder
-    directory = "HTML"
-    file_path = os.path.join(directory, "arxiv_" + category + "_" + submissions + ".html")
-    # Read the HTML content from the file
-    with open(file_path, 'r', encoding='utf-8') as file:
-        html_content = file.read()
-    # Parse the HTML content
-    soup = BeautifulSoup(html_content, 'html.parser')
-    return soup
+
 
 def arxiv_formatted_date(date_str):
     # Convert the string to a datetime object
@@ -112,7 +137,7 @@ def arxiv_formatted_date(date_str):
     return (formatted_date)
 
 #%%
-def cd_arxiv_bot():
+def cd_arxiv_bot(_printlog=True):
     # Get the current working directory
     current_directory = os.getcwd()
 
@@ -123,9 +148,9 @@ def cd_arxiv_bot():
     # Change to the target directory if not already there
     if current_directory != target_directory:
         os.chdir(target_directory)
-        printlog(f"Changed directory to {folder_strings}")
+        if _printlog: printlog(f"Changed directory to {folder_strings}")
     else:
-        printlog(f"Already in {folder_strings}")
+        if _printlog: printlog(f"Already in {folder_strings}")
         
 #%% # https://chatgpt.com/share/a02b3fb5-fb86-4de9-a1fa-5f001dcca01f
 class ArxivText:
@@ -136,7 +161,7 @@ class ArxivText:
         # Define the path to the file
         self.file_name = f"{self.category}-{self.date}.txt"
         self.file_path = os.path.join(self.parent_folder, self.category, self.file_name)
-
+        
     def read_content(self):
         # Check if the file exists
         if not os.path.exists(self.file_path):
@@ -149,22 +174,102 @@ class ArxivText:
 
         return content
 
+    def read_HTML_soup(self, submissions: str):
+        obj = ArxivSearch(self.category, submissions)
+        return obj.read_HTML()
+
+#%% https://chatgpt.com/share/1b7cf3d0-66c0-43f2-a651-3c5cec21d345
+def cross_list_number(soup) -> str:
+    cross_list_item = soup.find('a', string="Cross-lists")
+    # print(cross_list_item)
+    if cross_list_item:
+        href = cross_list_item.get('href')
+        number = re.search(r'\d+', href).group()
+        # print(f'Extracted number: {number}')
+        return (number)
+    else:
+        raise ValueError("Cross-lists link not found in the provided HTML.")
+
+#%% https://chatgpt.com/share/bc424881-9f53-49ed-9ed9-c145764ba7ab
+def find_dt_and_dd(soup, item_number: str):
+    num = item_number
+    # Find the <a> element with name='item' + num
+    a_element = soup.find('a', attrs={'name': 'item' + (item_number)})
+
+    if a_element:
+        # Get the parent <dt> element
+        dt_element = a_element.find_parent('dt')
+        if dt_element:
+            # Find the next <dd> sibling element
+            dd_element = dt_element.find_next_sibling('dd')
+            if dd_element:
+                # print(f"<dt>: {dt_element}")
+                # print(f"<dd>: {dd_element}")
+                return dt_element, dd_element
+            else:
+                printlog(f"No <dd> found after <dt> containing <a name='item{num}'>[{num}]</a>")
+        else:
+            printlog(f"No <dt> found containing <a name='item{num}'>[{num}]</a>")
+    else:
+        printlog(f"No <a name='item{num}'>[{num}]</a> found")
+
+    return 0
+    
 #%%
-def read_text_file(category: str, date: str, parent_folder=str()):
-    # Define the path to the file
-    file_name = category + '-' + date + '.txt'
-    file_path = os.path.join(parent_folder, category, file_name)
-    # print(file_path)
-    # Check if the file exists
-    if not os.path.exists(file_path):
-        printlog(f"File {file_name} does not exist in the specified directory.")
-        cd_arxiv_bot()
+def get_arxiv_link(soup_dt):
+    # Find the <a> tag with title "Abstract"
+    abstract_link = soup_dt.find('a', title='Abstract')
+    download_pdf_link = soup_dt.find('a', title='Download PDF')
+    # Extract the href attribute
+    arxiv_link = abstract_link['href'] if abstract_link else None
+    pdf_link = download_pdf_link['href'] if download_pdf_link else None
+    # Construct the full URL
+    if arxiv_link:
+        arxiv_url = f"https://arxiv.org{arxiv_link}"
+    else:
+        arxiv_url = None
+    if pdf_link:
+        pdf_url = f"https://arxiv.org{pdf_link}"
+    else:
+        pdf_url = None
+        
+    return arxiv_url, pdf_url
 
-    # Open and read the content of the file
-    with open(file_path, 'r', encoding='utf-8') as file:
-        content = file.read()
+def get_title_and_authors(soup_dd):
+    # Extract the title
+    title_div = soup_dd.find('div', class_='list-title')
+    title = title_div.get_text(strip=True).split(':', 1)[-1].strip() if title_div else None
 
-    return content
+    # Extract the authors
+    authors_div = soup_dd.find('div', class_='list-authors')
+    authors = ', '.join(a.get_text() for a in authors_div.find_all('a')) if authors_div else None
+
+    # print("Title:", title)
+    # print("Authors:", authors)
+    return title, authors
+#%%
+def save_one_post(soup, item_number: str):
+    soup_dt, soup_dd = find_dt_and_dd(soup, item_number)
+    arxiv_url, pdf_url = get_arxiv_link(soup_dt)
+    title, authors = get_title_and_authors(soup_dd)
+    # Create dictionary
+    article_info = {
+        'arxiv_url': arxiv_url,
+        'pdf_url': pdf_url,
+        'title': title,
+        'authors': authors
+    }
+    text = f"{article_info['title']}\n"
+    text += f"{article_info['authors']}\n"
+    # summary = entry.summary; text += f"Summary: {summary}\n";
+    text += f"{article_info['arxiv_url']}\n"
+    text += f"{article_info['pdf_url']}\n"
+    text += "----\n"
+    return text
+#%% error 
+def check_no_entry():
+    if not True:
+        save_text_append("No entries found for today.", file_path)
 
 #%%
 def save_text_append(text, file_path):
@@ -181,7 +286,7 @@ def save_text_append(text, file_path):
 
 #%% https://chatgpt.com/share/7dfbd5e5-9c8d-4939-a815-efd595b5f229
 def read_inner_file(file = '', folder='') -> List[str]:
-    cd_arxiv_bot()
+    cd_arxiv_bot(_printlog=False)
     
     extension = '.txt'
     file_name = file + extension
