@@ -8,7 +8,7 @@ import argparse
 
 #%%
 
-def main(obj: ArxivSearch):
+def sub(obj: ArxivSearch):
     # Directory to save the file
     directory = "HTML"
     # Create the directory if it doesn't exist
@@ -33,17 +33,21 @@ def main(obj: ArxivSearch):
         printlog(f"Failed to retrieve the webpage. Status code: {response.status_code}")
 
     return 0
-#%%
-if __name__ == "__main__":
+
+def main(categories_content):
     parser = argparse.ArgumentParser(description="Generate arXiv list URL.")
 
     # parser.add_argument("--category", required=True, help="The category for the arXiv submissions (e.g., gr-qc).")
     parser.add_argument("--submissions", default="new", help="The type of submissions (e.g., new, recent).")
     parser.add_argument("--skip", default="", help="Number of submissions to skip.")
     parser.add_argument("--show", default="", help="Number of submissions to show.")
-
+    
     args = parser.parse_args()
-
     for category in categories_content:
         obj = ArxivSearch(category, args.submissions, args.skip, args.show)
-        main(obj)
+        sub(obj)
+    return 0
+
+#%%
+if __name__ == "__main__":
+    main(categories_content)
