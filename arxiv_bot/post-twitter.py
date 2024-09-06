@@ -6,7 +6,7 @@ from printlog import printlog
 from arxiv_function import categories_content, ArxivText, arxiv_formatted_date
 from twitter_function import twitter_login, send_post_to_twitter
 #%%
-def main(obj: ArxivText, sleep_time=1):
+def sub(obj: ArxivText, sleep_time=1):
     client = twitter_login(obj.category)
     text = obj.read_content()
 
@@ -20,13 +20,16 @@ def main(obj: ArxivText, sleep_time=1):
     return 0
 
 #%%
-today = datetime.now().strftime('%Y-%m-%d')
-# today = '2024-08-28'
-if __name__ == '__main__':
+def main(today:str, categories_content=categories_content):
     printlog('Start tweeting')
     for category in categories_content:
         printlog(f"The category is {category}")
         reader = ArxivText(category, today)
+        sub(reader)
+    return 0
 
-        main(reader)
+today = datetime.now().strftime('%Y-%m-%d')
+# today = '2024-08-28'
+if __name__ == '__main__':
+    main(today)
 
