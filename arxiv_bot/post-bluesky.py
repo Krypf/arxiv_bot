@@ -7,7 +7,7 @@ from printlog import printlog
 from arxiv_function import categories_content, ArxivText, arxiv_formatted_date
 from bluesky_function import bsky_login, send_post_to_bluesky
 #%%
-def main(obj: ArxivText, sleep_time=1):
+def sub(obj: ArxivText, sleep_time=1):
     client, thumb = bsky_login(obj.category)
     text = obj.read_content()
     # Split the text using "----" as the delimiter
@@ -19,15 +19,20 @@ def main(obj: ArxivText, sleep_time=1):
     printlog(f"This is the end of all the posts on {obj.date}")
     return 0
 #%%
-today = datetime.now().strftime('%Y-%m-%d')
-# date = '2024-08-09'
-if __name__ == '__main__':
+def main(today:str, categories_content=categories_content):
     printlog('Start posting on Bluesky')
     for category in categories_content:
         printlog(f"The category is {category}")
         reader = ArxivText(category, today)
-        main(reader)
+        sub(reader)
 
+    return 0
+
+today = datetime.now().strftime('%Y-%m-%d')
+# date = '2024-08-09'
+if __name__ == '__main__':
+    main(today)
+    
 #%% manual
 # category = 'gr-qc'
 # date = '2024-08-09'
