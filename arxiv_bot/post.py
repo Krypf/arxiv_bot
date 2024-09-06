@@ -22,7 +22,7 @@ def sub(obj: ArxivText, sleep_time=1):
         time.sleep(sleep_time)    
     return 0
 
-def main(categories_content, today: str):
+def main(today: str, categories_content=categories_content):
     for category in categories_content:
         printlog(f"The category is {category}")
         reader = ArxivText(category, today)
@@ -35,6 +35,6 @@ def main(categories_content, today: str):
 today = datetime.now().strftime('%Y-%m-%d')
 
 if __name__ == '__main__':
-    main(categories_content, today)
+    main(today)
     
 # %%
