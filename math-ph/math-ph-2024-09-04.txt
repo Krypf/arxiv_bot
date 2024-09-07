@@ -1,20 +1,55 @@
-Invariants of the quantum graph of the partial trace
-Wojciech Paupa, Piotr M. Sołtan
-https://arxiv.org/abs/2408.16858
-https://arxiv.org/pdf/2408.16858
+Moments of characteristic polynomials and their derivatives for $SO(2N)$ and $USp(2N)$ and their application to one-level density in families of elliptic curve $L$-functions
+I.A. Cooper, N.C. Snaith
+https://arxiv.org/abs/2409.02024
+https://arxiv.org/pdf/2409.02024
 ----
-Algebraic method of group classification for semi-normalized classes of differential equations
-Celestin Kurujyibwami, Dmytro R. Popovych, Roman O. Popovych
-https://arxiv.org/abs/2408.16897
-https://arxiv.org/pdf/2408.16897
+An integrable pseudospherical equation with pseudo-peakon solutions
+Priscila Leal da Silva, Igor Leite Freire, Nazime Sales Filho
+https://arxiv.org/abs/2409.01537
+https://arxiv.org/pdf/2409.01537
 ----
-Long time quantum-classical correspondence for open systems in trace norm
-Zhenhao Li
-https://arxiv.org/abs/2408.16953
-https://arxiv.org/pdf/2408.16953
+Newell-Whitehead-Segel Equation: An Exact, Generalized Solution
+Luisiana Cundin
+https://arxiv.org/abs/2409.01501
+https://arxiv.org/pdf/2409.01501
 ----
-Relativistic Exchange Bounds
-Long Meng, Heinz Siedentop, Matthias Tiefenbeck
-https://arxiv.org/abs/2408.17158
-https://arxiv.org/pdf/2408.17158
+Lieb-Thirring inequalities for the shifted Coulomb Hamiltonian
+Thiago Carvalho Corso, Timo Weidl, Zhuoyao Zeng
+https://arxiv.org/abs/2409.01291
+https://arxiv.org/pdf/2409.01291
+----
+Error exponents for entanglement transformations from degenerations
+Dávid Bugár, Péter Vrana
+https://arxiv.org/abs/2409.01130
+https://arxiv.org/pdf/2409.01130
+----
+Classification of symmetry protected states of quantum spin chains for continuous symmetry groups
+Bruno de Oliveira Carvalho, Wojciech De Roeck, Tijl Jappens
+https://arxiv.org/abs/2409.01112
+https://arxiv.org/pdf/2409.01112
+----
+Ensemble inter-relations in random matrix theory
+Peter J. Forrester
+https://arxiv.org/abs/2409.00964
+https://arxiv.org/pdf/2409.00964
+----
+How a Space-Time Singularity Helps Remove the Ultraviolet Divergence Problem
+Joscha Henheik, Bipul Poudyal, Roderich Tumulka
+https://arxiv.org/abs/2409.00677
+https://arxiv.org/pdf/2409.00677
+----
+Bounds on $T_c$ in the Eliashberg theory of Superconductivity. I: The $\gamma$-model
+Michael Kiessling, Boris Altshuler, Emil Yuzbashyan
+https://arxiv.org/abs/2409.00533
+https://arxiv.org/pdf/2409.00533
+----
+Bounds on $T_c$ in the Eliashberg theory of Superconductivity. II: Dispersive phonons
+Michael Kiessling, Boris Altshuler, Emil Yuzbashyan
+https://arxiv.org/abs/2409.00532
+https://arxiv.org/pdf/2409.00532
+----
+2D attractive almost-bosonic anyon gases
+Dinh-Thi Nguyen
+https://arxiv.org/abs/2409.00409
+https://arxiv.org/pdf/2409.00409
 ----

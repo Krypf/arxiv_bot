@@ -1,20 +1,15 @@
-Invariants of the quantum graph of the partial trace
-Wojciech Paupa, Piotr M. Sołtan
-https://arxiv.org/abs/2408.16858
-https://arxiv.org/pdf/2408.16858
+Inverse problems for quantum graph associated with square and hexagonal lattices
+K. Ando, E. Blåsten, P. Exner, H. Isozaki, E. Korotyaev, M. Lassas, J. Lu, H. Morioka
+https://arxiv.org/abs/2409.02605
+https://arxiv.org/pdf/2409.02605
 ----
-Algebraic method of group classification for semi-normalized classes of differential equations
-Celestin Kurujyibwami, Dmytro R. Popovych, Roman O. Popovych
-https://arxiv.org/abs/2408.16897
-https://arxiv.org/pdf/2408.16897
+The Pirogov-Sinai Theory for Infinite Interactions
+A. Mazel, I. Stuhl, Y. Suhov
+https://arxiv.org/abs/2409.02328
+https://arxiv.org/pdf/2409.02328
 ----
-Long time quantum-classical correspondence for open systems in trace norm
-Zhenhao Li
-https://arxiv.org/abs/2408.16953
-https://arxiv.org/pdf/2408.16953
-----
-Relativistic Exchange Bounds
-Long Meng, Heinz Siedentop, Matthias Tiefenbeck
-https://arxiv.org/abs/2408.17158
-https://arxiv.org/pdf/2408.17158
+Limiting eigenvalue distribution of the general deformed Ginibre ensemble
+Roman Sarapin
+https://arxiv.org/abs/2409.02314
+https://arxiv.org/pdf/2409.02314
 ----

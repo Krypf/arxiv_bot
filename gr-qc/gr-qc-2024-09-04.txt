@@ -1,45 +1,180 @@
-Effective geometry of Bell-network states on a dipole graph
-Bekir Baytaş, Nelson Yokomizo
-https://arxiv.org/abs/2408.16878
-https://arxiv.org/pdf/2408.16878
+Compact binary coalescences: gravitational-wave astronomy with ground-based detectors
+K. Chatziioannou, T. Dent, M. Fishbach, F. Ohme, M. Pürrer, V. Raymond, J. Veitch
+https://arxiv.org/abs/2409.02037
+https://arxiv.org/pdf/2409.02037
 ----
-The universe is not a Lie, but actually an Hopf, algebra
-Niccoló Loret
-https://arxiv.org/abs/2408.16970
-https://arxiv.org/pdf/2408.16970
+Cosmology using numerical relativity
+Josu C. Aurrekoetxea, Katy Clough, Eugene A. Lim
+https://arxiv.org/abs/2409.01939
+https://arxiv.org/pdf/2409.01939
 ----
-On Pseudo $B$-symmetric spacetimes and $f(\mathcal{R})$ gravity
-Young Jin Suh, Krishnendu De, Uday Chand De
-https://arxiv.org/abs/2408.16976
-https://arxiv.org/pdf/2408.16976
+Self-interacting scalar dark matter around binary black holes
+Josu C. Aurrekoetxea, James Marsden, Katy Clough, Pedro G. Ferreira
+https://arxiv.org/abs/2409.01937
+https://arxiv.org/pdf/2409.01937
 ----
-Horizon quantum mechanics for coherent quantum black holes
-Wenbin Feng, Andrea Giusti, Roberto Casadio
-https://arxiv.org/abs/2408.17091
-https://arxiv.org/pdf/2408.17091
+Primordial black holes: formation, spin and type II
+Tomohiro Harada
+https://arxiv.org/abs/2409.01934
+https://arxiv.org/pdf/2409.01934
 ----
-Transit time of black holes on generalized free energy landscape
-Tianqi Yue, Jin Wang
-https://arxiv.org/abs/2408.17104
-https://arxiv.org/pdf/2408.17104
+Thermodynamics of the universes admitting isotropic radiation
+Salvador Mengual, Joan Josep Ferrando, Juan Antonio Sáez
+https://arxiv.org/abs/2409.01852
+https://arxiv.org/pdf/2409.01852
 ----
-Explicit solution of the gravitational two-body problem at the second post-Minkowskian order
-Donato Bini, Thibault Damour, Andrea Geralico
-https://arxiv.org/abs/2408.17193
-https://arxiv.org/pdf/2408.17193
+Merging cosmologically coupled black holes: stochastic gravitational wave background and implications for pulsar timing arrays
+Marco Calzà, Francesco Gianesello, Massimiliano Rinaldi, Sunny Vagnozzi
+https://arxiv.org/abs/2409.01801
+https://arxiv.org/pdf/2409.01801
 ----
-Carrollian Limit of Bimetric Gravity
-J. Kluson
-https://arxiv.org/abs/2408.17194
-https://arxiv.org/pdf/2408.17194
+Supertranslations at Spatial and Timelike Infinities in the First-Order Formalism
+Divyesh N. Solanki, Srijit Bhattacharjee
+https://arxiv.org/abs/2409.01783
+https://arxiv.org/pdf/2409.01783
 ----
-Comparing Inflationary Models in Extended Metric-Affine Theories of Gravity
-Salvatore Capozziello, Mehdi Shokri
-https://arxiv.org/abs/2408.17415
-https://arxiv.org/pdf/2408.17415
+Observational features of deformed Schwarzschild black holes illuminated by an anisotropic accretion disk
+Dan Li, Shiyang Hu, Chen Deng, Xin Wu
+https://arxiv.org/abs/2409.01778
+https://arxiv.org/pdf/2409.01778
 ----
-Corrections to Hawking radiation from asteroid-mass primordial black holes: Numerical evaluation of dissipative effects
-Emily Koivu, John Kushan, Makana Silva, Gabriel Vasquez, Arijit Das, Christopher M Hirata
-https://arxiv.org/abs/2408.17423
-https://arxiv.org/pdf/2408.17423
+Towards a group structure for superluminal velocity boosts
+Matthew J. Lake
+https://arxiv.org/abs/2409.01773
+https://arxiv.org/pdf/2409.01773
+----
+Transformation equation for frames undergoing non-uniform acceleration such as SHM and rotational motion
+Ranchhaigiri Brahma, A.K. Sen
+https://arxiv.org/abs/2409.01677
+https://arxiv.org/pdf/2409.01677
+----
+Observing Black Hole Phase Transitions in Extended Phase Space and Holographic Thermodynamics Approaches from Optical Features
+Chatchai Promsiri, Weerawit Horinouchi, Ekapong Hirunsirisawat
+https://arxiv.org/abs/2409.01582
+https://arxiv.org/pdf/2409.01582
+----
+Perturbations and Quasinormal Modes of the Dirac Field in Effective Quantum Gravity
+Zainab Malik
+https://arxiv.org/abs/2409.01561
+https://arxiv.org/pdf/2409.01561
+----
+Stochastic gravitational wave background due to core collapse resulting in neutron stars
+Sourav Roy Chowdhury, Maxim Khlopov
+https://arxiv.org/abs/2409.01542
+https://arxiv.org/pdf/2409.01542
+----
+Investigating early and late-time epochs in $ f(Q) $ gravity
+Ameya Kolhatkar, Sai Swagat Mishra, P.K. Sahoo
+https://arxiv.org/abs/2409.01538
+https://arxiv.org/pdf/2409.01538
+----
+Baumgarte-Shapiro-Shibata-Nakamura formalism in cylindrical coordinates: Brill and Teukolsky waves in both linear and nonlinear regimes
+M. A. Alcoforado, R. F. Aranha, H. P. de Oliveira
+https://arxiv.org/abs/2409.01527
+https://arxiv.org/pdf/2409.01527
+----
+A new framework for cosmological expansion in a reformulated Newtonian-Like gravity with variable G
+Felipe S. Escórcio, Júlio C. Fabris, Júnior D. Toniato, Hermano Velten
+https://arxiv.org/abs/2409.01468
+https://arxiv.org/pdf/2409.01468
+----
+Signatures of the speed of sound on the gravitational wave power spectrum from sound waves
+Lorenzo Giombi, Jani Dahl, Mark Hindmarsh
+https://arxiv.org/abs/2409.01426
+https://arxiv.org/pdf/2409.01426
+----
+Noncommutative quasinormal modes of Schwarzchild black hole
+Nikola Herceg, Tajron Jurić, A. Naveena Kumara, Andjelo Samsarov, Ivica Smolić
+https://arxiv.org/abs/2409.01402
+https://arxiv.org/pdf/2409.01402
+----
+Cosmological Wormhole: An analytical description
+Subenoy Chakraborty, Madhukrishna Chakraborty
+https://arxiv.org/abs/2409.01334
+https://arxiv.org/pdf/2409.01334
+----
+A study on existence of Wormhole in Lemaitre-Tolman-Bondi model
+Subenoy Chakraborty, Madhukrishna Chakraborty
+https://arxiv.org/abs/2409.01331
+https://arxiv.org/pdf/2409.01331
+----
+Fermion behavior around Sung-Won-Kim wormholes in a generalized Kaluza-Klein gravity
+Everton Cavalcante
+https://arxiv.org/abs/2409.01300
+https://arxiv.org/pdf/2409.01300
+----
+End equilibrium state of a spherical gravitational collapse in the presence of matter and scalar field
+Debanjan Debnath, Dipanjan Dey, Kaushik Bhattacharya
+https://arxiv.org/abs/2409.01110
+https://arxiv.org/pdf/2409.01110
+----
+Different aspects of entropic cosmology
+Shin'ichi Nojiri, Sergei D. Odintsov, Tanmoy Paul
+https://arxiv.org/abs/2409.01090
+https://arxiv.org/pdf/2409.01090
+----
+Gravitational wave ringdown analysis using the $\mathcal{F}$-statistic
+Hai-Tian Wang, Garvin Yim, Xian Chen, Lijing Shao
+https://arxiv.org/abs/2409.00970
+https://arxiv.org/pdf/2409.00970
+----
+Space gravitational wave detection: Progress and outlook
+Wei-Tou Ni
+https://arxiv.org/abs/2409.00927
+https://arxiv.org/pdf/2409.00927
+----
+Existence of Non-singular Stellar Solutions within the context of Electromagnetic Field: A Comparison between Minimal and Non-minimal Gravity Models
+Tayyab Naseer, Jackson Levi Said
+https://arxiv.org/abs/2409.00916
+https://arxiv.org/pdf/2409.00916
+----
+Extreme 5-dimensional black holes with SU(2)-symmetric horizons
+Eric Bahuaud, Sharmila Gunasekaran, Hari K Kunduri, Eric Woolgar
+https://arxiv.org/abs/2409.00910
+https://arxiv.org/pdf/2409.00910
+----
+Quasinormal modes and the analytical continuation of non-self-adjoint operators
+M. G. Richarte, J.C. Fabris, A. Saa
+https://arxiv.org/abs/2409.00857
+https://arxiv.org/pdf/2409.00857
+----
+Look beyond additivity and extensivity of entropy for black hole and cosmological horizons
+Mariusz P. Dabrowski
+https://arxiv.org/abs/2409.00802
+https://arxiv.org/pdf/2409.00802
+----
+Unveiling a multi-component stochastic gravitational-wave background with the TianQin + LISA network
+Zheng-Cheng Liang, Zhi-Yuan Li, En-Kun Li, Jian-dong Zhang, Yi-Ming Hu
+https://arxiv.org/abs/2409.00778
+https://arxiv.org/pdf/2409.00778
+----
+Modified $f(R,G,T)$ Gravity in the Quintom model, and Inflation
+Farzad Milani
+https://arxiv.org/abs/2409.00656
+https://arxiv.org/pdf/2409.00656
+----
+Wormhole formations in the galactic halos supported by dark matter models and global monopole charge within $f(Q)$ gravity
+Moreshwar Tayde, P.K. Sahoo
+https://arxiv.org/abs/2409.00507
+https://arxiv.org/pdf/2409.00507
+----
+On the analytic generalization of particle deflection in the weak field regime and shadow size in light of EHT constraints for Schwarzschild-like black hole solutions
+Reggie C. Pantig
+https://arxiv.org/abs/2409.00476
+https://arxiv.org/pdf/2409.00476
+----
+Revisiting spins of primordial black holes in a matter-dominated era based on peak theory
+Daiki Saito, Tomohiro Harada, Yasutaka Koga, Chul-Moon Yoo
+https://arxiv.org/abs/2409.00435
+https://arxiv.org/pdf/2409.00435
+----
+Massive Scalar Perturbations and Quasi-Resonance of Rotating Black Hole in Analog Gravity
+Hang Liu, Hong Guo
+https://arxiv.org/abs/2409.00320
+https://arxiv.org/pdf/2409.00320
+----
+Which gravitational lensing degeneracies are broken in wave-optics?
+Ashish Kumar Meena
+https://arxiv.org/abs/2409.00145
+https://arxiv.org/pdf/2409.00145
 ----

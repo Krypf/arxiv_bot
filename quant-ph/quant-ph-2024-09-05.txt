@@ -1,130 +1,185 @@
-A quantum random access memory (QRAM) using a polynomial encoding of binary strings
-Priyanka Mukhopadhyay
-https://arxiv.org/abs/2408.16794
-https://arxiv.org/pdf/2408.16794
+Learning Density Functionals from Noisy Quantum Data
+Emiel Koridon, Felix Frohnert, Eric Prehn, Evert van Nieuwenburg, Jordi Tura, Stefano Polla
+https://arxiv.org/abs/2409.02921
+https://arxiv.org/pdf/2409.02921
 ----
-Block encoding by signal processing
-Christopher F. Kane, Siddharth Hariprakash, Neel S. Modi, Michael Kreshchuk, Christian W Bauer
-https://arxiv.org/abs/2408.16824
-https://arxiv.org/pdf/2408.16824
+Pseudospectral method for solving PDEs using Matrix Product States
+Jorge Gidi, Paula García-Molina, Luca Tagliacozzo, Juan José García-Ripoll
+https://arxiv.org/abs/2409.02916
+https://arxiv.org/pdf/2409.02916
 ----
-Physical Security of Chip-Based Quantum Key Distribution Devices
-Friederike Jöhlinger, Henry Semenenko, Philip Sibson, Djeylan Aktas, John Rarity, Chris Erven, Siddarth Joshi, Imad Faruque
-https://arxiv.org/abs/2408.16835
-https://arxiv.org/pdf/2408.16835
+Blochnium-Based Josephson Junction Parametric Amplifiers: Superior Tunability and Linearity
+A. Salmanogli, H. Zandi, M. Akbari
+https://arxiv.org/abs/2409.02887
+https://arxiv.org/pdf/2409.02887
 ----
-Anomalous multi-gap topological phases in periodically driven quantum rotors
-Volker Karle, Mikhail Lemeshko, Adrien Bouhon, Robert-Jan Slager, F. Nur Ünal
-https://arxiv.org/abs/2408.16848
-https://arxiv.org/pdf/2408.16848
+Physically constrained quantum clock-driven dynamics
+Dario Cilluffo, Lea Lautenbacher, Giovanni Spaventa, Susana F. Huelga, Martin B. Plenio
+https://arxiv.org/abs/2409.02857
+https://arxiv.org/pdf/2409.02857
 ----
-Experimental measurement and a physical interpretation of quantum shadow enumerators
-Daniel Miller, Kyano Levi, Lukas Postler, Alex Steiner, Lennart Bittel, Gregory A. L. White, Yifan Tang, Eric J. Kuehnke, Antonio A. Mele, Sumeet Khatri, Lorenzo Leone, Jose Carrasco, Christian D. Marciniak, Ivan Pogorelov, Milena Guevara-Bertsch, Robert Freund, Rainer Blatt, Philipp Schindler, Thomas Monz, Martin Ringbauer, Jens Eisert
-https://arxiv.org/abs/2408.16914
-https://arxiv.org/pdf/2408.16914
+Subspace-thermal discrete time crystals from phase transitions between different n-tuple discrete time crystals
+Hongye Yu, Tzu-Chieh Wei
+https://arxiv.org/abs/2409.02848
+https://arxiv.org/pdf/2409.02848
 ----
-Rapid, in-situ neutralization of nitrogen- and silicon-vacancy centers in diamond using above-band-gap optical excitation
-Christian Pederson, Nicholas S. Yama, Lane Beale, Matthew L. Markham, Kai-Mei C. Fu
-https://arxiv.org/abs/2408.16921
-https://arxiv.org/pdf/2408.16921
+Efficient Simulation of 1D Long-Range Interacting Systems at Any Temperature
+Rakesh Achutha, Donghoon Kim, Yusuke Kimura, Tomotaka Kuwahara
+https://arxiv.org/abs/2409.02819
+https://arxiv.org/pdf/2409.02819
 ----
-AI-driven Reverse Engineering of QML Models
-Archisman Ghosh, Swaroop Ghosh
-https://arxiv.org/abs/2408.16929
-https://arxiv.org/pdf/2408.16929
+Symmetry based efficient simulation of dissipative quantum many-body dynamics in subwavelength quantum emitter arrays
+Raphael Holzinger, Oriol Rubies-Bigorda, Susanne F. Yelin, Helmut Ritsch
+https://arxiv.org/abs/2409.02790
+https://arxiv.org/pdf/2409.02790
 ----
-Comparing quantum and classical Monte Carlo algorithms for estimating Betti numbers of clique complexes
-Ismail Yunus Akhalwaya, Ahmed Bhayat, Adam Connolly, Steven Herbert, Lior Horesh, Julien Sorci, Shashanka Ubaru
-https://arxiv.org/abs/2408.16934
-https://arxiv.org/pdf/2408.16934
+Thermometry Based on a Superconducting Qubit
+Dmitrii S. Lvov, Sergei A. Lemziakov, Elias Ankerhold, Joonas T. Peltonen, Jukka P. Pekola
+https://arxiv.org/abs/2409.02784
+https://arxiv.org/pdf/2409.02784
 ----
-Experimental Verification of Demon-Involved Fluctuation Theorems
-L.-L. Yan, J.-T. Bu, Q. Zeng, K. Zhang, K.-F. Cui, F. Zhou, S.-L. Su, L. Chen, J. Wang, Gang Chen, M. Feng
-https://arxiv.org/abs/2408.16997
-https://arxiv.org/pdf/2408.16997
+Hong-Ou-Mandel Interference in a temporal-average-inversion-symmetric chain
+Shi Hu, Meiqing Hu, Shihao Li, Zihui Zhong, Zhoutao Lei
+https://arxiv.org/abs/2409.02767
+https://arxiv.org/pdf/2409.02767
 ----
-Study And Implementation of Unitary Gates in Quantum Computation Using Schrodinger Dynamics
-Kumar Gautam
-https://arxiv.org/abs/2408.17035
-https://arxiv.org/pdf/2408.17035
+Federated Quantum-Train with Batched Parameter Generation
+Chen-Yu Liu, Samuel Yen-Chi Chen
+https://arxiv.org/abs/2409.02763
+https://arxiv.org/pdf/2409.02763
 ----
-Efficient generation of multiqubit entanglement states using rapid adiabatic passage
-Shijie Xu, Xinwei Li, Xiangliang Li, Jinbin Li, Ming Xue
-https://arxiv.org/abs/2408.17048
-https://arxiv.org/pdf/2408.17048
+Search and state transfer between hubs by quantum walks
+Stanislav Skoupy, Martin Stefanak
+https://arxiv.org/abs/2409.02707
+https://arxiv.org/pdf/2409.02707
 ----
-Demonstration of strong coupling of a subradiant atom array to a cavity vacuum
-Bence Gábor, K. V. Adwaith, Dániel Varga, Bálint Sárközi, András Dombi, T. W. Clark, F. I. B. Williams, David Nagy, András Vukics, Peter Domokos
-https://arxiv.org/abs/2408.17079
-https://arxiv.org/pdf/2408.17079
+Ground state of the gauge invariant Dicke model: condensation of the photons in non-classical states
+N.Q. San, O.D. Skoromnik, A.P. Ulyanenkov, A.U. Leonau, I.D. Feranchuk
+https://arxiv.org/abs/2409.02701
+https://arxiv.org/pdf/2409.02701
 ----
-Simulating Feedback Cooling of Incoherent Quantum Mixtures
-Kaiwen, Zain Mehdi, Joseph J. Hope, Simon A. Haine
-https://arxiv.org/abs/2408.17092
-https://arxiv.org/pdf/2408.17092
+Discrete-modulated continuous-variable quantum key distribution secure against general attacks
+Ignatius William Primaatmaja, Wen Yu Kon, Charles Lim
+https://arxiv.org/abs/2409.02630
+https://arxiv.org/pdf/2409.02630
 ----
-Using Quantum Solved Deep Boltzmann Machines to Increase the Data Efficiency of RL Agents
-Daniel Kent, Clement O'Rourke, Jake Southall, Kirsty Duncan, Adrian Bedford
-https://arxiv.org/abs/2408.17240
-https://arxiv.org/pdf/2408.17240
+Practical techniques for high precision measurements on near-term quantum hardware: a Case Study in Molecular Energy Estimation
+Keijo Korhonen, Hetta Vappula, Adam Glos, Marco Cattaneo, Zoltán Zimborás, Elsi-Mari Borrelli, Matteo A. C. Rossi, Guillermo García-Pérez, Daniel Cavalcanti
+https://arxiv.org/abs/2409.02575
+https://arxiv.org/pdf/2409.02575
 ----
-Resource state generation in a hybrid matter-photon quantum information processor
-Yu Liu, Martin B. Plenio
-https://arxiv.org/abs/2408.17265
-https://arxiv.org/pdf/2408.17265
+Thermal density functional theory approach to quantum thermodynamics
+Antonio Palamara, Francesco Plastina, Antonello Sindona, Irene D'Amico
+https://arxiv.org/abs/2409.02559
+https://arxiv.org/pdf/2409.02559
 ----
-A Limit on the Power of Entanglement-Assistance in Quantum Communication
-Lasse H. Wolff, Paula Belzig, Matthias Christandl, Bergfinnur Durhuus, Marco Tomamichel
-https://arxiv.org/abs/2408.17290
-https://arxiv.org/pdf/2408.17290
+Low-characteristic-impedance superconducting tadpole resonators in the sub-gigahertz regime
+Miika Rasola, Samuel Klaver, Jian Ma, Priyank Singh, Tuomas Uusnäkki, Heikki Suominen, Mikko Möttönen
+https://arxiv.org/abs/2409.02558
+https://arxiv.org/pdf/2409.02558
 ----
-Modeling flux tunability in Josephson Traveling Wave Parametric Amplifiers with an open-source frequency-domain simulator
-A. Levochkina, I. Chatterjee, P. Darvehi, H. G. Ahmad, P. Mastrovito, D. Massarotti, D. Montemurro, F. Tafuri, G.P. Pepe, Kevin P. O'Brien, M. Esposito
-https://arxiv.org/abs/2408.17293
-https://arxiv.org/pdf/2408.17293
+Shedding Light on the Future: Exploring Quantum Neural Networks through Optics
+Shang Yu, Zhian Jia, Aonan Zhang, Ewan Mer, Zhenghao Li, Valerio Crescimanna, Kuan-Cheng Chen, Raj B. Patel, Ian A. Walmsley, Dagomir Kaszlikowski
+https://arxiv.org/abs/2409.02533
+https://arxiv.org/pdf/2409.02533
 ----
-Variational quantum simulation of ground states and thermal states for lattice gauge theory with multi-objective optimization
-Lang-Xing Cheng, Dan-Bo Zhang
-https://arxiv.org/abs/2408.17300
-https://arxiv.org/pdf/2408.17300
+Consequences of the single-pair measurement of the Bell parameter
+Marco Genovese, Fabrizio Piacentini
+https://arxiv.org/abs/2409.02510
+https://arxiv.org/pdf/2409.02510
 ----
-A Passive and Self-Characterizing Cross-Encoded Receiver for Reference-Frame-Independent Quantum Key Distribution
-Massimo Giacomin, Francesco B. L. Santagiustina, Giuseppe Vallone, Paolo Villoresi, Costantino Agnesi
-https://arxiv.org/abs/2408.17304
-https://arxiv.org/pdf/2408.17304
+Distributed Quantum Computation via Entanglement Forging and Teleportation
+Tian-Ren Jin, Kai Xu, Heng Fan
+https://arxiv.org/abs/2409.02509
+https://arxiv.org/pdf/2409.02509
 ----
-A zero-entropy classical shadow reconstruction of density state operators
-J. A. Montañez-Barrera, G. P. Beretta, Kristel Michielsen, Michael R. von Spakovsky
-https://arxiv.org/abs/2408.17317
-https://arxiv.org/pdf/2408.17317
+The exact lower bound of CNOT-complexity for fault-tolerant quantum Fourier transform
+Qiqing Xia, Huiqin Xie, Li Yang
+https://arxiv.org/abs/2409.02506
+https://arxiv.org/pdf/2409.02506
 ----
-Phase error rate estimation with basis-efficiency mismatch for decoy-state BB84
-Devashish Tupkary, Shlok Nahar, Pulkit Sinha, Norbert Lütkenhaus
-https://arxiv.org/abs/2408.17349
-https://arxiv.org/pdf/2408.17349
+Reduction of Finite Sampling Error in Quantum Krylov Subspace Diagonalization
+Gwonhak Lee, Seonghoon Choi, Joonsuk Huh, Artur F. Izmaylov
+https://arxiv.org/abs/2409.02504
+https://arxiv.org/pdf/2409.02504
 ----
-Nonlinear dynamical Casimir effect and Unruh entanglement in waveguide QED with parametrically modulated coupling
-Egor S. Vyatkin, Alexander V. Poshakinskiy, Alexander N. Poddubny
-https://arxiv.org/abs/2408.17365
-https://arxiv.org/pdf/2408.17365
+Geometry of temporal chiral structures
+Andres F. Ordonez, Aycke Roos, Pablo M. Maier, David Ayuso, Olga Smirnova
+https://arxiv.org/abs/2409.02500
+https://arxiv.org/pdf/2409.02500
 ----
-Hybrid encoder for discrete and continuous variable QKD
-Mattia Sabatini, Tommaso Bertapelle, Paolo Villoresi, Giuseppe Vallone, Marco Avesani
-https://arxiv.org/abs/2408.17412
-https://arxiv.org/pdf/2408.17412
+Certifying Quantum Temporal Correlation via Randomized Measurements: Theory and Experiment
+Hongfeng Liu, Zhenhuan Liu, Shu Chen, Xinfang Nie, Xiangjing Liu, Dawei Lu
+https://arxiv.org/abs/2409.02470
+https://arxiv.org/pdf/2409.02470
 ----
-Real-time Simultaneous Dual Sensing of Temperature and Magnetic Field using NV-based Nano-diamonds
-Sonia Sarkar, Namita Agrawal, Dasika Shishir, Kasturi Saha
-https://arxiv.org/abs/2408.17418
-https://arxiv.org/pdf/2408.17418
+Generation of Scalable Genuine Multipartite Gaussian Entanglement with a Parametric Amplifier Network
+Saesun Kim, Sho Onoe, Alberto M. Marino
+https://arxiv.org/abs/2409.02417
+https://arxiv.org/pdf/2409.02417
 ----
-Quantum state testing with restricted measurements
-Yuhan Liu, Jayadev Acharya
-https://arxiv.org/abs/2408.17439
-https://arxiv.org/pdf/2408.17439
+Bundled matrix product states represent low-energy excitations faithfully
+Thomas E. Baker, Negar Seif
+https://arxiv.org/abs/2409.02362
+https://arxiv.org/pdf/2409.02362
 ----
-Analysis on the von Neumann entropy under the measurement-based feedback control
-Kohei Kobayashi
-https://arxiv.org/abs/2408.17442
-https://arxiv.org/pdf/2408.17442
+Entangled in Spacetime
+Mohammad Rasoolinejad
+https://arxiv.org/abs/2409.02354
+https://arxiv.org/pdf/2409.02354
+----
+Laser cooling a centimeter-scale torsion pendulum
+Dong-Chel Shin, Tina M. Hayward, Dylan Fife, Rajesh Menon, Vivishek Sudhir
+https://arxiv.org/abs/2409.02275
+https://arxiv.org/pdf/2409.02275
+----
+Lissajous dynamics of a quantum particle in a tilted two-dimensional discrete lattice
+Grzegorz Jaczewski, Tomasz Sowiński
+https://arxiv.org/abs/2409.02268
+https://arxiv.org/pdf/2409.02268
+----
+LSTM-QGAN: Scalable NISQ Generative Adversarial Network
+Cheng Chu, Aishwarya Hastak, Fan Chen
+https://arxiv.org/abs/2409.02212
+https://arxiv.org/pdf/2409.02212
+----
+Quantum Neural Network Extraction Attack via Split Co-Teaching
+Zhenxiao fu, Fan Chen
+https://arxiv.org/abs/2409.02207
+https://arxiv.org/pdf/2409.02207
+----
+Microwave-free imaging magnetometry with nitrogen-vacancy centers in nanodiamonds at near-zero field
+Saravanan Sengottuvel, Omkar Dhungel, Mariusz Mrózek, Arne Wickenbrock, Dmitry Budker, Wojciech Gawlik, Adam M. Wojciechowski
+https://arxiv.org/abs/2409.02199
+https://arxiv.org/pdf/2409.02199
+----
+Universally-Charging Protocols for Quantum Batteries: A No-Go Theorem
+Pratik Sathe, Francesco Caravelli
+https://arxiv.org/abs/2409.02198
+https://arxiv.org/pdf/2409.02198
+----
+Effective Distance of Higher Dimensional HGPs and Weight-Reduced Quantum LDPC Codes
+Shi Jie Samuel Tan, Lev Stambler
+https://arxiv.org/abs/2409.02193
+https://arxiv.org/pdf/2409.02193
+----
+Entanglement dynamics in monitored Kitaev circuits: loop models, symmetry classification, and quantum Lifshitz scaling
+Kai Klocke, Daniel Simm, Guo-Yi Zhu, Simon Trebst, Michael Buchhold
+https://arxiv.org/abs/2409.02171
+https://arxiv.org/pdf/2409.02171
+----
+First- and second-order quantum phase transitions in the long-range unfrustrated antiferromagnetic Ising chain
+Víctor Herráiz-López, Sebastián Roca-Jerat, Manuel Gallego, Ramón Ferrández, Jesús Carrete, David Zueco, Juan Román-Roche
+https://arxiv.org/abs/2409.02165
+https://arxiv.org/pdf/2409.02165
+----
+Note on Dirac monopole theory and Berry geometric phase
+Li-Chen Zhao
+https://arxiv.org/abs/2409.02144
+https://arxiv.org/pdf/2409.02144
+----
+Recognition of Schrodinger cat state based on CNN
+Tao Zhang, Chaoying Zhao
+https://arxiv.org/abs/2409.02132
+https://arxiv.org/pdf/2409.02132
 ----

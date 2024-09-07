@@ -1,45 +1,50 @@
-Effective geometry of Bell-network states on a dipole graph
-Bekir Baytaş, Nelson Yokomizo
-https://arxiv.org/abs/2408.16878
-https://arxiv.org/pdf/2408.16878
+Gravitational radiation from binary systems in Unimodular gravity
+Indranil Chakraborty, Soumya Jana, Subhendra Mohanty
+https://arxiv.org/abs/2409.02909
+https://arxiv.org/pdf/2409.02909
 ----
-The universe is not a Lie, but actually an Hopf, algebra
-Niccoló Loret
-https://arxiv.org/abs/2408.16970
-https://arxiv.org/pdf/2408.16970
+Primordial regular black holes as all the dark matter (II): non-tr-symmetric and loop quantum gravity-inspired metrics
+Marco Calzà, Davide Pedrotti, Sunny Vagnozzi
+https://arxiv.org/abs/2409.02807
+https://arxiv.org/pdf/2409.02807
 ----
-On Pseudo $B$-symmetric spacetimes and $f(\mathcal{R})$ gravity
-Young Jin Suh, Krishnendu De, Uday Chand De
-https://arxiv.org/abs/2408.16976
-https://arxiv.org/pdf/2408.16976
+Primordial regular black holes as all the dark matter (I): tr-symmetric metrics
+Marco Calzà, Davide Pedrotti, Sunny Vagnozzi
+https://arxiv.org/abs/2409.02804
+https://arxiv.org/pdf/2409.02804
 ----
-Horizon quantum mechanics for coherent quantum black holes
-Wenbin Feng, Andrea Giusti, Roberto Casadio
-https://arxiv.org/abs/2408.17091
-https://arxiv.org/pdf/2408.17091
+Configurational entropy and stability conditions of fermion and boson stars
+P.S. Koliogiannis, M. Vikiaris, C. Panos, V. Petousis, M. Veselsky, Ch.C. Moustakidis
+https://arxiv.org/abs/2409.02803
+https://arxiv.org/pdf/2409.02803
 ----
-Transit time of black holes on generalized free energy landscape
-Tianqi Yue, Jin Wang
-https://arxiv.org/abs/2408.17104
-https://arxiv.org/pdf/2408.17104
+Gravitational Surface Tension as the Origin for the Black Hole Entropy
+S. D. Campos, R. H. Longaresi
+https://arxiv.org/abs/2409.02694
+https://arxiv.org/pdf/2409.02694
 ----
-Explicit solution of the gravitational two-body problem at the second post-Minkowskian order
-Donato Bini, Thibault Damour, Andrea Geralico
-https://arxiv.org/abs/2408.17193
-https://arxiv.org/pdf/2408.17193
+Precise asymptotics of the spin $+2$ Teukolsky field in the Kerr black hole interior
+Sebastian Gurriaran
+https://arxiv.org/abs/2409.02670
+https://arxiv.org/pdf/2409.02670
 ----
-Carrollian Limit of Bimetric Gravity
-J. Kluson
-https://arxiv.org/abs/2408.17194
-https://arxiv.org/pdf/2408.17194
+Gyroscopic Gravitational Memory from quasi-circular binary systems
+Guillaume Faye, Ali Seraj
+https://arxiv.org/abs/2409.02624
+https://arxiv.org/pdf/2409.02624
 ----
-Comparing Inflationary Models in Extended Metric-Affine Theories of Gravity
-Salvatore Capozziello, Mehdi Shokri
-https://arxiv.org/abs/2408.17415
-https://arxiv.org/pdf/2408.17415
+Dynamics of Dissipative Gravitational Collapse in the Morris-Thorne Wormhole Metric: One Scenario -- Several Outcomes
+Subhasis Nalui, Subhra Bhattacharya
+https://arxiv.org/abs/2409.02441
+https://arxiv.org/pdf/2409.02441
 ----
-Corrections to Hawking radiation from asteroid-mass primordial black holes: Numerical evaluation of dissipative effects
-Emily Koivu, John Kushan, Makana Silva, Gabriel Vasquez, Arijit Das, Christopher M Hirata
-https://arxiv.org/abs/2408.17423
-https://arxiv.org/pdf/2408.17423
+Black holes of type D revisited: relating their various metric forms
+Hryhorii Ovcharenko, Jiri Podolsky, Marco Astorino
+https://arxiv.org/abs/2409.02308
+https://arxiv.org/pdf/2409.02308
+----
+Stochastic Dark Matter: Covariant Brownian Motion from Planckian Discreteness
+Emma Albertini, Arad Nasiri, Emanuele Panella
+https://arxiv.org/abs/2409.02188
+https://arxiv.org/pdf/2409.02188
 ----

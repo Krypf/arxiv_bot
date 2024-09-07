@@ -1,80 +1,220 @@
-Exploring the impact of magnetic fields, Lorentz violation and EDM on $e^+ e^-\rightarrow l^+ l^-$ scattering
-D. S. Cabral, A. F. Santos
-https://arxiv.org/abs/2408.16790
-https://arxiv.org/pdf/2408.16790
+Implications of first neutrino-induced nuclear recoil measurements in direct detection experiments
+D. Aristizabal Sierra, N. Mishra, L. Strigari
+https://arxiv.org/abs/2409.02003
+https://arxiv.org/pdf/2409.02003
 ----
-Heavy quark contributions in Bjorken sum rule with analytic coupling
-I.R. Gabdrakhmanov, N.A Gramotkov, A.V. Kotikov, O.V. Teryaev, D.A. Volkova, I.A. Zemlyakov
-https://arxiv.org/abs/2408.16804
-https://arxiv.org/pdf/2408.16804
+Comment on "Excluding Primordial Black Holes as Dark Matter Based on Solar System Ephemeris"
+James M. Cline
+https://arxiv.org/abs/2409.01993
+https://arxiv.org/pdf/2409.01993
 ----
-Multi-Component Dark Matter from Minimal Flavor Violation
-Federico Mescia, Shohei Okawa, Keyun Wu
-https://arxiv.org/abs/2408.16812
-https://arxiv.org/pdf/2408.16812
+Current measurements outlasting MSSM-30 spectra
+S. AbdusSalam, S.S. Barzani, M. Mohammadidoust, S.A. Ojaghi, L. Velasco-Sevilla
+https://arxiv.org/abs/2409.01970
+https://arxiv.org/pdf/2409.01970
 ----
-Minimal targets for dilaton direct detection
-David Cyncynates, Olivier Simon
-https://arxiv.org/abs/2408.16816
-https://arxiv.org/pdf/2408.16816
+Manifestation of $a_1(1260)$ meson in the process $e^+e^-\to \pi^+\pi^-\pi^0$
+I.V. Obraztsov, A.S. Rudenko, A.I. Milstein
+https://arxiv.org/abs/2409.01886
+https://arxiv.org/pdf/2409.01886
 ----
-HEFT approach to investigate the muon g-2 anomaly at a muon collider
-Fabiola Fortuna, Juan Manuel Márquez, Pablo Roig
-https://arxiv.org/abs/2408.16954
-https://arxiv.org/pdf/2408.16954
+Aspects of holographic Langevin diffusion in the presence of anisotropic magnetic field
+Qi Zhou, Ben-Wei Zhang
+https://arxiv.org/abs/2409.01838
+https://arxiv.org/pdf/2409.01838
 ----
-Inflation models with Peccei-Quinn symmetry and axion kinetic misalignment
-Hyun Min Lee, Adriana G. Menkara, Myeong-Jung Seong, Jun-Ho Song
-https://arxiv.org/abs/2408.17013
-https://arxiv.org/pdf/2408.17013
+Constraining neutrinophilic mediators at FASER$\nu$, FLArE and FASER$\nu$2
+Weidong Bai, Jiajun Liao, Hongkai Liu
+https://arxiv.org/abs/2409.01826
+https://arxiv.org/pdf/2409.01826
 ----
-Thorough Analysis of $\pi^-p\rightarrow K^{*}\Sigma$ Reaction: Probing Nucleon Excited State and Constituent Scaling Laws
-Xiao-Yun Wang, Yuan Gao, Xiang Liu
-https://arxiv.org/abs/2408.17076
-https://arxiv.org/pdf/2408.17076
+Inclusive $\mathrm{J}/\psi$ production in forward proton-proton and proton-lead collisions at high energy
+Patricia Gimeno-Estivill, Tuomas Lappi, Heikki Mäntysaari
+https://arxiv.org/abs/2409.01791
+https://arxiv.org/pdf/2409.01791
 ----
-Pion Condensation and Pion Star from Holographic QCD
-Yidian Chen, Mingshan Ding, Danning Li, Kazem Bitaghsir Fadafan, Mei Huang
-https://arxiv.org/abs/2408.17080
-https://arxiv.org/pdf/2408.17080
+Inclusive photoproduction of vector quarkonium in ultra-peripheral collisions at the LHC
+Jean-Philippe Lansberg, Kate Lynch, Charlotte Van Hulse, Ronan McNulty
+https://arxiv.org/abs/2409.01756
+https://arxiv.org/pdf/2409.01756
 ----
-Superheavy dark matter within the seesaw framework
-O. Deligny
-https://arxiv.org/abs/2408.17111
-https://arxiv.org/pdf/2408.17111
+Application of Kolmogorov-Arnold Networks in high energy physics
+E. Abasov, P. Volkov, G. Vorotnikov, L. Dudko, A. Zaborenko, E. Iudin, A. Markina, M. Perfilov
+https://arxiv.org/abs/2409.01724
+https://arxiv.org/pdf/2409.01724
 ----
-Observable effects of reflective scattering
-S.M. Troshin, N.E. Tyurin
-https://arxiv.org/abs/2408.17127
-https://arxiv.org/pdf/2408.17127
+Peculiarities of Regge cuts in QCD
+V.S. Fadin
+https://arxiv.org/abs/2409.01698
+https://arxiv.org/pdf/2409.01698
 ----
-Estimating event-by-event multiplicity by a Machine Learning Method for Hadronization Studies
-Gábor Bíró, Gábor Papp, Gergely Gábor Barnaföldi
-https://arxiv.org/abs/2408.17130
-https://arxiv.org/pdf/2408.17130
+Various Illustrative Brief Glances at the Flavour-Cryptoexotic Tetraquark States
+Wolfgang Lucha
+https://arxiv.org/abs/2409.01693
+https://arxiv.org/pdf/2409.01693
 ----
-Local renormalisation from causal loop-tree duality
-German Sborlini, Jose Rios-Sanchez
-https://arxiv.org/abs/2408.17319
-https://arxiv.org/pdf/2408.17319
+Entropy in Toy Regge models
+M.A.Braun
+https://arxiv.org/abs/2409.01620
+https://arxiv.org/pdf/2409.01620
 ----
-Semi-supervised permutation invariant particle-level anomaly detection
-Gabriel Matos, Elena Busch, Ki Ryeong Park, Julia Gonski
-https://arxiv.org/abs/2408.17409
-https://arxiv.org/pdf/2408.17409
+Next-to-soft threshold effects on Higgs boson production via bottom quark annihilation
+Goutam Das, Aparna Sankar
+https://arxiv.org/abs/2409.01553
+https://arxiv.org/pdf/2409.01553
 ----
-Imprinting New Physics by using Angular profiles of the FCNC process $B_{c}\to D_{s}^{*}\left(\to \;D_{s}\pi\right)\ell^{+}\ell^{-}$
-Hira Waseem, Abdul Hafeez
-https://arxiv.org/abs/2408.17436
-https://arxiv.org/pdf/2408.17436
+Probing $|V_{cs}|$ and lepton flavor universality through $D\to K_0^\ast(1430)\ell\nu_{\ell}$ decay
+Yin-Long Yang, Hai-Jiang Tian, Ya-Xiong Wang, Hai-Bing Fu, Tao Zhong, Sheng-Quan Wang, Dong Huang
+https://arxiv.org/abs/2409.01512
+https://arxiv.org/pdf/2409.01512
 ----
-Two-loop QCD corrections to Higgs radiative decay to vector quarkonium
-Yu Jia, Zhewen Mo, Jia-Yue Zhang
-https://arxiv.org/abs/2408.17448
-https://arxiv.org/pdf/2408.17448
+Implications of direct detection experiments in search of mirror dark matter in Galaxy
+Mohammad Tousif
+https://arxiv.org/abs/2409.01486
+https://arxiv.org/pdf/2409.01486
 ----
-Undulators are ALP Factories
-Wen Yin, Junya Yoshida
-https://arxiv.org/abs/2408.17451
-https://arxiv.org/pdf/2408.17451
+Parton distribution functions and transverse momentum dependence of heavy mesons
+Fernando E. Serna, Bruno El-Bennich, Gastão Krein
+https://arxiv.org/abs/2409.01441
+https://arxiv.org/pdf/2409.01441
+----
+Prompt photon production with two jets in POWHEG
+Tomáš Ježo, Michael Klasen, Alexander Neuwirth
+https://arxiv.org/abs/2409.01424
+https://arxiv.org/pdf/2409.01424
+----
+Density correlations under global and local charge conservation
+Volodymyr Vovchenko
+https://arxiv.org/abs/2409.01397
+https://arxiv.org/pdf/2409.01397
+----
+$(g-2)_{e,\mu}$ and Lepton flavor violating decays in a left-right model
+L.T. Hue, Khiem Hong Phan, T.T. Hong, T. Phong Nguyen, N. H. T. Nha
+https://arxiv.org/abs/2409.01390
+https://arxiv.org/pdf/2409.01390
+----
+Vacuum polarisation effects in impulsive fields
+Anton Ilderton, Hannah Kingham
+https://arxiv.org/abs/2409.01372
+https://arxiv.org/pdf/2409.01372
+----
+Binding of the three-hadron DD^{*}K system from the lattice effective field theory
+Zhenyu Zhang, Xin-Yue Hu, Guangzhao He, Jun Liu, Jia-Ai Shi, Bing-Nan Lu, Qian Wang
+https://arxiv.org/abs/2409.01325
+https://arxiv.org/pdf/2409.01325
+----
+Loop Tree Duality with generalized propagator powers: numerical UV subtraction for two-loop Feynman integrals
+Daniele Artico
+https://arxiv.org/abs/2409.01313
+https://arxiv.org/pdf/2409.01313
+----
+Signature of (axial)vector operators in $B_c\to D_s^{(*)} \mu^+ \mu^-$ decays
+Manas Kumar Mohapatra, Ajay Kumar Yadav, Suchismita Sahoo
+https://arxiv.org/abs/2409.01269
+https://arxiv.org/pdf/2409.01269
+----
+Probing Anomalous Higgs Boson Couplings at Colliders
+Biswajit Das
+https://arxiv.org/abs/2409.01264
+https://arxiv.org/pdf/2409.01264
+----
+Deep Inelastic Scattering Cross Section Uncertainties in Tau Neutrino Appearance Measurements
+Tetiana Kozynets, Thomas Stuttard, D. Jason Koskinen
+https://arxiv.org/abs/2409.01258
+https://arxiv.org/pdf/2409.01258
+----
+QCD Perturbation Theory: It's not what you were taught
+P. M. Stevenson
+https://arxiv.org/abs/2409.01228
+https://arxiv.org/pdf/2409.01228
+----
+Evolution of the hot dense matter at LHC energies through light and heavy-flavor hadrons using non-extensive thermodynamics
+László Gyulai, Gábor Bíró, Róbert Vértesi, Gergely Gábor Barnaföldi
+https://arxiv.org/abs/2409.01085
+https://arxiv.org/pdf/2409.01085
+----
+Charmonium pair production at the LHCb in the ICEM using the $k_T$-factorization: DPS versus SPS
+Alexey Chernyshev, Vladimir Saleev
+https://arxiv.org/abs/2409.00948
+https://arxiv.org/pdf/2409.00948
+----
+Particle production by $\gamma$-$\gamma$ interactions in future electron-ion colliders
+Carlos A. Bertulani, Reinaldo Francener, Victor P. Goncalves, Juciene T. de Souza
+https://arxiv.org/abs/2409.00814
+https://arxiv.org/pdf/2409.00814
+----
+Summing large Pomeron loops in the saturation region: amplitude and multiplicity distributions for dipole-dipole scattering
+Eugene Levin
+https://arxiv.org/abs/2409.00761
+https://arxiv.org/pdf/2409.00761
+----
+Processes $\gamma \gamma \rightarrow \phi_i\phi_j$ in Higgs Extensions of the Standard Models, II: Inert Higgs Doublet Models, Two Higgs Doublet Models
+Khiem Hong Phan, Dzung Tri Tran, Thanh Huy Nguyen
+https://arxiv.org/abs/2409.00662
+https://arxiv.org/pdf/2409.00662
+----
+Charm Sivers function at EicC
+Senjie Zhu, Duxin Zheng, Lei Xia, Yifei Zhang
+https://arxiv.org/abs/2409.00653
+https://arxiv.org/pdf/2409.00653
+----
+Probing heavy meson lightcone distribution amplitudes with heavy quark spin symmetry
+Zhi-Fu Deng, Wei Wang, Yan-Bing Wei, Jun Zeng
+https://arxiv.org/abs/2409.00632
+https://arxiv.org/pdf/2409.00632
+----
+Neutrino oscillations from the perspective of the quantum Yang-Baxter equations
+Ivan Arraut, Enrique Arrieta-Diaz
+https://arxiv.org/abs/2409.00560
+https://arxiv.org/pdf/2409.00560
+----
+The study of strongly intensive observables for $\pi^{\pm,0}$ in $pp$ collisions at LHC energy in the framework of PYTHIA model
+Tumpa Biswas, Dibakar Dhar, Azharuddin Ahmed, Prabir Kumar Haldar, Abdel Nasser Tawfik
+https://arxiv.org/abs/2409.00525
+https://arxiv.org/pdf/2409.00525
+----
+Self-consistent constraints on the collision terms in quantum kinetic theory
+Shi-Yuan Wu, Jian-Hua Gao
+https://arxiv.org/abs/2409.00457
+https://arxiv.org/pdf/2409.00457
+----
+Corrections from space-time dependent electromagnetic fields to Wigner functions and spin polarization
+Shi-Zheng Yang, Jian-Hua Gao, Shi Pu
+https://arxiv.org/abs/2409.00456
+https://arxiv.org/pdf/2409.00456
+----
+Investigation of the semileptonic decay $ \Xi^{++}_{cc}\rightarrow \Xi^+_{c} \bar{\ell}\nu_{\ell}$ within QCD sum rules
+M. Shekari Tous, K. Azizi, H. R. Moshfegh
+https://arxiv.org/abs/2409.00241
+https://arxiv.org/pdf/2409.00241
+----
+tParton: an updated implementation of next-to-leading order transversity evolution
+Congzhou M Sha, Bailing Ma
+https://arxiv.org/abs/2409.00221
+https://arxiv.org/pdf/2409.00221
+----
+Baryon number violation with top quark operators in the SMEFT
+Hector Gisbert, Antonio Rodríguez-Sánchez, Luiz Vale Silva
+https://arxiv.org/abs/2409.00218
+https://arxiv.org/pdf/2409.00218
+----
+Electroweak Phase Transition in Two Scalar Singlet Model with pNGB Dark Matter
+Dilip Kumar Ghosh, Koustav Mukherjee, Shourya Mukherjee
+https://arxiv.org/abs/2409.00192
+https://arxiv.org/pdf/2409.00192
+----
+On the smallness of charm loop effects in $B\to K^{(*)} \ell\ell$ at low $q^2$: light meson Distribution Amplitude analysis
+Namit Mahajan, Dayanand Mishra
+https://arxiv.org/abs/2409.00181
+https://arxiv.org/pdf/2409.00181
+----
+Discovering Dark Matter with the MUonE Experiment
+Gordan Krnjaic, Duncan Rocha, Isaac R. Wang
+https://arxiv.org/abs/2409.00170
+https://arxiv.org/pdf/2409.00170
+----
+CP-odd effects at NLO in SMEFT $WH$ and $ZH$ production
+Alejo N. Rossia, Eleni Vryonidou
+https://arxiv.org/abs/2409.00168
+https://arxiv.org/pdf/2409.00168
 ----
