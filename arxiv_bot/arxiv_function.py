@@ -62,7 +62,7 @@ class ArxivSearch:
             document = pq(html_content.encode(encoding))
             return document
         else:
-            raise ValueError(f"Unsupported library: {library}. Choose 'BeautifulSoup' or 'lxml'.")
+            raise ValueError(f"Unsupported library: {library}. Choose 'BeautifulSoup' or 'lxml' or 'pyquery'.")
 
     def find_text_from_HTML(self, tag, text):
         document = self.read_HTML(library='pyquery')
@@ -90,7 +90,8 @@ class ArxivSearch:
             skip_value = match.group(1)
             return (skip_value)
 
-    def extract_skip_numbers(self, date_to_find, _printlog=True):
+    def extract_skip_numbers(self, date, _printlog=True):
+        date_to_find = arxiv_formatted_date(date)
         document = self.find_text_from_HTML('ul', date_to_find)
         # Find <li> element containing the date
         list_item_with_date = document('li').filter(lambda index, element: date_to_find in pq(element).html())
@@ -106,7 +107,7 @@ class ArxivSearch:
             if _printlog:
                 printlog(f"List Item with Date:\n{x}")
                 printlog(f"Next List Item:\n{y}")
-            return (int(X), int(Y))
+            return (int(X) + 1, int(Y) + 1)# plus one
         else:
             printlog(f"No <li> element found with the date: {date_to_find}")
             exit('1')
@@ -124,8 +125,6 @@ class ArxivSearch:
         if match:
             return int(match.group(1))
         raise ValueError("Skip number not found in the URL")
-
-
 
 def arxiv_formatted_date(date_str):
     # Convert the string to a datetime object
@@ -250,6 +249,9 @@ def get_title_and_authors(soup_dd):
 #%%
 def save_one_post(soup, item_number: str):
     soup_dt, soup_dd = find_dt_and_dd(soup, item_number)
+    if "cross-list" in soup_dt.get_text():
+        print(f"Number {item_number} included in cross-list")
+        return ""
     arxiv_url, pdf_url = get_arxiv_link(soup_dt)
     title, authors = get_title_and_authors(soup_dd)
     # Create dictionary
@@ -324,7 +326,11 @@ def shorten_paper_info(paper_info, max_letter: int):
     authors_line = shorten_authors(authors_line)
     printlog(f"Tweet content exceeds {max_letter} characters. The shorten_paper_info shortened the text.")
     
-    return f"{title_line}\n{authors_line}\n{arxiv_url}\n{pdf_url}"# there is not \n in the last
+    _ans = f"{title_line}\n{authors_line}\n{arxiv_url}\n{pdf_url}"
+    if len(_ans) <= max_letter: 
+        return _ans # there is not \n in the last
+    else:
+        exit('shorten_paper_info: 1')
 
 
 #%%

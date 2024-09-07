@@ -4,14 +4,15 @@ from datetime import datetime
 
 from printlog import printlog
 from arxiv_function import categories_content, ArxivText, arxiv_formatted_date
-from twitter_function import twitter_login, send_post_to_twitter
+from twitter_function import twitter_login, send_post_to_twitter, reduce_to_api_maximum
 #%%
-def sub(obj: ArxivText, sleep_time=1):
+def sub(obj: ArxivText, sleep_time=1, api_maximum=50):
     client = twitter_login(obj.category)
-    text = obj.read_content()
 
     # Split the text using "----" as the delimiter
+    text = obj.read_content()
     text_array = text.split("\n----\n")
+    
     d = arxiv_formatted_date(obj.date)
     for t in text_array:
         send_post_to_twitter(client, t, today=d)
