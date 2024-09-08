@@ -109,18 +109,21 @@ def Twitter_with_api_max(iteration, client_twitter, text, date, api_maximum: int
     else:
         pass
 #%%
-
-if __name__ == '__main__':
-    # Specify the file you want to read from
-    category = credentials_file = "gr-qc"
+def test():
+    # Specify the file (category) you want to read from
+    credentials_file = "gr-qc"
 
     # Load the credentials into a dictionary
     credentials_dict = load_credentials(credentials_file)
 
     # Print the dictionary
     if credentials_dict:
-        print(credentials_dict)
-        print(credentials_dict['API Key'])
+        print("Check if the API Key starts with", credentials_dict['API Key'][:3])
+        for key, value in credentials_dict.items():
+            print(f"{key}: {value[:3]}")
+
+if __name__ == '__main__':
+    test()
 
 
 # %%
