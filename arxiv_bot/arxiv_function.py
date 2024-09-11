@@ -9,8 +9,6 @@ from printlog import printlog
 from bs4 import BeautifulSoup
 from lxml import etree
 from pyquery import PyQuery as pq
-
-
 #%% https://chatgpt.com/share/c59404fb-255c-42db-892a-c19c00d92e8c
 class ArxivSearch:
     def __init__(self, category: str, submissions: str = "new", skip: str = "", show: str = "", parent_folder: str = os.path.expanduser("~/arxiv_bot")):
@@ -126,6 +124,10 @@ class ArxivSearch:
             return int(match.group(1))
         raise ValueError("Skip number not found in the URL")
 
+def check_no_entry():
+    if not True:
+        save_text_append("No entries found for today.", file_path)
+
 def arxiv_formatted_date(date_str):
     # Convert the string to a datetime object
     date_obj = datetime.strptime(date_str, '%Y-%m-%d')
@@ -176,115 +178,106 @@ class ArxivText:
     def read_HTML_soup(self, submissions: str):
         obj = ArxivSearch(self.category, submissions)
         return obj.read_HTML()
-
-#%% https://chatgpt.com/share/1b7cf3d0-66c0-43f2-a651-3c5cec21d345
-def cross_list_number(soup) -> str:
-    cross_list_item = soup.find('a', string="Cross-lists")
-    # print(cross_list_item)
-    if cross_list_item:
-        href = cross_list_item.get('href')
-        number = re.search(r'\d+', href).group()
-        # print(f'Extracted number: {number}')
-        return (number)
-    else:
-        raise ValueError("Cross-lists link not found in the provided HTML.")
-
-#%% https://chatgpt.com/share/bc424881-9f53-49ed-9ed9-c145764ba7ab
-def find_dt_and_dd(soup, item_number: str):
-    num = item_number
-    # Find the <a> element with name='item' + num
-    a_element = soup.find('a', attrs={'name': 'item' + (item_number)})
-
-    if a_element:
-        # Get the parent <dt> element
-        dt_element = a_element.find_parent('dt')
-        if dt_element:
-            # Find the next <dd> sibling element
-            dd_element = dt_element.find_next_sibling('dd')
-            if dd_element:
-                # print(f"<dt>: {dt_element}")
-                # print(f"<dd>: {dd_element}")
-                return dt_element, dd_element
-            else:
-                printlog(f"No <dd> found after <dt> containing <a name='item{num}'>[{num}]</a>")
-        else:
-            printlog(f"No <dt> found containing <a name='item{num}'>[{num}]</a>")
-    else:
-        printlog(f"No <a name='item{num}'>[{num}]</a> found")
-
-    return 0
     
+    def append_to_path(self, text):
+        """
+        Appends the specified text to the given file.
+
+        Args:
+            text: The text to append.
+            file_path: The path of the file to append to.
+        """
+        # Append the text to the file
+        with open(self.file_path, 'a') as f:
+            f.write(text)
+
 #%%
-def get_arxiv_link(soup_dt):
-    # Find the <a> tag with title "Abstract"
-    abstract_link = soup_dt.find('a', title='Abstract')
-    download_pdf_link = soup_dt.find('a', title='Download PDF')
-    # Extract the href attribute
-    arxiv_link = abstract_link['href'] if abstract_link else None
-    pdf_link = download_pdf_link['href'] if download_pdf_link else None
-    # Construct the full URL
-    if arxiv_link:
-        arxiv_url = f"https://arxiv.org{arxiv_link}"
-    else:
-        arxiv_url = None
-    if pdf_link:
-        pdf_url = f"https://arxiv.org{pdf_link}"
-    else:
-        pdf_url = None
+class ArxivSoup():
+    def __init__(self, soup: BeautifulSoup):
+        self.soup = soup
+    
+    # https://chatgpt.com/share/bc424881-9f53-49ed-9ed9-c145764ba7ab
+    def find_dt_and_dd(self, item_number: str):
+        num = item_number
+        # Find the <a> element with name='item' + num
+        a_element = self.soup.find('a', attrs={'name': 'item' + (num)})
+
+        if a_element:
+            # Get the parent <dt> element
+            dt_element = a_element.find_parent('dt')
+            if dt_element:
+                # Find the next <dd> sibling element
+                dd_element = dt_element.find_next_sibling('dd')
+                if dd_element:
+                    # print(f"<dt>: {dt_element}")
+                    # print(f"<dd>: {dd_element}")
+                    return dt_element, dd_element
+                else:
+                    printlog(f"No <dd> found after <dt> containing <a name='item{num}'>[{num}]</a>")
+            else:
+                printlog(f"No <dt> found containing <a name='item{num}'>[{num}]</a>")
+        else:
+            printlog(f"No <a name='item{num}'>[{num}]</a> found")
+
+        return 0
         
-    return arxiv_url, pdf_url
+    # https://chatgpt.com/share/1b7cf3d0-66c0-43f2-a651-3c5cec21d345
+    def cross_list_number(self) -> int:
+        cross_list_item = self.soup.find('a', string="Cross-lists")
+        # print(cross_list_item)
+        if cross_list_item:
+            href = cross_list_item.get('href')
+            number = re.search(r'\d+', href).group()
+            # print(f'Extracted number: {number}')
+            return int(number)
+        else:
+            raise ValueError("Cross-lists link not found in the provided HTML.")
+    
+    def get_one_post(self, item_number: str):
+        soup_dt, soup_dd = self.find_dt_and_dd(item_number)# not self.soup. ...
+        if "cross-list" in soup_dt.get_text():
+            printlog(f"Number {item_number} included in cross-list")
+            return ""
+        arxiv_url, pdf_url = ArxivSoup.get_arxiv_link(soup_dt)
+        title, authors = ArxivSoup.get_title_and_authors(soup_dd)
+        # Create dictionary
+        article_info = {
+            'arxiv_url': arxiv_url,
+            'pdf_url': pdf_url,
+            'title': title,
+            'authors': authors
+        }
+        text = f"{article_info['title']}\n"
+        text += f"{article_info['authors']}\n"
+        # summary = entry.summary; text += f"Summary: {summary}\n";
+        text += f"{article_info['arxiv_url']}\n"
+        text += f"{article_info['pdf_url']}\n"
+        text += "----\n"
+        return text
 
-def get_title_and_authors(soup_dd):
-    # Extract the title
-    title_div = soup_dd.find('div', class_='list-title')
-    title = title_div.get_text(strip=True).split(':', 1)[-1].strip() if title_div else None
+    def get_arxiv_link(soup_dt):
+        # Find the <a> tag with title "Abstract"
+        abstract_link = soup_dt.find('a', title='Abstract')
+        download_pdf_link = soup_dt.find('a', title='Download PDF')
+        # Extract the href attribute
+        arxiv_link = abstract_link['href'] if abstract_link else None
+        pdf_link = download_pdf_link['href'] if download_pdf_link else None
+        # Construct the full URL
+        arxiv_url = f"https://arxiv.org{arxiv_link}" if arxiv_link else None
+        pdf_url = f"https://arxiv.org{pdf_link}" if pdf_link else None
+            
+        return arxiv_url, pdf_url
 
-    # Extract the authors
-    authors_div = soup_dd.find('div', class_='list-authors')
-    authors = ', '.join(a.get_text() for a in authors_div.find_all('a')) if authors_div else None
+    def get_title_and_authors(soup_dd):
+        # Extract the title
+        title_div = soup_dd.find('div', class_='list-title')
+        title = title_div.get_text(strip=True).split(':', 1)[-1].strip() if title_div else None
+        # Extract the authors
+        authors_div = soup_dd.find('div', class_='list-authors')
+        authors = ', '.join(a.get_text() for a in authors_div.find_all('a')) if authors_div else None
+        return title, authors
 
-    # print("Title:", title)
-    # print("Authors:", authors)
-    return title, authors
-#%%
-def save_one_post(soup, item_number: str):
-    soup_dt, soup_dd = find_dt_and_dd(soup, item_number)
-    if "cross-list" in soup_dt.get_text():
-        printlog(f"Number {item_number} included in cross-list")
-        return ""
-    arxiv_url, pdf_url = get_arxiv_link(soup_dt)
-    title, authors = get_title_and_authors(soup_dd)
-    # Create dictionary
-    article_info = {
-        'arxiv_url': arxiv_url,
-        'pdf_url': pdf_url,
-        'title': title,
-        'authors': authors
-    }
-    text = f"{article_info['title']}\n"
-    text += f"{article_info['authors']}\n"
-    # summary = entry.summary; text += f"Summary: {summary}\n";
-    text += f"{article_info['arxiv_url']}\n"
-    text += f"{article_info['pdf_url']}\n"
-    text += "----\n"
-    return text
-#%% error 
-def check_no_entry():
-    if not True:
-        save_text_append("No entries found for today.", file_path)
-
-#%%
-def save_text_append(text, file_path):
-    """
-    Appends the specified text to the given file.
-
-    Args:
-        text: The text to append.
-        file_path: The path of the file to append to.
-    """
-    # Append the text to the file
-    with open(file_path, 'a') as f:
-        f.write(text)
+    
 
 #%% https://chatgpt.com/share/7dfbd5e5-9c8d-4939-a815-efd595b5f229
 def read_inner_file(file = '', folder='') -> List[str]:
@@ -310,7 +303,7 @@ def read_inner_file(file = '', folder='') -> List[str]:
         return []
 
 #%%
-def post_last(t, today):
+def post_last(today):
     t = f"These are all of the new submissions on {today}."
     printlog(f"posted\n{t}")
     return t
@@ -335,6 +328,20 @@ def shorten_paper_info(paper_info, max_letter: int):
 
 #%%
 # no usage
+
+#%%
+def save_text_append(text, file_path):
+    """
+    Appends the specified text to the given file.
+
+    Args:
+        text: The text to append.
+        file_path: The path of the file to append to.
+    """
+    # Append the text to the file
+    with open(file_path, 'a') as f:
+        f.write(text)
+
 def my_replace(text: str) -> str:
     text = text.replace('Title:\n          ', 'Title: ')
     text = text.replace('\n        ', '\n')
