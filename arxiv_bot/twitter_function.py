@@ -79,6 +79,7 @@ def send_post_to_twitter(client, text, thumb=None, max_letter=280, today='today'
         printlog("Text posted on Twitter")
     except tweepy.errors.TweepyException as e:
         printlog(f"Error occurred: {e}")
+        # 429 TooManyRequests
         return e
 
     return None
