@@ -1,14 +1,17 @@
 #%%
-import arxiv
-from datetime import datetime
 import os
 import re
-
+import arxiv
+from datetime import datetime
 from typing import List
-from printlog import printlog
+import requests
+import sys
+
 from bs4 import BeautifulSoup
 from lxml import etree
 from pyquery import PyQuery as pq
+
+from printlog import printlog
 #%% https://chatgpt.com/share/c59404fb-255c-42db-892a-c19c00d92e8c
 class ArxivSearch:
     def __init__(self, category: str, submissions: str = "new", skip: str = "", show: str = "", parent_folder: str = os.path.expanduser("~/arxiv_bot")):
@@ -123,10 +126,37 @@ class ArxivSearch:
         if match:
             return int(match.group(1))
         raise ValueError("Skip number not found in the URL")
+    
+    def get_html(self):
+        # URL to fetch
+        url = self.make_url()
+        # Format the datetime object to the desired string format
+        today = datetime.now().strftime('%A, %-d %B %Y')
+        # Send a GET request to the webpage
+        response = ArxivSearch.check_date_in_html(url, today)
+        return response
 
-def check_no_entry():
-    if not True:
-        save_text_append("No entries found for today.", file_path)
+    def check_date_in_html(url: str, date: str) -> None:
+        try:
+            # Send a GET request to the URL
+            response = requests.get(url)
+            # Check if the request was successful
+            response.raise_for_status()  # Raise an error for bad responses (e.g., 404 or 500)
+
+            # Parse the HTML content with BeautifulSoup
+            soup = BeautifulSoup(response.text, features="xml")
+            
+            # Check if the specified date is present in the HTML content
+            if not any(date in element.text for element in soup.find_all()):
+                printlog(f"Specified date ({date}) not found in HTML. No entries found for today. Exiting program.")            
+                sys.exit(1)  # Exit the program
+            else:
+                return response
+        except requests.exceptions.RequestException as e:
+            print(f"Error fetching the URL: {e}")
+            sys.exit(1)  # Exit the program in case of an error with the request
+
+#%%
 
 def arxiv_formatted_date(date_str):
     # Convert the string to a datetime object
