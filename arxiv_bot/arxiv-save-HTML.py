@@ -1,5 +1,4 @@
 #%% https://chatgpt.com/share/c8e08b83-0d2d-4430-a447-e0e14a945d8b
-import requests
 import os
 import argparse
 from arxiv_function import ArxivSearch, categories_content
@@ -7,13 +6,8 @@ from printlog import printlog
 # from typing import Optional
 
 #%%
-
 def sub(obj: ArxivSearch):
-    # URL to fetch
-    url = obj.make_url()
-    # Send a GET request to the webpage
-    response = requests.get(url)
-    # Check if the request was successful
+    response = obj.get_html()
     if response.status_code == 200:
         # Save the HTML content to a file
         with open(obj.file_path, "w", encoding='utf-8') as file:
@@ -22,7 +16,7 @@ def sub(obj: ArxivSearch):
     else:
         printlog(f"Failed to retrieve the webpage. Status code: {response.status_code}")
 
-    return 0
+    return None
 
 def main(categories_content):
     # Directory to save the file

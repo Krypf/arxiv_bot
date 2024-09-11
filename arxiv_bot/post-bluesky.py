@@ -5,18 +5,17 @@ from datetime import datetime
 
 from printlog import printlog
 from arxiv_function import categories_content, ArxivText, arxiv_formatted_date
-from bluesky_function import bsky_login, send_post_to_bluesky
+from bluesky_function import login_bsky, send_post_to_bluesky
 #%%
 def sub(obj: ArxivText, sleep_time=1):
-    client, thumb = bsky_login(obj.category)
+    client, thumb = login_bsky(obj.category)
     text = obj.read_content()
     # Split the text using "----" as the delimiter
     text_array = text.split("\n----\n")
     d = arxiv_formatted_date(obj.date)
     for t in text_array:
         send_post_to_bluesky(client, t, thumb, today=d)
-        time.sleep(sleep_time)    
-    printlog(f"This is the end of all the posts on {obj.date}")
+        time.sleep(sleep_time)
     return 0
 #%%
 def main(today:str, categories_content=categories_content):
@@ -25,6 +24,7 @@ def main(today:str, categories_content=categories_content):
         printlog(f"The category is {category}")
         reader = ArxivText(category, today)
         sub(reader)
+    printlog(f"This is the end of all the posts on {today}")
 
     return 0
 
@@ -40,7 +40,7 @@ if __name__ == '__main__':
 # text = obj.read_content()
 
 # text_array = text.split("\n----\n")
-# client, thumb = bsky_login(category)
+# client, thumb = login_bsky(category)
 # t = text_array[-1]
 # send_post_to_bluesky(client, t, thumb)
 

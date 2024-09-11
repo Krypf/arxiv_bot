@@ -1,7 +1,7 @@
 #%%
 from datetime import datetime
 from printlog import printlog
-from arxiv_function import ArxivSearch, ArxivText, categories_content, read_inner_file, save_one_post, save_text_append
+from arxiv_function import ArxivSearch, ArxivText, ArxivSoup, categories_content, read_inner_file
 
 #%%
 def confirm_initialize(obj: ArxivText):
@@ -38,13 +38,15 @@ def sub(obj: ArxivText):
     confirm_initialize(obj)
     
     search = ArxivSearch(obj.category, submissions = 'recent')
-    soup = obj.read_HTML_soup('recent')
+    soup = ArxivSoup(search.read_HTML())
+    
     item_numbers = search.extract_skip_numbers(obj.date, _printlog=False)
     for i in range(*item_numbers):
         item_number = str(i)
-        text = save_one_post(soup, item_number)
+        text = soup.get_one_post(item_number)
         # print(i, text)
-        save_text_append(text, obj.file_path)
+        obj.append_to_path(text)# save_text_append
+        
     # Display the result
     printlog(f"{obj.file_name} has been saved.")
     return 0
@@ -52,7 +54,7 @@ def sub(obj: ArxivText):
 def main():
     dates = read_inner_file(file='date', folder='arxiv_bot')
     date = dates[-1]
-    for category in categories_content[1:5]:
+    for category in categories_content:
         obj = ArxivText(category, date)
         sub(obj)
     return 0

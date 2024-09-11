@@ -14366,3 +14366,869 @@ Too Many Requests
 These are all of the new submissions on Wed, 11 Sep 2024.
 [2024-09-11 12:00:54] posted
 These are all of the new submissions on Wed, 11 Sep 2024.
+[2024-09-11 21:56:02] The category is gr-qc
+[2024-09-11 21:56:04] Target text:
+Gravitational lensing in holonomy corrected spherically symmetric black holes with phantom global monopoles
+Faizuddin Ahmed
+https://arxiv.org/abs/2409.05897
+https://arxiv.org/pdf/2409.05897
+[2024-09-11 21:56:04] Text posted on Bluesky
+[2024-09-11 21:56:05] Target text:
+Black hole spectroscopy in environments: detectability prospects
+Thomas F.M. Spieksma, Vitor Cardoso, Gregorio Carullo, Matteo Della Rocca, Francisco Duque
+https://arxiv.org/abs/2409.05950
+https://arxiv.org/pdf/2409.05950
+[2024-09-11 21:56:05] Text posted on Bluesky
+[2024-09-11 21:56:05] Target text:
+Constraining burdened PBHs with gravitational waves
+Basabendu Barman, Kousik Loho, Óscar Zapata
+https://arxiv.org/abs/2409.05953
+https://arxiv.org/pdf/2409.05953
+[2024-09-11 21:56:06] Text posted on Bluesky
+[2024-09-11 21:56:06] Target text:
+Testing No slip model with pulsar timing arrays: NANOGrav and IPTA
+Mohammadreza Davari, Alireza Allahyari, Shahram Khosravi
+https://arxiv.org/abs/2409.05956
+https://arxiv.org/pdf/2409.05956
+[2024-09-11 21:56:06] Text posted on Bluesky
+[2024-09-11 21:56:07] Target text:
+Love symmetry in higher-dimensional rotating black hole spacetimes
+Finnian Gray, Cynthia Keeler, David Kubiznak, Victoria Martin
+https://arxiv.org/abs/2409.05964
+https://arxiv.org/pdf/2409.05964
+[2024-09-11 21:56:07] Text posted on Bluesky
+[2024-09-11 21:56:07] Target text:
+Einstein-Klein-Gordon system via Cauchy-characteristic evolution: Computation of memory and ringdown tail
+Sizheng Ma, Kyle C. Nelli, Jordan Moxon, Mark A. Scheel, Nils Deppe, Lawrence E. Kidder, William Throwe, Nils L. Vu
+https://arxiv.org/abs/2409.06141
+https://arxiv.org/pdf/2409.06141
+[2024-09-11 21:56:07] Text posted on Bluesky
+[2024-09-11 21:56:08] Target text:
+Testing EGB gravity coupled to bumblebee field and black hole parameter estimation with EHT observations
+Misba Afrin, Sushant G. Ghosh, Anzhong Wang
+https://arxiv.org/abs/2409.06218
+https://arxiv.org/pdf/2409.06218
+[2024-09-11 21:56:08] Text posted on Bluesky
+[2024-09-11 21:56:09] Target text:
+Influence of scalar field in massive particle motion in JNW spacetime
+Bobur Turimov, Akbar Davlataliev, Ahmadjon Abdujabbarov, Bobomurat Ahmedov
+https://arxiv.org/abs/2409.06225
+https://arxiv.org/pdf/2409.06225
+[2024-09-11 21:56:09] Text posted on Bluesky
+[2024-09-11 21:56:09] Target text:
+Wave Metrics in the Cotton and Conformal Killing Gravity Theories
+Metin Gürses, Yaghoub Heydarzade, Çetin Şentürk
+https://arxiv.org/abs/2409.06257
+https://arxiv.org/pdf/2409.06257
+[2024-09-11 21:56:09] Text posted on Bluesky
+[2024-09-11 21:56:10] Target text:
+A Binary Neutron Star Merger Search Pipeline Powered by Deep Learning
+Alistair McLeod, Damon Beveridge, Linqing Wen, Andreas Wicenec
+https://arxiv.org/abs/2409.06266
+https://arxiv.org/pdf/2409.06266
+[2024-09-11 21:56:10] Text posted on Bluesky
+[2024-09-11 21:56:11] Target text:
+Schwarzschild Lensing From Geodesic Deviation
+Zhao Li, Xiao Guo, Tan Liu, Tao Zhu, Wen Zhao
+https://arxiv.org/abs/2409.06281
+https://arxiv.org/pdf/2409.06281
+[2024-09-11 21:56:11] Text posted on Bluesky
+[2024-09-11 21:56:11] Target text:
+Anomaly freedom in effective Loop Quantum Cosmology: pedagogical summary and generalized holonomy corrections
+Maxime De Sousa, Aurélien Barrau, Killian Martineau
+https://arxiv.org/abs/2409.06441
+https://arxiv.org/pdf/2409.06441
+[2024-09-11 21:56:11] Text posted on Bluesky
+[2024-09-11 21:56:12] Target text:
+Exploring the Parameter Space of Inflation Model on the Brane and its Compatibility with the Swampland Conjectures
+Saeed Noori Gashti, Mohammad Reza Alipour, Mohammad Ali S. Afshar
+https://arxiv.org/abs/2409.06488
+https://arxiv.org/pdf/2409.06488
+[2024-09-11 21:56:12] Text posted on Bluesky
+[2024-09-11 21:56:13] Target text:
+Spin of Primordial Black Holes from Broad Power Spectrum: Radiation Dominated Universe
+Indra Kumar Banerjee, Tomohiro Harada
+https://arxiv.org/abs/2409.06494
+https://arxiv.org/pdf/2409.06494
+[2024-09-11 21:56:13] Text posted on Bluesky
+[2024-09-11 21:56:13] Target text:
+From spacetime thermodynamics to Weyl transverse gravity
+Ana Alonso-Serrano, Luis J. Garay, Marek Liška
+https://arxiv.org/abs/2409.06645
+https://arxiv.org/pdf/2409.06645
+[2024-09-11 21:56:13] Text posted on Bluesky
+[2024-09-11 21:56:14] Target text:
+The Operational Meaning of Total Energy of Isolated Systems in General Relativity
+Abhay Ashtekar, Simone Speziale
+https://arxiv.org/abs/2409.06698
+https://arxiv.org/pdf/2409.06698
+[2024-09-11 21:56:14] Text posted on Bluesky
+[2024-09-11 21:56:14] Target text:
+
+[2024-09-11 21:56:14] posted
+These are all of the new submissions on Wed, 11 Sep 2024.
+[2024-09-11 21:56:15] Target text:
+Gravitational lensing in holonomy corrected spherically symmetric black holes with phantom global monopoles
+Faizuddin Ahmed
+https://arxiv.org/abs/2409.05897
+https://arxiv.org/pdf/2409.05897
+[2024-09-11 21:56:15] Text posted on Twitter
+[2024-09-11 21:56:16] Target text:
+Black hole spectroscopy in environments: detectability prospects
+Thomas F.M. Spieksma, Vitor Cardoso, Gregorio Carullo, Matteo Della Rocca, Francisco Duque
+https://arxiv.org/abs/2409.05950
+https://arxiv.org/pdf/2409.05950
+[2024-09-11 21:56:16] Text posted on Twitter
+[2024-09-11 21:56:17] Target text:
+Constraining burdened PBHs with gravitational waves
+Basabendu Barman, Kousik Loho, Óscar Zapata
+https://arxiv.org/abs/2409.05953
+https://arxiv.org/pdf/2409.05953
+[2024-09-11 21:56:17] Text posted on Twitter
+[2024-09-11 21:56:18] Target text:
+Testing No slip model with pulsar timing arrays: NANOGrav and IPTA
+Mohammadreza Davari, Alireza Allahyari, Shahram Khosravi
+https://arxiv.org/abs/2409.05956
+https://arxiv.org/pdf/2409.05956
+[2024-09-11 21:56:18] Text posted on Twitter
+[2024-09-11 21:56:18] Target text:
+Love symmetry in higher-dimensional rotating black hole spacetimes
+Finnian Gray, Cynthia Keeler, David Kubiznak, Victoria Martin
+https://arxiv.org/abs/2409.05964
+https://arxiv.org/pdf/2409.05964
+[2024-09-11 21:56:19] Text posted on Twitter
+[2024-09-11 21:56:19] Target text:
+Einstein-Klein-Gordon system via Cauchy-characteristic evolution: Computation of memory and ringdown tail
+Sizheng Ma, Kyle C. Nelli, Jordan Moxon, Mark A. Scheel, Nils Deppe, Lawrence E. Kidder, William Throwe, Nils L. Vu
+https://arxiv.org/abs/2409.06141
+https://arxiv.org/pdf/2409.06141
+[2024-09-11 21:56:19] Tweet content exceeds 280 characters. The shorten_paper_info shortened the text.
+[2024-09-11 21:56:19] Text posted on Twitter
+[2024-09-11 21:56:20] Target text:
+Testing EGB gravity coupled to bumblebee field and black hole parameter estimation with EHT observations
+Misba Afrin, Sushant G. Ghosh, Anzhong Wang
+https://arxiv.org/abs/2409.06218
+https://arxiv.org/pdf/2409.06218
+[2024-09-11 21:56:20] Text posted on Twitter
+[2024-09-11 21:56:21] Target text:
+Influence of scalar field in massive particle motion in JNW spacetime
+Bobur Turimov, Akbar Davlataliev, Ahmadjon Abdujabbarov, Bobomurat Ahmedov
+https://arxiv.org/abs/2409.06225
+https://arxiv.org/pdf/2409.06225
+[2024-09-11 21:56:21] Text posted on Twitter
+[2024-09-11 21:56:21] Target text:
+Wave Metrics in the Cotton and Conformal Killing Gravity Theories
+Metin Gürses, Yaghoub Heydarzade, Çetin Şentürk
+https://arxiv.org/abs/2409.06257
+https://arxiv.org/pdf/2409.06257
+[2024-09-11 21:56:22] Text posted on Twitter
+[2024-09-11 21:56:22] Target text:
+A Binary Neutron Star Merger Search Pipeline Powered by Deep Learning
+Alistair McLeod, Damon Beveridge, Linqing Wen, Andreas Wicenec
+https://arxiv.org/abs/2409.06266
+https://arxiv.org/pdf/2409.06266
+[2024-09-11 21:56:23] Text posted on Twitter
+[2024-09-11 21:56:23] Target text:
+Schwarzschild Lensing From Geodesic Deviation
+Zhao Li, Xiao Guo, Tan Liu, Tao Zhu, Wen Zhao
+https://arxiv.org/abs/2409.06281
+https://arxiv.org/pdf/2409.06281
+[2024-09-11 21:56:23] Text posted on Twitter
+[2024-09-11 21:56:24] Target text:
+Anomaly freedom in effective Loop Quantum Cosmology: pedagogical summary and generalized holonomy corrections
+Maxime De Sousa, Aurélien Barrau, Killian Martineau
+https://arxiv.org/abs/2409.06441
+https://arxiv.org/pdf/2409.06441
+[2024-09-11 21:56:24] Text posted on Twitter
+[2024-09-11 21:56:25] Target text:
+Exploring the Parameter Space of Inflation Model on the Brane and its Compatibility with the Swampland Conjectures
+Saeed Noori Gashti, Mohammad Reza Alipour, Mohammad Ali S. Afshar
+https://arxiv.org/abs/2409.06488
+https://arxiv.org/pdf/2409.06488
+[2024-09-11 21:56:25] Text posted on Twitter
+[2024-09-11 21:56:25] Target text:
+Spin of Primordial Black Holes from Broad Power Spectrum: Radiation Dominated Universe
+Indra Kumar Banerjee, Tomohiro Harada
+https://arxiv.org/abs/2409.06494
+https://arxiv.org/pdf/2409.06494
+[2024-09-11 21:56:26] Text posted on Twitter
+[2024-09-11 21:56:26] Target text:
+From spacetime thermodynamics to Weyl transverse gravity
+Ana Alonso-Serrano, Luis J. Garay, Marek Liška
+https://arxiv.org/abs/2409.06645
+https://arxiv.org/pdf/2409.06645
+[2024-09-11 21:56:26] Text posted on Twitter
+[2024-09-11 21:56:27] Target text:
+The Operational Meaning of Total Energy of Isolated Systems in General Relativity
+Abhay Ashtekar, Simone Speziale
+https://arxiv.org/abs/2409.06698
+https://arxiv.org/pdf/2409.06698
+[2024-09-11 21:56:27] Text posted on Twitter
+[2024-09-11 21:56:28] Target text:
+
+[2024-09-11 21:56:28] posted
+These are all of the new submissions on Wed, 11 Sep 2024.
+[2024-09-11 21:56:28] The category is hep-th
+[2024-09-11 21:56:30] Target text:
+Are these quasi-normal modes?
+Gustavo Godinho, Willians Barreto
+https://arxiv.org/abs/2409.05930
+https://arxiv.org/pdf/2409.05930
+[2024-09-11 21:56:30] Text posted on Bluesky
+[2024-09-11 21:56:31] Target text:
+Partial Differential Equations for MHV Celestial Amplitudes in Liouville Theory
+Igor Mol
+https://arxiv.org/abs/2409.05936
+https://arxiv.org/pdf/2409.05936
+[2024-09-11 21:56:31] Text posted on Bluesky
+[2024-09-11 21:56:31] Target text:
+6d Large Charge and 2d Virasoro Blocks
+Jonathan J. Heckman, Adar Sharon, Masataka Watanabe
+https://arxiv.org/abs/2409.05944
+https://arxiv.org/pdf/2409.05944
+[2024-09-11 21:56:31] Text posted on Bluesky
+[2024-09-11 21:56:32] Target text:
+Pinching Sudakov
+A.V. Belitsky, L.V. Bork, V.A. Smirnov
+https://arxiv.org/abs/2409.05945
+https://arxiv.org/pdf/2409.05945
+[2024-09-11 21:56:32] Text posted on Bluesky
+[2024-09-11 21:56:33] Target text:
+Dissipation in the $1/D$ expansion for planar matrix models
+Takanori Anegawa, Norihiro Iizuka, Daniel Kabat
+https://arxiv.org/abs/2409.05981
+https://arxiv.org/pdf/2409.05981
+[2024-09-11 21:56:33] Text posted on Bluesky
+[2024-09-11 21:56:33] Target text:
+Ocneanu Algebra of Seams: Critical Unitary $E_6$ RSOS Lattice Model
+Paul A. Pearce, Jorgen Rasmussen
+https://arxiv.org/abs/2409.06236
+https://arxiv.org/pdf/2409.06236
+[2024-09-11 21:56:33] Text posted on Bluesky
+[2024-09-11 21:56:34] Target text:
+Kerr Black hole mimickers sourced by a string fluid
+Ram Brustein, A.J.M. Medved, Tamar Simhon
+https://arxiv.org/abs/2409.06454
+https://arxiv.org/pdf/2409.06454
+[2024-09-11 21:56:34] Text posted on Bluesky
+[2024-09-11 21:56:35] Target text:
+Quantizing the folded string in AdS$_2$
+David Vegh
+https://arxiv.org/abs/2409.06663
+https://arxiv.org/pdf/2409.06663
+[2024-09-11 21:56:35] Text posted on Bluesky
+[2024-09-11 21:56:35] Target text:
+Holography for Boundary Lifshitz Field Theory
+Chong-Sun Chu, Ignacio Garrido Gonzalez, Himanshu Parihar
+https://arxiv.org/abs/2409.06667
+https://arxiv.org/pdf/2409.06667
+[2024-09-11 21:56:35] Text posted on Bluesky
+[2024-09-11 21:56:36] Target text:
+Fermions in the fuzzy sphere Kaluza-Klein model
+Chengcheng Liu, Shahn Majid
+https://arxiv.org/abs/2409.06668
+https://arxiv.org/pdf/2409.06668
+[2024-09-11 21:56:36] Text posted on Bluesky
+[2024-09-11 21:56:37] Target text:
+Black hole scattering amplitudes via analytic small-frequency expansion and monodromy
+Gleb Aminov, Paolo Arnaudo
+https://arxiv.org/abs/2409.06681
+https://arxiv.org/pdf/2409.06681
+[2024-09-11 21:56:37] Text posted on Bluesky
+[2024-09-11 21:56:37] Target text:
+
+[2024-09-11 21:56:37] posted
+These are all of the new submissions on Wed, 11 Sep 2024.
+[2024-09-11 21:56:38] Target text:
+Are these quasi-normal modes?
+Gustavo Godinho, Willians Barreto
+https://arxiv.org/abs/2409.05930
+https://arxiv.org/pdf/2409.05930
+[2024-09-11 21:56:38] Text posted on Twitter
+[2024-09-11 21:56:39] Target text:
+Partial Differential Equations for MHV Celestial Amplitudes in Liouville Theory
+Igor Mol
+https://arxiv.org/abs/2409.05936
+https://arxiv.org/pdf/2409.05936
+[2024-09-11 21:56:39] Text posted on Twitter
+[2024-09-11 21:56:39] Target text:
+6d Large Charge and 2d Virasoro Blocks
+Jonathan J. Heckman, Adar Sharon, Masataka Watanabe
+https://arxiv.org/abs/2409.05944
+https://arxiv.org/pdf/2409.05944
+[2024-09-11 21:56:40] Text posted on Twitter
+[2024-09-11 21:56:40] Target text:
+Pinching Sudakov
+A.V. Belitsky, L.V. Bork, V.A. Smirnov
+https://arxiv.org/abs/2409.05945
+https://arxiv.org/pdf/2409.05945
+[2024-09-11 21:56:40] Text posted on Twitter
+[2024-09-11 21:56:41] Target text:
+Dissipation in the $1/D$ expansion for planar matrix models
+Takanori Anegawa, Norihiro Iizuka, Daniel Kabat
+https://arxiv.org/abs/2409.05981
+https://arxiv.org/pdf/2409.05981
+[2024-09-11 21:56:41] Text posted on Twitter
+[2024-09-11 21:56:42] Target text:
+Ocneanu Algebra of Seams: Critical Unitary $E_6$ RSOS Lattice Model
+Paul A. Pearce, Jorgen Rasmussen
+https://arxiv.org/abs/2409.06236
+https://arxiv.org/pdf/2409.06236
+[2024-09-11 21:56:42] Text posted on Twitter
+[2024-09-11 21:56:43] Target text:
+Kerr Black hole mimickers sourced by a string fluid
+Ram Brustein, A.J.M. Medved, Tamar Simhon
+https://arxiv.org/abs/2409.06454
+https://arxiv.org/pdf/2409.06454
+[2024-09-11 21:56:43] Text posted on Twitter
+[2024-09-11 21:56:43] Target text:
+Quantizing the folded string in AdS$_2$
+David Vegh
+https://arxiv.org/abs/2409.06663
+https://arxiv.org/pdf/2409.06663
+[2024-09-11 21:56:44] Text posted on Twitter
+[2024-09-11 21:56:44] Target text:
+Holography for Boundary Lifshitz Field Theory
+Chong-Sun Chu, Ignacio Garrido Gonzalez, Himanshu Parihar
+https://arxiv.org/abs/2409.06667
+https://arxiv.org/pdf/2409.06667
+[2024-09-11 21:56:44] Text posted on Twitter
+[2024-09-11 21:56:45] Target text:
+Fermions in the fuzzy sphere Kaluza-Klein model
+Chengcheng Liu, Shahn Majid
+https://arxiv.org/abs/2409.06668
+https://arxiv.org/pdf/2409.06668
+[2024-09-11 21:56:45] Text posted on Twitter
+[2024-09-11 21:56:46] Target text:
+Black hole scattering amplitudes via analytic small-frequency expansion and monodromy
+Gleb Aminov, Paolo Arnaudo
+https://arxiv.org/abs/2409.06681
+https://arxiv.org/pdf/2409.06681
+[2024-09-11 21:56:46] Text posted on Twitter
+[2024-09-11 21:56:46] Target text:
+
+[2024-09-11 21:56:46] posted
+These are all of the new submissions on Wed, 11 Sep 2024.
+[2024-09-11 21:56:47] The category is math-ph
+[2024-09-11 21:56:49] Target text:
+Nonholonomic momentum map reduction and a Chaplygin-type foliation
+Paula Balseiro, Danilo Machado Tereza
+https://arxiv.org/abs/2409.05970
+https://arxiv.org/pdf/2409.05970
+[2024-09-11 21:56:49] Text posted on Bluesky
+[2024-09-11 21:56:49] Target text:
+Mathematical foundations of phonons in incommensurate materials
+Michael Hott, Alexander B. Watson, Mitchell Luskin
+https://arxiv.org/abs/2409.06151
+https://arxiv.org/pdf/2409.06151
+[2024-09-11 21:56:49] Text posted on Bluesky
+[2024-09-11 21:56:50] Target text:
+Magnetic Dirac operator in strips submitted to strong magnetic fields
+Loïc Le Treust, Julien Royer, Nicolas Raymond
+https://arxiv.org/abs/2409.06284
+https://arxiv.org/pdf/2409.06284
+[2024-09-11 21:56:50] Text posted on Bluesky
+[2024-09-11 21:56:51] Target text:
+Limits of spectral measures for linearly bounded and for Poisson distributed random potentials
+David Hasler, Jannis Koberstein
+https://arxiv.org/abs/2409.06508
+https://arxiv.org/pdf/2409.06508
+[2024-09-11 21:56:51] Text posted on Bluesky
+[2024-09-11 21:56:51] Target text:
+Les Houches lecture notes on topological recursion
+Vincent Bouchard
+https://arxiv.org/abs/2409.06657
+https://arxiv.org/pdf/2409.06657
+[2024-09-11 21:56:51] Text posted on Bluesky
+[2024-09-11 21:56:52] Target text:
+
+[2024-09-11 21:56:52] posted
+These are all of the new submissions on Wed, 11 Sep 2024.
+[2024-09-11 21:56:53] Target text:
+Nonholonomic momentum map reduction and a Chaplygin-type foliation
+Paula Balseiro, Danilo Machado Tereza
+https://arxiv.org/abs/2409.05970
+https://arxiv.org/pdf/2409.05970
+[2024-09-11 21:56:53] Text posted on Twitter
+[2024-09-11 21:56:53] Target text:
+Mathematical foundations of phonons in incommensurate materials
+Michael Hott, Alexander B. Watson, Mitchell Luskin
+https://arxiv.org/abs/2409.06151
+https://arxiv.org/pdf/2409.06151
+[2024-09-11 21:56:54] Text posted on Twitter
+[2024-09-11 21:56:54] Target text:
+Magnetic Dirac operator in strips submitted to strong magnetic fields
+Loïc Le Treust, Julien Royer, Nicolas Raymond
+https://arxiv.org/abs/2409.06284
+https://arxiv.org/pdf/2409.06284
+[2024-09-11 21:56:54] Text posted on Twitter
+[2024-09-11 21:56:55] Target text:
+Limits of spectral measures for linearly bounded and for Poisson distributed random potentials
+David Hasler, Jannis Koberstein
+https://arxiv.org/abs/2409.06508
+https://arxiv.org/pdf/2409.06508
+[2024-09-11 21:56:55] Text posted on Twitter
+[2024-09-11 21:56:56] Target text:
+Les Houches lecture notes on topological recursion
+Vincent Bouchard
+https://arxiv.org/abs/2409.06657
+https://arxiv.org/pdf/2409.06657
+[2024-09-11 21:56:56] Text posted on Twitter
+[2024-09-11 21:56:57] Target text:
+
+[2024-09-11 21:56:57] posted
+These are all of the new submissions on Wed, 11 Sep 2024.
+[2024-09-11 21:56:57] The category is quant-ph
+[2024-09-11 21:56:59] Target text:
+Study on Frustrated Quantum Phase Transition Achievable by Quantum Computing
+Zili Chen
+https://arxiv.org/abs/2409.05927
+https://arxiv.org/pdf/2409.05927
+[2024-09-11 21:56:59] Text posted on Bluesky
+[2024-09-11 21:56:59] Target text:
+Fast gradient-free optimization of excitations in variational quantum eigensolvers
+Jonas Jäger, Thierry Nicolas Kaldenbach, Max Haas, Erik Schultheis
+https://arxiv.org/abs/2409.05939
+https://arxiv.org/pdf/2409.05939
+[2024-09-11 21:57:00] Text posted on Bluesky
+[2024-09-11 21:57:00] Target text:
+Scaling of Computational Order Parameters in Rydberg Atom Graph States
+Zhangjie Qin, V.W. Scarola
+https://arxiv.org/abs/2409.05941
+https://arxiv.org/pdf/2409.05941
+[2024-09-11 21:57:00] Text posted on Bluesky
+[2024-09-11 21:57:01] Target text:
+Resource-efficient context-aware dynamical decoupling embedding for arbitrary large-scale quantum algorithms
+Paul Coote, Roman Dimov, Smarak Maity, Gavin S. Hartnett, Michael J. Biercuk, Yuval Baum
+https://arxiv.org/abs/2409.05962
+https://arxiv.org/pdf/2409.05962
+[2024-09-11 21:57:01] Text posted on Bluesky
+[2024-09-11 21:57:01] Target text:
+Approximate second laws and energy extraction from quantum batteries
+Debarupa Saha, Aparajita Bhattacharyya, Ujjwal Sen
+https://arxiv.org/abs/2409.05971
+https://arxiv.org/pdf/2409.05971
+[2024-09-11 21:57:01] Text posted on Bluesky
+[2024-09-11 21:57:02] Target text:
+Optimal Distillation of Coherent States with Phase-Insensitive Operations
+Shiv Akshar Yadavalli, Iman Marvian
+https://arxiv.org/abs/2409.05974
+https://arxiv.org/pdf/2409.05974
+[2024-09-11 21:57:02] Text posted on Bluesky
+[2024-09-11 21:57:03] Target text:
+Transmon qubit modeling and characterization for Dark Matter search
+R. Moretti, D. Labranca, P. Campana, R. Carobene, M. Gobbo, M. A. Castellanos-Beltran, D. Olaya, P. F. Hopkins, L. Banchi, M. Borghesi, A. Candido, H. A. Corti, A. D'Elia, M. Faverzani, E. Ferri, A. Nucciotti, L. Origo, A. Pasquale, A. S. Piedjou Komnang, A. Rettaroli, S. Tocci, S. Carrazza, C. Gatti, A. Giachero
+https://arxiv.org/abs/2409.05988
+https://arxiv.org/pdf/2409.05988
+[2024-09-11 21:57:03] Tweet content exceeds 300 characters. The shorten_paper_info shortened the text.
+[2024-09-11 21:57:03] Text posted on Bluesky
+[2024-09-11 21:57:03] Target text:
+Accelerating Dissipative State Preparation with Adaptive Open Quantum Dynamics
+Andrew Pocklington, Aashish A. Clerk
+https://arxiv.org/abs/2409.06012
+https://arxiv.org/pdf/2409.06012
+[2024-09-11 21:57:03] Text posted on Bluesky
+[2024-09-11 21:57:04] Target text:
+Peephole Optimization for Quantum Approximate Synthesis
+Joseph Clark, Himanshu Thapliyal
+https://arxiv.org/abs/2409.06020
+https://arxiv.org/pdf/2409.06020
+[2024-09-11 21:57:04] Text posted on Bluesky
+[2024-09-11 21:57:05] Target text:
+Steady-State Statistics of Classical Nonlinear Dynamical Systems from Noisy Intermediate-Scale Quantum Devices
+Yash M. Lokare, Dingding Wei, Lucas Chan, Brenda M. Rubenstein, J. B. Marston
+https://arxiv.org/abs/2409.06036
+https://arxiv.org/pdf/2409.06036
+[2024-09-11 21:57:05] Text posted on Bluesky
+[2024-09-11 21:57:05] Target text:
+Photonic bands and normal mode splitting in optical lattices interacting with cavities
+Philippe Wilhelm Courteille, Dalila Rivero, Gustavo Henrique de França, Claudio Alves Pessoa Junior, Ana Cipris, Mayerlin Núñez Portela, Raul Celistrino Teixeira, Sebastian Slama
+https://arxiv.org/abs/2409.06042
+https://arxiv.org/pdf/2409.06042
+[2024-09-11 21:57:05] Tweet content exceeds 300 characters. The shorten_paper_info shortened the text.
+[2024-09-11 21:57:05] Text posted on Bluesky
+[2024-09-11 21:57:06] Target text:
+Plateaux of probability for the expanded quantum infinite well
+Fernando Chamizo, Dulcinea Raboso, Osvaldo P. Santillán
+https://arxiv.org/abs/2409.06058
+https://arxiv.org/pdf/2409.06058
+[2024-09-11 21:57:06] Text posted on Bluesky
+[2024-09-11 21:57:06] Target text:
+Information geometry approach to quantum stochastic thermodynamics
+Laetitia P. Bettmann, John Goold
+https://arxiv.org/abs/2409.06083
+https://arxiv.org/pdf/2409.06083
+[2024-09-11 21:57:07] Text posted on Bluesky
+[2024-09-11 21:57:07] Target text:
+Efficiently catching entangled microwave photons from a quantum transducer with shaped optical pumps
+Changchun Zhong
+https://arxiv.org/abs/2409.06108
+https://arxiv.org/pdf/2409.06108
+[2024-09-11 21:57:07] Text posted on Bluesky
+[2024-09-11 21:57:08] Target text:
+Nonreciprocal tripartite entanglement and asymmetric Einstein-Podolsky-Rosen steering via directional quantum squeezing
+Ya-Feng Jiao, Jie Wang, Dong-Yang Wang, Lei Tang, Yan Wang, Yun-Lan Zuo, Wan-Su Bao, Le-Man Kuang, Hui Jing
+https://arxiv.org/abs/2409.06133
+https://arxiv.org/pdf/2409.06133
+[2024-09-11 21:57:08] Text posted on Bluesky
+[2024-09-11 21:57:08] Target text:
+Electrically-Driven and Exponentially-Enhanced Spin-Photon Interfaces for Quantum Networks
+Fang-Yu Hong
+https://arxiv.org/abs/2409.06149
+https://arxiv.org/pdf/2409.06149
+[2024-09-11 21:57:09] Text posted on Bluesky
+[2024-09-11 21:57:09] Target text:
+Comparing One- and Two-way Quantum Repeater Architectures
+Prateek Mantri, Kenneth Goodenough, Don Towsley
+https://arxiv.org/abs/2409.06152
+https://arxiv.org/pdf/2409.06152
+[2024-09-11 21:57:09] Text posted on Bluesky
+[2024-09-11 21:57:10] Target text:
+Visual Analytics of Performance of Quantum Computing Systems and Circuit Optimization
+Junghoon Chae, Chad A. Steed, Travis S. Humble
+https://arxiv.org/abs/2409.06159
+https://arxiv.org/pdf/2409.06159
+[2024-09-11 21:57:10] Text posted on Bluesky
+[2024-09-11 21:57:10] Target text:
+Experimental investigation of coherent ergotropy in a single spin system
+Zhibo Niu, Yang Wu, Yunhan Wang, Xing Rong, Jiangfeng Du
+https://arxiv.org/abs/2409.06249
+https://arxiv.org/pdf/2409.06249
+[2024-09-11 21:57:10] Text posted on Bluesky
+[2024-09-11 21:57:11] Target text:
+Coherent Control of a Long-Lived Nuclear Memory Spin in a Germanium-Vacancy Multi-Qubit Node
+Nick Grimm, Katharina Senkalla, Philipp J. Vetter, Jurek Frey, Prithvi Gundlapalli, Tommaso Calarco, Genko Genov, Matthias M. Müller, Fedor Jelezko
+https://arxiv.org/abs/2409.06313
+https://arxiv.org/pdf/2409.06313
+[2024-09-11 21:57:11] Tweet content exceeds 300 characters. The shorten_paper_info shortened the text.
+[2024-09-11 21:57:11] Text posted on Bluesky
+[2024-09-11 21:57:12] Target text:
+The Black-Box Simulation Barrier Persists in a Fully Quantum World
+Nai-Hui Chia, Kai-Min Chung, Xiao Liang, Jiahui Liu
+https://arxiv.org/abs/2409.06317
+https://arxiv.org/pdf/2409.06317
+[2024-09-11 21:57:12] Text posted on Bluesky
+[2024-09-11 21:57:12] Target text:
+Tailoring the light-matter interaction for high-fidelity holonomic gate operations in multiple systems
+Zhihuang Kang, Shutong Wu, Kunji Han, Jiamin Qiu, Joel Moser, Jie Lu, Ying Yan
+https://arxiv.org/abs/2409.06318
+https://arxiv.org/pdf/2409.06318
+[2024-09-11 21:57:12] Text posted on Bluesky
+[2024-09-11 21:57:13] Target text:
+Steady-state entanglement scaling in open quantum systems: A comparison between several master equations
+Antonio D'Abbruzzo, Davide Rossini, Vittorio Giovannetti, Vincenzo Alba
+https://arxiv.org/abs/2409.06326
+https://arxiv.org/pdf/2409.06326
+[2024-09-11 21:57:13] Text posted on Bluesky
+[2024-09-11 21:57:14] Target text:
+An Empirical Analysis on the Effectiveness of the Variational Quantum Linear Solver
+Gloria Turati, Alessia Marruzzo, Maurizio Ferrari Dacrema, Paolo Cremonesi
+https://arxiv.org/abs/2409.06339
+https://arxiv.org/pdf/2409.06339
+[2024-09-11 21:57:14] Text posted on Bluesky
+[2024-09-11 21:57:14] Target text:
+Towards few-body QCD on a quantum computer
+J.J. Galvez-Viruet
+https://arxiv.org/abs/2409.06403
+https://arxiv.org/pdf/2409.06403
+[2024-09-11 21:57:14] Text posted on Bluesky
+[2024-09-11 21:57:15] Target text:
+Simulating continuous-space systems with quantum-classical wave functions
+Friederike Metz, Gabriel Pescia, Giuseppe Carleo
+https://arxiv.org/abs/2409.06415
+https://arxiv.org/pdf/2409.06415
+[2024-09-11 21:57:15] Text posted on Bluesky
+[2024-09-11 21:57:15] Target text:
+Quantitative Quantum Zeno and Strong Damping Limits in Strong Topology
+Robert Salzmann
+https://arxiv.org/abs/2409.06469
+https://arxiv.org/pdf/2409.06469
+[2024-09-11 21:57:16] Text posted on Bluesky
+[2024-09-11 21:57:16] Target text:
+From Unitarity to Irreversibility: The Role of Infinite Tensor Products and Nested Wigner's Friends
+Karl Svozil
+https://arxiv.org/abs/2409.06470
+https://arxiv.org/pdf/2409.06470
+[2024-09-11 21:57:16] Text posted on Bluesky
+[2024-09-11 21:57:17] Target text:
+Relational Dynamics with Periodic Clocks
+Leonardo Chataignier, Philipp A. Hoehn, Maximilian P. E. Lock, Fabio M. Mele
+https://arxiv.org/abs/2409.06479
+https://arxiv.org/pdf/2409.06479
+[2024-09-11 21:57:17] Text posted on Bluesky
+[2024-09-11 21:57:17] Target text:
+Quantum texture and gate identification
+Fernando Parisio
+https://arxiv.org/abs/2409.06482
+https://arxiv.org/pdf/2409.06482
+[2024-09-11 21:57:18] Text posted on Bluesky
+[2024-09-11 21:57:18] Target text:
+Characterization of the spin and crystal field Hamiltonian of erbium dopants in silicon
+Adrian Holzäpfel, Stephan Rinner, Kilian Sandholzer, Andreas Gritsch, Thierry Chanelière, Andreas Reiserer
+https://arxiv.org/abs/2409.06571
+https://arxiv.org/pdf/2409.06571
+[2024-09-11 21:57:18] Text posted on Bluesky
+[2024-09-11 21:57:19] Target text:
+Deterministic generation of a 20-qubit two-dimensional photonic cluster state
+James O'Sullivan, Kevin Reuer, Aleksandr Grigorev, Xi Dai, Alonso Hernández-Antón, Manuel H. Muñoz-Arias, Christoph Hellings, Alexander Flasby, Dante Colao Zanuz, Jean-Claude Besse, Alexandre Blais, Daniel Malz, Christopher Eichler, Andreas Wallraff
+https://arxiv.org/abs/2409.06623
+https://arxiv.org/pdf/2409.06623
+[2024-09-11 21:57:19] Tweet content exceeds 300 characters. The shorten_paper_info shortened the text.
+[2024-09-11 21:57:19] Text posted on Bluesky
+[2024-09-11 21:57:19] Target text:
+Error Mitigation by Restricted Evolution
+Gaurav Saxena, Thi Ha Kyaw
+https://arxiv.org/abs/2409.06636
+https://arxiv.org/pdf/2409.06636
+[2024-09-11 21:57:19] Text posted on Bluesky
+[2024-09-11 21:57:20] Target text:
+Amortized Stabilizer R\'enyi Entropy of Quantum Dynamics
+Chengkai Zhu, Yu-Ao Chen, Zanqiu Shen, Zhiping Liu, Zhan Yu, Xin Wang
+https://arxiv.org/abs/2409.06659
+https://arxiv.org/pdf/2409.06659
+[2024-09-11 21:57:20] Text posted on Bluesky
+[2024-09-11 21:57:21] Target text:
+Frequency principle for quantum machine learning via Fourier analysis
+Yi-Hang Xu, Dan-Bo Zhang
+https://arxiv.org/abs/2409.06682
+https://arxiv.org/pdf/2409.06682
+[2024-09-11 21:57:21] Text posted on Bluesky
+[2024-09-11 21:57:21] Target text:
+Entanglement transfer during quantum frequency conversion in gas-filled hollow-core fibers
+Tasio Gonzalez-Raya, Arturo Mena, Miriam Lazo, Luca Leggio, David Novoa, Mikel Sanz
+https://arxiv.org/abs/2409.06684
+https://arxiv.org/pdf/2409.06684
+[2024-09-11 21:57:21] Text posted on Bluesky
+[2024-09-11 21:57:22] Target text:
+
+[2024-09-11 21:57:22] posted
+These are all of the new submissions on Wed, 11 Sep 2024.
+[2024-09-11 21:57:23] Target text:
+Study on Frustrated Quantum Phase Transition Achievable by Quantum Computing
+Zili Chen
+https://arxiv.org/abs/2409.05927
+https://arxiv.org/pdf/2409.05927
+[2024-09-11 21:57:23] Text posted on Twitter
+[2024-09-11 21:57:23] Target text:
+Fast gradient-free optimization of excitations in variational quantum eigensolvers
+Jonas Jäger, Thierry Nicolas Kaldenbach, Max Haas, Erik Schultheis
+https://arxiv.org/abs/2409.05939
+https://arxiv.org/pdf/2409.05939
+[2024-09-11 21:57:24] Text posted on Twitter
+[2024-09-11 21:57:24] Target text:
+Scaling of Computational Order Parameters in Rydberg Atom Graph States
+Zhangjie Qin, V.W. Scarola
+https://arxiv.org/abs/2409.05941
+https://arxiv.org/pdf/2409.05941
+[2024-09-11 21:57:24] Text posted on Twitter
+[2024-09-11 21:57:25] Target text:
+Resource-efficient context-aware dynamical decoupling embedding for arbitrary large-scale quantum algorithms
+Paul Coote, Roman Dimov, Smarak Maity, Gavin S. Hartnett, Michael J. Biercuk, Yuval Baum
+https://arxiv.org/abs/2409.05962
+https://arxiv.org/pdf/2409.05962
+[2024-09-11 21:57:25] Text posted on Twitter
+[2024-09-11 21:57:26] Target text:
+Approximate second laws and energy extraction from quantum batteries
+Debarupa Saha, Aparajita Bhattacharyya, Ujjwal Sen
+https://arxiv.org/abs/2409.05971
+https://arxiv.org/pdf/2409.05971
+[2024-09-11 21:57:26] Text posted on Twitter
+[2024-09-11 21:57:27] Target text:
+Optimal Distillation of Coherent States with Phase-Insensitive Operations
+Shiv Akshar Yadavalli, Iman Marvian
+https://arxiv.org/abs/2409.05974
+https://arxiv.org/pdf/2409.05974
+[2024-09-11 21:57:27] Text posted on Twitter
+[2024-09-11 21:57:27] Target text:
+Transmon qubit modeling and characterization for Dark Matter search
+R. Moretti, D. Labranca, P. Campana, R. Carobene, M. Gobbo, M. A. Castellanos-Beltran, D. Olaya, P. F. Hopkins, L. Banchi, M. Borghesi, A. Candido, H. A. Corti, A. D'Elia, M. Faverzani, E. Ferri, A. Nucciotti, L. Origo, A. Pasquale, A. S. Piedjou Komnang, A. Rettaroli, S. Tocci, S. Carrazza, C. Gatti, A. Giachero
+https://arxiv.org/abs/2409.05988
+https://arxiv.org/pdf/2409.05988
+[2024-09-11 21:57:27] Tweet content exceeds 280 characters. The shorten_paper_info shortened the text.
+[2024-09-11 21:57:28] Text posted on Twitter
+[2024-09-11 21:57:28] Target text:
+Accelerating Dissipative State Preparation with Adaptive Open Quantum Dynamics
+Andrew Pocklington, Aashish A. Clerk
+https://arxiv.org/abs/2409.06012
+https://arxiv.org/pdf/2409.06012
+[2024-09-11 21:57:28] Text posted on Twitter
+[2024-09-11 21:57:29] Target text:
+Peephole Optimization for Quantum Approximate Synthesis
+Joseph Clark, Himanshu Thapliyal
+https://arxiv.org/abs/2409.06020
+https://arxiv.org/pdf/2409.06020
+[2024-09-11 21:57:29] Text posted on Twitter
+[2024-09-11 21:57:30] Target text:
+Steady-State Statistics of Classical Nonlinear Dynamical Systems from Noisy Intermediate-Scale Quantum Devices
+Yash M. Lokare, Dingding Wei, Lucas Chan, Brenda M. Rubenstein, J. B. Marston
+https://arxiv.org/abs/2409.06036
+https://arxiv.org/pdf/2409.06036
+[2024-09-11 21:57:30] Text posted on Twitter
+[2024-09-11 21:57:30] Target text:
+Photonic bands and normal mode splitting in optical lattices interacting with cavities
+Philippe Wilhelm Courteille, Dalila Rivero, Gustavo Henrique de França, Claudio Alves Pessoa Junior, Ana Cipris, Mayerlin Núñez Portela, Raul Celistrino Teixeira, Sebastian Slama
+https://arxiv.org/abs/2409.06042
+https://arxiv.org/pdf/2409.06042
+[2024-09-11 21:57:30] Tweet content exceeds 280 characters. The shorten_paper_info shortened the text.
+[2024-09-11 21:57:31] Text posted on Twitter
+[2024-09-11 21:57:31] Target text:
+Plateaux of probability for the expanded quantum infinite well
+Fernando Chamizo, Dulcinea Raboso, Osvaldo P. Santillán
+https://arxiv.org/abs/2409.06058
+https://arxiv.org/pdf/2409.06058
+[2024-09-11 21:57:32] Text posted on Twitter
+[2024-09-11 21:57:32] Target text:
+Information geometry approach to quantum stochastic thermodynamics
+Laetitia P. Bettmann, John Goold
+https://arxiv.org/abs/2409.06083
+https://arxiv.org/pdf/2409.06083
+[2024-09-11 21:57:32] Text posted on Twitter
+[2024-09-11 21:57:33] Target text:
+Efficiently catching entangled microwave photons from a quantum transducer with shaped optical pumps
+Changchun Zhong
+https://arxiv.org/abs/2409.06108
+https://arxiv.org/pdf/2409.06108
+[2024-09-11 21:57:33] Text posted on Twitter
+[2024-09-11 21:57:34] Target text:
+Nonreciprocal tripartite entanglement and asymmetric Einstein-Podolsky-Rosen steering via directional quantum squeezing
+Ya-Feng Jiao, Jie Wang, Dong-Yang Wang, Lei Tang, Yan Wang, Yun-Lan Zuo, Wan-Su Bao, Le-Man Kuang, Hui Jing
+https://arxiv.org/abs/2409.06133
+https://arxiv.org/pdf/2409.06133
+[2024-09-11 21:57:34] Tweet content exceeds 280 characters. The shorten_paper_info shortened the text.
+[2024-09-11 21:57:34] Text posted on Twitter
+[2024-09-11 21:57:34] Target text:
+Electrically-Driven and Exponentially-Enhanced Spin-Photon Interfaces for Quantum Networks
+Fang-Yu Hong
+https://arxiv.org/abs/2409.06149
+https://arxiv.org/pdf/2409.06149
+[2024-09-11 21:57:35] Text posted on Twitter
+[2024-09-11 21:57:35] Target text:
+Comparing One- and Two-way Quantum Repeater Architectures
+Prateek Mantri, Kenneth Goodenough, Don Towsley
+https://arxiv.org/abs/2409.06152
+https://arxiv.org/pdf/2409.06152
+[2024-09-11 21:57:35] Text posted on Twitter
+[2024-09-11 21:57:36] Target text:
+Visual Analytics of Performance of Quantum Computing Systems and Circuit Optimization
+Junghoon Chae, Chad A. Steed, Travis S. Humble
+https://arxiv.org/abs/2409.06159
+https://arxiv.org/pdf/2409.06159
+[2024-09-11 21:57:36] Text posted on Twitter
+[2024-09-11 21:57:37] Target text:
+Experimental investigation of coherent ergotropy in a single spin system
+Zhibo Niu, Yang Wu, Yunhan Wang, Xing Rong, Jiangfeng Du
+https://arxiv.org/abs/2409.06249
+https://arxiv.org/pdf/2409.06249
+[2024-09-11 21:57:37] Text posted on Twitter
+[2024-09-11 21:57:38] Target text:
+Coherent Control of a Long-Lived Nuclear Memory Spin in a Germanium-Vacancy Multi-Qubit Node
+Nick Grimm, Katharina Senkalla, Philipp J. Vetter, Jurek Frey, Prithvi Gundlapalli, Tommaso Calarco, Genko Genov, Matthias M. Müller, Fedor Jelezko
+https://arxiv.org/abs/2409.06313
+https://arxiv.org/pdf/2409.06313
+[2024-09-11 21:57:38] Tweet content exceeds 280 characters. The shorten_paper_info shortened the text.
+[2024-09-11 21:57:38] Text posted on Twitter
+[2024-09-11 21:57:38] Target text:
+The Black-Box Simulation Barrier Persists in a Fully Quantum World
+Nai-Hui Chia, Kai-Min Chung, Xiao Liang, Jiahui Liu
+https://arxiv.org/abs/2409.06317
+https://arxiv.org/pdf/2409.06317
+[2024-09-11 21:57:39] Text posted on Twitter
+[2024-09-11 21:57:39] Target text:
+Tailoring the light-matter interaction for high-fidelity holonomic gate operations in multiple systems
+Zhihuang Kang, Shutong Wu, Kunji Han, Jiamin Qiu, Joel Moser, Jie Lu, Ying Yan
+https://arxiv.org/abs/2409.06318
+https://arxiv.org/pdf/2409.06318
+[2024-09-11 21:57:39] Text posted on Twitter
+[2024-09-11 21:57:40] Target text:
+Steady-state entanglement scaling in open quantum systems: A comparison between several master equations
+Antonio D'Abbruzzo, Davide Rossini, Vittorio Giovannetti, Vincenzo Alba
+https://arxiv.org/abs/2409.06326
+https://arxiv.org/pdf/2409.06326
+[2024-09-11 21:57:40] Text posted on Twitter
+[2024-09-11 21:57:41] Target text:
+An Empirical Analysis on the Effectiveness of the Variational Quantum Linear Solver
+Gloria Turati, Alessia Marruzzo, Maurizio Ferrari Dacrema, Paolo Cremonesi
+https://arxiv.org/abs/2409.06339
+https://arxiv.org/pdf/2409.06339
+[2024-09-11 21:57:41] Text posted on Twitter
+[2024-09-11 21:57:42] Target text:
+Towards few-body QCD on a quantum computer
+J.J. Galvez-Viruet
+https://arxiv.org/abs/2409.06403
+https://arxiv.org/pdf/2409.06403
+[2024-09-11 21:57:42] Text posted on Twitter
+[2024-09-11 21:57:42] Target text:
+Simulating continuous-space systems with quantum-classical wave functions
+Friederike Metz, Gabriel Pescia, Giuseppe Carleo
+https://arxiv.org/abs/2409.06415
+https://arxiv.org/pdf/2409.06415
+[2024-09-11 21:57:43] Text posted on Twitter
+[2024-09-11 21:57:43] Target text:
+Quantitative Quantum Zeno and Strong Damping Limits in Strong Topology
+Robert Salzmann
+https://arxiv.org/abs/2409.06469
+https://arxiv.org/pdf/2409.06469
+[2024-09-11 21:57:43] Text posted on Twitter
+[2024-09-11 21:57:44] Target text:
+From Unitarity to Irreversibility: The Role of Infinite Tensor Products and Nested Wigner's Friends
+Karl Svozil
+https://arxiv.org/abs/2409.06470
+https://arxiv.org/pdf/2409.06470
+[2024-09-11 21:57:44] Text posted on Twitter
+[2024-09-11 21:57:45] Target text:
+Relational Dynamics with Periodic Clocks
+Leonardo Chataignier, Philipp A. Hoehn, Maximilian P. E. Lock, Fabio M. Mele
+https://arxiv.org/abs/2409.06479
+https://arxiv.org/pdf/2409.06479
+[2024-09-11 21:57:45] Text posted on Twitter
+[2024-09-11 21:57:45] Target text:
+Quantum texture and gate identification
+Fernando Parisio
+https://arxiv.org/abs/2409.06482
+https://arxiv.org/pdf/2409.06482
+[2024-09-11 21:57:46] Text posted on Twitter
+[2024-09-11 21:57:46] Target text:
+Characterization of the spin and crystal field Hamiltonian of erbium dopants in silicon
+Adrian Holzäpfel, Stephan Rinner, Kilian Sandholzer, Andreas Gritsch, Thierry Chanelière, Andreas Reiserer
+https://arxiv.org/abs/2409.06571
+https://arxiv.org/pdf/2409.06571
+[2024-09-11 21:57:47] Text posted on Twitter
+[2024-09-11 21:57:47] Target text:
+Deterministic generation of a 20-qubit two-dimensional photonic cluster state
+James O'Sullivan, Kevin Reuer, Aleksandr Grigorev, Xi Dai, Alonso Hernández-Antón, Manuel H. Muñoz-Arias, Christoph Hellings, Alexander Flasby, Dante Colao Zanuz, Jean-Claude Besse, Alexandre Blais, Daniel Malz, Christopher Eichler, Andreas Wallraff
+https://arxiv.org/abs/2409.06623
+https://arxiv.org/pdf/2409.06623
+[2024-09-11 21:57:47] Tweet content exceeds 280 characters. The shorten_paper_info shortened the text.
+[2024-09-11 21:57:47] Text posted on Twitter
+[2024-09-11 21:57:48] Target text:
+Error Mitigation by Restricted Evolution
+Gaurav Saxena, Thi Ha Kyaw
+https://arxiv.org/abs/2409.06636
+https://arxiv.org/pdf/2409.06636
+[2024-09-11 21:57:48] Text posted on Twitter
+[2024-09-11 21:57:49] Target text:
+Amortized Stabilizer R\'enyi Entropy of Quantum Dynamics
+Chengkai Zhu, Yu-Ao Chen, Zanqiu Shen, Zhiping Liu, Zhan Yu, Xin Wang
+https://arxiv.org/abs/2409.06659
+https://arxiv.org/pdf/2409.06659
+[2024-09-11 21:57:49] Text posted on Twitter
+[2024-09-11 21:57:49] Target text:
+Frequency principle for quantum machine learning via Fourier analysis
+Yi-Hang Xu, Dan-Bo Zhang
+https://arxiv.org/abs/2409.06682
+https://arxiv.org/pdf/2409.06682
+[2024-09-11 21:57:50] Text posted on Twitter
+[2024-09-11 21:57:50] Target text:
+Entanglement transfer during quantum frequency conversion in gas-filled hollow-core fibers
+Tasio Gonzalez-Raya, Arturo Mena, Miriam Lazo, Luca Leggio, David Novoa, Mikel Sanz
+https://arxiv.org/abs/2409.06684
+https://arxiv.org/pdf/2409.06684
+[2024-09-11 21:57:50] Text posted on Twitter
+[2024-09-11 21:57:51] Target text:
+
+[2024-09-11 21:57:51] posted
+These are all of the new submissions on Wed, 11 Sep 2024.
+[2024-09-11 21:57:52] This is the end of all the posts on 2024-09-11
+[2024-09-12 05:11:33] Specified date (Thursday, 12 September 2024) not found in HTML. No entries found for today. Exiting program.
+[2024-09-12 05:15:39] Specified date (Thursday, 12 September 2024) not found in HTML. No entries found for today. Exiting program.
+[2024-09-12 05:15:56] Specified date (Thursday, 12 September 2024) not found in HTML. No entries found for today. Exiting program.

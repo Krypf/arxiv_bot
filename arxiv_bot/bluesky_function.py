@@ -31,7 +31,7 @@ def read_password(category):
 #%% constants
 from atproto import Client, client_utils, models
 
-def bsky_login(category):
+def login_bsky(category):
     # password
     p = read_password(category)
     # login
@@ -68,7 +68,7 @@ from arxiv_function import post_last, shorten_paper_info
 def send_post_to_bluesky(client, text, thumb, max_letter=300, today='today'):
     t = text
     if len(t) == 0:
-        t = post_last(t, today)
+        t = post_last(today)
         client.send_post(t)
         return None
     if len(t) > max_letter:

@@ -5,26 +5,28 @@ from datetime import datetime
 
 from printlog import printlog
 from arxiv_function import categories_content, ArxivText, arxiv_formatted_date
-from bluesky_function import bsky_login, send_post_to_bluesky
-from twitter_function import twitter_login, Twitter_with_api_max
+from bluesky_function import login_bsky, send_post_to_bluesky
+from twitter_function import login_twitter, Twitter_with_api_max, send_post_to_twitter
 #%%
 def sub(obj: ArxivText, sleep_time=1):
-    client_bsky, thumb = bsky_login(obj.category)
-    client_twitter = twitter_login(obj.category)
+    client_bsky, thumb = login_bsky(obj.category)
+    client_twitter = login_twitter(obj.category)
     # Split the text using "----" as the delimiter
     text = obj.read_content()
     text_array = text.split("\n----\n")
     d = arxiv_formatted_date(obj.date)
-    iteration = 0
     for t in text_array:
         printlog(f"Target text:\n{t}")
         send_post_to_bluesky(client_bsky, t, thumb, today=d)
         time.sleep(sleep_time)
-        iteration += 1
-        Twitter_with_api_max(iteration, client_twitter, t, d)
+    for t in text_array:
+        printlog(f"Target text:\n{t}")
+        twi_api = send_post_to_twitter(client_twitter, t, today = d)
+        if twi_api:
+            printlog('stop sending tweets')
+            break
         time.sleep(sleep_time)
-        
-    return 0
+    return None
 
 def main(today: str, categories_content=categories_content):
     for category in categories_content:

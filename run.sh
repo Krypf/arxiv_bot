@@ -1,4 +1,5 @@
 #!/bin/sh
+set -e # Exit immediately if a command exits with a non-zero status
 PATH=$HOME/.pyenv/shims:$PATH
 # cd ~/arxiv_bot
 python arxiv_bot/arxiv-save-HTML.py

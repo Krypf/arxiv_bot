@@ -35,7 +35,7 @@ def load_credentials(category):
 #%%
 import tweepy
 
-def twitter_login(category):
+def login_twitter(category):
     # Load the credentials into a dictionary
     credentials_dict = load_credentials(category)
 
@@ -49,7 +49,6 @@ def twitter_login(category):
     return client
 
 # Function to read content from a text file and tweet it
-
 
 def make_tweet(title_line, authors_line, arxiv_url, pdf_url):
     tw = str()
@@ -65,7 +64,7 @@ from arxiv_function import post_last, shorten_paper_info
 def send_post_to_twitter(client, text, thumb=None, max_letter=280, today='today'):
     t = text
     if len(t) == 0:
-        t = post_last(t, today)
+        t = post_last(today)
         client.create_tweet(text=t)
         return None
     if len(t) > max_letter:
@@ -80,6 +79,7 @@ def send_post_to_twitter(client, text, thumb=None, max_letter=280, today='today'
         printlog("Text posted on Twitter")
     except tweepy.errors.TweepyException as e:
         printlog(f"Error occurred: {e}")
+        return e
 
     return None
 
