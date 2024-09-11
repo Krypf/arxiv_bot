@@ -1,6 +1,5 @@
 #%%
 import os
-from arxiv_function import cd_arxiv_bot
 from printlog import printlog
 
 #%%
@@ -80,7 +79,7 @@ def send_post_to_bluesky(client, text, thumb, max_letter=300, today='today'):
     embed_external = make_linkcard(title_line, pdf_url, thumb)
     
     client.send_post(tb, embed=embed_external)
-    printlog(f"posted on Bluesky\n{t}")
+    printlog("Text posted on Bluesky")
 
     return None
 

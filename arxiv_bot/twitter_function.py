@@ -77,14 +77,13 @@ def send_post_to_twitter(client, text, thumb=None, max_letter=280, today='today'
         tw = make_tweet(title_line, authors_line, arxiv_url, pdf_url)
         client.create_tweet(text=tw)
         # print("Tweet posted successfully!")
-        printlog(f"posted on Twitter\n{t}")
+        printlog("Text posted on Twitter")
     except tweepy.errors.TweepyException as e:
         printlog(f"Error occurred: {e}")
 
     return None
 
 #%%
-from arxiv_function import ArxivText
 
 def reduce_to_api_maximum(text_array, category: str, api_maximum: int):
     m = api_maximum
@@ -94,13 +93,13 @@ def reduce_to_api_maximum(text_array, category: str, api_maximum: int):
     text_array.append("")
     return text_array
     
-def Twitter_with_api_max(iteration, client_twitter, text, date, api_maximum: int = 100):
+def Twitter_with_api_max(iteration, client_twitter, text, date, api_maximum: int = 50):
     # Twitter
     # 1500 / month
     if iteration <= api_maximum - 2:
         send_post_to_twitter(client_twitter, text, today=date)
     elif iteration == api_maximum - 1:
-        t = "Twitter API v2 limits posts to 50 per day. All the posts including the remaining submissions are posted on Bluesky: " + f"https://bsky.app/profile/krxiv-{category}.bsky.social"
+        t = f"Twitter API v2 limits posts to 1500 per month ({api_maximum} per day). All the posts including the remaining submissions are posted on Bluesky: " + f"https://bsky.app/profile/krxiv-{category}.bsky.social"
         client_twitter.create_tweet(text=t)
         printlog(f"posted on Twitter\n{t}")
     elif iteration == api_maximum:

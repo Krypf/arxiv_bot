@@ -7,7 +7,7 @@ def sub(obj: ArxivText):
     # Create an empty file
     open(obj.file_path, 'w').close()
     
-    soup = obj.read_HTML_soup()
+    soup = obj.read_HTML_soup(submissions='new')
     number_new_submissions = cross_list_number(soup)
     # start with 1
     for i in range(1, int(number_new_submissions)):

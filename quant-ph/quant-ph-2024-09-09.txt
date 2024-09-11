@@ -1,0 +1,215 @@
+Benchmarking Quantum Red TEA on CPUs, GPUs, and TPUs
+Daniel Jaschke, Marco Ballarin, Nora Reinić, Luka Pavešić, Simone Montangero
+https://arxiv.org/abs/2409.03818
+https://arxiv.org/pdf/2409.03818
+----
+Finite time path field theory perturbative methods for local quantum spin chain quenches
+Domagoj Kuić, Alemka Knapp, Diana Šaponja-Milutinović
+https://arxiv.org/abs/2409.03832
+https://arxiv.org/pdf/2409.03832
+----
+Unified Framework for Matchgate Classical Shadows
+Valentin Heyraud, Héloise Chomet, Jules Tilly
+https://arxiv.org/abs/2409.03836
+https://arxiv.org/pdf/2409.03836
+----
+The Gamow and the Fermi Golden Rules
+Rafael de la Madrid
+https://arxiv.org/abs/2409.03858
+https://arxiv.org/pdf/2409.03858
+----
+Training microwave pulses using quantum machine learning
+Jaden Nola, Uriah Sanchez, Anusha Krishna Murthy, Elizabeth Behrman, James Steck
+https://arxiv.org/abs/2409.03861
+https://arxiv.org/pdf/2409.03861
+----
+Decoherence due to Casimir effect?
+Anirudh Gundhi
+https://arxiv.org/abs/2409.03866
+https://arxiv.org/pdf/2409.03866
+----
+qSAT: Design of an Efficient Quantum Satisfiability Solver for Hardware Equivalence Checking
+Abhoy Kole, Mohammed E. Djeridane, Lennart Weingarten, Kamalika Datta, Rolf Drechsler
+https://arxiv.org/abs/2409.03917
+https://arxiv.org/pdf/2409.03917
+----
+Additivity of quantum capacities in simple non-degradable quantum channels
+Graeme Smith, Peixue Wu
+https://arxiv.org/abs/2409.03927
+https://arxiv.org/pdf/2409.03927
+----
+Extracting and Storing Energy From a Quasi-Vacuum on a Quantum Computer
+Songbo Xie, Manas Sajjan, Sabre Kais
+https://arxiv.org/abs/2409.03973
+https://arxiv.org/pdf/2409.03973
+----
+Accreditation Against Limited Adversarial Noise
+Andrew Jackson
+https://arxiv.org/abs/2409.03995
+https://arxiv.org/pdf/2409.03995
+----
+Quantum multi-row iteration algorithm for linear systems with non-square coefficient matrices
+Weitao Lin, Guojing Tian, Xiaoming Sun
+https://arxiv.org/abs/2409.04010
+https://arxiv.org/pdf/2409.04010
+----
+Efficient Fault-Tolerant Quantum Protocol for Differential Privacy in the Shuffle Model
+Hassan Jameel Asghar, Arghya Mukherjee, Gavin K. Brennen
+https://arxiv.org/abs/2409.04026
+https://arxiv.org/pdf/2409.04026
+----
+Distributed exact multi-objective quantum search algorithm
+Hao Li, Daowen Qiu
+https://arxiv.org/abs/2409.04039
+https://arxiv.org/pdf/2409.04039
+----
+Experimental Quantum Simulation of Chemical Dynamics
+T. Navickas, R. J. MacDonell, C. H. Valahu, V. C. Olaya-Agudelo, F. Scuccimarra, M. J. Millican, V. G. Matsos, H. L. Nourse, A. D. Rao, M. J. Biercuk, C. Hempel, I. Kassal, T. R. Tan
+https://arxiv.org/abs/2409.04044
+https://arxiv.org/pdf/2409.04044
+----
+Maximal work extraction unitarily from an unknown quantum state: Ergotropy estimation via feedback experiments
+Jitendra Joshi, T. S Mahesh
+https://arxiv.org/abs/2409.04087
+https://arxiv.org/pdf/2409.04087
+----
+Squeezing Enhancement in Lossy Multi-Path Atom Interferometers
+Julian Günther, Jan-Niclas Kirsten-Siemß, Naceur Gaaloul, Klemens Hammerer
+https://arxiv.org/abs/2409.04091
+https://arxiv.org/pdf/2409.04091
+----
+Hacking Cryptographic Protocols with Tensor Network Attacks
+Borja Aizpurua, Siddhartha Patra, Josu Etxezarreta Martinez, Roman Orus
+https://arxiv.org/abs/2409.04125
+https://arxiv.org/pdf/2409.04125
+----
+Connectivity matters: Impact of bath modes ordering and geometry in Open Quantum System simulation with Matrix Product States
+Thibaut Lacroix, Brendon W. Lovett, Alex W. Chin
+https://arxiv.org/abs/2409.04145
+https://arxiv.org/pdf/2409.04145
+----
+Krylov Complexity of Optical Hamiltonians
+Abhishek Chowdhury, Aryabrat Mahapatra
+https://arxiv.org/abs/2409.04156
+https://arxiv.org/pdf/2409.04156
+----
+An Efficient Classical Algorithm for Simulating Short Time 2D Quantum Dynamics
+Yusen Wu, Yukun Zhang, Xiao Yuan
+https://arxiv.org/abs/2409.04161
+https://arxiv.org/pdf/2409.04161
+----
+Randomness in quantum random number generator from vacuum fluctuations with source-device-independence
+Megha Shrivastava, Mohit Mittal, Isha Kumari, Venkat Abhignan
+https://arxiv.org/abs/2409.04186
+https://arxiv.org/pdf/2409.04186
+----
+Optimal Fidelity Estimation from Binary Measurements for Discrete and Continuous Variable Systems
+Omar Fawzi, Aadil Oufkir, Robert Salzmann
+https://arxiv.org/abs/2409.04189
+https://arxiv.org/pdf/2409.04189
+----
+Quasiperiodic arrangement of magnetodielectric $\delta$-plates: Green's functions and Casimir energies for $N$ bodies
+Venkat Abhignan
+https://arxiv.org/abs/2409.04195
+https://arxiv.org/pdf/2409.04195
+----
+Twin-field-based multi-party quantum key agreement
+Venkat Abhignan, R. Srikanth
+https://arxiv.org/abs/2409.04204
+https://arxiv.org/pdf/2409.04204
+----
+Recovering optimal precision in quantum sensing using imperfect control
+Zi-Shen Li, Xinyue Long, Xiaodong Yang, Dawei Lu, Yuxiang Yang
+https://arxiv.org/abs/2409.04223
+https://arxiv.org/pdf/2409.04223
+----
+Photonic multipartite entanglement in discrete variables without arbitrary unitaries
+Milica Banic, J. E. Sipe, Marco Liscidini
+https://arxiv.org/abs/2409.04250
+https://arxiv.org/pdf/2409.04250
+----
+Dilution of error in digital Hamiltonian simulation
+Etienne Granet, Henrik Dreyer
+https://arxiv.org/abs/2409.04254
+https://arxiv.org/pdf/2409.04254
+----
+NSF-UKRI Bilateral Workshop: Quantum Information Science in Chemistry
+Gregory D Scholes, Alexandra Olaya-Castro, Shaul Mukamel, Adam Kirrander, Kang-Kuen Ni, Gordon Hedley, Natia Frank
+https://arxiv.org/abs/2409.04264
+https://arxiv.org/pdf/2409.04264
+----
+Extended Weyl-Wigner phase-space framework for non-linear systems: typical and modified prey-predator-like dynamics
+Alex E. Bernardini, Orfeu Bertolami
+https://arxiv.org/abs/2409.04291
+https://arxiv.org/pdf/2409.04291
+----
+Equivariant Machine Learning Decoder for 3D Toric Codes
+Oliver Weissl
+https://arxiv.org/abs/2409.04300
+https://arxiv.org/pdf/2409.04300
+----
+Experimental demonstration of a Grover-Michelson interferometer
+Christopher R. Schwarze, David S. Simon, Anthony D. Manni, Abdoulaye Ndao, Alexander V. Sergienko
+https://arxiv.org/abs/2409.04303
+https://arxiv.org/pdf/2409.04303
+----
+Arrival time and Bohmian Mechanics: It is the theory which decides what we can measure
+Aurélien Drezet
+https://arxiv.org/abs/2409.04304
+https://arxiv.org/pdf/2409.04304
+----
+Geometrical Approach to Logical Qubit Fidelities of Neutral Atom CSS Codes
+J.J. Postema, S.J.J.M.F. Kokkelmans
+https://arxiv.org/abs/2409.04324
+https://arxiv.org/pdf/2409.04324
+----
+Spatial-Mode Diversity and Multiplexing for Continuous Variables Quantum Communications
+Seid Koudia, Leonardo Oleynik, Mert Bayraktar, Junaid ur Rehman, Symeon Chatzinotas
+https://arxiv.org/abs/2409.04334
+https://arxiv.org/pdf/2409.04334
+----
+Investigating a new approach of robustly self-testing two-qubit entangled states
+Chan-Ching Lien, Shin-Liang Chen
+https://arxiv.org/abs/2409.04347
+https://arxiv.org/pdf/2409.04347
+----
+A Sierpinski Triangle Fermion-to-Qubit Transform
+Brent Harrison, Mitchell Chiew, Jason Necaise, Andrew Projansky, Sergii Strelchuk, James D. Whitfield
+https://arxiv.org/abs/2409.04348
+https://arxiv.org/pdf/2409.04348
+----
+Stories in the two-state vector formalism
+Patryk Michalski, Andrzej Dragan
+https://arxiv.org/abs/2409.04396
+https://arxiv.org/pdf/2409.04396
+----
+Lightcone shading for classically accelerated quantum error mitigation
+Andrew Eddins, Minh C. Tran, Patrick Rall
+https://arxiv.org/abs/2409.04401
+https://arxiv.org/pdf/2409.04401
+----
+Quantum Kernel Methods under Scrutiny: A Benchmarking Study
+Jan Schnabel, Marco Roth
+https://arxiv.org/abs/2409.04406
+https://arxiv.org/pdf/2409.04406
+----
+Qubit magic-breaking channels
+Ayan Patra, Rivu Gupta, Alessandro Ferraro, Aditi Sen De
+https://arxiv.org/abs/2409.04425
+https://arxiv.org/pdf/2409.04425
+----
+Analog Quantum Simulation of Coupled Electron-Nuclear Dynamics in Molecules
+Jong-Kwon Ha, Ryan J. MacDonell
+https://arxiv.org/abs/2409.04427
+https://arxiv.org/pdf/2409.04427
+----
+Constrained local Hamiltonians: quantum generalizations of Vertex Cover
+Ojas Parekh, Chaithanya Rayudu, Kevin Thompson
+https://arxiv.org/abs/2409.04433
+https://arxiv.org/pdf/2409.04433
+----
+An efficient finite-resource formulation of non-Abelian lattice gauge theories beyond one dimension
+Pierpaolo Fontana, Marc Miranda Riaza, Alessio Celi
+https://arxiv.org/abs/2409.04441
+https://arxiv.org/pdf/2409.04441
+----

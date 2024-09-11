@@ -4,7 +4,7 @@ from printlog import printlog
 from arxiv_function import ArxivSearch, ArxivText, categories_content, read_inner_file, save_one_post, save_text_append
 
 #%%
-def sub(obj: ArxivText):
+def confirm_initialize(obj: ArxivText):
     # Print current date and time to stdout
     current_date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     print(f"Current date and time: {current_date}")
@@ -34,8 +34,8 @@ def sub(obj: ArxivText):
 
     return None
 
-def main(obj: ArxivText):
-    sub(obj)
+def sub(obj: ArxivText):
+    confirm_initialize(obj)
     
     search = ArxivSearch(obj.category, submissions = 'recent')
     soup = obj.read_HTML_soup('recent')
@@ -43,16 +43,21 @@ def main(obj: ArxivText):
     for i in range(*item_numbers):
         item_number = str(i)
         text = save_one_post(soup, item_number)
-        print(i, text)
+        # print(i, text)
         save_text_append(text, obj.file_path)
     # Display the result
     printlog(f"{obj.file_name} has been saved.")
     return 0
 
-if __name__ == '__main__':
-    # today = datetime.now().strftime('%Y-%m-%d')
+def main():
     dates = read_inner_file(file='date', folder='arxiv_bot')
     date = dates[-1]
     for category in categories_content[1:5]:
         obj = ArxivText(category, date)
-        main(obj)
+        sub(obj)
+    return 0
+
+if __name__ == '__main__':
+    # today = datetime.now().strftime('%Y-%m-%d')
+    main()
+    

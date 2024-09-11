@@ -1,0 +1,180 @@
+Study on Frustrated Quantum Phase Transition Achievable by Quantum Computing
+Zili Chen
+https://arxiv.org/abs/2409.05927
+https://arxiv.org/pdf/2409.05927
+----
+Fast gradient-free optimization of excitations in variational quantum eigensolvers
+Jonas Jäger, Thierry Nicolas Kaldenbach, Max Haas, Erik Schultheis
+https://arxiv.org/abs/2409.05939
+https://arxiv.org/pdf/2409.05939
+----
+Scaling of Computational Order Parameters in Rydberg Atom Graph States
+Zhangjie Qin, V.W. Scarola
+https://arxiv.org/abs/2409.05941
+https://arxiv.org/pdf/2409.05941
+----
+Resource-efficient context-aware dynamical decoupling embedding for arbitrary large-scale quantum algorithms
+Paul Coote, Roman Dimov, Smarak Maity, Gavin S. Hartnett, Michael J. Biercuk, Yuval Baum
+https://arxiv.org/abs/2409.05962
+https://arxiv.org/pdf/2409.05962
+----
+Approximate second laws and energy extraction from quantum batteries
+Debarupa Saha, Aparajita Bhattacharyya, Ujjwal Sen
+https://arxiv.org/abs/2409.05971
+https://arxiv.org/pdf/2409.05971
+----
+Optimal Distillation of Coherent States with Phase-Insensitive Operations
+Shiv Akshar Yadavalli, Iman Marvian
+https://arxiv.org/abs/2409.05974
+https://arxiv.org/pdf/2409.05974
+----
+Transmon qubit modeling and characterization for Dark Matter search
+R. Moretti, D. Labranca, P. Campana, R. Carobene, M. Gobbo, M. A. Castellanos-Beltran, D. Olaya, P. F. Hopkins, L. Banchi, M. Borghesi, A. Candido, H. A. Corti, A. D'Elia, M. Faverzani, E. Ferri, A. Nucciotti, L. Origo, A. Pasquale, A. S. Piedjou Komnang, A. Rettaroli, S. Tocci, S. Carrazza, C. Gatti, A. Giachero
+https://arxiv.org/abs/2409.05988
+https://arxiv.org/pdf/2409.05988
+----
+Accelerating Dissipative State Preparation with Adaptive Open Quantum Dynamics
+Andrew Pocklington, Aashish A. Clerk
+https://arxiv.org/abs/2409.06012
+https://arxiv.org/pdf/2409.06012
+----
+Peephole Optimization for Quantum Approximate Synthesis
+Joseph Clark, Himanshu Thapliyal
+https://arxiv.org/abs/2409.06020
+https://arxiv.org/pdf/2409.06020
+----
+Steady-State Statistics of Classical Nonlinear Dynamical Systems from Noisy Intermediate-Scale Quantum Devices
+Yash M. Lokare, Dingding Wei, Lucas Chan, Brenda M. Rubenstein, J. B. Marston
+https://arxiv.org/abs/2409.06036
+https://arxiv.org/pdf/2409.06036
+----
+Photonic bands and normal mode splitting in optical lattices interacting with cavities
+Philippe Wilhelm Courteille, Dalila Rivero, Gustavo Henrique de França, Claudio Alves Pessoa Junior, Ana Cipris, Mayerlin Núñez Portela, Raul Celistrino Teixeira, Sebastian Slama
+https://arxiv.org/abs/2409.06042
+https://arxiv.org/pdf/2409.06042
+----
+Plateaux of probability for the expanded quantum infinite well
+Fernando Chamizo, Dulcinea Raboso, Osvaldo P. Santillán
+https://arxiv.org/abs/2409.06058
+https://arxiv.org/pdf/2409.06058
+----
+Information geometry approach to quantum stochastic thermodynamics
+Laetitia P. Bettmann, John Goold
+https://arxiv.org/abs/2409.06083
+https://arxiv.org/pdf/2409.06083
+----
+Efficiently catching entangled microwave photons from a quantum transducer with shaped optical pumps
+Changchun Zhong
+https://arxiv.org/abs/2409.06108
+https://arxiv.org/pdf/2409.06108
+----
+Nonreciprocal tripartite entanglement and asymmetric Einstein-Podolsky-Rosen steering via directional quantum squeezing
+Ya-Feng Jiao, Jie Wang, Dong-Yang Wang, Lei Tang, Yan Wang, Yun-Lan Zuo, Wan-Su Bao, Le-Man Kuang, Hui Jing
+https://arxiv.org/abs/2409.06133
+https://arxiv.org/pdf/2409.06133
+----
+Electrically-Driven and Exponentially-Enhanced Spin-Photon Interfaces for Quantum Networks
+Fang-Yu Hong
+https://arxiv.org/abs/2409.06149
+https://arxiv.org/pdf/2409.06149
+----
+Comparing One- and Two-way Quantum Repeater Architectures
+Prateek Mantri, Kenneth Goodenough, Don Towsley
+https://arxiv.org/abs/2409.06152
+https://arxiv.org/pdf/2409.06152
+----
+Visual Analytics of Performance of Quantum Computing Systems and Circuit Optimization
+Junghoon Chae, Chad A. Steed, Travis S. Humble
+https://arxiv.org/abs/2409.06159
+https://arxiv.org/pdf/2409.06159
+----
+Experimental investigation of coherent ergotropy in a single spin system
+Zhibo Niu, Yang Wu, Yunhan Wang, Xing Rong, Jiangfeng Du
+https://arxiv.org/abs/2409.06249
+https://arxiv.org/pdf/2409.06249
+----
+Coherent Control of a Long-Lived Nuclear Memory Spin in a Germanium-Vacancy Multi-Qubit Node
+Nick Grimm, Katharina Senkalla, Philipp J. Vetter, Jurek Frey, Prithvi Gundlapalli, Tommaso Calarco, Genko Genov, Matthias M. Müller, Fedor Jelezko
+https://arxiv.org/abs/2409.06313
+https://arxiv.org/pdf/2409.06313
+----
+The Black-Box Simulation Barrier Persists in a Fully Quantum World
+Nai-Hui Chia, Kai-Min Chung, Xiao Liang, Jiahui Liu
+https://arxiv.org/abs/2409.06317
+https://arxiv.org/pdf/2409.06317
+----
+Tailoring the light-matter interaction for high-fidelity holonomic gate operations in multiple systems
+Zhihuang Kang, Shutong Wu, Kunji Han, Jiamin Qiu, Joel Moser, Jie Lu, Ying Yan
+https://arxiv.org/abs/2409.06318
+https://arxiv.org/pdf/2409.06318
+----
+Steady-state entanglement scaling in open quantum systems: A comparison between several master equations
+Antonio D'Abbruzzo, Davide Rossini, Vittorio Giovannetti, Vincenzo Alba
+https://arxiv.org/abs/2409.06326
+https://arxiv.org/pdf/2409.06326
+----
+An Empirical Analysis on the Effectiveness of the Variational Quantum Linear Solver
+Gloria Turati, Alessia Marruzzo, Maurizio Ferrari Dacrema, Paolo Cremonesi
+https://arxiv.org/abs/2409.06339
+https://arxiv.org/pdf/2409.06339
+----
+Towards few-body QCD on a quantum computer
+J.J. Galvez-Viruet
+https://arxiv.org/abs/2409.06403
+https://arxiv.org/pdf/2409.06403
+----
+Simulating continuous-space systems with quantum-classical wave functions
+Friederike Metz, Gabriel Pescia, Giuseppe Carleo
+https://arxiv.org/abs/2409.06415
+https://arxiv.org/pdf/2409.06415
+----
+Quantitative Quantum Zeno and Strong Damping Limits in Strong Topology
+Robert Salzmann
+https://arxiv.org/abs/2409.06469
+https://arxiv.org/pdf/2409.06469
+----
+From Unitarity to Irreversibility: The Role of Infinite Tensor Products and Nested Wigner's Friends
+Karl Svozil
+https://arxiv.org/abs/2409.06470
+https://arxiv.org/pdf/2409.06470
+----
+Relational Dynamics with Periodic Clocks
+Leonardo Chataignier, Philipp A. Hoehn, Maximilian P. E. Lock, Fabio M. Mele
+https://arxiv.org/abs/2409.06479
+https://arxiv.org/pdf/2409.06479
+----
+Quantum texture and gate identification
+Fernando Parisio
+https://arxiv.org/abs/2409.06482
+https://arxiv.org/pdf/2409.06482
+----
+Characterization of the spin and crystal field Hamiltonian of erbium dopants in silicon
+Adrian Holzäpfel, Stephan Rinner, Kilian Sandholzer, Andreas Gritsch, Thierry Chanelière, Andreas Reiserer
+https://arxiv.org/abs/2409.06571
+https://arxiv.org/pdf/2409.06571
+----
+Deterministic generation of a 20-qubit two-dimensional photonic cluster state
+James O'Sullivan, Kevin Reuer, Aleksandr Grigorev, Xi Dai, Alonso Hernández-Antón, Manuel H. Muñoz-Arias, Christoph Hellings, Alexander Flasby, Dante Colao Zanuz, Jean-Claude Besse, Alexandre Blais, Daniel Malz, Christopher Eichler, Andreas Wallraff
+https://arxiv.org/abs/2409.06623
+https://arxiv.org/pdf/2409.06623
+----
+Error Mitigation by Restricted Evolution
+Gaurav Saxena, Thi Ha Kyaw
+https://arxiv.org/abs/2409.06636
+https://arxiv.org/pdf/2409.06636
+----
+Amortized Stabilizer R\'enyi Entropy of Quantum Dynamics
+Chengkai Zhu, Yu-Ao Chen, Zanqiu Shen, Zhiping Liu, Zhan Yu, Xin Wang
+https://arxiv.org/abs/2409.06659
+https://arxiv.org/pdf/2409.06659
+----
+Frequency principle for quantum machine learning via Fourier analysis
+Yi-Hang Xu, Dan-Bo Zhang
+https://arxiv.org/abs/2409.06682
+https://arxiv.org/pdf/2409.06682
+----
+Entanglement transfer during quantum frequency conversion in gas-filled hollow-core fibers
+Tasio Gonzalez-Raya, Arturo Mena, Miriam Lazo, Luca Leggio, David Novoa, Mikel Sanz
+https://arxiv.org/abs/2409.06684
+https://arxiv.org/pdf/2409.06684
+----

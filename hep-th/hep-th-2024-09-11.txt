@@ -1,0 +1,55 @@
+Are these quasi-normal modes?
+Gustavo Godinho, Willians Barreto
+https://arxiv.org/abs/2409.05930
+https://arxiv.org/pdf/2409.05930
+----
+Partial Differential Equations for MHV Celestial Amplitudes in Liouville Theory
+Igor Mol
+https://arxiv.org/abs/2409.05936
+https://arxiv.org/pdf/2409.05936
+----
+6d Large Charge and 2d Virasoro Blocks
+Jonathan J. Heckman, Adar Sharon, Masataka Watanabe
+https://arxiv.org/abs/2409.05944
+https://arxiv.org/pdf/2409.05944
+----
+Pinching Sudakov
+A.V. Belitsky, L.V. Bork, V.A. Smirnov
+https://arxiv.org/abs/2409.05945
+https://arxiv.org/pdf/2409.05945
+----
+Dissipation in the $1/D$ expansion for planar matrix models
+Takanori Anegawa, Norihiro Iizuka, Daniel Kabat
+https://arxiv.org/abs/2409.05981
+https://arxiv.org/pdf/2409.05981
+----
+Ocneanu Algebra of Seams: Critical Unitary $E_6$ RSOS Lattice Model
+Paul A. Pearce, Jorgen Rasmussen
+https://arxiv.org/abs/2409.06236
+https://arxiv.org/pdf/2409.06236
+----
+Kerr Black hole mimickers sourced by a string fluid
+Ram Brustein, A.J.M. Medved, Tamar Simhon
+https://arxiv.org/abs/2409.06454
+https://arxiv.org/pdf/2409.06454
+----
+Quantizing the folded string in AdS$_2$
+David Vegh
+https://arxiv.org/abs/2409.06663
+https://arxiv.org/pdf/2409.06663
+----
+Holography for Boundary Lifshitz Field Theory
+Chong-Sun Chu, Ignacio Garrido Gonzalez, Himanshu Parihar
+https://arxiv.org/abs/2409.06667
+https://arxiv.org/pdf/2409.06667
+----
+Fermions in the fuzzy sphere Kaluza-Klein model
+Chengcheng Liu, Shahn Majid
+https://arxiv.org/abs/2409.06668
+https://arxiv.org/pdf/2409.06668
+----
+Black hole scattering amplitudes via analytic small-frequency expansion and monodromy
+Gleb Aminov, Paolo Arnaudo
+https://arxiv.org/abs/2409.06681
+https://arxiv.org/pdf/2409.06681
+----

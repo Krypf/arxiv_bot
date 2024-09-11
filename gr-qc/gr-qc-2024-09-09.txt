@@ -1,0 +1,65 @@
+OGRePy: An Object-Oriented General Relativity Package for Python
+Barak Shoshany
+https://arxiv.org/abs/2409.03803
+https://arxiv.org/pdf/2409.03803
+----
+Signatures of Linearized Gravity in Atom Interferometers: a Simplified Computational Framework
+Leonardo Badurina, Yufeng Du, Vincent S. H. Lee, Yikun Wang, Kathryn M. Zurek
+https://arxiv.org/abs/2409.03828
+https://arxiv.org/pdf/2409.03828
+----
+AI forecasting of higher-order wave modes of spinning binary black hole mergers
+Victoria Tiki, Kiet Pham, Eliu Huerta
+https://arxiv.org/abs/2409.03833
+https://arxiv.org/pdf/2409.03833
+----
+The anti-aligned spin of GW191109: glitch mitigation and its implications
+Rhiannon Udall, Sophie Hourihane, Simona Miller, Derek Davis, Katerina Chatziioannou, Max Isi, Howard Deshong
+https://arxiv.org/abs/2409.03912
+https://arxiv.org/pdf/2409.03912
+----
+Strong gravitational lensing in a Kerr black hole within Quantum Einstein Gravity
+Chen-Hao Xie, Yu Zhang, Bo-Li Liu, Peng-Fei Duan, Yu-Li Lou
+https://arxiv.org/abs/2409.03975
+https://arxiv.org/pdf/2409.03975
+----
+Gravitational wave signatures and detectability of the mass transfer effect in compact binaries
+Zi-Han Zhang, Tan Liu, Shenghua Yu, Zong-Kuan Guo
+https://arxiv.org/abs/2409.04020
+https://arxiv.org/pdf/2409.04020
+----
+Equilibrium of charged fluid around a Kerr black hole immersed in a magnetic field: variation of angular momentum
+Audrey Trova
+https://arxiv.org/abs/2409.04170
+https://arxiv.org/pdf/2409.04170
+----
+Formation of stable wormhole solution with non-commutative geometry in the framework of $f(R,\mathcal{L}_m, T)$ gravity
+Niklas Loewer, Moreshwar Tayde, P.K. Sahoo
+https://arxiv.org/abs/2409.04172
+https://arxiv.org/pdf/2409.04172
+----
+Scalar-tensor theories of gravity from a thermodynamic viewpoint
+Krishnakanta Bhattacharya, Sumanta Chakraborty
+https://arxiv.org/abs/2409.04176
+https://arxiv.org/pdf/2409.04176
+----
+The Second-Level Preheating
+Norma Sidik Risdianto, Apriadi Salim Adam, Lalu Zamakhsyari
+https://arxiv.org/abs/2409.04248
+https://arxiv.org/pdf/2409.04248
+----
+Similarity in the Arnowitt-Deser-Misner Mass from Brill and Teukolsky Initial Data Sets Beyond the Linear Approximation
+R. F. Aranha, H. P. de Oliveira
+https://arxiv.org/abs/2409.04281
+https://arxiv.org/pdf/2409.04281
+----
+Curvature of an Arbitrary Surface for Discrete Gravity and for $d=2$ Pure Simplicial Complexes
+Ali H. Chamseddine, Ola Malaeb, Sara Najem
+https://arxiv.org/abs/2409.04375
+https://arxiv.org/pdf/2409.04375
+----
+On the Role of Muons in Binary Neutron Star Mergers: First Simulations
+Henrique Gieg, Federico Schianchi, Maximiliano Ujevic, Tim Dietrich
+https://arxiv.org/abs/2409.04420
+https://arxiv.org/pdf/2409.04420
+----

@@ -1,0 +1,190 @@
+Gravitational waves and black holes from the phase transition in models of dynamical symmetry breaking
+Martín Arteaga, Anish Ghoshal, Alessandro Strumia
+https://arxiv.org/abs/2409.04545
+https://arxiv.org/pdf/2409.04545
+----
+The next frontiers for magnetic monopole searches
+O. Gould, I. Ostrovskiy, A. Upreti
+https://arxiv.org/abs/2409.04552
+https://arxiv.org/pdf/2409.04552
+----
+Modified electron trajectory due to axion dark matter background
+Yadir Garnica, J. Barranco
+https://arxiv.org/abs/2409.04648
+https://arxiv.org/pdf/2409.04648
+----
+Constraints on neutrino non-standard interactions from COHERENT and PandaX-4T
+Gang Li, Chuan-Qiang Song, Feng-Jie Tang, Jiang-Hao Yu
+https://arxiv.org/abs/2409.04703
+https://arxiv.org/pdf/2409.04703
+----
+Semi-visible jets + X: Illuminating Dark Showers with Radiation
+Bingxuan Liu, Kevin Pedro
+https://arxiv.org/abs/2409.04741
+https://arxiv.org/pdf/2409.04741
+----
+Bottom-up approach to texture zeros in the neutrino mass matrix
+Iffat Ara Mazumder, Rupak Dutta
+https://arxiv.org/abs/2409.04756
+https://arxiv.org/pdf/2409.04756
+----
+Reduction to master integrals and transverse integration identities
+Vsevolod Chestnov, Gaia Fontana, Tiziano Peraro
+https://arxiv.org/abs/2409.04783
+https://arxiv.org/pdf/2409.04783
+----
+Medium-induced parton splitting in expanding QCD matter
+Ismail Soudi
+https://arxiv.org/abs/2409.04806
+https://arxiv.org/pdf/2409.04806
+----
+Loop quantum effects on direct detection prediction in two-scalar dark matter scenario
+Karim Ghorbani, Parsa Ghorbani
+https://arxiv.org/abs/2409.04864
+https://arxiv.org/pdf/2409.04864
+----
+Hidden charm ${\cal P}_{cs}(4338)^0$ production in baryonic $B^-\to J/\psi \Lambda\bar p$ decay
+Yu-Kuo Hsiao, Shu-Ting Cai, Yan-Li Wang
+https://arxiv.org/abs/2409.04951
+https://arxiv.org/pdf/2409.04951
+----
+Contact interaction treatment of $\mathcal{V}\to\mathcal{P}\gamma$ for light-quark mesons
+Yehan Xu, M. Atif Sultan, Khépani Raya, Lei Chang
+https://arxiv.org/abs/2409.04996
+https://arxiv.org/pdf/2409.04996
+----
+Scalaron dark matter and the thermal history of the universe
+Yuri Shtanov
+https://arxiv.org/abs/2409.05027
+https://arxiv.org/pdf/2409.05027
+----
+Heavy flavor-asymmetric pseudoscalar mesons on the light front
+Chao Shi, Pengfei Liu, Yi-Lun Du, Wenbao Jia
+https://arxiv.org/abs/2409.05098
+https://arxiv.org/pdf/2409.05098
+----
+A novel standard candle: collapsing axion stars
+Haoran Di, Lijing Shao, Zhu Yi, Shi-Bei Kong
+https://arxiv.org/abs/2409.05120
+https://arxiv.org/pdf/2409.05120
+----
+Relaxation time approximation revisited and pole/cut structure in retarded correlators
+Jin Hu
+https://arxiv.org/abs/2409.05131
+https://arxiv.org/pdf/2409.05131
+----
+Comparative analysis of C-moments using different phenomenological models
+Jinu James, R.Aggarwal, M.Kaur
+https://arxiv.org/abs/2409.05145
+https://arxiv.org/pdf/2409.05145
+----
+A study of the $\phi N$ correlation function
+Luciano M. Abreu, Philipp Gubler, K. P. Khemchandani, A. Martinez Torres, Atsushi Hosak
+https://arxiv.org/abs/2409.05170
+https://arxiv.org/pdf/2409.05170
+----
+Yukawa textures from non-invertible symmetries
+Tatsuo Kobayashi, Hajime Otsuka, Morimitsu Tanimoto
+https://arxiv.org/abs/2409.05270
+https://arxiv.org/pdf/2409.05270
+----
+Strong decays of $a_0$, $f_0$, $f_2$, and $K^*_2$ resonances as dynamically generated states of two vector mesons
+Qing-Hua Shen, Li-Sheng Geng, Ju-Jun Xie
+https://arxiv.org/abs/2409.05302
+https://arxiv.org/pdf/2409.05302
+----
+Influences of non-standard interactions on PeV neutrino events with and without a $L_{\alpha}-L_{\beta}$ symmetry
+Qiu-Xia Yi, Ya-Ru Wang, Shu-Jun Rong
+https://arxiv.org/abs/2409.05313
+https://arxiv.org/pdf/2409.05313
+----
+Masses and radiative decay widths of the $D_{s0}^*(2317)$ and $D_{s1}^{\prime}(2460)$ and their bottom analogs
+Zi-Le Zhang, Zhan-Wei Liu, Si-Qiang Luo, Ping Chen, Zhi-Hui Guo
+https://arxiv.org/abs/2409.05337
+https://arxiv.org/pdf/2409.05337
+----
+Does nuclear medium affect the transverse momentum-dependent parton distributions of valence quark of pions?
+Navpreet Kaur, Satyajit Puhan, Reetanshu Pandey, Arvind Kumar, Suneel Dutt, Harleen Dahiya
+https://arxiv.org/abs/2409.05394
+https://arxiv.org/pdf/2409.05394
+----
+Strong decays of the fully-charm tetraquark states with explicit P-waves via the QCD sum rules
+Xiao-Song Yang, Zhi-Gang Wang
+https://arxiv.org/abs/2409.05428
+https://arxiv.org/pdf/2409.05428
+----
+Dark QCD perspective inspired by strong CP problem at QCD scale
+Bin Wang, Shinya Matsuzaki, Hiroyuki Ishida
+https://arxiv.org/abs/2409.05443
+https://arxiv.org/pdf/2409.05443
+----
+Multi-label Classification of Parameter Constraints in BSM Extensions using Deep Learning
+Maien Binjonaid
+https://arxiv.org/abs/2409.05453
+https://arxiv.org/pdf/2409.05453
+----
+Probing strangeness with event topology classifiers in pp collisions at the LHC with rope hadronization mechanism in PYTHIA
+Suraj Prasad, Bhagyarathi Sahoo, Sushanta Tripathy, Neelkamal Mallick, Raghunath Sahoo
+https://arxiv.org/abs/2409.05454
+https://arxiv.org/pdf/2409.05454
+----
+On the model uncertainties for the predicted maximum depth of extensive air showers
+Sergey Ostapchenko, Guenter Sigl
+https://arxiv.org/abs/2409.05501
+https://arxiv.org/pdf/2409.05501
+----
+CP violation in two-meson Tau decays induced by heavy new physics
+Daniel A. López Aguilar, Javier Rendón, Pablo Roig
+https://arxiv.org/abs/2409.05588
+https://arxiv.org/pdf/2409.05588
+----
+The Gravitational Form Factors of Hadrons from CFT in Momentum Space and the Dilaton in Perturbative QCD
+Claudio Corianò, Stefano Lionetti, Dario Melle, Riccardo Tommasi
+https://arxiv.org/abs/2409.05609
+https://arxiv.org/pdf/2409.05609
+----
+New Search for Dark Matter with Neutrons at Neutrino Detectors
+Koun Choi, Jong-Chul Park
+https://arxiv.org/abs/2409.05646
+https://arxiv.org/pdf/2409.05646
+----
+Bound state basics
+Paul Hoyer
+https://arxiv.org/abs/2409.05660
+https://arxiv.org/pdf/2409.05660
+----
+Probing anomalous Higgs boson couplings in Higgs plus jet production at NLO QCD with full $m_t$-dependence
+Benjamin Campillo Aveleira, Gudrun Heinrich, Matthias Kerner, Lucas Kunz
+https://arxiv.org/abs/2409.05728
+https://arxiv.org/pdf/2409.05728
+----
+Exclusive vector-quarkonium photoproduction at NLO in alpha_s in collinear factorisation with evolution of the generalised parton distributions and high-energy resummation
+C.A. Flett, J.P. Lansberg, S. Nabeebaccus, M. Nefedov, P. Sznajder, J. Wagner
+https://arxiv.org/abs/2409.05738
+https://arxiv.org/pdf/2409.05738
+----
+The structure of open-flavour four-quark states in the charm and bottom region
+Joshua Hoffer, Gernot Eichmann, Christian S. Fischer
+https://arxiv.org/abs/2409.05779
+https://arxiv.org/pdf/2409.05779
+----
+How to unravel the nature of the $\Sigma^*(1430) (1/2^-)$ state from correlation functions
+Hai-Peng Li, Chu-Wen Xiao, Wei-Hong Liang, Jia-Jun Wu, En Wang, Eulogio Oset
+https://arxiv.org/abs/2409.05787
+https://arxiv.org/pdf/2409.05787
+----
+Quantum maximum entropy closure for small flavor coherence
+Julien Froustey, James P. Kneller, Gail C. McLaughlin
+https://arxiv.org/abs/2409.05807
+https://arxiv.org/pdf/2409.05807
+----
+QCD-sourced tachyonic phase transition in a supercooled Universe
+Daniel Schmitt, Laura Sagunski
+https://arxiv.org/abs/2409.05851
+https://arxiv.org/pdf/2409.05851
+----
+Asymptotically conformal CFL quark matter within a nonlocal chiral quark model
+Oleksii Ivanytskyi
+https://arxiv.org/abs/2409.05859
+https://arxiv.org/pdf/2409.05859
+----

@@ -1,0 +1,100 @@
+CODATA Recommended Values of the Fundamental Physical Constants: 2022
+Peter Mohr, David Newell, Barry Taylor, Eite Tiesinga
+https://arxiv.org/abs/2409.03787
+https://arxiv.org/pdf/2409.03787
+----
+Heavy neutrinos: The chosen ones to bring balance to physics
+Manuel González-López
+https://arxiv.org/abs/2409.03813
+https://arxiv.org/pdf/2409.03813
+----
+First Search for Ultralight Dark Matter Using a Magnetically Levitated Particle
+Dorian W. P. Amaral, Dennis G. Uitenbroek, Tjerk H. Oosterkamp, Christopher D. Tunnell
+https://arxiv.org/abs/2409.03814
+https://arxiv.org/pdf/2409.03814
+----
+Supergroup Symmetries and the Hierarchy Problem
+Nathaniel Craig, Emanuele Gendy, Jessica N. Howard
+https://arxiv.org/abs/2409.03824
+https://arxiv.org/pdf/2409.03824
+----
+Systematics of U-Spin Sum Rules for Systems with Direct Sums
+Margarita Gavrilova, Stefan Schacht
+https://arxiv.org/abs/2409.03830
+https://arxiv.org/pdf/2409.03830
+----
+Leptogenesis in SO(10) with Minimal Yukawa sector
+K.S. Babu, Pasquale Di Bari, Chee Sheng Fong, Shaikh Saad
+https://arxiv.org/abs/2409.03840
+https://arxiv.org/pdf/2409.03840
+----
+Factors influencing quantum evaporation of helium from polar semiconductors from first principles
+Lakshay Dheer, Liang Z. Tan, S. A. Lyon, Thomas Schenkel, Sinéad M. Griffin
+https://arxiv.org/abs/2409.03857
+https://arxiv.org/pdf/2409.03857
+----
+Lepton-flavor changing decays and non-unitarity in the inverse seesaw mechanism
+Adrián González-Quiterio, Héctor Novales-Sánchez
+https://arxiv.org/abs/2409.03952
+https://arxiv.org/pdf/2409.03952
+----
+Parton Distributions of Gluons in Different Representations
+J.P. Ma, G.P. Zhang
+https://arxiv.org/abs/2409.03965
+https://arxiv.org/pdf/2409.03965
+----
+Interstellar medium gas heating by primordial black holes and dark matter particles
+Amane Takeshita, Teruyuki Kitabayashi
+https://arxiv.org/abs/2409.03981
+https://arxiv.org/pdf/2409.03981
+----
+Direct quarkonium production in DIS from a joint CGC and NRQCD framework
+Vincent Cheung, Zhong-Bo Kang, Farid Salazar, Ramona Vogt
+https://arxiv.org/abs/2409.04080
+https://arxiv.org/pdf/2409.04080
+----
+Low scale leptogenesis under neutrino $\mu$-$\tau$ reflection symmetry
+Yan Shao, Zhen-hua Zhao
+https://arxiv.org/abs/2409.04089
+https://arxiv.org/pdf/2409.04089
+----
+Kaon GTMDs in the Dyson-Schwinger equations using contact interaction
+Jin-Li Zhang
+https://arxiv.org/abs/2409.04105
+https://arxiv.org/pdf/2409.04105
+----
+A diffusion Monte Carlo calculation of fully heavy pentaquarks
+M.C. Gordillo, J. Segovia, J.M. Alcaraz-Pelegrina
+https://arxiv.org/abs/2409.04130
+https://arxiv.org/pdf/2409.04130
+----
+CP asymmetries of $t \to c \gamma$ and $t \to cg$ decays in the aligned two-Higgs-doublet model
+Fang-Min Cai, Rui-Lin Fan, Xin-Qiang Li, Ya-Dong Yang
+https://arxiv.org/abs/2409.04179
+https://arxiv.org/pdf/2409.04179
+----
+Radiative Origin of Fermion Mass Hierarchy in Left-Right Symmetric Theory
+Sudip Jana, Sophie Klett, Manfred Lindner, Rabindra N. Mohapatra
+https://arxiv.org/abs/2409.04246
+https://arxiv.org/pdf/2409.04246
+----
+Sensitivity of jet quenching to the initial state in heavy-ion collisions
+Souvik Priyam Adhya, Konrad Tywoniuk
+https://arxiv.org/abs/2409.04295
+https://arxiv.org/pdf/2409.04295
+----
+Relativistic BEC extracted from a complex FRG flow equation
+Fumio Terazaki, Kazuya Mameda, Katsuhiko Suzuki
+https://arxiv.org/abs/2409.04361
+https://arxiv.org/pdf/2409.04361
+----
+Weak mixing angle at direct detection
+Tarak Nath Maity, Celine Boehm
+https://arxiv.org/abs/2409.04385
+https://arxiv.org/pdf/2409.04385
+----
+Mass Reconstruction of Heavy Neutral Leptons from Stopped Mesons
+Gustavo F. S. Alves, P. S. Bhupal Dev, Kevin J. Kelly, Pedro A. N. Machado
+https://arxiv.org/abs/2409.04394
+https://arxiv.org/pdf/2409.04394
+----

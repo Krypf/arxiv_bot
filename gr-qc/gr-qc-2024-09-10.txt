@@ -1,0 +1,140 @@
+Spin-induced Scalar Clouds around Kerr-Newman Black Holes
+Guangzhou Guo, Peng Wang, Tianshu Wu, Haitang Yang
+https://arxiv.org/abs/2409.04458
+https://arxiv.org/pdf/2409.04458
+----
+Charged dilatonic black holes in dilaton-massive gravity
+Lina Zhang, Qiyuan Pan, Bo Liu, Ming Zhang, De-Cheng Zou
+https://arxiv.org/abs/2409.04485
+https://arxiv.org/pdf/2409.04485
+----
+Physical properties and the maximum compactness bound of a class of compact stars in $f(Q)$ gravity
+R. Sharma, A. Ghosh, A. Paul
+https://arxiv.org/abs/2409.04487
+https://arxiv.org/pdf/2409.04487
+----
+Higher-derivative corrections to the Kerr quasinormal mode spectrum
+Pablo A. Cano, Lodovico Capuano, Nicola Franchini, Simon Maenaut, Sebastian H. Völkel
+https://arxiv.org/abs/2409.04517
+https://arxiv.org/pdf/2409.04517
+----
+The renormalized stress-energy tensor for scalar fields in the Boulware state with applications to extremal black holes
+Julio Arrechea, Cormac Breen, Adrian Ottewill, Lorenzo Pisani, Peter Taylor
+https://arxiv.org/abs/2409.04528
+https://arxiv.org/pdf/2409.04528
+----
+GLoW: novel methods for wave-optics phenomena in gravitational lensing
+Hector Villarrubia-Rojo, Stefano Savastano, Miguel Zumalacárregui, Lyla Choi, Srashti Goyal, Liang Dai, Giovanni Tambalo
+https://arxiv.org/abs/2409.04606
+https://arxiv.org/pdf/2409.04606
+----
+Gravitational baryogenesis in energy-momentum squared gravity
+David S. Pereira, Francisco S.N. Lobo, José Pedro Mimoso
+https://arxiv.org/abs/2409.04623
+https://arxiv.org/pdf/2409.04623
+----
+Paraxial wave equation of light bundles: Gaussian beams and caustic avoidance
+Nezihe Uzun
+https://arxiv.org/abs/2409.04659
+https://arxiv.org/pdf/2409.04659
+----
+Leptodermic corrections to the TOV equations and nuclear astrophysics within the effective surface approximation
+A.G. Magner, S.P. Maydanyuk, A. Bonasera, H. Zheng, T. Depastas, A.I. Levon, U.V. Grygoriev
+https://arxiv.org/abs/2409.04745
+https://arxiv.org/pdf/2409.04745
+----
+Neutron stars in the bumblebee theory of gravity
+Peixiang Ji, Zhuhai Li, Lirui Yang, Rui Xu, Zexin Hu, Lijing Shao
+https://arxiv.org/abs/2409.04805
+https://arxiv.org/pdf/2409.04805
+----
+Semiclassical Lensing and Radiative Lens Equations
+Claudio Corianò, Mario Cretì, Leonardo Torcellini
+https://arxiv.org/abs/2409.04875
+https://arxiv.org/pdf/2409.04875
+----
+Lorentz violation with an invariant minimum speed as foundation of the uncertainty principle in Minkowski, dS and AdS spaces
+Cláudio Nassif Cruz
+https://arxiv.org/abs/2409.04925
+https://arxiv.org/pdf/2409.04925
+----
+Neutral particle collisions near Gibbons-Maeda-Garfinkle-Horowitz-Strominger black holes after shadow observations
+Naoki Tsukamoto, Ryotaro Kase
+https://arxiv.org/abs/2409.04990
+https://arxiv.org/pdf/2409.04990
+----
+Thermodynamic topology of Black Holes in $F(R)$-Euler-Heisenberg gravity's Rainbow
+Yassine Sekhmani, Saeed Noori Gashti, Mohammad Ali S. Afshar, Mohammad Reza Alipour, Jafar Sadeghi, Javlon Rayimbaev
+https://arxiv.org/abs/2409.04997
+https://arxiv.org/pdf/2409.04997
+----
+Landauer principle in cosmology as the link to information theory
+Sergei D. Odintsov, Tanmoy Paul, Soumitra SenGupta
+https://arxiv.org/abs/2409.05009
+https://arxiv.org/pdf/2409.05009
+----
+The spin correlation of fermion pairs created by a Kerr black hole gravitationalpotential
+De-Chang Dai
+https://arxiv.org/abs/2409.05051
+https://arxiv.org/pdf/2409.05051
+----
+Wheeler-DeWitt equation and the late gravitational collapse: effects of factor ordering and the tunneling scenario
+Davide Batic, Marek Nowakowski, Neelima Govind Kelkar
+https://arxiv.org/abs/2409.05077
+https://arxiv.org/pdf/2409.05077
+----
+Synergies in analysing binary black hole mergers: Effect of orbital eccentricity, spin-precession, and non-quadrupole modes
+Divyajyoti
+https://arxiv.org/abs/2409.05167
+https://arxiv.org/pdf/2409.05167
+----
+Polarized Image of a Synchrotron-emitting Ring in Einstein-Maxwell-scalar Theory
+Yiqian Chen, Lang Cheng, Peng Wang, Haitang Yang
+https://arxiv.org/abs/2409.05304
+https://arxiv.org/pdf/2409.05304
+----
+Primordial magnetogenesis in a bouncing model with dark energy
+Marcus V. Bomfim, Emmanuel Frion, Nelson Pinto-Neto, Sandro D. P. Vitenti
+https://arxiv.org/abs/2409.05329
+https://arxiv.org/pdf/2409.05329
+----
+Compartmental and Coexistence in the Dark Sector of the Universe
+Andronikos Paliathanasis, Kevin Duffy, Amlan Halder, Amare Abebe
+https://arxiv.org/abs/2409.05348
+https://arxiv.org/pdf/2409.05348
+----
+Gravitational lensing and shadows from thin-disks in Loop Quantum Gravity self-dual black holes
+David J. Patiño Pomares, Diego Rubiera-Garcia
+https://arxiv.org/abs/2409.05371
+https://arxiv.org/pdf/2409.05371
+----
+Trace Anomaly in Metric-Affine gravity
+Sebastian Bahamonde, Yuichi Miyashita, Masahide Yamaguchi
+https://arxiv.org/abs/2409.05499
+https://arxiv.org/pdf/2409.05499
+----
+Infeasibility of Graviton Detection as Cosmic Censorship
+Andrea Palessandro
+https://arxiv.org/abs/2409.05533
+https://arxiv.org/pdf/2409.05533
+----
+Geometrical origin for the compaction function for primordial black hole formation
+Tomohiro Harada, Hayami Iizuka, Yasutaka Koga, Chul-Moon Yoo
+https://arxiv.org/abs/2409.05544
+https://arxiv.org/pdf/2409.05544
+----
+Regularity of the Future Event Horizon in Perturbations of Kerr
+Xuantao Chen, Sergiu Klainerman
+https://arxiv.org/abs/2409.05700
+https://arxiv.org/pdf/2409.05700
+----
+Strange Quark Stars and Condensate Dark Stars in Bumblebee Gravity
+Grigoris Panotopoulos, Ali Övgün
+https://arxiv.org/abs/2409.05801
+https://arxiv.org/pdf/2409.05801
+----
+Nonlinear Gravitational Radiation Reaction: Failed Tail, Memories & Squares
+Rafael A. Porto, Massimiliano M. Riva, Zixin Yang
+https://arxiv.org/abs/2409.05860
+https://arxiv.org/pdf/2409.05860
+----

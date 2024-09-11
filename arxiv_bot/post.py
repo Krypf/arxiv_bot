@@ -17,6 +17,7 @@ def sub(obj: ArxivText, sleep_time=1):
     d = arxiv_formatted_date(obj.date)
     iteration = 0
     for t in text_array:
+        printlog(f"Target text:\n{t}")
         send_post_to_bluesky(client_bsky, t, thumb, today=d)
         time.sleep(sleep_time)
         iteration += 1
@@ -36,9 +37,9 @@ def main(today: str, categories_content=categories_content):
 
 #%%
 if __name__ == '__main__':
-    # today = datetime.now().strftime('%Y-%m-%d')
     # today = '2024-09-04'
-    today = '2024-09-05'
-    main(today)
+    # today = '2024-09-05'
+    today = datetime.now().strftime('%Y-%m-%d')
+    main(today, categories_content=categories_content[0:4])
     
 # %%

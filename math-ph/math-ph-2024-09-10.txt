@@ -1,0 +1,35 @@
+Spin-charge separation for paired Dirac fermions in $(1+1)$ dimensions
+Laith H. Haddad
+https://arxiv.org/abs/2409.04700
+https://arxiv.org/pdf/2409.04700
+----
+Dual conformal invariant kinematics and folding of Grassmannian cluster algebras
+Jian-Rong Li, Changjian Su, Qinglin Yang
+https://arxiv.org/abs/2409.05165
+https://arxiv.org/pdf/2409.05165
+----
+Infinite-Length Limit of Spectral Curves and Inverse Scattering
+Niklas Beisert, Kunal Gupta
+https://arxiv.org/abs/2409.05228
+https://arxiv.org/pdf/2409.05228
+----
+The Dirac Equation Near Centenary: a Contemporary Introduction to the Dirac Equation Consideration
+V.M. Simulik
+https://arxiv.org/abs/2409.05287
+https://arxiv.org/pdf/2409.05287
+----
+The emptiness formation probability, and representations for nonlocal correlation functions, of the 20-vertex model
+Pete Rigas
+https://arxiv.org/abs/2409.05309
+https://arxiv.org/pdf/2409.05309
+----
+Exact Bethe quantum numbers of the massive XXZ chain in the two down-spin sector
+Takashi Imoto, Tetsuo Deguchi
+https://arxiv.org/abs/2409.05362
+https://arxiv.org/pdf/2409.05362
+----
+Correlation functions of the six-vertex IRF model and its quantum spin chain
+T. S. Tavares, G. A. P. Ribeiro
+https://arxiv.org/abs/2409.05814
+https://arxiv.org/pdf/2409.05814
+----

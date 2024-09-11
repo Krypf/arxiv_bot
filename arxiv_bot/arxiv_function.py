@@ -250,7 +250,7 @@ def get_title_and_authors(soup_dd):
 def save_one_post(soup, item_number: str):
     soup_dt, soup_dd = find_dt_and_dd(soup, item_number)
     if "cross-list" in soup_dt.get_text():
-        print(f"Number {item_number} included in cross-list")
+        printlog(f"Number {item_number} included in cross-list")
         return ""
     arxiv_url, pdf_url = get_arxiv_link(soup_dt)
     title, authors = get_title_and_authors(soup_dd)

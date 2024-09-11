@@ -1,0 +1,370 @@
+Bias-Field Digitized Counterdiabatic Quantum Algorithm for Higher-Order Binary Optimization
+Sebastián V. Romero, Anne-Maria Visuri, Alejandro Gomez Cadavid, Enrique Solano, Narendra N. Hegade
+https://arxiv.org/abs/2409.04477
+https://arxiv.org/pdf/2409.04477
+----
+Asymmetric Bidirectional Quantum Teleportation: Arbitrary bi-modal Information State
+Ankita Pathak, Madan Singh Chauhan, Ravi S. Singh
+https://arxiv.org/abs/2409.04480
+https://arxiv.org/pdf/2409.04480
+----
+Cavity-mediated superthermal phonon correlations in the ultrastrong coupling regime
+Dasom Kim, Jin Hou, Geon Lee, Ayush Agrawal, Sunghwan Kim, Hao Zhang, Di Bao, Andrey Baydin, Wenjing Wu, Fuyang Tay, Shengxi Huang, Elbert E. M. Chia, Dai-Sik Kim, Minah Seo, Aditya D. Mohite, David Hagenmüller, Junichiro Kono
+https://arxiv.org/abs/2409.04505
+https://arxiv.org/pdf/2409.04505
+----
+Entropy-driven entanglement forging
+Axel Pérez-Obiol, Sergi Masot-Llima, Antonio M. Romero, Javier Menéndez, Arnau Rios, Artur García-Sáez, Bruno Juliá-Díaz
+https://arxiv.org/abs/2409.04510
+https://arxiv.org/pdf/2409.04510
+----
+Cavity Control of Topological Qubits: Fusion Rule, Anyon Braiding and Majorana-Schr\"odinger Cat States
+Luis Quiroga, Fernando J. Gómez-Ruiz, Ivan A. Bocanegra-Garay, Ferney J. Rodríguez, Carlos Tejedor
+https://arxiv.org/abs/2409.04515
+https://arxiv.org/pdf/2409.04515
+----
+The role of data embedding in quantum autoencoders for improved anomaly detection
+Jack Y. Araz, Michael Spannowsky
+https://arxiv.org/abs/2409.04519
+https://arxiv.org/pdf/2409.04519
+----
+Generalized geometric speed limits for quantum observables
+Jacob Bringewatt, Zach Steffen, Martin A. Ritter, Adam Ehrenberg, Haozhi Wang, B. S. Palmer, Alicia J. Kollár, Alexey V. Gorshkov, Luis Pedro García-Pintos
+https://arxiv.org/abs/2409.04544
+https://arxiv.org/pdf/2409.04544
+----
+Solving Free Fermion Problems on a Quantum Computer
+Maarten Stroeks, Daan Lenterman, Barbara Terhal, Yaroslav Herasymenko
+https://arxiv.org/abs/2409.04550
+https://arxiv.org/pdf/2409.04550
+----
+Quantum Entanglement in the Rabi Model with the Presence of the $A^{2}$ Term
+Zakaria Boutakka, Zoubida Sakhi, Mohamed Bennai
+https://arxiv.org/abs/2409.04555
+https://arxiv.org/pdf/2409.04555
+----
+Multipartite entanglement
+Pawel Horodecki, Łukasz Rudnicki, Karol Życzkowski
+https://arxiv.org/abs/2409.04566
+https://arxiv.org/pdf/2409.04566
+----
+Quantum Pair Generation in Nonlinear Metasurfaces with Mixed and Pure Photon Polarizations
+Jiho Noh, Tomás Santiago-Cruz, Vitaliy Sultanov, Chloe F. Doiron, Sylvain D. Gennaro, Maria V. Chekhova, Igal Brener
+https://arxiv.org/abs/2409.04569
+https://arxiv.org/pdf/2409.04569
+----
+Parallax: A Compiler for Neutral Atom Quantum Computers under Hardware Constraints
+Jason Ludmir, Tirthak Patel
+https://arxiv.org/abs/2409.04578
+https://arxiv.org/pdf/2409.04578
+----
+Low Depth Phase Oracle Using a Parallel Piecewise Circuit
+Zhu Sun, Gregory Boyd, Zhenyu Cai, Hamza Jnane, Balint Koczor, Richard Meister, Romy Minko, Benjamin Pring, Simon C. Benjamin, Nikitas Stamatopoulos
+https://arxiv.org/abs/2409.04587
+https://arxiv.org/pdf/2409.04587
+----
+Training quantum machine learning model on cloud without uploading the data
+Guang Ping He
+https://arxiv.org/abs/2409.04602
+https://arxiv.org/pdf/2409.04602
+----
+Demonstration of quantum computation and error correction with a tesseract code
+Ben W. Reichardt, David Aasen, Rui Chao, Alex Chernoguzov, Wim van Dam, John P. Gaebler, Dan Gresh, Dominic Lucchetti, Michael Mills, Steven A. Moses, Brian Neyenhuis, Adam Paetznick, Andres Paz, Peter E. Siegfried, Marcus P. da Silva, Krysta M. Svore, Zhenghan Wang, Matt Zanner
+https://arxiv.org/abs/2409.04628
+https://arxiv.org/pdf/2409.04628
+----
+Mechanically-intermixed indium superconducting connections for microwave quantum interconnects
+Yves Martin, Neereja Sundaresan, Jae-woong Nah, Rachel Steiner, Marco Turchetti, Kevin Stawiasz, Chi Xiong, Jason S. Orcutt
+https://arxiv.org/abs/2409.04634
+https://arxiv.org/pdf/2409.04634
+----
+Enhancing Quantum Security over Federated Learning via Post-Quantum Cryptography
+Pingzhi Li, Tianlong Chen, Junyu Liu
+https://arxiv.org/abs/2409.04637
+https://arxiv.org/pdf/2409.04637
+----
+Expressing and Analyzing Quantum Algorithms with Qualtran
+Matthew P. Harrigan, Tanuj Khattar, Charles Yuan, Anurudh Peduri, Noureldin Yosri, Fionn D. Malone, Ryan Babbush, Nicholas C. Rubin
+https://arxiv.org/abs/2409.04643
+https://arxiv.org/pdf/2409.04643
+----
+Quantum-enhanced dark matter detection with in-cavity control: mitigating the Rayleigh curse
+Haowei Shi, Anthony J. Brady, Wojciech Górecki, Lorenzo Maccone, Roberto Di Candia, Quntao Zhuang
+https://arxiv.org/abs/2409.04656
+https://arxiv.org/pdf/2409.04656
+----
+Qubit Mapping: The Adaptive Divide-and-Conquer Approach
+Yunqi Huang, Xiangzhen Zhou, Fanxu Meng, Sanjiang Li
+https://arxiv.org/abs/2409.04752
+https://arxiv.org/pdf/2409.04752
+----
+Quantum error correction of motional dephasing using optical dressing
+Yuechun Jiao, Changcheng Li, Jiabei Fan, Jingxu Bai, XiaoFeng Shi, Suotang Jia, Jianming Zhao, C. Stuart Adams
+https://arxiv.org/abs/2409.04769
+https://arxiv.org/pdf/2409.04769
+----
+High purity two-dimensional levitated mechanical oscillator
+Q. Deplano, A. Pontin, A. Ranfagni, F. Marino, F. Marin
+https://arxiv.org/abs/2409.04863
+https://arxiv.org/pdf/2409.04863
+----
+Simulating kaon mixing with Josephson phase qubits
+Andrei Galiautdinov
+https://arxiv.org/abs/2409.04902
+https://arxiv.org/pdf/2409.04902
+----
+Anomaly Detection for Real-World Cyber-Physical Security using Quantum Hybrid Support Vector Machines
+Tyler Cultice, Md. Saif Hassan Onim, Annarita Giani, Himanshu Thapliyal
+https://arxiv.org/abs/2409.04935
+https://arxiv.org/pdf/2409.04935
+----
+Quantum Geometric Machine Learning
+Elija Perrier
+https://arxiv.org/abs/2409.04955
+https://arxiv.org/pdf/2409.04955
+----
+Fast multiplexed superconducting qubit readout with intrinsic Purcell filtering
+Peter A. Spring, Luka Milanovic, Yoshiki Sunada, Shiyu Wang, Arjan F. van Loo, Shuhei Tamate, Yasunobu Nakamura
+https://arxiv.org/abs/2409.04967
+https://arxiv.org/pdf/2409.04967
+----
+Platonic dynamical decoupling sequences for qudits
+Colin Read, Eduardo Serrano-Ensástiga, John Martin
+https://arxiv.org/abs/2409.04974
+https://arxiv.org/pdf/2409.04974
+----
+Magnetic Dipolar Quantum Battery with Spin-Orbit Coupling
+Asad Ali, Samira Elghaayda, Saif Al-Kuwari, M.I. Hussain, M.T. Rahim, Hashir Kuniyil, Tim Byrnes, James Q. Quach, Mostafa Mansour, Saeed Haddadi
+https://arxiv.org/abs/2409.05000
+https://arxiv.org/pdf/2409.05000
+----
+Ion Trapping with a Laser-written 3D Miniaturized Monolithic Linear Paul Trap for Microcavity Integration
+Soon Teh, Ezra Kassa, Shaobo Gao, Shuma Oya, Hiroki Takahashi
+https://arxiv.org/abs/2409.05075
+https://arxiv.org/pdf/2409.05075
+----
+Quantum Entanglement in Two-Photon Rabi Stark Model
+Zakaria Boutakka, Zoubida Sakhi, Mohamed Bennai
+https://arxiv.org/abs/2409.05108
+https://arxiv.org/pdf/2409.05108
+----
+Gaussian geometric discord, entanglement and EPR-steering of two rotational mirrors in a double Laguerre-Gaussian cavity optomechanics in the presence of YIG sphere
+Noura Chabar, M'bark Amghar, S. K. Singh, Mohamed Amazioug
+https://arxiv.org/abs/2409.05111
+https://arxiv.org/pdf/2409.05111
+----
+On-demand single microwave photon source in a superconducting circuit with pulse-level frequency tunability over two octaves of bandwidth
+Samarth Hawaldar, Siddhi Satish Khaire, Per Delsing, Baladitya Suri
+https://arxiv.org/abs/2409.05117
+https://arxiv.org/pdf/2409.05117
+----
+How to integrate a miniature optical cavity in a linear ion trap: shielding dielectrics and trap symmetry
+Ezra Kassa, Shaobo Gao, Soon Teh, Dyon van Dinter, Hiroki Takahashi
+https://arxiv.org/abs/2409.05123
+https://arxiv.org/pdf/2409.05123
+----
+A Novel Efficient Multiparty Semi-Quantum Secret Sharing Protocol Using Entangled States for Sharing Specific Bits
+Mustapha Anis Younes, Sofia Zebboudj, Abdelhakim Gharbi
+https://arxiv.org/abs/2409.05154
+https://arxiv.org/pdf/2409.05154
+----
+Generalized Parity Measurements and Efficient Large Multi-component Cat State Preparation with Quantum Signal Processing
+Sina Zeytinoglu
+https://arxiv.org/abs/2409.05186
+https://arxiv.org/pdf/2409.05186
+----
+Learning to Classify Quantum Phases of Matter with a Few Measurements
+Mehran Khosrojerdi, Jason L. Pereira, Alessandro Cuccoli, Leonardo Banchi
+https://arxiv.org/abs/2409.05188
+https://arxiv.org/pdf/2409.05188
+----
+Towards Distributed Quantum Error Correction for Distributed Quantum Computing
+Shahram Babaie, Chunming Qiao
+https://arxiv.org/abs/2409.05244
+https://arxiv.org/pdf/2409.05244
+----
+Demonstration of atom interrogation using photonic integrated circuits anodically bonded to ultra-high vacuum envelopes for epoxy-free scalable quantum sensors
+Sterling E. McBride, Cale M. Gentry, Christopher Holland, Colby Bellew, Kaitlin R. Moore, Alan Braun
+https://arxiv.org/abs/2409.05254
+https://arxiv.org/pdf/2409.05254
+----
+Turning Water to Wine With Polar Impostorons
+Gerard McCaul, Matthias Runge, Michael Woerner, Diyar Talbayev, Thomas Elsaesser, Denys I. Bondar
+https://arxiv.org/abs/2409.05332
+https://arxiv.org/pdf/2409.05332
+----
+Completeness Relation in Renormalized Quantum Systems
+Fatih Erman, O. Teoman Turgut
+https://arxiv.org/abs/2409.05372
+https://arxiv.org/pdf/2409.05372
+----
+Low-noise quantum frequency conversion with cavity enhancement of converted mode
+Shoichi Murakami, Toshiki Kobayashi, Shigehito Miki, Hirotaka Terai, Tsuyoshi Kodama, Tsuneaki Sawaya, Akihiko Ohtomo, Hideki Shimoi, Takashi Yamamoto, Rikizo Ikuta
+https://arxiv.org/abs/2409.05408
+https://arxiv.org/pdf/2409.05408
+----
+Super-bunching light with giant high-order correlations and extreme multi-photon events
+Chengbing Qin, Yuanyuan Li, Yu Yan, Jiamin Li, Xiangdong Li, Yunrui Song, Xuedong Zhang, Shuangping Han, Zihua Liu, Yanqiang Guo, Guofeng Zhang, Ruiyun Chen, Jianyong Hu, Zhichun Yang, Xinhui Liu, Liantuan Xiao, Suotang Jia
+https://arxiv.org/abs/2409.05419
+https://arxiv.org/pdf/2409.05419
+----
+Noise Suppression via Coherent Quantum Feedback: a Schr{\"o}dinger Picture Approach
+Shikun Zhang, Guofeng Zhang
+https://arxiv.org/abs/2409.05431
+https://arxiv.org/pdf/2409.05431
+----
+Phases of scalar theories and PT symmetry
+Leqian Chen, Sarben Sarkar
+https://arxiv.org/abs/2409.05439
+https://arxiv.org/pdf/2409.05439
+----
+Contributions to the study of time dependent oscillators in Paul traps. Semiclassical approach
+Bogdan M. Mihalcea
+https://arxiv.org/abs/2409.05441
+https://arxiv.org/pdf/2409.05441
+----
+Universal Quantum Gate Set for Gottesman-Kitaev-Preskill Logical Qubits
+V. G. Matsos, C. H. Valahu, M. J. Millican, T. Navickas, X. C. Kolesnikow, M. J. Biercuk, T. R. Tan
+https://arxiv.org/abs/2409.05455
+https://arxiv.org/pdf/2409.05455
+----
+Reinforcement Learning for Variational Quantum Circuits Design
+Simone Foderà, Gloria Turati, Riccardo Nembrini, Maurizio Ferrari Dacrema, Paolo Cremonesi
+https://arxiv.org/abs/2409.05475
+https://arxiv.org/pdf/2409.05475
+----
+Some new considerations about the $\nu$-function
+Dušan Popov
+https://arxiv.org/abs/2409.05476
+https://arxiv.org/pdf/2409.05476
+----
+A refined Frauchiger--Renner paradox based on strong contextuality
+Laurens Walleghem, Rui Soares Barbosa, Matthew Pusey, Stefan Weigert
+https://arxiv.org/abs/2409.05491
+https://arxiv.org/pdf/2409.05491
+----
+Measuring temporal entanglement in experiments as a hallmark for integrability
+Aleix Bou-Comas, Carlos Ramos Marimón, Jan T. Schneider, Stefano Carignano, Luca Tagliacozzo
+https://arxiv.org/abs/2409.05517
+https://arxiv.org/pdf/2409.05517
+----
+An encoding of argumentation problems using quadratic unconstrained binary optimization
+Marco Baioletti, Francesco Santini
+https://arxiv.org/abs/2409.05524
+https://arxiv.org/pdf/2409.05524
+----
+Quantum annealing versus classical solvers: Applications, challenges and limitations for optimisation problems
+Finley Alexander Quinton, Per Arne Sevle Myhr, Mostafa Barani, Pedro Crespo del Granado, Hongyu Zhang
+https://arxiv.org/abs/2409.05542
+https://arxiv.org/pdf/2409.05542
+----
+Simulating Non-Markovian Dynamics in Multidimensional Electronic Spectroscopy via Quantum Algorithm
+Federico Gallina, Matteo Bruschi, Roberto Cacciari, Barbara Fresch
+https://arxiv.org/abs/2409.05548
+https://arxiv.org/pdf/2409.05548
+----
+Preparing Schr\"odinger cat states in a microwave cavity using a neural network
+Hector Hutin, Pavlo Bilous, Chengzhi Ye, Sepideh Abdollahi, Loris Cros, Tom Dvir, Tirth Shah, Yonatan Cohen, Audrey Bienfait, Florian Marquardt, Benjamin Huard
+https://arxiv.org/abs/2409.05557
+https://arxiv.org/pdf/2409.05557
+----
+Finite time quantum-classical correspondence in quantum chaotic systems
+Qian Wang, Marko Robnik
+https://arxiv.org/abs/2409.05596
+https://arxiv.org/pdf/2409.05596
+----
+Quantum Multiplexer Simplification for State Preparation
+José A. de Carvalho, Carlos A. Batista, Tiago M.L. de Veras, Israel F. Araujo, Adenilton J. da Silva
+https://arxiv.org/abs/2409.05618
+https://arxiv.org/pdf/2409.05618
+----
+Maximizing orientation of a three-state molecule in a cavity with analytically designed pulses
+Li-Bao Fan, Hai-Ji Li, Qi Chen, Hang Zhou, Heng Liu, Chuan-Cun Shu
+https://arxiv.org/abs/2409.05648
+https://arxiv.org/pdf/2409.05648
+----
+Quantum teleportation of a qutrit state via a hypergraph state in a noisy environment
+Souvik Giri, Supriyo Dutta
+https://arxiv.org/abs/2409.05675
+https://arxiv.org/pdf/2409.05675
+----
+Circuit optimization of qubit IC-POVMs for shadow estimation
+Zhou You, Qing Liu, You Zhou
+https://arxiv.org/abs/2409.05676
+https://arxiv.org/pdf/2409.05676
+----
+Controlling molecular dynamics by exciting atoms in a cavity
+András Csehi, Ágnes Vibók, Lorenz S. Cederbaum, Gábor J. Halász
+https://arxiv.org/abs/2409.05690
+https://arxiv.org/pdf/2409.05690
+----
+Quantum Keyless Private Communication with Decoy States for Space Channels
+Angeles Vazquez-Castro, Andreas Winter, Hugo Zbinden
+https://arxiv.org/abs/2409.05694
+https://arxiv.org/pdf/2409.05694
+----
+Quantum Volunteer's Dilemma
+Dax Enshan Koh, Kaavya Kumar, Siong Thye Goh
+https://arxiv.org/abs/2409.05708
+https://arxiv.org/pdf/2409.05708
+----
+A Novel Finite Fractional Fourier Transform and its Quantum Circuit Implementation on Qudits
+Emmanuel Floratos, Archimedes Pavlidis
+https://arxiv.org/abs/2409.05759
+https://arxiv.org/pdf/2409.05759
+----
+Consensus-based Distributed Quantum Kernel Learning for Speech Recognition
+Kuan-Cheng Chen, Wenxuan Ma, Xiaotian Xu
+https://arxiv.org/abs/2409.05770
+https://arxiv.org/pdf/2409.05770
+----
+Quantum Resources for Pure Thermal Shadows
+Arnav Sharma, Kevin Obenland
+https://arxiv.org/abs/2409.05777
+https://arxiv.org/pdf/2409.05777
+----
+Mitigating imperfections in Differential Phase Shift Measurement-Device-Independent Quantum Key Distribution via Plug-and-Play architecture
+Nilesh Sharma, Shashank Kumar Ranu, Prabha Mandayam, Anil Prabhakar
+https://arxiv.org/abs/2409.05802
+https://arxiv.org/pdf/2409.05802
+----
+High-fidelity heralded quantum state preparation and measurement
+A. S. Sotirova, J. D. Leppard, A. Vazquez-Brennan, S. M. Decoppet, F. Pokorny, M. Malinowski, C. J. Ballance
+https://arxiv.org/abs/2409.05805
+https://arxiv.org/pdf/2409.05805
+----
+Hardware-Efficient Fault Tolerant Quantum Computing with Bosonic Grid States in Superconducting Circuits
+Marc-Antoine Lemonde, Dany Lachance-Quirion, Guillaume Duclos-Cianci, Nicholas E. Frattini, Florian Hopfmueller, Chloe Gauvin-Ndiaye, Julien Camirand-Lemyre, Philippe St-Jean
+https://arxiv.org/abs/2409.05813
+https://arxiv.org/pdf/2409.05813
+----
+Non-local resources for error correction in quantum LDPC codes
+Omprakash Chandra, Gopikrishnan Muraleedharan, Gavin K. Brennen
+https://arxiv.org/abs/2409.05818
+https://arxiv.org/pdf/2409.05818
+----
+End-to-End Quantum Simulation of a Chemical System
+Wim van Dam, Hongbin Liu, Guang Hao Low, Adam Paetznick, Andres Paz, Marcus Silva, Aarthi Sundaram, Krysta Svore, Matthias Troyer
+https://arxiv.org/abs/2409.05835
+https://arxiv.org/pdf/2409.05835
+----
+Jaynes-Cummings model in a unitary fractional-time description
+Danilo Cius
+https://arxiv.org/abs/2409.05841
+https://arxiv.org/pdf/2409.05841
+----
+Fast quantum gates for exchange-only qubits using simultaneous exchange pulses
+Irina Heinz, Felix Borjans, Matthew Curry, Roza Kotlyar, Florian Luthi, Mateusz T. Mądzik, Fahd A. Mohiyaddin, Nathaniel Bishop, Guido Burkard
+https://arxiv.org/abs/2409.05843
+https://arxiv.org/pdf/2409.05843
+----
+An Introduction to Quantum Reinforcement Learning (QRL)
+Samuel Yen-Chi Chen
+https://arxiv.org/abs/2409.05846
+https://arxiv.org/pdf/2409.05846
+----
+Quantum Wasserstein Compilation: Unitary Compilation using the Quantum Earth Mover's Distance
+Marvin Richter, Abhishek Y. Dubey, Axel Plinge, Christopher Mutschler, Daniel D. Scherer, Michael J. Hartmann
+https://arxiv.org/abs/2409.05849
+https://arxiv.org/pdf/2409.05849
+----
