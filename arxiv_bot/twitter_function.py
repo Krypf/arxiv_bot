@@ -51,12 +51,8 @@ def login_twitter(category):
 # Function to read content from a text file and tweet it
 
 def make_tweet(title_line, authors_line, arxiv_url, pdf_url):
-    tw = str()
-    tw += (title_line + '\n')
-    tw += (arxiv_url)# only an object arxiv_url
-    tw += ('\n' + authors_line)
-    tw += ('\n' + pdf_url)
-    return tw
+    return '\n'.join([title_line, arxiv_url, authors_line, pdf_url])
+
 
 from printlog import printlog
 from arxiv_function import post_last, shorten_paper_info

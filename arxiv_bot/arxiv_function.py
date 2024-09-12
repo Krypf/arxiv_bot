@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup
 from lxml import etree
 from pyquery import PyQuery as pq
 
-from printlog import printlog
+from arxiv_bot.printlog import printlog
 #%% https://chatgpt.com/share/c59404fb-255c-42db-892a-c19c00d92e8c
 class ArxivSearch:
     def __init__(self, category: str, submissions: str = "new", skip: str = "", show: str = "", parent_folder: str = os.path.expanduser("~/arxiv_bot")):
@@ -270,6 +270,28 @@ class ArxivSoup():
         text += f"{article_info['pdf_url']}\n"
         text += "----\n"
         return text
+    
+    def get_one_article(self, item_number: str):
+        soup_dt, soup_dd = self.find_dt_and_dd(item_number)# not self.soup. ...
+        if "cross-list" in soup_dt.get_text():
+            printlog(f"Number {item_number} included in cross-list")
+            return ""
+        arxiv_url, pdf_url = ArxivSoup.get_arxiv_link(soup_dt)
+        title, authors = ArxivSoup.get_title_and_authors(soup_dd)
+        # Create dictionary
+        name = f'item{item_number}'
+
+        article_info = {
+            'arxiv_url': arxiv_url,
+            'pdf_url': pdf_url,
+            'title': title,
+            'authors': authors
+        }
+        # Dictionary with dynamic name as key
+        article = {
+            name: article_info
+        }
+        return article
 
     def get_arxiv_link(soup_dt):
         # Find the <a> tag with title "Abstract"
@@ -293,7 +315,7 @@ class ArxivSoup():
         authors = ', '.join(a.get_text() for a in authors_div.find_all('a')) if authors_div else None
         return title, authors
 
-    
+
 
 #%% https://chatgpt.com/share/7dfbd5e5-9c8d-4939-a815-efd595b5f229
 def read_inner_file(file = '', folder='') -> List[str]:
