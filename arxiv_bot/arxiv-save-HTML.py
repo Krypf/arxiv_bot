@@ -1,5 +1,6 @@
 #%% https://chatgpt.com/share/c8e08b83-0d2d-4430-a447-e0e14a945d8b
 import os
+import sys
 import argparse
 from arxiv_function import ArxivSearch, categories_content
 from printlog import printlog
@@ -15,10 +16,11 @@ def sub(obj: ArxivSearch):
         printlog(f"HTML source has been saved to {obj.file_name}")
     else:
         printlog(f"Failed to retrieve the webpage. Status code: {response.status_code}")
+        sys.exit(1)  # Exit the program
 
     return None
 
-def main(categories_content):
+def main():
     # Directory to save the file
     directory = "HTML"
     # Create the directory if it doesn't exist
@@ -39,4 +41,4 @@ def main(categories_content):
 
 #%%
 if __name__ == "__main__":
-    main(categories_content)
+    main()

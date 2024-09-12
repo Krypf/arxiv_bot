@@ -1,0 +1,145 @@
+Concomitant Entanglement and Control Criticality Driven by Collective Measurements
+Thomas Iadecola, Justin H. Wilson, J. H. Pixley
+https://arxiv.org/abs/2409.06780
+https://arxiv.org/pdf/2409.06780
+----
+State estimation with quantum extreme learning machines beyond the scrambling time
+Marco Vetrano, Gabriele Lo Monaco, Luca Innocenti, Salvatore Lorenzo, G. Massimo Palma
+https://arxiv.org/abs/2409.06782
+https://arxiv.org/pdf/2409.06782
+----
+Experimental Demonstration of Break-Even for the Compact Fermionic Encoding
+Ramil Nigmatullin, Kevin Hemery, Khaldoon Ghanem, Steven Moses, Dan Gresh, Peter Siegfried, Michael Mills, Thomas Gatterman, Nathan Hewitt, Etienne Granet, Henrik Dreyer
+https://arxiv.org/abs/2409.06789
+https://arxiv.org/pdf/2409.06789
+----
+An Integrated Deep-Cryogenic Temperature Sensor in CMOS Technology for Quantum Computing Applications
+Fabio Olivieri, Grayson M. Noah, Thomas Swift, M. Fernando Gonzalez-Zalba, John J. L. Morton, Alberto Gomez-Saiz
+https://arxiv.org/abs/2409.06838
+https://arxiv.org/pdf/2409.06838
+----
+Symmetry generators and quantum numbers for fermionic circularly symmetric motion
+V. B. Mendrot, A. S. de Castro, P. Alberto
+https://arxiv.org/abs/2409.06850
+https://arxiv.org/pdf/2409.06850
+----
+Quantum Electrodynamics Coupled-Cluster Theory: Exploring Photon-Induced Electron Correlations
+Himadri Pathak, Nicholas P. Bauman, Ajay Panyala, Karol Kowalski
+https://arxiv.org/abs/2409.06858
+https://arxiv.org/pdf/2409.06858
+----
+Concentration of quantum channels with random Kraus operators via matrix Bernstein inequality
+Motohisa Fukuda
+https://arxiv.org/abs/2409.06862
+https://arxiv.org/pdf/2409.06862
+----
+Alternative Bell's states and teleportation
+Juan M. Romero, Emiliano Montoya-Gonzalez, Oscar Velazquez-Alvarado
+https://arxiv.org/abs/2409.06885
+https://arxiv.org/pdf/2409.06885
+----
+Disorder enhanced exciton transport and quantum information spreading with the assistance of cavity QED
+Weijun Wu, Ava N. Hejazi, Gregory D. Scholes
+https://arxiv.org/abs/2409.06900
+https://arxiv.org/pdf/2409.06900
+----
+Optical Gottesman-Kitaev-Preskill Qubit Generation via Approximate Squeezed Schr\"odinger Cat State Breeding
+Andrew J. Pizzimenti, Daniel Soh
+https://arxiv.org/abs/2409.06902
+https://arxiv.org/pdf/2409.06902
+----
+A Comprehensive Cross-Model Framework for Benchmarking the Performance of Quantum Hamiltonian Simulations
+Avimita Chatterjee, Sonny Rappaport, Anish Giri, Sonika Johri, Timothy Proctor, David E. Bernal Neira, Pratik Sathe, Thomas Lubinski
+https://arxiv.org/abs/2409.06919
+https://arxiv.org/pdf/2409.06919
+----
+Fidelity-optimized quantum surface code via GAN decoder and application to quantum teleportation
+Jiaxin Li, Zhimin Wang, Alberto Ferrara, Yongjian Gu, Rosario Lo Franco
+https://arxiv.org/abs/2409.06984
+https://arxiv.org/pdf/2409.06984
+----
+Realization of Constant-Depth Fan-Out with Real-Time Feedforward on a Superconducting Quantum Processor
+Yongxin Song, Liberto Beltrán, Ilya Besedin, Michael Kerschbaum, Marek Pechal, François Swiadek, Christoph Hellings, Dante Colao Zanuz, Alexander Flasby, Jean-Claude Besse, Andreas Wallraff
+https://arxiv.org/abs/2409.06989
+https://arxiv.org/pdf/2409.06989
+----
+Quantum-Train with Tensor Network Mapping Model and Distributed Circuit Ansatz
+Chen-Yu Liu, Chu-Hsuan Abraham Lin, Kuan-Cheng Chen
+https://arxiv.org/abs/2409.06992
+https://arxiv.org/pdf/2409.06992
+----
+Introducing UNIQuE: The Unconventional Noiseless Intermediate Quantum Emulator
+Reece Robertson, Dan Ventura
+https://arxiv.org/abs/2409.07000
+https://arxiv.org/pdf/2409.07000
+----
+Dynamical Structure Factor from Weak Measurements
+E. Altuntas, R. G. Lena, S. Flannigan, A. J. Daley, I. B. Spielman
+https://arxiv.org/abs/2409.07030
+https://arxiv.org/pdf/2409.07030
+----
+Fully-Optimized Quantum Metrology: Framework, Tools, and Applications
+Qiushi Liu, Zihao Hu, Haidong Yuan, Yuxiang Yang
+https://arxiv.org/abs/2409.07068
+https://arxiv.org/pdf/2409.07068
+----
+Quantum many-body simulation of finite-temperature systems with sampling a series expansion of a quantum imaginary-time evolution
+Norifumi Matsumoto, Shoichiro Tsutsui, Yuya O. Nakagawa, Yuichiro Hidaka, Shota Kanasugi, Kazunori Maruyama, Hirotaka Oshima, Shintaro Sato
+https://arxiv.org/abs/2409.07070
+https://arxiv.org/pdf/2409.07070
+----
+Quantum Monte Carlo methods for Newsvendor problem with Multiple Unreliable Suppliers
+Monit Sharma, Hoong Chuin Lau
+https://arxiv.org/abs/2409.07183
+https://arxiv.org/pdf/2409.07183
+----
+Quantum Reference Frames on Homogeneous Spaces
+Jan Głowacki
+https://arxiv.org/abs/2409.07231
+https://arxiv.org/pdf/2409.07231
+----
+Rescaling transformations and the Grothendieck bound formalism in a single quantum system
+A. Vourdas
+https://arxiv.org/abs/2409.07270
+https://arxiv.org/pdf/2409.07270
+----
+Variational LOCC-assisted quantum circuits for long-range entangled states
+Yuxuan Yan, Muzhou Ma, You Zhou, Xiongfeng Ma
+https://arxiv.org/abs/2409.07281
+https://arxiv.org/pdf/2409.07281
+----
+Graphical Calculus for Non-Gaussian Quantum States
+Lina Vandré, Boxuan Jing, Yu Xiang, Otfried Gühne, Qiongyi He
+https://arxiv.org/abs/2409.07300
+https://arxiv.org/pdf/2409.07300
+----
+Quantum state preparation via piecewise QSVT
+Oliver O'Brien, Christoph Sünderhauf
+https://arxiv.org/abs/2409.07332
+https://arxiv.org/pdf/2409.07332
+----
+Efficient state preparation for multivariate Monte Carlo simulation
+Hitomi Mori, Kosuke Mitarai, Keisuke Fujii
+https://arxiv.org/abs/2409.07336
+https://arxiv.org/pdf/2409.07336
+----
+Thermalization Dynamics of Entanglement and non-Locality of Filtered Two-Mode Squeezed States
+Souvik Agasti
+https://arxiv.org/abs/2409.07349
+https://arxiv.org/pdf/2409.07349
+----
+Uncovering Quantum Many-body Scars with Quantum Machine Learning
+Jiajin Feng, Bingzhi Zhang, Zhi-Cheng Yang, Quntao Zhuang
+https://arxiv.org/abs/2409.07405
+https://arxiv.org/pdf/2409.07405
+----
+Laser Activation of Single Group-IV Colour Centres in Diamond
+Xingrui Cheng, Andreas Thurn, Guangzhao Chen, Gareth S. Jones, Maddison Coke, Mason Adshead, Cathryn P. Michaels, Osman Balci, Andrea C. Ferrari, Mete Atatüre, Richard Curry, Jason M. Smith, Patrick S. Salter, Dorian A. Gangloff
+https://arxiv.org/abs/2409.07421
+https://arxiv.org/pdf/2409.07421
+----
+Quantum trajectories and output field properties for two-photon input field
+Anita Dabrowska, Gniewomir Sarbicki
+https://arxiv.org/abs/2409.07428
+https://arxiv.org/pdf/2409.07428
+----

@@ -23,7 +23,9 @@ def sub(obj: ArxivText, sleep_time=1):
         printlog(f"Target text:\n{t}")
         twi_api = send_post_to_twitter(client_twitter, t, today = d)
         if twi_api:
-            printlog('stop sending tweets')
+            api_maximum = 50
+            t = f"Twitter API v2 limits posts to 1500 per month ({api_maximum} per day). All the posts including the remaining submissions are posted on Bluesky: " + f"https://bsky.app/profile/krxiv-{obj.category}.bsky.social"
+            printlog(f"Stop sending tweets. Please tweet manually:\n{t}")
             break
         time.sleep(sleep_time)
     return None
@@ -42,6 +44,6 @@ if __name__ == '__main__':
     # today = '2024-09-04'
     # today = '2024-09-05'
     today = datetime.now().strftime('%Y-%m-%d')
-    main(today, categories_content=categories_content[0:4])
+    main(today, categories_content=categories_content)
     
 # %%

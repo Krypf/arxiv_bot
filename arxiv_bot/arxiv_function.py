@@ -112,20 +112,6 @@ class ArxivSearch:
         else:
             printlog(f"No <li> element found with the date: {date_to_find}")
             exit('1')
-            
-    def extract_skip_number_esc(self, string_to_find: str) -> int:
-        tree = self.read_HTML(library='lxml')
-        link = tree.xpath(f'//a[normalize-space()="{string_to_find}"]')
-        # Extract the href attribute
-        if link:
-            href = link[0].get('href')
-            # print(href)
-        else:
-            print("Link not found")
-        match = re.search(r'skip=(\d+)', href)
-        if match:
-            return int(match.group(1))
-        raise ValueError("Skip number not found in the URL")
     
     def get_html(self):
         # URL to fetch

@@ -1,0 +1,45 @@
+The chiral torsional anomaly and the Nieh-Yan invariant with and without boundaries
+Johanna Erdmenger, Ioannis Matthaiakakis, René Meyer, Dmitri Vassilevich
+https://arxiv.org/abs/2409.06766
+https://arxiv.org/pdf/2409.06766
+----
+NLO in the large charge sector of the critical $O(N)$ model at large $N$
+Nicola Andrea Dondi, Giacomo Sberveglieri
+https://arxiv.org/abs/2409.06781
+https://arxiv.org/pdf/2409.06781
+----
+Bootstrapping non-Hermitian Quantum System
+Sakil Khan, Harsh Rathod
+https://arxiv.org/abs/2409.06784
+https://arxiv.org/pdf/2409.06784
+----
+Five dimensional Weyl double copy
+Weicheng Zhao, Pu-Jian Mao, Jun-Bao Wu
+https://arxiv.org/abs/2409.06786
+https://arxiv.org/pdf/2409.06786
+----
+Asymptotic Hodge Theory in String Compactifications and Integrable Systems
+Jeroen Monnee
+https://arxiv.org/abs/2409.06794
+https://arxiv.org/pdf/2409.06794
+----
+Deviations from maximal entanglement for eigenstates of the Sachdev-Ye-Kitaev model
+Yichen Huang, Yi Tan, Norman Y. Yao
+https://arxiv.org/abs/2409.07043
+https://arxiv.org/pdf/2409.07043
+----
+Scalar field theory under Robin boundary conditions: two-point function and energy-momentum tensor
+David Dudal, Aaron Gobeyn, Bruno W. Mintz, Thomas Oosthuyse, Sebbe Stouten
+https://arxiv.org/abs/2409.07060
+https://arxiv.org/pdf/2409.07060
+----
+Thermodynamic Extremality in Power-law AdS Black Holes A Universal Perspective
+Ankit Anand
+https://arxiv.org/abs/2409.07079
+https://arxiv.org/pdf/2409.07079
+----
+The effect of resummation on retarded Green's function and greybody factor in $AdS$ black holes
+Julián Barragán Amado, Shankhadeep Chakrabortty, Arpit Maurya
+https://arxiv.org/abs/2409.07370
+https://arxiv.org/pdf/2409.07370
+----

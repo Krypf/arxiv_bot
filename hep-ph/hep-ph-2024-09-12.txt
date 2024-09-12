@@ -1,0 +1,75 @@
+Searching for Dark Matter Interactions with ACT, SPT and DES
+Zilu Zhou, Neal Weiner
+https://arxiv.org/abs/2409.06771
+https://arxiv.org/pdf/2409.06771
+----
+Faking ZZZ vertices at the LHC
+Ricardo Cepedello, Fabian Esser, Martin Hirsch, Veronica Sanz
+https://arxiv.org/abs/2409.06776
+https://arxiv.org/pdf/2409.06776
+----
+Baryon stopping and charge deposition in heavy-ion collisions due to gluon saturation
+Oscar Garcia-Montero, Sören Schlichting
+https://arxiv.org/abs/2409.06788
+https://arxiv.org/pdf/2409.06788
+----
+Malaphoric $Z'$ models for $b \rightarrow s \ell^+ \ell^-$ anomalies
+Ben Allanach, Nico Gubernari
+https://arxiv.org/abs/2409.06804
+https://arxiv.org/pdf/2409.06804
+----
+Azimuthal modulations and extraction of generalized parton distributions
+Jian-Wei Qiu, Nobuo Sato, Zhite Yu
+https://arxiv.org/abs/2409.06882
+https://arxiv.org/pdf/2409.06882
+----
+Wigner rotations for cascade reactions
+Kai Habermann, Mikhail Mikhasenko
+https://arxiv.org/abs/2409.06913
+https://arxiv.org/pdf/2409.06913
+----
+Detect anomalous quartic gauge couplings at muon colliders with quantum kernel k-means
+Shuai Zhang, Ke-Xin Chen, Ji-Chong Yang
+https://arxiv.org/abs/2409.07010
+https://arxiv.org/pdf/2409.07010
+----
+Anisotropic linear waves and breakdown of the momentum expansion in spin magnetohydrodynamics
+Zhe Fang, Koichi Hattori, Jin Hu
+https://arxiv.org/abs/2409.07096
+https://arxiv.org/pdf/2409.07096
+----
+Finite Energy Resolution, Correlations Between Bins and Non-Nested Hypotheses
+Emilio Ciuffoli, Jarah Evslin
+https://arxiv.org/abs/2409.07157
+https://arxiv.org/pdf/2409.07157
+----
+CP violation at finite temperature
+Károly Seller, Zsolt Szép, Zoltán Trócsányi
+https://arxiv.org/abs/2409.07180
+https://arxiv.org/pdf/2409.07180
+----
+Muon anomalous magnetic moment and Right handed sterile neutrino
+Iman Motie, S. Mahmoudi, Mahdi Sadegh, Jafar Khodagholizadeh, Alain Blanchard, She-Sheng Xue
+https://arxiv.org/abs/2409.07184
+https://arxiv.org/pdf/2409.07184
+----
+Phenomenological model for the $\gamma^*\gamma \to \eta \pi^+ \pi^-$ reaction in the $f_1(1285)$ energy region
+Xiu-Lei Ren, Igor Danilkin, Marc Vanderhaeghen
+https://arxiv.org/abs/2409.07235
+https://arxiv.org/pdf/2409.07235
+----
+From Feynman integrals to quantum algorithms: the Loop-Tree Duality connection
+German Sborlini
+https://arxiv.org/abs/2409.07252
+https://arxiv.org/pdf/2409.07252
+----
+Possibility of the experimental study on semi-leptonic and non-leptonic $D^*_{(s)}$ weak decays
+Hao Yang, Zhi-Qing Zhang, Peng Li, You-Ya Yang
+https://arxiv.org/abs/2409.07302
+https://arxiv.org/pdf/2409.07302
+----
+Measuring the weak mixing angle at SBND
+Gustavo F. S. Alves, Antonio P. Ferreira, Shirley Weishi Li, Pedro A. N. Machado, Yuber F. Perez-Gonzalez
+https://arxiv.org/abs/2409.07430
+https://arxiv.org/pdf/2409.07430
+----
