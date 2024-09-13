@@ -6,7 +6,7 @@ from datetime import datetime
 from printlog import printlog
 from arxiv_function import categories_content, ArxivText, arxiv_formatted_date
 from bluesky_function import login_bsky, send_post_to_bluesky
-from twitter_function import login_twitter, Twitter_with_api_max, send_post_to_twitter
+from twitter_function import login_twitter, send_post_to_twitter
 #%%
 def sub(obj: ArxivText, sleep_time=1):
     client_bsky, thumb = login_bsky(obj.category)

@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup
 from lxml import etree
 from pyquery import PyQuery as pq
 
-from arxiv_bot.printlog import printlog
+from printlog import printlog
 #%% https://chatgpt.com/share/c59404fb-255c-42db-892a-c19c00d92e8c
 class ArxivSearch:
     def __init__(self, category: str, submissions: str = "new", skip: str = "", show: str = "", parent_folder: str = os.path.expanduser("~/arxiv_bot")):
@@ -171,12 +171,12 @@ def cd_arxiv_bot(_printlog=True):
         
 #%% # https://chatgpt.com/share/a02b3fb5-fb86-4de9-a1fa-5f001dcca01f
 class ArxivText:
-    def __init__(self, category: str, date: str, parent_folder: str = os.path.expanduser("~/arxiv_bot")):
+    def __init__(self, category: str, date: str, parent_folder: str = os.path.expanduser("~/arxiv_bot"), extension: str = '.txt'):
         self.category = category
         self.date = date
         self.parent_folder = parent_folder
         # Define the path to the file
-        self.file_name = f"{self.category}-{self.date}.txt"
+        self.file_name = f"{self.category}-{self.date}{extension}"
         self.file_path = os.path.join(self.parent_folder, self.category, self.file_name)
         
     def read_content(self):
@@ -254,11 +254,11 @@ class ArxivSoup():
         if "cross-list" in soup_dt.get_text():
             printlog(f"Number {item_number} included in cross-list")
             return ""
-        arxiv_url, pdf_url = ArxivSoup.get_arxiv_link(soup_dt)
+        abs_url, pdf_url = ArxivSoup.get_arxiv_link(soup_dt)
         title, authors = ArxivSoup.get_title_and_authors(soup_dd)
         # Create dictionary
         article_info = {
-            'arxiv_url': arxiv_url,
+            'abs_url': abs_url,
             'pdf_url': pdf_url,
             'title': title,
             'authors': authors
@@ -266,7 +266,7 @@ class ArxivSoup():
         text = f"{article_info['title']}\n"
         text += f"{article_info['authors']}\n"
         # summary = entry.summary; text += f"Summary: {summary}\n";
-        text += f"{article_info['arxiv_url']}\n"
+        text += f"{article_info['abs_url']}\n"
         text += f"{article_info['pdf_url']}\n"
         text += "----\n"
         return text
@@ -276,13 +276,13 @@ class ArxivSoup():
         if "cross-list" in soup_dt.get_text():
             printlog(f"Number {item_number} included in cross-list")
             return ""
-        arxiv_url, pdf_url = ArxivSoup.get_arxiv_link(soup_dt)
+        abs_url, pdf_url = ArxivSoup.get_arxiv_link(soup_dt)
         title, authors = ArxivSoup.get_title_and_authors(soup_dd)
         # Create dictionary
         name = f'item{item_number}'
 
         article_info = {
-            'arxiv_url': arxiv_url,
+            'abs_url': abs_url,
             'pdf_url': pdf_url,
             'title': title,
             'authors': authors
@@ -301,10 +301,10 @@ class ArxivSoup():
         arxiv_link = abstract_link['href'] if abstract_link else None
         pdf_link = download_pdf_link['href'] if download_pdf_link else None
         # Construct the full URL
-        arxiv_url = f"https://arxiv.org{arxiv_link}" if arxiv_link else None
+        abs_url = f"https://arxiv.org{arxiv_link}" if arxiv_link else None
         pdf_url = f"https://arxiv.org{pdf_link}" if pdf_link else None
             
-        return arxiv_url, pdf_url
+        return abs_url, pdf_url
 
     def get_title_and_authors(soup_dd):
         # Extract the title
@@ -318,10 +318,9 @@ class ArxivSoup():
 
 
 #%% https://chatgpt.com/share/7dfbd5e5-9c8d-4939-a815-efd595b5f229
-def read_inner_file(file = '', folder='') -> List[str]:
+def read_inner_file(file = '', folder='', extension = '.txt') -> List[str]:
     cd_arxiv_bot(_printlog=False)
     
-    extension = '.txt'
     file_name = file + extension
     
     if folder != '':
@@ -353,11 +352,11 @@ def shorten_authors(authors):
 # 無駄が多いので後で shorten_paper_info を修正したい
 
 def shorten_paper_info(paper_info, max_letter: int):
-    title_line, authors_line, arxiv_url, pdf_url = paper_info.split("\n")    
+    title_line, authors_line, abs_url, pdf_url = paper_info.split("\n")    
     authors_line = shorten_authors(authors_line)
     printlog(f"Tweet content exceeds {max_letter} characters. The shorten_paper_info shortened the text.")
     
-    _ans = f"{title_line}\n{authors_line}\n{arxiv_url}\n{pdf_url}"
+    _ans = f"{title_line}\n{authors_line}\n{abs_url}\n{pdf_url}"
     if len(_ans) <= max_letter: 
         return _ans # there is not \n in the last
     else:

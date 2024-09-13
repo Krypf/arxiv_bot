@@ -44,10 +44,10 @@ def login_bsky(category):
     thumb = client.upload_blob(img)
     return client, thumb
 #%%
-def make_rich_text(title_line, authors_line, arxiv_url):
+def make_rich_text(title_line, authors_line, abs_url):
     tb = client_utils.TextBuilder()
     tb.text(title_line + '\n')
-    tb.link(arxiv_url, arxiv_url)
+    tb.link(abs_url, abs_url)
     tb.text('\n' + authors_line)
     return tb
 
@@ -74,8 +74,8 @@ def send_post_to_bluesky(client, text, thumb, max_letter=300, today='today'):
     if len(t) > max_letter:
         t = shorten_paper_info(t, max_letter)
     
-    title_line, authors_line, arxiv_url, pdf_url = t.split("\n") 
-    tb = make_rich_text(title_line, authors_line, arxiv_url)
+    title_line, authors_line, abs_url, pdf_url = t.split("\n") 
+    tb = make_rich_text(title_line, authors_line, abs_url)
     embed_external = make_linkcard(title_line, pdf_url, thumb)
     
     client.send_post(tb, embed=embed_external)

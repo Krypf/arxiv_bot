@@ -50,8 +50,8 @@ def login_twitter(category):
 
 # Function to read content from a text file and tweet it
 
-def make_tweet(title_line, authors_line, arxiv_url, pdf_url):
-    return '\n'.join([title_line, arxiv_url, authors_line, pdf_url])
+def make_tweet(title_line, authors_line, abs_url, pdf_url):
+    return '\n'.join([title_line, abs_url, authors_line, pdf_url])
 
 
 from printlog import printlog
@@ -68,8 +68,8 @@ def send_post_to_twitter(client, text, thumb=None, max_letter=280, today='today'
         t = shorten_paper_info(t, max_letter)
     try:
         # Post Tweet
-        title_line, authors_line, arxiv_url, pdf_url = t.split("\n")
-        tw = make_tweet(title_line, authors_line, arxiv_url, pdf_url)
+        title_line, authors_line, abs_url, pdf_url = t.split("\n")
+        tw = make_tweet(title_line, authors_line, abs_url, pdf_url)
         client.create_tweet(text=tw)
         # print("Tweet posted successfully!")
         printlog("Text posted on Twitter")
@@ -80,30 +80,7 @@ def send_post_to_twitter(client, text, thumb=None, max_letter=280, today='today'
 
     return None
 
-#%%
 
-def reduce_to_api_maximum(text_array, category: str, api_maximum: int):
-    m = api_maximum
-    text_array = text_array[:m-2]
-    t = "Twitter API v2 limits posts to 50 per day. All the posts including the remaining submissions are posted on Bluesky: " + f"https://bsky.app/profile/krxiv-{category}.bsky.social"
-    text_array.append(t)
-    text_array.append("")
-    return text_array
-    
-def Twitter_with_api_max(iteration, client_twitter, text, date, api_maximum: int = 50):
-    # Twitter
-    # 1500 / month
-    if iteration <= api_maximum - 2:
-        send_post_to_twitter(client_twitter, text, today=date)
-    elif iteration == api_maximum - 1:
-        t = f"Twitter API v2 limits posts to 1500 per month ({api_maximum} per day). All the posts including the remaining submissions are posted on Bluesky: " + f"https://bsky.app/profile/krxiv-{category}.bsky.social"
-        client_twitter.create_tweet(text=t)
-        printlog(f"posted on Twitter\n{t}")
-    elif iteration == api_maximum:
-        t = ""
-        send_post_to_twitter(client_twitter, t, today=date)
-    else:
-        pass
 #%%
 def test():
     # Specify the file (category) you want to read from
