@@ -5,6 +5,7 @@ from datetime import datetime
 from typing import List
 import requests
 import sys
+import json
 
 from bs4 import BeautifulSoup
 from lxml import etree
@@ -177,6 +178,7 @@ class ArxivText:
         # Define the path to the file
         self.file_name = f"{self.category}-{self.date}{extension}"
         self.file_path = os.path.join(self.parent_folder, self.category, self.file_name)
+        self.extension = extension
         
     def read_content(self):
         # Check if the file exists
@@ -185,9 +187,12 @@ class ArxivText:
             cd_arxiv_bot()
 
         # Open and read the content of the file
-        with open(self.file_path, 'r', encoding='utf-8') as file:
-            content = file.read()
-
+        if self.extension == '.txt':
+            with open(self.file_path, 'r', encoding='utf-8') as file:
+                content = file.read()
+        if self.extension == '.json':
+            with open(self.file_path, 'r', encoding='utf-8') as file:
+                content = json.load(file)
         return content
 
     def read_HTML_soup(self, submissions: str):
@@ -292,16 +297,18 @@ class ArxivSoup():
         name = f'item{item_number}'
 
         article_info = {
+            'name': name,
             'abs_url': abs_url,
             'pdf_url': pdf_url,
             'title': title,
             'authors': authors
         }
+        return article_info
         # Dictionary with dynamic name as key
-        article = {
-            name: article_info
-        }
-        return article
+        # article = {
+            # name: article_info
+        # }
+        # return article
 
     def get_arxiv_link(soup_dt):
         # Find the <a> tag with title "Abstract"
