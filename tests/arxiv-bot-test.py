@@ -1,11 +1,5 @@
 #%%
-file_name = 'tests/import_module.py'
-with open(file_name, 'r') as file:
-    script = file.read()
-exec(script)
-# Now you can import the module
-from arxiv_function import fetch_arxiv
-
+from arxiv_func_test import fetch_arxiv
 #%%
 import sys
 from datetime import datetime, timedelta
