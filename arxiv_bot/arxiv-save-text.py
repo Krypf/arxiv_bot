@@ -12,7 +12,7 @@ def sub(obj: ArxivText):
     iterator = map(str, range(1, number_new_submissions))# start with 1
     for item_number in iterator:
         text = soup.get_one_post(item_number)
-        obj.append_to_path(text)# save_text_append
+        obj.append_to_path(text)
         
     # Display the result
     printlog(f"{obj.file_name} has been saved.")

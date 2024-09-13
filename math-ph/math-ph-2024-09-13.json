@@ -1,0 +1,18 @@
+[
+    {
+        "item1": {
+            "abs_url": "https://arxiv.org/abs/2409.06873",
+            "pdf_url": "https://arxiv.org/pdf/2409.06873",
+            "title": "Derived algebraic geometry of 2d lattice Yang-Mills theory",
+            "authors": "Marco Benini, Tom\u00e1s Fern\u00e1ndez, Alexander Schenkel"
+        }
+    },
+    {
+        "item2": {
+            "abs_url": "https://arxiv.org/abs/2409.06922",
+            "pdf_url": "https://arxiv.org/pdf/2409.06922",
+            "title": "The spectral $\\zeta$-function for quasi-regular Sturm--Liouville operators",
+            "authors": "Guglielmo Fucci, Mateusz Piorkowski, Jonathan Stanfill"
+        }
+    }
+]

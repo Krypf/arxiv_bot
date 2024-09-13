@@ -207,6 +207,17 @@ class ArxivText:
         with open(self.file_path, 'a') as f:
             f.write(text)
 
+    def check_date_in_html(self, date: str) -> None:
+            try:
+                # Check if the specified date is present in the HTML content
+                if not any(date in element.get_text() for element in self.soup.find_all(True)):
+                    printlog(f"Specified date ({date}) not found in HTML. No entries found for today. Exiting program.")            
+                    sys.exit(1)  # Exit the program
+                else:
+                    return 0
+            except:
+                sys.exit(1)  # Exit the program in case of an error with the request
+
 #%%
 class ArxivSoup():
     def __init__(self, soup: BeautifulSoup):
@@ -316,7 +327,6 @@ class ArxivSoup():
         return title, authors
 
 
-
 #%% https://chatgpt.com/share/7dfbd5e5-9c8d-4939-a815-efd595b5f229
 def read_inner_file(file = '', folder='', extension = '.txt') -> List[str]:
     cd_arxiv_bot(_printlog=False)
@@ -379,10 +389,6 @@ def save_text_append(text, file_path):
     with open(file_path, 'a') as f:
         f.write(text)
 
-def my_replace(text: str) -> str:
-    text = text.replace('Title:\n          ', 'Title: ')
-    text = text.replace('\n        ', '\n')
-    return text
 
 def get_results(category, _max_results=100):
     # Construct the default API client.

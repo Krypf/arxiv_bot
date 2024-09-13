@@ -1,0 +1,30 @@
+Bootstrapping the critical behavior of multi-matrix models
+Masoud Khalkhali, Nathan Pagliaroli, Andrei Parfeni, Brayden Smith
+https://arxiv.org/abs/2409.07565
+https://arxiv.org/pdf/2409.07565
+----
+Relative Dynamics of Vortices in Confined Bose--Einstein Condensates
+Tomoki Ohsawa
+https://arxiv.org/abs/2409.07657
+https://arxiv.org/pdf/2409.07657
+----
+ODE/IM correspondence in the semiclassical limit: Large degree asymptotics of the spectral determinants for the ground state potential
+Gabriele Degano
+https://arxiv.org/abs/2409.07866
+https://arxiv.org/pdf/2409.07866
+----
+Affine extensions of $\mathbb{Z}_2^2$-graded $osp(1|2)$ and Virasoro algebra
+N. Aizawa, J. Segar
+https://arxiv.org/abs/2409.07938
+https://arxiv.org/pdf/2409.07938
+----
+Affine generalizations of the nonholonomic problem of a convex body rolling without slipping on the plane
+M. Costa Villegas, L.C. García-Naranjo
+https://arxiv.org/abs/2409.08072
+https://arxiv.org/pdf/2409.08072
+----
+Delay ordinary differential equations: from Lagrangian approach to Hamiltonian approach
+Vladimir Dorodnitsyn, Roman Kozlov, Sergey Meleshko
+https://arxiv.org/abs/2409.08165
+https://arxiv.org/pdf/2409.08165
+----

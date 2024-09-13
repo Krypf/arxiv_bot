@@ -18,7 +18,7 @@ def test(soup):
     # iterator = map(str, range(1, (number_new_submissions)))# start with 1
     # print([i for i in iterator])
     print(soup.get_one_post(num))
-    # obj.append_to_path('h')# save_text_append
+    # obj.append_to_path('h')
 
 #%%
 test(soup)

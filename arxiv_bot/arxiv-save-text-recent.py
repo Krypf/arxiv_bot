@@ -45,7 +45,7 @@ def sub(obj: ArxivText):
         item_number = str(i)
         text = soup.get_one_post(item_number)
         # print(i, text)
-        obj.append_to_path(text)# save_text_append
+        obj.append_to_path(text)
         
     # Display the result
     printlog(f"{obj.file_name} has been saved.")

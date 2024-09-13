@@ -15,10 +15,8 @@ def sub(obj: ArxivText):
     for item_number in iterator:
         article = soup.get_one_article(item_number)
         data.append(article)
-        # obj.append_to_path(text)
         with open(obj.file_path, 'w') as file:
             json.dump(data, file, indent=4)
-        
     # Display the result
     printlog(f"{obj.file_name} has been saved.")
     return None
