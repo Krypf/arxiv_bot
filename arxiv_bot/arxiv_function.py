@@ -170,6 +170,11 @@ def cd_arxiv_bot(_printlog=True):
         if _printlog: printlog(f"Already in {folder_strings}")
         
 #%% # https://chatgpt.com/share/a02b3fb5-fb86-4de9-a1fa-5f001dcca01f
+
+from twitter_function import login_twitter, Twitter
+from bluesky_function import login_bsky, Bluesky
+import time
+
 class ArxivText:
     def __init__(self, category: str, date: str, parent_folder: str = os.path.expanduser("~/arxiv_bot"), extension: str = '.txt'):
         self.category = category
@@ -227,7 +232,31 @@ class ArxivText:
         t = f"These are all of the new submissions in the {self.category} category on {d}."
         printlog(f"Post \"{t}\"")
         return t
+    def update_bluesky(self, sleep_time=0.5):
+        articles_list = self.read_content()
+        client_bsky, thumb = login_bsky(self.category)
+        for article in articles_list:
+            article = Bluesky(article)
+            article.send_post_to_bluesky(client_bsky, thumb)
+            time.sleep(sleep_time)
+        client_bsky.send_post(self.last_post())
+        return None
+    def update_twitter(self, sleep_time=0.5, api_maximum=50):
+        articles_list = self.read_content()
+        client_twitter = login_twitter(self.category)
+        for article in articles_list:
+            article = Twitter(article)
+            twi_api = article.send_post_to_twitter(client_twitter)
+            if twi_api:
+                api_maximum = 50
+                t = f"Twitter API v2 limits posts to 1500 per month ({api_maximum} per day). All the posts including the remaining submissions are posted on Bluesky: " + f"https://bsky.app/profile/krxiv-{obj.category}.bsky.social"
+                printlog(f"Stop sending tweets. Please tweet manually:\n{t}")
+                break
+            time.sleep(sleep_time)
+        client_twitter.create_tweet(text=self.last_post())
+        return None
 
+    
 #%%
 class ArxivSoup():
     def __init__(self, soup: BeautifulSoup):
