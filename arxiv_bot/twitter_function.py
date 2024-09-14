@@ -1,5 +1,6 @@
 #%%
 import os
+from printlog import printlog
 
 def load_credentials(category):
     """
@@ -48,37 +49,28 @@ def login_twitter(category):
     )
     return client
 
-# Function to read content from a text file and tweet it
+from arxiv_function import ArxivPost
 
-def make_tweet(title, authors, abs_url, pdf_url):
-    return '\n'.join([title, abs_url, authors, pdf_url])
+class Twitter(ArxivPost):
+    # Function to read content from a text file and tweet it
 
+    def make_tweet(self):
+        return '\n'.join([self.title, self.pdf_url, self.authors, self.abs_url])
 
-from printlog import printlog
-from arxiv_function import post_last, ArxivPost
-
-def send_post_to_twitter(client, text, thumb=None, max_letter=280, today='today'):
-    t = text
-    if len(t) == 0:
-        t = post_last(today)
-        client.create_tweet(text=t)
-        return None
-    if len(t) > max_letter:
+    def send_post_to_twitter(self, client, thumb=None, max_letter=280):
         # Check if the tweet content is within Twitter's character limit
-        t = ArxivPost.shorten_long_paper_info(t, max_letter)
-    try:
-        # Post Tweet
-        title, authors, abs_url, pdf_url = t.split("\n")
-        tw = make_tweet(title, authors, abs_url, pdf_url)
-        client.create_tweet(text=tw)
-        # print("Tweet posted successfully!")
-        printlog("Text posted on Twitter")
-    except tweepy.errors.TweepyException as e:
-        printlog(f"Error occurred: {e}")
-        # 429 TooManyRequests
-        return e
+        self = self.shorten_long_paper_info(max_letter)
+        try:
+            # Post Tweet
+            tweet = self.make_tweet()
+            client.create_tweet(text=tweet)
+            printlog(f"Target article posted on Twitter: {self.title}")
+        except tweepy.errors.TweepyException as e:
+            printlog(f"Error occurred: {e}")
+            # e.g. 429 TooManyRequests
+            return e
 
-    return None
+        return None
 
 
 #%%

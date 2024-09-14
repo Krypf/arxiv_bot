@@ -222,6 +222,12 @@ class ArxivText:
             except:
                 sys.exit(1)  # Exit the program in case of an error with the request
 
+    def last_post(self):
+        d = arxiv_formatted_date(self.date)
+        t = f"These are all of the new submissions in the {self.category} category on {d}."
+        printlog(f"Post \"{t}\"")
+        return t
+
 #%%
 class ArxivSoup():
     def __init__(self, soup: BeautifulSoup):
@@ -374,18 +380,11 @@ class ArxivPost():
         else:
             exit('shorten_long_paper_info: 1')
 
-def post_last(today):
-    t = f"These are all of the new submissions on {today}."
-    printlog(f"Post \"{t}\"")
-    return t
+
 
 def shorten_authors(authors):
     authors_list = authors.split(", ")
     return authors_list[0] + " " + "et al."
-
-
-
-
 #%% constants
 
 categories_content = read_inner_file(file='categories', folder='arxiv_bot')# the current directory is arxiv_bot and the subfolder is arxiv_bot
