@@ -4,24 +4,25 @@ import time
 from datetime import datetime
 
 from printlog import printlog
-from arxiv_function import categories_content, ArxivText, arxiv_formatted_date
-from bluesky_function import login_bsky, send_post_to_bluesky
+from arxiv_function import categories_content, ArxivText, arxiv_formatted_date, post_last
+from bluesky_function import login_bsky, Bluesky
 from twitter_function import login_twitter, send_post_to_twitter
 #%%
 def sub(obj: ArxivText, sleep_time=1):
     client_bsky, thumb = login_bsky(obj.category)
     client_twitter = login_twitter(obj.category)
-    # Split the text using "----" as the delimiter
-    text = obj.read_content()
-    text_array = text.split("\n----\n")
+    articles_list = obj.read_content()
     d = arxiv_formatted_date(obj.date)
-    for t in text_array:
-        printlog(f"Target text:\n{t}")
-        send_post_to_bluesky(client_bsky, t, thumb, today=d)
+    # Bluesky
+    for article in articles_list:
+        printlog(f"Target article: {article.title}")
+        article.send_post_to_bluesky(client_bsky, thumb)
         time.sleep(sleep_time)
-    for t in text_array:
-        printlog(f"Target text:\n{t}")
-        twi_api = send_post_to_twitter(client_twitter, t, today = d)
+    client_bsky.send_post(post_last(d))
+    
+    for article in articles_list:
+        printlog(f"Target article: {article.title}")
+        twi_api = send_post_to_twitter(client_twitter, article, today = d)
         if twi_api:
             api_maximum = 50
             t = f"Twitter API v2 limits posts to 1500 per month ({api_maximum} per day). All the posts including the remaining submissions are posted on Bluesky: " + f"https://bsky.app/profile/krxiv-{obj.category}.bsky.social"
@@ -33,7 +34,7 @@ def sub(obj: ArxivText, sleep_time=1):
 def main(today: str, categories_content=categories_content):
     for category in categories_content:
         printlog(f"The category is {category}")
-        reader = ArxivText(category, today)
+        reader = ArxivText(category, today, extension='.json')
         sub(reader, sleep_time = 0.5)
     printlog(f"This is the end of all the posts on {today}")
 
