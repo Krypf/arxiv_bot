@@ -50,12 +50,12 @@ def login_twitter(category):
 
 # Function to read content from a text file and tweet it
 
-def make_tweet(title_line, authors_line, abs_url, pdf_url):
-    return '\n'.join([title_line, abs_url, authors_line, pdf_url])
+def make_tweet(title, authors, abs_url, pdf_url):
+    return '\n'.join([title, abs_url, authors, pdf_url])
 
 
 from printlog import printlog
-from arxiv_function import post_last, shorten_paper_info
+from arxiv_function import post_last, ArxivPost
 
 def send_post_to_twitter(client, text, thumb=None, max_letter=280, today='today'):
     t = text
@@ -65,11 +65,11 @@ def send_post_to_twitter(client, text, thumb=None, max_letter=280, today='today'
         return None
     if len(t) > max_letter:
         # Check if the tweet content is within Twitter's character limit
-        t = shorten_paper_info(t, max_letter)
+        t = ArxivPost.shorten_long_paper_info(t, max_letter)
     try:
         # Post Tweet
-        title_line, authors_line, abs_url, pdf_url = t.split("\n")
-        tw = make_tweet(title_line, authors_line, abs_url, pdf_url)
+        title, authors, abs_url, pdf_url = t.split("\n")
+        tw = make_tweet(title, authors, abs_url, pdf_url)
         client.create_tweet(text=tw)
         # print("Tweet posted successfully!")
         printlog("Text posted on Twitter")

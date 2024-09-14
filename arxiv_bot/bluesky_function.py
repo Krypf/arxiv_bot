@@ -31,7 +31,7 @@ def read_password(category):
 #%% constants
 from atproto import Client, client_utils, models
 
-def login_bsky(category):
+def login_bsky(category: str):
     # password
     p = read_password(category)
     # login
@@ -44,43 +44,36 @@ def login_bsky(category):
     thumb = client.upload_blob(img)
     return client, thumb
 #%%
-def make_rich_text(title_line, authors_line, abs_url):
-    tb = client_utils.TextBuilder()
-    tb.text(title_line + '\n')
-    tb.link(abs_url, abs_url)
-    tb.text('\n' + authors_line)
-    return tb
+from arxiv_function import ArxivPost
 
-def make_linkcard(title_line, pdf_url, thumb):
-    embed_external = models.AppBskyEmbedExternal.Main(
-        external = models.AppBskyEmbedExternal.External(
-            title = title_line,
-            description = "arXiv PDF link",
-            uri = pdf_url,
-            thumb=thumb.blob
+class Bluesky(ArxivPost):
+    def make_rich_text(self):
+        tb = client_utils.TextBuilder()
+        tb.text(self.title + '\n')
+        tb.link(self.pdf_url, self.pdf_url)
+        tb.text('\n' + self.authors)
+        return tb
+
+    def make_linkcard(self, thumb):
+        embed_external = models.AppBskyEmbedExternal.Main(
+            external = models.AppBskyEmbedExternal.External(
+                title = self.title,
+                description = "arXiv abstract link",
+                uri = self.abs_url,
+                thumb=thumb.blob
+            )
         )
-    )
-    return embed_external
-#%%
+        return embed_external
+    
+    def send_post_to_bluesky(self, client, thumb, max_letter=300):
+        self = self.shorten_long_paper_info(max_letter)
+        
+        tb = self.make_rich_text()
+        embed_external = self.make_linkcard(thumb)
+        
+        client.send_post(tb, embed=embed_external)
+        printlog(f"Target article posted on Bluesky: {self.title}")
 
-from arxiv_function import post_last, shorten_paper_info
-
-def send_post_to_bluesky(client, text, thumb, max_letter=300, today='today'):
-    t = text
-    if len(t) == 0:
-        t = post_last(today)
-        client.send_post(t)
         return None
-    if len(t) > max_letter:
-        t = shorten_paper_info(t, max_letter)
-    
-    title_line, authors_line, abs_url, pdf_url = t.split("\n") 
-    tb = make_rich_text(title_line, authors_line, abs_url)
-    embed_external = make_linkcard(title_line, pdf_url, thumb)
-    
-    client.send_post(tb, embed=embed_external)
-    printlog("Text posted on Bluesky")
-
-    return None
 
 #%%

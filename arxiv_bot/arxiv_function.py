@@ -356,27 +356,34 @@ def read_inner_file(file = '', folder='', extension = '.txt') -> List[str]:
         return []
 
 #%%
+class ArxivPost():
+    def __init__(self, article: dict):
+        self.title   = article['title']
+        self.authors = article['authors']
+        self.abs_url = article['abs_url']
+        self.pdf_url = article['pdf_url']
+
+    def shorten_long_paper_info(self, max_letter: int):
+        all_text = f"{self.title}\n{self.authors}\n{self.abs_url}\n{self.pdf_url}" # there is not \n in the last
+        if len(all_text) > max_letter:
+            self.authors = shorten_authors(self.authors)
+            printlog(f"Tweet content exceeds {max_letter} characters. The shorten_long_paper_info shortened the text.")
+        
+        if len(all_text) <= max_letter:
+            return self
+        else:
+            exit('shorten_long_paper_info: 1')
+
 def post_last(today):
     t = f"These are all of the new submissions on {today}."
-    printlog(f"posted\n{t}")
+    printlog(f"Post \"{t}\"")
     return t
 
 def shorten_authors(authors):
     authors_list = authors.split(", ")
     return authors_list[0] + " " + "et al."
 
-# 無駄が多いので後で shorten_paper_info を修正したい
 
-def shorten_paper_info(paper_info, max_letter: int):
-    title_line, authors_line, abs_url, pdf_url = paper_info.split("\n")    
-    authors_line = shorten_authors(authors_line)
-    printlog(f"Tweet content exceeds {max_letter} characters. The shorten_paper_info shortened the text.")
-    
-    _ans = f"{title_line}\n{authors_line}\n{abs_url}\n{pdf_url}"
-    if len(_ans) <= max_letter: 
-        return _ans # there is not \n in the last
-    else:
-        exit('shorten_paper_info: 1')
 
 
 #%% constants

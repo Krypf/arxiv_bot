@@ -1,7 +1,4 @@
 #%%
-# import sys
-# sys.path.append("..")
-
 import json
 from datetime import datetime
 from printlog import printlog
@@ -29,5 +26,5 @@ def main(today, categories_content=categories_content):
 
 if __name__ == '__main__':
     today = datetime.now().strftime('%Y-%m-%d')
-    today = '2024-9-12'
+    today = '2024-09-13'
     main(today)

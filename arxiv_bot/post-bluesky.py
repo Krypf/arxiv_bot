@@ -4,18 +4,19 @@ import time
 from datetime import datetime
 
 from printlog import printlog
-from arxiv_function import categories_content, ArxivText, arxiv_formatted_date
+from arxiv_function import categories_content, ArxivText, arxiv_formatted_date, ArxivPost, post_last
 from bluesky_function import login_bsky, send_post_to_bluesky
 #%%
 def sub(obj: ArxivText, sleep_time=1):
-    client, thumb = login_bsky(obj.category)
-    text = obj.read_content()
-    # Split the text using "----" as the delimiter
-    text_array = text.split("\n----\n")
+    client_bsky, thumb = login_bsky(obj.category)
+    articles_list = ArxivPost(obj.read_content())
     d = arxiv_formatted_date(obj.date)
-    for t in text_array:
-        send_post_to_bluesky(client, t, thumb, today=d)
+    # Bluesky
+    for article in articles_list:
+        printlog(f"Target article: {article.title}")
+        article.send_post_to_bluesky(client_bsky, thumb)
         time.sleep(sleep_time)
+    client_bsky.send_post(post_last(d))
     return 0
 #%%
 def main(today:str, categories_content=categories_content):
@@ -33,15 +34,5 @@ if __name__ == '__main__':
     today = datetime.now().strftime('%Y-%m-%d')
     main(today)
     
-#%% manual
-# category = 'gr-qc'
-# date = '2024-08-09'
-# obj = reader = ArxivText(category, today)
-# text = obj.read_content()
-
-# text_array = text.split("\n----\n")
-# client, thumb = login_bsky(category)
-# t = text_array[-1]
-# send_post_to_bluesky(client, t, thumb)
 
 # %%
