@@ -2,7 +2,6 @@
 import os
 import re
 from datetime import datetime
-from typing import List
 import requests
 import sys
 import json
@@ -12,6 +11,15 @@ from lxml import etree
 from pyquery import PyQuery as pq
 
 from printlog import printlog
+#%%
+def arxiv_formatted_date(date_str):
+    # Convert the string to a datetime object
+    date_obj = datetime.strptime(date_str, '%Y-%m-%d')
+
+    # Format the date as "Fri, 16 Aug 2024"
+    formatted_date = date_obj.strftime('%a, %-d %b %Y')
+
+    return (formatted_date)
 #%% https://chatgpt.com/share/c59404fb-255c-42db-892a-c19c00d92e8c
 class ArxivSearch:
     def __init__(self, category: str, submissions: str = "new", skip: str = "", show: str = "", parent_folder: str = os.path.expanduser("~/arxiv_bot")):
@@ -91,7 +99,7 @@ class ArxivSearch:
             skip_value = match.group(1)
             return (skip_value)
 
-    def extract_skip_numbers(self, date, _printlog=True):
+    def extract_skip_numbers(self, date: str, _printlog=True):
         date_to_find = arxiv_formatted_date(date)
         document = self.find_text_from_HTML('ul', date_to_find)
         # Find <li> element containing the date
@@ -141,18 +149,6 @@ class ArxivSearch:
         except requests.exceptions.RequestException as e:
             print(f"Error fetching the URL: {e}")
             sys.exit(1)  # Exit the program in case of an error with the request
-
-#%%
-
-def arxiv_formatted_date(date_str):
-    # Convert the string to a datetime object
-    date_obj = datetime.strptime(date_str, '%Y-%m-%d')
-
-    # Format the date as "Fri, 16 Aug 2024"
-    formatted_date = date_obj.strftime('%a, %-d %b %Y')
-
-    return (formatted_date)
-
 #%%
 def cd_arxiv_bot(_printlog=True):
     # Get the current working directory
@@ -168,93 +164,6 @@ def cd_arxiv_bot(_printlog=True):
         if _printlog: printlog(f"Changed directory to {folder_strings}")
     else:
         if _printlog: printlog(f"Already in {folder_strings}")
-        
-#%% # https://chatgpt.com/share/a02b3fb5-fb86-4de9-a1fa-5f001dcca01f
-
-from twitter_function import login_twitter, Twitter
-from bluesky_function import login_bsky, Bluesky
-import time
-
-class ArxivText:
-    def __init__(self, category: str, date: str, parent_folder: str = os.path.expanduser("~/arxiv_bot"), extension: str = '.txt'):
-        self.category = category
-        self.date = date
-        self.parent_folder = parent_folder
-        # Define the path to the file
-        self.file_name = f"{self.category}-{self.date}{extension}"
-        self.file_path = os.path.join(self.parent_folder, self.category, self.file_name)
-        self.extension = extension
-        
-    def read_content(self):
-        # Check if the file exists
-        if not os.path.exists(self.file_path):
-            printlog(f"File {self.file_name} does not exist in the specified directory.")
-            cd_arxiv_bot()
-
-        # Open and read the content of the file
-        if self.extension == '.txt':
-            with open(self.file_path, 'r', encoding='utf-8') as file:
-                content = file.read()
-        if self.extension == '.json':
-            with open(self.file_path, 'r', encoding='utf-8') as file:
-                content = json.load(file)
-        return content
-
-    def read_HTML_soup(self, submissions: str):
-        obj = ArxivSearch(self.category, submissions)
-        return obj.read_HTML()
-    
-    def append_to_path(self, text):
-        """
-        Appends the specified text to the given file.
-
-        Args:
-            text: The text to append.
-            file_path: The path of the file to append to.
-        """
-        # Append the text to the file
-        with open(self.file_path, 'a') as f:
-            f.write(text)
-
-    def check_date_in_html(self, date: str) -> None:
-            try:
-                # Check if the specified date is present in the HTML content
-                if not any(date in element.get_text() for element in self.soup.find_all(True)):
-                    printlog(f"Specified date ({date}) not found in HTML. No entries found for today. Exiting program.")            
-                    sys.exit(1)  # Exit the program
-                else:
-                    return 0
-            except:
-                sys.exit(1)  # Exit the program in case of an error with the request
-
-    def last_post(self):
-        d = arxiv_formatted_date(self.date)
-        t = f"These are all of the new submissions in the {self.category} category on {d}."
-        printlog(f"Post \"{t}\"")
-        return t
-    def update_bluesky(self, sleep_time=0.5):
-        articles_list = self.read_content()
-        client_bsky, thumb = login_bsky(self.category)
-        for article in articles_list:
-            article = Bluesky(article)
-            article.send_post_to_bluesky(client_bsky, thumb)
-            time.sleep(sleep_time)
-        client_bsky.send_post(self.last_post())
-        return None
-    def update_twitter(self, sleep_time=0.5, api_maximum=50):
-        articles_list = self.read_content()
-        client_twitter = login_twitter(self.category)
-        for article in articles_list:
-            article = Twitter(article)
-            twi_api = article.send_post_to_twitter(client_twitter)
-            if twi_api:
-                api_maximum = 50
-                t = f"Twitter API v2 limits posts to 1500 per month ({api_maximum} per day). All the posts including the remaining submissions are posted on Bluesky: " + f"https://bsky.app/profile/krxiv-{self.category}.bsky.social"
-                printlog(f"Stop sending tweets. Please tweet manually:\n{t}")
-                break
-            time.sleep(sleep_time)
-        client_twitter.create_tweet(text=self.last_post())
-        return None
 
 #%%
 class ArxivSoup():
@@ -298,28 +207,6 @@ class ArxivSoup():
         else:
             raise ValueError("Cross-lists link not found in the provided HTML.")
     
-    def get_one_post(self, item_number: str):
-        soup_dt, soup_dd = self.find_dt_and_dd(item_number)# not self.soup. ...
-        if "cross-list" in soup_dt.get_text():
-            printlog(f"Number {item_number} included in cross-list")
-            return ""
-        abs_url, pdf_url = ArxivSoup.get_arxiv_link(soup_dt)
-        title, authors = ArxivSoup.get_title_and_authors(soup_dd)
-        # Create dictionary
-        article_info = {
-            'abs_url': abs_url,
-            'pdf_url': pdf_url,
-            'title': title,
-            'authors': authors
-        }
-        text = f"{article_info['title']}\n"
-        text += f"{article_info['authors']}\n"
-        # summary = entry.summary; text += f"Summary: {summary}\n";
-        text += f"{article_info['abs_url']}\n"
-        text += f"{article_info['pdf_url']}\n"
-        text += "----\n"
-        return text
-    
     def get_one_article(self, item_number: str):
         soup_dt, soup_dd = self.find_dt_and_dd(item_number)# not self.soup. ...
         if "cross-list" in soup_dt.get_text():
@@ -344,6 +231,16 @@ class ArxivSoup():
         # }
         # return article
 
+    def get_one_article_text(self, item_number: str):
+        # Create dictionary
+        article_info = self.get_one_article(item_number)
+        text = f"{article_info['title']}\n"
+        text += f"{article_info['authors']}\n"
+        text += f"{article_info['abs_url']}\n"
+        text += f"{article_info['pdf_url']}\n"
+        text += "----\n"
+        return text
+    
     def get_arxiv_link(soup_dt):
         # Find the <a> tag with title "Abstract"
         abstract_link = soup_dt.find('a', title='Abstract')
@@ -366,8 +263,227 @@ class ArxivSoup():
         authors = ', '.join(a.get_text() for a in authors_div.find_all('a')) if authors_div else None
         return title, authors
 
+#%% # https://chatgpt.com/share/a02b3fb5-fb86-4de9-a1fa-5f001dcca01f
+
+from twitter_function import login_twitter
+from bluesky_function import login_bsky
+import time
+
+class ArxivText:
+    def __init__(self, category: str, date: str, parent_folder: str = os.path.expanduser("~/arxiv_bot"), extension: str = '.txt'):
+        self.category = category
+        self.date = date
+        self.parent_folder = parent_folder
+        # Define the path to the file
+        self.file_name = f"{self.category}-{self.date}{extension}"
+        self.file_path = os.path.join(self.parent_folder, self.category, self.file_name)
+        self.extension = extension
+        
+    def read_content(self):
+        # Check if the file exists
+        if not os.path.exists(self.file_path):
+            printlog(f"File {self.file_name} does not exist in the specified directory.")
+            cd_arxiv_bot()
+        # Open and read the content of the file
+        with open(self.file_path, 'r', encoding='utf-8') as file:
+            if self.extension == '.txt':
+                content = file.read()
+            elif self.extension == '.json':
+                content = json.load(file)
+        return content
+
+    def read_HTML_soup(self, submissions: str):
+        obj = ArxivSearch(self.category, submissions)
+        return obj.read_HTML()
+    
+    def append_to_path(self, text):
+        """
+        Appends the specified text to the given file.
+
+        Args:
+            text: The text to append.
+            file_path: The path of the file to append to.
+        """
+        # Append the text to the file
+        with open(self.file_path, 'a') as f:
+            f.write(text)
+
+    def check_date_in_html(self, date: str) -> None:
+            try:
+                # Check if the specified date is present in the HTML content
+                if not any(date in element.get_text() for element in self.soup.find_all(True)):
+                    printlog(f"Specified date ({date}) not found in HTML. No entries found for today. Exiting program.")            
+                    sys.exit(1)  # Exit the program
+                else:
+                    return 0
+            except:
+                sys.exit(1)  # Exit the program in case of an error with the request
+
+    def last_post(self):
+        d = arxiv_formatted_date(self.date)
+        t = f"These are all of the new submissions in the {self.category} category on {d}."
+        printlog(f"Post \"{t}\"")
+        return t
+    
+    def update_bluesky(self, sleep_time=0.5):
+        printlog(f"Start updating Bluesky with arxiv entries in the {self.category} category on {self.date}.")
+        articles_list = self.read_content()
+        client_bsky, thumb = login_bsky(self.category)
+        for article in articles_list:
+            article = ArxivPost(article)
+            article.send_post_to_bluesky(client_bsky, thumb)
+            time.sleep(sleep_time)
+        client_bsky.send_post(self.last_post())
+        return None
+    
+    def update_twitter(self, sleep_time=0.5, api_maximum=50):
+        printlog(f"Start updating Twitter with arxiv entries in the {self.category} category on {self.date}.")
+        articles_list = self.read_content()
+        client_twitter = login_twitter(self.category)
+        for article in articles_list:
+            article = ArxivPost(article)
+            twi_api = article.send_post_to_twitter(client_twitter)
+            if twi_api:
+                api_maximum = 50
+                t = f"Twitter API v2 limits posts to 1500 per month ({api_maximum} per day). All the posts including the remaining submissions are posted on Bluesky: "
+                t += f"https://bsky.app/profile/krxiv-{self.category}.bsky.social"
+                printlog(f"Stop sending tweets. Please tweet manually:\n{t}")
+                break
+            time.sleep(sleep_time)
+        client_twitter.create_tweet(text=self.last_post())
+        return None
+
+    def confirm_initialize(self):
+        # Print current date and time to stdout
+        current_date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        print(f"Current date and time: {current_date}")
+        print(f"The date you select is {self.date}")
+        print(f"The category you select is {self.category}")
+
+        # Ask for user confirmation with y/n input
+        while True:
+            user_input = input("Do you want to continue? (y/n): ").strip().lower()
+            if user_input in ['y', 'n']:
+                if user_input == 'y':
+                    print("You chose yes.")
+                else:
+                    print("You chose no.")
+                break
+            else:
+                print("Please enter 'y' or 'n'.")
+
+        # Create an empty file
+        open(self.file_path, 'w').close()
+        # Open the file in write mode
+        with open(self.file_path, 'w') as file:
+            # You can write to the file here if needed
+            file.write("")
+            printlog(f"File {self.file_name} has been initialized.")
+            # security: do not use the absolute file_path
+
+        return None
+    def save_all_in(self, iterator, soup: ArxivSoup):
+        if self.extension == '.json':
+            data = []
+            for item_number in iterator:
+                article = soup.get_one_article(item_number)
+                data.append(article)
+                with open(self.file_path, 'w') as file:
+                    json.dump(data, file, indent=4)
+        elif self.extension == '.txt':
+            for item_number in iterator:
+                text = soup.get_one_article_text(item_number)
+                self.append_to_path(text)
+        
+        printlog(f"{self.file_name} has been saved.")
+        return None
+        
+#%%
+import tweepy
+from atproto import client_utils, models
+
+def shorten_authors(authors):
+    authors_list = authors.split(", ")
+    return authors_list[0] + " " + "et al."
+
+class ArxivPost():
+    def __init__(self, article: dict):
+        self.name    = article['name']
+        self.title   = article['title']
+        self.authors = article['authors']
+        self.abs_url = article['abs_url']
+        self.pdf_url = article['pdf_url']
+        
+    def all_text(self):
+        return'\n'.join([self.title, self.pdf_url, self.authors, self.abs_url])
+        # return f"{self.title}\n{self.pdf_url}\n{self.authors}\n{self.abs_url}" # there is not \n in the last
+        
+    def shorten_long_paper_info(self, max_letter: int):
+        t = self.all_text()
+        if len(t) > max_letter:
+            self.authors = shorten_authors(self.authors)
+            printlog(f"Tweet content exceeds {max_letter} characters. The shorten_long_paper_info shortened the text.")
+        
+        if len(t) <= max_letter:
+            return self
+        else:
+            exit('shorten_long_paper_info: 1')
+
+    """
+    Move methods to solve the
+    ImportError: cannot import name 'ArxivPost' from partially initialized module 'arxiv_function' (most likely due to a circular import) (~/arxiv_bot/arxiv_bot/arxiv_function.py)    
+    """
+    # Twitter
+    # Function to read content from a text file and tweet it
+    def make_tweet(self):
+        return self.all_text()
+
+    def send_post_to_twitter(self, client, thumb=None, max_letter=280):
+        # Check if the tweet content is within Twitter's character limit
+        self = self.shorten_long_paper_info(max_letter)
+        try:
+            # Post Tweet
+            tweet = self.make_tweet()
+            client.create_tweet(text=tweet)
+            printlog(f"Target article posted on Twitter: {self.title}")
+        except tweepy.errors.TweepyException as e:
+            printlog(f"Error occurred: {e}")
+            # e.g. 429 TooManyRequests
+            return e
+
+        return None
+    # Bluesky
+    def make_rich_text(self):
+        tb = client_utils.TextBuilder()
+        tb.text(self.title + '\n')
+        tb.link(self.pdf_url, self.pdf_url)
+        tb.text('\n' + self.authors)
+        return tb
+
+    def make_linkcard(self, thumb):
+        embed_external = models.AppBskyEmbedExternal.Main(
+            external = models.AppBskyEmbedExternal.External(
+                title = self.title,
+                description = "arXiv abstract link",
+                uri = self.abs_url,
+                thumb=thumb.blob
+            )
+        )
+        return embed_external
+    
+    def send_post_to_bluesky(self, client, thumb, max_letter=300):
+        self = self.shorten_long_paper_info(max_letter)
+        
+        tb = self.make_rich_text()
+        embed_external = self.make_linkcard(thumb)
+        
+        client.send_post(tb, embed=embed_external)
+        printlog(f"Target article posted on Bluesky: {self.title}")
+
+        return None
 
 #%% https://chatgpt.com/share/7dfbd5e5-9c8d-4939-a815-efd595b5f229
+from typing import List
 def read_inner_file(file = '', folder='', extension = '.txt') -> List[str]:
     cd_arxiv_bot(_printlog=False)
     
@@ -388,34 +504,22 @@ def read_inner_file(file = '', folder='', extension = '.txt') -> List[str]:
     except Exception as e:
         printlog(str(e))
         return []
-
-#%%
-class ArxivPost():
-    def __init__(self, article: dict):
-        self.title   = article['title']
-        self.authors = article['authors']
-        self.abs_url = article['abs_url']
-        self.pdf_url = article['pdf_url']
-
-    def shorten_long_paper_info(self, max_letter: int):
-        all_text = f"{self.title}\n{self.authors}\n{self.abs_url}\n{self.pdf_url}" # there is not \n in the last
-        if len(all_text) > max_letter:
-            self.authors = shorten_authors(self.authors)
-            printlog(f"Tweet content exceeds {max_letter} characters. The shorten_long_paper_info shortened the text.")
-        
-        if len(all_text) <= max_letter:
-            return self
-        else:
-            exit('shorten_long_paper_info: 1')
-
-
-
-def shorten_authors(authors):
-    authors_list = authors.split(", ")
-    return authors_list[0] + " " + "et al."
 #%% constants
-
 categories_content = read_inner_file(file='categories', folder='arxiv_bot')# the current directory is arxiv_bot and the subfolder is arxiv_bot
+#%%
+import argparse
+def parse_arguments():
+    parser = argparse.ArgumentParser(description='Process some dates.')
+    parser.add_argument('--date', type=str, help='The (current) date')
+    return parser.parse_args()
+
+def get_today():
+    args = parse_arguments()
+    if args.date:
+        today = args.date
+    else:
+        today = datetime.now().strftime('%Y-%m-%d')
+    return today
 
 if __name__ == '__main__':
     print('This is a module arxiv_function.py')

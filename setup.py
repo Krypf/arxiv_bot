@@ -4,7 +4,7 @@ with open('requirements.txt') as f:
 
 setup(
     name="arxiv_bot",
-    version="0.1",
+    version="1.6",
     packages=find_packages(),
     install_requires=requirements,
     test_suite='tests',

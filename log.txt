@@ -17355,3 +17355,36 @@ https://arxiv.org/pdf/2409.08280
 [2024-09-13 12:44:37] posted
 These are all of the new submissions on Fri, 13 Sep 2024.
 [2024-09-13 12:44:38] This is the end of all the posts on 2024-09-13
+[2024-09-15 20:38:43] The category is gr-qc
+[2024-09-15 20:38:43] File gr-qc-2024-09-13.json does not exist in the specified directory.
+[2024-09-15 20:38:43] Already in ~/arxiv_bot
+[2024-09-15 20:42:53] gr-qc-2024-09-15.json has been saved.
+[2024-09-15 20:42:53] hep-th-2024-09-15.json has been saved.
+[2024-09-15 20:42:53] math-ph-2024-09-15.json has been saved.
+[2024-09-15 20:42:53] quant-ph-2024-09-15.json has been saved.
+[2024-09-15 20:42:53] hep-ph-2024-09-15.json has been saved.
+[2024-09-15 21:11:38] gr-qc-2024-09-13.json has been saved.
+[2024-09-15 21:11:38] hep-th-2024-09-13.json has been saved.
+[2024-09-15 21:11:38] math-ph-2024-09-13.json has been saved.
+[2024-09-15 21:11:38] quant-ph-2024-09-13.json has been saved.
+[2024-09-15 21:11:39] hep-ph-2024-09-13.json has been saved.
+[2024-09-15 21:37:53] gr-qc-2024-09-13.json has been saved.
+[2024-09-15 21:37:53] hep-th-2024-09-13.json has been saved.
+[2024-09-15 21:37:53] math-ph-2024-09-13.json has been saved.
+[2024-09-15 21:37:53] quant-ph-2024-09-13.json has been saved.
+[2024-09-15 21:37:53] hep-ph-2024-09-13.json has been saved.
+[2024-09-15 21:42:45] The category is gr-qc
+[2024-09-15 21:42:47] Target article posted on Bluesky: A Bogovski\v{i}-type operator for Corvino-Schoen hyperbolic gluing
+[2024-09-15 21:42:48] Target article posted on Bluesky: Ellipsoidal Universe and Cosmic Shear
+[2024-09-15 21:42:48] Target article posted on Bluesky: A test of the conjectured critical black-hole formation -- null geodesic correspondence: The case of self-gravitating scalar fields
+[2024-09-15 21:42:49] Target article posted on Bluesky: Which is which? Identification of the two compact objects in gravitational-wave binaries
+[2024-09-15 21:42:50] Target article posted on Bluesky: Gravitational wave polarisations in nonminimally coupled gravity
+[2024-09-15 21:42:50] Target article posted on Bluesky: Analytical solutions for Maxwell-scalar system on radially symmetric spacetimes
+[2024-09-15 21:42:51] Target article posted on Bluesky: The Penrose inequality in spherical symmetry with charge and in Gauss-Bonnet gravity
+[2024-09-15 21:42:52] Target article posted on Bluesky: Taub-NUT Black Hole in Higher Derivative Gravity and Its Thermodynamics
+[2024-09-15 21:42:52] Target article posted on Bluesky: Scalar induced gravitational waves in f(R) gravity
+[2024-09-15 21:42:53] Target article posted on Bluesky: Semi-Classical limit and quantum corrections in noncoincidence power-law $f(Q)$-Cosmology
+[2024-09-15 21:42:54] Target article posted on Bluesky: Black Hole Evaporation Process and Tangherlini-Reissner-Nordstr\"om Black Holes Shadow
+[2024-09-15 21:42:54] Target article posted on Bluesky: Probing Quantum Gravity Effects with Eccentric Extreme Mass-Ratio Inspirals
+[2024-09-16 02:14:16] No <a name='item1️'>[1️]</a> found
+[2024-09-16 02:14:50] No <a name='item1️'>[1️]</a> found

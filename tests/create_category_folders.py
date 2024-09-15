@@ -1,11 +1,11 @@
-import os
-
+#%%
 file_name = 'tests/import_module.py'
 with open(file_name, 'r') as file:
     script = file.read()
 exec(script)
+# Now you can import the original module
 #%%
-# Now you can import the module
+import os
 from arxiv_function import read_categories_file
 
 def create_folder_if_not_exists(folder_name):

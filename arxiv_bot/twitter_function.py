@@ -48,31 +48,6 @@ def login_twitter(category):
         access_token_secret=credentials_dict['Access Token Secret']
     )
     return client
-
-from arxiv_function import ArxivPost
-
-class Twitter(ArxivPost):
-    # Function to read content from a text file and tweet it
-
-    def make_tweet(self):
-        return '\n'.join([self.title, self.pdf_url, self.authors, self.abs_url])
-
-    def send_post_to_twitter(self, client, thumb=None, max_letter=280):
-        # Check if the tweet content is within Twitter's character limit
-        self = self.shorten_long_paper_info(max_letter)
-        try:
-            # Post Tweet
-            tweet = self.make_tweet()
-            client.create_tweet(text=tweet)
-            printlog(f"Target article posted on Twitter: {self.title}")
-        except tweepy.errors.TweepyException as e:
-            printlog(f"Error occurred: {e}")
-            # e.g. 429 TooManyRequests
-            return e
-
-        return None
-
-
 #%%
 def test():
     # Specify the file (category) you want to read from
@@ -83,7 +58,7 @@ def test():
 
     # Print the dictionary
     if credentials_dict:
-        print("Check if the API Key starts with", credentials_dict['API Key'][:3])
+        print("Please check if the API Key starts with", credentials_dict['API Key'][:3])
         for key, value in credentials_dict.items():
             print(f"{key}: {value[:3]}")
 

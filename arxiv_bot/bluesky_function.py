@@ -1,9 +1,6 @@
 #%%
 import os
-from printlog import printlog
-
 #%%
-
 def read_password(category):
     """
     Reads and returns the text from a password in the directory.
@@ -29,7 +26,7 @@ def read_password(category):
     return text
 
 #%% constants
-from atproto import Client, client_utils, models
+from atproto import Client
 
 def login_bsky(category: str):
     # password
@@ -43,37 +40,4 @@ def login_bsky(category: str):
         img = f.read()
     thumb = client.upload_blob(img)
     return client, thumb
-#%%
-from arxiv_function import ArxivPost
-
-class Bluesky(ArxivPost):
-    def make_rich_text(self):
-        tb = client_utils.TextBuilder()
-        tb.text(self.title + '\n')
-        tb.link(self.pdf_url, self.pdf_url)
-        tb.text('\n' + self.authors)
-        return tb
-
-    def make_linkcard(self, thumb):
-        embed_external = models.AppBskyEmbedExternal.Main(
-            external = models.AppBskyEmbedExternal.External(
-                title = self.title,
-                description = "arXiv abstract link",
-                uri = self.abs_url,
-                thumb=thumb.blob
-            )
-        )
-        return embed_external
-    
-    def send_post_to_bluesky(self, client, thumb, max_letter=300):
-        self = self.shorten_long_paper_info(max_letter)
-        
-        tb = self.make_rich_text()
-        embed_external = self.make_linkcard(thumb)
-        
-        client.send_post(tb, embed=embed_external)
-        printlog(f"Target article posted on Bluesky: {self.title}")
-
-        return None
-
 #%%

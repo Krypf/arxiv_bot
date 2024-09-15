@@ -17,7 +17,7 @@ def test(soup):
     # number_new_submissions = (soup).cross_list_number()
     # iterator = map(str, range(1, (number_new_submissions)))# start with 1
     # print([i for i in iterator])
-    print(soup.get_one_post(num))
+    print(soup.get_one_article_text(num))
     # obj.append_to_path('h')
 
 #%%

@@ -1,9 +1,7 @@
 #%%
 # https://chatgpt.com/share/2e11c4e2-96d3-4c1c-82a0-cbed39d6ec9a
-from datetime import datetime
-
 from printlog import printlog
-from arxiv_function import categories_content, ArxivText
+from arxiv_function import ArxivText, categories_content, get_today
 #%%
 def sub(obj: ArxivText):
 
@@ -13,9 +11,9 @@ def sub(obj: ArxivText):
 
     return None
 
-def main(today: str, categories_content):
-    for category in categories_content:
-        printlog(f"The category is {category}")
+def main():
+    today = get_today()
+    for category in categories_content[:1]:
         reader = ArxivText(category, today, extension='.json')
         sub(reader)
     printlog(f"This is the end of all the posts on {today}")
@@ -24,8 +22,6 @@ def main(today: str, categories_content):
 
 #%%
 if __name__ == '__main__':
-    today = datetime.now().strftime('%Y-%m-%d')
-    # today = '2024-09-13'
-    main(today, categories_content[:1])
+    main()
     
 # %%

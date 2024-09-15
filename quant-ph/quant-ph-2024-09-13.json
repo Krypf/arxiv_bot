@@ -1,0 +1,303 @@
+[
+    {
+        "name": "item1",
+        "abs_url": "https://arxiv.org/abs/2409.07461",
+        "pdf_url": "https://arxiv.org/pdf/2409.07461",
+        "title": "Comment on Room-temperature spontaneous superradiance from single diamond nanocrystals [Nat. Commun. 8, 1205 (2017)]",
+        "authors": "Jakub J. Borkowski, Artur Czerwinski, Piotr Kolenderski"
+    },
+    {
+        "name": "item2",
+        "abs_url": "https://arxiv.org/abs/2409.07516",
+        "pdf_url": "https://arxiv.org/pdf/2409.07516",
+        "title": "Quantum thermalization of translation-invariant systems at high temperature",
+        "authors": "Sa\u00fal Pilatowsky-Cameo, Soonwon Choi"
+    },
+    {
+        "name": "item3",
+        "abs_url": "https://arxiv.org/abs/2409.07537",
+        "pdf_url": "https://arxiv.org/pdf/2409.07537",
+        "title": "Connecting extended Wigner's friend arguments and noncontextuality",
+        "authors": "Laurens Walleghem, Y\u00ecl\u00e8 Y\u012bng, Rafael Wagner, David Schmid"
+    },
+    {
+        "name": "item4",
+        "abs_url": "https://arxiv.org/abs/2409.07597",
+        "pdf_url": "https://arxiv.org/pdf/2409.07597",
+        "title": "Introduction to Bell's inequality in Quantum Mechanics",
+        "authors": "M.S.Guimaraes, I. Roditi, S.P. Sorella"
+    },
+    {
+        "name": "item5",
+        "abs_url": "https://arxiv.org/abs/2409.07600",
+        "pdf_url": "https://arxiv.org/pdf/2409.07600",
+        "title": "Long distance spin shuttling enabled by few-parameter velocity optimization",
+        "authors": "Alessandro David, Akshay Menon Pazhedath, Lars R. Schreiber, Tommaso Calarco, Hendrik Bluhm, Felix Motzoi"
+    },
+    {
+        "name": "item6",
+        "abs_url": "https://arxiv.org/abs/2409.07612",
+        "pdf_url": "https://arxiv.org/pdf/2409.07612",
+        "title": "In-situ tunable interaction with an invertible sign between a fluxonium and a post cavity",
+        "authors": "Desislava G. Atanasova, Ian Yang, Teresa H\u00f6nigl-Decrinis, Daria Gusenkova, Ioan M. Pop, Gerhard Kirchmair"
+    },
+    {
+        "name": "item7",
+        "abs_url": "https://arxiv.org/abs/2409.07626",
+        "pdf_url": "https://arxiv.org/pdf/2409.07626",
+        "title": "Generalization Error Bound for Quantum Machine Learning in NISQ Era -- A Survey",
+        "authors": "Bikram Khanal, Pablo Rivas, Arun Sanjel, Korn Sooksatra, Ernesto Quevedo, Alejandro Rodriguez"
+    },
+    {
+        "name": "item8",
+        "abs_url": "https://arxiv.org/abs/2409.07632",
+        "pdf_url": "https://arxiv.org/pdf/2409.07632",
+        "title": "Learning Robust Observable to Address Noise in Quantum Machine Learning",
+        "authors": "Bikram Khanal, Pablo Rivas"
+    },
+    {
+        "name": "item9",
+        "abs_url": "https://arxiv.org/abs/2409.07646",
+        "pdf_url": "https://arxiv.org/pdf/2409.07646",
+        "title": "Multipartite Embezzlement of Entanglement",
+        "authors": "Lauritz van Luijk, Alexander Stottmeister, Henrik Wilming"
+    },
+    {
+        "name": "item10",
+        "abs_url": "https://arxiv.org/abs/2409.07673",
+        "pdf_url": "https://arxiv.org/pdf/2409.07673",
+        "title": "Robust and bright polarization-entangled photon sources exploiting non-critical phase matching without periodic poling",
+        "authors": "Ilhwan Kim, Yosep Kim, Yong-Su Kim, Kwang Jo Lee, Hyang-Tag Lim"
+    },
+    {
+        "name": "item11",
+        "abs_url": "https://arxiv.org/abs/2409.07676",
+        "pdf_url": "https://arxiv.org/pdf/2409.07676",
+        "title": "Quantum thermodynamics as a gauge theory",
+        "authors": "Gabriel Fernandez Ferrari, \u0141ukasz Rudnicki, Lucas Chibebe C\u00e9leri"
+    },
+    {
+        "name": "item12",
+        "abs_url": "https://arxiv.org/abs/2409.07707",
+        "pdf_url": "https://arxiv.org/pdf/2409.07707",
+        "title": "Low-overhead magic state distillation with color codes",
+        "authors": "Seok-Hyung Lee, Felix Thomsen, Nicholas Fazio, Benjamin J. Brown, Stephen D. Bartlett"
+    },
+    {
+        "name": "item13",
+        "abs_url": "https://arxiv.org/abs/2409.07731",
+        "pdf_url": "https://arxiv.org/pdf/2409.07731",
+        "title": "Group delay controlled by the decoherence of a single artificial atom",
+        "authors": "Y.-T. Cheng, K.-M. Hsieh, B.-Y. Wu, Z. Q. Niu, F. Aziz, Y.-H. Huang, P. Y. Wen, K.-T. Lin, Y.-H. Lin, J. C. Chen, A. F. Kockum, G.-D. Lin, Z.-R. Lin, Y. Lu, I.-C. Hoi"
+    },
+    {
+        "name": "item14",
+        "abs_url": "https://arxiv.org/abs/2409.07749",
+        "pdf_url": "https://arxiv.org/pdf/2409.07749",
+        "title": "Contrasting Statistical Phase Estimation with the Variational Quantum Eigensolver in the era of Early Fault Tolerant Quantum Computation",
+        "authors": "Ming-Zhi Chung, Andreas Thomasen, Henry Liao, Ryosuke Imai"
+    },
+    {
+        "name": "item15",
+        "abs_url": "https://arxiv.org/abs/2409.07784",
+        "pdf_url": "https://arxiv.org/pdf/2409.07784",
+        "title": "A Vision for a Bohm-Style Theory of Quantum Electrodynamics",
+        "authors": "Roderich Tumulka"
+    },
+    {
+        "name": "item16",
+        "abs_url": "https://arxiv.org/abs/2409.07847",
+        "pdf_url": "https://arxiv.org/pdf/2409.07847",
+        "title": "C3-VQA: Cryogenic Counter-based Co-processor for Variational Quantum Algorithms",
+        "authors": "Yosuke Ueno, Satoshi Imamura, Yuna Tomida, Teruo Tanimoto, Masamitsu Tanaka, Yutaka Tabuchi, Koji Inoue, Hiroshi Nakamura"
+    },
+    {
+        "name": "item17",
+        "abs_url": "https://arxiv.org/abs/2409.07863",
+        "pdf_url": "https://arxiv.org/pdf/2409.07863",
+        "title": "Collaboration Encouraging Quantum Secret Sharing Scheme with Seal Property",
+        "authors": "Xiaogang Cheng, Ren Guo"
+    },
+    {
+        "name": "item18",
+        "abs_url": "https://arxiv.org/abs/2409.07870",
+        "pdf_url": "https://arxiv.org/pdf/2409.07870",
+        "title": "Weaver: A Retargetable Compiler Framework for FPQA Quantum Architectures",
+        "authors": "O\u011fuzcan K\u0131rmemi\u015f, Francisco Rom\u00e3o, Emmanouil Giortamis, Pramod Bhatotia"
+    },
+    {
+        "name": "item19",
+        "abs_url": "https://arxiv.org/abs/2409.07875",
+        "pdf_url": "https://arxiv.org/pdf/2409.07875",
+        "title": "Wavevector-resolved polarization entanglement from radiative cascades",
+        "authors": "Alessandro Laneve, Michele B. Rota, Francesco Basso Basset, Mattia Beccaceci, Valerio Villari, Thomas Oberleitner, Yorick Reum, Tobias M. Krieger, Quirin Buchinger, Saimon F. Covre da Silva, Andreas Pfenning, Sandra Stroj, Sven H\u00f6fling, Armando Rastelli, Tobias Huber-Loyola, Rinaldo Trotta"
+    },
+    {
+        "name": "item20",
+        "abs_url": "https://arxiv.org/abs/2409.07883",
+        "pdf_url": "https://arxiv.org/pdf/2409.07883",
+        "title": "Exotic localization for the two body bound states in the non-reciprocal Hubbard model",
+        "authors": "Huan-Yu Wang, Ji Li, Wu-Ming Liu, Lin Wen, Xiao-Fei Zhang"
+    },
+    {
+        "name": "item21",
+        "abs_url": "https://arxiv.org/abs/2409.07886",
+        "pdf_url": "https://arxiv.org/pdf/2409.07886",
+        "title": "Leveraging non-unital noise for gate-based quantum reservoir computing",
+        "authors": "Francesco Monzani, Emanuele Ricci, Luca Nigro, Enrico Prati"
+    },
+    {
+        "name": "item22",
+        "abs_url": "https://arxiv.org/abs/2409.07899",
+        "pdf_url": "https://arxiv.org/pdf/2409.07899",
+        "title": "Correlated quantum machines beyond the standard second law",
+        "authors": "Milton Aguilar, Eric Lutz"
+    },
+    {
+        "name": "item23",
+        "abs_url": "https://arxiv.org/abs/2409.07909",
+        "pdf_url": "https://arxiv.org/pdf/2409.07909",
+        "title": "Classifying Multipartite Continuous Variable Entanglement Structures through Data-augmented Neural Networks",
+        "authors": "Xiaoting Gao, Mingsheng Tian, Feng-Xiao Sun, Ya-Dong Wu, Yu Xiang, Qiongyi He"
+    },
+    {
+        "name": "item24",
+        "abs_url": "https://arxiv.org/abs/2409.07939",
+        "pdf_url": "https://arxiv.org/pdf/2409.07939",
+        "title": "Superior decoy state and purification quantum key distribution protocols for realistic quantum-dot based single photon sources",
+        "authors": "Yoad Ordan, Yuval Bloom, Tamar Levin, Kfir Sulimany, Jennifer A. Hollingsworth, Ronen Rapaport"
+    },
+    {
+        "name": "item25",
+        "abs_url": "https://arxiv.org/abs/2409.07983",
+        "pdf_url": "https://arxiv.org/pdf/2409.07983",
+        "title": "Quantum Inverse Fast Fourier Transform",
+        "authors": "Mayank Roy, Devi Maheswaran"
+    },
+    {
+        "name": "item26",
+        "abs_url": "https://arxiv.org/abs/2409.07992",
+        "pdf_url": "https://arxiv.org/pdf/2409.07992",
+        "title": "Simulating anharmonic vibrational polaritons beyond the long wavelength approximation",
+        "authors": "Dipti Jasrasaria, Arkajit Mandal, David R. Reichman, Timothy C. Berkelbach"
+    },
+    {
+        "name": "item27",
+        "abs_url": "https://arxiv.org/abs/2409.08017",
+        "pdf_url": "https://arxiv.org/pdf/2409.08017",
+        "title": "Quantum hacking: Induced-photorefraction attack on a practical continuous-variable quantum key distribution system",
+        "authors": "Yiliang Wang, Yi Zheng, Chenlei Fang, Haobin Shi, Wei Pan"
+    },
+    {
+        "name": "item28",
+        "abs_url": "https://arxiv.org/abs/2409.08025",
+        "pdf_url": "https://arxiv.org/pdf/2409.08025",
+        "title": "1xN DWDM channel selective quantum frequency conversion",
+        "authors": "Tomoaki Arizono, Toshiki Kobayashi, Shigehito Miki, Hirotaka Terai, Tsuyoshi Kodama, Hideki Shimoi, Takashi Yamamoto, Rikizo Ikuta"
+    },
+    {
+        "name": "item29",
+        "abs_url": "https://arxiv.org/abs/2409.08032",
+        "pdf_url": "https://arxiv.org/pdf/2409.08032",
+        "title": "Near-optimal coherent state discrimination via continuously labelled non-Gaussian measurements",
+        "authors": "James Moran, Spiros Kechrimparis, Hyukjoon Kwon"
+    },
+    {
+        "name": "item30",
+        "abs_url": "https://arxiv.org/abs/2409.08038",
+        "pdf_url": "https://arxiv.org/pdf/2409.08038",
+        "title": "Towards Scalable Quantum Key Distribution: A Machine Learning-Based Cascade Protocol Approach",
+        "authors": "Hasan Abbas Al-Mohammed, Saif Al-Kuwari, Hashir Kuniyil, Ahmed Farouk"
+    },
+    {
+        "name": "item31",
+        "abs_url": "https://arxiv.org/abs/2409.08053",
+        "pdf_url": "https://arxiv.org/pdf/2409.08053",
+        "title": "Demonstration of Scully-Dr\\\"uhl-type quantum erasers on quantum computers",
+        "authors": "Bo-Hung Chen, Dah-Wei Chiou, Hsiu-Chuan Hsu"
+    },
+    {
+        "name": "item32",
+        "abs_url": "https://arxiv.org/abs/2409.08082",
+        "pdf_url": "https://arxiv.org/pdf/2409.08082",
+        "title": "Quantum Information Resources in Spin-1 Heisenberg Dimer Systems",
+        "authors": "Fadwa Benabdallah, M. Y. Abd-Rabbou, Mohammed Daoud, Saeed Haddadi"
+    },
+    {
+        "name": "item33",
+        "abs_url": "https://arxiv.org/abs/2409.08100",
+        "pdf_url": "https://arxiv.org/pdf/2409.08100",
+        "title": "Emergent Liouvillian exceptional points from exact principles",
+        "authors": "Shishir Khandelwal, Gianmichele Blasi"
+    },
+    {
+        "name": "item34",
+        "abs_url": "https://arxiv.org/abs/2409.08127",
+        "pdf_url": "https://arxiv.org/pdf/2409.08127",
+        "title": "A Riemannian Approach to the Lindbladian Dynamics of a Locally Purified Tensor Network",
+        "authors": "Emiliano Godinez-Ramirez, Richard Milbradt, Christian B. Mendl"
+    },
+    {
+        "name": "item35",
+        "abs_url": "https://arxiv.org/abs/2409.08137",
+        "pdf_url": "https://arxiv.org/pdf/2409.08137",
+        "title": "Spatiotemporal Photon Blockade for Nonreciprocal Quantum Absorption",
+        "authors": "Sajjad Taravati"
+    },
+    {
+        "name": "item36",
+        "abs_url": "https://arxiv.org/abs/2409.08173",
+        "pdf_url": "https://arxiv.org/pdf/2409.08173",
+        "title": "Quantum Entanglement Allocation through a Central Hub",
+        "authors": "Yu-Ao Chen, Xia Liu, Chenghong Zhu, Lei Zhang, Junyu Liu, Xin Wang"
+    },
+    {
+        "name": "item37",
+        "abs_url": "https://arxiv.org/abs/2409.08179",
+        "pdf_url": "https://arxiv.org/pdf/2409.08179",
+        "title": "$SU(1,1)\\times SU(2)$ approach and the Mandel parameter to the Hamiltonian of two oscillators with weak coupling",
+        "authors": "J. C. Vega, D. Ojeda-Guill\u00e9n, R. D. Mota"
+    },
+    {
+        "name": "item38",
+        "abs_url": "https://arxiv.org/abs/2409.08180",
+        "pdf_url": "https://arxiv.org/pdf/2409.08180",
+        "title": "Fermionic Gaussian Testing and Non-Gaussian Measures via Convolution",
+        "authors": "Nicholas Lyu, Kaifeng Bu"
+    },
+    {
+        "name": "item39",
+        "abs_url": "https://arxiv.org/abs/2409.08182",
+        "pdf_url": "https://arxiv.org/pdf/2409.08182",
+        "title": "Silicon Spin Qubit Control and Readout Circuits in 22nm FDSOI CMOS",
+        "authors": "Raffaele R. Severino, Michele Spasaro, Domenico Zito"
+    },
+    {
+        "name": "item40",
+        "abs_url": "https://arxiv.org/abs/2409.08204",
+        "pdf_url": "https://arxiv.org/pdf/2409.08204",
+        "title": "Optimizing Qubit Control Pulses for State Preparation",
+        "authors": "Annika S. Wiening, Joern Bergendahl, Vicente Leyton-Ortega, Peter Nalbach"
+    },
+    {
+        "name": "item41",
+        "abs_url": "https://arxiv.org/abs/2409.08229",
+        "pdf_url": "https://arxiv.org/pdf/2409.08229",
+        "title": "Photonic Quantum Computers",
+        "authors": "M. AbuGhanem"
+    },
+    {
+        "name": "item42",
+        "abs_url": "https://arxiv.org/abs/2409.08230",
+        "pdf_url": "https://arxiv.org/pdf/2409.08230",
+        "title": "Photon pair generation via down-conversion in III-V semiconductor microrings: modal dispersion and quasi-phase matching",
+        "authors": "Samuel E. Fontaine, Colin Vendromin, Trevor J. Steiner, Amirali Atrli, Lillian Thiel, Joshua Castro, Galan Moody, John Bowers, Marco Liscidini, J. E. Sipe"
+    },
+    {
+        "name": "item43",
+        "abs_url": "https://arxiv.org/abs/2409.08265",
+        "pdf_url": "https://arxiv.org/pdf/2409.08265",
+        "title": "Faster Algorithmic Quantum and Classical Simulations by Corrected Product Formulas",
+        "authors": "Mohsen Bagherimehrab, Dominic W. Berry, Philipp Schleich, Abdulrahman Aldossary, Jorge A. Campos Gonzalez Angulo, Alan Aspuru-Guzik"
+    }
+]
