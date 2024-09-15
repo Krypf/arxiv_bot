@@ -17,7 +17,7 @@ python tests/arxiv-bot-test.py gr-qc 2024-07-14 2024-07-21
 
 ## Flow
 
-1. 'arxiv_bot/arxiv-save-HTML.py' によって New Submissions の HTML ソースをダウンロードします。
+1. 'arxiv_bot/save-HTML.py' によって New Submissions の HTML ソースをダウンロードします。
 2. HTML フォルダのソースから Title, Authors, Link (abs, pdf) を抜き出します。
 3. Bluesky にアップロードします。
 4. Twitter にアップロードします。
