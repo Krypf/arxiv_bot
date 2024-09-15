@@ -25,7 +25,7 @@ def main(today: str, categories_content):
 #%%
 if __name__ == '__main__':
     today = datetime.now().strftime('%Y-%m-%d')
-    today = '2024-09-13'
+    # today = '2024-09-13'
     main(today, categories_content[:1])
     
 # %%
