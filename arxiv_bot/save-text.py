@@ -13,12 +13,12 @@ def sub(obj: ArxivText):
     for item_number in iterator:
         text = soup.get_one_post(item_number)
         obj.append_to_path(text)
-        
+    
     # Display the result
     printlog(f"{obj.file_name} has been saved.")
     return None
 
-def main(today, categories_content=categories_content):
+def main(today, categories_content):
     for category in categories_content:
         obj = ArxivText(category, today)
         sub(obj)
@@ -26,4 +26,4 @@ def main(today, categories_content=categories_content):
 
 if __name__ == '__main__':
     today = datetime.now().strftime('%Y-%m-%d')
-    main(today)
+    main(today, categories_content)

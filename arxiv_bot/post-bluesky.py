@@ -5,8 +5,6 @@ from datetime import datetime
 from printlog import printlog
 from arxiv_function import categories_content, ArxivText
 #%%
-
-#%%
 def main(today:str, categories_content):
     printlog('Start posting on Bluesky')
     for category in categories_content:
@@ -21,6 +19,5 @@ if __name__ == '__main__':
     # date = '2024-08-09'
     today = datetime.now().strftime('%Y-%m-%d')
     main(today, categories_content)
-    
 
 # %%

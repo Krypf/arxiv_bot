@@ -249,14 +249,13 @@ class ArxivText:
             twi_api = article.send_post_to_twitter(client_twitter)
             if twi_api:
                 api_maximum = 50
-                t = f"Twitter API v2 limits posts to 1500 per month ({api_maximum} per day). All the posts including the remaining submissions are posted on Bluesky: " + f"https://bsky.app/profile/krxiv-{obj.category}.bsky.social"
+                t = f"Twitter API v2 limits posts to 1500 per month ({api_maximum} per day). All the posts including the remaining submissions are posted on Bluesky: " + f"https://bsky.app/profile/krxiv-{self.category}.bsky.social"
                 printlog(f"Stop sending tweets. Please tweet manually:\n{t}")
                 break
             time.sleep(sleep_time)
         client_twitter.create_tweet(text=self.last_post())
         return None
 
-    
 #%%
 class ArxivSoup():
     def __init__(self, soup: BeautifulSoup):
