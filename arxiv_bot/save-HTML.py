@@ -13,7 +13,7 @@ def sub(obj: ArxivSearch):
         # Save the HTML content to a file
         with open(obj.file_path, "w", encoding='utf-8') as file:
             file.write(response.text)
-        printlog(f"HTML source has been saved to {obj.file_name}")
+        printlog(f"{obj.file_name} has been saved.")
     else:
         printlog(f"Failed to retrieve the webpage. Status code: {response.status_code}")
         sys.exit(1)  # Exit the program
