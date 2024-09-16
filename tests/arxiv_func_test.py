@@ -29,9 +29,9 @@ def get_results(category, _max_results=100):
     return results
 
 #%%
+# https://chatgpt.com/share/2e11c4e2-96d3-4c1c-82a0-cbed39d6ec9a
 def fetch_arxiv(category, date, __max_results=100):
     sub_folder = category
-    
     # Create the subfolder if it does not exist
     if not os.path.exists(sub_folder):
         os.makedirs(sub_folder)

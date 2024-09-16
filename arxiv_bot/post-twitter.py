@@ -1,6 +1,8 @@
 #%%
 from printlog import printlog
-from arxiv_function import categories_content, ArxivText, get_today
+from arxiv_function import categories_content, ArxivText
+from get_args import get_today
+
 #%%
 def main():
     today = get_today()

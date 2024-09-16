@@ -122,7 +122,6 @@ class ArxivSearch:
             exit('1')
     
     def get_html(self):
-        # URL to fetch
         url = self.make_url()
         # Format the datetime object to the desired string format
         today = datetime.now().strftime('%A, %-d %B %Y')
@@ -149,6 +148,21 @@ class ArxivSearch:
         except requests.exceptions.RequestException as e:
             print(f"Error fetching the URL: {e}")
             sys.exit(1)  # Exit the program in case of an error with the request
+    
+    def save_one_html(self):
+        # https://chatgpt.com/share/c8e08b83-0d2d-4430-a447-e0e14a945d8b
+        response = self.get_html()
+        if response.status_code == 200:
+            # Save the HTML content to a file
+            with open(self.file_path, "w", encoding='utf-8') as file:
+                file.write(response.text)
+            printlog(f"{self.file_name} has been saved.")
+        else:
+            printlog(f"Failed to retrieve the webpage. Status code: {response.status_code}")
+            sys.exit(1)  # Exit the program
+
+        return None
+
 #%%
 def cd_arxiv_bot(_printlog=True):
     # Get the current working directory
@@ -397,7 +411,12 @@ class ArxivText:
         
         printlog(f"{self.file_name} has been saved.")
         return None
-        
+    def save_one_json(self):     
+        soup = ArxivSoup(self.read_HTML_soup('new'))
+        number_new_submissions = (soup).cross_list_number()
+        iterator = map(str, range(1, number_new_submissions))# start with 1
+        self.save_all_in(iterator, soup)    
+        return None
 #%%
 import tweepy
 from atproto import client_utils, models
@@ -505,22 +524,16 @@ def read_inner_file(file = '', folder='', extension = '.txt') -> List[str]:
     except Exception as e:
         printlog(str(e))
         return []
+#%%
+def check_if_HTML():
+    # Directory to save the file
+    directory = "HTML"
+    # Create the directory if it doesn't exist
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+    
 #%% constants
 categories_content = read_inner_file(file='categories', folder='arxiv_bot')# the current directory is arxiv_bot and the subfolder is arxiv_bot
-#%%
-import argparse
-def parse_arguments():
-    parser = argparse.ArgumentParser(description='Process some dates.')
-    parser.add_argument('--date', type=str, help='The (current) date')
-    return parser.parse_args()
-
-def get_today():
-    args = parse_arguments()
-    if args.date:
-        today = args.date
-    else:
-        today = datetime.now().strftime('%Y-%m-%d')
-    return today
 
 if __name__ == '__main__':
     print('This is a module arxiv_function.py')

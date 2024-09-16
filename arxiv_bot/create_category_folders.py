@@ -1,10 +1,4 @@
 #%%
-file_name = 'tests/import_module.py'
-with open(file_name, 'r') as file:
-    script = file.read()
-exec(script)
-# Now you can import the original module
-#%%
 import os
 from arxiv_function import read_inner_file
 

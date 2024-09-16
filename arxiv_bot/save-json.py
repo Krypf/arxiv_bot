@@ -1,19 +1,14 @@
 #%%
-from arxiv_function import ArxivText, ArxivSoup, categories_content, get_today
+from arxiv_function import ArxivText, categories_content
+from get_args import get_today
 
-def sub(obj: ArxivText):     
-    soup = ArxivSoup(obj.read_HTML_soup('new'))
-    number_new_submissions = (soup).cross_list_number()
-    iterator = map(str, range(1, number_new_submissions))# start with 1
-    obj.save_all_in(iterator, soup)    
-    return None
-
-def main():
+def save_json():
     today = get_today()
     for category in categories_content:
         obj = ArxivText(category, today, extension='.json')
-        sub(obj)
+        obj.save_one_json()
     return 0
 
+main = save_json
 if __name__ == '__main__':
     main()
