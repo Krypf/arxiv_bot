@@ -1,0 +1,86 @@
+[
+    {
+        "name": "item1",
+        "abs_url": "https://arxiv.org/abs/2409.08310",
+        "pdf_url": "https://arxiv.org/pdf/2409.08310",
+        "title": "(In)stability of symbiotic vortex-bright soliton in holographic immiscible binary superfluids",
+        "authors": "Yuping An, Li Li"
+    },
+    {
+        "name": "item2",
+        "abs_url": "https://arxiv.org/abs/2409.08317",
+        "pdf_url": "https://arxiv.org/pdf/2409.08317",
+        "title": "Cosmology of light towers and swampland constraints",
+        "authors": "Gonzalo F. Casas, Ignacio Ruiz"
+    },
+    {
+        "name": "item3",
+        "abs_url": "https://arxiv.org/abs/2409.08319",
+        "pdf_url": "https://arxiv.org/pdf/2409.08319",
+        "title": "Towards complexity of primary-deformed Virasoro circuits",
+        "authors": "Johanna Erdmenger, Jani Kastikainen, Tim Schuhmann"
+    },
+    {
+        "name": "item4",
+        "abs_url": "https://arxiv.org/abs/2409.08340",
+        "pdf_url": "https://arxiv.org/pdf/2409.08340",
+        "title": "Practical Introduction to Action-Dependent Field Theories",
+        "authors": "Manuel de Le\u00f3n, Jordi Gaset Rif\u00e0, Miguel C. Mu\u00f1oz-Lecanda, Xavier Rivas, Narciso Rom\u00e1n-Roy"
+    },
+    {
+        "name": "item5",
+        "abs_url": "https://arxiv.org/abs/2409.08548",
+        "pdf_url": "https://arxiv.org/pdf/2409.08548",
+        "title": "Hubble Tension in Power-Law $f(R)$ Gravity and Generalized Brans-Dicke Theory",
+        "authors": "Yousef Bisabr"
+    },
+    {
+        "name": "item6",
+        "abs_url": "https://arxiv.org/abs/2409.08649",
+        "pdf_url": "https://arxiv.org/pdf/2409.08649",
+        "title": "K27 as a symmetry of closed bosonic strings and branes",
+        "authors": "Keith Glennon, Peter West"
+    },
+    {
+        "name": "item7",
+        "abs_url": "https://arxiv.org/abs/2409.08709",
+        "pdf_url": "https://arxiv.org/pdf/2409.08709",
+        "title": "Timelike-bounded $dS_4$ holography from a solvable sector of the $T^2$ deformation",
+        "authors": "Eva Silverstein, Gonzalo Torroba"
+    },
+    {
+        "name": "item8",
+        "abs_url": "https://arxiv.org/abs/2409.08748",
+        "pdf_url": "https://arxiv.org/pdf/2409.08748",
+        "title": "Spectral decomposition of field operators and causal measurement in quantum field theory",
+        "authors": "Robert Oeckl"
+    },
+    {
+        "name": "item9",
+        "abs_url": "https://arxiv.org/abs/2409.08903",
+        "pdf_url": "https://arxiv.org/pdf/2409.08903",
+        "title": "Optical Aspect of Cosmological Black Holes in Einstein-Maxwell-Dilaton Theory",
+        "authors": "Hajar Belmahi, Amin Mohamed Rbah"
+    },
+    {
+        "name": "item10",
+        "abs_url": "https://arxiv.org/abs/2409.08984",
+        "pdf_url": "https://arxiv.org/pdf/2409.08984",
+        "title": "Higher-derivative supersymmetric effective field theories",
+        "authors": "Osmin Lacombe, Lorenzo Paoloni, Francisco G. Pedro"
+    },
+    {
+        "name": "item11",
+        "abs_url": "https://arxiv.org/abs/2409.09006",
+        "pdf_url": "https://arxiv.org/pdf/2409.09006",
+        "title": "Constraints on RG Flows from Protected Operators",
+        "authors": "Florent Baume, Alessio Miscioscia, Elli Pomoni"
+    },
+    {
+        "name": "item12",
+        "abs_url": "https://arxiv.org/abs/2409.09022",
+        "pdf_url": "https://arxiv.org/pdf/2409.09022",
+        "title": "New insights into the analytic structure of correlation functions via kinetic theory",
+        "authors": "Robbe Brants"
+    }
+]

@@ -6,7 +6,7 @@ exec(script)
 # Now you can import the original module
 #%%
 import os
-from arxiv_function import read_categories_file
+from arxiv_function import read_inner_file
 
 def create_folder_if_not_exists(folder_name):
     """
@@ -21,6 +21,6 @@ def create_folder_if_not_exists(folder_name):
     else:
         print(f'Folder "{folder_name}" already exists.')
 
-categories_content = read_categories_file(folder='arxiv_bot')
+categories_content = read_inner_file(file='categories', folder='arxiv_bot')
 for category in categories_content:
     create_folder_if_not_exists(category)

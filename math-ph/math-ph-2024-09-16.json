@@ -1,0 +1,37 @@
+[
+    {
+        "name": "item1",
+        "abs_url": "https://arxiv.org/abs/2409.08428",
+        "pdf_url": "https://arxiv.org/pdf/2409.08428",
+        "title": "Unitary and Open Scattering Quantum Walks on Graphs",
+        "authors": "Alain Joye"
+    },
+    {
+        "name": "item2",
+        "abs_url": "https://arxiv.org/abs/2409.08454",
+        "pdf_url": "https://arxiv.org/pdf/2409.08454",
+        "title": "Non-unitary Wightman CFTs and non-unitary vertex algebras",
+        "authors": "Sebastiano Carpi, Christopher Raymond, Yoh Tanimoto, James E. Tener"
+    },
+    {
+        "name": "item3",
+        "abs_url": "https://arxiv.org/abs/2409.08632",
+        "pdf_url": "https://arxiv.org/pdf/2409.08632",
+        "title": "The ground state energy is not always convex in the number of electrons",
+        "authors": "Simone Di Marino, Mathieu Lewin, Luca Nenna"
+    },
+    {
+        "name": "item4",
+        "abs_url": "https://arxiv.org/abs/2409.08835",
+        "pdf_url": "https://arxiv.org/pdf/2409.08835",
+        "title": "Proof of the Landau-Pekar Formula for the effective Mass of the Polaron at strong coupling",
+        "authors": "Morris Brooks"
+    },
+    {
+        "name": "item5",
+        "abs_url": "https://arxiv.org/abs/2409.09005",
+        "pdf_url": "https://arxiv.org/pdf/2409.09005",
+        "title": "Dunkl and Cherednik operators",
+        "authors": "Oleg Chalykh"
+    }
+]

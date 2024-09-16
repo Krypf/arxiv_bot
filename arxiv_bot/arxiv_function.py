@@ -419,15 +419,16 @@ class ArxivPost():
         # return f"{self.title}\n{self.pdf_url}\n{self.authors}\n{self.abs_url}" # there is not \n in the last
         
     def shorten_long_paper_info(self, max_letter: int):
-        t = self.all_text()
-        if len(t) > max_letter:
+        if len(self.all_text()) > max_letter:
             self.authors = shorten_authors(self.authors)
-            printlog(f"Tweet content exceeds {max_letter} characters. The shorten_long_paper_info shortened the text.")
-        
-        if len(t) <= max_letter:
-            return self
+            printlog(f"The content of {self.title} exceeds {max_letter} characters. The shorten_long_paper_info shortened the text.")
+            # renew all the text
+            if len(self.all_text()) <= max_letter:
+                return self
+            else:
+                exit('shorten_long_paper_info: 1')
         else:
-            exit('shorten_long_paper_info: 1')
+            return self
 
     """
     Move methods to solve the

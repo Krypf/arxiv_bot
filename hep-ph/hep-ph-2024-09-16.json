@@ -1,0 +1,135 @@
+[
+    {
+        "name": "item1",
+        "abs_url": "https://arxiv.org/abs/2409.08316",
+        "pdf_url": "https://arxiv.org/pdf/2409.08316",
+        "title": "A collinear shower algorithm for NSL non-singlet fragmentation",
+        "authors": "Melissa van Beekveld, Mrinal Dasgupta, Basem Kamal El-Menoufi, Jack Helliwell, Pier Francesco Monni, Gavin P. Salam"
+    },
+    {
+        "name": "item2",
+        "abs_url": "https://arxiv.org/abs/2409.08322",
+        "pdf_url": "https://arxiv.org/pdf/2409.08322",
+        "title": "Illuminating dark objects with dark matter lampshades",
+        "authors": "Joseph Bramante, Melissa D. Diamond, J. Leo Kim"
+    },
+    {
+        "name": "item3",
+        "abs_url": "https://arxiv.org/abs/2409.08325",
+        "pdf_url": "https://arxiv.org/pdf/2409.08325",
+        "title": "Loops in supergroups",
+        "authors": "Nathaniel Craig, Emanuele Gendy, Jessica N. Howard"
+    },
+    {
+        "name": "item4",
+        "abs_url": "https://arxiv.org/abs/2409.08568",
+        "pdf_url": "https://arxiv.org/pdf/2409.08568",
+        "title": "Predictions for the rare kaon decays $K_{S,L} \\to \\pi^0 \\ell^+ \\ell^-$ from QCD in the limit of a large number of colours",
+        "authors": "Giancarlo D'Ambrosio, Marc Knecht"
+    },
+    {
+        "name": "item5",
+        "abs_url": "https://arxiv.org/abs/2409.08620",
+        "pdf_url": "https://arxiv.org/pdf/2409.08620",
+        "title": "Probing Large Extra Dimension at DUNE using beam tunes",
+        "authors": "Kim Siyeon, Suhyeon Kim, Mehedi Masud, Juseong Park"
+    },
+    {
+        "name": "item6",
+        "abs_url": "https://arxiv.org/abs/2409.08639",
+        "pdf_url": "https://arxiv.org/pdf/2409.08639",
+        "title": "Resonance suppression during the hadronic stage from the FAIR to the intermediate RHIC energy regime",
+        "authors": "Amine Chabane, Lisa Engel, Tom Reichert, Jan Steinheimer, Marcus Bleicher"
+    },
+    {
+        "name": "item7",
+        "abs_url": "https://arxiv.org/abs/2409.08657",
+        "pdf_url": "https://arxiv.org/pdf/2409.08657",
+        "title": "Phenomenology of Minimal Flavour Deconstruction at the lowest new scale",
+        "authors": "Riccardo Barbieri"
+    },
+    {
+        "name": "item8",
+        "abs_url": "https://arxiv.org/abs/2409.08742",
+        "pdf_url": "https://arxiv.org/pdf/2409.08742",
+        "title": "Simulation of a (3+1)D glasma in Milne coordinates: Topological charge, eccentricity, and angular momentum",
+        "authors": "Hidefumi Matsuda, Xu-Guang Huang"
+    },
+    {
+        "name": "item9",
+        "abs_url": "https://arxiv.org/abs/2409.08747",
+        "pdf_url": "https://arxiv.org/pdf/2409.08747",
+        "title": "Exploring Chirality Structure in Nucleon Decay",
+        "authors": "Koichi Hamaguchi, Shihwen Hor, Natsumi Nagata, Hiroki Takahashi"
+    },
+    {
+        "name": "item10",
+        "abs_url": "https://arxiv.org/abs/2409.08757",
+        "pdf_url": "https://arxiv.org/pdf/2409.08757",
+        "title": "Scaling up to Multivariate Rational Function Reconstruction",
+        "authors": "Andreas Maier"
+    },
+    {
+        "name": "item11",
+        "abs_url": "https://arxiv.org/abs/2409.08828",
+        "pdf_url": "https://arxiv.org/pdf/2409.08828",
+        "title": "Thermal leptogenesis, dark matter and gravitational waves from an extended canonical seesaw",
+        "authors": "Partha Kumar Paul, Narendra Sahu, Prashant Shukla"
+    },
+    {
+        "name": "item12",
+        "abs_url": "https://arxiv.org/abs/2409.08837",
+        "pdf_url": "https://arxiv.org/pdf/2409.08837",
+        "title": "Considerations on electromagnetic radiation in Podolsky electrodynamics within a Lorentz-symmetry violating framework",
+        "authors": "J. P. Ferreira, Patricio Gaete, Jos\u00e9 Abdalla Helay\u00ebl-Neto"
+    },
+    {
+        "name": "item13",
+        "abs_url": "https://arxiv.org/abs/2409.08841",
+        "pdf_url": "https://arxiv.org/pdf/2409.08841",
+        "title": "Domain-wall Skyrmion phase of QCD in magnetic field: Gauge field dynamics",
+        "authors": "Yuki Amari, Minoru Eto, Muneto Nitta"
+    },
+    {
+        "name": "item14",
+        "abs_url": "https://arxiv.org/abs/2409.08879",
+        "pdf_url": "https://arxiv.org/pdf/2409.08879",
+        "title": "Two-loop planar master integrals for NNLO QCD corrections to W-pair production in quark-antiquark annihilation",
+        "authors": "Wen-Jie He, Ren-You Zhang, Liang Han, Yi Jiang, Zhe Li, Xiao-Feng Wang, Shu-Xiang Li, Pan-Feng Li, Qing-hai Wang"
+    },
+    {
+        "name": "item15",
+        "abs_url": "https://arxiv.org/abs/2409.08918",
+        "pdf_url": "https://arxiv.org/pdf/2409.08918",
+        "title": "Entropic uncertainty relations and quantum Fisher information of top quarks in a large hadron collider",
+        "authors": "Biao-Liang Ye, Li-Yuan Xue, Zhi-Qiang Zhu, Dan-Dan Shi, Shao-Ming Fei"
+    },
+    {
+        "name": "item16",
+        "abs_url": "https://arxiv.org/abs/2409.08933",
+        "pdf_url": "https://arxiv.org/pdf/2409.08933",
+        "title": "Dynamical study of $T_{ss}$ systems at a chiral quark model",
+        "authors": "Jiazheng Ji, Yuheng Xing, Xinxing Wu, Ning Xu, Yue Tan"
+    },
+    {
+        "name": "item17",
+        "abs_url": "https://arxiv.org/abs/2409.08969",
+        "pdf_url": "https://arxiv.org/pdf/2409.08969",
+        "title": "One loop $\\beta$ functions for mirror noncommutative Euclidean Yukawa sector within electroweak-scale right handed neutrinos model",
+        "authors": "K.A. Bouteldja, N. Bouayed, S. Kouadik, F-Z Ighezou"
+    },
+    {
+        "name": "item18",
+        "abs_url": "https://arxiv.org/abs/2409.09008",
+        "pdf_url": "https://arxiv.org/pdf/2409.09008",
+        "title": "Chiral dark matter and radiative neutrino masses from gauged U(1) symmetry",
+        "authors": "K.S. Babu, Shreyashi Chakdar, Vishnu P.K"
+    },
+    {
+        "name": "item19",
+        "abs_url": "https://arxiv.org/abs/2409.09019",
+        "pdf_url": "https://arxiv.org/pdf/2409.09019",
+        "title": "Nonequilibrium Phenomenology of Identified Particle Spectra in Heavy-Ion Collisions at LHC Energies",
+        "authors": "Oleksandr Vitiuk, David Blaschke, Benjamin D\u00f6nigus, Gerd R\u00f6pke"
+    }
+]

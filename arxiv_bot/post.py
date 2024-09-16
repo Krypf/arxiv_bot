@@ -13,9 +13,14 @@ def sub(obj: ArxivText):
 
 def main():
     today = get_today()
-    for category in categories_content[:1]:
+    n = 5
+    for category in reversed(categories_content[n:]):
+        reader = ArxivText(category, today, extension='.json')
+        reader.update_bluesky()
+    for category in reversed(categories_content[:n]):
         reader = ArxivText(category, today, extension='.json')
         sub(reader)
+    
     printlog(f"This is the end of all the posts on {today}")
 
     return 0

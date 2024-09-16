@@ -17388,3 +17388,329 @@ These are all of the new submissions on Fri, 13 Sep 2024.
 [2024-09-15 21:42:54] Target article posted on Bluesky: Probing Quantum Gravity Effects with Eccentric Extreme Mass-Ratio Inspirals
 [2024-09-16 02:14:16] No <a name='item1️'>[1️]</a> found
 [2024-09-16 02:14:50] No <a name='item1️'>[1️]</a> found
+[2024-09-16 12:00:09] HTML source has been saved to arxiv_gr-qc_new.html
+[2024-09-16 12:00:09] HTML source has been saved to arxiv_hep-th_new.html
+[2024-09-16 12:00:09] HTML source has been saved to arxiv_math-ph_new.html
+[2024-09-16 12:00:09] HTML source has been saved to arxiv_quant-ph_new.html
+[2024-09-16 12:00:09] HTML source has been saved to arxiv_hep-ph_new.html
+[2024-09-16 12:00:09] HTML source has been saved to arxiv_astro-ph_new.html
+[2024-09-16 12:00:10] HTML source has been saved to arxiv_cond-mat_new.html
+[2024-09-16 12:00:19] gr-qc-2024-09-16.json has been saved.
+[2024-09-16 12:00:19] hep-th-2024-09-16.json has been saved.
+[2024-09-16 12:00:19] math-ph-2024-09-16.json has been saved.
+[2024-09-16 12:00:19] quant-ph-2024-09-16.json has been saved.
+[2024-09-16 12:00:20] hep-ph-2024-09-16.json has been saved.
+[2024-09-16 12:09:50] astro-ph-2024-09-16.json has been saved.
+[2024-09-16 12:09:50] cond-mat-2024-09-16.json has been saved.
+[2024-09-16 12:12:21] Start updating Bluesky with arxiv entries in the cond-mat category on 2024-09-16.
+[2024-09-16 12:12:24] Target article posted on Bluesky: Van der Waals interactions in linear chains with long-range correlated disorder
+[2024-09-16 12:12:24] Target article posted on Bluesky: Unraveling pairon excitations and the antiferromagnetic contributions in the cuprate specific heat
+[2024-09-16 12:12:25] Target article posted on Bluesky: Magnetic diffuse scattering of the $S$ = 5/2 fcc antiferromagnets Ba$_2$MnTeO$_6$ and Ba$_2$MnWO$_6$
+[2024-09-16 12:12:26] Target article posted on Bluesky: Quantum metric induced hole dispersion and emergent particle-hole symmetry in topological flat bands
+[2024-09-16 12:12:26] Target article posted on Bluesky: Spinon spin current
+[2024-09-16 12:12:27] Tweet content exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-16 12:19:18] Start updating Bluesky with arxiv entries in the cond-mat category on 2024-09-16.
+[2024-09-16 12:19:20] Target article posted on Bluesky: Van der Waals interactions in linear chains with long-range correlated disorder
+[2024-09-16 12:19:21] Target article posted on Bluesky: Unraveling pairon excitations and the antiferromagnetic contributions in the cuprate specific heat
+[2024-09-16 12:19:21] Target article posted on Bluesky: Magnetic diffuse scattering of the $S$ = 5/2 fcc antiferromagnets Ba$_2$MnTeO$_6$ and Ba$_2$MnWO$_6$
+[2024-09-16 12:19:22] Target article posted on Bluesky: Quantum metric induced hole dispersion and emergent particle-hole symmetry in topological flat bands
+[2024-09-16 12:19:23] Target article posted on Bluesky: Spinon spin current
+[2024-09-16 12:19:23] Tweet content exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-16 12:21:07] Start updating Bluesky with arxiv entries in the cond-mat category on 2024-09-16.
+[2024-09-16 12:21:09] Target article posted on Bluesky: Van der Waals interactions in linear chains with long-range correlated disorder
+[2024-09-16 12:21:09] Target article posted on Bluesky: Unraveling pairon excitations and the antiferromagnetic contributions in the cuprate specific heat
+[2024-09-16 12:21:10] Target article posted on Bluesky: Magnetic diffuse scattering of the $S$ = 5/2 fcc antiferromagnets Ba$_2$MnTeO$_6$ and Ba$_2$MnWO$_6$
+[2024-09-16 12:21:11] Target article posted on Bluesky: Quantum metric induced hole dispersion and emergent particle-hole symmetry in topological flat bands
+[2024-09-16 12:21:11] Target article posted on Bluesky: Spinon spin current
+[2024-09-16 12:21:12] Tweet content exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-16 12:21:12] Target article posted on Bluesky: Optical signatures of interlayer electron coherence in a bilayer semiconductor
+[2024-09-16 12:21:13] Target article posted on Bluesky: Learning Generalized Statistical Mechanics with Matrix Product States
+[2024-09-16 12:21:13] Target article posted on Bluesky: Critical Casimir levitation of colloids above a bull's-eye pattern
+[2024-09-16 12:21:14] Target article posted on Bluesky: Branches, Tie Chains and Entanglements in Bimodal Polyethylene Single Crystals under Uniaxial Tensile Strain
+[2024-09-16 12:21:15] Target article posted on Bluesky: Quest for nuclear quadrupole relaxation in HgCa$_{2}$Ba$_{2}$Cu$_{3}$O$_{\delta}$
+[2024-09-16 12:21:15] Target article posted on Bluesky: Impact of Subsurface Oxygen on CO2 Charging Energy Changes in Cu Surfaces
+[2024-09-16 12:21:16] Target article posted on Bluesky: Random product states at high temperature equilibrate exponentially well
+[2024-09-16 12:21:17] Tweet content exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-16 12:21:17] Target article posted on Bluesky: Toward Phonon-Limited Transport in Two-Dimensional Electronics by Oxygen-Free Fabrication
+[2024-09-16 12:21:17] Tweet content exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-16 12:21:17] Target article posted on Bluesky: Thickness-Dependent Polaron Crossover in Tellurene
+[2024-09-16 12:21:18] Target article posted on Bluesky: Proposal for experimental realization of quantum spin chains with quasiperiodic interaction using Rydberg atoms
+[2024-09-16 12:21:19] Target article posted on Bluesky: Realizing tunable Fermi level in SnTe by defect control
+[2024-09-16 12:21:19] Target article posted on Bluesky: Artificial moir\'{e} engineering for an ideal BHZ model
+[2024-09-16 12:21:20] Target article posted on Bluesky: Role of material-dependent properties in THz field-derivative-torque-induced nonlinear magnetization dynamics
+[2024-09-16 12:21:21] Target article posted on Bluesky: Decomposition of metric tensor in thermodynamic geometry in terms of relaxation timescales
+[2024-09-16 12:21:21] Target article posted on Bluesky: Rigidity transitions in anisotropic networks happen in multiple steps
+[2024-09-16 12:21:22] Target article posted on Bluesky: Finite-time thermodynamic bounds and tradeoff relations for information processing
+[2024-09-16 12:21:23] Target article posted on Bluesky: Distinguishing different stackings in WSe2 bilayers grown Using Chemical Vapor Deposition
+[2024-09-16 12:21:23] Target article posted on Bluesky: Photon Number Coherence in Quantum Dot-Cavity Systems can be Enhanced by Phonons
+[2024-09-16 12:21:24] Target article posted on Bluesky: Structural and dynamical investigation of glassforming smectogen by X-ray diffraction and infra-red spectroscopy aided by density functional theory calculations
+[2024-09-16 12:21:25] Target article posted on Bluesky: Electronic properties of the dimerized organic conductor $\kappa$-(BETS)$_2$Mn[N(CN)$_2$]$_3$
+[2024-09-16 12:21:25] Target article posted on Bluesky: Effects of quenched disorder on the kinetics and pathways of phase transition in a soft colloidal system
+[2024-09-16 12:21:26] Target article posted on Bluesky: Large-scale simulations of vortex Majorana zero modes in topological crystalline insulators
+[2024-09-16 12:21:26] Tweet content exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-16 12:21:27] Target article posted on Bluesky: Time-domain braiding of anyons
+[2024-09-16 12:21:27] Target article posted on Bluesky: Boolean mean field spin glass model: rigorous results
+[2024-09-16 12:21:28] Target article posted on Bluesky: Many-body density of states of bosonic and fermionic gases: a combinatorial approach
+[2024-09-16 12:21:28] Target article posted on Bluesky: A Systematic Investigation of PbSe Thermoelectric Material
+[2024-09-16 12:21:29] Target article posted on Bluesky: Speed of sound in gaseous cis-1,3,3,3-tetrafluoropropene (R1234ze(Z)) between 307 K and 420 K
+[2024-09-16 12:21:30] Target article posted on Bluesky: Mean square displacement of intruders in freely cooling multicomponent granular mixtures
+[2024-09-16 12:21:30] Target article posted on Bluesky: Dynamical symmetry restoration in the Heisenberg spin chain
+[2024-09-16 12:21:31] Target article posted on Bluesky: Valley separation of photoexcited carriers in bilayer graphene
+[2024-09-16 12:21:32] Target article posted on Bluesky: Optimization of Coulomb Energies in Gigantic Configurational Spaces of Multi-Element Ionic Crystals
+[2024-09-16 12:21:32] Target article posted on Bluesky: Efficient Pseudomode Representation and Complexity of Quantum Impurity Models
+[2024-09-16 12:21:33] Target article posted on Bluesky: Insights from the exact analytical solution of periodically driven transverse field Ising chain
+[2024-09-16 12:21:34] Target article posted on Bluesky: Thermoelectrical potential and derivation of Kelvin relation for thermoelectric materials
+[2024-09-16 12:21:34] Target article posted on Bluesky: Magnetic phase diagram of the three-dimensional doped Hubbard model
+[2024-09-16 12:21:35] Target article posted on Bluesky: Direct evidence for anisotropic magnetic interaction in $\alpha$-RuCl$_3$ from polarized inelastic neutron scattering
+[2024-09-16 12:21:36] Target article posted on Bluesky: Effective diffusion along the backbone of combs with finite-span 1D and 2D fingers
+[2024-09-16 12:21:36] Target article posted on Bluesky: Topological gauge theory of vortices in type-III superconductors
+[2024-09-16 12:21:37] Target article posted on Bluesky: Theory of phonon angular momentum transport across smooth interfaces between crystals
+[2024-09-16 12:21:38] Tweet content exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-16 12:21:38] Target article posted on Bluesky: Vanishing bulk heat flow in the nu=0 quantum Hall ferromagnet in monolayer graphene
+[2024-09-16 12:21:38] Target article posted on Bluesky: PiNNAcLe: Adaptive Learn-On-The-Fly Algorithm for Machine-Learning Potential
+[2024-09-16 12:21:39] Target article posted on Bluesky: Self-supervised learning for denoising quasiparticle interference data
+[2024-09-16 12:21:40] Target article posted on Bluesky: Inferring hyperuniformity from local structures via persistent homology
+[2024-09-16 12:21:40] Target article posted on Bluesky: Polarization Pinning at an Antiphase Boundary in Multiferroic YbFeO$_3$
+[2024-09-16 12:21:41] Target article posted on Bluesky: Representing Born effective charges with equivariant graph convolutional neural networks
+[2024-09-16 12:21:41] Tweet content exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-16 12:21:42] Target article posted on Bluesky: Full minimal coupling Maxwell-TDDFT: an ab initio QED framework beyond the dipole approximation
+[2024-09-16 12:21:42] Target article posted on Bluesky: Finite-momentum superconductivity in two-dimensional altermagnets with a Rashba-type spin-orbit coupling
+[2024-09-16 12:21:43] Target article posted on Bluesky: Assembly of Complex Colloidal Systems Using DNA
+[2024-09-16 12:21:44] Target article posted on Bluesky: Diffusion crossover from/to $q$-statistics to/from Boltzmann-Gibbs statistics in the classical inertial $\alpha$-XY ferromagnet
+[2024-09-16 12:21:44] Target article posted on Bluesky: Enigmatic 2+6/13 Filling Factor: A Prototype Intermittent Topological State
+[2024-09-16 12:21:45] Target article posted on Bluesky: Hydrogen and Deuterium Tunneling in Niobium
+[2024-09-16 12:21:46] Target article posted on Bluesky: Inverse Spin Hall Effect in Nonequilibrium Dirac Systems Induced by Anomalous Flow Imbalance
+[2024-09-16 12:21:46] Post "These are all of the new submissions in the cond-mat category on Mon, 16 Sep 2024."
+[2024-09-16 12:21:46] Start updating Bluesky with arxiv entries in the astro-ph category on 2024-09-16.
+[2024-09-16 12:21:50] Target article posted on Bluesky: Gravitational Waves from a Gauge Field Non-minimally Coupled to Gravity
+[2024-09-16 12:21:51] Target article posted on Bluesky: A Radio Technosignature Search of TRAPPIST-1 with the Allen Telescope Array
+[2024-09-16 12:21:52] Tweet content exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-16 12:21:52] Target article posted on Bluesky: Cross-correlation of Luminous Red Galaxies with ML-selected AGN in HSC-SSP: Unobscured AGN residing in more massive halos
+[2024-09-16 12:21:52] Target article posted on Bluesky: A measurement of the escaping ionising efficiency of galaxies at redshift 5
+[2024-09-16 12:21:53] Tweet content exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-16 12:21:53] Target article posted on Bluesky: Constraining atmospheric composition from the outflow: helium observations reveal the fundamental properties of two planets straddling the radius gap
+[2024-09-16 12:21:54] Tweet content exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-16 12:21:54] Target article posted on Bluesky: Selective Dynamical Imaging of Interferometric Data
+[2024-09-16 12:21:54] Target article posted on Bluesky: Growth of Light-Seed Black Holes in Gas-Rich Galaxies at High Redshift
+[2024-09-16 12:21:55] Tweet content exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-16 12:21:55] Target article posted on Bluesky: JWST Reveals Bulge-Dominated Star-forming Galaxies at Cosmic Noon
+[2024-09-16 12:21:56] Tweet content exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-16 12:21:56] Target article posted on Bluesky: A Virgo Environmental Survey Tracing Ionised Gas Emission (VESTIGE): XVI. The ubiquity of truncated star-forming disks across the Virgo cluster environment
+[2024-09-16 12:21:57] Target article posted on Bluesky: Gamma-ray burst spectral-luminosity correlations in the synchrotron scenario
+[2024-09-16 12:21:57] Tweet content exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-16 12:21:57] Target article posted on Bluesky: Participatory Science and Machine Learning Applied to Millions of Sources in the Hobby-Eberly Telescope Dark Energy Experiment
+[2024-09-16 12:21:58] Target article posted on Bluesky: Revisiting the Relationship Between Rocky Exoplanet and Stellar Compositions: Reduced Evidence for a Super-Mercury Population
+[2024-09-16 12:21:59] Target article posted on Bluesky: Kinematic Lensing Inference II: Cluster Lensing with $\mathcal{O}$(1) Galaxies
+[2024-09-16 12:21:59] Target article posted on Bluesky: 3D Radiation-Hydrodynamical Simulations of Shadows on Transition Disks
+[2024-09-16 12:22:00] Tweet content exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-16 12:22:00] Target article posted on Bluesky: The Atacama Cosmology Telescope: Systematic Transient Search of Single Observation Maps
+[2024-09-16 12:22:01] Target article posted on Bluesky: The overestimation of equipartition magnetic field strengths from synchrotron emission using synthetically observed galaxies
+[2024-09-16 12:22:01] Tweet content exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-16 12:22:01] Target article posted on Bluesky: GRAVITY+ Wavefront Sensors: High-Contrast, Laser Guide Star, Adaptive Optics systems for the VLTI
+[2024-09-16 12:22:02] Target article posted on Bluesky: The Puzzling Superorbital Period Variation of the Low-mass X-ray Binary 4U 1820-30
+[2024-09-16 12:22:03] Target article posted on Bluesky: Robust Constraints on the Physics of the MeV Emission Line in GRB 221009A from Optical Depth Arguments
+[2024-09-16 12:22:04] Target article posted on Bluesky: Deep and low mass-ratio contact binaries and their third bodies
+[2024-09-16 12:22:04] Target article posted on Bluesky: NeutralUniverseMachine: How Filaments and Dark Matter Halo Influence the Galaxy Cold Gas Content
+[2024-09-16 12:22:05] Target article posted on Bluesky: Kinetic simulations of the cosmic ray pressure anisotropy instability: cosmic ray scattering rate in the saturated state
+[2024-09-16 12:22:06] Target article posted on Bluesky: A Modified Initial Mass Function of the First Stars with Explodability Theory under Different Enrichment Scenarios
+[2024-09-16 12:22:06] Target article posted on Bluesky: Is there a genetic relationship between chondrules and matrix?
+[2024-09-16 12:22:07] Target article posted on Bluesky: The infrared luminosity of retired and post-starburst galaxies: A cautionary tale for star formation rate measurements
+[2024-09-16 12:22:08] Tweet content exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-16 12:22:08] Target article posted on Bluesky: The Method of Searching for Rotations of the Polarization Position Angle of Quasars
+[2024-09-16 12:22:08] Target article posted on Bluesky: Dark Energy Survey: 2.1% measurement of the Baryon Acoustic Oscillation scale from the final dataset
+[2024-09-16 12:22:09] Tweet content exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-16 12:22:09] Target article posted on Bluesky: Modeling ALMA Observations of the Warped Molecular Gas Disk in the Red Nugget Relic Galaxy NGC 384
+[2024-09-16 12:22:10] Tweet content exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-16 12:22:10] Target article posted on Bluesky: Development of a Compton Imager Setup
+[2024-09-16 12:22:11] Target article posted on Bluesky: Evolution and the quasistationary state of collective fast neutrino flavor conversion in three dimensions without axisymmetry
+[2024-09-16 12:22:11] Target article posted on Bluesky: Minimum Safe Distances for DE-STAR Space Lasers
+[2024-09-16 12:22:12] Target article posted on Bluesky: Characterization of M51 supernova remnants with the imaging spectrometer SITELLE
+[2024-09-16 12:22:13] Target article posted on Bluesky: The $M_\bullet$-$\sigma_e$ relation for local type 1 AGNs and quasars
+[2024-09-16 12:22:13] Target article posted on Bluesky: Discovery Opportunities with Gravitational Waves -- TASI 2024 Lecture Notes
+[2024-09-16 12:22:14] Target article posted on Bluesky: Constraints on dark energy and modified gravity from the BOSS Full-Shape and DESI BAO data
+[2024-09-16 12:22:15] Target article posted on Bluesky: The Clearing Timescale for Infrared-selected Star Clusters in M83 with HST
+[2024-09-16 12:22:15] Tweet content exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-16 12:22:15] Target article posted on Bluesky: Predicting High Magnification Events in Microlensed Quasars in the Era of LSST using Recurrent Neural Networks
+[2024-09-16 12:22:16] Target article posted on Bluesky: Oxygen Abundance Throughout the Dwarf Starburst IC 10
+[2024-09-16 12:22:17] Target article posted on Bluesky: Primordial Stochastic Gravitational Wave Backgrounds from a Sharp Feature in Three-field Inflation II: The Inflationary Era
+[2024-09-16 12:22:17] Target article posted on Bluesky: The effect of cosmic web filaments on galaxy evolution
+[2024-09-16 12:22:18] Target article posted on Bluesky: Learning Theory Informed Priors for Bayesian Inference: A Case Study with Early Dark Energy
+[2024-09-16 12:22:19] Post "These are all of the new submissions in the astro-ph category on Mon, 16 Sep 2024."
+[2024-09-16 12:22:19] Start updating Bluesky with arxiv entries in the hep-ph category on 2024-09-16.
+[2024-09-16 12:22:21] Target article posted on Bluesky: A collinear shower algorithm for NSL non-singlet fragmentation
+[2024-09-16 12:22:22] Target article posted on Bluesky: Illuminating dark objects with dark matter lampshades
+[2024-09-16 12:22:22] Target article posted on Bluesky: Loops in supergroups
+[2024-09-16 12:22:23] Target article posted on Bluesky: Predictions for the rare kaon decays $K_{S,L} \to \pi^0 \ell^+ \ell^-$ from QCD in the limit of a large number of colours
+[2024-09-16 12:22:24] Target article posted on Bluesky: Probing Large Extra Dimension at DUNE using beam tunes
+[2024-09-16 12:22:24] Target article posted on Bluesky: Resonance suppression during the hadronic stage from the FAIR to the intermediate RHIC energy regime
+[2024-09-16 12:22:25] Target article posted on Bluesky: Phenomenology of Minimal Flavour Deconstruction at the lowest new scale
+[2024-09-16 12:22:26] Target article posted on Bluesky: Simulation of a (3+1)D glasma in Milne coordinates: Topological charge, eccentricity, and angular momentum
+[2024-09-16 12:22:26] Target article posted on Bluesky: Exploring Chirality Structure in Nucleon Decay
+[2024-09-16 12:22:27] Target article posted on Bluesky: Scaling up to Multivariate Rational Function Reconstruction
+[2024-09-16 12:22:28] Target article posted on Bluesky: Thermal leptogenesis, dark matter and gravitational waves from an extended canonical seesaw
+[2024-09-16 12:22:28] Target article posted on Bluesky: Considerations on electromagnetic radiation in Podolsky electrodynamics within a Lorentz-symmetry violating framework
+[2024-09-16 12:22:29] Target article posted on Bluesky: Domain-wall Skyrmion phase of QCD in magnetic field: Gauge field dynamics
+[2024-09-16 12:22:30] Target article posted on Bluesky: Two-loop planar master integrals for NNLO QCD corrections to W-pair production in quark-antiquark annihilation
+[2024-09-16 12:22:30] Target article posted on Bluesky: Entropic uncertainty relations and quantum Fisher information of top quarks in a large hadron collider
+[2024-09-16 12:22:31] Target article posted on Bluesky: Dynamical study of $T_{ss}$ systems at a chiral quark model
+[2024-09-16 12:22:32] Target article posted on Bluesky: One loop $\beta$ functions for mirror noncommutative Euclidean Yukawa sector within electroweak-scale right handed neutrinos model
+[2024-09-16 12:22:32] Target article posted on Bluesky: Chiral dark matter and radiative neutrino masses from gauged U(1) symmetry
+[2024-09-16 12:22:33] Target article posted on Bluesky: Nonequilibrium Phenomenology of Identified Particle Spectra in Heavy-Ion Collisions at LHC Energies
+[2024-09-16 12:22:33] Post "These are all of the new submissions in the hep-ph category on Mon, 16 Sep 2024."
+[2024-09-16 12:22:34] Start updating Twitter with arxiv entries in the hep-ph category on 2024-09-16.
+[2024-09-16 12:22:34] Target article posted on Twitter: A collinear shower algorithm for NSL non-singlet fragmentation
+[2024-09-16 12:22:35] Target article posted on Twitter: Illuminating dark objects with dark matter lampshades
+[2024-09-16 12:22:36] Target article posted on Twitter: Loops in supergroups
+[2024-09-16 12:22:36] Target article posted on Twitter: Predictions for the rare kaon decays $K_{S,L} \to \pi^0 \ell^+ \ell^-$ from QCD in the limit of a large number of colours
+[2024-09-16 12:22:37] Target article posted on Twitter: Probing Large Extra Dimension at DUNE using beam tunes
+[2024-09-16 12:22:38] Target article posted on Twitter: Resonance suppression during the hadronic stage from the FAIR to the intermediate RHIC energy regime
+[2024-09-16 12:22:39] Target article posted on Twitter: Phenomenology of Minimal Flavour Deconstruction at the lowest new scale
+[2024-09-16 12:22:39] Target article posted on Twitter: Simulation of a (3+1)D glasma in Milne coordinates: Topological charge, eccentricity, and angular momentum
+[2024-09-16 12:22:40] Target article posted on Twitter: Exploring Chirality Structure in Nucleon Decay
+[2024-09-16 12:22:41] Target article posted on Twitter: Scaling up to Multivariate Rational Function Reconstruction
+[2024-09-16 12:22:42] Target article posted on Twitter: Thermal leptogenesis, dark matter and gravitational waves from an extended canonical seesaw
+[2024-09-16 12:22:43] Target article posted on Twitter: Considerations on electromagnetic radiation in Podolsky electrodynamics within a Lorentz-symmetry violating framework
+[2024-09-16 12:22:43] Target article posted on Twitter: Domain-wall Skyrmion phase of QCD in magnetic field: Gauge field dynamics
+[2024-09-16 12:22:44] Tweet content exceeds 280 characters. The shorten_long_paper_info shortened the text.
+[2024-09-16 12:22:44] Target article posted on Twitter: Two-loop planar master integrals for NNLO QCD corrections to W-pair production in quark-antiquark annihilation
+[2024-09-16 12:22:45] Target article posted on Twitter: Entropic uncertainty relations and quantum Fisher information of top quarks in a large hadron collider
+[2024-09-16 12:22:46] Target article posted on Twitter: Dynamical study of $T_{ss}$ systems at a chiral quark model
+[2024-09-16 12:22:47] Target article posted on Twitter: One loop $\beta$ functions for mirror noncommutative Euclidean Yukawa sector within electroweak-scale right handed neutrinos model
+[2024-09-16 12:22:47] Target article posted on Twitter: Chiral dark matter and radiative neutrino masses from gauged U(1) symmetry
+[2024-09-16 12:22:48] Target article posted on Twitter: Nonequilibrium Phenomenology of Identified Particle Spectra in Heavy-Ion Collisions at LHC Energies
+[2024-09-16 12:22:49] Post "These are all of the new submissions in the hep-ph category on Mon, 16 Sep 2024."
+[2024-09-16 12:22:49] Start updating Bluesky with arxiv entries in the quant-ph category on 2024-09-16.
+[2024-09-16 12:22:51] Target article posted on Bluesky: Hilbert space fragmentation at the origin of disorder-free localization in the lattice Schwinger model
+[2024-09-16 12:22:51] Target article posted on Bluesky: Time-Convolutionless Master Equation Applied to Adiabatic Elimination
+[2024-09-16 12:22:52] Target article posted on Bluesky: LightSABRE: A Lightweight and Enhanced SABRE Algorithm
+[2024-09-16 12:22:53] Target article posted on Bluesky: Measurement-based qudit quantum refrigerator with subspace cooling
+[2024-09-16 12:22:53] Target article posted on Bluesky: Probing entanglement of a continuous basis system
+[2024-09-16 12:22:54] Target article posted on Bluesky: Entangled two-photon absorption for the continuous generation of excited state populations in plasma
+[2024-09-16 12:22:55] Target article posted on Bluesky: Graph-Based Pulse Representation for Diverse Quantum Control Hardware
+[2024-09-16 12:22:55] Tweet content exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-16 12:22:55] Target article posted on Bluesky: Single-photon detectors on arbitrary photonic substrates
+[2024-09-16 12:22:56] Target article posted on Bluesky: SOS decomposition for general Bell inequalities in two qubits systems and its application to quantum randomness
+[2024-09-16 12:22:57] Target article posted on Bluesky: Tight upper bound for the maximal expectation value of the $N$-partite generalized Svetlichny operator
+[2024-09-16 12:22:57] Target article posted on Bluesky: Consumable Data via Quantum Communication
+[2024-09-16 12:22:58] Target article posted on Bluesky: Quantum Metrology via Floquet-Engineered Two-axis Twisting and Turn Dynamics
+[2024-09-16 12:22:59] Target article posted on Bluesky: Fine-Grained Uncertainty Relations for Quantum Testers
+[2024-09-16 12:22:59] Target article posted on Bluesky: Simulating a quasiparticle on a quantum device
+[2024-09-16 12:23:00] Target article posted on Bluesky: Adaptive Robust High-Precision Atomic Gravimetry
+[2024-09-16 12:23:00] Target article posted on Bluesky: A Simple Scheme for Preparation of the Approximate Gottesman-Kitaev-Preskill States with Random Walk Mechanism
+[2024-09-16 12:23:01] Target article posted on Bluesky: Study of quantum phase transition and entanglement in coupled top systems with standard and nonstandard symmetries under Floquet formalism
+[2024-09-16 12:23:02] Target article posted on Bluesky: Performance analysis for high-dimensional Bell-state quantum illumination
+[2024-09-16 12:23:02] Target article posted on Bluesky: CompressedMediQ: Hybrid Quantum Machine Learning Pipeline for High-Dimentional Neuroimaging Data
+[2024-09-16 12:23:03] Target article posted on Bluesky: Genuine quantum advantage in non-linear bosonic quantum batteries
+[2024-09-16 12:23:04] Target article posted on Bluesky: Nano-mirror induced three-level quantum heat engine
+[2024-09-16 12:23:04] Target article posted on Bluesky: Optimal discrimination of quantum sequences
+[2024-09-16 12:23:05] Target article posted on Bluesky: Phase space measures of information flow in open systems: A quantum and classical perspective of non-Markovianity
+[2024-09-16 12:23:06] Target article posted on Bluesky: Scalable and interpretable quantum natural language processing: an implementation on trapped ions
+[2024-09-16 12:23:06] Target article posted on Bluesky: Benchmarking the performance of quantum computing software
+[2024-09-16 12:23:07] Target article posted on Bluesky: SDP for One-shot Dilution of Quantum Coherence
+[2024-09-16 12:23:08] Target article posted on Bluesky: Remote Entangling Gates for Spin Qubits in Quantum Dots using an Offset-Charge-Sensitive Transmon Coupler
+[2024-09-16 12:23:08] Target article posted on Bluesky: Shadow Quantum Linear Solver: A Resource Efficient Quantum Algorithm for Linear Systems of Equations
+[2024-09-16 12:23:09] Target article posted on Bluesky: Hybrid boson sampling
+[2024-09-16 12:23:09] Tweet content exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-16 12:23:10] Target article posted on Bluesky: Control of solid-state nuclear spin qubits using an electron spin-1/2
+[2024-09-16 12:23:10] Target article posted on Bluesky: Entanglement and Coherence Dynamics in Photonic Quantum Memristors
+[2024-09-16 12:23:11] Tweet content exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-16 12:23:11] Target article posted on Bluesky: A Fiber-pigtailed Quantum Dot Device Generating Indistinguishable Photons at GHz Clock-rates
+[2024-09-16 12:23:12] Target article posted on Bluesky: The Better Solution Probability Metric: Optimizing QAOA to Outperform its Warm-Start Solution
+[2024-09-16 12:23:12] Target article posted on Bluesky: Boson sampling with self-generation of squeezing via interaction of photons and atoms
+[2024-09-16 12:23:13] Post "These are all of the new submissions in the quant-ph category on Mon, 16 Sep 2024."
+[2024-09-16 12:23:13] Start updating Twitter with arxiv entries in the quant-ph category on 2024-09-16.
+[2024-09-16 12:23:13] Target article posted on Twitter: Hilbert space fragmentation at the origin of disorder-free localization in the lattice Schwinger model
+[2024-09-16 12:23:14] Target article posted on Twitter: Time-Convolutionless Master Equation Applied to Adiabatic Elimination
+[2024-09-16 12:23:15] Target article posted on Twitter: LightSABRE: A Lightweight and Enhanced SABRE Algorithm
+[2024-09-16 12:23:16] Target article posted on Twitter: Measurement-based qudit quantum refrigerator with subspace cooling
+[2024-09-16 12:23:17] Target article posted on Twitter: Probing entanglement of a continuous basis system
+[2024-09-16 12:23:17] Tweet content exceeds 280 characters. The shorten_long_paper_info shortened the text.
+[2024-09-16 12:23:17] Target article posted on Twitter: Entangled two-photon absorption for the continuous generation of excited state populations in plasma
+[2024-09-16 12:23:18] Target article posted on Twitter: Graph-Based Pulse Representation for Diverse Quantum Control Hardware
+[2024-09-16 12:23:19] Tweet content exceeds 280 characters. The shorten_long_paper_info shortened the text.
+[2024-09-16 12:23:19] Target article posted on Twitter: Single-photon detectors on arbitrary photonic substrates
+[2024-09-16 12:23:20] Target article posted on Twitter: SOS decomposition for general Bell inequalities in two qubits systems and its application to quantum randomness
+[2024-09-16 12:23:21] Target article posted on Twitter: Tight upper bound for the maximal expectation value of the $N$-partite generalized Svetlichny operator
+[2024-09-16 12:23:21] Target article posted on Twitter: Consumable Data via Quantum Communication
+[2024-09-16 12:23:22] Target article posted on Twitter: Quantum Metrology via Floquet-Engineered Two-axis Twisting and Turn Dynamics
+[2024-09-16 12:23:23] Target article posted on Twitter: Fine-Grained Uncertainty Relations for Quantum Testers
+[2024-09-16 12:23:24] Target article posted on Twitter: Simulating a quasiparticle on a quantum device
+[2024-09-16 12:23:24] Target article posted on Twitter: Adaptive Robust High-Precision Atomic Gravimetry
+[2024-09-16 12:23:25] Target article posted on Twitter: A Simple Scheme for Preparation of the Approximate Gottesman-Kitaev-Preskill States with Random Walk Mechanism
+[2024-09-16 12:23:26] Target article posted on Twitter: Study of quantum phase transition and entanglement in coupled top systems with standard and nonstandard symmetries under Floquet formalism
+[2024-09-16 12:23:27] Target article posted on Twitter: Performance analysis for high-dimensional Bell-state quantum illumination
+[2024-09-16 12:23:28] Target article posted on Twitter: CompressedMediQ: Hybrid Quantum Machine Learning Pipeline for High-Dimentional Neuroimaging Data
+[2024-09-16 12:23:29] Target article posted on Twitter: Genuine quantum advantage in non-linear bosonic quantum batteries
+[2024-09-16 12:23:30] Target article posted on Twitter: Nano-mirror induced three-level quantum heat engine
+[2024-09-16 12:23:30] Target article posted on Twitter: Optimal discrimination of quantum sequences
+[2024-09-16 12:23:31] Target article posted on Twitter: Phase space measures of information flow in open systems: A quantum and classical perspective of non-Markovianity
+[2024-09-16 12:23:32] Tweet content exceeds 280 characters. The shorten_long_paper_info shortened the text.
+[2024-09-16 12:23:32] Target article posted on Twitter: Scalable and interpretable quantum natural language processing: an implementation on trapped ions
+[2024-09-16 12:23:33] Target article posted on Twitter: Benchmarking the performance of quantum computing software
+[2024-09-16 12:23:34] Target article posted on Twitter: SDP for One-shot Dilution of Quantum Coherence
+[2024-09-16 12:23:34] Target article posted on Twitter: Remote Entangling Gates for Spin Qubits in Quantum Dots using an Offset-Charge-Sensitive Transmon Coupler
+[2024-09-16 12:23:35] Target article posted on Twitter: Shadow Quantum Linear Solver: A Resource Efficient Quantum Algorithm for Linear Systems of Equations
+[2024-09-16 12:23:36] Target article posted on Twitter: Hybrid boson sampling
+[2024-09-16 12:23:36] Tweet content exceeds 280 characters. The shorten_long_paper_info shortened the text.
+[2024-09-16 12:23:37] Target article posted on Twitter: Control of solid-state nuclear spin qubits using an electron spin-1/2
+[2024-09-16 12:23:38] Target article posted on Twitter: Entanglement and Coherence Dynamics in Photonic Quantum Memristors
+[2024-09-16 12:23:38] Tweet content exceeds 280 characters. The shorten_long_paper_info shortened the text.
+[2024-09-16 12:23:38] Target article posted on Twitter: A Fiber-pigtailed Quantum Dot Device Generating Indistinguishable Photons at GHz Clock-rates
+[2024-09-16 12:23:39] Target article posted on Twitter: The Better Solution Probability Metric: Optimizing QAOA to Outperform its Warm-Start Solution
+[2024-09-16 12:23:40] Target article posted on Twitter: Boson sampling with self-generation of squeezing via interaction of photons and atoms
+[2024-09-16 12:23:40] Post "These are all of the new submissions in the quant-ph category on Mon, 16 Sep 2024."
+[2024-09-16 12:23:41] Start updating Bluesky with arxiv entries in the math-ph category on 2024-09-16.
+[2024-09-16 12:23:42] Target article posted on Bluesky: Unitary and Open Scattering Quantum Walks on Graphs
+[2024-09-16 12:23:43] Target article posted on Bluesky: Non-unitary Wightman CFTs and non-unitary vertex algebras
+[2024-09-16 12:23:43] Target article posted on Bluesky: The ground state energy is not always convex in the number of electrons
+[2024-09-16 12:23:44] Target article posted on Bluesky: Proof of the Landau-Pekar Formula for the effective Mass of the Polaron at strong coupling
+[2024-09-16 12:23:45] Target article posted on Bluesky: Dunkl and Cherednik operators
+[2024-09-16 12:23:45] Post "These are all of the new submissions in the math-ph category on Mon, 16 Sep 2024."
+[2024-09-16 12:23:45] Start updating Twitter with arxiv entries in the math-ph category on 2024-09-16.
+[2024-09-16 12:23:46] Target article posted on Twitter: Unitary and Open Scattering Quantum Walks on Graphs
+[2024-09-16 12:23:46] Target article posted on Twitter: Non-unitary Wightman CFTs and non-unitary vertex algebras
+[2024-09-16 12:23:47] Target article posted on Twitter: The ground state energy is not always convex in the number of electrons
+[2024-09-16 12:23:48] Target article posted on Twitter: Proof of the Landau-Pekar Formula for the effective Mass of the Polaron at strong coupling
+[2024-09-16 12:23:49] Target article posted on Twitter: Dunkl and Cherednik operators
+[2024-09-16 12:23:49] Post "These are all of the new submissions in the math-ph category on Mon, 16 Sep 2024."
+[2024-09-16 12:23:50] Start updating Bluesky with arxiv entries in the hep-th category on 2024-09-16.
+[2024-09-16 12:23:51] Target article posted on Bluesky: (In)stability of symbiotic vortex-bright soliton in holographic immiscible binary superfluids
+[2024-09-16 12:23:52] Target article posted on Bluesky: Cosmology of light towers and swampland constraints
+[2024-09-16 12:23:52] Target article posted on Bluesky: Towards complexity of primary-deformed Virasoro circuits
+[2024-09-16 12:23:53] Target article posted on Bluesky: Practical Introduction to Action-Dependent Field Theories
+[2024-09-16 12:23:54] Target article posted on Bluesky: Hubble Tension in Power-Law $f(R)$ Gravity and Generalized Brans-Dicke Theory
+[2024-09-16 12:23:54] Target article posted on Bluesky: K27 as a symmetry of closed bosonic strings and branes
+[2024-09-16 12:23:55] Target article posted on Bluesky: Timelike-bounded $dS_4$ holography from a solvable sector of the $T^2$ deformation
+[2024-09-16 12:23:56] Target article posted on Bluesky: Spectral decomposition of field operators and causal measurement in quantum field theory
+[2024-09-16 12:23:56] Target article posted on Bluesky: Optical Aspect of Cosmological Black Holes in Einstein-Maxwell-Dilaton Theory
+[2024-09-16 12:23:57] Target article posted on Bluesky: Higher-derivative supersymmetric effective field theories
+[2024-09-16 12:23:58] Target article posted on Bluesky: Constraints on RG Flows from Protected Operators
+[2024-09-16 12:23:58] Target article posted on Bluesky: New insights into the analytic structure of correlation functions via kinetic theory
+[2024-09-16 12:23:59] Post "These are all of the new submissions in the hep-th category on Mon, 16 Sep 2024."
+[2024-09-16 12:23:59] Start updating Twitter with arxiv entries in the hep-th category on 2024-09-16.
+[2024-09-16 12:23:59] Target article posted on Twitter: (In)stability of symbiotic vortex-bright soliton in holographic immiscible binary superfluids
+[2024-09-16 12:24:00] Target article posted on Twitter: Cosmology of light towers and swampland constraints
+[2024-09-16 12:24:01] Target article posted on Twitter: Towards complexity of primary-deformed Virasoro circuits
+[2024-09-16 12:24:02] Target article posted on Twitter: Practical Introduction to Action-Dependent Field Theories
+[2024-09-16 12:24:02] Target article posted on Twitter: Hubble Tension in Power-Law $f(R)$ Gravity and Generalized Brans-Dicke Theory
+[2024-09-16 12:24:03] Target article posted on Twitter: K27 as a symmetry of closed bosonic strings and branes
+[2024-09-16 12:24:04] Target article posted on Twitter: Timelike-bounded $dS_4$ holography from a solvable sector of the $T^2$ deformation
+[2024-09-16 12:24:05] Target article posted on Twitter: Spectral decomposition of field operators and causal measurement in quantum field theory
+[2024-09-16 12:24:06] Target article posted on Twitter: Optical Aspect of Cosmological Black Holes in Einstein-Maxwell-Dilaton Theory
+[2024-09-16 12:24:07] Target article posted on Twitter: Higher-derivative supersymmetric effective field theories
+[2024-09-16 12:24:08] Target article posted on Twitter: Constraints on RG Flows from Protected Operators
+[2024-09-16 12:24:08] Target article posted on Twitter: New insights into the analytic structure of correlation functions via kinetic theory
+[2024-09-16 12:24:09] Post "These are all of the new submissions in the hep-th category on Mon, 16 Sep 2024."
+[2024-09-16 12:24:09] Start updating Bluesky with arxiv entries in the gr-qc category on 2024-09-16.
+[2024-09-16 12:24:11] Target article posted on Bluesky: Newman-Penrose formalism and exact vacuum solutions to conformal Weyl gravity
+[2024-09-16 12:24:11] Target article posted on Bluesky: Pure Gauss-Bonnet NUT Black Hole Solution: II
+[2024-09-16 12:24:12] Target article posted on Bluesky: $SU(\infty)$ Quantum Gravity and Cosmology
+[2024-09-16 12:24:13] Target article posted on Bluesky: Existence of the Chapman-Enskog solution and its relation with first-order dissipative fluid theories
+[2024-09-16 12:24:13] Post "These are all of the new submissions in the gr-qc category on Mon, 16 Sep 2024."
+[2024-09-16 12:24:13] Start updating Twitter with arxiv entries in the gr-qc category on 2024-09-16.
+[2024-09-16 12:24:14] Target article posted on Twitter: Newman-Penrose formalism and exact vacuum solutions to conformal Weyl gravity
+[2024-09-16 12:24:14] Target article posted on Twitter: Pure Gauss-Bonnet NUT Black Hole Solution: II
+[2024-09-16 12:24:15] Target article posted on Twitter: $SU(\infty)$ Quantum Gravity and Cosmology
+[2024-09-16 12:24:16] Target article posted on Twitter: Existence of the Chapman-Enskog solution and its relation with first-order dissipative fluid theories
+[2024-09-16 12:24:17] Post "These are all of the new submissions in the gr-qc category on Mon, 16 Sep 2024."
+[2024-09-16 12:24:17] This is the end of all the posts on 2024-09-16

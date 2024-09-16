@@ -1,0 +1,401 @@
+[
+    {
+        "name": "item1",
+        "abs_url": "https://arxiv.org/abs/2409.08288",
+        "pdf_url": "https://arxiv.org/pdf/2409.08288",
+        "title": "Van der Waals interactions in linear chains with long-range correlated disorder",
+        "authors": "Yuval Mualem, Alexander N. Poddubny"
+    },
+    {
+        "name": "item2",
+        "abs_url": "https://arxiv.org/abs/2409.08289",
+        "pdf_url": "https://arxiv.org/pdf/2409.08289",
+        "title": "Unraveling pairon excitations and the antiferromagnetic contributions in the cuprate specific heat",
+        "authors": "Yves Noat, Alain Mauger, William Sacks"
+    },
+    {
+        "name": "item3",
+        "abs_url": "https://arxiv.org/abs/2409.08323",
+        "pdf_url": "https://arxiv.org/pdf/2409.08323",
+        "title": "Magnetic diffuse scattering of the $S$ = 5/2 fcc antiferromagnets Ba$_2$MnTeO$_6$ and Ba$_2$MnWO$_6$",
+        "authors": "Otto H. J. Mustonen, Charlotte E. Pughe, Lucile Mangin-Thro, Robert Tarver, Heather M. Mutch, Helen C. Walker, Edmund J. Cussen"
+    },
+    {
+        "name": "item4",
+        "abs_url": "https://arxiv.org/abs/2409.08324",
+        "pdf_url": "https://arxiv.org/pdf/2409.08324",
+        "title": "Quantum metric induced hole dispersion and emergent particle-hole symmetry in topological flat bands",
+        "authors": "Guangyue Ji, Bo Yang"
+    },
+    {
+        "name": "item5",
+        "abs_url": "https://arxiv.org/abs/2409.08327",
+        "pdf_url": "https://arxiv.org/pdf/2409.08327",
+        "title": "Spinon spin current",
+        "authors": "Ren-Bo Wang, Naveen Nishad, Anna Keselman, Leon Balents, Oleg A. Starykh"
+    },
+    {
+        "name": "item6",
+        "abs_url": "https://arxiv.org/abs/2409.08329",
+        "pdf_url": "https://arxiv.org/pdf/2409.08329",
+        "title": "Optical signatures of interlayer electron coherence in a bilayer semiconductor",
+        "authors": "Xiaoling Liu, Nadine Leisgang, Pavel E. Dolgirev, Alexander A. Zibrov, Jiho Sung, Jue Wang, Takashi Taniguchi, Kenji Watanabe, Valentin Walther, Hongkun Park, Eugene Demler, Philip Kim, Mikhail D. Lukin"
+    },
+    {
+        "name": "item7",
+        "abs_url": "https://arxiv.org/abs/2409.08352",
+        "pdf_url": "https://arxiv.org/pdf/2409.08352",
+        "title": "Learning Generalized Statistical Mechanics with Matrix Product States",
+        "authors": "Pablo D\u00edez-Valle, Fernando Mart\u00ednez-Garc\u00eda, Juan Jos\u00e9 Garc\u00eda-Ripoll, Diego Porras"
+    },
+    {
+        "name": "item8",
+        "abs_url": "https://arxiv.org/abs/2409.08366",
+        "pdf_url": "https://arxiv.org/pdf/2409.08366",
+        "title": "Critical Casimir levitation of colloids above a bull's-eye pattern",
+        "authors": "Piotr Nowakowski, Nima Farahmand Bafi, Giovanni Volpe, Svyatoslav Kondrat, S. Dietrich"
+    },
+    {
+        "name": "item9",
+        "abs_url": "https://arxiv.org/abs/2409.08399",
+        "pdf_url": "https://arxiv.org/pdf/2409.08399",
+        "title": "Branches, Tie Chains and Entanglements in Bimodal Polyethylene Single Crystals under Uniaxial Tensile Strain",
+        "authors": "William S. Fall, J\u00f6rg Baschnagel, Hendrik Meyer"
+    },
+    {
+        "name": "item10",
+        "abs_url": "https://arxiv.org/abs/2409.08408",
+        "pdf_url": "https://arxiv.org/pdf/2409.08408",
+        "title": "Quest for nuclear quadrupole relaxation in HgCa$_{2}$Ba$_{2}$Cu$_{3}$O$_{\\delta}$",
+        "authors": "Yutaka Itoh, Akihiro Ogawa, Seiji Adachi"
+    },
+    {
+        "name": "item11",
+        "abs_url": "https://arxiv.org/abs/2409.08433",
+        "pdf_url": "https://arxiv.org/pdf/2409.08433",
+        "title": "Impact of Subsurface Oxygen on CO2 Charging Energy Changes in Cu Surfaces",
+        "authors": "Xiaohe Lei, Vojtech Vlcek"
+    },
+    {
+        "name": "item12",
+        "abs_url": "https://arxiv.org/abs/2409.08436",
+        "pdf_url": "https://arxiv.org/pdf/2409.08436",
+        "title": "Random product states at high temperature equilibrate exponentially well",
+        "authors": "Yichen Huang"
+    },
+    {
+        "name": "item13",
+        "abs_url": "https://arxiv.org/abs/2409.08453",
+        "pdf_url": "https://arxiv.org/pdf/2409.08453",
+        "title": "Toward Phonon-Limited Transport in Two-Dimensional Electronics by Oxygen-Free Fabrication",
+        "authors": "Subhrajit Mukherjee, Shuhua Wang, Dasari Venkatakrishnarao, Yaoju Tarn, Teymour Talha-Dean, Rainer Lee, Ivan A. Verzhbitskiy, Ding Huang, Abhishek Mishra, John Wellington John, Sarthak Das, Fabio Bussoloti, Thathsara D. Maddumapatabandi, Yee Wen Teh, Yee Sin Ang, Kuan Eng Johnson Goh, Chit Siong Lau"
+    },
+    {
+        "name": "item14",
+        "abs_url": "https://arxiv.org/abs/2409.08458",
+        "pdf_url": "https://arxiv.org/pdf/2409.08458",
+        "title": "Thickness-Dependent Polaron Crossover in Tellurene",
+        "authors": "Kunyan Zhang, Chuliang Fu, Shelly Kelly, Liangbo Liang, Seoung-Hun Kang, Jing Jiang, Ruifang Zhang, Yixiu Wang, Gang Wan, Phum Siriviboon, Mina Yoon, Peide Ye, Wenzhuo Wu, Mingda Li, Shengxi Huang"
+    },
+    {
+        "name": "item15",
+        "abs_url": "https://arxiv.org/abs/2409.08497",
+        "pdf_url": "https://arxiv.org/pdf/2409.08497",
+        "title": "Proposal for experimental realization of quantum spin chains with quasiperiodic interaction using Rydberg atoms",
+        "authors": "Takaharu Yoshida, Masaya Kunimi, Tetsuro Nikuni"
+    },
+    {
+        "name": "item16",
+        "abs_url": "https://arxiv.org/abs/2409.08515",
+        "pdf_url": "https://arxiv.org/pdf/2409.08515",
+        "title": "Realizing tunable Fermi level in SnTe by defect control",
+        "authors": "Bamidele Oluwagbenga Onipede, Matthew Metcalf, Nisha Fletcher, Hui Cai"
+    },
+    {
+        "name": "item17",
+        "abs_url": "https://arxiv.org/abs/2409.08540",
+        "pdf_url": "https://arxiv.org/pdf/2409.08540",
+        "title": "Artificial moir\\'{e} engineering for an ideal BHZ model",
+        "authors": "Wangqian Miao, Arman Rashidi, Xi Dai"
+    },
+    {
+        "name": "item18",
+        "abs_url": "https://arxiv.org/abs/2409.08541",
+        "pdf_url": "https://arxiv.org/pdf/2409.08541",
+        "title": "Role of material-dependent properties in THz field-derivative-torque-induced nonlinear magnetization dynamics",
+        "authors": "Arpita Dutta, Pratyay Mukherjee, Swosti P. Sarangi, Somasree Bhattacharjee, Shovon Pal, Ritwik Mondal"
+    },
+    {
+        "name": "item19",
+        "abs_url": "https://arxiv.org/abs/2409.08546",
+        "pdf_url": "https://arxiv.org/pdf/2409.08546",
+        "title": "Decomposition of metric tensor in thermodynamic geometry in terms of relaxation timescales",
+        "authors": "Zhen Li, Yuki Izumida"
+    },
+    {
+        "name": "item20",
+        "abs_url": "https://arxiv.org/abs/2409.08565",
+        "pdf_url": "https://arxiv.org/pdf/2409.08565",
+        "title": "Rigidity transitions in anisotropic networks happen in multiple steps",
+        "authors": "William Y. Wang, Stephen J. Thornton, Bulbul Chakraborty, Anna Barth, Navneet Singh, Japheth Omonira, Jonathan A. Michel, Moumita Das, James P. Sethna, Itai Cohen"
+    },
+    {
+        "name": "item21",
+        "abs_url": "https://arxiv.org/abs/2409.08606",
+        "pdf_url": "https://arxiv.org/pdf/2409.08606",
+        "title": "Finite-time thermodynamic bounds and tradeoff relations for information processing",
+        "authors": "Takuya Kamijima, Ken Funo, Takahiro Sagawa"
+    },
+    {
+        "name": "item22",
+        "abs_url": "https://arxiv.org/abs/2409.08617",
+        "pdf_url": "https://arxiv.org/pdf/2409.08617",
+        "title": "Distinguishing different stackings in WSe2 bilayers grown Using Chemical Vapor Deposition",
+        "authors": "Aymen Mahmoudi, Meryem Bouaziz, Davide Romani, Marco Pala, Aurelien Thieffry, Thibault Brule, Julien Chaste, Fabrice Oehler, Abdelkarim Ouerghi"
+    },
+    {
+        "name": "item23",
+        "abs_url": "https://arxiv.org/abs/2409.08643",
+        "pdf_url": "https://arxiv.org/pdf/2409.08643",
+        "title": "Photon Number Coherence in Quantum Dot-Cavity Systems can be Enhanced by Phonons",
+        "authors": "Paul C. A. Hagen, Mathieu Bozzio, Moritz Cygorek, Doris E. Reiter, Vollrath M. Axt"
+    },
+    {
+        "name": "item24",
+        "abs_url": "https://arxiv.org/abs/2409.08654",
+        "pdf_url": "https://arxiv.org/pdf/2409.08654",
+        "title": "Structural and dynamical investigation of glassforming smectogen by X-ray diffraction and infra-red spectroscopy aided by density functional theory calculations",
+        "authors": "Aleksandra Deptuch, Natalia G\u00f3rska, Stanis\u0142aw Baran, Magdalena Urba\u0144ska"
+    },
+    {
+        "name": "item25",
+        "abs_url": "https://arxiv.org/abs/2409.08656",
+        "pdf_url": "https://arxiv.org/pdf/2409.08656",
+        "title": "Electronic properties of the dimerized organic conductor $\\kappa$-(BETS)$_2$Mn[N(CN)$_2$]$_3$",
+        "authors": "Marvin Schmidt, Savita Priya, Zhijie Huang, Mark Kartsovnik, Natalia Kushch, Martin Dressel"
+    },
+    {
+        "name": "item26",
+        "abs_url": "https://arxiv.org/abs/2409.08679",
+        "pdf_url": "https://arxiv.org/pdf/2409.08679",
+        "title": "Effects of quenched disorder on the kinetics and pathways of phase transition in a soft colloidal system",
+        "authors": "Gadha Ramesh, Mantu Santra, Rakesh S. Singh"
+    },
+    {
+        "name": "item27",
+        "abs_url": "https://arxiv.org/abs/2409.08683",
+        "pdf_url": "https://arxiv.org/pdf/2409.08683",
+        "title": "Large-scale simulations of vortex Majorana zero modes in topological crystalline insulators",
+        "authors": "Chun Yu Wan, Yujun Zhao, Yaoyi Li, Jinfeng Jia, Junwei Liu"
+    },
+    {
+        "name": "item28",
+        "abs_url": "https://arxiv.org/abs/2409.08685",
+        "pdf_url": "https://arxiv.org/pdf/2409.08685",
+        "title": "Time-domain braiding of anyons",
+        "authors": "M\u00e9lanie Ruelle, Elric Frigerio, Emmanuel Baudin, Jean-Marc Berroir, Bernard Pla\u00e7ais, Benoit Gr\u00e9maud, Thibaut Jonckheere, Thierry Martin, J\u00e9r\u00f4me Rech, Antonella Cavanna, Ulf Gennser, Yong Jin, Gerbold M\u00e9nard, Gwendal F\u00e8ve"
+    },
+    {
+        "name": "item29",
+        "abs_url": "https://arxiv.org/abs/2409.08693",
+        "pdf_url": "https://arxiv.org/pdf/2409.08693",
+        "title": "Boolean mean field spin glass model: rigorous results",
+        "authors": "Linda Albanese, Andrea Alessandrelli"
+    },
+    {
+        "name": "item30",
+        "abs_url": "https://arxiv.org/abs/2409.08696",
+        "pdf_url": "https://arxiv.org/pdf/2409.08696",
+        "title": "Many-body density of states of bosonic and fermionic gases: a combinatorial approach",
+        "authors": "Carolyn Echter, Georg Maier, Juan-Diego Urbina, Caio Lewenkopf, Klaus Richter"
+    },
+    {
+        "name": "item31",
+        "abs_url": "https://arxiv.org/abs/2409.08716",
+        "pdf_url": "https://arxiv.org/pdf/2409.08716",
+        "title": "A Systematic Investigation of PbSe Thermoelectric Material",
+        "authors": "Md. Moklesur Rahman, Md Kamal Hossain, Fateha Samad, Fysol Ibna Abbas"
+    },
+    {
+        "name": "item32",
+        "abs_url": "https://arxiv.org/abs/2409.08722",
+        "pdf_url": "https://arxiv.org/pdf/2409.08722",
+        "title": "Speed of sound in gaseous cis-1,3,3,3-tetrafluoropropene (R1234ze(Z)) between 307 K and 420 K",
+        "authors": "D. Lozano-Mart\u00edn, D. Madonna Ripa, R.M. Gavioso"
+    },
+    {
+        "name": "item33",
+        "abs_url": "https://arxiv.org/abs/2409.08726",
+        "pdf_url": "https://arxiv.org/pdf/2409.08726",
+        "title": "Mean square displacement of intruders in freely cooling multicomponent granular mixtures",
+        "authors": "Rub\u00e9n G\u00f3mez Gonz\u00e1lez, Santos Bravo Yuste, Vicente Garz\u00f3"
+    },
+    {
+        "name": "item34",
+        "abs_url": "https://arxiv.org/abs/2409.08735",
+        "pdf_url": "https://arxiv.org/pdf/2409.08735",
+        "title": "Dynamical symmetry restoration in the Heisenberg spin chain",
+        "authors": "Colin Rylands, Eric Vernier, Pasquale Calabrese"
+    },
+    {
+        "name": "item35",
+        "abs_url": "https://arxiv.org/abs/2409.08807",
+        "pdf_url": "https://arxiv.org/pdf/2409.08807",
+        "title": "Valley separation of photoexcited carriers in bilayer graphene",
+        "authors": "T. J. Osborne, M. E. Portnoi, E. Mariani"
+    },
+    {
+        "name": "item36",
+        "abs_url": "https://arxiv.org/abs/2409.08808",
+        "pdf_url": "https://arxiv.org/pdf/2409.08808",
+        "title": "Optimization of Coulomb Energies in Gigantic Configurational Spaces of Multi-Element Ionic Crystals",
+        "authors": "Konstantin K\u00f6ster, Tobias Binninger, Payam Kaghazchi"
+    },
+    {
+        "name": "item37",
+        "abs_url": "https://arxiv.org/abs/2409.08816",
+        "pdf_url": "https://arxiv.org/pdf/2409.08816",
+        "title": "Efficient Pseudomode Representation and Complexity of Quantum Impurity Models",
+        "authors": "Julian Thoenniss, Ilya Vilkoviskiy, Dmitry A. Abanin"
+    },
+    {
+        "name": "item38",
+        "abs_url": "https://arxiv.org/abs/2409.08830",
+        "pdf_url": "https://arxiv.org/pdf/2409.08830",
+        "title": "Insights from the exact analytical solution of periodically driven transverse field Ising chain",
+        "authors": "Pritam Das, Anirban Dutta"
+    },
+    {
+        "name": "item39",
+        "abs_url": "https://arxiv.org/abs/2409.08836",
+        "pdf_url": "https://arxiv.org/pdf/2409.08836",
+        "title": "Thermoelectrical potential and derivation of Kelvin relation for thermoelectric materials",
+        "authors": "Sikun Chen, Hongxin Zhu, Haidong Wang, Zengyuan Guo"
+    },
+    {
+        "name": "item40",
+        "abs_url": "https://arxiv.org/abs/2409.08848",
+        "pdf_url": "https://arxiv.org/pdf/2409.08848",
+        "title": "Magnetic phase diagram of the three-dimensional doped Hubbard model",
+        "authors": "Liam Rampon, Fedor \u0160imkovic IV, Michel Ferrero"
+    },
+    {
+        "name": "item41",
+        "abs_url": "https://arxiv.org/abs/2409.08854",
+        "pdf_url": "https://arxiv.org/pdf/2409.08854",
+        "title": "Direct evidence for anisotropic magnetic interaction in $\\alpha$-RuCl$_3$ from polarized inelastic neutron scattering",
+        "authors": "Markus Braden, Xiao Wang, Alexandre Bertin, Paul Steffens, Yixi Su"
+    },
+    {
+        "name": "item42",
+        "abs_url": "https://arxiv.org/abs/2409.08855",
+        "pdf_url": "https://arxiv.org/pdf/2409.08855",
+        "title": "Effective diffusion along the backbone of combs with finite-span 1D and 2D fingers",
+        "authors": "Giovanni Bettarini, Francesco Piazza"
+    },
+    {
+        "name": "item43",
+        "abs_url": "https://arxiv.org/abs/2409.08866",
+        "pdf_url": "https://arxiv.org/pdf/2409.08866",
+        "title": "Topological gauge theory of vortices in type-III superconductors",
+        "authors": "M. C. Diamantini, C. A. Trugenberger, V. M. Vinokur"
+    },
+    {
+        "name": "item44",
+        "abs_url": "https://arxiv.org/abs/2409.08874",
+        "pdf_url": "https://arxiv.org/pdf/2409.08874",
+        "title": "Theory of phonon angular momentum transport across smooth interfaces between crystals",
+        "authors": "Yuta Suzuki, Shuntaro Sumita, Yusuke Kato"
+    },
+    {
+        "name": "item45",
+        "abs_url": "https://arxiv.org/abs/2409.08878",
+        "pdf_url": "https://arxiv.org/pdf/2409.08878",
+        "title": "Vanishing bulk heat flow in the nu=0 quantum Hall ferromagnet in monolayer graphene",
+        "authors": "Rapha\u00eblle Delagrange, Manjari Garg, Ga\u00eblle Le Breton, Aifei Zhang, Quan Dong, Yong Jin, Kenji Watanabe, Takashi Taniguchi, Preden Roulleau, Olivier Maillet, Patrice Roche, Fran\u00e7ois D. Parmentier"
+    },
+    {
+        "name": "item46",
+        "abs_url": "https://arxiv.org/abs/2409.08886",
+        "pdf_url": "https://arxiv.org/pdf/2409.08886",
+        "title": "PiNNAcLe: Adaptive Learn-On-The-Fly Algorithm for Machine-Learning Potential",
+        "authors": "Yunqi Shao, Chao Zhang"
+    },
+    {
+        "name": "item47",
+        "abs_url": "https://arxiv.org/abs/2409.08891",
+        "pdf_url": "https://arxiv.org/pdf/2409.08891",
+        "title": "Self-supervised learning for denoising quasiparticle interference data",
+        "authors": "Ilse S. Kuijf, Willem O. Tromp, Tjerk Benschop, Ni\u00f1o Philip Ramones, Miguel Antonio Sulangi, Evert P.L. van Nieuwenburg, Milan P. Allan"
+    },
+    {
+        "name": "item48",
+        "abs_url": "https://arxiv.org/abs/2409.08899",
+        "pdf_url": "https://arxiv.org/pdf/2409.08899",
+        "title": "Inferring hyperuniformity from local structures via persistent homology",
+        "authors": "Abel H. G. Milor, Marco Salvalaglio"
+    },
+    {
+        "name": "item49",
+        "abs_url": "https://arxiv.org/abs/2409.08902",
+        "pdf_url": "https://arxiv.org/pdf/2409.08902",
+        "title": "Polarization Pinning at an Antiphase Boundary in Multiferroic YbFeO$_3$",
+        "authors": "Guodong Ren, Pravan Omprakash, Xin Li, Yu Yun, Arashdeep S. Thind, Xiaoshan Xu, Rohan Mishra"
+    },
+    {
+        "name": "item50",
+        "abs_url": "https://arxiv.org/abs/2409.08940",
+        "pdf_url": "https://arxiv.org/pdf/2409.08940",
+        "title": "Representing Born effective charges with equivariant graph convolutional neural networks",
+        "authors": "Alex Kutana, Koji Shimizu, Satoshi Watanabe, Ryoji Asahi"
+    },
+    {
+        "name": "item51",
+        "abs_url": "https://arxiv.org/abs/2409.08959",
+        "pdf_url": "https://arxiv.org/pdf/2409.08959",
+        "title": "Full minimal coupling Maxwell-TDDFT: an ab initio QED framework beyond the dipole approximation",
+        "authors": "Franco P. Bonaf\u00e9, Esra Ilke Albar, Sebastian T. Ohlmann, Valeriia P. Kosheleva, Carlos M. Bustamante, Francesco Troisi, Angel Rubio, Heiko Appel"
+    },
+    {
+        "name": "item52",
+        "abs_url": "https://arxiv.org/abs/2409.08972",
+        "pdf_url": "https://arxiv.org/pdf/2409.08972",
+        "title": "Finite-momentum superconductivity in two-dimensional altermagnets with a Rashba-type spin-orbit coupling",
+        "authors": "Kohei Mukasa, Yusuke Masaki"
+    },
+    {
+        "name": "item53",
+        "abs_url": "https://arxiv.org/abs/2409.08988",
+        "pdf_url": "https://arxiv.org/pdf/2409.08988",
+        "title": "Assembly of Complex Colloidal Systems Using DNA",
+        "authors": "William M. Jacobs, W. Benjamin Rogers"
+    },
+    {
+        "name": "item54",
+        "abs_url": "https://arxiv.org/abs/2409.08992",
+        "pdf_url": "https://arxiv.org/pdf/2409.08992",
+        "title": "Diffusion crossover from/to $q$-statistics to/from Boltzmann-Gibbs statistics in the classical inertial $\\alpha$-XY ferromagnet",
+        "authors": "Antonio Rodr\u00edguez, Constantino Tsallis"
+    },
+    {
+        "name": "item55",
+        "abs_url": "https://arxiv.org/abs/2409.09002",
+        "pdf_url": "https://arxiv.org/pdf/2409.09002",
+        "title": "Enigmatic 2+6/13 Filling Factor: A Prototype Intermittent Topological State",
+        "authors": "Sudipto Das, Sahana Das, Sudhansu S. Mandal"
+    },
+    {
+        "name": "item56",
+        "abs_url": "https://arxiv.org/abs/2409.09014",
+        "pdf_url": "https://arxiv.org/pdf/2409.09014",
+        "title": "Hydrogen and Deuterium Tunneling in Niobium",
+        "authors": "Abdulaziz Abogoda, W. A. Shelton, I. Vekhter, J. A. Sauls"
+    },
+    {
+        "name": "item57",
+        "abs_url": "https://arxiv.org/abs/2409.09025",
+        "pdf_url": "https://arxiv.org/pdf/2409.09025",
+        "title": "Inverse Spin Hall Effect in Nonequilibrium Dirac Systems Induced by Anomalous Flow Imbalance",
+        "authors": "Hung-Hsuan Teh, Tokiro Numasawa, Shun Okumura, Takashi Oka"
+    }
+]
