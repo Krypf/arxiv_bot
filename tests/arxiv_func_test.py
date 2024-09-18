@@ -3,9 +3,7 @@ import os
 import arxiv
 from datetime import datetime
 #%%
-def check_if_HTML():
-    # Directory to save the file
-    directory = "HTML"
+def check_if_directory(directory="HTML"):
     # Create the directory if it doesn't exist
     if not os.path.exists(directory):
         os.makedirs(directory)

@@ -7,7 +7,7 @@ def sub(obj: ArxivText):
     open(obj.file_path, 'w').close()
     
     soup = ArxivSoup(obj.read_HTML_soup('new'))
-    number_new_submissions = (soup).cross_list_number()
+    number_new_submissions = soup.cross_list_number()
     iterator = map(str, range(1, number_new_submissions))# start with 1
     obj.save_all_in(iterator, soup)
 
@@ -17,7 +17,7 @@ def main():
     today = get_today()
     
     for category in categories_content:
-        obj = ArxivText(category, today)
+        obj = ArxivText(category, today, extension = '.txt')
         sub(obj)
     return 0
 

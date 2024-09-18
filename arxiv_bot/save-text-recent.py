@@ -17,7 +17,7 @@ def main():
     dates = read_inner_file(file='date', folder='arxiv_bot')
     date = dates[-1]
     for category in categories_content:
-        obj = ArxivText(category, date)
+        obj = ArxivText(category, date, extension = '.txt')
         sub(obj)
     return 0
 

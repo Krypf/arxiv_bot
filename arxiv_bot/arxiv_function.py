@@ -30,7 +30,7 @@ class ArxivSearch:
         # HTML data
         self.file_name = f"arxiv_{self.category}_{self.submissions}.html"
         # Specify the file path to the HTML content located in the HTML folder
-        directory = "HTML"
+        directory = "data/HTML"
         self.file_path = os.path.join(parent_folder, directory, self.file_name)
 
     def make_url(self):
@@ -55,7 +55,6 @@ class ArxivSearch:
         # Read the HTML content from the file
         with open(self.file_path, 'r', encoding=encoding) as file:
             html_content = file.read()
-        
         if library == 'BeautifulSoup':
             # Parse the HTML content
             soup = BeautifulSoup(html_content, parser)
@@ -67,7 +66,6 @@ class ArxivSearch:
             tree = etree.HTML(html_bytes)
             return tree
         if library == 'pyquery':
-            # Parse the HTML content
             document = pq(html_content.encode(encoding))
             return document
         else:
@@ -288,10 +286,11 @@ class ArxivText:
         self.category = category
         self.date = date
         self.parent_folder = parent_folder
-        # Define the path to the file
-        self.file_name = f"{self.category}-{self.date}{extension}"
-        self.file_path = os.path.join(self.parent_folder, self.category, self.file_name)
         self.extension = extension
+        self.file_name = f"{self.category}-{self.date}{self.extension}"
+        # Define the path to the file
+        directory = f"data/{self.category}"
+        self.file_path = os.path.join(self.parent_folder, directory, self.file_name)
         
     def read_content(self):
         # Check if the file exists
@@ -339,7 +338,7 @@ class ArxivText:
         printlog(f"Post \"{t}\"")
         return t
     
-    def update_bluesky(self, sleep_time=0.5):
+    def update_bluesky(self, sleep_time=0.3):
         printlog(f"Start updating Bluesky with arxiv entries in the {self.category} category on {self.date}.")
         articles_list = self.read_content()
         client_bsky, thumb = login_bsky(self.category)
@@ -350,7 +349,7 @@ class ArxivText:
         client_bsky.send_post(self.last_post())
         return None
     
-    def update_twitter(self, sleep_time=0.5, api_maximum=50):
+    def update_twitter(self, sleep_time=0.3, api_maximum=50):
         printlog(f"Start updating Twitter with arxiv entries in the {self.category} category on {self.date}.")
         articles_list = self.read_content()
         client_twitter = login_twitter(self.category)
@@ -421,10 +420,6 @@ class ArxivText:
 import tweepy
 from atproto import client_utils, models
 
-def shorten_authors(authors):
-    authors_list = authors.split(", ")
-    return authors_list[0] + " " + "et al."
-
 class ArxivPost():
     def __init__(self, article: dict):
         self.name    = article['name']
@@ -432,14 +427,17 @@ class ArxivPost():
         self.authors = article['authors']
         self.abs_url = article['abs_url']
         self.pdf_url = article['pdf_url']
-        
+    
+    def shorten_authors(authors):
+        authors_list = authors.split(", ")
+        return authors_list[0] + " " + "et al."
+
     def all_text(self):
         return'\n'.join([self.title, self.pdf_url, self.authors, self.abs_url])
-        # return f"{self.title}\n{self.pdf_url}\n{self.authors}\n{self.abs_url}" # there is not \n in the last
         
     def shorten_long_paper_info(self, max_letter: int):
         if len(self.all_text()) > max_letter:
-            self.authors = shorten_authors(self.authors)
+            self.authors = ArxivPost.shorten_authors(self.authors)
             printlog(f"The content of {self.title} exceeds {max_letter} characters. The shorten_long_paper_info shortened the text.")
             # renew all the text
             if len(self.all_text()) <= max_letter:
@@ -470,6 +468,9 @@ class ArxivPost():
             printlog(f"Error occurred: {e}")
             # e.g. 429 TooManyRequests
             return e
+        except tweepy.errors.Forbidden:
+            printlog("403 Forbidden. You are not allowed to create a Tweet with duplicate content.")
+            exit(403)
 
         return None
     # Bluesky
@@ -524,14 +525,7 @@ def read_inner_file(file = '', folder='', extension = '.txt') -> List[str]:
     except Exception as e:
         printlog(str(e))
         return []
-#%%
-def check_if_HTML():
-    # Directory to save the file
-    directory = "HTML"
-    # Create the directory if it doesn't exist
-    if not os.path.exists(directory):
-        os.makedirs(directory)
-    
+
 #%% constants
 categories_content = read_inner_file(file='categories', folder='arxiv_bot')# the current directory is arxiv_bot and the subfolder is arxiv_bot
 

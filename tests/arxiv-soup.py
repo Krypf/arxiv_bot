@@ -6,7 +6,7 @@ exec(script)
 #%%
 from arxiv_function import ArxivSoup, ArxivText, ArxivSearch
 category = 'gr-qc'
-obj = ArxivText(category, '2024-09-15')
+obj = ArxivText(category, '2024-09-15', extension = '.txt')
 search = ArxivSearch(category, 'new')
 soup = ArxivSoup(search.read_HTML())
 def test(soup):

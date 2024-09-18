@@ -3,8 +3,7 @@
 This is a Python library for arXiv bots.
 
 tests, arxiv_bot フォルダのスクリプトは 親フォルダから実行してください。  
-> Scripts in the tests folder must be run from the parent folder.
-> For example, 
+> Scripts in the tests folder must be run from the parent folder. For example, 
 ```python
 python tests/arxiv-bot-test.py gr-qc 2024-07-14 2024-07-21
 ```
@@ -59,8 +58,8 @@ Bluesky ではデフォルトで API が使えるようになっています。~
 
 Python で Bot を作りました。ライブラリ名は AT Protocol といいます。
 
-> ☆☆The outcomes are [here](https://bsky.app/profile/krypf.bsky.social/lists/3kzls5tw2uw2t)☆☆
-> You are free to use the Bluesky API by default. ~~It is perfectly free, unlike Twitter.~~
+> ☆☆The outcomes are [here](https://bsky.app/profile/krypf.bsky.social/lists/3kzls5tw2uw2t)☆☆  
+> You are free to use the Bluesky API by default. ~~It is perfectly free, unlike Twitter.~~  
 > The limit is `5,000 points per hour and 35,000 points`, which is almost unlimited since you can submit about 1,600 posts in an hour (rounded down) and about 11,000 posts in a day.  
 > The points are defined as follows for each operation.
 > 
@@ -73,13 +72,13 @@ Python で Bot を作りました。ライブラリ名は AT Protocol といい�
 
 > **Reference**
 > Bluesky Documentation | Bluesky   
-> https://docs.bsky.app/ 
+> https://docs.bsky.app/  
 > Rate Limits, PDS Distribution v3, and More | Bluesky  
-> https://docs.bsky.app/blog/rate-limits-pds-v3 
+> https://docs.bsky.app/blog/rate-limits-pds-v3  
 > The AT Protocol SDK   
-> https://atproto.blue/en/latest/ 
+> https://atproto.blue/en/latest/  
 > Creating a post | Bluesky  
-> https://docs.bsky.app/docs/tutorials/creating-a-post 
+> https://docs.bsky.app/docs/tutorials/creating-a-post  
 > https://docs.bsky.app/docs/tutorials/creating-a-post#website-card-embeds
 
 
@@ -94,7 +93,7 @@ Twitter の free bot が息絶えた 2023年5月以来、理論物理分野の a
 Requirement は `tweepy` です。
 
 
-> ☆☆The outcomes are [here](https://x.com/i/lists/1828539335723163734)☆☆
+> ☆☆The outcomes are [here](https://x.com/i/lists/1828539335723163734)☆☆  
 > I have created a bot on Twitter as well (version 1.0).
 > 
 > Since May 2023, when Twitter's free bot died out, there had been no arXiv bot for theoretical physics except for a few categories, but we have now revived it.
@@ -104,7 +103,7 @@ Requirement は `tweepy` です。
 
 > **Reference**
 > X Developers  
-> https://developer.x.com/en/portal/petition/essential/terms?plan=free 
+> https://developer.x.com/en/portal/petition/essential/terms?plan=free  
 > Tweepy https://www.tweepy.org/  
 > tweepy/tweepy: Twitter for Python!  
 > https://github.com/tweepy/tweepy 
