@@ -2,7 +2,7 @@
 from get_args import html_args, get_today, categories_content
 from arxiv_function import ArxivSearch, ArxivText
 from printlog import printlog
-
+#%%
 def save_html_json(today):
     args = html_args()
     for category in categories_content:
@@ -26,7 +26,7 @@ def post(today):
     return 0
 
 def main():
-    today = get_today()
+    today = get_today()    
     save_html_json(today)
     post(today)
     return 0

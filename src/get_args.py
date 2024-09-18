@@ -45,6 +45,6 @@ def read_inner_file(file = '', folder='', extension = '.txt') -> List[str]:
         exit(str(e))
         return []
 
-categories_content = read_inner_file(file='categories', folder='core')# the current directory is arxiv_bot and the subfolder is core
+categories_content = read_inner_file(file='categories', folder='src')# the current directory is arxiv_bot and the subfolder is src
 if __name__ == '__main__':
     print(f'categories_content is {categories_content}')

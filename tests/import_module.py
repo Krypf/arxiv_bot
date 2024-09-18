@@ -5,8 +5,8 @@ import os
 # Get the current directory of the test script
 current_dir = os.path.dirname(os.path.abspath(__file__))
 
-# Construct the path to the core folder
-core_dir = os.path.join(current_dir, '..', 'core')
+# Construct the path to the src folder
+src_dir = os.path.join(current_dir, '..', 'src')
 
-# Add the core folder to the system path
-sys.path.insert(0, core_dir)
+# Add the src folder to the system path
+sys.path.insert(0, src_dir)
