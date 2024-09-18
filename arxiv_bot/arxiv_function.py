@@ -463,7 +463,7 @@ class ArxivPost():
             # Post Tweet
             tweet = self.make_tweet()
             client.create_tweet(text=tweet)
-            printlog(f"Target article posted on Twitter: {self.title}")
+            printlog(f"Article posted on Twitter: {self.authors}. {self.title}")
         except tweepy.errors.TweepyException as e:
             printlog(f"Error occurred: {e}")
             # e.g. 429 TooManyRequests
@@ -499,7 +499,7 @@ class ArxivPost():
         embed_external = self.make_linkcard(thumb)
         
         client.send_post(tb, embed=embed_external)
-        printlog(f"Target article posted on Bluesky: {self.title}")
+        printlog(f"Article posted on Bluesky: {self.authors}. {self.title}")
 
         return None
 
