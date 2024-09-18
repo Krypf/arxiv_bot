@@ -1,6 +1,6 @@
 #%%
 import os
-from arxiv_function import read_inner_file
+from get_args import read_inner_file
 
 def create_folder_if_not_exists(folder_name):
     """

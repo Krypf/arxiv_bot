@@ -1,5 +1,6 @@
 #%%
-from arxiv_function import ArxivSearch, ArxivText, ArxivSoup, categories_content, read_inner_file
+from arxiv_function import ArxivSearch, ArxivText, ArxivSoup 
+from get_args import categories_content, read_inner_file
 
 def sub(obj: ArxivText):
     obj.confirm_initialize()

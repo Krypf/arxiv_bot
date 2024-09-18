@@ -503,32 +503,6 @@ class ArxivPost():
 
         return None
 
-#%% https://chatgpt.com/share/7dfbd5e5-9c8d-4939-a815-efd595b5f229
-from typing import List
-def read_inner_file(file = '', folder='', extension = '.txt') -> List[str]:
-    cd_arxiv_bot(_printlog=False)
-    
-    file_name = file + extension
-    
-    if folder != '':
-        file_name = folder + '/' + file_name
-    try:
-        with open(file_name, 'r', encoding='utf-8') as file:
-            # read each line
-            lines = file.readlines()
-            # Strip newline characters from each line
-            categories_list = [line.strip() for line in lines]
-            return categories_list
-    except FileNotFoundError:
-        printlog(f"File '{file_name}' not found in the current directory.")
-        return []
-    except Exception as e:
-        printlog(str(e))
-        return []
-
-#%% constants
-categories_content = read_inner_file(file='categories', folder='arxiv_bot')# the current directory is arxiv_bot and the subfolder is arxiv_bot
-
 if __name__ == '__main__':
     print('This is a module arxiv_function.py')
     print(f'categories_content is {categories_content}')
