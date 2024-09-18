@@ -2,7 +2,14 @@
 import os
 import arxiv
 from datetime import datetime
-
+#%%
+def check_if_HTML():
+    # Directory to save the file
+    directory = "HTML"
+    # Create the directory if it doesn't exist
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+    
 def save_text_append(text, file_path):
     """
     Appends the specified text to the given file.
