@@ -7,7 +7,7 @@ exec(script)
 # Now you can import the module
 # import arxiv_function
 from twitter_function import load_credentials
-from arxiv_function import categories_content
+from get_args import categories_content
 
 import tweepy
 import os
