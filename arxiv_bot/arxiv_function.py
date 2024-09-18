@@ -505,4 +505,3 @@ class ArxivPost():
 
 if __name__ == '__main__':
     print('This is a module arxiv_function.py')
-    print(f'categories_content is {categories_content}')

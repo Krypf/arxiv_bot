@@ -1,6 +1,6 @@
 #%%
-from arxiv_function import ArxivText, ArxivSoup, categories_content
-from get_args import get_today
+from arxiv_function import ArxivText, ArxivSoup
+from get_args import get_today, categories_content
 
 def sub(obj: ArxivText):
     # Create an empty file

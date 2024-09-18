@@ -1,6 +1,6 @@
 #%%
-from arxiv_function import ArxivText, categories_content
-from get_args import get_today
+from arxiv_function import ArxivText
+from get_args import get_today, categories_content
 
 def save_json():
     today = get_today()

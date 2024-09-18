@@ -1,6 +1,6 @@
 #%% 
-from arxiv_function import ArxivSearch, categories_content
-from get_args import html_args
+from arxiv_function import ArxivSearch
+from get_args import html_args, categories_content
 # from typing import Optional
 def save_html():
     args = html_args()

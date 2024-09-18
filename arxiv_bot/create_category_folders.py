@@ -15,6 +15,6 @@ def create_folder_if_not_exists(folder_name):
     else:
         print(f'Folder "{folder_name}" already exists.')
 
-categories_content = read_inner_file(file='categories', folder='arxiv_bot')
+categories_content = read_inner_file(file='categories', folder='core')
 for category in categories_content:
     create_folder_if_not_exists(category)
