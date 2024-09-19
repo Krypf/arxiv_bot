@@ -1,5 +1,5 @@
 #%%
-from arxiv_function import ArxivSearch, ArxivText, ArxivSoup 
+from core.arxiv_function import ArxivSearch, ArxivText, ArxivSoup 
 from utils.get_args import categories_content, read_inner_file
 
 def sub(obj: ArxivText):

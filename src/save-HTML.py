@@ -1,5 +1,5 @@
 #%% 
-from arxiv_function import ArxivSearch
+from core.arxiv_function import ArxivSearch
 from utils.get_args import html_args, categories_content
 # from typing import Optional
 def save_html():

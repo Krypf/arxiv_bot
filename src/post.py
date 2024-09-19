@@ -1,6 +1,6 @@
 #%%
 from core.printlog import printlog
-from arxiv_function import ArxivText
+from core.arxiv_function import ArxivText
 from utils.get_args import get_today, categories_content
 
 def post():

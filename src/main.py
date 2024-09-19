@@ -1,6 +1,6 @@
 #%%
 from utils.get_args import html_args, get_today, categories_content
-from arxiv_function import ArxivSearch, ArxivText
+from core.arxiv_function import ArxivSearch, ArxivText
 from core.printlog import printlog
 #%%
 def save_html_json(today):
