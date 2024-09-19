@@ -1,7 +1,7 @@
 #%%
-from printlog import printlog
+from core.printlog import printlog
 from arxiv_function import ArxivText
-from get_args import get_today, categories_content
+from utils.get_args import get_today, categories_content
 
 def post():
     today = get_today()

@@ -1,6 +1,6 @@
 #%%
 import os
-from printlog import printlog
+from core.printlog import printlog
 
 def load_credentials(category):
     """
@@ -64,6 +64,4 @@ def test():
 
 if __name__ == '__main__':
     test()
-
-
 # %%

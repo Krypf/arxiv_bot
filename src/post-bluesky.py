@@ -1,8 +1,8 @@
 #%%
 # https://chatgpt.com/share/2e11c4e2-96d3-4c1c-82a0-cbed39d6ec9a
-from printlog import printlog
+from core.printlog import printlog
 from arxiv_function import ArxivText
-from get_args import get_today, categories_content
+from utils.get_args import get_today, categories_content
 
 #%%
 def main():

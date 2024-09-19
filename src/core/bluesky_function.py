@@ -27,7 +27,6 @@ def read_password(category):
 
 #%% constants
 from atproto import Client
-
 def login_bsky(category: str):
     # password
     p = read_password(category)
@@ -41,3 +40,8 @@ def login_bsky(category: str):
     thumb = client.upload_blob(img)
     return client, thumb
 #%%
+def test():
+    print(login_bsky('gr-qc'))
+
+if __name__ == '__main__':
+    test()

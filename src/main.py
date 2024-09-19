@@ -1,7 +1,7 @@
 #%%
-from get_args import html_args, get_today, categories_content
+from utils.get_args import html_args, get_today, categories_content
 from arxiv_function import ArxivSearch, ArxivText
-from printlog import printlog
+from core.printlog import printlog
 #%%
 def save_html_json(today):
     args = html_args()
@@ -16,9 +16,9 @@ def save_html_json(today):
 
 def post(today):
     twi = 5
-    for category in reversed(categories_content):
-        reader = ArxivText(category, today, extension='.json')
-        reader.update_bluesky()
+    # for category in reversed(categories_content):
+        # reader = ArxivText(category, today, extension='.json')
+        # reader.update_bluesky()
     for category in reversed(categories_content[:twi]):
         reader = ArxivText(category, today, extension='.json')
         reader.update_twitter()
