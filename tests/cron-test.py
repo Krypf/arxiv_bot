@@ -4,6 +4,6 @@ with open(file_name, 'r') as file:
     script = file.read()
 exec(script)
 #%%
-from printlog import printlog
+from core.printlog import printlog
 
 printlog('this is a cron test, this is a cron test.')

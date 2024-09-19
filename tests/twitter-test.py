@@ -6,11 +6,12 @@ exec(script)
 #%%
 # Now you can import the module
 # import arxiv_function
-from twitter_function import load_credentials
-from get_args import categories_content
+from core.twitter_function import load_credentials
+from utils.get_args import categories_content
 
 import tweepy
 import os
+#%%
 # Specify the file you want to read from
 category = credentials_file = categories_content[0]
 
@@ -24,10 +25,11 @@ client = tweepy.Client(
     access_token=credentials_dict['Access Token'],
     access_token_secret=credentials_dict['Access Token Secret']
 )
-
-# Create API object
-# api = tweepy.API(auth)
-# print(api)
+"""
+ERROR: The below is obsolete
+api = tweepy.API(auth) # Create API object
+"""
+#%%
 # Function to read content from a text file and tweet it
 def tweet_from_file(file_name):
     parent_folder = 'tests'
@@ -51,8 +53,8 @@ def tweet_from_file(file_name):
         print(file_path)
         print(f"Error occurred: {e}")
 
-# Specify the file you want to tweet from
-tweet_file = "tweet.txt"
-tweet_from_file(tweet_file)
-
 # %%
+if __name__ == '__main__':
+    # Specify the file you want to tweet from
+    tweet_file = "tweet.txt"
+    tweet_from_file(tweet_file)
