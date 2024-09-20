@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 from lxml import etree
 from pyquery import PyQuery as pq
 
-from core.printlog import printlog
+from src.core.printlog import printlog
 #%%
 def arxiv_formatted_date(date_str):
     # Convert the string to a datetime object
@@ -277,8 +277,8 @@ class ArxivSoup():
 
 #%% # https://chatgpt.com/share/a02b3fb5-fb86-4de9-a1fa-5f001dcca01f
 
-from core.twitter_function import login_twitter
-from core.bluesky_function import login_bsky
+from src.core.twitter_function import login_twitter
+from src.core.bluesky_function import login_bsky
 import time
 
 class ArxivText:

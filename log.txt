@@ -18884,3 +18884,696 @@ Twitter API v2 limits posts to 1500 per month (50 per day). All the posts includ
 [2024-09-18 14:03:12] Post "These are all of the new submissions in the hep-ph category on Wed, 18 Sep 2024."
 [2024-09-19 04:21:00] This is a printlog test.
 [2024-09-19 04:27:04] This is a src/printlog test.
+[2024-09-19 12:03:36] arxiv_gr-qc_new.html has been saved.
+[2024-09-19 12:03:36] gr-qc-2024-09-19.json has been saved.
+[2024-09-19 12:03:36] arxiv_hep-th_new.html has been saved.
+[2024-09-19 12:03:37] hep-th-2024-09-19.json has been saved.
+[2024-09-19 12:03:37] arxiv_math-ph_new.html has been saved.
+[2024-09-19 12:03:37] math-ph-2024-09-19.json has been saved.
+[2024-09-19 12:03:37] arxiv_quant-ph_new.html has been saved.
+[2024-09-19 12:03:38] quant-ph-2024-09-19.json has been saved.
+[2024-09-19 12:03:38] arxiv_hep-ph_new.html has been saved.
+[2024-09-19 12:03:38] hep-ph-2024-09-19.json has been saved.
+[2024-09-19 12:03:38] arxiv_astro-ph_new.html has been saved.
+[2024-09-19 12:03:40] astro-ph-2024-09-19.json has been saved.
+[2024-09-19 12:03:40] arxiv_cond-mat_new.html has been saved.
+[2024-09-19 12:03:40] cond-mat-2024-09-19.json has been saved.
+[2024-09-19 12:03:40] Start updating Bluesky with arxiv entries in the cond-mat category on 2024-09-19.
+[2024-09-19 12:03:42] Article posted on Bluesky: Benjamin Garcia de Figueiredo, Justin M. Calabrese, William F. Fagan, Ricardo Martinez-Garcia. The structure of inter-reaction times in reaction-diffusion processes and consequences for counting statistics
+[2024-09-19 12:03:42] Article posted on Bluesky: P. Sarkanych, Yu. Sevinchan, M. Krasnytska, P. Romanczuk, Yu. Holovatch. Consensus decision making on a complete graph: complex behaviour from simple assumptions
+[2024-09-19 12:03:43] Article posted on Bluesky: Michael Lau, Wolfgang Häusler, Michael Thorwart. Moving skyrmions in Antiferromagnets by Sublattice Displacements
+[2024-09-19 12:03:43] Article posted on Bluesky: Pawandeep Kaur, Itamar Procaccia, Tuhin Samanta. Selection Principle for the Screening Parameters in the Mechanical Response of Amorphous Solids
+[2024-09-19 12:03:44] Article posted on Bluesky: Erik Orvehed Hiltunen. Perturbation theory for dispersion relations of spacetime-periodic materials
+[2024-09-19 12:03:44] Article posted on Bluesky: Imam Makhfudz, Hamidreza Esmaielpour, Yaser Hajati, Gregor Koblmüller, Nicolas Cavassilas. Interplay of Electron Trapping by Defect Midgap State and Quantum Confinement to Optimize Hot Carrier Effect in a Nanowire Structure
+[2024-09-19 12:03:45] Article posted on Bluesky: Ettore Vitali, Peter Rosenberg, Shiwei Zhang. Monte Carlo Methods in the Manifold of Hartree-Fock-Bogoliubov Wave Functions
+[2024-09-19 12:03:45] Article posted on Bluesky: P. A. Nosov, E. S. Andriyakhina, I. S. Burmistrov. Spatially-resolved dynamics of the amplitude Schmid-Higgs mode in disordered superconductors
+[2024-09-19 12:03:46] Article posted on Bluesky: Bai-Lin Cheng, Shao-Kai Jian, Zhi-Cheng Yang. Hydrodynamic modes and operator spreading in a long-range center-of-mass-conserving Brownian SYK model
+[2024-09-19 12:03:46] Article posted on Bluesky: Longju Yu, Hong Jian Zhao, Yurong Yang, Laurent Bellaiche, Yanming Ma. Anomalous Hall effect from nonlinear magnetoelectric coupling
+[2024-09-19 12:03:46] The content of Hybridization gap approaching the two-dimensional limit of topological insulator Bi$_x$Sb$_{1-x}$ exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-19 12:03:47] Article posted on Bluesky: Paul Corbae et al.. Hybridization gap approaching the two-dimensional limit of topological insulator Bi$_x$Sb$_{1-x}$
+[2024-09-19 12:03:47] Article posted on Bluesky: Haoran Xue, Yong Ge, Zheyu Cheng, Yi-jun Guan, Jiaojiao Zhu, Hong-yu Zou, Shou-qi Yuan, Shengyuan A. Yang, Hong-xiang Sun, Yidong Chong, Baile Zhang. Three-dimensional valley-contrasting sound
+[2024-09-19 12:03:48] Article posted on Bluesky: S. Metayer. Four loop elasticity renormalization of low temperature flat polymerized membranes
+[2024-09-19 12:03:48] Article posted on Bluesky: Faiza Bouamra, Mohamed Sayah, Labib Sadek Terrissa, Noureddine Zerhouni. Smart Data-Driven GRU Predictor for SnO$_2$ Thin films Characteristics
+[2024-09-19 12:03:48] Article posted on Bluesky: Zhiwei Yin, Haoshu Li, Zhongbo Yan, Shaolong Wan. Multifold Majorana corner modes arising from multiple pairs of helical edge states
+[2024-09-19 12:03:49] Article posted on Bluesky: Kisung Kang, Thomas A. R. Purcell, Christian Carbogno, Matthias Scheffler. Accelerating the Training and Improving the Reliability of Machine-Learned Interatomic Potentials for Strongly Anharmonic Materials through Active Learning
+[2024-09-19 12:03:49] The content of Anionic disorder and its impact on the surface electronic structure of oxynitride photoactive semiconductors exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-19 12:03:49] Article posted on Bluesky: Anna Hartl et al.. Anionic disorder and its impact on the surface electronic structure of oxynitride photoactive semiconductors
+[2024-09-19 12:03:50] Article posted on Bluesky: Wei Si, Shifeng Li, Pingwen Zhang, An-Chang Shi, Kai Jiang. Designing a minimal Landau theory to stabilize desired quasicrystals
+[2024-09-19 12:03:50] Article posted on Bluesky: Francesco Andreucci, Stefano Lepri, Carlos Mejía-Monasterio, Stefano Ruffo. Thermal transport in long-range interacting harmonic chains perturbed by long-range conservative noise
+[2024-09-19 12:03:51] Article posted on Bluesky: Thibault Sohier, Marco Gibertini, Ivar Martin, Alberto F. Morpurgo. Unconventional gate-induced superconductivity in transition-metal dichalcogenides
+[2024-09-19 12:03:51] Article posted on Bluesky: Christian Marty, Zijin Lei, Saverio Silletta, Christian Reichl, Werner Dietsche, Werner Wegscheider. Memory resistor based in GaAs 2D-bilayers: In and out of equilibrium
+[2024-09-19 12:03:52] Article posted on Bluesky: Marcelo Lopes Pereira Jr, Emanuel J. A. dos Santos, Luiz Antonio Ribeiro Jr, Douglas Soares Galvão. How does Goldene Stack?
+[2024-09-19 12:03:52] The content of Reversal of charge transfer doping on the negative electronic compressibility surface of MoS2 exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-19 12:03:52] Article posted on Bluesky: Liam Watson et al.. Reversal of charge transfer doping on the negative electronic compressibility surface of MoS2
+[2024-09-19 12:03:52] The content of High stability 2D electron gases formed in Si3N4/Al//KTaO3 heterostructures: synthesis and in-depth interfacial characterization exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-19 12:03:53] Article posted on Bluesky: E. A. Martínez et al.. High stability 2D electron gases formed in Si3N4/Al//KTaO3 heterostructures: synthesis and in-depth interfacial characterization
+[2024-09-19 12:03:53] Article posted on Bluesky: P. Khanenko, D. Hafner, K. Semeniuk, J. Banda, T. Luehmann, F. Baertl, T. Kotte, J. Wosnitza, G. Zwicknagl, C. Geibel, J. F. Landaeta, S. Khim, E. Hassinger, M. Brando. Origin of the non-Fermi-liquid behavior in CeRh2As2
+[2024-09-19 12:03:54] Article posted on Bluesky: Stefania De Palo, Saverio Moroni, Francesco Ancilotto, Pierluigi Silvestrelli, Luciano Reatto. Borophane as substrate for adsorption of He-4: A journey across dimensionality
+[2024-09-19 12:03:54] Article posted on Bluesky: Archak Purkayastha, Giacomo Guarnieri, Janet Anders, Marco Merkli. On the difference between thermalization in open and isolated quantum systems: a case study
+[2024-09-19 12:03:54] Article posted on Bluesky: Ting-Heng Hsieh, Tzay-Ming Hong. Lifting a granular box by a half-buried rod
+[2024-09-19 12:03:55] Article posted on Bluesky: Avital Fried, Ouriel Gotesdyner, Irena Feldman, Amit Kanigel, Amos Sharoni. Ramp reversal memory in bulk crystals of 1T-TaS2
+[2024-09-19 12:03:55] Article posted on Bluesky: Isaac Soltero, Vladimir I. Fal'ko. Interlayer dislocations in multilayer and bulk MoS${}_2$
+[2024-09-19 12:03:56] Article posted on Bluesky: Mingyuan Zheng, Dmytro Khomenko, Patrick Charbonneau. Not-so-glass-like Caging and Fluctuations of an Active Matter Model
+[2024-09-19 12:03:56] Article posted on Bluesky: Wilson S. Martins, Federico Carollo, Kay Brandner, Igor Lesanovsky. Quasiperiodic Floquet-Gibbs states in Rydberg atomic systems
+[2024-09-19 12:03:57] Article posted on Bluesky: Aitor Calvo-Fernández, María Blanco-Rey, Asier Eiguren. Numerical renormalization group calculations for magnetic impurity systems with spin-orbit coupling and crystal-field effects
+[2024-09-19 12:03:57] Article posted on Bluesky: Alpin N. Tatan, Osamu Sugino. Exploring functionalized Zr$_2$N and Sc$_2$N MXenes as superconducting candidates with $\textit{ab initio}$ calculations
+[2024-09-19 12:03:58] Article posted on Bluesky: K. R. Elder, Zhi-Feng Huang, T. Ala-Nissila. Influence of dislocations in multilayer graphene stacks: A phase field crystal study
+[2024-09-19 12:03:58] Article posted on Bluesky: Alessandro Cazzolli, Francesco Dal Corso. The elastica sling
+[2024-09-19 12:03:59] Article posted on Bluesky: Amit Kumar, R. Rajesh. Shock propagation in a driven hard sphere gas: molecular dynamics simulations and hydrodynamics
+[2024-09-19 12:03:59] Article posted on Bluesky: S. K. Mkhonta, Zhi-Feng Huang, K. R. Elder. Uncovering liquid-substrate fluctuation effects on crystal growth and disordered hyperuniformity of two-dimensional materials
+[2024-09-19 12:03:59] Article posted on Bluesky: Praharsh Suryadevara, Mathias Casiulis, Stefano Martiniani. Mirages in the Energy Landscape of Soft Sphere Packings
+[2024-09-19 12:04:00] Article posted on Bluesky: Sounak Sinha, Barry Bradlyn. Computing the $\mathbb{Z}_2$ Invariant in Two-Dimensional Strongly-Correlated Systems
+[2024-09-19 12:04:00] Article posted on Bluesky: Sayan Sarkar, Sunit Das, Debottam Mandal, Amit Agarwal. Light-induced Nonlinear Resonant Spin Magnetization
+[2024-09-19 12:04:01] Article posted on Bluesky: Amartya Pal, Paramita Dutta, Arijit Saha. Identifying inflated Fermi surfaces via thermoelectric response in $d$-wave superconductor heterostructure
+[2024-09-19 12:04:01] Post "These are all of the new submissions in the cond-mat category on Thu, 19 Sep 2024."
+[2024-09-19 12:04:01] Start updating Bluesky with arxiv entries in the astro-ph category on 2024-09-19.
+[2024-09-19 12:04:04] Article posted on Bluesky: Oem Trivedi, Robert J. Scherrer. The long freeze: an asymptotically static universe from holographic dark energy
+[2024-09-19 12:04:04] Article posted on Bluesky: Leda Berni. Searching for chemo-kinematic structures in the Milky Way halo with deep clustering algorithms
+[2024-09-19 12:04:05] Article posted on Bluesky: Andrew W. Blain. Did WISE detect Dyson Spheres/Structures around Gaia-2MASS-selected stars?
+[2024-09-19 12:04:05] Article posted on Bluesky: Jérémy Lebreton, Roland Brochard, Nicolas Ollagnier, Matthieu Baudry, Adrien Hadj Salah, Grégory Jonniaux, Keyvan Kanani, Matthieu Le Goff, Aurore Masson. High performance Lunar landing simulations
+[2024-09-19 12:04:06] Article posted on Bluesky: Ealeal Bear, Dmitry Shishkin, Noam Soker. The Puppis A supernova remnant: an early jet-driven neutron star kick followed by jittering jets
+[2024-09-19 12:04:06] The content of UNCOVER: Significant Reddening in Cosmic Noon Quiescent Galaxies exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-19 12:04:06] Article posted on Bluesky: Jared Siegel et al.. UNCOVER: Significant Reddening in Cosmic Noon Quiescent Galaxies
+[2024-09-19 12:04:07] Article posted on Bluesky: Mathias Lipka, Jens Thomas, Roberto Saglia, Ralf Bender, Maximilian Fabricius, Christian Partmann. The VIRUS-dE Survey II: Cuspy and round halos in dwarf ellipticals -- A result of early assembly?
+[2024-09-19 12:04:07] Article posted on Bluesky: Mahesh Herath, Charles-Édouard Boukaré, Nicolas B. Cowan. Thermal Evolution of Lava Planets
+[2024-09-19 12:04:08] Article posted on Bluesky: Intae Jung, Swara Ravindranath, Anne E. Jaskot, Henry C. Ferguson, Bethan L. James. Local Analogs of Potential Ionizers of the Intergalactic Medium: Compact Star-Forming Galaxies with Intense CIV $\lambda$1550 Emission
+[2024-09-19 12:04:08] Article posted on Bluesky: Yu-Jing Qin, Ann Zabludoff. Linking Transients to their Host Galaxies: II. A Comparison of Host Galaxy Properties and Rate Dependencies across Supernova Types
+[2024-09-19 12:04:09] The content of Characterizing the contribution of dust-obscured star formation at $z \gtrsim$ 5 using 18 serendipitously identified [CII] emitters exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-19 12:04:09] Article posted on Bluesky: I. F. van Leeuwen et al.. Characterizing the contribution of dust-obscured star formation at $z \gtrsim$ 5 using 18 serendipitously identified [CII] emitters
+[2024-09-19 12:04:09] The content of A Systematic Search for Galaxies with Extended Emission Line and Potential Outflows in JADES Medium-Band Images exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-19 12:04:09] Article posted on Bluesky: Yongda Zhu et al.. A Systematic Search for Galaxies with Extended Emission Line and Potential Outflows in JADES Medium-Band Images
+[2024-09-19 12:04:10] The content of The LOFAR Two Metre Sky Survey Data Release 2: Probabilistic Spectral Source Classifications and Faint Radio Source Demographics exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-19 12:04:10] Article posted on Bluesky: A. B. Drake et al.. The LOFAR Two Metre Sky Survey Data Release 2: Probabilistic Spectral Source Classifications and Faint Radio Source Demographics
+[2024-09-19 12:04:10] Article posted on Bluesky: Christopher Cain. Accurate simulations of reionization using the reduced speed of light approximation
+[2024-09-19 12:04:11] Article posted on Bluesky: Tatsuya Matsumoto, Yuichi Harikane, Keiichi Maeda, Kunihito Ioka. Probing the Origin of the Star Formation Excess Discovered by JWST through Gamma-Ray Bursts
+[2024-09-19 12:04:11] Article posted on Bluesky: Tibor Dome, Simon May, Alex Laguë, David J. E. Marsh, Sarah Johnston, Sownak Bose, Alex Tocher, Anastasia Fialkov. Improved Halo Model Calibrations for Mixed Dark Matter Models of Ultralight Axions
+[2024-09-19 12:04:12] Article posted on Bluesky: Rebecca Nealon, Daniel Price. Adaptive particle refinement for compressible smoothed particle hydrodynamics
+[2024-09-19 12:04:12] The content of CuRIOS-ED: The Technology Demonstrator for the CubeSats for Rapid Infrared and Optical Surveys Mission exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-19 12:04:12] Article posted on Bluesky: Hannah Gulick et al.. CuRIOS-ED: The Technology Demonstrator for the CubeSats for Rapid Infrared and Optical Surveys Mission
+[2024-09-19 12:04:13] Article posted on Bluesky: Emma Ayçoberry, Pranjal R. S., Karim Benabed, Yohan Dubois, Elisabeth Krause, Tim Eifler. Testing the thermal Sunyaev-Zel'dovich power spectrum of a halo model using hydrodynamical simulations
+[2024-09-19 12:04:13] The content of A VLBI Calibrator Grid at 600MHz for Fast Radio Transient Localizations with CHIME/FRB Outriggers exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-19 12:04:13] Article posted on Bluesky: Shion Andrew et al.. A VLBI Calibrator Grid at 600MHz for Fast Radio Transient Localizations with CHIME/FRB Outriggers
+[2024-09-19 12:04:14] Article posted on Bluesky: Noor Aftab, Xunhe, Zhang, David R. Mittelman, Dennis di Cicco, Sean Walker, David H. Sliski, Julia Homa, Colin Holm-Hansen, Mary Putman, David Schiminovich, Arne Henden, Gary Walker. The MDW H{\alpha} Sky Survey: Data Release 0
+[2024-09-19 12:04:14] Article posted on Bluesky: Giulia Ricciardi, Sierk E. van Terwisga, Veronica Roccatagliata, Alvaro Hacar, Thomas Henning, Walter Del Pozzo. Survey of Orion Disks with ALMA (SODA) III: Disks in wide binary systems in L1641 and L1647
+[2024-09-19 12:04:15] Article posted on Bluesky: Alisa Galishnikova, Alexander Philippov, Eliot Quataert, Koushik Chatterjee, Matthew Liska. Strongly magnetized accretion with low angular momentum produces a weak jet
+[2024-09-19 12:04:15] Article posted on Bluesky: Loren E. Held, Gordon I. Ogilvie. Instability and warping in vertically oscillating accretion discs
+[2024-09-19 12:04:16] Article posted on Bluesky: Ying D. Liu, Huidong Hu, Xiaowei Zhao, Chong Chen, Rui Wang. A Pileup of Coronal Mass Ejections Produced the Largest Geomagnetic Storm in Two Decades
+[2024-09-19 12:04:16] Article posted on Bluesky: Ruth M. E. Kelly, Denis González-Caniulef, Silvia Zane, Roberto Turolla, Roberto Taverna. X-ray polarisation signatures in bombarded magnetar atmospheres
+[2024-09-19 12:04:17] Article posted on Bluesky: Elena Khomenko, David Martínez-Gómez. MHD waves in the partially ionized plasma: from single to multi-fluid approach
+[2024-09-19 12:04:17] The content of A search for persistent radio sources toward repeating fast radio bursts discovered by CHIME/FRB exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-19 12:04:17] Article posted on Bluesky: Adaeze L. Ibik et al.. A search for persistent radio sources toward repeating fast radio bursts discovered by CHIME/FRB
+[2024-09-19 12:04:18] Article posted on Bluesky: Arthur Berberyan, Peter H. Keys, David B. Jess, Damian J. Christian. A search for mode coupling in magnetic bright points
+[2024-09-19 12:04:18] Article posted on Bluesky: Brock Wallin, Benjamin D. Wibking, G. Mark Voit. A New Superbubble Finding Algorithm: Description and Testing
+[2024-09-19 12:04:19] Article posted on Bluesky: Avishek Basu, Prasanta Char, Rana Nandi. Structural response of neutron stars to rapid rotation and its impact on the braking index
+[2024-09-19 12:04:19] The content of orbitize! v3: Orbit fitting for the High-contrast Imaging Community exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-19 12:04:19] Article posted on Bluesky: Sarah Blunt et al.. orbitize! v3: Orbit fitting for the High-contrast Imaging Community
+[2024-09-19 12:04:20] Article posted on Bluesky: Kayhan Gültekin, Karl Gebhardt, John Kormendy, Adi Foord, Ralf Bender, Tod R. Lauer, Jason Pinkney, Douglas O. Richstone, Scott Tremaine. The Black Hole Mass and Photometric Components of NGC 4826
+[2024-09-19 12:04:20] The content of Gravity or turbulence? VII. The Schmidt-Kennicutt law, the star formation efficiency, and the mass density of clusters from gravitational collapse rather than turbulent support exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-19 12:04:21] Article posted on Bluesky: Manuel Zamora-Aviles et al.. Gravity or turbulence? VII. The Schmidt-Kennicutt law, the star formation efficiency, and the mass density of clusters from gravitational collapse rather than turbulent support
+[2024-09-19 12:04:21] Article posted on Bluesky: Ali Arda Gencali, Unal Ertan. Long-term Evolutionary Links Between the Isolated Neutron Star Populations
+[2024-09-19 12:04:22] Article posted on Bluesky: Paulo Montero-Camacho, Catalina Morales-Gutiérrez, Yao Zhang, Heyang Long, Yi Mao. Reionization relics in the cross-correlation between the Ly$\alpha$ forest and 21 cm intensity mapping in the post-reionization era
+[2024-09-19 12:04:22] The content of Updated forecast for TRAPPIST-1 times of transit for all seven exoplanets incorporating JWST data exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-19 12:04:22] Article posted on Bluesky: Eric Agol et al.. Updated forecast for TRAPPIST-1 times of transit for all seven exoplanets incorporating JWST data
+[2024-09-19 12:04:23] Article posted on Bluesky: Balázs Pál, László Dobos. Denoising medium resolution stellar spectra with neural networks
+[2024-09-19 12:04:23] Article posted on Bluesky: Christopher Cox, Jakob Haynes, Christopher Duffey, Christopher Bennett, Julie Brisset. Photothermal Spectroscopy for Planetary Sciences: Mid-IR Absorption Made Easy
+[2024-09-19 12:04:23] The content of WALLABY Pilot Survey: HI source-finding with a machine learning framework exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-19 12:04:24] Article posted on Bluesky: Li Wang et al.. WALLABY Pilot Survey: HI source-finding with a machine learning framework
+[2024-09-19 12:04:24] Article posted on Bluesky: Chenxi Shan, Haiguang Xu, Yongkai Zhu, Yuanyuan Zhao, Sarah V. White, Jack L. B. Line, Dongchao Zheng, Zhenghao Zhu, Dan Hu, Zhongli Zhang, Xiangping Wu. An evaluation of source-blending impact on the calibration of SKA EoR experiments
+[2024-09-19 12:04:25] Article posted on Bluesky: Travis Yeager, Curtis Struck, Phil Appleton. The generation of a multi-phase medium in "Splash" bridge systems: Towards an understanding of star formation suppression in turbulent galaxy systems
+[2024-09-19 12:04:25] Article posted on Bluesky: Liza Devi, Asish Jyoti Boruah, Biplob Sarkar. Accretion Disc Outbursts and Stability Analysis
+[2024-09-19 12:04:25] The content of Photo-nuclear reaction rates of $^{157,159}$Ho and $^{163,165}$Tm and their impact in the $\gamma$--process exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-19 12:04:26] Article posted on Bluesky: Hao Cheng et al.. Photo-nuclear reaction rates of $^{157,159}$Ho and $^{163,165}$Tm and their impact in the $\gamma$--process
+[2024-09-19 12:04:26] The content of Short-term variability of the transitional pulsar candidate CXOU J110926.4-650224 from X-rays to infrared exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-19 12:04:26] Article posted on Bluesky: F. Coti Zelati et al.. Short-term variability of the transitional pulsar candidate CXOU J110926.4-650224 from X-rays to infrared
+[2024-09-19 12:04:27] Article posted on Bluesky: Sree Bhattacherjee, Arbind Pradhan, Biplob Sarkar. Spectro-temporal study of atoll source GX 9+9 observed with AstroSat
+[2024-09-19 12:04:27] Article posted on Bluesky: Sai Prathyusha Malla, Dennis Stello, Benjamin T. Monet, Daniel Huber, Marc Hon, Timothy R. Bedding, Claudia Reyes, Daniel R. Hey. Benchmarking the spectroscopic masses of 249 evolved stars using asteroseismology with TESS
+[2024-09-19 12:04:28] Article posted on Bluesky: C.G. Bassa, F. Di Vruno, B. Winkel, G.I.G. Jozsa, M.A. Brentjens, X. Zhang. Bright unintended electromagnetic radiation from second-generation Starlink satellites
+[2024-09-19 12:04:28] Article posted on Bluesky: H. Islam, N. Schwadron, E. Moebius, F. Rahmanifard, J. M. Sokol, A. Galli, D. J. McComas, P. Wurz, S. A. Fuselier, K. Fairchild, D. Heirtzler. IBEX Observations of Elastic Scattering of Interstellar Helium by Solar Wind Particles
+[2024-09-19 12:04:29] Article posted on Bluesky: V.Rozhkov, S.Troitsky. Multimessenger astronomy
+[2024-09-19 12:04:29] Article posted on Bluesky: Gan Luo, Laura Colzi, Tie Liu, Thomas G. Bisbas, Di Li, Yichen Sun, Ningyu Tang. A new measurement of the Galactic $^{12}$C/$^{13}$C gradient from sensitive HCO$^+$ absorption observations
+[2024-09-19 12:04:29] The content of Mutual neutralization of C$_{60}^+$ and C$_{60}^-$ ions: Excitation energies and state-selective rate coefficients exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-19 12:04:30] Article posted on Bluesky: Michael Gatchell et al.. Mutual neutralization of C$_{60}^+$ and C$_{60}^-$ ions: Excitation energies and state-selective rate coefficients
+[2024-09-19 12:04:30] Article posted on Bluesky: Hitesh Tanenia, Akash Garg, Ranjeev Misra, Somasri Sen. Modelling the Energy-dependent broadband variability in the black-hole transient GX 339-4 using Astrosat and NICER
+[2024-09-19 12:04:31] Article posted on Bluesky: Martin Ravn, Christian Glaser, Thorsten Glüsenkamp, Alan Coleman. Likelihood reconstruction of radio signals of neutrinos and cosmic rays
+[2024-09-19 12:04:31] Article posted on Bluesky: S. J. Zhao, L. Tao, Q. Q. Yin, S. N. Zhang, R. C. Ma, P. P. Li, Q. C. Zhao, M. Y. Ge, L. Zhang, J. L. Qu, S. Zhang, X. Ma, Y. Huang, J. Q. Peng, Y. X. Xiao. A Revised Spin of the Black Hole in GRS 1716-249 with a New Distance
+[2024-09-19 12:04:32] Article posted on Bluesky: S.G. Sousa, V. Adibekyan, E. Delgado-Mena, N.C. Santos, B. Rojas-Ayala, S.C. Barros, O.D.S. Demangeon, S. Hoyer, G. Israelian, A. Mortier, B.M.T. Soares, M. Tsantaki. SWEET-Cat: A view on the planetary mass-radius relation
+[2024-09-19 12:04:32] The content of X-ray view of emission lines in optical spectra: Spectral analysis of the two low-mass X-ray binary systems Swift J1357.2-0933 and MAXI J1305-704 exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-19 12:04:32] Article posted on Bluesky: A. Anitra et al.. X-ray view of emission lines in optical spectra: Spectral analysis of the two low-mass X-ray binary systems Swift J1357.2-0933 and MAXI J1305-704
+[2024-09-19 12:04:33] Article posted on Bluesky: Sandip Kumar Chakrabarti. Black Hole Accretion is all about Sub-Keplerian Flows
+[2024-09-19 12:04:33] Article posted on Bluesky: Shogo Masaki, Maresuke Shiraishi, Takahiro Nishimichi, Teppei Okumura, Shuichiro Yokoyama. First confirmation of anisotropic bias from statistically anisotropic matter distributions
+[2024-09-19 12:04:34] Article posted on Bluesky: Weilun Zheng, Kwan Chuen Chan, Haojie Xu, Le Zhang, Ruiyu Song. Optimizing Redshift Distribution Inference through Joint Self-Calibration and Clustering-Redshift Synergy
+[2024-09-19 12:04:34] The content of The Faraday rotation measure of the M87 jet at 3.5mm with the Atacama Large Millimeter/submillimeter Array exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-19 12:04:34] Article posted on Bluesky: Sijia Peng et al.. The Faraday rotation measure of the M87 jet at 3.5mm with the Atacama Large Millimeter/submillimeter Array
+[2024-09-19 12:04:35] Article posted on Bluesky: Komal Chand, Khushboo Rao, Kaushar Vaidya, Anju Panthi. Characterization of blue and yellow straggler stars of Berkeley 39 using Swift/UVOT
+[2024-09-19 12:04:35] Article posted on Bluesky: Revol Alexandre, Émeline Bolmont, Mariana Sastre, Gabriel Tobie, Anne-Sophie Libert, Mathilde Kervazo, Sergi Blanco-Cuaresma. Drifts of the sub-stellar points of the TRAPPIST-1 planets
+[2024-09-19 12:04:36] Article posted on Bluesky: Shraddha Biswas, D. Bisht, Ing-Guey Jiang, Devesh P. Sariya, Kaviya Parthasarathy. Probing the Possible Causes of the Transit Timing Variation for TrES-2b in TESS Era
+[2024-09-19 12:04:36] Article posted on Bluesky: Daye Lim, Tom Van Doorsselaere, Valery M. Nakariakov, Dmitrii Y. Kolotkov, Yuhang Gao, David Berghmans. Undersampling effects on observed periods of coronal oscillations
+[2024-09-19 12:04:37] Article posted on Bluesky: Jens Chluba, Bryce Cyr, Matthew C. Johnson. Revisiting Dark Photon Constraints from CMB Spectral Distortions
+[2024-09-19 12:04:37] The content of The Low-Redshift Lyman Continuum Survey: The Roles of Stellar Feedback and ISM Geometry in LyC Escape exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-19 12:04:37] Article posted on Bluesky: Sophia R. Flury et al.. The Low-Redshift Lyman Continuum Survey: The Roles of Stellar Feedback and ISM Geometry in LyC Escape
+[2024-09-19 12:04:38] Article posted on Bluesky: A.Dutta, J.R.Peterson, T. Rose, M. Cianfaglione, A. Bonafede, G. Li, G. Sembroski. Weak Lensing analysis of Abell 2390 using short exposures
+[2024-09-19 12:04:38] Article posted on Bluesky: Luiz A. C. A. Schiavo, Gert J. J. Botha, James A. McLaughlin. Self-similar solutions of oscillatory reconnection: parameter study of magnetic field strength and background temperature
+[2024-09-19 12:04:39] The content of Multi-wavelength spectroscopic analysis of the ULX Holmberg II exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-19 12:04:39] Article posted on Bluesky: S. Reyero Serantes et al.. Multi-wavelength spectroscopic analysis of the ULX Holmberg II
+[2024-09-19 12:04:39] Article posted on Bluesky: Radhika Achikanath Chirakkara, Christoph Federrath, Amit Seta. AHKASH: a new Hybrid particle-in-cell code for simulations of astrophysical collisionless plasma
+[2024-09-19 12:04:40] The content of Synchrotron self-Compton in a radiative-adiabatic fireball scenario: Modelling the multiwavelength observations in some Fermi/LAT bursts exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-19 12:04:40] Article posted on Bluesky: Nissim Fraija et al.. Synchrotron self-Compton in a radiative-adiabatic fireball scenario: Modelling the multiwavelength observations in some Fermi/LAT bursts
+[2024-09-19 12:04:40] The content of Disruption of a massive molecular cloud by a supernova in the Galactic Centre: Initial results from the ACES project exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-19 12:04:40] Article posted on Bluesky: M. Nonhebel et al.. Disruption of a massive molecular cloud by a supernova in the Galactic Centre: Initial results from the ACES project
+[2024-09-19 12:04:41] The content of Exoplanet accretion monitoring spectroscopic survey (ENTROPY) I. Evidence for magnetospheric accretion in the young isolated planetary-mass object 2MASS J11151597+1937266 exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-19 12:04:41] Article posted on Bluesky: Gayathri Viswanath et al.. Exoplanet accretion monitoring spectroscopic survey (ENTROPY) I. Evidence for magnetospheric accretion in the young isolated planetary-mass object 2MASS J11151597+1937266
+[2024-09-19 12:04:41] Article posted on Bluesky: Alina Sabyr, Carlos Sierra, J. Colin Hill, Jeffrey J. McMahon. SPECTER: An Instrument Concept for CMB Spectral Distortion Measurements with Enhanced Sensitivity
+[2024-09-19 12:04:42] Post "These are all of the new submissions in the astro-ph category on Thu, 19 Sep 2024."
+[2024-09-19 12:04:42] Start updating Bluesky with arxiv entries in the hep-ph category on 2024-09-19.
+[2024-09-19 12:04:44] Article posted on Bluesky: Konstantin Asteriadis, Sally Dawson, Pier Paolo Giardino, Robert Szafron. The $e^+ e^- \rightarrow Z H$ Process in the SMEFT Beyond Leading Order
+[2024-09-19 12:04:44] Article posted on Bluesky: Dan-Dan Cheng, Zhu-Fang Cui, Minghui Ding, Craig D. Roberts, Sebastian M. Schmidt. Pion Boer-Mulders function using a contact interaction
+[2024-09-19 12:04:45] Article posted on Bluesky: Preeti Bhall, Alka Upadhyay. Sea-quark dynamics in decuplet ($\frac{3}{2}^+$) $\rightarrow$ octet ($\frac{1}{2}^+$) transition quadrupole moment
+[2024-09-19 12:04:45] Article posted on Bluesky: Son Cao, P. T. Quyen, N. T. Hong Van, Ankur Nath, T. V. Ngoc. On Precision of the Leptonic Mixing Angle $\theta_{23}$ and its Implications for the Flavor Models
+[2024-09-19 12:04:46] Article posted on Bluesky: Orkash Amat, Hong-Hao Fan, Suo Tang, Yong-Feng Huang, Bai-Song Xie. Spin resolved momentum spectra for vacuum pair production via a generalized two level model
+[2024-09-19 12:04:46] Article posted on Bluesky: Suneel Dutt, Arvind Kumar, Harleen Dahiya. Effective masses and magnetic moments of charmed baryons in asymmetric hot strange hadronic matter
+[2024-09-19 12:04:47] Article posted on Bluesky: Ilia Belov, Alessandro Giachino, Elena Santopinto. Fully charmed tetraquark production at the LHC experiments
+[2024-09-19 12:04:47] Article posted on Bluesky: Rameswar Sahu, Saiyad Ashanujjaman, Kirtiman Ghosh. Unveiling the Secrets of New Physics Through Top Quark Tagging
+[2024-09-19 12:04:48] Article posted on Bluesky: Vincenzo Nugara, Vincenzo Greco, Salvatore Plumari. Far-from-equilibrium attractors with Full Relativistic Boltzmann approach in 3+1 D: moments of distribution function and anisotropic flows $v_n$
+[2024-09-19 12:04:48] Article posted on Bluesky: Rikkert Frederix, Timea Vitos. Leading-colour-based unweighted event generation for multi-parton tree-level processes
+[2024-09-19 12:04:48] Article posted on Bluesky: Bhavesh Chauhan, Priyank Parashari. Probing the cosmic sterile-neutrino background with IceCube
+[2024-09-19 12:04:49] Post "These are all of the new submissions in the hep-ph category on Thu, 19 Sep 2024."
+[2024-09-19 12:04:49] Start updating Bluesky with arxiv entries in the quant-ph category on 2024-09-19.
+[2024-09-19 12:04:51] The content of Federated Learning with Quantum Computing and Fully Homomorphic Encryption: A Novel Computing Paradigm Shift in Privacy-Preserving ML exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-19 12:04:51] Article posted on Bluesky: Siddhant Dutta et al.. Federated Learning with Quantum Computing and Fully Homomorphic Encryption: A Novel Computing Paradigm Shift in Privacy-Preserving ML
+[2024-09-19 12:04:52] Article posted on Bluesky: Hai H. Vo, Nguyen H. Nguyen, Trung V. Phan. Size and Shape of Fuzzy Spheres from Matrix/Membrane Correspondence
+[2024-09-19 12:04:52] Article posted on Bluesky: Ron Nyström, Nicola Pranzini, Esko Keski-Vakkuri. Harvesting magic from the vacuum
+[2024-09-19 12:04:53] Article posted on Bluesky: Kate L. Fenwick, Jonathan Baker, Guillaume S. Thekkadath, Aaron Z. Goldberg, Khabat Heshami, Philip J. Bustard, Duncan England, Frédéric Bouchard, Benjamin Sussman. Multiphoton interference in a single-spatial-mode quantum walk
+[2024-09-19 12:04:53] Article posted on Bluesky: Eiji Konishi. A remark on quantum measuring systems and the holographic principle
+[2024-09-19 12:04:54] Article posted on Bluesky: Eric Kubischta, Ian Teixeira. Flexible Fault Tolerant Gate Gadgets
+[2024-09-19 12:04:54] Article posted on Bluesky: Tommaso Guaita, Lucas Hackl, Thomas Quella. Representation theory of Gaussian unitary transformations for bosonic and fermionic systems
+[2024-09-19 12:04:54] The content of Rapid initial state preparation for the quantum simulation of strongly correlated molecules exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-19 12:04:54] Article posted on Bluesky: Dominic W. Berry et al.. Rapid initial state preparation for the quantum simulation of strongly correlated molecules
+[2024-09-19 12:04:55] Article posted on Bluesky: Gang Fan, Fang-Fang Du. A Computation-Enhanced High-Dimensional Quantum Gate for Silicon-Vacancy Spins
+[2024-09-19 12:04:55] Article posted on Bluesky: Doriano Brogioli. A no-go theorem for sequential and retro-causal hidden-variable theories based on computational complexity
+[2024-09-19 12:04:56] Article posted on Bluesky: Masahito Hayashi, Yingkai Ouyang. The Cram\'{e}r-Rao approach and global quantum estimation of bosonic states
+[2024-09-19 12:04:56] Article posted on Bluesky: Ettore Canonici, Filippo Caruso. QUBO-based SVM for credit card fraud detection on a real QPU
+[2024-09-19 12:04:57] Article posted on Bluesky: Ivan Iakoupov, Victor M. Bastidas, Yuichiro Matsuzaki, Shiro Saito, William J. Munro. Spin amplification in realistic systems
+[2024-09-19 12:04:57] Article posted on Bluesky: Aeishah Ameera Anuar, Francois Jamet, Fabio Gironella, Fedor Simkovic IV, Riccardo Rossi. Operator-Projected Variational Quantum Imaginary Time Evolution
+[2024-09-19 12:04:58] Article posted on Bluesky: Romain Dalidet, Anthony Martin, Grégory Sauder, Laurent Labonté, Sébastien Tanzilli. Quantum-like nonlinear interferometry with frequency-engineered classical light
+[2024-09-19 12:04:58] Article posted on Bluesky: Athanasios C. Tzemos, George Contopoulos. A comparison between classical and Bohmian quantum chaos
+[2024-09-19 12:04:59] Article posted on Bluesky: Saud Čindrak, Lina Jaurigue, Kathy Lüdge. Krylov Expressivity in Quantum Reservoir Computing and Quantum Extreme Learning
+[2024-09-19 12:04:59] Article posted on Bluesky: Boris Bourdoncle, Pierre-Emmanuel Emeriau, Paul Hilaire, Shane Mansfield, Luka Music, Stephen Wein. Towards practical secure delegated quantum computing with semi-classical light
+[2024-09-19 12:04:59] Article posted on Bluesky: Zichang He, David Amaro, Ruslan Shaydulin, Marco Pistoia. Performance of Quantum Approximate Optimization with Quantum Error Detection
+[2024-09-19 12:05:00] Article posted on Bluesky: Philip Andrango, Hailin Wang. Mechanical Wannier-Stark Ladder of Diamond Spin-Mechanical Lamb Wave Resonators
+[2024-09-19 12:05:00] Article posted on Bluesky: Maximilian Schlosshauer. Performance advantage of protective quantum measurements
+[2024-09-19 12:05:01] Post "These are all of the new submissions in the quant-ph category on Thu, 19 Sep 2024."
+[2024-09-19 12:05:01] Start updating Bluesky with arxiv entries in the math-ph category on 2024-09-19.
+[2024-09-19 12:05:03] Article posted on Bluesky: Brian K. Tran, Joshua W. Burby, Ben S. Southworth. A Geometric Perspective on Kinetic Matter-Radiation Interaction and Moment Systems
+[2024-09-19 12:05:03] Article posted on Bluesky: A. Boumali, K. Zazoua, F. Serdouk. Determination of Fisher and Shannon Information for 1D Fractional Quantum Harmonic Oscillator
+[2024-09-19 12:05:04] Article posted on Bluesky: Asier López-Gordón. The geometry of dissipation
+[2024-09-19 12:05:04] Article posted on Bluesky: Roman Cherniha, Vasyl' Davydovych, Joanna Stachowska-Pietka, Jacek Waniewski. Analysis of a Mathematical Model for Fluid Transport in Poroelastic Materials in 2D Space
+[2024-09-19 12:05:05] Post "These are all of the new submissions in the math-ph category on Thu, 19 Sep 2024."
+[2024-09-19 12:05:05] Start updating Bluesky with arxiv entries in the hep-th category on 2024-09-19.
+[2024-09-19 12:05:07] Article posted on Bluesky: Maor Ben-Shahar, Francesco Bonechi, Maxim Zabzine. Off-shell color-kinematics duality from codifferentials
+[2024-09-19 12:05:07] Article posted on Bluesky: Davide Gaiotto, Herman Verlinde. SYK-Schur duality: Double scaled SYK correlators from $N=2$ supersymmetric gauge theory
+[2024-09-19 12:05:07] Article posted on Bluesky: Wentao Liu, Li Zhang, Di Wu, Jieci Wang. Thermodynamic topological classes of the rotating, accelerating black holes
+[2024-09-19 12:05:08] Article posted on Bluesky: Yu-Ping Wang. Triple Product Amplitude from Chiral String
+[2024-09-19 12:05:08] Article posted on Bluesky: Riccardo Argurio, Andrés Collinucci, Giovanni Galati, Ondrej Hulik, Elise Paznokas. Non-Invertible T-duality at Any Radius via Non-Compact SymTFT
+[2024-09-19 12:05:09] Article posted on Bluesky: Michele Arzano, Folkert Kuipers. A Stochastic Origin of Spacetime Non-Commutativity
+[2024-09-19 12:05:09] Article posted on Bluesky: Aybike Çatal-Özer, Keremcan Doğan, Cem Yetişmişoğlu. Drinfel'd Doubles, Twists and All That... in Stringy Geometry and M Theory
+[2024-09-19 12:05:10] Article posted on Bluesky: Yoonbai Kim, O-Kab Kwon, Hanwool Song, Chanju Kim. Inhomogeneous Abelian Chern-Simons Higgs Model with New Inhomogeneous BPS Vacuum and Solitons
+[2024-09-19 12:05:10] Article posted on Bluesky: Irina Ya. Aref'eva, Kristina Rannu, Pavel Slepov. Einstein-dilaton-four-Maxwell Holographic Anisotropic Models
+[2024-09-19 12:05:11] Article posted on Bluesky: Nicolas Cresto, Laurent Freidel. Asymptotic Higher Spin Symmetries I: Covariant Wedge Algebra in Gravity
+[2024-09-19 12:05:11] Post "These are all of the new submissions in the hep-th category on Thu, 19 Sep 2024."
+[2024-09-19 12:05:11] Start updating Bluesky with arxiv entries in the gr-qc category on 2024-09-19.
+[2024-09-19 12:05:13] Article posted on Bluesky: Vesselin G. Gueorguiev. Elucidating the z-dependence of the MOND acceleration (a_0) within the Scale Invariant Vacuum (SIV) paradigm
+[2024-09-19 12:05:13] Article posted on Bluesky: Gennady S. Bisnovatyi-Kogan, Marco Merafina. Orbital precession and other properties of two-body motion in the presence of dark energy
+[2024-09-19 12:05:14] Article posted on Bluesky: Samuel Fedida, Anne-Catherine de la Hamette, Viktoria Kabel, Časlav Brukner. Knot invariants and indefinite causal order
+[2024-09-19 12:05:14] Article posted on Bluesky: Rodrigo Panosso Macedo, Anil Zenginoglu. Hyperboloidal Approach to Quasinormal Modes
+[2024-09-19 12:05:14] Article posted on Bluesky: Lina Zhang, Qiyuan Pan, Yun Soo Myung, De-Cheng Zou. Spontaneous scalarization of Bardeen black holes
+[2024-09-19 12:05:15] Article posted on Bluesky: Alberto Escalante, P. Fernando Ocaña García. New canonical analysis for consistent extension of $\lambda R$ gravity
+[2024-09-19 12:05:15] Article posted on Bluesky: Damianos Iosifidis. Extended Metric-Affine $f(R)$ Gravity with Dynamical Connection in Vacuum
+[2024-09-19 12:05:16] Article posted on Bluesky: Yu-Qi Dong, Xiao-Bin Lai, Yu-Qiang Liu, Yu-Xiao Liu. Analyzing gravitational wave effects in general modified gravity: an example based on the most general vector-tensor theory
+[2024-09-19 12:05:16] Article posted on Bluesky: Zhi Luo, Ke-Jian He, Jin Li. Holographic Einstein Rings of AdS Black Holes in Horndeski Theory
+[2024-09-19 12:05:17] Article posted on Bluesky: Lorenzo Iorio. On the Euler-type gravitomagnetic orbital effects in the field of a precessing body
+[2024-09-19 12:05:17] Article posted on Bluesky: Joanna Piwnik, Joanna Gonera, Cezary Gonera, Piotr Kosinski. Integrable dynamics from Fermat's principle
+[2024-09-19 12:05:18] Article posted on Bluesky: Fen Long, Shangyun Wang, Songbai Chen, Jiliang Jing. Magnetic Reconnection and Energy Extraction from a Konoplya-Zhidenko rotating non-Kerr black hole
+[2024-09-19 12:05:18] Article posted on Bluesky: Diego Tessainer, Antonio L. Maroto, Prado Martín-Moruno. Multi-field TDiff theories for cosmology
+[2024-09-19 12:05:19] Article posted on Bluesky: S. P. Miao, N. C. Tsamis, R. P. Woodard. Leading Logarithm Quantum Gravity
+[2024-09-19 12:05:19] Article posted on Bluesky: Lorenzo Iorio. Post-Keplerian perturbations of the hyperbolic motion in the field of a massive, rotating object
+[2024-09-19 12:05:20] Article posted on Bluesky: G. Alencar, M. Nilton, Manuel E. Rodrigues, Marcos V. de S. Silva. Field Sources for $f(R,R_{\mu\nu})$ Black-Bounce Solutions: The Case of K-Gravity
+[2024-09-19 12:05:20] Article posted on Bluesky: Guillem Domènech, Jan Tränkle. From formation to evaporation: Induced gravitational wave probes of the primordial black hole reheating scenario
+[2024-09-19 12:05:20] Article posted on Bluesky: A. S. Agrawal, Sankarsan Tarai, B. Mishra, S.K. Tripathy. Matter Geometry Coupling and Casimir Wormhole Geometry
+[2024-09-19 12:05:21] Post "These are all of the new submissions in the gr-qc category on Thu, 19 Sep 2024."
+[2024-09-19 12:05:21] This is the end of all the posts on 2024-09-19
+[2024-09-19 14:31:00] this is a cron test, this is a cron test.
+[2024-09-19 14:40:08] arxiv_gr-qc_new.html has been saved.
+[2024-09-19 14:40:09] gr-qc-2024-09-19.json has been saved.
+[2024-09-19 14:40:09] arxiv_hep-th_new.html has been saved.
+[2024-09-19 14:40:09] hep-th-2024-09-19.json has been saved.
+[2024-09-19 14:40:09] arxiv_math-ph_new.html has been saved.
+[2024-09-19 14:40:09] math-ph-2024-09-19.json has been saved.
+[2024-09-19 14:40:10] arxiv_quant-ph_new.html has been saved.
+[2024-09-19 14:40:10] quant-ph-2024-09-19.json has been saved.
+[2024-09-19 14:40:10] arxiv_hep-ph_new.html has been saved.
+[2024-09-19 14:40:10] hep-ph-2024-09-19.json has been saved.
+[2024-09-19 14:40:10] arxiv_astro-ph_new.html has been saved.
+[2024-09-19 14:40:13] astro-ph-2024-09-19.json has been saved.
+[2024-09-19 14:40:13] arxiv_cond-mat_new.html has been saved.
+[2024-09-19 14:40:13] cond-mat-2024-09-19.json has been saved.
+[2024-09-19 14:40:13] Start updating Twitter with arxiv entries in the hep-ph category on 2024-09-19.
+[2024-09-19 14:40:13] Article posted on Twitter: Konstantin Asteriadis, Sally Dawson, Pier Paolo Giardino, Robert Szafron. The $e^+ e^- \rightarrow Z H$ Process in the SMEFT Beyond Leading Order
+[2024-09-19 14:40:14] Article posted on Twitter: Dan-Dan Cheng, Zhu-Fang Cui, Minghui Ding, Craig D. Roberts, Sebastian M. Schmidt. Pion Boer-Mulders function using a contact interaction
+[2024-09-19 14:40:15] Article posted on Twitter: Preeti Bhall, Alka Upadhyay. Sea-quark dynamics in decuplet ($\frac{3}{2}^+$) $\rightarrow$ octet ($\frac{1}{2}^+$) transition quadrupole moment
+[2024-09-19 14:40:16] Article posted on Twitter: Son Cao, P. T. Quyen, N. T. Hong Van, Ankur Nath, T. V. Ngoc. On Precision of the Leptonic Mixing Angle $\theta_{23}$ and its Implications for the Flavor Models
+[2024-09-19 14:40:16] Article posted on Twitter: Orkash Amat, Hong-Hao Fan, Suo Tang, Yong-Feng Huang, Bai-Song Xie. Spin resolved momentum spectra for vacuum pair production via a generalized two level model
+[2024-09-19 14:40:17] Article posted on Twitter: Suneel Dutt, Arvind Kumar, Harleen Dahiya. Effective masses and magnetic moments of charmed baryons in asymmetric hot strange hadronic matter
+[2024-09-19 14:40:18] Article posted on Twitter: Ilia Belov, Alessandro Giachino, Elena Santopinto. Fully charmed tetraquark production at the LHC experiments
+[2024-09-19 14:40:18] Article posted on Twitter: Rameswar Sahu, Saiyad Ashanujjaman, Kirtiman Ghosh. Unveiling the Secrets of New Physics Through Top Quark Tagging
+[2024-09-19 14:40:19] Article posted on Twitter: Vincenzo Nugara, Vincenzo Greco, Salvatore Plumari. Far-from-equilibrium attractors with Full Relativistic Boltzmann approach in 3+1 D: moments of distribution function and anisotropic flows $v_n$
+[2024-09-19 14:40:20] Article posted on Twitter: Rikkert Frederix, Timea Vitos. Leading-colour-based unweighted event generation for multi-parton tree-level processes
+[2024-09-19 14:40:20] Article posted on Twitter: Bhavesh Chauhan, Priyank Parashari. Probing the cosmic sterile-neutrino background with IceCube
+[2024-09-19 14:40:21] Post "These are all of the new submissions in the hep-ph category on Thu, 19 Sep 2024."
+[2024-09-19 14:40:21] Start updating Twitter with arxiv entries in the quant-ph category on 2024-09-19.
+[2024-09-19 14:40:21] The content of Federated Learning with Quantum Computing and Fully Homomorphic Encryption: A Novel Computing Paradigm Shift in Privacy-Preserving ML exceeds 280 characters. The shorten_long_paper_info shortened the text.
+[2024-09-19 14:40:21] Article posted on Twitter: Siddhant Dutta et al.. Federated Learning with Quantum Computing and Fully Homomorphic Encryption: A Novel Computing Paradigm Shift in Privacy-Preserving ML
+[2024-09-19 14:40:22] Article posted on Twitter: Hai H. Vo, Nguyen H. Nguyen, Trung V. Phan. Size and Shape of Fuzzy Spheres from Matrix/Membrane Correspondence
+[2024-09-19 14:40:23] Article posted on Twitter: Ron Nyström, Nicola Pranzini, Esko Keski-Vakkuri. Harvesting magic from the vacuum
+[2024-09-19 14:40:23] The content of Multiphoton interference in a single-spatial-mode quantum walk exceeds 280 characters. The shorten_long_paper_info shortened the text.
+[2024-09-19 14:40:23] Article posted on Twitter: Kate L. Fenwick et al.. Multiphoton interference in a single-spatial-mode quantum walk
+[2024-09-19 14:40:24] Article posted on Twitter: Eiji Konishi. A remark on quantum measuring systems and the holographic principle
+[2024-09-19 14:40:25] Article posted on Twitter: Eric Kubischta, Ian Teixeira. Flexible Fault Tolerant Gate Gadgets
+[2024-09-19 14:40:25] Article posted on Twitter: Tommaso Guaita, Lucas Hackl, Thomas Quella. Representation theory of Gaussian unitary transformations for bosonic and fermionic systems
+[2024-09-19 14:40:26] The content of Rapid initial state preparation for the quantum simulation of strongly correlated molecules exceeds 280 characters. The shorten_long_paper_info shortened the text.
+[2024-09-19 14:40:26] Article posted on Twitter: Dominic W. Berry et al.. Rapid initial state preparation for the quantum simulation of strongly correlated molecules
+[2024-09-19 14:40:27] Article posted on Twitter: Gang Fan, Fang-Fang Du. A Computation-Enhanced High-Dimensional Quantum Gate for Silicon-Vacancy Spins
+[2024-09-19 14:40:28] Article posted on Twitter: Doriano Brogioli. A no-go theorem for sequential and retro-causal hidden-variable theories based on computational complexity
+[2024-09-19 14:40:28] Article posted on Twitter: Masahito Hayashi, Yingkai Ouyang. The Cram\'{e}r-Rao approach and global quantum estimation of bosonic states
+[2024-09-19 14:40:29] Article posted on Twitter: Ettore Canonici, Filippo Caruso. QUBO-based SVM for credit card fraud detection on a real QPU
+[2024-09-19 14:40:30] Article posted on Twitter: Ivan Iakoupov, Victor M. Bastidas, Yuichiro Matsuzaki, Shiro Saito, William J. Munro. Spin amplification in realistic systems
+[2024-09-19 14:40:30] Article posted on Twitter: Aeishah Ameera Anuar, Francois Jamet, Fabio Gironella, Fedor Simkovic IV, Riccardo Rossi. Operator-Projected Variational Quantum Imaginary Time Evolution
+[2024-09-19 14:40:31] Article posted on Twitter: Romain Dalidet, Anthony Martin, Grégory Sauder, Laurent Labonté, Sébastien Tanzilli. Quantum-like nonlinear interferometry with frequency-engineered classical light
+[2024-09-19 14:40:32] Article posted on Twitter: Athanasios C. Tzemos, George Contopoulos. A comparison between classical and Bohmian quantum chaos
+[2024-09-19 14:40:33] Article posted on Twitter: Saud Čindrak, Lina Jaurigue, Kathy Lüdge. Krylov Expressivity in Quantum Reservoir Computing and Quantum Extreme Learning
+[2024-09-19 14:40:34] Article posted on Twitter: Boris Bourdoncle, Pierre-Emmanuel Emeriau, Paul Hilaire, Shane Mansfield, Luka Music, Stephen Wein. Towards practical secure delegated quantum computing with semi-classical light
+[2024-09-19 14:40:34] Article posted on Twitter: Zichang He, David Amaro, Ruslan Shaydulin, Marco Pistoia. Performance of Quantum Approximate Optimization with Quantum Error Detection
+[2024-09-19 14:40:35] Article posted on Twitter: Philip Andrango, Hailin Wang. Mechanical Wannier-Stark Ladder of Diamond Spin-Mechanical Lamb Wave Resonators
+[2024-09-19 14:40:36] Article posted on Twitter: Maximilian Schlosshauer. Performance advantage of protective quantum measurements
+[2024-09-19 14:40:36] Post "These are all of the new submissions in the quant-ph category on Thu, 19 Sep 2024."
+[2024-09-19 14:40:36] Start updating Twitter with arxiv entries in the math-ph category on 2024-09-19.
+[2024-09-19 14:40:36] Article posted on Twitter: Brian K. Tran, Joshua W. Burby, Ben S. Southworth. A Geometric Perspective on Kinetic Matter-Radiation Interaction and Moment Systems
+[2024-09-19 14:40:37] Article posted on Twitter: A. Boumali, K. Zazoua, F. Serdouk. Determination of Fisher and Shannon Information for 1D Fractional Quantum Harmonic Oscillator
+[2024-09-19 14:40:38] Article posted on Twitter: Asier López-Gordón. The geometry of dissipation
+[2024-09-19 14:40:39] Article posted on Twitter: Roman Cherniha, Vasyl' Davydovych, Joanna Stachowska-Pietka, Jacek Waniewski. Analysis of a Mathematical Model for Fluid Transport in Poroelastic Materials in 2D Space
+[2024-09-19 14:40:39] Post "These are all of the new submissions in the math-ph category on Thu, 19 Sep 2024."
+[2024-09-19 14:40:39] Start updating Twitter with arxiv entries in the hep-th category on 2024-09-19.
+[2024-09-19 14:40:40] Article posted on Twitter: Maor Ben-Shahar, Francesco Bonechi, Maxim Zabzine. Off-shell color-kinematics duality from codifferentials
+[2024-09-19 14:40:40] Article posted on Twitter: Davide Gaiotto, Herman Verlinde. SYK-Schur duality: Double scaled SYK correlators from $N=2$ supersymmetric gauge theory
+[2024-09-19 14:40:41] Article posted on Twitter: Wentao Liu, Li Zhang, Di Wu, Jieci Wang. Thermodynamic topological classes of the rotating, accelerating black holes
+[2024-09-19 14:40:42] Article posted on Twitter: Yu-Ping Wang. Triple Product Amplitude from Chiral String
+[2024-09-19 14:40:42] Article posted on Twitter: Riccardo Argurio, Andrés Collinucci, Giovanni Galati, Ondrej Hulik, Elise Paznokas. Non-Invertible T-duality at Any Radius via Non-Compact SymTFT
+[2024-09-19 14:40:43] Article posted on Twitter: Michele Arzano, Folkert Kuipers. A Stochastic Origin of Spacetime Non-Commutativity
+[2024-09-19 14:40:44] Article posted on Twitter: Aybike Çatal-Özer, Keremcan Doğan, Cem Yetişmişoğlu. Drinfel'd Doubles, Twists and All That... in Stringy Geometry and M Theory
+[2024-09-19 14:40:44] Article posted on Twitter: Yoonbai Kim, O-Kab Kwon, Hanwool Song, Chanju Kim. Inhomogeneous Abelian Chern-Simons Higgs Model with New Inhomogeneous BPS Vacuum and Solitons
+[2024-09-19 14:40:45] Article posted on Twitter: Irina Ya. Aref'eva, Kristina Rannu, Pavel Slepov. Einstein-dilaton-four-Maxwell Holographic Anisotropic Models
+[2024-09-19 14:40:46] Article posted on Twitter: Nicolas Cresto, Laurent Freidel. Asymptotic Higher Spin Symmetries I: Covariant Wedge Algebra in Gravity
+[2024-09-19 14:40:46] Post "These are all of the new submissions in the hep-th category on Thu, 19 Sep 2024."
+[2024-09-19 14:40:47] Start updating Twitter with arxiv entries in the gr-qc category on 2024-09-19.
+[2024-09-19 14:40:47] Article posted on Twitter: Vesselin G. Gueorguiev. Elucidating the z-dependence of the MOND acceleration (a_0) within the Scale Invariant Vacuum (SIV) paradigm
+[2024-09-19 14:40:48] Article posted on Twitter: Gennady S. Bisnovatyi-Kogan, Marco Merafina. Orbital precession and other properties of two-body motion in the presence of dark energy
+[2024-09-19 14:40:48] Article posted on Twitter: Samuel Fedida, Anne-Catherine de la Hamette, Viktoria Kabel, Časlav Brukner. Knot invariants and indefinite causal order
+[2024-09-19 14:40:49] Article posted on Twitter: Rodrigo Panosso Macedo, Anil Zenginoglu. Hyperboloidal Approach to Quasinormal Modes
+[2024-09-19 14:40:50] Article posted on Twitter: Lina Zhang, Qiyuan Pan, Yun Soo Myung, De-Cheng Zou. Spontaneous scalarization of Bardeen black holes
+[2024-09-19 14:40:50] Article posted on Twitter: Alberto Escalante, P. Fernando Ocaña García. New canonical analysis for consistent extension of $\lambda R$ gravity
+[2024-09-19 14:40:51] Article posted on Twitter: Damianos Iosifidis. Extended Metric-Affine $f(R)$ Gravity with Dynamical Connection in Vacuum
+[2024-09-19 14:40:52] Article posted on Twitter: Yu-Qi Dong, Xiao-Bin Lai, Yu-Qiang Liu, Yu-Xiao Liu. Analyzing gravitational wave effects in general modified gravity: an example based on the most general vector-tensor theory
+[2024-09-19 14:40:53] Article posted on Twitter: Zhi Luo, Ke-Jian He, Jin Li. Holographic Einstein Rings of AdS Black Holes in Horndeski Theory
+[2024-09-19 14:40:53] Article posted on Twitter: Lorenzo Iorio. On the Euler-type gravitomagnetic orbital effects in the field of a precessing body
+[2024-09-19 14:40:54] Article posted on Twitter: Joanna Piwnik, Joanna Gonera, Cezary Gonera, Piotr Kosinski. Integrable dynamics from Fermat's principle
+[2024-09-19 14:40:55] Article posted on Twitter: Fen Long, Shangyun Wang, Songbai Chen, Jiliang Jing. Magnetic Reconnection and Energy Extraction from a Konoplya-Zhidenko rotating non-Kerr black hole
+[2024-09-19 14:40:55] Article posted on Twitter: Diego Tessainer, Antonio L. Maroto, Prado Martín-Moruno. Multi-field TDiff theories for cosmology
+[2024-09-19 14:40:56] Article posted on Twitter: S. P. Miao, N. C. Tsamis, R. P. Woodard. Leading Logarithm Quantum Gravity
+[2024-09-19 14:40:57] Article posted on Twitter: Lorenzo Iorio. Post-Keplerian perturbations of the hyperbolic motion in the field of a massive, rotating object
+[2024-09-19 14:40:57] Article posted on Twitter: G. Alencar, M. Nilton, Manuel E. Rodrigues, Marcos V. de S. Silva. Field Sources for $f(R,R_{\mu\nu})$ Black-Bounce Solutions: The Case of K-Gravity
+[2024-09-19 14:40:58] Article posted on Twitter: Guillem Domènech, Jan Tränkle. From formation to evaporation: Induced gravitational wave probes of the primordial black hole reheating scenario
+[2024-09-19 14:40:59] Article posted on Twitter: A. S. Agrawal, Sankarsan Tarai, B. Mishra, S.K. Tripathy. Matter Geometry Coupling and Casimir Wormhole Geometry
+[2024-09-19 14:40:59] Post "These are all of the new submissions in the gr-qc category on Thu, 19 Sep 2024."
+[2024-09-19 14:41:00] This is the end of all the posts on 2024-09-19
+[2024-09-20 02:03:06] File ~/arxiv_bot_keys/twitter-keys/astro-ph not found.
+[2024-09-20 15:13:42] arxiv_gr-qc_new.html has been saved.
+[2024-09-20 15:13:43] gr-qc-2024-09-20.json has been saved.
+[2024-09-20 15:13:44] arxiv_hep-th_new.html has been saved.
+[2024-09-20 15:13:44] hep-th-2024-09-20.json has been saved.
+[2024-09-20 15:13:44] arxiv_math-ph_new.html has been saved.
+[2024-09-20 15:13:44] math-ph-2024-09-20.json has been saved.
+[2024-09-20 15:13:45] arxiv_quant-ph_new.html has been saved.
+[2024-09-20 15:13:45] quant-ph-2024-09-20.json has been saved.
+[2024-09-20 15:13:45] arxiv_hep-ph_new.html has been saved.
+[2024-09-20 15:13:45] hep-ph-2024-09-20.json has been saved.
+[2024-09-20 15:13:46] arxiv_astro-ph_new.html has been saved.
+[2024-09-20 15:13:47] astro-ph-2024-09-20.json has been saved.
+[2024-09-20 15:13:47] arxiv_cond-mat_new.html has been saved.
+[2024-09-20 15:13:48] cond-mat-2024-09-20.json has been saved.
+[2024-09-20 15:13:48] Start updating Bluesky with arxiv entries in the cond-mat category on 2024-09-20.
+[2024-09-20 15:13:50] Article posted on Bluesky: Junhui Cao, Alexey Kavokin. Exciton-Enhanced Superconductivity in Monolayer Films of Aluminum
+[2024-09-20 15:13:50] Article posted on Bluesky: J. E. Hirsch, M. van Kampen. Analysis of "Revaluation of the lower critical field in superconducting H_3S and LaH_10 (Nature Comm. 13, 3194, 2022)" by V. S. Minkov et al
+[2024-09-20 15:13:50] Article posted on Bluesky: Niccolò Francini, Lukas Janssen. Ferrimagnetism from triple-q order in Na$_2$Co$_2$TeO$_6$
+[2024-09-20 15:13:51] Article posted on Bluesky: Songsong Zhou, Shihan Qin, Andrew M. Rappe. Domain wall reactions in multiple-order parameter ferroelectrics
+[2024-09-20 15:13:51] Article posted on Bluesky: Yi-Jian Hu, Wen Huang. Quantum geometric superfluid weight in multiband superconductors: A microscopic interpretation
+[2024-09-20 15:13:52] Article posted on Bluesky: Henrique M. M. Cardoso, Maria C. O. Aguiar, Cinthia Piamonteze, Walber H. Brito. Electronic and magnetic properties of (NdNiO$_3$)/(La$_{2/3}$Sr$_{1/3}$MnO$_3$) superlattices: a DFT+U perspective
+[2024-09-20 15:13:52] Article posted on Bluesky: Anjana Anu Talapatra, Anup Pandey, Matthew S. Wilson, Ying Wai Li, Ghanshyam Pilania, Blas Pedro Uberuaga, Danny Perez. Best of Both Worlds: Enforcing Detailed Balance in Machine Learning Models of Transition Rates
+[2024-09-20 15:13:53] Article posted on Bluesky: Jeffery L. Tallon. Flux-trapping experiments on ultra-high pressure hydrides as evidence of superconductivity
+[2024-09-20 15:13:53] The content of Topological Surface State Evolution in Bi$_2$Se$_3$ via Surface Etching exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-20 15:13:53] Article posted on Bluesky: Ziqin Yue et al.. Topological Surface State Evolution in Bi$_2$Se$_3$ via Surface Etching
+[2024-09-20 15:13:54] The content of Narrowing band gap chemically and physically: Conductive dense hydrocarbon exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-20 15:13:54] Article posted on Bluesky: Takeshi Nakagawa et al.. Narrowing band gap chemically and physically: Conductive dense hydrocarbon
+[2024-09-20 15:13:54] Article posted on Bluesky: Roland R. Netz. Temporal coarse-graining and elimination of slow dynamics with the generalized Langevin equation for time-filtered observables
+[2024-09-20 15:13:55] Article posted on Bluesky: Xiaoyue Gao1, Zhuohui Liu, Bo Han, Xiaowen Zhang, Ruilin Mao, Ruochen Shi, Ruixue Zhu, Jiangbo Lu, Tao Wang, Chen Ge, Peng Gao. Precise structure and polarization determination of Hf0.5Zr0.5O2 with electron ptychography
+[2024-09-20 15:13:55] Article posted on Bluesky: Yuichi Masubuchi, Yusuke Koide, Takato Ishida, Takashi Uneyama. Brownian simulations for fracture of star polymer phantom networks
+[2024-09-20 15:13:56] Article posted on Bluesky: Kamyar Barakati, Utkarsh Pratiush, Austin C. Houston, Gerd Duscher, Sergei V. Kalinin. Unsupervised Reward-Driven Image Segmentation in Automated Scanning Transmission Electron Microscopy Experiments
+[2024-09-20 15:13:56] The content of Liquid Metal Oxide-assisted Integration of High-k Dielectrics and Metal Contacts for Two-Dimensional Electronics exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-20 15:13:56] Article posted on Bluesky: Dasari Venkatakrishnarao et al.. Liquid Metal Oxide-assisted Integration of High-k Dielectrics and Metal Contacts for Two-Dimensional Electronics
+[2024-09-20 15:13:57] Article posted on Bluesky: Shangjian Jin, Darryl C. W. Foo, Tingyu Qu, Barbaros Özyilmaz, Shaffique Adam. A unified theoretical framework for Kondo superconductors: Periodic Anderson impurities with attractive pairing and Rashba spin-orbit coupling
+[2024-09-20 15:13:57] Article posted on Bluesky: Huanhuan Tian, Jianguo Yang, Ming Liu. Intrinsic threshold electric field for domain wall motion in ferroelectrics based on discretized phase-field model
+[2024-09-20 15:13:58] The content of Magnetostatic effect on spin dynamics properties in antiferromagnetic Van der Waals material CrSBr exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-20 15:13:58] Article posted on Bluesky: Hongyue Xu et al.. Magnetostatic effect on spin dynamics properties in antiferromagnetic Van der Waals material CrSBr
+[2024-09-20 15:13:58] Article posted on Bluesky: I. S. Eid, Li Song. Modulating Anisotropic Magnetism of Layered CuCrP$_{2}$S$_{6}$ Single Crystal via Selenium Substitution
+[2024-09-20 15:13:59] Article posted on Bluesky: Rupak Bag, Dibyendu Roy. Nonreciprocal electrical transport in linear systems with balanced gain and loss in the bulk
+[2024-09-20 15:13:59] Article posted on Bluesky: Meysam Bagheri Tagani. CoF3: a g-wave Altermagnet
+[2024-09-20 15:14:00] Article posted on Bluesky: Sayan Ghosh, Rajiv R. P. Singh, Manoranjan Kumar. Frustrated spin-1/2 Heisenberg model on a Kagome-strip chain: Dimerization and mapping to a spin-orbital Kugel-Khomskii model
+[2024-09-20 15:14:00] Article posted on Bluesky: Guijing Duan, Rong Yu, Changle Liu. Theory of magnetism for rare-earth magnets on the Shastry-Sutherland lattice with non-Kramers ions
+[2024-09-20 15:14:01] The content of Increased resistance to photooxidation in Dion-Jacobson lead halide perovskites -- implication for perovskite device stability exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-20 15:14:01] Article posted on Bluesky: Zhilin Ren et al.. Increased resistance to photooxidation in Dion-Jacobson lead halide perovskites -- implication for perovskite device stability
+[2024-09-20 15:14:01] The content of Extremely high-density ($>10^{14}$cm$^{-2}$) with very low sheet resistance 2D electron gases in N-polar AlGaN/GaN heterostructures with GaN/AlN superlattice back barriers grown on sapphire substrates exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-20 15:14:01] Article posted on Bluesky: Maciej Matys et al.. Extremely high-density ($>10^{14}$cm$^{-2}$) with very low sheet resistance 2D electron gases in N-polar AlGaN/GaN heterostructures with GaN/AlN superlattice back barriers grown on sapphire substrates
+[2024-09-20 15:14:02] Article posted on Bluesky: Luca Cocconi, Benoît Mahault, Lorenzo Piro. Dissipation-accuracy tradeoffs in autonomous control of smart active matter
+[2024-09-20 15:14:02] Article posted on Bluesky: Sergio Gonzalez-Casal, Rémy Jouclas, Imane Arbouch, Yves Geerts, Colin van Dyck, Jérôme Cornil, Dominique Vuillaume. Thermoelectric Properties of Benzothieno-Benzothiophene Self-Assembled Monolayers in Molecular Junctions
+[2024-09-20 15:14:02] The content of Influence of Ru composition deviation from stoichiometry on intrinsic spin-to-charge conversion in SrRuO3 exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-20 15:14:03] Article posted on Bluesky: Shingo Kaneta-Takada et al.. Influence of Ru composition deviation from stoichiometry on intrinsic spin-to-charge conversion in SrRuO3
+[2024-09-20 15:14:03] Article posted on Bluesky: Emil Siuda, Piotr Trocha. Thermal Generation of Spin Current in a Quantum Dot Coupled to Magnetic Insulators
+[2024-09-20 15:14:03] Article posted on Bluesky: Zhandos A. Moldabekov, Xuecheng Shao, Michele Pavanello, Jan Vorberger, Tobias Dornheim. Nonlocal vs Local Pseudopotentials Affect Kinetic Energy Kernels in Orbital-Free DFT
+[2024-09-20 15:14:04] Article posted on Bluesky: Konstantin S. Kolegov, Irina V. Vodolazskaya, Andrei V. Eserkepov, Ludia T. Khusainova. Simulation of charged nanotubes self-assembly during evaporation of a sessile droplet on a substrate
+[2024-09-20 15:14:04] Article posted on Bluesky: Matheus I. N. Rosa, Konstantinos Karapiperis, Kaoutar Radi, Dennis M. Kochmann. Stiff and Deformable Quasicrystalline Architected Materials
+[2024-09-20 15:14:05] Article posted on Bluesky: N. Karchev. Antiferromagnetic to ferromagnetic phase transition as a transition to partial ordered spins. Application to $La_{1-x}Ca_xMnO_3$ in the doping range $x\geq 0.50$
+[2024-09-20 15:14:05] Article posted on Bluesky: Alexander Hammerl, Ravi Seshadri, Thomas Kjær Rasmussen, Otto Anker Nielsen. Hysteresis Behind A Bottleneck With Location-Dependent Capacity
+[2024-09-20 15:14:06] Article posted on Bluesky: Yun-Chao Hao, Matthias Krüger, Mauro Antezza, Cheng-Long Zhou, Hong-Liang Yi, Yong Zhang. Reflectors Tune Near-Field Thermal Transport
+[2024-09-20 15:14:06] Article posted on Bluesky: Yu Wang, Maxine Luo, Christian B. Mendl. Enhanced Krylov Methods for Molecular Hamiltonians: Reduced Memory Cost and Complexity Scaling via Tensor Hypercontraction
+[2024-09-20 15:14:07] Article posted on Bluesky: Amir Khosravanizadeh, Serge Dmitrieff. Rotation-Beating dynamics of a driven flexible filament: role of motor protein properties
+[2024-09-20 15:14:07] The content of Industrial 300$\,$mm wafer processed spin qubits in natural silicon/silicon-germanium exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-20 15:14:07] Article posted on Bluesky: Thomas Koch et al.. Industrial 300$\,$mm wafer processed spin qubits in natural silicon/silicon-germanium
+[2024-09-20 15:14:08] Article posted on Bluesky: Sebastian Holtedahl Castedo, Joshua Holmes, Joseph William Baron, Tobias Galla. Generalised correlations in disordered dynamical systems: Insights from the many-species Lotka-Volterra model
+[2024-09-20 15:14:08] Article posted on Bluesky: Clément Marque, Gaetano D'Avino, Domenico Larobina, Aude Michel, Ali Abou-Hassan, Antonio Stocco. Brownian motion of a single microparticle partially engulfed by a giant lipid vesicle
+[2024-09-20 15:14:09] Article posted on Bluesky: Jaron Kent-Dobias. On the topology of solutions to random continuous constraint satisfaction problems
+[2024-09-20 15:14:09] Article posted on Bluesky: Marion Berry, Christophe Josserand, Anniina Salonen, François Boulogne. Flat-cupped transition in freezing drop impacts
+[2024-09-20 15:14:09] The content of Variable Temperature and Carrier-Resolved Photo-Hall Measurements of High-Performance Selenium Thin-Film Solar Cells exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-20 15:14:10] Article posted on Bluesky: Rasmus Svejstrup Nielsen et al.. Variable Temperature and Carrier-Resolved Photo-Hall Measurements of High-Performance Selenium Thin-Film Solar Cells
+[2024-09-20 15:14:10] Article posted on Bluesky: Issam Mahraj, Andrzej Ptok. Chiral phononic and electronic edge modes of EuPtSi
+[2024-09-20 15:14:11] Article posted on Bluesky: Akihiro Kanjo, Hiromitsu Takeuchi. A universal description of massive point vortices in superfluids
+[2024-09-20 15:14:11] Article posted on Bluesky: Shuai Qu, Xiao-Yao Hou, Zheng-Xin Liu, Peng-Jie Guo, Zhong-Yi Lu. Altermagnetic Weyl node-network semimetals protected by spin symmetry
+[2024-09-20 15:14:11] The content of Structural analysis and transport properties of [010]-tilt grain boundaries in Fe(Se,Te) exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-20 15:14:12] Article posted on Bluesky: Kazumasa Iida et al.. Structural analysis and transport properties of [010]-tilt grain boundaries in Fe(Se,Te)
+[2024-09-20 15:14:12] Article posted on Bluesky: Thomas G. J. Chandler, Jordan Ferria, Oliver Shorthose, Jean-Marc Allain, Perla Maiolino, Arezki Boudaoud, Dominic Vella. Morpho-mechanics of pressurized cellular sheets
+[2024-09-20 15:14:12] Article posted on Bluesky: P. Radhakrishnan, K. S. Rabinovich, A. V. Boris, K. Fürsich, M. Minola, G. Christiani, G. Logvenov, B. Keimer, E. Benckiser. Imprinted atomic displacements drive spin-orbital order in a vanadate perovskite
+[2024-09-20 15:14:13] The content of Chiral superfluidity of helium-3 in the quasi-two-dimensional limit exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-20 15:14:13] Article posted on Bluesky: Petri J. Heikkinen et al.. Chiral superfluidity of helium-3 in the quasi-two-dimensional limit
+[2024-09-20 15:14:13] Article posted on Bluesky: Anupam Kundu, Satya N. Majumdar, Gregory Schehr. The number of minima in random landscapes generated by constrained random walk and L\'evy flights: universal properties
+[2024-09-20 15:14:14] Article posted on Bluesky: Haydn S. Adlong, Jesper Levinsen, Meera M. Parish. Microscopic theory of the Hubbard interaction in low-dimensional optical lattices
+[2024-09-20 15:14:14] Article posted on Bluesky: Pablo Sala, Jason Alicea, Ruben Verresen. Decoherence and wavefunction deformation of $D_4$ non-Abelian topological order
+[2024-09-20 15:14:15] Article posted on Bluesky: Łukasz Iwanek, Marcin Mierzejewski, Anatoli Polkovnikov, Dries Sels, Adam S. Sajna. Universal semiclassical dynamics in disordered two-dimensional systems
+[2024-09-20 15:14:15] Post "These are all of the new submissions in the cond-mat category on Fri, 20 Sep 2024."
+[2024-09-20 15:14:15] Start updating Bluesky with arxiv entries in the astro-ph category on 2024-09-20.
+[2024-09-20 15:14:17] The content of SAGAbg II: the Low-Mass Star-Forming Sequence Evolves Significantly Between 0.05<z<0.21 exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-20 15:14:18] Article posted on Bluesky: Erin Kado-Fong et al.. SAGAbg II: the Low-Mass Star-Forming Sequence Evolves Significantly Between 0.05<z<0.21
+[2024-09-20 15:14:18] Article posted on Bluesky: Dmitry Blinov, Arina Arshinova. Polarization of active galactic nuclei with significant VLBI-Gaia displacements
+[2024-09-20 15:14:18] The content of Observations of microlensed images with dual-field interferometry: on-sky demonstration and prospects exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-20 15:14:19] Article posted on Bluesky: P. Mroz et al.. Observations of microlensed images with dual-field interferometry: on-sky demonstration and prospects
+[2024-09-20 15:14:19] The content of The SDSS-V Black Hole Mapper Reverberation Mapping Project: A Kinematically Variable Broad-Line Region and Consequences for Masses of Luminous Quasars exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-20 15:14:19] Article posted on Bluesky: Logan B. Fries et al.. The SDSS-V Black Hole Mapper Reverberation Mapping Project: A Kinematically Variable Broad-Line Region and Consequences for Masses of Luminous Quasars
+[2024-09-20 15:14:19] The content of UNCOVERing the High-Redshift AGN Population Among Extreme UV Line Emitters exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-20 15:14:20] Article posted on Bluesky: Helena Treiber et al.. UNCOVERing the High-Redshift AGN Population Among Extreme UV Line Emitters
+[2024-09-20 15:14:20] Article posted on Bluesky: Gang Wu, Christian Henkel, Dongdong Zhou, Friedrich Wyrowski, Karl M. Menten, Jarken Esimbek. NH3 (1,1) hyperfine intensity anomalies in infall sources
+[2024-09-20 15:14:21] The content of BASS. XLIII: Optical, UV, and X-ray emission properties of unobscured Swift/BAT active galactic nuclei exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-20 15:14:21] Article posted on Bluesky: Kriti K. Gupta et al.. BASS. XLIII: Optical, UV, and X-ray emission properties of unobscured Swift/BAT active galactic nuclei
+[2024-09-20 15:14:21] The content of A New Broadband Spectral State in the Ultraluminous X-ray Source Holmberg IX X-1 exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-20 15:14:21] Article posted on Bluesky: D. J. Walton et al.. A New Broadband Spectral State in the Ultraluminous X-ray Source Holmberg IX X-1
+[2024-09-20 15:14:22] Article posted on Bluesky: Kung-Yi Su, Greg Bryan, Zoltán Haiman. Self-regulation of high-redshift black hole accretion via jets: challenges for SMBH formation
+[2024-09-20 15:14:22] The content of Improving constraints on the extended mass distribution in the Galactic Center with stellar orbits exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-20 15:14:22] Article posted on Bluesky: GRAVITY Collaboration et al.. Improving constraints on the extended mass distribution in the Galactic Center with stellar orbits
+[2024-09-20 15:14:23] Article posted on Bluesky: Kayla Bartel, Stefano Profumo. On the Gravitational Wave Counterpart to a Gamma-ray Galactic Center Signal from Millisecond Pulsars
+[2024-09-20 15:14:23] The content of INSPIRE: INvestigating Stellar Population In RElics -- VII. The local environment of ultra-compact massive galaxies exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-20 15:14:23] Article posted on Bluesky: Diana Scognamiglio et al.. INSPIRE: INvestigating Stellar Population In RElics -- VII. The local environment of ultra-compact massive galaxies
+[2024-09-20 15:14:24] Article posted on Bluesky: Caitlyn Nojiri, Noémie Globus, Enrico Ramirez-Ruiz. Life in the Bubble: How a nearby supernova left ephemeral footprints on the cosmic-ray spectrum and indelible imprints on life
+[2024-09-20 15:14:24] Article posted on Bluesky: Ivan Kostrichkin, Alexander Plavin, Alexander Pushkarev, Marina Butuzova. Parsec-scale jet direction evolution in AGNs
+[2024-09-20 15:14:25] The content of The NEID Earth Twin Survey. I. Confirmation of a 31-day planet orbiting HD 86728 exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-20 15:14:25] Article posted on Bluesky: Arvind F. Gupta et al.. The NEID Earth Twin Survey. I. Confirmation of a 31-day planet orbiting HD 86728
+[2024-09-20 15:14:25] Article posted on Bluesky: Christiaan Boersma, Jesse D. Bregman, Louis J. Allamandola, Pasquale Temi, Alexandros Maragkoudakis. The Background Interstellar Medium as Observed from Off-Order Low-Resolution Spitzer-IRS Spectra
+[2024-09-20 15:14:26] The content of Towards a response function for the COSI anticoincidence system: preliminary results from Geant4 simulations exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-20 15:14:26] Article posted on Bluesky: Alex Ciabattoni et al.. Towards a response function for the COSI anticoincidence system: preliminary results from Geant4 simulations
+[2024-09-20 15:14:26] Article posted on Bluesky: Yoonsoo Kim, Elias R. Most. General-relativistic Bondi-Hoyle-Lyttleton accretion in a toroidally magnetized medium
+[2024-09-20 15:14:27] Article posted on Bluesky: Masamune Oguri, Satoshi Miyazaki. Peaks in weak lensing mass maps for cluster astrophysics and cosmology
+[2024-09-20 15:14:27] Article posted on Bluesky: Katherine de Kleer, Saverio Cambioni, Bryan Butler, Michael Shepard. Surface properties of the Kalliope-Linus system from ALMA and VLA data
+[2024-09-20 15:14:28] Article posted on Bluesky: Ze-Lin Zhang, Ruo-Yu Liu. The Twisting of Radio Waves in a Randomly Inhomogeneous Plasma
+[2024-09-20 15:14:28] Article posted on Bluesky: Aayush Gautam, Juan P. Farias, Jonathan C. Tan. Star cluster formation from turbulent clumps. IV. Protoplanetary disc evolution
+[2024-09-20 15:14:29] Article posted on Bluesky: Sedighe Sajadian, Niayesh Afshordi. Simulating Self-Lensing and Eclipsing Signals due to Detached Compact Objects in the TESS Light Curves
+[2024-09-20 15:14:29] The content of Tuning the MAPS Adaptive Secondary Mirror: Actuator Control, PID Tuning, Power Spectra and Failure Diagnosis exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-20 15:14:29] Article posted on Bluesky: Jess A. Johnson et al.. Tuning the MAPS Adaptive Secondary Mirror: Actuator Control, PID Tuning, Power Spectra and Failure Diagnosis
+[2024-09-20 15:14:30] The content of DIISC Survey: Deciphering the Interplay Between the Interstellar Medium, Stars, and the Circumgalactic Medium Survey exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-20 15:14:30] Article posted on Bluesky: Sanchayeeta Borthakur et al.. DIISC Survey: Deciphering the Interplay Between the Interstellar Medium, Stars, and the Circumgalactic Medium Survey
+[2024-09-20 15:14:30] Article posted on Bluesky: Robbie Webbe, A. J. Young. The Effects of Instrumental Deadtime on NICER Timing Products
+[2024-09-20 15:14:31] Article posted on Bluesky: S. Bethapudi, L. G. Spitler, D. Z. Li, V. R. Marthi, M. Bause, R. A. Main, R. S. Wharton. Rotation Measure study of FRB 20180916B with the uGMRT
+[2024-09-20 15:14:32] Article posted on Bluesky: Truman Tapia, Kenji Bekki, Brent Groves. Chemical evolution of a young super star cluster at the Sunburst Arc
+[2024-09-20 15:14:32] The content of Bridging the Gap: GRB 230812B -- A Three-Second Supernova-Associated Burst Detected by the GRID Mission exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-20 15:14:32] Article posted on Bluesky: Chen-Yu Wang et al.. Bridging the Gap: GRB 230812B -- A Three-Second Supernova-Associated Burst Detected by the GRID Mission
+[2024-09-20 15:14:33] Article posted on Bluesky: DJ van der Walt. Revisiting the Formaldehyde Masers II: Effects of an HII region and Beaming
+[2024-09-20 15:14:33] Article posted on Bluesky: Valentina Penza, Luca Bertello, Matteo Cantoresi, Serena Criscuoli, Lorenza Lucaferri, Raffaele Reda, Simone Ulzega, Francesco Berrilli. Reconstruction of the Total Solar Irradiance during the last Millenium
+[2024-09-20 15:14:33] The content of Rotationally inelastic rate coefficients for C$_7$N$^{-}$ and C$_{10}$H$^{-}$ anions in collision with H$_2$ at interstellar conditions exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-20 15:14:34] Article posted on Bluesky: K. Giri et al.. Rotationally inelastic rate coefficients for C$_7$N$^{-}$ and C$_{10}$H$^{-}$ anions in collision with H$_2$ at interstellar conditions
+[2024-09-20 15:14:34] Article posted on Bluesky: Quentin Coppée, Jonas Müller, Michaël Bazot, Saskia Hekker. The radial modes of stars with suppressed dipole modes
+[2024-09-20 15:14:35] Article posted on Bluesky: Samuel L. Jackson, Benjamin Rozitis. Thermophysical Modelling of Eclipse and Occultation Events in Binary Asteroid Systems
+[2024-09-20 15:14:35] Article posted on Bluesky: T. Foglizzo. Analytic insight into the physics of SASI I. Shock instability in a non-rotating stellar core
+[2024-09-20 15:14:36] Article posted on Bluesky: Aster G. Taylor, Fred C. Adams. Radiative Signatures of Circumplanetary Disks and Envelopes During the Late Stages of Giant Planet Formation
+[2024-09-20 15:14:36] Article posted on Bluesky: Mitja Desmet, Stijn Buitink, Tim Huege. Applying template synthesis to the radio emission from air showers with generic geometries
+[2024-09-20 15:14:37] Article posted on Bluesky: Mitja Desmet, Stijn Buitink, Tim Huege. Generalising template synthesis of EAS radio emission to other geometries
+[2024-09-20 15:14:37] Article posted on Bluesky: Mitja Desmet, Stijn Buitink, David Butler, Tim Huege, Ralph Engel, Olaf Scholten. Template synthesis approach for radio emission from extensive air showers
+[2024-09-20 15:14:38] The content of Calibration of Spectropolarimetry channel of Visible Emission Line Coronagraph onboard Aditya-L1 exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-20 15:14:38] Article posted on Bluesky: Venkata Suresh Narra et al.. Calibration of Spectropolarimetry channel of Visible Emission Line Coronagraph onboard Aditya-L1
+[2024-09-20 15:14:38] Article posted on Bluesky: Jyotishree Hota, Rukaiya Khatoon, Ranjeev Misra, Ananta C. Pradhan. Multi-wavelength study of extreme high-energy peaked BL Lac (EHBL) source 1ES 0229$+$200 using ultraviolet, X-ray and gamma-ray observations
+[2024-09-20 15:14:39] Article posted on Bluesky: Mordecai-Mark Mac Low. Conference Summary: Stellar Feedback in the ISM: Celebrating the Life and Work of You-Hua Chu
+[2024-09-20 15:14:39] Article posted on Bluesky: M. M. Messa, P. D'Avanzo, F. Coti Zelati, M. C. Baglio, S. Campana. High-temporal-resolution optical spectroscopic observations of the transitional millisecond pulsar PSR J1023+0038
+[2024-09-20 15:14:40] Article posted on Bluesky: Arijit Manna, Sabyasachi Pal. Confirmation of interstellar phosphine towards asymptotic giant branch star IRC+10216
+[2024-09-20 15:14:40] The content of High-contrast imager for complex aperture telescopes (HiCAT): 11. System-level demonstration of the Apodized Pupil Lyot Coronagraph with a segmented aperture in air exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-20 15:14:40] Article posted on Bluesky: Rémi Soummer et al.. High-contrast imager for complex aperture telescopes (HiCAT): 11. System-level demonstration of the Apodized Pupil Lyot Coronagraph with a segmented aperture in air
+[2024-09-20 15:14:41] Article posted on Bluesky: Hanyu Zhang, Marco Bonici, Guido D'Amico, Simone Paradiso, Will J. Percival. HOD-informed prior for EFT-based full-shape analyses of LSS
+[2024-09-20 15:14:41] Article posted on Bluesky: Giorgi Arsenadze, Andrea Caputo, Xucheng Gan, Hongwan Liu, Joshua T. Ruderman. Shaping Dark Photon Spectral Distortions
+[2024-09-20 15:14:42] Article posted on Bluesky: Arianna Rizzieri, Josquin Errard, Radek Stompor. Main beam treatment in parametric, pixel-based component separation
+[2024-09-20 15:14:43] Article posted on Bluesky: Chao Chen, Anish Ghoshal, Gianmassimo Tasinato, Eemeli Tomberg. Stochastic Axion-like Curvaton: Non-Gaussianity and Primordial Black Holes Without Large Power Spectrum
+[2024-09-20 15:14:43] Post "These are all of the new submissions in the astro-ph category on Fri, 20 Sep 2024."
+[2024-09-20 15:14:43] Start updating Bluesky with arxiv entries in the hep-ph category on 2024-09-20.
+[2024-09-20 15:14:45] Article posted on Bluesky: Jason Arakawa, Philip Lu, Volodymyr Takhistov. Phase Separation Baryogenesis
+[2024-09-20 15:14:45] Article posted on Bluesky: Ankita Budhraja, Hao Chen, Wouter J. Waalewijn. $\nu$-point energy correletors with FastEEC: small-$x$ physics from LHC jets
+[2024-09-20 15:14:46] Article posted on Bluesky: Liliana Apolinário, Lénea Luís, José Guilherme Milhano, João M. Silva. Towards an unbiased jet energy loss measurement
+[2024-09-20 15:14:46] Article posted on Bluesky: Safa Gaid, Yazid Delenda, Rachik Soualah. Resummed jet mass distribution with trimming in Z+jet events at the LHC
+[2024-09-20 15:14:46] Article posted on Bluesky: Shuai Yuan, Bo Feng, Efrain J. Ferrer, Alejandro Pinero. Magnetized neutral 2SC color superconductivity and possible origin of the inner magnetic field of magnetars
+[2024-09-20 15:14:47] Article posted on Bluesky: Peng-Long Zhang, Xiao-Jun Bi, Qin Chang, Peng-Fei Yin, Yi Zhao. SKA Sensitivity to Potential Radio Emission from Dark Matter Annihilation in Ursa Major III
+[2024-09-20 15:14:47] Article posted on Bluesky: Banajit Barman, Nur Hussain, Buddhadeb Bhattacharjee. Baryon number transportation over full rapidity space in pp collisions at LHC energies
+[2024-09-20 15:14:48] Article posted on Bluesky: Takaaki Nomura, Hiroshi Okada, Oleg Popov. Non-Holomorphic Modular $\mathcal{A}_4$ Symmetric Scotogenic Model
+[2024-09-20 15:14:48] Article posted on Bluesky: Matthew Leigh, Samuel Klein, François Charton, Tobias Golling, Lukas Heinrich, Michael Kagan, Inês Ochoa, Margarita Osadchy. Is Tokenization Needed for Masked Particle Modelling?
+[2024-09-20 15:14:49] Article posted on Bluesky: Alba Domi, Thomas Eberl, Dominik Hellmann, Sara Krieg, Heinrich Päs. Potential of Neutrino Telescopes to Detect Quantum Gravity-Induced Decoherence in the Presence of Dark Fermions
+[2024-09-20 15:14:49] Article posted on Bluesky: Saurabh D. Rindani. T-odd observables from anomalous $tbW$ couplings in single-top production at an $ep$ collider
+[2024-09-20 15:14:50] The content of The \pi^+\pi^- Coulomb interaction study and its use in the data processing exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-20 15:14:50] Article posted on Bluesky: B.Adeva et al.. The \pi^+\pi^- Coulomb interaction study and its use in the data processing
+[2024-09-20 15:14:50] Article posted on Bluesky: Yao Li, Shi-Yong Chen, Weixi Kong, Sa Wang, Ben-Wei Zhang. Medium modifications of heavy-flavor jet angularities in high-energy nuclear collisions
+[2024-09-20 15:14:51] Article posted on Bluesky: I. V. Voronchikhin, D. V. Kirpichnikov. Implication of the Weizsacker-Williams approximation for the dark matter mediator production
+[2024-09-20 15:14:51] Article posted on Bluesky: Nobuchika Okada, Osamu Seto. Discovery potential of a long-lived partner of inelastic dark matter at MATHUSLA in $U(1)_{X_3}$ extension of the standard model
+[2024-09-20 15:14:52] Article posted on Bluesky: L. M. Abreu, F. S. Navarra, H. P. L. Vieira. Hadronic scattering effects on $\psi(2S)$ suppression in relativistic heavy-ion collisions
+[2024-09-20 15:14:52] Article posted on Bluesky: Enrico Lunghi, Beni Pazar. Isolating New Physics signatures of vectorlike quarks and heavy Higgses over multi $b$-jet backgrounds
+[2024-09-20 15:14:52] Article posted on Bluesky: Wen-Jing Xing, Shanshan Cao, Guang-You Qin, Xin-Nian Wang. Flavor Hierarchy of Jet Energy Correlators inside the Quark-Gluon Plasma
+[2024-09-20 15:14:53] Article posted on Bluesky: Luis A. Anchordoqui, Ignatios Antoniadis, Dieter Lust, Karem Peñaló Castillo. Through the Looking Glass into the Dark Dimension: Searching for Bulk Black Hole Dark Matter with Microlensing of X-ray Pulsars
+[2024-09-20 15:14:53] Article posted on Bluesky: Mohammad Mahdi Altakach, Sabine Kraml, Andre Lessa, Sahana Narasimha, Timothée Pascal, Camila Ramos, Yoxara Villamizar, Wolfgang Waltenberger. SModelS v3: Going Beyond Z2 Topologies
+[2024-09-20 15:14:54] Post "These are all of the new submissions in the hep-ph category on Fri, 20 Sep 2024."
+[2024-09-20 15:14:54] Start updating Bluesky with arxiv entries in the quant-ph category on 2024-09-20.
+[2024-09-20 15:14:56] Article posted on Bluesky: Alexander Preimesberger, Dominik Hornof, Theo Dorfner, Thomas Schachinger, Martin Hrtoň, Andrea Konečná, Philipp Haslinger. Exploring single-photon recoil on free electrons
+[2024-09-20 15:14:56] Article posted on Bluesky: Pablo V. Parellada, Vicent Gimeno i Garcia, Julio José Moyano-Fernández, Juan Carlos Garcia-Escartin. Lie algebraic invariants in quantum linear optics
+[2024-09-20 15:14:57] Article posted on Bluesky: Filippo Ferrari, Fabrizio Minganti, Camille Aron, Vincenzo Savona. Chaos and spatial prethermalization in driven-dissipative bosonic chains
+[2024-09-20 15:14:57] Article posted on Bluesky: Pablo Sala, Ruben Verresen. Stability and Loop Models from Decohering Non-Abelian Topological Order
+[2024-09-20 15:14:58] Article posted on Bluesky: Jorge J. Martínez de Lejarza, David F. Rentería-Estrada, Michele Grossi, Germán Rodrigo. Quantum integration of decay rates at second order in perturbation theory
+[2024-09-20 15:14:58] Article posted on Bluesky: Antonios M. Alvertis, Abid Khan, Norm M. Tubman. Ground states of strongly-correlated materials on quantum computers using ab initio downfolding
+[2024-09-20 15:14:58] Article posted on Bluesky: Ilia A. Luchnikov, Egor S. Tiunov, Tobias Haug, Leandro Aolita. Large-scale quantum annealing simulation with tensor networks and belief propagation
+[2024-09-20 15:14:59] Article posted on Bluesky: Joshua Hanson, Dennis Lucarelli. Constructing Noise-Robust Quantum Gates via Pontryagin's Maximum Principle
+[2024-09-20 15:14:59] Article posted on Bluesky: Saumya Biswas, Amrit De, Avik Dutt. Topological argument for robustness of coherent states in quantum optics
+[2024-09-20 15:15:00] The content of Qubit-State Purity Oscillations from Anisotropic Transverse Noise exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-20 15:15:00] Article posted on Bluesky: David A. Rower et al.. Qubit-State Purity Oscillations from Anisotropic Transverse Noise
+[2024-09-20 15:15:00] Article posted on Bluesky: Eiji Konishi. More on quantum measuring systems and the holographic principle
+[2024-09-20 15:15:01] Article posted on Bluesky: Alberto Acevedo, Janek Wehr, Jarosław Korbicz. Spectrum Broadcast Structures from von Neumann type interaction Hamiltonians with continuous variables
+[2024-09-20 15:15:01] Article posted on Bluesky: Philip Caesar Flores, Dean Alvin Pablico, Eric Galapon. Instantaneous tunneling time within the theory of time-of-arrival operators
+[2024-09-20 15:15:02] Article posted on Bluesky: Meng Wang, Poulami Das, Prashant J. Nair. Qoncord: A Multi-Device Job Scheduling Framework for Variational Quantum Algorithms
+[2024-09-20 15:15:02] Article posted on Bluesky: James Stuart, Kieran Smith, Morgan Hedges, Rose Ahlefeldt, Matthew Sellars. Progress towards efficient 4-level photon echo memories
+[2024-09-20 15:15:03] Article posted on Bluesky: Pranav Chandarana, Koushik Paul, Kasturi Ranjan Swain, Xi Chen, Adolfo del Campo. Lyapunov Controlled Counterdiabatic Quantum Optimization
+[2024-09-20 15:15:03] Article posted on Bluesky: Hugo Aaronson, Gregory Rosenthal, Sathyawageeswar Subramanian, Animesh Datta, Tom Gur. Quantum Channel Testing in Average-Case Distance
+[2024-09-20 15:15:04] Article posted on Bluesky: Kuldeep Kumar Shrivastava, Moulik Deviprasad Ketkar, Biswanath Bhoi, Rajeev Singh. Emergence of coupling induced transparency by tuning purely dissipative couplings
+[2024-09-20 15:15:04] Article posted on Bluesky: Tong Liu. Quantum synchronization in one-dimensional topological systems
+[2024-09-20 15:15:04] The content of Experimental sample-efficient quantum state tomography via parallel measurements exceeds 300 characters. The shorten_long_paper_info shortened the text.
+[2024-09-20 15:15:05] Article posted on Bluesky: Chang-Kang Hu et al.. Experimental sample-efficient quantum state tomography via parallel measurements
+[2024-09-20 15:15:05] Article posted on Bluesky: Zongping Gong, Yuto Ashida. Any Quantum Many-Body State under Local Dissipation will be Disentangled in Finite Time
+[2024-09-20 15:15:05] Article posted on Bluesky: Marco Klotz, Andreas Tangemann, Alexander Kubanek. Ultra-high strained diamond spin register with coherent optical link
+[2024-09-20 15:15:06] Article posted on Bluesky: B. Hamil, B. C. Lütfüoğlu, M. Merad. Dunkl-Schrodinger Equation in Higher Dimension
+[2024-09-20 15:15:06] Article posted on Bluesky: B. Hamil, B. C. Lütfüoğlu, M. Merad. Dunkl-Klein-Gordon Equation in Higher Dimensions
+[2024-09-20 15:15:07] Article posted on Bluesky: Sima Bahrani, Romerson D. Oliveira, Juan Parra-Ullauri, Rui Wang, Dimitra Simeonidou. Resource Allocation in Distributed Quantum Computing Interconnect Networks
+[2024-09-20 15:15:07] Article posted on Bluesky: Shumpei Kobayashi, Quoc Hoan Tran, Kohei Nakajima. Coherence influx is indispensable for quantum reservoir computing
+[2024-09-20 15:15:08] Article posted on Bluesky: Louis Fraatz, Amit Jamadagni, Hendrik Weimer. Efficient computation of topological order
+[2024-09-20 15:15:08] Article posted on Bluesky: Wei-Bin Yan, Zhong-Xiao Man, Ying-Jie Zhang, Yun-Jie Xia. Qubit coupled with an effective negative-absolute-temperature bath in off-resonant collision model
+[2024-09-20 15:15:09] Article posted on Bluesky: Kevin Ben Attar, Nir Bar-Gill. Dephasing in the central spin problem with long-range Ising spin-bath coupling
+[2024-09-20 15:15:09] Article posted on Bluesky: Gayatri Singh, Akshay Gaikwad, Arvind, Kavita Dorai. Experimental decoherence mitigation using a weak measurement-based scheme and the duality quantum algorithm
+[2024-09-20 15:15:10] Article posted on Bluesky: Chung-Yun Hsieh, Benjamin Stratton, Hao-Cheng Weng, Valerio Scarani. Informational non-equilibrium concentration
+[2024-09-20 15:15:10] Article posted on Bluesky: Galya Haim, Stefano Martina, John Howell, Nir Bar-Gill, Filippo Caruso. Machine-learning based high-bandwidth magnetic sensing
+[2024-09-20 15:15:10] Article posted on Bluesky: Varsha Subramanyan, T.H. Hansson, Smitha Vishveshwara. Dynamics of "Classical" Bosons, Fermions, and beyond
+[2024-09-20 15:15:11] Article posted on Bluesky: Soumyabrata Paul, Arman, S. Lakshmibala, Prasanta K. Panigrahi, S. Ramanan, V. Balakrishnan. Optimal sensing of photon addition and subtraction on nonclassical light
+[2024-09-20 15:15:11] Article posted on Bluesky: Mohamed Shaban, Muhammad Ismail, Walid Saad. SPARQ: Efficient Entanglement Distribution and Routing in Space-Air-Ground Quantum Networks
+[2024-09-20 15:15:12] Article posted on Bluesky: Vineesha Srivastava, Sven Jandura, Gavin K Brennen, Guido Pupillo. Entanglement-enhanced quantum sensing via optimal global control
+[2024-09-20 15:15:12] Article posted on Bluesky: Ruoming Peng, Xuntao Wu, Yang Wang, Jixing Zhang, Jianpei Geng, Durga Bhaktavatsala Rao Dasari, Andrew N. Cleland, Jörg Wrachtrup. Hybrid spin-phonon architecture for scalable solid-state quantum nodes
+[2024-09-20 15:15:13] Post "These are all of the new submissions in the quant-ph category on Fri, 20 Sep 2024."
+[2024-09-20 15:15:13] Start updating Bluesky with arxiv entries in the math-ph category on 2024-09-20.
+[2024-09-20 15:15:15] Article posted on Bluesky: Tal Malinovitch. Twisted Bilayer Graphene in Commensurate Angles
+[2024-09-20 15:15:15] Article posted on Bluesky: Sen Hu, Si Li, Dongheng Ye, Yehao Zhou. On the Hilbert Space of the Chern-Simons Matrix Model, Deformed Double Current Algebra Action, and the Conformal Limit
+[2024-09-20 15:15:16] Article posted on Bluesky: Di Yang, Chunhui Zhou. The loop equation for the Burgers--KdV hierarchy
+[2024-09-20 15:15:16] Article posted on Bluesky: David Adame-Carrillo. Symplectic fermions in general domains
+[2024-09-20 15:15:16] Post "These are all of the new submissions in the math-ph category on Fri, 20 Sep 2024."
+[2024-09-20 15:15:16] Start updating Bluesky with arxiv entries in the hep-th category on 2024-09-20.
+[2024-09-20 15:15:18] Article posted on Bluesky: Hao Geng, Yikun Jiang. Microscopic Origin of the Entropy of Single-sided Black Holes
+[2024-09-20 15:15:19] Article posted on Bluesky: Arkya Chatterjee, Salvatore D. Pace, Shu-Heng Shao. Quantized axial charge of staggered fermions and the chiral anomaly
+[2024-09-20 15:15:19] Article posted on Bluesky: James Halverson, Joydeep Naskar, Jiahua Tian. Conformal Fields from Neural Networks
+[2024-09-20 15:15:20] Article posted on Bluesky: Jean-François Fortin, Lorenzo Quintavalle, Witold Skiba. The Virasoro Completeness Relation and Inverse Shapovalov Form
+[2024-09-20 15:15:20] Article posted on Bluesky: Ivano Basile, Dieter Lust. Dark dimension with (little) strings attached
+[2024-09-20 15:15:21] Article posted on Bluesky: Josh A. O'Connor, Simon Pekar. A note on non-Lorentzian duality symmetries
+[2024-09-20 15:15:21] Article posted on Bluesky: Frankbelson dos S. Azevedo, Edilberto O. Silva. Dynamics of massive and massless particles in the spacetime of a wiggly cosmic dislocation
+[2024-09-20 15:15:21] Article posted on Bluesky: Yuanhong Guo, Lei Wang, Gang Yang, YiXiong Yin. Analytic two-Loop four-point form factor of the stress-tensor supermultiplet in ${\cal N}=4$ SYM
+[2024-09-20 15:15:22] Article posted on Bluesky: Yoonbai Kim, SeungJun Jeon, O-Kab Kwon, Hanwool Song, Chanju Kim. Vacuum and Vortices in Inhomogeneous Abelian Higgs Model
+[2024-09-20 15:15:22] Article posted on Bluesky: Kohki Kawabata, Shinichiro Yahagi. Orbifolds of chiral fermionic CFTs and their duality
+[2024-09-20 15:15:23] Article posted on Bluesky: Jiaqi Chen, Bo Feng. Notes on Selection Rules of Canonical Differential Equations and Relative Cohomology
+[2024-09-20 15:15:23] Article posted on Bluesky: Robert Dickinson, Jeff Forshaw, Ross Jenkinson, Peter Millington. A new study of the Unruh effect
+[2024-09-20 15:15:24] Article posted on Bluesky: Xiao-Dan Zhu, Wentao Liu, Di Wu. Universal thermodynamic topological classes of rotating black holes
+[2024-09-20 15:15:24] Article posted on Bluesky: Daniele Dorigoni, Zhihao Duan, Daniele R. Pavarini, Congkao Wen, Haitian Xie. Electromagnetic Duality for Line Defect Correlators in $\mathcal{N}=4$ Super Yang-Mills Theory
+[2024-09-20 15:15:25] Article posted on Bluesky: Max Joseph Fahn, Kristina Giesel. Gravitationally induced decoherence of a scalar field: investigating the one-particle sector and its interplay with renormalisation
+[2024-09-20 15:15:25] Article posted on Bluesky: Thomas Basile. Massless chiral fields in six dimensions
+[2024-09-20 15:15:26] Article posted on Bluesky: Alexey Sharapov, Evgeny Skvortsov, Arseny Sukhanov. Matter-coupled higher spin gravities in 3d: no- and yes-go results
+[2024-09-20 15:15:26] Article posted on Bluesky: Yuchen Du, Siddarth Ajith, Ravisankar Rajagopal, Diana Vaman. Worldline Proof of Eikonal Exponentiation
+[2024-09-20 15:15:27] Article posted on Bluesky: Samim Akhtar. On the classical limit of the (sub)$^{n}$-leading soft graviton theorems in $D = 4$ without deflection
+[2024-09-20 15:15:27] Article posted on Bluesky: Francesco Aprile, Stefano Giusto, Rodolfo Russo. Holographic correlators with BPS bound states in $\mathcal{N} = 4$ SYM
+[2024-09-20 15:15:28] Article posted on Bluesky: Elba Alonso-Monsalve, Daniel Harlow, Patrick Jefferson. Phase space of Jackiw-Teitelboim gravity with positive cosmological constant
+[2024-09-20 15:15:28] Post "These are all of the new submissions in the hep-th category on Fri, 20 Sep 2024."
+[2024-09-20 15:15:28] Start updating Bluesky with arxiv entries in the gr-qc category on 2024-09-20.
+[2024-09-20 15:15:30] Article posted on Bluesky: Christopher Aykroyd, Adrien Bourgoin, Christophe Le Poncin-Lafitte. Hamiltonian normal forms for the post-Newtonian binary problem
+[2024-09-20 15:15:30] Article posted on Bluesky: Amit Samaddar, S. Surendra Singh. Barrow Holographic Dark Energy in $f(Q,L_{m})$ gravity: A dynamical system perspective
+[2024-09-20 15:15:31] Article posted on Bluesky: Florian Neukart. Geometry-Information Duality: Quantum Entanglement Contributions to Gravitational Dynamics
+[2024-09-20 15:15:31] Article posted on Bluesky: B. Eslam Panah, Manuel E. Rodrigues. Phantom BTZ black holes
+[2024-09-20 15:15:32] Article posted on Bluesky: José Barrientos, Adolfo Cisterna, Mokhtar Hassaine, Konstantinos Pallikaris. Electromagnetized Black Holes and Swirling Backgrounds in Nonlinear Electrodynamics: The ModMax case
+[2024-09-20 15:15:32] Article posted on Bluesky: Yefim S. Levin. Some Theoretical Aspects of Observation of Acceleration Induced Thermality
+[2024-09-20 15:15:33] Article posted on Bluesky: Xiao-Jun Gao. Gravitational lensing and shadow by a Schwarzschild-like black hole in metric-affine bumblebee gravity
+[2024-09-20 15:15:33] Article posted on Bluesky: Romel M. Vargas, M. A. Cuyubamba. Motion of test particles around an Einstein-dilaton-Gauss-Bonnet black hole in a uniform magnetic field
+[2024-09-20 15:15:34] Article posted on Bluesky: Marcello Miranda, Massimiliano Rinaldi, Valerio Faraoni. How the Schwarzschild-de Sitter horizons remain in thermal equilibrium at vastly different temperatures
+[2024-09-20 15:15:34] Article posted on Bluesky: H. Moradpour, S. Jalalzadeh, M. Javaherian. Fractional Stars
+[2024-09-20 15:15:35] Article posted on Bluesky: Sohan Kumar Jha, Anisur Rahaman. Constrain from shadows of $M87^*$ and $Sgr A^*$ and quasiperiodic oscillations of galactic microquasars on a black hole arising from metric-affine bumblebee model
+[2024-09-20 15:15:35] Post "These are all of the new submissions in the gr-qc category on Fri, 20 Sep 2024."
+[2024-09-20 15:15:35] This is the end of all the posts on 2024-09-20
+[2024-09-20 15:17:19] Start updating Twitter with arxiv entries in the hep-ph category on 2024-09-20.
+[2024-09-20 15:17:19] Article posted on Twitter: Jason Arakawa, Philip Lu, Volodymyr Takhistov. Phase Separation Baryogenesis
+[2024-09-20 15:17:20] Article posted on Twitter: Ankita Budhraja, Hao Chen, Wouter J. Waalewijn. $\nu$-point energy correletors with FastEEC: small-$x$ physics from LHC jets
+[2024-09-20 15:17:20] Article posted on Twitter: Liliana Apolinário, Lénea Luís, José Guilherme Milhano, João M. Silva. Towards an unbiased jet energy loss measurement
+[2024-09-20 15:17:21] Article posted on Twitter: Safa Gaid, Yazid Delenda, Rachik Soualah. Resummed jet mass distribution with trimming in Z+jet events at the LHC
+[2024-09-20 15:17:22] Article posted on Twitter: Shuai Yuan, Bo Feng, Efrain J. Ferrer, Alejandro Pinero. Magnetized neutral 2SC color superconductivity and possible origin of the inner magnetic field of magnetars
+[2024-09-20 15:17:22] Article posted on Twitter: Peng-Long Zhang, Xiao-Jun Bi, Qin Chang, Peng-Fei Yin, Yi Zhao. SKA Sensitivity to Potential Radio Emission from Dark Matter Annihilation in Ursa Major III
+[2024-09-20 15:17:23] Article posted on Twitter: Banajit Barman, Nur Hussain, Buddhadeb Bhattacharjee. Baryon number transportation over full rapidity space in pp collisions at LHC energies
+[2024-09-20 15:17:23] Article posted on Twitter: Takaaki Nomura, Hiroshi Okada, Oleg Popov. Non-Holomorphic Modular $\mathcal{A}_4$ Symmetric Scotogenic Model
+[2024-09-20 15:17:24] Article posted on Twitter: Matthew Leigh, Samuel Klein, François Charton, Tobias Golling, Lukas Heinrich, Michael Kagan, Inês Ochoa, Margarita Osadchy. Is Tokenization Needed for Masked Particle Modelling?
+[2024-09-20 15:17:25] Article posted on Twitter: Alba Domi, Thomas Eberl, Dominik Hellmann, Sara Krieg, Heinrich Päs. Potential of Neutrino Telescopes to Detect Quantum Gravity-Induced Decoherence in the Presence of Dark Fermions
+[2024-09-20 15:17:25] Article posted on Twitter: Saurabh D. Rindani. T-odd observables from anomalous $tbW$ couplings in single-top production at an $ep$ collider
+[2024-09-20 15:17:26] The content of The \pi^+\pi^- Coulomb interaction study and its use in the data processing exceeds 280 characters. The shorten_long_paper_info shortened the text.
+[2024-09-20 15:17:26] Article posted on Twitter: B.Adeva et al.. The \pi^+\pi^- Coulomb interaction study and its use in the data processing
+[2024-09-20 15:17:27] Article posted on Twitter: Yao Li, Shi-Yong Chen, Weixi Kong, Sa Wang, Ben-Wei Zhang. Medium modifications of heavy-flavor jet angularities in high-energy nuclear collisions
+[2024-09-20 15:17:27] Article posted on Twitter: I. V. Voronchikhin, D. V. Kirpichnikov. Implication of the Weizsacker-Williams approximation for the dark matter mediator production
+[2024-09-20 15:17:28] Article posted on Twitter: Nobuchika Okada, Osamu Seto. Discovery potential of a long-lived partner of inelastic dark matter at MATHUSLA in $U(1)_{X_3}$ extension of the standard model
+[2024-09-20 15:17:28] Article posted on Twitter: L. M. Abreu, F. S. Navarra, H. P. L. Vieira. Hadronic scattering effects on $\psi(2S)$ suppression in relativistic heavy-ion collisions
+[2024-09-20 15:17:29] Article posted on Twitter: Enrico Lunghi, Beni Pazar. Isolating New Physics signatures of vectorlike quarks and heavy Higgses over multi $b$-jet backgrounds
+[2024-09-20 15:17:29] Article posted on Twitter: Wen-Jing Xing, Shanshan Cao, Guang-You Qin, Xin-Nian Wang. Flavor Hierarchy of Jet Energy Correlators inside the Quark-Gluon Plasma
+[2024-09-20 15:17:30] Article posted on Twitter: Luis A. Anchordoqui, Ignatios Antoniadis, Dieter Lust, Karem Peñaló Castillo. Through the Looking Glass into the Dark Dimension: Searching for Bulk Black Hole Dark Matter with Microlensing of X-ray Pulsars
+[2024-09-20 15:17:31] Article posted on Twitter: Mohammad Mahdi Altakach, Sabine Kraml, Andre Lessa, Sahana Narasimha, Timothée Pascal, Camila Ramos, Yoxara Villamizar, Wolfgang Waltenberger. SModelS v3: Going Beyond Z2 Topologies
+[2024-09-20 15:17:31] Post "These are all of the new submissions in the hep-ph category on Fri, 20 Sep 2024."
+[2024-09-20 15:17:31] Start updating Twitter with arxiv entries in the quant-ph category on 2024-09-20.
+[2024-09-20 15:17:32] Article posted on Twitter: Alexander Preimesberger, Dominik Hornof, Theo Dorfner, Thomas Schachinger, Martin Hrtoň, Andrea Konečná, Philipp Haslinger. Exploring single-photon recoil on free electrons
+[2024-09-20 15:17:32] Article posted on Twitter: Pablo V. Parellada, Vicent Gimeno i Garcia, Julio José Moyano-Fernández, Juan Carlos Garcia-Escartin. Lie algebraic invariants in quantum linear optics
+[2024-09-20 15:17:33] Article posted on Twitter: Filippo Ferrari, Fabrizio Minganti, Camille Aron, Vincenzo Savona. Chaos and spatial prethermalization in driven-dissipative bosonic chains
+[2024-09-20 15:17:33] Article posted on Twitter: Pablo Sala, Ruben Verresen. Stability and Loop Models from Decohering Non-Abelian Topological Order
+[2024-09-20 15:17:34] Article posted on Twitter: Jorge J. Martínez de Lejarza, David F. Rentería-Estrada, Michele Grossi, Germán Rodrigo. Quantum integration of decay rates at second order in perturbation theory
+[2024-09-20 15:17:35] Article posted on Twitter: Antonios M. Alvertis, Abid Khan, Norm M. Tubman. Ground states of strongly-correlated materials on quantum computers using ab initio downfolding
+[2024-09-20 15:17:35] Article posted on Twitter: Ilia A. Luchnikov, Egor S. Tiunov, Tobias Haug, Leandro Aolita. Large-scale quantum annealing simulation with tensor networks and belief propagation
+[2024-09-20 15:17:36] Article posted on Twitter: Joshua Hanson, Dennis Lucarelli. Constructing Noise-Robust Quantum Gates via Pontryagin's Maximum Principle
+[2024-09-20 15:17:36] Article posted on Twitter: Saumya Biswas, Amrit De, Avik Dutt. Topological argument for robustness of coherent states in quantum optics
+[2024-09-20 15:17:37] The content of Qubit-State Purity Oscillations from Anisotropic Transverse Noise exceeds 280 characters. The shorten_long_paper_info shortened the text.
+[2024-09-20 15:17:37] Article posted on Twitter: David A. Rower et al.. Qubit-State Purity Oscillations from Anisotropic Transverse Noise
+[2024-09-20 15:17:38] Article posted on Twitter: Eiji Konishi. More on quantum measuring systems and the holographic principle
+[2024-09-20 15:17:38] Article posted on Twitter: Alberto Acevedo, Janek Wehr, Jarosław Korbicz. Spectrum Broadcast Structures from von Neumann type interaction Hamiltonians with continuous variables
+[2024-09-20 15:17:39] Article posted on Twitter: Philip Caesar Flores, Dean Alvin Pablico, Eric Galapon. Instantaneous tunneling time within the theory of time-of-arrival operators
+[2024-09-20 15:17:39] Article posted on Twitter: Meng Wang, Poulami Das, Prashant J. Nair. Qoncord: A Multi-Device Job Scheduling Framework for Variational Quantum Algorithms
+[2024-09-20 15:17:40] Article posted on Twitter: James Stuart, Kieran Smith, Morgan Hedges, Rose Ahlefeldt, Matthew Sellars. Progress towards efficient 4-level photon echo memories
+[2024-09-20 15:17:41] Article posted on Twitter: Pranav Chandarana, Koushik Paul, Kasturi Ranjan Swain, Xi Chen, Adolfo del Campo. Lyapunov Controlled Counterdiabatic Quantum Optimization
+[2024-09-20 15:17:41] Article posted on Twitter: Hugo Aaronson, Gregory Rosenthal, Sathyawageeswar Subramanian, Animesh Datta, Tom Gur. Quantum Channel Testing in Average-Case Distance
+[2024-09-20 15:17:42] Article posted on Twitter: Kuldeep Kumar Shrivastava, Moulik Deviprasad Ketkar, Biswanath Bhoi, Rajeev Singh. Emergence of coupling induced transparency by tuning purely dissipative couplings
+[2024-09-20 15:17:42] Article posted on Twitter: Tong Liu. Quantum synchronization in one-dimensional topological systems
+[2024-09-20 15:17:43] The content of Experimental sample-efficient quantum state tomography via parallel measurements exceeds 280 characters. The shorten_long_paper_info shortened the text.
+[2024-09-20 15:17:43] Article posted on Twitter: Chang-Kang Hu et al.. Experimental sample-efficient quantum state tomography via parallel measurements
+[2024-09-20 15:17:44] Article posted on Twitter: Zongping Gong, Yuto Ashida. Any Quantum Many-Body State under Local Dissipation will be Disentangled in Finite Time
+[2024-09-20 15:17:44] Article posted on Twitter: Marco Klotz, Andreas Tangemann, Alexander Kubanek. Ultra-high strained diamond spin register with coherent optical link
+[2024-09-20 15:17:45] Article posted on Twitter: B. Hamil, B. C. Lütfüoğlu, M. Merad. Dunkl-Schrodinger Equation in Higher Dimension
+[2024-09-20 15:17:45] Article posted on Twitter: B. Hamil, B. C. Lütfüoğlu, M. Merad. Dunkl-Klein-Gordon Equation in Higher Dimensions
+[2024-09-20 15:17:46] Article posted on Twitter: Sima Bahrani, Romerson D. Oliveira, Juan Parra-Ullauri, Rui Wang, Dimitra Simeonidou. Resource Allocation in Distributed Quantum Computing Interconnect Networks
+[2024-09-20 15:17:47] Article posted on Twitter: Shumpei Kobayashi, Quoc Hoan Tran, Kohei Nakajima. Coherence influx is indispensable for quantum reservoir computing
+[2024-09-20 15:17:47] Article posted on Twitter: Louis Fraatz, Amit Jamadagni, Hendrik Weimer. Efficient computation of topological order
+[2024-09-20 15:17:48] Article posted on Twitter: Wei-Bin Yan, Zhong-Xiao Man, Ying-Jie Zhang, Yun-Jie Xia. Qubit coupled with an effective negative-absolute-temperature bath in off-resonant collision model
+[2024-09-20 15:17:48] Article posted on Twitter: Kevin Ben Attar, Nir Bar-Gill. Dephasing in the central spin problem with long-range Ising spin-bath coupling
+[2024-09-20 15:17:49] Article posted on Twitter: Gayatri Singh, Akshay Gaikwad, Arvind, Kavita Dorai. Experimental decoherence mitigation using a weak measurement-based scheme and the duality quantum algorithm
+[2024-09-20 15:17:50] Article posted on Twitter: Chung-Yun Hsieh, Benjamin Stratton, Hao-Cheng Weng, Valerio Scarani. Informational non-equilibrium concentration
+[2024-09-20 15:17:50] Article posted on Twitter: Galya Haim, Stefano Martina, John Howell, Nir Bar-Gill, Filippo Caruso. Machine-learning based high-bandwidth magnetic sensing
+[2024-09-20 15:17:51] Article posted on Twitter: Varsha Subramanyan, T.H. Hansson, Smitha Vishveshwara. Dynamics of "Classical" Bosons, Fermions, and beyond
+[2024-09-20 15:17:51] Article posted on Twitter: Soumyabrata Paul, Arman, S. Lakshmibala, Prasanta K. Panigrahi, S. Ramanan, V. Balakrishnan. Optimal sensing of photon addition and subtraction on nonclassical light
+[2024-09-20 15:17:52] Article posted on Twitter: Mohamed Shaban, Muhammad Ismail, Walid Saad. SPARQ: Efficient Entanglement Distribution and Routing in Space-Air-Ground Quantum Networks
+[2024-09-20 15:17:53] Article posted on Twitter: Vineesha Srivastava, Sven Jandura, Gavin K Brennen, Guido Pupillo. Entanglement-enhanced quantum sensing via optimal global control
+[2024-09-20 15:17:53] Article posted on Twitter: Ruoming Peng, Xuntao Wu, Yang Wang, Jixing Zhang, Jianpei Geng, Durga Bhaktavatsala Rao Dasari, Andrew N. Cleland, Jörg Wrachtrup. Hybrid spin-phonon architecture for scalable solid-state quantum nodes
+[2024-09-20 15:17:53] Post "These are all of the new submissions in the quant-ph category on Fri, 20 Sep 2024."
+[2024-09-20 15:17:54] Start updating Twitter with arxiv entries in the math-ph category on 2024-09-20.
+[2024-09-20 15:17:54] Article posted on Twitter: Tal Malinovitch. Twisted Bilayer Graphene in Commensurate Angles
+[2024-09-20 15:17:55] Article posted on Twitter: Sen Hu, Si Li, Dongheng Ye, Yehao Zhou. On the Hilbert Space of the Chern-Simons Matrix Model, Deformed Double Current Algebra Action, and the Conformal Limit
+[2024-09-20 15:17:55] Article posted on Twitter: Di Yang, Chunhui Zhou. The loop equation for the Burgers--KdV hierarchy
+[2024-09-20 15:17:56] Article posted on Twitter: David Adame-Carrillo. Symplectic fermions in general domains
+[2024-09-20 15:17:56] Post "These are all of the new submissions in the math-ph category on Fri, 20 Sep 2024."
+[2024-09-20 15:17:56] Start updating Twitter with arxiv entries in the hep-th category on 2024-09-20.
+[2024-09-20 15:17:57] Article posted on Twitter: Hao Geng, Yikun Jiang. Microscopic Origin of the Entropy of Single-sided Black Holes
+[2024-09-20 15:17:57] Article posted on Twitter: Arkya Chatterjee, Salvatore D. Pace, Shu-Heng Shao. Quantized axial charge of staggered fermions and the chiral anomaly
+[2024-09-20 15:17:58] Article posted on Twitter: James Halverson, Joydeep Naskar, Jiahua Tian. Conformal Fields from Neural Networks
+[2024-09-20 15:17:59] Article posted on Twitter: Jean-François Fortin, Lorenzo Quintavalle, Witold Skiba. The Virasoro Completeness Relation and Inverse Shapovalov Form
+[2024-09-20 15:17:59] Article posted on Twitter: Ivano Basile, Dieter Lust. Dark dimension with (little) strings attached
+[2024-09-20 15:18:00] Article posted on Twitter: Josh A. O'Connor, Simon Pekar. A note on non-Lorentzian duality symmetries
+[2024-09-20 15:18:00] Article posted on Twitter: Frankbelson dos S. Azevedo, Edilberto O. Silva. Dynamics of massive and massless particles in the spacetime of a wiggly cosmic dislocation
+[2024-09-20 15:18:01] Article posted on Twitter: Yuanhong Guo, Lei Wang, Gang Yang, YiXiong Yin. Analytic two-Loop four-point form factor of the stress-tensor supermultiplet in ${\cal N}=4$ SYM
+[2024-09-20 15:18:02] Article posted on Twitter: Yoonbai Kim, SeungJun Jeon, O-Kab Kwon, Hanwool Song, Chanju Kim. Vacuum and Vortices in Inhomogeneous Abelian Higgs Model
+[2024-09-20 15:18:02] Article posted on Twitter: Kohki Kawabata, Shinichiro Yahagi. Orbifolds of chiral fermionic CFTs and their duality
+[2024-09-20 15:18:03] Article posted on Twitter: Jiaqi Chen, Bo Feng. Notes on Selection Rules of Canonical Differential Equations and Relative Cohomology
+[2024-09-20 15:18:03] Article posted on Twitter: Robert Dickinson, Jeff Forshaw, Ross Jenkinson, Peter Millington. A new study of the Unruh effect
+[2024-09-20 15:18:04] Article posted on Twitter: Xiao-Dan Zhu, Wentao Liu, Di Wu. Universal thermodynamic topological classes of rotating black holes
+[2024-09-20 15:18:05] Article posted on Twitter: Daniele Dorigoni, Zhihao Duan, Daniele R. Pavarini, Congkao Wen, Haitian Xie. Electromagnetic Duality for Line Defect Correlators in $\mathcal{N}=4$ Super Yang-Mills Theory
+[2024-09-20 15:18:05] Article posted on Twitter: Max Joseph Fahn, Kristina Giesel. Gravitationally induced decoherence of a scalar field: investigating the one-particle sector and its interplay with renormalisation
+[2024-09-20 15:18:06] Article posted on Twitter: Thomas Basile. Massless chiral fields in six dimensions
+[2024-09-20 15:18:07] Article posted on Twitter: Alexey Sharapov, Evgeny Skvortsov, Arseny Sukhanov. Matter-coupled higher spin gravities in 3d: no- and yes-go results
+[2024-09-20 15:18:07] Article posted on Twitter: Yuchen Du, Siddarth Ajith, Ravisankar Rajagopal, Diana Vaman. Worldline Proof of Eikonal Exponentiation
+[2024-09-20 15:18:08] Article posted on Twitter: Samim Akhtar. On the classical limit of the (sub)$^{n}$-leading soft graviton theorems in $D = 4$ without deflection
+[2024-09-20 15:18:08] Article posted on Twitter: Francesco Aprile, Stefano Giusto, Rodolfo Russo. Holographic correlators with BPS bound states in $\mathcal{N} = 4$ SYM
+[2024-09-20 15:18:09] Article posted on Twitter: Elba Alonso-Monsalve, Daniel Harlow, Patrick Jefferson. Phase space of Jackiw-Teitelboim gravity with positive cosmological constant
+[2024-09-20 15:18:09] Post "These are all of the new submissions in the hep-th category on Fri, 20 Sep 2024."
+[2024-09-20 15:18:09] Start updating Twitter with arxiv entries in the gr-qc category on 2024-09-20.
+[2024-09-20 15:18:10] Article posted on Twitter: Christopher Aykroyd, Adrien Bourgoin, Christophe Le Poncin-Lafitte. Hamiltonian normal forms for the post-Newtonian binary problem
+[2024-09-20 15:18:10] Article posted on Twitter: Amit Samaddar, S. Surendra Singh. Barrow Holographic Dark Energy in $f(Q,L_{m})$ gravity: A dynamical system perspective
+[2024-09-20 15:18:11] Article posted on Twitter: Florian Neukart. Geometry-Information Duality: Quantum Entanglement Contributions to Gravitational Dynamics
+[2024-09-20 15:18:12] Article posted on Twitter: B. Eslam Panah, Manuel E. Rodrigues. Phantom BTZ black holes
+[2024-09-20 15:18:12] Article posted on Twitter: José Barrientos, Adolfo Cisterna, Mokhtar Hassaine, Konstantinos Pallikaris. Electromagnetized Black Holes and Swirling Backgrounds in Nonlinear Electrodynamics: The ModMax case
+[2024-09-20 15:18:13] Article posted on Twitter: Yefim S. Levin. Some Theoretical Aspects of Observation of Acceleration Induced Thermality
+[2024-09-20 15:18:13] Article posted on Twitter: Xiao-Jun Gao. Gravitational lensing and shadow by a Schwarzschild-like black hole in metric-affine bumblebee gravity
+[2024-09-20 15:18:14] Article posted on Twitter: Romel M. Vargas, M. A. Cuyubamba. Motion of test particles around an Einstein-dilaton-Gauss-Bonnet black hole in a uniform magnetic field
+[2024-09-20 15:18:15] Article posted on Twitter: Marcello Miranda, Massimiliano Rinaldi, Valerio Faraoni. How the Schwarzschild-de Sitter horizons remain in thermal equilibrium at vastly different temperatures
+[2024-09-20 15:18:15] Article posted on Twitter: H. Moradpour, S. Jalalzadeh, M. Javaherian. Fractional Stars
+[2024-09-20 15:18:16] Article posted on Twitter: Sohan Kumar Jha, Anisur Rahaman. Constrain from shadows of $M87^*$ and $Sgr A^*$ and quasiperiodic oscillations of galactic microquasars on a black hole arising from metric-affine bumblebee model
+[2024-09-20 15:18:16] Post "These are all of the new submissions in the gr-qc category on Fri, 20 Sep 2024."
+[2024-09-20 15:18:16] This is the end of all the posts on 2024-09-20

@@ -1,6 +1,6 @@
 #%%
 import os
-from core.printlog import printlog
+from src.core.printlog import printlog
 
 def load_credentials(category):
     """
@@ -27,11 +27,11 @@ def load_credentials(category):
                 credentials[key] = value
         return credentials
     except FileNotFoundError:
-        printlog(f"File {file_path} not found.")
-        return None
+        printlog(f"File {file_path.replace(home_directory, '~')} not found.")
+        exit("load_credentials: 404")
     except Exception as e:
-        printlog(f"An error occurred: {e}")
-        return None
+        printlog(f"Exception error: {e}")
+        exit("load_credentials: Exception")
 
 #%%
 import tweepy
@@ -51,16 +51,18 @@ def login_twitter(category):
 #%%
 def test():
     # Specify the file (category) you want to read from
-    credentials_file = "gr-qc"
-
-    # Load the credentials into a dictionary
-    credentials_dict = load_credentials(credentials_file)
-
-    # Print the dictionary
-    if credentials_dict:
-        print("Please check if the API Key starts with", credentials_dict['API Key'][:3])
-        for key, value in credentials_dict.items():
-            print(f"{key}: {value[:3]}")
+    from utils.get_args import categories_content
+    twi = 5
+    for category in categories_content[:twi]:
+        # Load the credentials into a dictionary
+        credentials_file = category
+        credentials_dict = load_credentials(credentials_file)
+        # Print the dictionary
+        if credentials_dict:
+            print(category, ":")
+            print("Please check if the API Key starts with", credentials_dict['API Key'][:3])
+            for key, value in credentials_dict.items():
+                print(f"{key}: {value[:3]}")
 
 if __name__ == '__main__':
     test()

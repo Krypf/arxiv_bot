@@ -27,8 +27,8 @@ def post_twitter(today):
 
 def main():
     today = get_today()    
-    save_html_json(today)
-    post_bluesky(today)
+    # save_html_json(today)
+    # post_bluesky(today)
     post_twitter(today)
     printlog(f"This is the end of all the posts on {today}")
     return 0
