@@ -119,37 +119,42 @@ class ArxivSearch:
             printlog(f"No <li> element found with the date: {date_to_find}")
             exit('1')
     
-    def get_html(self):
+    def get_checked_html(self, check: bool=True):
         url = self.make_url()
-        # Format the datetime object to the desired string format
-        today = datetime.now().strftime('%A, %-d %B %Y')
         # Send a GET request to the webpage
-        response = ArxivSearch.check_date_in_html(url, today)
+        response = ArxivSearch.get_response(url)
+        
+        if check:
+            # Format the datetime object to the desired string format
+            today = datetime.now().strftime('%A, %-d %B %Y')
+            response = ArxivSearch.check_date_in_html(response, today)
+        
         return response
 
-    def check_date_in_html(url: str, date: str) -> None:
+    def get_response(url: str) -> None:
         try:
             # Send a GET request to the URL
             response = requests.get(url)
             # Check if the request was successful
             response.raise_for_status()  # Raise an error for bad responses (e.g., 404 or 500)
-
-            # Parse the HTML content with BeautifulSoup
-            soup = BeautifulSoup(response.text, features="xml")
-            
-            # Check if the specified date is present in the HTML content
-            if not any(date in element.text for element in soup.find_all()):
-                printlog(f"Specified date ({date}) not found in HTML. No entries found for today. Exiting program.")            
-                sys.exit(1)  # Exit the program
-            else:
-                return response
+            return response
         except requests.exceptions.RequestException as e:
             print(f"Error fetching the URL: {e}")
             sys.exit(1)  # Exit the program in case of an error with the request
-    
+            
+    def check_date_in_html(response, date: str):
+        # Parse the HTML content with BeautifulSoup
+        soup = BeautifulSoup(response.text, features="xml")
+        # Check if the specified date is present in the HTML content
+        if not any(date in element.text for element in soup.find_all()):
+            printlog(f"Specified date ({date}) not found in HTML. No entries found for today. Exiting program.")         
+            sys.exit(1)  # Exit the program
+        else:
+            return response
+        
     def save_one_html(self):
         # https://chatgpt.com/share/c8e08b83-0d2d-4430-a447-e0e14a945d8b
-        response = self.get_html()
+        response = self.get_checked_html(check=True)
         if response.status_code == 200:
             # Save the HTML content to a file
             with open(self.file_path, "w", encoding='utf-8') as file:
