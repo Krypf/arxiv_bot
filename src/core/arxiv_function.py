@@ -141,7 +141,7 @@ class ArxivSearch:
         except requests.exceptions.RequestException as e:
             print(f"Error fetching the URL: {e}")
             sys.exit(1)  # Exit the program in case of an error with the request
-            
+        
     def check_date_in_html(response, date: str):
         # Parse the HTML content with BeautifulSoup
         soup = BeautifulSoup(response.text, features="xml")
