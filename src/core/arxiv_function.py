@@ -119,14 +119,14 @@ class ArxivSearch:
             printlog(f"No <li> element found with the date: {date_to_find}")
             exit('1')
     
-    def get_checked_html(self, check: bool=True):
+    def get_checked_html(self, check: bool=True, date=datetime.now()):
         url = self.make_url()
         # Send a GET request to the webpage
         response = ArxivSearch.get_response(url)
         
         if check:
             # Format the datetime object to the desired string format
-            today = datetime.now().strftime('%A, %-d %B %Y')
+            today = date.strftime('%A, %-d %B %Y')
             response = ArxivSearch.check_date_in_html(response, today)
         
         return response
@@ -150,11 +150,12 @@ class ArxivSearch:
             printlog(f"Specified date ({date}) not found in HTML. No entries found for today. Exiting program.")         
             sys.exit(1)  # Exit the program
         else:
+            printlog(f"{date} found in html.")
             return response
         
     def save_one_html(self):
         # https://chatgpt.com/share/c8e08b83-0d2d-4430-a447-e0e14a945d8b
-        response = self.get_checked_html(check=True)
+        response = self.get_checked_html(check=False)
         if response.status_code == 200:
             # Save the HTML content to a file
             with open(self.file_path, "w", encoding='utf-8') as file:

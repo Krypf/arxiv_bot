@@ -18,8 +18,7 @@ def post_bluesky(today):
     for category in reversed(categories_content):
         reader = ArxivText(category, today, extension='.json')
         reader.update_bluesky()
-def post_twitter(today):
-    twi = 5
+def post_twitter(today, twi = 5):
     for category in reversed(categories_content[:twi]):
         reader = ArxivText(category, today, extension='.json')
         reader.update_twitter()
@@ -29,7 +28,7 @@ def main():
     today = get_today()    
     # save_html_json(today)
     # post_bluesky(today)
-    post_twitter(today)
+    post_twitter(today, twi = 3)
     printlog(f"This is the end of all the posts on {today}")
     return 0
 
