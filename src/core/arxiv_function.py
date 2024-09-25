@@ -367,7 +367,7 @@ class ArxivText:
                 t = f"Twitter API v2 limits posts to 1500 per month ({api_maximum} per day). All the posts including the remaining submissions are posted on Bluesky: "
                 t += f"https://bsky.app/profile/krxiv-{self.category}.bsky.social"
                 printlog(f"Stop sending tweets. Please tweet manually:\n{t}")
-                break
+                continue
             time.sleep(sleep_time)
         client_twitter.create_tweet(text=self.last_post())
         return None
