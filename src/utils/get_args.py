@@ -13,13 +13,20 @@ def html_args():
 
 def date_args():
     parser = ArgumentParser(description='Process some dates.')
-    parser.add_argument('--date', type=str, help='The (current) date')
+    parser.add_argument('-d', '--date', type=str, help='The (current) date')
     return parser.parse_args()
+
+import re
 
 def get_today():
     args = date_args()
+    pattern = re.compile(r"\d{4}-\d{2}-\d{2}")
     if args.date:
-        today = args.date
+        if args.date == 'txt':
+            dates = read_inner_file(file='date', folder='src')
+            today = dates[-1]
+        elif pattern.fullmatch(args.date):
+            today = args.date
     else:
         today = datetime.now().strftime('%Y-%m-%d')
     return today

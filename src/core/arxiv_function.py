@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 from lxml import etree
 from pyquery import PyQuery as pq
 
-from src.core.printlog import printlog
+from src.utils.printlog import printlog
 #%%
 def arxiv_formatted_date(date_str):
     # Convert the string to a datetime object
@@ -228,8 +228,9 @@ class ArxivSoup():
     def get_one_article(self, item_number: str):
         soup_dt, soup_dd = self.find_dt_and_dd(item_number)# not self.soup. ...
         if "cross-list" in soup_dt.get_text():
-            printlog(f"Number {item_number} included in cross-list")
-            return ""
+            # printlog(f"Number {item_number} included in cross-list")
+            # return ""
+            return None
         abs_url, pdf_url = ArxivSoup.get_arxiv_link(soup_dt)
         title, authors = ArxivSoup.get_title_and_authors(soup_dd)
         # Create dictionary
@@ -355,25 +356,35 @@ class ArxivText:
         client_bsky.send_post(self.last_post())
         return None
     
-    def update_twitter(self, sleep_time=0.3, api_maximum=50):
+    def maximum_error(self, api_maximum = 50):
+        t = str()
+        t += f"Twitter API v2 limits posts to 1500 per month ({api_maximum} per day) on {self.date}. All the posts including the remaining submissions are posted on Bluesky: "
+        t += f"https://bsky.app/profile/krxiv-{self.category}.bsky.social"
+        printlog(f"Stop sending tweets. Please tweet manually:\n{t}")
+        return None
+    def update_twitter(self, sleep_time=0.3):
         printlog(f"Start updating Twitter with arxiv entries in the {self.category} category on {self.date}.")
         articles_list = self.read_content()
         client_twitter = login_twitter(self.category)
+        _continue = True
+        
         for article in articles_list:
             article = ArxivPost(article)
             twi_api = article.send_post_to_twitter(client_twitter)
             if twi_api:
-                api_maximum = 50
-                t = f"Twitter API v2 limits posts to 1500 per month ({api_maximum} per day). All the posts including the remaining submissions are posted on Bluesky: "
-                t += f"https://bsky.app/profile/krxiv-{self.category}.bsky.social"
-                printlog(f"Stop sending tweets. Please tweet manually:\n{t}")
-                continue
+                _continue = False
+                break
             time.sleep(sleep_time)
-        client_twitter.create_tweet(text=self.last_post())
+        # Change behavior depending on the value of _continue
+        if _continue:
+            client_twitter.create_tweet(text=self.last_post())
+        else:
+            self.maximum_error()
         return None
 
     def confirm_initialize(self):
         # Print current date and time to stdout
+        save = False
         current_date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         print(f"Current date and time: {current_date}")
         print(f"The date you select is {self.date}")
@@ -385,20 +396,23 @@ class ArxivText:
             if user_input in ['y', 'n']:
                 if user_input == 'y':
                     print("You chose yes.")
+                    save = True
                 else:
                     print("You chose no.")
+                    exit('1')
                 break
             else:
                 print("Please enter 'y' or 'n'.")
 
-        # Create an empty file
-        open(self.file_path, 'w').close()
-        # Open the file in write mode
-        with open(self.file_path, 'w') as file:
-            # You can write to the file here if needed
-            file.write("")
-            printlog(f"File {self.file_name} has been initialized.")
-            # security: do not use the absolute file_path
+        if save:
+            # Create an empty file
+            open(self.file_path, 'w').close()
+            # Open the file in write mode
+            with open(self.file_path, 'w') as file:
+                # You can write to the file here if needed
+                file.write("")
+                printlog(f"File {self.file_name} has been initialized.")
+                # security: do not use the absolute file_path
 
         return None
     def save_all_in(self, iterator, soup: ArxivSoup):
@@ -406,13 +420,16 @@ class ArxivText:
             data = []
             for item_number in iterator:
                 article = soup.get_one_article(item_number)
-                data.append(article)
-                with open(self.file_path, 'w') as file:
-                    json.dump(data, file, indent=4)
+                if article:
+                    data.append(article)
+            # indent block is there
+            with open(self.file_path, 'w') as file:
+                json.dump(data, file, indent=4)
         elif self.extension == '.txt':
             for item_number in iterator:
                 text = soup.get_one_article_text(item_number)
-                self.append_to_path(text)
+                if text:
+                    self.append_to_path(text)
         
         printlog(f"{self.file_name} has been saved.")
         return None
@@ -444,11 +461,13 @@ class ArxivPost():
     def shorten_long_paper_info(self, max_letter: int):
         if len(self.all_text()) > max_letter:
             self.authors = ArxivPost.shorten_authors(self.authors)
-            printlog(f"The content of {self.title} exceeds {max_letter} characters. The shorten_long_paper_info shortened the text.")
+            
+            printlog(f"The content of \'{self.title}\' exceeds {max_letter} characters. The shorten_long_paper_info shortened the text.")
             # renew all the text
             if len(self.all_text()) <= max_letter:
                 return self
             else:
+                printlog('shorten_long_paper_info: 1')
                 exit('shorten_long_paper_info: 1')
         else:
             return self

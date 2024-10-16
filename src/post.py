@@ -1,17 +1,15 @@
 #%%
-from core.printlog import printlog
-from core.arxiv_function import ArxivText
-from utils.get_args import get_today, categories_content
+from src.utils.printlog import printlog
+from src.utils.get_args import get_today
+
+from src.post_bluesky import post_bluesky
+from src.post_twitter import post_twitter
 
 def post():
     today = get_today()
-    twi = 5
-    for category in reversed(categories_content):
-        reader = ArxivText(category, today, extension='.json')
-        reader.update_bluesky()
-    for category in reversed(categories_content[:twi]):
-        reader = ArxivText(category, today, extension='.json')
-        reader.update_twitter()
+    post_bluesky(today)
+    
+    post_twitter(today)
     printlog(f"This is the end of all the posts on {today}")
     return 0
 

@@ -2,7 +2,6 @@
 from src.utils.printlog import printlog
 from src.core.arxiv_function import ArxivText
 from src.utils.get_args import categories_content, get_today
-
 #%%
 def post_twitter(today, twi = 5):
     for category in reversed(categories_content[:twi]):
