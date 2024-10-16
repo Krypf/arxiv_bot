@@ -1,6 +1,5 @@
 from src.utils.get_args import html_args, get_today, categories_content
 from src.core.arxiv_function import ArxivSearch, ArxivText
-from src.utils.printlog import printlog
 #%%
 def save_html_json(today):
     args = html_args()
