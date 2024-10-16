@@ -1,6 +1,6 @@
 #%%
 import os
-from src.core.printlog import printlog
+from src.utils.printlog import printlog
 
 def load_credentials(category):
     """
@@ -51,7 +51,7 @@ def login_twitter(category):
 #%%
 def test():
     # Specify the file (category) you want to read from
-    from utils.get_args import categories_content
+    from src.utils.get_args import categories_content
     twi = 5
     for category in categories_content[:twi]:
         # Load the credentials into a dictionary
