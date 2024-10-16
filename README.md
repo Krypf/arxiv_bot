@@ -123,3 +123,16 @@ arXiv にも API が用意されていますが、API よりも Web ページの
 
 米国（アメリカ）の祝日・休日カレンダー 2024年  
 https://holidays-calendar.net/calendar/usa_calendar.html 
+
+# 手動の復旧メモ
+
+arXiv や PC の不具合から手動で復旧（投稿）せざるをえないときのメモです。
+5回更新以内であれば recent から復旧できます。
+
+```
+% python -m src.save-HTML --submissions recent --skip 0 --show 2000
+% python -m src.save-json-recent txt
+% python -m src.post --date txt
+
+% python -m src.post_bluesky --date txt
+```
