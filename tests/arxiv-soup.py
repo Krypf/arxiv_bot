@@ -4,7 +4,7 @@ with open(file_name, 'r') as file:
     script = file.read()
 exec(script)
 #%%
-from core.arxiv_function import ArxivSoup, ArxivText, ArxivSearch
+from src.core.arxiv_function import ArxivSoup, ArxivText, ArxivSearch
 category = 'gr-qc'
 obj = ArxivText(category, '2024-09-15', extension = '.txt')
 search = ArxivSearch(category, 'new')
