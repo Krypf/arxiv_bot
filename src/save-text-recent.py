@@ -1,6 +1,6 @@
 #%%
-from core.arxiv_function import ArxivSearch, ArxivText, ArxivSoup 
-from utils.get_args import categories_content, read_inner_file
+from src.core.arxiv_function import ArxivSearch, ArxivText, ArxivSoup 
+from src.utils.get_args import categories_content, read_inner_file
 
 def sub(obj: ArxivText):
     obj.confirm_initialize()
@@ -12,7 +12,7 @@ def sub(obj: ArxivText):
     
     iterator = map(str, range(*item_numbers))
     obj.save_all_in(iterator, soup)
-    return 0
+    return None
 
 def main():
     dates = read_inner_file(file='date', folder='src')
