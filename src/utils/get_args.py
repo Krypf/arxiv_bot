@@ -2,31 +2,32 @@
 from argparse import ArgumentParser
 from datetime import datetime
 
-def html_args():
-    parser = ArgumentParser(description="Generate arXiv list URL.")
+def get_args():
+    parser = ArgumentParser(description="Get the main args")
+    # Generate arXiv list URL
     # parser.add_argument("--category", required=True, help="The category for the arXiv submissions (e.g., gr-qc).")
     parser.add_argument("--submissions", default="new", help="The type of submissions (e.g., new, recent).")
     parser.add_argument("--skip", default="", help="Number of submissions to skip.")
     parser.add_argument("--show", default="", help="Number of submissions to show.")
+    # Process some dates
+    parser.add_argument('-d', '--date', type=str, help='The (current) date')
+    
     args = parser.parse_args()
     return args
 
-def date_args():
-    parser = ArgumentParser(description='Process some dates.')
-    parser.add_argument('-d', '--date', type=str, help='The (current) date')
-    return parser.parse_args()
 
 import re
 
-def get_today():
-    args = date_args()
+def get_today(args):
     pattern = re.compile(r"\d{4}-\d{2}-\d{2}")
     if args.date:
-        if args.date == 'txt':
+        if pattern.fullmatch(args.date):
+            today = args.date
+        elif args.date == 'txt':
             dates = read_inner_file(file='date', folder='src')
             today = dates[-1]
-        elif pattern.fullmatch(args.date):
-            today = args.date
+        else:
+            exit("The date must be YYYY-MM-DD")
     else:
         today = datetime.now().strftime('%Y-%m-%d')
     return today

@@ -1,6 +1,6 @@
 #%%
 from src.core.arxiv_function import ArxivSearch, ArxivText, ArxivSoup 
-from src.utils.get_args import categories_content, get_today
+from src.utils.get_args import get_args, get_today, categories_content
 
 def sub(obj: ArxivText):
     obj.confirm_initialize()
@@ -15,7 +15,9 @@ def sub(obj: ArxivText):
     return None
 
 def main():
-    date = get_today()
+    args = get_args()
+    
+    date = get_today(args)
     for category in categories_content:
         # extension = '.json' not .txt
         obj = ArxivText(category, date, extension = '.json')

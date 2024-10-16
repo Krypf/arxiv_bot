@@ -1,12 +1,14 @@
 #%%
 from src.utils.printlog import printlog
-from src.utils.get_args import get_today
+from src.utils.get_args import get_args, get_today
 
 from src.post_bluesky import post_bluesky
 from src.post_twitter import post_twitter
 
 def post():
-    today = get_today()
+    args = get_args()
+    
+    today = get_today(args)
     post_bluesky(today)
     
     post_twitter(today)

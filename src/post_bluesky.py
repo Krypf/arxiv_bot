@@ -2,7 +2,7 @@
 # https://chatgpt.com/share/2e11c4e2-96d3-4c1c-82a0-cbed39d6ec9a
 from src.utils.printlog import printlog
 from src.core.arxiv_function import ArxivText
-from src.utils.get_args import get_today, categories_content
+from src.utils.get_args import get_args, get_today, categories_content
 
 #%%
 def post_bluesky(today):
@@ -11,7 +11,9 @@ def post_bluesky(today):
         reader.update_bluesky()
         
 def main():
-    today = get_today()
+    args = get_args()
+    
+    today = get_today(args)
     
     printlog('Start posting on Bluesky')
     post_bluesky(today)
