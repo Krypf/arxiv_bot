@@ -465,12 +465,18 @@ class ArxivPost():
             printlog(f"The content of \'{self.title}\' exceeds {max_letter} characters. The shorten_long_paper_info shortened the text.")
             # renew all the text
             if len(self.all_text()) <= max_letter:
-                return self
+                pass
             else:
-                printlog('shorten_long_paper_info: 1')
-                exit('shorten_long_paper_info: 1')
+                max_title = 100
+                self.title = self.title[:max_title] + "..."
+                printlog('shorten_long_paper_info shortened the title.')
+                if len(self.all_text()) <= max_letter:
+                    pass
+                else:
+                    exit('shorten_long_paper_info: 1')
         else:
-            return self
+            pass
+        return self
 
     """
     Move methods to solve the
