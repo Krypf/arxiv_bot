@@ -5,7 +5,7 @@ from datetime import datetime
 def get_args():
     parser = ArgumentParser(description="Get the main args")
     # Generate arXiv list URL
-    # parser.add_argument("--category", required=True, help="The category for the arXiv submissions (e.g., gr-qc).")
+    parser.add_argument("--category", required=True, help="The category for the arXiv submissions (e.g., gr-qc).")
     parser.add_argument("--submissions", default="new", help="The type of submissions (e.g., new, recent).")
     parser.add_argument("--skip", default="", help="Number of submissions to skip.")
     parser.add_argument("--show", default="", help="Number of submissions to show.")
@@ -23,9 +23,11 @@ def get_today(args):
     if args.date:
         if pattern.fullmatch(args.date):
             today = args.date
+        # input the date into a file manually
         elif args.date == 'txt':
             dates = read_inner_file(file='date', folder='src')
             today = dates[-1]
+        # Date format is wrong
         else:
             exit("The date must be YYYY-MM-DD")
     else:
