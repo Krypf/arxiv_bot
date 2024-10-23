@@ -5,7 +5,7 @@ from datetime import datetime
 def get_args():
     parser = ArgumentParser(description="Get the main args")
     # Generate arXiv list URL
-    parser.add_argument("--category", required=True, help="The category for the arXiv submissions (e.g., gr-qc).")
+    parser.add_argument("--category", type=str, help="The category for the arXiv submissions (e.g., gr-qc).")
     parser.add_argument("--submissions", default="new", help="The type of submissions (e.g., new, recent).")
     parser.add_argument("--skip", default="", help="Number of submissions to skip.")
     parser.add_argument("--show", default="", help="Number of submissions to show.")
@@ -18,7 +18,7 @@ def get_args():
 
 import re
 
-def get_today(args):
+def get_today(args) -> str:
     pattern = re.compile(r"\d{4}-\d{2}-\d{2}")
     if args.date:
         if pattern.fullmatch(args.date):

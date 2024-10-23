@@ -119,15 +119,15 @@ class ArxivSearch:
             printlog(f"No <li> element found with the date: {date_to_find}")
             exit('1')
     
-    def get_checked_html(self, check: bool=True, date=datetime.now()):
+    def get_checked_html(self, check: bool, date: datetime):
         url = self.make_url()
         # Send a GET request to the webpage
         response = ArxivSearch.get_response(url)
         
         if check:
             # Format the datetime object to the desired string format
-            today = date.strftime('%A, %-d %B %Y')
-            response = ArxivSearch.check_date_in_html(response, today)
+            date = date.strftime('%A, %-d %B %Y')
+            response = ArxivSearch.check_date_in_html(response, date)
         
         return response
 
@@ -153,9 +153,12 @@ class ArxivSearch:
             printlog(f"{date} found in html.")
             return response
         
-    def save_one_html(self):
+    def save_one_html(self, _check: bool, _date: str):
         # https://chatgpt.com/share/c8e08b83-0d2d-4430-a447-e0e14a945d8b
-        response = self.get_checked_html(check=False)
+        
+        # Convert the string to a datetime object
+        _date = datetime.strptime(_date, '%Y-%m-%d')
+        response = self.get_checked_html(_check, _date)
         if response.status_code == 200:
             # Save the HTML content to a file
             with open(self.file_path, "w", encoding='utf-8') as file:
@@ -341,7 +344,7 @@ class ArxivText:
 
     def last_post(self):
         d = arxiv_formatted_date(self.date)
-        t = f"These are all of the new submissions in the {self.category} category on {d}."
+        t = f"All new submissions in the {self.category} category on {d}."
         printlog(f"Post \"{t}\"")
         return t
     
@@ -356,9 +359,10 @@ class ArxivText:
         client_bsky.send_post(self.last_post())
         return None
     
-    def maximum_error(self, api_maximum = 50):
+    def log_maximum_error(self, api_maximum = 50):
         t = str()
-        t += f"Twitter API v2 limits posts to 1500 per month ({api_maximum} per day) on {self.date}. All the posts including the remaining submissions are posted on Bluesky: "
+        t += f"Twitter API v2 limits posts to 1500 per month ({api_maximum} per day). "
+        t += f"The remaining submissions on {self.date} have been shared on Bluesky: "
         t += f"https://bsky.app/profile/krxiv-{self.category}.bsky.social"
         printlog(f"Stop sending tweets. Please tweet manually:\n{t}")
         return None
@@ -379,7 +383,7 @@ class ArxivText:
         if _continue:
             client_twitter.create_tweet(text=self.last_post())
         else:
-            self.maximum_error()
+            self.log_maximum_error()
         return None
 
     def confirm_initialize(self):
