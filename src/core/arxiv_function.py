@@ -447,7 +447,17 @@ class ArxivText:
 import tweepy
 from atproto import client_utils, models
 
+app_max = {
+    "Twitter": 280,
+    "Bluesky": 300
+}
+
 class ArxivPost():
+    """
+    Post: json data (dictionary)
+    -> Share on Bluesky ... including all categories
+    -> Share on Twitter ... including limited categories
+    """
     def __init__(self, article: dict):
         self.name    = article['name']
         self.title   = article['title']
@@ -455,31 +465,36 @@ class ArxivPost():
         self.abs_url = article['abs_url']
         self.pdf_url = article['pdf_url']
     
-    def shorten_authors(authors):
-        authors_list = authors.split(", ")
+    def shorten_authors(self):
+        printlog("The shorten_authors has shortened the authors.")
+        authors_list = (self.authors).split(", ")
         return authors_list[0] + " " + "et al."
+    
+    def shorten_title(self, max_title: int = 200):
+        printlog("The shorten_title has shortened the title.")
+        return self.title[:max_title] + " ..."
 
-    def all_text(self):
-        return'\n'.join([self.title, self.pdf_url, self.authors, self.abs_url])
-        
-    def shorten_long_paper_info(self, max_letter: int):
-        if len(self.all_text()) > max_letter:
-            self.authors = ArxivPost.shorten_authors(self.authors)
-            
-            printlog(f"The content of \'{self.title}\' exceeds {max_letter} characters. The shorten_long_paper_info shortened the text.")
+    def all_text(self, app: str):
+        match app:
+            case "Bluesky":
+                return '\n'.join([self.title, self.pdf_url, self.authors])
+            case "Twitter":
+                return '\n'.join([self.title, self.pdf_url, self.authors, self.abs_url])
+            case _:
+                return "Unknown"
+    
+    def is_too_long(self, app: str):
+        return len(self.all_text(app)) > app_max[app]
+    
+    def shorten_long_paper_info(self, app: str):
+        if self.is_too_long(app):
+            printlog(f"The content of \'{self.title}\' exceeds {app_max[app]} characters.")
             # renew all the text
-            if len(self.all_text()) <= max_letter:
-                pass
-            else:
-                max_title = 100
-                self.title = self.title[:max_title] + "..."
-                printlog('shorten_long_paper_info shortened the title.')
-                if len(self.all_text()) <= max_letter:
-                    pass
-                else:
+            self.authors = self.shorten_authors()
+            if self.is_too_long(app):
+                self.title = self.shorten_title()
+                if self.is_too_long(app):
                     exit('shorten_long_paper_info: 1')
-        else:
-            pass
         return self
 
     """
@@ -487,16 +502,12 @@ class ArxivPost():
     ImportError: cannot import name 'ArxivPost' from partially initialized module 'arxiv_function' (most likely due to a circular import) (~/arxiv_bot/arxiv_bot/arxiv_function.py)    
     """
     # Twitter
-    # Function to read content from a text file and tweet it
-    def make_tweet(self):
-        return self.all_text()
-
-    def send_post_to_twitter(self, client, thumb=None, max_letter=280):
+    def send_post_to_twitter(self, client, thumb=None):
         # Check if the tweet content is within Twitter's character limit
-        self = self.shorten_long_paper_info(max_letter)
+        self = self.shorten_long_paper_info("Twitter")
         try:
             # Post Tweet
-            tweet = self.make_tweet()
+            tweet = self.all_text("Twitter")
             client.create_tweet(text=tweet)
             printlog(f"Article posted on Twitter: {self.authors}. {self.title}")
         except tweepy.errors.TweepyException as e:
@@ -527,8 +538,8 @@ class ArxivPost():
         )
         return embed_external
     
-    def send_post_to_bluesky(self, client, thumb, max_letter=300):
-        self = self.shorten_long_paper_info(max_letter)
+    def send_post_to_bluesky(self, client, thumb):
+        self = self.shorten_long_paper_info("Bluesky")
         
         tb = self.make_rich_text()
         embed_external = self.make_linkcard(thumb)
