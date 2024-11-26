@@ -126,7 +126,7 @@ class ArxivSearch:
         
         if check:
             # Format the datetime object to the desired string format
-            date = date.strftime('%A, %-d %B %Y')
+            date = date.strftime('%a, %-d %b %Y')
             response = ArxivSearch.check_date_in_html(response, date)
         
         return response
@@ -309,10 +309,10 @@ class ArxivText:
             cd_arxiv_bot()
         # Open and read the content of the file
         with open(self.file_path, 'r', encoding='utf-8') as file:
-            if self.extension == '.txt':
-                content = file.read()
-            elif self.extension == '.json':
+            if self.extension == '.json':
                 content = json.load(file)
+            elif self.extension == '.txt':
+                content = file.read()
         return content
 
     def read_HTML_soup(self, submissions: str):
@@ -343,8 +343,9 @@ class ArxivText:
                 sys.exit(1)  # Exit the program in case of an error with the request
 
     def last_post(self):
+        c = self.category
         d = arxiv_formatted_date(self.date)
-        t = f"All new submissions in the {self.category} category on {d}."
+        t = f"All new submissions in the {c} category on {d} have been posted."
         printlog(f"Post \"{t}\"")
         return t
     
@@ -466,12 +467,12 @@ class ArxivPost():
         self.pdf_url = article['pdf_url']
     
     def shorten_authors(self):
-        printlog("The shorten_authors has shortened the authors.")
+        printlog(f"The shorten_authors has shortened the authors of {self.name} whose URL is {self.abs_url}.")
         authors_list = (self.authors).split(", ")
-        return authors_list[0] + " " + "et al."
+        return authors_list[0] + " " + "et al" # delete period to avoid duplication
     
     def shorten_title(self, max_title: int = 200):
-        printlog("The shorten_title has shortened the title.")
+        printlog(f"The shorten_title has shortened the title of {self.name} whose URL is {self.abs_url}.")
         return self.title[:max_title] + " ..."
 
     def all_text(self, app: str):
@@ -481,7 +482,7 @@ class ArxivPost():
             case "Twitter":
                 return '\n'.join([self.title, self.pdf_url, self.authors, self.abs_url])
             case _:
-                return "Unknown"
+                return exit("Unknown app")
     
     def is_too_long(self, app: str):
         return len(self.all_text(app)) > app_max[app]
@@ -545,6 +546,7 @@ class ArxivPost():
         embed_external = self.make_linkcard(thumb)
         
         client.send_post(tb, embed=embed_external)
+        # atproto_client.exceptions.InvokeTimeoutError
         printlog(f"Article posted on Bluesky: {self.authors}. {self.title}")
 
         return None
