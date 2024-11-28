@@ -126,7 +126,10 @@ class ArxivSearch:
         
         if check:
             # Format the datetime object to the desired string format
-            date = date.strftime('%a, %-d %b %Y')
+            if self.submissions == "new":
+                date = date.strftime('%A, %-d %B %Y')
+            elif self.submissions == "recent":
+                date = date.strftime('%a, %-d %b %Y')
             response = ArxivSearch.check_date_in_html(response, date)
         
         return response
@@ -534,7 +537,7 @@ class ArxivPost():
                 title = self.title,
                 description = "arXiv abstract link",
                 uri = self.abs_url,
-                thumb=thumb.blob
+                # thumb=thumb.blob
             )
         )
         return embed_external
