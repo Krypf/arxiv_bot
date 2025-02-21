@@ -534,7 +534,7 @@ class ArxivPost():
     def make_linkcard(self, thumb):
         embed_external = models.AppBskyEmbedExternal.Main(
             external = models.AppBskyEmbedExternal.External(
-                title = self.title,
+                title = self.abs_url,
                 description = "arXiv abstract link",
                 uri = self.abs_url,
                 # thumb=thumb.blob
