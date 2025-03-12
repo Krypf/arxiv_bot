@@ -11,6 +11,9 @@ from lxml import etree
 from pyquery import PyQuery as pq
 
 from src.utils.printlog import printlog
+import time
+from atproto_client import exceptions
+
 #%%
 def arxiv_formatted_date(date_str):
     # Convert the string to a datetime object
@@ -352,7 +355,7 @@ class ArxivText:
         printlog(f"Post \"{t}\"")
         return t
     
-    def update_bluesky(self, sleep_time=0.3):
+    def update_bluesky(self, sleep_time=0.75):
         printlog(f"Start updating Bluesky with arxiv entries in the {self.category} category on {self.date}.")
         articles_list = self.read_content()
         client_bsky, thumb = login_bsky(self.category)
@@ -481,9 +484,9 @@ class ArxivPost():
     def all_text(self, app: str):
         match app:
             case "Bluesky":
-                return '\n'.join([self.title, self.pdf_url, self.authors])
+                return '\n'.join([self.title, self.pdf_url, self.authors + "."])
             case "Twitter":
-                return '\n'.join([self.title, self.pdf_url, self.authors, self.abs_url])
+                return '\n'.join([self.title, self.pdf_url, self.authors + ".", self.abs_url])
             case _:
                 return exit("Unknown app")
     
@@ -528,7 +531,7 @@ class ArxivPost():
         tb = client_utils.TextBuilder()
         tb.text(self.title + '\n')
         tb.link(self.pdf_url, self.pdf_url)
-        tb.text('\n' + self.authors)
+        tb.text('\n' + self.authors + ".")
         return tb
 
     def make_linkcard(self, thumb):
@@ -547,12 +550,22 @@ class ArxivPost():
         
         tb = self.make_rich_text()
         embed_external = self.make_linkcard(thumb)
+
+        for _ in range(3):  # Retry up to 3 times
+            try:
+                # Your atproto_client request here
+                client.send_post(tb, embed=embed_external)
+                break  # Exit loop if successful
+            except exceptions.InvokeTimeoutError as e:
+                # Handle the timeout error
+                printlog(f"An invocation timeout occurred. Request timed out. Retrying...")
+                # Implement your retry logic or alternative actions here
+                time.sleep(5)  # Wait 5 seconds before retrying
         
-        client.send_post(tb, embed=embed_external)
         # atproto_client.exceptions.InvokeTimeoutError
         printlog(f"Article posted on Bluesky: {self.authors}. {self.title}")
 
         return None
-
+    
 if __name__ == '__main__':
     print('This is a module arxiv_function.py')
