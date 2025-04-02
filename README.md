@@ -132,8 +132,9 @@ arXiv や PC の不具合から手動で復旧（投稿）せざるをえない�
 ```
 % python -m src.save-HTML --submissions recent --skip 0 --show 2000
 % python -m src.save-json-recent txt
-% python -m src.post --date txt
 
+% python -m src.post --date txt
 % python -m src.post_bluesky --date txt
+% python sub.py -d txt -submission recent
 % python sub.py -d txt
 ```
