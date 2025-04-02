@@ -1,4 +1,4 @@
-from src.utils.get_args import get_args, get_today, categories_content
+from src.utils.get_args import get_today, categories_content
 from src.core.arxiv_function import ArxivSearch, ArxivText
 #%%
 def save_html_json(today: str, args, _check=True):

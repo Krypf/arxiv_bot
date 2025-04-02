@@ -5,8 +5,8 @@ from src.core.arxiv_function import ArxivText
 from src.utils.get_args import get_args, get_today, categories_content
 
 #%%
-def post_bluesky(today):
-    for category in reversed(categories_content):
+def post_bluesky(today, num = 7):
+    for category in reversed(categories_content[:num]):
         reader = ArxivText(category, today, extension='.json')
         reader.update_bluesky()
         

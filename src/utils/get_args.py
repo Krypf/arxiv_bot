@@ -27,8 +27,8 @@ def get_today(args) -> str:
         elif args.date == 'txt':
             dates = read_inner_file(file='date', folder='src')
             today = dates[-1]
-        # Date format is wrong
         else:
+            # If Date format is wrong
             exit("The date must be YYYY-MM-DD")
     else:
         today = datetime.now().strftime('%Y-%m-%d')
