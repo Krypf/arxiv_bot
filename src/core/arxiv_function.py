@@ -355,7 +355,7 @@ class ArxivText:
         printlog(f"Post \"{t}\"")
         return t
     
-    def update_bluesky(self, sleep_time=0.75):
+    def update_bluesky(self, sleep_time=0.3):
         printlog(f"Start updating Bluesky with arxiv entries in the {self.category} category on {self.date}.")
         articles_list = self.read_content()
         client_bsky, thumb = login_bsky(self.category)
@@ -477,7 +477,7 @@ class ArxivPost():
         authors_list = (self.authors).split(", ")
         return authors_list[0] + " " + "et al" # delete period to avoid duplication
     
-    def shorten_title(self, max_title: int = 200):
+    def shorten_title(self, max_title: int = 140):
         printlog(f"The shorten_title has shortened the title of {self.name} whose URL is {self.abs_url}.")
         return self.title[:max_title] + " ..."
 
@@ -501,6 +501,8 @@ class ArxivPost():
             if self.is_too_long(app):
                 self.title = self.shorten_title()
                 if self.is_too_long(app):
+                    # length_now = len(self.all_text(app))
+                    # max_title = length_now
                     exit('shorten_long_paper_info: 1')
         return self
 
@@ -511,12 +513,13 @@ class ArxivPost():
     # Twitter
     def send_post_to_twitter(self, client, thumb=None):
         # Check if the tweet content is within Twitter's character limit
-        self = self.shorten_long_paper_info("Twitter")
+        app = "Twitter"
+        self = self.shorten_long_paper_info(app)
         try:
             # Post Tweet
-            tweet = self.all_text("Twitter")
+            tweet = self.all_text(app)
             client.create_tweet(text=tweet)
-            printlog(f"Article posted on Twitter: {self.authors}. {self.title}")
+            printlog(f"Article posted on {app}: {self.authors}. {self.title}")
         except tweepy.errors.TweepyException as e:
             printlog(f"Error occurred: {e}")
             # e.g. 429 TooManyRequests
@@ -546,7 +549,8 @@ class ArxivPost():
         return embed_external
     
     def send_post_to_bluesky(self, client, thumb):
-        self = self.shorten_long_paper_info("Bluesky")
+        app = "Bluesky"
+        self = self.shorten_long_paper_info(app)
         
         tb = self.make_rich_text()
         embed_external = self.make_linkcard(thumb)
@@ -557,13 +561,12 @@ class ArxivPost():
                 client.send_post(tb, embed=embed_external)
                 break  # Exit loop if successful
             except exceptions.InvokeTimeoutError as e:
-                # Handle the timeout error
-                printlog(f"An invocation timeout occurred. Request timed out. Retrying...")
+                # Handle the timeout error (atproto_client.exceptions.InvokeTimeoutError)
+                printlog(f"An invocation timeout occurred. Retrying...")
                 # Implement your retry logic or alternative actions here
                 time.sleep(5)  # Wait 5 seconds before retrying
         
-        # atproto_client.exceptions.InvokeTimeoutError
-        printlog(f"Article posted on Bluesky: {self.authors}. {self.title}")
+        printlog(f"Article posted on {app}: {self.authors}. {self.title}")
 
         return None
     
