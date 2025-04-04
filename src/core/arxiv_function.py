@@ -145,9 +145,12 @@ class ArxivSearch:
             response.raise_for_status()  # Raise an error for bad responses (e.g., 404 or 500)
             return response
         except requests.exceptions.RequestException as e:
-            print(f"Error fetching the URL: {e}")
+            printlog(f"Error fetching the URL: {e}")
             sys.exit(1)  # Exit the program in case of an error with the request
-        
+        except requests.exceptions.ConnectionError as e:
+            printlog(f"{e}")
+            sys.exit(2)
+            
     def check_date_in_html(response, date: str):
         # Parse the HTML content with BeautifulSoup
         soup = BeautifulSoup(response.text, features="xml")
@@ -342,7 +345,7 @@ class ArxivText:
                 # Check if the specified date is present in the HTML content
                 if not any(date in element.get_text() for element in self.soup.find_all(True)):
                     printlog(f"Specified date ({date}) not found in HTML. No entries found for today. Exiting program.")            
-                    sys.exit(1)  # Exit the program
+                    sys.exit(404)  # Exit the program
                 else:
                     return 0
             except:
@@ -527,7 +530,9 @@ class ArxivPost():
         except tweepy.errors.Forbidden:
             printlog("403 Forbidden. You are not allowed to create a Tweet with duplicate content.")
             exit(403)
-
+        except tweepy.errors.TooManyRequests as e:
+            printlog("tweepy.TooManyRequests: 429 Too Many Requests. Rate limit hit. Waiting before retrying...")
+            time.sleep(10)  # sleep 15 minutes
         return None
     # Bluesky
     def make_rich_text(self):
