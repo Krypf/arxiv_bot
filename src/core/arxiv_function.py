@@ -366,7 +366,18 @@ class ArxivText:
             article = ArxivPost(article)
             article.send_post_to_bluesky(client_bsky, thumb)
             time.sleep(sleep_time)
-        client_bsky.send_post(self.last_post())
+        # Fix an error 
+        for _ in range(3):  # Retry up to 3 times
+            try:
+                # Your atproto_client request here
+                client_bsky.send_post(self.last_post())
+                break  # Exit loop if successful
+            except exceptions.InvokeTimeoutError as e:
+                # Handle the timeout error (atproto_client.exceptions.InvokeTimeoutError)
+                printlog(f"An invocation timeout occurred. Retrying...")
+                # Implement your retry logic or alternative actions here
+                time.sleep(5)  # Wait 5 seconds before retrying
+        
         return None
     
     def log_maximum_error(self, api_maximum = 50):
