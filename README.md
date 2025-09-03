@@ -135,6 +135,18 @@ arXiv や PC の不具合から手動で復旧（投稿）せざるをえない�
 
 % python -m src.post --date txt
 % python -m src.post_bluesky --date txt
-% python sub.py -d txt -submission recent
+% python sub.py -d txt --submissions recent --skip 0 --show 2000
 % python sub.py -d txt
 ```
+
+# エラーのメモ
+
+> raise ConnectionError(err, request=request)
+> requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+> tweepy.errors.TooManyRequests: 429 Too Many Requests
+> Too Many Requests
+
+httpcore.ReadTimeout:
+raise exceptions.InvokeTimeoutError from e
+atproto_client.exceptions.InvokeTimeoutError
