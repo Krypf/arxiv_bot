@@ -3,10 +3,10 @@ from src.utils.printlog import printlog
 from src.core.arxiv_function import ArxivText
 from src.utils.get_args import get_args, get_today, categories_content
 #%%
-def post_twitter(today, twi = 5):
+def post_twitter(today, twi = 5, additional = ""):
     for category in reversed(categories_content[:twi]):
         reader = ArxivText(category, today, extension='.json')
-        reader.update_twitter()
+        reader.update_twitter(additional=additional)
     return 0
 
 def main():

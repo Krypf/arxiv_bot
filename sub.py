@@ -23,17 +23,17 @@ def check_args():
             exit('2')
 
 
-def sub(num = 7, twi = 5):
+def sub(num = 7, twi = 5, additional = "These posts are being operated with manual intervention today."):
     args = get_args()
     today = get_today(args)
     print(args)
     print(num, twi)
     check_args()
     # save_html_json(today, args, _check=True)
-    # post_bluesky(today, num = num)
-    post_twitter(today, twi = twi)
+    post_bluesky(today, num = num, additional = additional)
+    post_twitter(today, twi = twi, additional = additional)
     printlog(f"This is the end of all the posts on {today} (sub.py).")
     return 0
 
 if __name__ == '__main__':
-    sub(twi = 4)
+    sub(num = 6, twi = 5)

@@ -5,10 +5,10 @@ from src.core.arxiv_function import ArxivText
 from src.utils.get_args import get_args, get_today, categories_content
 
 #%%
-def post_bluesky(today, num = 7):
+def post_bluesky(today, num = 7, additional = ""):
     for category in reversed(categories_content[:num]):
         reader = ArxivText(category, today, extension='.json')
-        reader.update_bluesky()
+        reader.update_bluesky(additional=additional)
         
 def main():
     args = get_args()
@@ -16,6 +16,7 @@ def main():
     today = get_today(args)
     
     printlog('Start posting on Bluesky')
+    additional = None
     post_bluesky(today)
     printlog(f"This is the end of all the posts on {today}")
     
