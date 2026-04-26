@@ -35,6 +35,7 @@ class ArxivSearch:
         # Specify the file path to the HTML content located in the HTML folder
         directory = "data/HTML"
         self.file_path = os.path.join(parent_folder, directory, self.file_name)
+        os.makedirs(os.path.dirname(self.file_path), exist_ok=True)
 
     def make_url(self):
         # Construct the URL based on the attributes
@@ -55,6 +56,12 @@ class ArxivSearch:
         return url
     
     def read_HTML(self, library='BeautifulSoup', encoding='utf-8', parser='html.parser'):
+        # Ensure the HTML file exists before reading
+        if not os.path.exists(self.file_path):
+            raise FileNotFoundError(
+                f"HTML file not found: {self.file_path}. "
+                f"Run save_one_html() first to download and save the ArXiv listing."
+            )
         # Read the HTML content from the file
         with open(self.file_path, 'r', encoding=encoding) as file:
             html_content = file.read()
@@ -351,14 +358,16 @@ class ArxivText:
             except:
                 sys.exit(1)  # Exit the program in case of an error with the request
 
-    def last_post(self):
+    def last_post(self, additional: str = ""):
         c = self.category
         d = arxiv_formatted_date(self.date)
         t = f"All new submissions in the {c} category on {d} have been posted."
+        if additional:
+            t += f" {additional}"
         printlog(f"Post \"{t}\"")
         return t
     
-    def update_bluesky(self, sleep_time=0.3):
+    def update_bluesky(self, sleep_time=0.3, additional: str = ""):
         printlog(f"Start updating Bluesky with arxiv entries in the {self.category} category on {self.date}.")
         articles_list = self.read_content()
         client_bsky, thumb = login_bsky(self.category)
@@ -370,7 +379,7 @@ class ArxivText:
         for _ in range(3):  # Retry up to 3 times
             try:
                 # Your atproto_client request here
-                client_bsky.send_post(self.last_post())
+                client_bsky.send_post(self.last_post(additional=additional))
                 break  # Exit loop if successful
             except exceptions.InvokeTimeoutError as e:
                 # Handle the timeout error (atproto_client.exceptions.InvokeTimeoutError)
@@ -382,12 +391,13 @@ class ArxivText:
     
     def log_maximum_error(self, api_maximum = 50):
         t = str()
-        t += f"Twitter API v2 limits posts to 1500 per month ({api_maximum} per day). "
+        t += f"Twitter API v2 limits posts by the error 402 Payment Required. "
         t += f"The remaining submissions on {self.date} have been shared on Bluesky: "
         t += f"https://bsky.app/profile/krxiv-{self.category}.bsky.social"
         printlog(f"Stop sending tweets. Please tweet manually:\n{t}")
         return None
-    def update_twitter(self, sleep_time=0.3):
+    
+    def update_twitter(self, sleep_time=0.3, additional: str = ""):
         printlog(f"Start updating Twitter with arxiv entries in the {self.category} category on {self.date}.")
         articles_list = self.read_content()
         client_twitter = login_twitter(self.category)
@@ -402,7 +412,7 @@ class ArxivText:
             time.sleep(sleep_time)
         # Change behavior depending on the value of _continue
         if _continue:
-            client_twitter.create_tweet(text=self.last_post())
+            client_twitter.create_tweet(text=self.last_post(additional=additional))
         else:
             self.log_maximum_error()
         return None
