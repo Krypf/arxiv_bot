@@ -108,6 +108,17 @@ Requirement は `tweepy` です。
 > tweepy/tweepy: Twitter for Python!  
 > https://github.com/tweepy/tweepy 
 
+## 2026-04-26 追記
+
+
+
+Twitter API v2 limits posts by the error 402 Payment Required. The remaining submissions on 2026-04-24 have been shared on Bluesky: https://bsky.app/profile/krxiv-hep-ph.bsky.social
+
+
+> The administrator will send posts manually from now on today and tomorrow.
+> All submissions are posted by HTML tools created by Claude Sonnet 4.6.
+
+
 
 # arXiv API
 
