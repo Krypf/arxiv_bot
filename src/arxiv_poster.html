@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>arXiv Poster</title>
+<!-- Created by Claude -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+JP:wght@300;400;500&display=swap');
+
+  :root {
+    --bg: #0d0d0d;
+    --surface: #161616;
+    --surface2: #1f1f1f;
+    --border: #2a2a2a;
+    --border2: #383838;
+    --text: #e8e8e8;
+    --muted: #666;
+    --accent: #1d9bf0;
+    --accent-dim: rgba(29,155,240,0.12);
+    --success: #22c55e;
+    --warn: #f59e0b;
+    --mono: 'IBM Plex Mono', monospace;
+    --sans: 'IBM Plex Sans JP', sans-serif;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--sans);
+    font-weight: 300;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem 4rem;
+  }
+
+  header {
+    width: 100%;
+    max-width: 680px;
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+    border-bottom: 0.5px solid var(--border);
+    padding-bottom: 1rem;
+  }
+
+  #btn-reset {
+    margin-left: auto;
+    background: transparent;
+    color: var(--muted);
+    border: 0.5px solid var(--border);
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.06em;
+    padding: 4px 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: color 0.15s, border-color 0.15s;
+  }
+  #btn-reset:hover { color: var(--text); border-color: var(--border2); }
+
+  #btn-edit-json {
+    background: transparent;
+    color: var(--muted);
+    border: 0.5px solid var(--border);
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.06em;
+    padding: 4px 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: color 0.15s, border-color 0.15s;
+  }
+  #btn-edit-json:hover { color: var(--accent); border-color: var(--accent); }
+
+  /* JSON editor panel */
+  #json-editor-panel {
+    width: 100%;
+    max-width: 680px;
+    margin-bottom: 1.5rem;
+    background: var(--surface);
+    border: 0.5px solid var(--border2);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  #json-editor-toolbar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    border-bottom: 0.5px solid var(--border);
+    background: var(--surface2);
+  }
+  #json-editor-toolbar span {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 0.06em;
+    flex: 1;
+  }
+  #json-editor-error {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--warn);
+    padding: 6px 12px;
+    display: none;
+  }
+  #json-textarea {
+    width: 100%;
+    min-height: 320px;
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--mono);
+    font-size: 12px;
+    line-height: 1.6;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    resize: vertical;
+    tab-size: 2;
+  }
+
+  header h1 {
+    font-family: var(--mono);
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    color: var(--accent);
+    text-transform: uppercase;
+  }
+
+  header span {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--muted);
+  }
+
+  .main { width: 100%; max-width: 680px; }
+
+  /* Upload */
+  #upload-section {
+    border: 1px dashed var(--border2);
+    border-radius: 4px;
+    padding: 3rem 2rem;
+    text-align: center;
+    cursor: pointer;
+    transition: border-color 0.2s, background 0.2s;
+  }
+  #upload-section:hover, #upload-section.drag-over {
+    border-color: var(--accent);
+    background: var(--accent-dim);
+  }
+  #upload-section p { font-family: var(--mono); font-size: 13px; color: var(--muted); margin-bottom: 6px; }
+  #upload-section p.big { font-size: 14px; color: var(--text); font-weight: 400; margin-bottom: 10px; }
+  #file-input { display: none; }
+
+  /* Stats bar */
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    margin-bottom: 1.5rem;
+  }
+  .stat {
+    background: var(--surface);
+    border: 0.5px solid var(--border);
+    border-radius: 3px;
+    padding: 10px 12px;
+  }
+  .stat-label { font-family: var(--mono); font-size: 10px; color: var(--muted); letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 4px; }
+  .stat-value { font-family: var(--mono); font-size: 20px; font-weight: 500; color: var(--text); }
+  .stat-value.accent { color: var(--accent); }
+  .stat-value.success { color: var(--success); }
+
+  /* Progress */
+  .progress-wrap {
+    height: 2px;
+    background: var(--border);
+    margin-bottom: 1.5rem;
+    border-radius: 1px;
+    overflow: hidden;
+  }
+  .progress-fill {
+    height: 100%;
+    background: var(--accent);
+    border-radius: 1px;
+    transition: width 0.4s ease;
+  }
+
+  /* Item card */
+  .item-card {
+    background: var(--surface);
+    border: 0.5px solid var(--border);
+    border-radius: 4px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .item-index {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 0.06em;
+    margin-bottom: 10px;
+  }
+  .item-title {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.55;
+    color: var(--text);
+    margin-bottom: 6px;
+  }
+  .item-authors {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--muted);
+    margin-bottom: 1.25rem;
+    line-height: 1.5;
+  }
+
+  .tweet-preview {
+    background: var(--surface2);
+    border: 0.5px solid var(--border2);
+    border-radius: 3px;
+    padding: 1rem;
+    font-family: var(--mono);
+    font-size: 12px;
+    line-height: 1.7;
+    color: var(--text);
+    white-space: pre-wrap;
+    word-break: break-all;
+    margin-bottom: 8px;
+    position: relative;
+  }
+  .tweet-url { color: var(--accent); }
+
+  .char-row {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1.25rem;
+  }
+  .char-badge {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--muted);
+  }
+  .char-badge.over { color: var(--warn); }
+
+  .btn-row {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+
+  button {
+    font-family: var(--mono);
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: all 0.15s;
+    border: none;
+    padding: 9px 18px;
+  }
+
+  .btn-post {
+    background: var(--accent);
+    color: #fff;
+    flex: 1;
+  }
+  .btn-post:hover { background: #1a8cd8; }
+  .btn-post:active { transform: scale(0.98); }
+
+  .btn-copy {
+    background: var(--surface2);
+    color: var(--text);
+    border: 0.5px solid var(--border2);
+  }
+  .btn-copy:hover { border-color: var(--accent); color: var(--accent); }
+
+  .btn-skip {
+    background: transparent;
+    color: var(--muted);
+    border: 0.5px solid var(--border);
+  }
+  .btn-skip:hover { color: var(--text); border-color: var(--border2); }
+
+  .shortcuts {
+    margin-top: 1.5rem;
+    padding: 10px 14px;
+    background: var(--surface);
+    border: 0.5px solid var(--border);
+    border-radius: 3px;
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  .shortcut-item {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--muted);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  kbd {
+    background: var(--surface2);
+    border: 0.5px solid var(--border2);
+    border-radius: 2px;
+    padding: 2px 6px;
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--text);
+  }
+
+  /* Done */
+  .done-state {
+    text-align: center;
+    padding: 3rem 2rem;
+  }
+  .done-state p { font-family: var(--mono); font-size: 13px; color: var(--muted); margin-bottom: 1.5rem; }
+  .done-state .big { font-size: 32px; font-weight: 500; color: var(--success); font-family: var(--mono); margin-bottom: 8px; }
+
+  /* Nav arrows */
+  .nav-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  .btn-nav {
+    background: transparent;
+    color: var(--muted);
+    border: 0.5px solid var(--border);
+    padding: 6px 14px;
+    font-size: 11px;
+  }
+  .btn-nav:hover { color: var(--text); border-color: var(--border2); }
+  .btn-nav:disabled { opacity: 0.2; cursor: default; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>arXiv Poster</h1>
+  <span id="header-file">— no file loaded</span>
+  <button id="btn-edit-json" style="display:none;">edit JSON</button>
+  <button id="btn-reset" style="display:none;" onclick="resetAll()">reset</button>
+</header>
+
+<main class="main">
+
+  <!-- Upload -->
+  <div id="upload-section">
+    <p class="big">JSON ファイルをドロップ <span style="color:var(--muted);font-size:12px;">(Drop a JSON file)</span></p>
+    <p>またはクリックして選択 <span style="font-size:11px;">(or click to select)</span></p>
+    <input type="file" id="file-input" accept=".json">
+  </div>
+
+  <!-- Main view -->
+  <div id="main-view" style="display:none;">
+    <div class="stats">
+      <div class="stat"><div class="stat-label">remaining</div><div class="stat-value accent" id="cnt-remaining">0</div></div>
+      <div class="stat"><div class="stat-label">posted</div><div class="stat-value success" id="cnt-posted">0</div></div>
+      <div class="stat"><div class="stat-label">skipped</div><div class="stat-value" id="cnt-skipped">0</div></div>
+      <div class="stat"><div class="stat-label">total</div><div class="stat-value" id="cnt-total">0</div></div>
+    </div>
+
+    <div class="progress-wrap">
+      <div class="progress-fill" id="progress-fill" style="width:0%"></div>
+    </div>
+
+    <div id="item-area">
+      <div class="nav-row">
+        <button class="btn-nav" id="btn-prev" disabled>← prev</button>
+        <button class="btn-nav" id="btn-next" disabled>next →</button>
+      </div>
+
+      <div class="item-card">
+        <div class="item-index" id="item-index"></div>
+        <div class="item-title" id="item-title"></div>
+        <div class="item-authors" id="item-authors"></div>
+        <div class="tweet-preview" id="tweet-preview"></div>
+        <div class="char-row"><span class="char-badge" id="char-badge"></span></div>
+        <div class="btn-row">
+          <button class="btn-post" id="btn-post">post on X</button>
+          <button class="btn-copy" id="btn-copy">copy</button>
+          <button class="btn-skip" id="btn-skip">skip</button>
+        </div>
+      </div>
+
+      <div class="shortcuts">
+        <div class="shortcut-item"><kbd>T</kbd> post &amp; next</div>
+        <div class="shortcut-item"><kbd>S</kbd> skip</div>
+        <div class="shortcut-item"><kbd>C</kbd> copy</div>
+        <div class="shortcut-item"><kbd>←</kbd><kbd>→</kbd> navigate</div>
+      </div>
+
+      <!-- JSON editor panel -->
+      <div id="json-editor-panel" style="display:none; margin-top:1rem;">
+        <div id="json-editor-toolbar">
+          <span>JSON EDITOR</span>
+          <button class="btn-copy" id="btn-json-apply" style="padding:4px 12px;font-size:11px;">apply</button>
+          <button class="btn-skip" id="btn-json-close" style="padding:4px 12px;font-size:11px;">close</button>
+        </div>
+        <div id="json-editor-error"></div>
+        <textarea id="json-textarea" spellcheck="false"></textarea>
+      </div>
+    </div>
+
+    <div id="done-state" class="done-state" style="display:none;">
+      <div class="big">done.</div>
+      <p>All items have been processed.</p>
+      <div style="display:flex;gap:8px;justify-content:center;">
+        <button class="btn-nav" id="btn-back-to-last">← back</button>
+        <button class="btn-copy" id="btn-screenshot">screenshot</button>
+        <button class="btn-skip" onclick="resetAll()">load another file</button>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<script>
+  let items = [];
+  let status = []; // null | 'posted' | 'skipped'
+  let cursor = 0;
+  let postedCount = 0;
+  let skippedCount = 0;
+
+  // ---- build tweet text ----
+  function buildTweet(item) {
+    const MAX = 270;
+    let title = (item.title || '').trim();
+    let authors = (item.authors || '').trim() + '.';
+    let pdf = (item.pdf_url || '').trim();
+    let abs = (item.abs_url || '').trim();
+    let text = title + '\n' + pdf + '\n' + authors + '\n' + abs;
+    if (text.length > MAX) {
+      // まず著者を短縮
+      const firstAuthor = authors.split(', ')[0] + ' et al.';
+      text = title + '\n' + pdf + '\n' + firstAuthor + '\n' + abs;
+      if (text.length > MAX) {
+        // タイトルも短縮
+        const budget = MAX - pdf.length - firstAuthor.length - abs.length - 4;
+        if (budget > 8) title = title.slice(0, budget) + '…';
+        text = title + '\n' + pdf + '\n' + firstAuthor + '\n' + abs;
+      }
+    }
+    return text;
+  }
+
+  // ---- render current item ----
+  function render() {
+    updateStats();
+    if (cursor >= items.length) {
+      document.getElementById('item-area').style.display = 'none';
+      document.getElementById('done-state').style.display = 'block';
+      return;
+    }
+    document.getElementById('item-area').style.display = 'block';
+    document.getElementById('done-state').style.display = 'none';
+
+    const item = items[cursor];
+    const tweet = buildTweet(item);
+
+    document.getElementById('item-index').textContent =
+      (cursor + 1) + ' / ' + items.length +
+      (status[cursor] === 'posted' ? '  [posted]' : status[cursor] === 'skipped' ? '  [skipped]' : '');
+
+    document.getElementById('item-title').textContent = item.title || '';
+    document.getElementById('item-authors').textContent = item.authors || '';
+
+    // colorize URL in preview
+    const preview = document.getElementById('tweet-preview');
+    const lines = tweet.split('\n');
+    preview.innerHTML = lines.map((l, i) =>
+      (i === 1 || i === 3) ? `<span class="tweet-url">${escHtml(l)}</span>` : escHtml(l)
+    ).join('\n');
+
+    const len = tweet.length;
+    const badge = document.getElementById('char-badge');
+    badge.textContent = len + ' / 280';
+    badge.className = 'char-badge' + (len > 280 ? ' over' : '');
+
+    document.getElementById('btn-prev').disabled = cursor <= 0;
+    document.getElementById('btn-next').disabled = cursor >= items.length - 1;
+  }
+
+  function escHtml(s) {
+    return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  }
+
+  function updateStats() {
+    const remaining = status.filter(s => !s).length;
+    document.getElementById('cnt-remaining').textContent = remaining;
+    document.getElementById('cnt-posted').textContent = postedCount;
+    document.getElementById('cnt-skipped').textContent = skippedCount;
+    document.getElementById('cnt-total').textContent = items.length;
+    const done = postedCount + skippedCount;
+    const pct = items.length ? Math.round(done / items.length * 100) : 0;
+    document.getElementById('progress-fill').style.width = pct + '%';
+  }
+
+  function nextUnprocessed() {
+    let i = cursor + 1;
+    while (i < items.length && status[i]) i++;
+    cursor = i;
+  }
+
+  // ---- actions ----
+  function doPost() {
+    if (cursor >= items.length) return;
+    const tweet = buildTweet(items[cursor]);
+    const tweetUrl = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(tweet);
+    window.open(tweetUrl, 'tweet_popup', 'width=600,height=400,toolbar=0,menubar=0,location=0,scrollbars=1,resizable=1');
+    if (!status[cursor]) { status[cursor] = 'posted'; postedCount++; }
+    nextUnprocessed();
+    render();
+  }
+
+  function doSkip() {
+    if (cursor >= items.length) return;
+    if (!status[cursor]) { status[cursor] = 'skipped'; skippedCount++; }
+    nextUnprocessed();
+    render();
+  }
+
+  function doCopy() {
+    if (cursor >= items.length) return;
+    const tweet = buildTweet(items[cursor]);
+    navigator.clipboard.writeText(tweet).then(() => {
+      const btn = document.getElementById('btn-copy');
+      btn.textContent = 'copied!';
+      setTimeout(() => btn.textContent = 'copy', 1500);
+    });
+  }
+
+  function goPrev() {
+    if (cursor > 0) { cursor--; render(); }
+  }
+
+  function goNext() {
+    if (cursor < items.length - 1) { cursor++; render(); }
+  }
+
+  // ---- load ----
+  function loadJSON(text, filename) {
+    try {
+      const data = JSON.parse(text);
+      if (!Array.isArray(data) || data.length === 0) { alert('有効なアイテムが見つかりません。'); return; }
+      items = data;
+      status = new Array(items.length).fill(null);
+      cursor = 0; postedCount = 0; skippedCount = 0;
+      document.getElementById('upload-section').style.display = 'none';
+      document.getElementById('main-view').style.display = 'block';
+      document.getElementById('header-file').textContent = '— ' + (filename || 'loaded');
+      document.getElementById('btn-reset').style.display = 'inline-block';
+      document.getElementById('btn-edit-json').style.display = 'inline-block';
+      render();
+      // open editor by default
+      document.getElementById('json-textarea').value = JSON.stringify(items, null, 2);
+      document.getElementById('json-editor-error').style.display = 'none';
+      document.getElementById('json-editor-panel').style.display = 'block';
+      document.getElementById('btn-edit-json').textContent = 'close editor';
+    } catch(e) {
+      alert('JSON parse error: ' + e.message);
+    }
+  }
+
+  function resetAll() {
+    items = []; status = []; cursor = 0; postedCount = 0; skippedCount = 0;
+    document.getElementById('upload-section').style.display = 'block';
+    document.getElementById('main-view').style.display = 'none';
+    document.getElementById('header-file').textContent = '— no file loaded';
+    document.getElementById('btn-reset').style.display = 'none';
+    document.getElementById('btn-edit-json').style.display = 'none';
+    document.getElementById('json-editor-panel').style.display = 'none';
+    document.getElementById('file-input').value = '';
+  }
+
+  // ---- file input ----
+  document.getElementById('upload-section').addEventListener('click', () =>
+    document.getElementById('file-input').click()
+  );
+  document.getElementById('file-input').addEventListener('change', function() {
+    const file = this.files[0]; if (!file) return;
+    const reader = new FileReader();
+    reader.onload = e => loadJSON(e.target.result, file.name);
+    reader.readAsText(file);
+  });
+
+  // drag & drop
+  const up = document.getElementById('upload-section');
+  up.addEventListener('dragover', e => { e.preventDefault(); up.classList.add('drag-over'); });
+  up.addEventListener('dragleave', () => up.classList.remove('drag-over'));
+  up.addEventListener('drop', e => {
+    e.preventDefault(); up.classList.remove('drag-over');
+    const file = e.dataTransfer.files[0]; if (!file) return;
+    const reader = new FileReader();
+    reader.onload = ev => loadJSON(ev.target.result, file.name);
+    reader.readAsText(file);
+  });
+
+  // buttons
+  document.getElementById('btn-screenshot').addEventListener('click', async () => {
+    const btn = document.getElementById('btn-screenshot');
+    btn.textContent = 'capturing...';
+    try {
+      const canvas = await html2canvas(document.body, {
+        backgroundColor: '#0d0d0d',
+        scale: 2,
+        useCORS: true
+      });
+      canvas.toBlob(async blob => {
+        const tweetText = 'All submissions are posted by HTML tools created by Claude Sonnet 4.6.';
+        const tweetUrl = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(tweetText);
+        try {
+          await navigator.clipboard.write([
+            new ClipboardItem({ 'image/png': blob })
+          ]);
+          btn.textContent = 'copied!';
+        } catch(e) {
+          // fallback: download
+          const a = document.createElement('a');
+          a.href = URL.createObjectURL(blob);
+          a.download = 'arxiv_poster_done.png';
+          a.click();
+          btn.textContent = 'downloaded';
+        }
+        window.open(tweetUrl, 'tweet_popup', 'width=600,height=400,toolbar=0,menubar=0,location=0,scrollbars=1,resizable=1');
+        setTimeout(() => btn.textContent = 'screenshot', 2000);
+      }, 'image/png');
+    } catch(e) {
+      btn.textContent = 'error';
+      setTimeout(() => btn.textContent = 'screenshot', 2000);
+    }
+  });
+
+  document.getElementById('btn-back-to-last').addEventListener('click', () => {
+    cursor = items.length - 1;
+    document.getElementById('done-state').style.display = 'none';
+    document.getElementById('item-area').style.display = 'block';
+    render();
+  });
+  document.getElementById('btn-post').addEventListener('click', doPost);
+  document.getElementById('btn-copy').addEventListener('click', doCopy);
+  document.getElementById('btn-skip').addEventListener('click', doSkip);
+  document.getElementById('btn-prev').addEventListener('click', goPrev);
+  document.getElementById('btn-next').addEventListener('click', goNext);
+
+  // ---- JSON editor ----
+  document.getElementById('btn-edit-json').addEventListener('click', () => {
+    const panel = document.getElementById('json-editor-panel');
+    const isOpen = panel.style.display !== 'none';
+    if (isOpen) {
+      panel.style.display = 'none';
+      document.getElementById('btn-edit-json').textContent = 'edit JSON';
+    } else {
+      document.getElementById('json-textarea').value = JSON.stringify(items, null, 2);
+      document.getElementById('json-editor-error').style.display = 'none';
+      panel.style.display = 'block';
+      document.getElementById('btn-edit-json').textContent = 'close editor';
+    }
+  });
+
+  document.getElementById('btn-json-close').addEventListener('click', () => {
+    document.getElementById('json-editor-panel').style.display = 'none';
+    document.getElementById('btn-edit-json').textContent = 'edit JSON';
+  });
+
+  document.getElementById('btn-json-apply').addEventListener('click', () => {
+    const raw = document.getElementById('json-textarea').value;
+    const errEl = document.getElementById('json-editor-error');
+    try {
+      const data = JSON.parse(raw);
+      if (!Array.isArray(data) || data.length === 0) throw new Error('Array must not be empty');
+      // preserve status for existing items by index
+      const newStatus = data.map((_, i) => status[i] || null);
+      const newPosted = newStatus.filter(s => s === 'posted').length;
+      const newSkipped = newStatus.filter(s => s === 'skipped').length;
+      items = data;
+      status = newStatus;
+      postedCount = newPosted;
+      skippedCount = newSkipped;
+      if (cursor >= items.length) cursor = items.length - 1;
+      errEl.style.display = 'none';
+      document.getElementById('json-editor-panel').style.display = 'none';
+      document.getElementById('btn-edit-json').textContent = 'edit JSON';
+      render();
+    } catch(e) {
+      errEl.textContent = '✕ ' + e.message;
+      errEl.style.display = 'block';
+    }
+  });
+
+  // keyboard shortcuts
+  document.addEventListener('keydown', e => {
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+    if (e.key === 't' || e.key === 'T') doPost();
+    else if (e.key === 's' || e.key === 'S') doSkip();
+    else if (e.key === 'c' || e.key === 'C') doCopy();
+    else if (e.key === 'ArrowLeft') goPrev();
+    else if (e.key === 'ArrowRight') goNext();
+  });
+</script>
+</body>
+</html>
