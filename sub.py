@@ -31,9 +31,9 @@ def sub(num = 7, twi = 5, additional = "These posts are being operated with manu
     check_args()
     # save_html_json(today, args, _check=True)
     post_bluesky(today, num = num, additional = additional)
-    post_twitter(today, twi = twi, additional = additional)
+    # post_twitter(today, twi = twi, additional = additional)
     printlog(f"This is the end of all the posts on {today} (sub.py).")
     return 0
 
 if __name__ == '__main__':
-    sub(num = 6, twi = 5)
+    sub(num = 6, twi = 0)

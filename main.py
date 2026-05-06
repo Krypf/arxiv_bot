@@ -11,7 +11,7 @@ def main():
     today = get_today(args)
     save_html_json(today, args)
     post_bluesky(today)
-    post_twitter(today)
+    # post_twitter(today)
     printlog(f"This is the end of all the posts on {today}")
     return 0
 
