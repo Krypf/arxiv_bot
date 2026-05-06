@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -357,8 +357,8 @@
 
   <!-- Upload -->
   <div id="upload-section">
-    <p class="big">JSON ファイルをドロップ <span style="color:var(--muted);font-size:12px;">(Drop a JSON file)</span></p>
-    <p>またはクリックして選択 <span style="font-size:11px;">(or click to select)</span></p>
+    <p class="big">Drop a JSON file here</p>
+    <p>or click to select</p>
     <input type="file" id="file-input" accept=".json">
   </div>
 
@@ -445,11 +445,11 @@
     let abs = (item.abs_url || '').trim();
     let text = title + '\n' + pdf + '\n' + authors + '\n' + abs;
     if (text.length > MAX) {
-      // まず著者を短縮
+      // shorten authors first
       const firstAuthor = authors.split(', ')[0] + ' et al.';
       text = title + '\n' + pdf + '\n' + firstAuthor + '\n' + abs;
       if (text.length > MAX) {
-        // タイトルも短縮
+        // shorten title too
         const budget = MAX - pdf.length - firstAuthor.length - abs.length - 4;
         if (budget > 8) title = title.slice(0, budget) + '…';
         text = title + '\n' + pdf + '\n' + firstAuthor + '\n' + abs;
@@ -480,12 +480,21 @@
     document.getElementById('item-title').textContent = item.title || '';
     document.getElementById('item-authors').textContent = item.authors || '';
 
-    // colorize URL in preview
-    const preview = document.getElementById('tweet-preview');
+    // colorize URLs in preview — use DOM nodes to avoid innerHTML churn
     const lines = tweet.split('\n');
-    preview.innerHTML = lines.map((l, i) =>
-      (i === 1 || i === 3) ? `<span class="tweet-url">${escHtml(l)}</span>` : escHtml(l)
-    ).join('\n');
+    const preview = document.getElementById('tweet-preview');
+    while (preview.firstChild) preview.removeChild(preview.firstChild);
+    lines.forEach((l, i) => {
+      if (i > 0) preview.appendChild(document.createTextNode('\n'));
+      if (i === 1 || i === 3) {
+        const span = document.createElement('span');
+        span.className = 'tweet-url';
+        span.textContent = l;
+        preview.appendChild(span);
+      } else {
+        preview.appendChild(document.createTextNode(l));
+      }
+    });
 
     const len = tweet.length;
     const badge = document.getElementById('char-badge');
@@ -494,10 +503,6 @@
 
     document.getElementById('btn-prev').disabled = cursor <= 0;
     document.getElementById('btn-next').disabled = cursor >= items.length - 1;
-  }
-
-  function escHtml(s) {
-    return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
   }
 
   function updateStats() {
@@ -522,7 +527,14 @@
     if (cursor >= items.length) return;
     const tweet = buildTweet(items[cursor]);
     const tweetUrl = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(tweet);
-    window.open(tweetUrl, 'tweet_popup', 'width=600,height=400,toolbar=0,menubar=0,location=0,scrollbars=1,resizable=1');
+    // Use <a target="_blank"> instead of window.open() — Safari blocks the latter more aggressively
+    const a = document.createElement('a');
+    a.href = tweetUrl;
+    a.target = '_blank';
+    a.rel = 'noopener noreferrer';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
     if (!status[cursor]) { status[cursor] = 'posted'; postedCount++; }
     nextUnprocessed();
     render();
@@ -557,7 +569,7 @@
   function loadJSON(text, filename) {
     try {
       const data = JSON.parse(text);
-      if (!Array.isArray(data) || data.length === 0) { alert('有効なアイテムが見つかりません。'); return; }
+      if (!Array.isArray(data) || data.length === 0) { alert('No valid items found.'); return; }
       items = data;
       status = new Array(items.length).fill(null);
       cursor = 0; postedCount = 0; skippedCount = 0;
@@ -649,8 +661,14 @@
 
   document.getElementById('btn-tweet-done').addEventListener('click', () => {
     const text = 'All submissions are posted by HTML tools created by Claude Sonnet 4.6.';
-    const url = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(text);
-    window.open(url, 'tweet_popup', 'width=600,height=400,toolbar=0,menubar=0,location=0,scrollbars=1,resizable=1');
+    const tweetUrl = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(text);
+    const a = document.createElement('a');
+    a.href = tweetUrl;
+    a.target = '_blank';
+    a.rel = 'noopener noreferrer';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
   });
 
   document.getElementById('btn-back-to-last').addEventListener('click', () => {
