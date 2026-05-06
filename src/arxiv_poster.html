@@ -364,6 +364,7 @@
 
   <!-- Main view -->
   <div id="main-view" style="display:none;">
+    <div id="screenshot-target" style="background:var(--bg);padding-bottom:0;">
     <div class="stats">
       <div class="stat"><div class="stat-label">remaining</div><div class="stat-value accent" id="cnt-remaining">0</div></div>
       <div class="stat"><div class="stat-label">posted</div><div class="stat-value success" id="cnt-posted">0</div></div>
@@ -416,11 +417,13 @@
     <div id="done-state" class="done-state" style="display:none;">
       <div class="big">done.</div>
       <p>All items have been processed.</p>
-      <div style="display:flex;gap:8px;justify-content:center;">
-        <button class="btn-nav" id="btn-back-to-last">← back</button>
-        <button class="btn-copy" id="btn-screenshot">screenshot</button>
-        <button class="btn-skip" onclick="resetAll()">load another file</button>
-      </div>
+    </div>
+    </div><!-- /screenshot-target -->
+    <div id="done-buttons" style="display:none;margin-top:1rem;justify-content:center;gap:8px;flex-direction:row;">
+      <button class="btn-nav" id="btn-back-to-last">← back</button>
+      <button class="btn-copy" id="btn-screenshot">screenshot</button>
+      <button class="btn-post" id="btn-tweet-done" style="flex:unset;">tweet</button>
+      <button class="btn-skip" onclick="resetAll()">load another file</button>
     </div>
   </div>
 
@@ -461,6 +464,7 @@
     if (cursor >= items.length) {
       document.getElementById('item-area').style.display = 'none';
       document.getElementById('done-state').style.display = 'block';
+      document.getElementById('done-buttons').style.display = 'flex';
       return;
     }
     document.getElementById('item-area').style.display = 'block';
@@ -581,6 +585,7 @@
     document.getElementById('btn-reset').style.display = 'none';
     document.getElementById('btn-edit-json').style.display = 'none';
     document.getElementById('json-editor-panel').style.display = 'none';
+    document.getElementById('done-buttons').style.display = 'none';
     document.getElementById('file-input').value = '';
   }
 
@@ -612,28 +617,28 @@
     const btn = document.getElementById('btn-screenshot');
     btn.textContent = 'capturing...';
     try {
-      const canvas = await html2canvas(document.body, {
+      const target = document.getElementById('screenshot-target');
+      // temporarily prepend a clone of the header for capture
+      const headerClone = document.querySelector('header').cloneNode(true);
+      headerClone.style.marginBottom = '1.5rem';
+      headerClone.id = 'header-clone-tmp';
+      target.insertBefore(headerClone, target.firstChild);
+
+      const canvas = await html2canvas(target, {
         backgroundColor: '#0d0d0d',
         scale: 2,
         useCORS: true
       });
-      canvas.toBlob(async blob => {
-        const tweetText = 'All submissions are posted by HTML tools created by Claude Sonnet 4.6.';
-        const tweetUrl = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(tweetText);
-        try {
-          await navigator.clipboard.write([
-            new ClipboardItem({ 'image/png': blob })
-          ]);
-          btn.textContent = 'copied!';
-        } catch(e) {
-          // fallback: download
-          const a = document.createElement('a');
-          a.href = URL.createObjectURL(blob);
-          a.download = 'arxiv_poster_done.png';
-          a.click();
-          btn.textContent = 'downloaded';
-        }
-        window.open(tweetUrl, 'tweet_popup', 'width=600,height=400,toolbar=0,menubar=0,location=0,scrollbars=1,resizable=1');
+
+      // remove clone
+      target.removeChild(headerClone);
+
+      canvas.toBlob(blob => {
+        const a = document.createElement('a');
+        a.href = URL.createObjectURL(blob);
+        a.download = 'arxiv_poster_done.png';
+        a.click();
+        btn.textContent = 'downloaded!';
         setTimeout(() => btn.textContent = 'screenshot', 2000);
       }, 'image/png');
     } catch(e) {
@@ -642,9 +647,16 @@
     }
   });
 
+  document.getElementById('btn-tweet-done').addEventListener('click', () => {
+    const text = 'All submissions are posted by HTML tools created by Claude Sonnet 4.6.';
+    const url = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(text);
+    window.open(url, 'tweet_popup', 'width=600,height=400,toolbar=0,menubar=0,location=0,scrollbars=1,resizable=1');
+  });
+
   document.getElementById('btn-back-to-last').addEventListener('click', () => {
     cursor = items.length - 1;
     document.getElementById('done-state').style.display = 'none';
+    document.getElementById('done-buttons').style.display = 'none';
     document.getElementById('item-area').style.display = 'block';
     render();
   });
