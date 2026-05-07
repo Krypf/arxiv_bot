@@ -36,13 +36,12 @@ code "$LOG_FILE"
 
 # 2. Open arxiv_bot directory in Finder
 echo "[2/4] Opening Finder at ${ARXIV_DIR}..."
-open "$ARXIV_DIR"
+open "$ARXIV_DIR/data"
 
 # 3. Open arxiv_poster.html in Safari
 echo "[3/4] Opening arxiv_poster.html in Safari..."
 open -a Safari "$HTML_FILE"
 
-# 4. Run batch script
-echo "[4/4] Starting batch post script..."
+# 4. Copy batch script
+echo "[4/4] Copying batch post script command to clipboard..."
 echo "sh shell/arxiv_batch_post.zsh" | pbcopy
-#zsh "$BATCH_SCRIPT"
