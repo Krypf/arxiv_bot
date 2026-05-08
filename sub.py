@@ -36,4 +36,4 @@ def sub(num = 7, twi = 5, additional = "These posts are being operated with manu
     return 0
 
 if __name__ == '__main__':
-    sub(num = 6, twi = 0)
+    sub(num = 5, twi = 0)
