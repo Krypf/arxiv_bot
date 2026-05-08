@@ -118,7 +118,20 @@ Twitter API v2 limits posts by the error 402 Payment Required. The remaining sub
 > The administrator will send posts manually from now on today and tomorrow.
 > All submissions are posted by HTML tools created by Claude Sonnet 4.6.
 
+## 2026-05-07 追記
 
+Claude で作った HTML アプリで Twitter　に手動投稿する方式を採用しました。
+
+* Twitterにログインします。
+* Shell スクリプトを実行します。
+
+> sh shell/arxiv_start.zsh
+> sh shell/arxiv_batch_post.zsh
+
+注意点：
+
+* `src/arxiv_poster.html` の隣にタブを置かない。（Safari の自動フォーカスが間違えるため）
+* crontab の起動を避ける
 
 # arXiv API
 
