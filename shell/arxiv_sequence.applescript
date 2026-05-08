@@ -4,7 +4,7 @@ tell application "System Events"
 	delay 3.0
 	-- Cmd+Enter
 	key code 36 using {command down}
-	delay 1.0
+	delay 2.0
 	-- Cmd+W
 	key code 13 using {command down}
 	delay 1.0
