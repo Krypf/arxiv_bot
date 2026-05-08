@@ -386,7 +386,11 @@ class ArxivText:
                 printlog(f"An invocation timeout occurred. Retrying...")
                 # Implement your retry logic or alternative actions here
                 time.sleep(5)  # Wait 5 seconds before retrying
-        
+            # raise exceptions.NetworkError from e
+            except exceptions.NetworkError as e:
+                printlog(f"A network error occurred: {e}. Retrying...")
+                time.sleep(5)  # Wait 5 seconds before retrying
+
         return None
     
     def log_maximum_error(self, api_maximum = 50):
