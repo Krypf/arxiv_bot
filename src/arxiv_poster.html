@@ -359,6 +359,7 @@
   <div id="upload-section">
     <p class="big">Drop a JSON file here</p>
     <p>or click to select</p>
+    <p style="margin-top:1rem;font-family:var(--mono);font-size:11px;color:var(--muted);"><kbd style="background:var(--surface2);border:0.5px solid var(--border2);border-radius:2px;padding:2px 6px;font-family:var(--mono);font-size:10px;color:var(--text);">Enter</kbd> to open file picker</p>
     <input type="file" id="file-input" accept=".json">
   </div>
 
@@ -421,9 +422,9 @@
     </div><!-- /screenshot-target -->
     <div id="done-buttons" style="display:none;margin-top:1rem;justify-content:center;gap:8px;flex-direction:row;">
       <button class="btn-nav" id="btn-back-to-last">← back</button>
-      <button class="btn-copy" id="btn-screenshot">screenshot</button>
-      <button class="btn-post" id="btn-tweet-done" style="flex:unset;">tweet</button>
-      <button class="btn-skip" onclick="resetAll()">load another file</button>
+      <button class="btn-copy" id="btn-screenshot">screenshot <kbd style="background:rgba(255,255,255,0.1);border:0.5px solid rgba(255,255,255,0.2);border-radius:2px;padding:1px 5px;font-size:10px;">S</kbd></button>
+      <button class="btn-post" id="btn-tweet-done" style="flex:unset;">tweet <kbd style="background:rgba(255,255,255,0.15);border:0.5px solid rgba(255,255,255,0.25);border-radius:2px;padding:1px 5px;font-size:10px;">T</kbd></button>
+      <button class="btn-skip" id="btn-load-another">load another file <kbd style="background:rgba(255,255,255,0.08);border:0.5px solid rgba(255,255,255,0.15);border-radius:2px;padding:1px 5px;font-size:10px;">L</kbd></button>
     </div>
   </div>
 
@@ -729,14 +730,30 @@
     }
   });
 
+  document.getElementById('btn-load-another').addEventListener('click', resetAll);
+
   // keyboard shortcuts
   document.addEventListener('keydown', e => {
     if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
-    if (e.key === 't' || e.key === 'T') doPost();
-    else if (e.key === 's' || e.key === 'S') doSkip();
-    else if (e.key === 'c' || e.key === 'C') doCopy();
-    else if (e.key === 'ArrowLeft') goPrev();
-    else if (e.key === 'ArrowRight') goNext();
+    const onDone = document.getElementById('done-buttons').style.display !== 'none';
+    if (e.key === 'Enter') {
+      const uploadSection = document.getElementById('upload-section');
+      if (uploadSection.style.display !== 'none') {
+        document.getElementById('file-input').click();
+      }
+    }
+    else if (onDone) {
+      if (e.key === 's' || e.key === 'S') document.getElementById('btn-screenshot').click();
+      else if (e.key === 't' || e.key === 'T') document.getElementById('btn-tweet-done').click();
+      else if (e.key === 'l' || e.key === 'L') resetAll();
+    }
+    else {
+      if (e.key === 't' || e.key === 'T') doPost();
+      else if (e.key === 's' || e.key === 'S') doSkip();
+      else if (e.key === 'c' || e.key === 'C') doCopy();
+      else if (e.key === 'ArrowLeft') goPrev();
+      else if (e.key === 'ArrowRight') goNext();
+    }
   });
 </script>
 </body>
