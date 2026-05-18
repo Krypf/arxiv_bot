@@ -640,17 +640,14 @@
       // remove clone
       target.removeChild(headerClone);
 
-      canvas.toBlob(async blob => {
-      try {
-        await navigator.clipboard.write([
-          new ClipboardItem({ 'image/png': blob })
-        ]);
-        btn.textContent = 'copied!';
-      } catch(e) {
-        btn.textContent = 'error';
-      }
-      setTimeout(() => btn.textContent = 'screenshot', 2000);
-    }, 'image/png');
+      canvas.toBlob(blob => {
+        const a = document.createElement('a');
+        a.href = URL.createObjectURL(blob);
+        a.download = 'arxiv_poster_done.png';
+        a.click();
+        btn.textContent = 'downloaded!';
+        setTimeout(() => btn.textContent = 'screenshot', 2000);
+      }, 'image/png');
     } catch(e) {
       btn.textContent = 'error';
       setTimeout(() => btn.textContent = 'screenshot', 2000);
