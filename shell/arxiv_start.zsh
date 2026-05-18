@@ -41,7 +41,11 @@ open "$ARXIV_DIR/data"
 # 3. Open arxiv_poster.html in Safari
 echo "[3/4] Opening arxiv_poster.html in Safari..."
 open -a Safari "$HTML_FILE"
+open -a Safari "https://x.com/home"
 
 # 4. Copy batch script
 echo "[4/4] Copying batch post script command to clipboard..."
-echo "sh shell/arxiv_batch_post.zsh" | pbcopy
+COMMAND="sh shell/arxiv_batch_post.zsh"
+echo "$COMMAND"
+echo "$COMMAND" | pbcopy
+echo "Get ready to change your account on the browser !"
