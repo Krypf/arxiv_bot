@@ -32,7 +32,15 @@ def login_bsky(category: str):
     p = read_password(category)
     # login
     client = Client(base_url='https://bsky.social')
-    client.login(login='krxiv-' + category + '.bsky.social',password=p)
+    for _ in range(3):  # Retry up to 3 times
+        try:
+            client.login(login='krxiv-' + category + '.bsky.social',password=p)
+            break
+        except Exception as e:
+            # InvokeTimeoutError:
+            print(f"[ERROR] Login failed: {e}. login_bsky: timeout (category={category})")
+            # time.sleep(5)  # Wait 5 seconds before retrying
+            # return None, None
 
     # set a image 
     with open('img/ArXiv_logo_2022.png', 'rb') as f:
