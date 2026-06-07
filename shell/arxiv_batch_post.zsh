@@ -40,6 +40,8 @@ if ! [[ "$N" =~ ^[0-9]+$ ]] || (( N <= 0 )); then
   exit 1
 fi
 
+echo "[$(date '+%Y-%m-%d %H:%M:%S')] Starting sequence ${N} times." >> "$LOG"
+
 # Activate Safari
 echo "Activating Safari..."
 osascript -e 'tell application "Safari" to activate'
@@ -47,7 +49,7 @@ sleep $SAFARI_DELAY
 
 echo ""
 echo "Running sequence x${N}:"
-echo "  T -> Cmd+Enter -> Cmd+W -> Enter -> (wait) -> repeat"
+echo "  T -> Ctrl+Tab -> N -> Cmd+V -> Cmd+Enter -> Ctrl+Shift+Tab"
 echo ""
 
 # Main loop
@@ -62,4 +64,3 @@ done
 
 echo ""
 echo "Done: ran sequence ${N} times."
-echo "[$(date '+%Y-%m-%d %H:%M:%S')] Done: ran sequence ${N} times." >> "$LOG"

@@ -25,5 +25,5 @@ tell application "System Events"
     delay (item 5 of R + 1.0)
     -- Switch back to arXiv Poster tab
     key code 48 using {control down, shift down}
-    delay item 6 of R 
+    delay (item 6 of R + 0.5)
 end tell

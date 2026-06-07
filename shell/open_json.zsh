@@ -14,12 +14,15 @@ LOG="${ARXIV_DIR}/log.txt"
 
 # ---------- argument ----------
 if [[ -z "$1" ]]; then
-  echo "Usage: $0 data/<category>/<file>.json"
-  exit 1
+  ARG=$(osascript shell/check_category.applescript)
+  if [[ -z "$ARG" ]]; then
+    echo "Error: could not read filename from Safari tab"
+    exit 1
+  fi
+  echo "  (read from Safari: ${ARG})"
+else
+  ARG="$1" # Normalize input to absolute path
 fi
-
-# Normalize input to absolute path
-ARG="$1"
 # 1. Strip .json if present, then re-add
 ARG="${ARG%.json}.json"
 # 2. Extract basename (strip any directory prefix)
@@ -64,14 +67,10 @@ echo ""
 mkdir -p "$(dirname "$LOG")"
 echo "[$(date '+%Y-%m-%d %H:%M:%S')] open_json: file=${BASENAME}.json items=${ITEM_COUNT}" >> "$LOG"
 
+# ---------- confirm ----------
+echo -n "  ${BASENAME_ARG}.json (${ITEM_COUNT} items) — continue? (y/n): "
+read user_input
+[[ "$user_input" != "y" ]] && exit 1
+
+# ---------- open in Safari ----------
 sh shell/arxiv_batch_post.zsh "$ITEM_COUNT"
-
-# ---------- open Safari with arxiv_poster.html, then load JSON ----------
-# APPLESCRIPT="${ARXIV_DIR}/shell/open_json.applescript"
-
-# echo "Opening arxiv_poster.html in Safari..."
-# open -a Safari "$HTML_FILE"
-# sleep 2
-
-# echo "Loading JSON via AppleScript..."
-# osascript "$APPLESCRIPT" "$JSON_FILE"
