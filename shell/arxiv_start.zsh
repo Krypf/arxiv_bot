@@ -11,9 +11,16 @@ ARXIV_DIR="$HOME/arxiv_bot"
 LOG_FILE="${ARXIV_DIR}/log.txt"
 HTML_FILE="${ARXIV_DIR}/src/arxiv_poster.html"
 # SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-BATCH_SCRIPT="${ARXIV_DIR}/shell/arxiv_batch_post.zsh"
+BATCH_SCRIPT="${ARXIV_DIR}/shell/open_json.zsh"
+APPLESCRIPT="${ARXIV_DIR}/shell/display_support.applescript"
+
 # ----------------------------
 
+# Check AppleScript file exists
+if [[ ! -f "$APPLESCRIPT" ]]; then
+  echo "Error: AppleScript not found at '${APPLESCRIPT}'"
+  exit 1
+fi
 # Check files exist
 if [[ ! -f "$LOG_FILE" ]]; then
   echo "Error: log.txt not found at '${LOG_FILE}'"
@@ -26,7 +33,7 @@ if [[ ! -f "$HTML_FILE" ]]; then
 fi
 
 if [[ ! -f "$BATCH_SCRIPT" ]]; then
-  echo "Error: arxiv_batch_post.zsh not found at '${BATCH_SCRIPT}'"
+  echo "Error: open_json.zsh not found at '${BATCH_SCRIPT}'"
   exit 1
 fi
 
@@ -37,6 +44,7 @@ code "$LOG_FILE"
 # 2. Open arxiv_bot directory in Finder
 echo "[2/4] Opening Finder at ${ARXIV_DIR}..."
 open "$ARXIV_DIR/data"
+open "$HOME/Downloads"
 
 # 3. Open arxiv_poster.html in Safari
 echo "[3/4] Opening arxiv_poster.html in Safari..."
@@ -45,7 +53,11 @@ open -a Safari "https://x.com/home"
 
 # 4. Copy batch script
 echo "[4/4] Copying batch post script command to clipboard..."
-COMMAND="sh shell/arxiv_batch_post.zsh"
+COMMAND="sh shell/open_json.zsh"
 echo "$COMMAND"
 echo "$COMMAND" | pbcopy
 echo "Get ready to change your account on the browser !"
+
+# 5. Run AppleScript
+# echo "[5/5] Running AppleScript..."
+# osascript "$APPLESCRIPT"

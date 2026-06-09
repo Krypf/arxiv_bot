@@ -68,9 +68,13 @@ mkdir -p "$(dirname "$LOG")"
 echo "[$(date '+%Y-%m-%d %H:%M:%S')] open_json: file=${BASENAME}.json items=${ITEM_COUNT}" >> "$LOG"
 
 # ---------- confirm ----------
-echo -n "  ${BASENAME_ARG}.json (${ITEM_COUNT} items) — continue? (y/n): "
+echo -n "  ${BASENAME_ARG}.json (${ITEM_COUNT} items) — continue? (y/n/number): "
 read user_input
-[[ "$user_input" != "y" ]] && exit 1
+if [[ "$user_input" =~ ^[0-9]+$ ]]; then
+  ITEM_COUNT=$user_input
+elif [[ "$user_input" != "y" ]]; then
+  exit 1
+fi
 
 # ---------- open in Safari ----------
 sh shell/arxiv_batch_post.zsh "$ITEM_COUNT"

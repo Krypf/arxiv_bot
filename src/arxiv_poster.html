@@ -571,6 +571,7 @@
       document.getElementById('upload-section').style.display = 'none';
       document.getElementById('main-view').style.display = 'block';
       document.getElementById('header-file').textContent = '— ' + (filename || 'loaded');
+      document.title = filename || 'arXiv Poster';
       document.getElementById('btn-reset').style.display = 'inline-block';
       document.getElementById('btn-edit-json').style.display = 'inline-block';
       render();
@@ -589,6 +590,7 @@
     document.getElementById('upload-section').style.display = 'block';
     document.getElementById('main-view').style.display = 'none';
     document.getElementById('header-file').textContent = '— no file loaded';
+    document.title = 'arXiv Poster';
     document.getElementById('btn-reset').style.display = 'none';
     document.getElementById('btn-edit-json').style.display = 'none';
     document.getElementById('json-editor-panel').style.display = 'none';
