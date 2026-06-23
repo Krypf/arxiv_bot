@@ -20,6 +20,7 @@ if [[ -z "$1" ]]; then
     exit 1
   fi
   echo "  (read from Safari: ${ARG})"
+  echo "***Get ready to change your account on the browser !***"
 else
   ARG="$1" # Normalize input to absolute path
 fi
@@ -68,6 +69,7 @@ mkdir -p "$(dirname "$LOG")"
 echo "[$(date '+%Y-%m-%d %H:%M:%S')] open_json: file=${BASENAME}.json items=${ITEM_COUNT}" >> "$LOG"
 
 # ---------- confirm ----------
+echo -n "How many posts? (default: ${ITEM_COUNT}) > "
 echo -n "  ${BASENAME_ARG}.json (${ITEM_COUNT} items) — continue? (y/n/number): "
 read user_input
 if [[ "$user_input" =~ ^[0-9]+$ ]]; then
