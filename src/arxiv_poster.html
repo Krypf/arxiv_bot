@@ -657,8 +657,7 @@
   });
 
   document.getElementById('btn-tweet-done').addEventListener('click', () => {
-    const text = 'All submissions are posted by HTML tools created by Claude Sonnet 4.6.';
-    const tweetUrl = 'https://x.com/intent/tweet?text=' + encodeURIComponent(text);
+    const text = 'All submissions are posted using HTML tools created by Claude Sonnet 4.6.\n\nPlease donate to the project and become a sponsor on GitHub if you find the application convenient!\nhttps://github.com/Krypf/arxiv_bot';    const tweetUrl = 'https://x.com/intent/tweet?text=' + encodeURIComponent(text);
     const a = document.createElement('a');
     a.href = tweetUrl;
     a.target = '_blank';
