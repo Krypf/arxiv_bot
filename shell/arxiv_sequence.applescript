@@ -16,7 +16,7 @@ tell application "System Events"
     delay item 2 of R
     -- Press N to open new tweet box
     key code 45
-    delay item 3 of R
+    delay (item 3 of R + 0.5)
     -- Paste copied text
     key code 9 using {command down}
     delay (item 4 of R + 0.5)
