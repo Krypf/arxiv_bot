@@ -12,7 +12,7 @@
 #   -> enable Terminal / iTerm2
 
 # ---------- config ----------
-SAFARI_DELAY=2  # seconds to wait after Safari is focused
+SAFARI_DELAY=3  # seconds to wait after Safari is focused
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 APPLESCRIPT="${SCRIPT_DIR}/arxiv_sequence.applescript"
 LOG="$HOME/arxiv_bot/log.txt"
