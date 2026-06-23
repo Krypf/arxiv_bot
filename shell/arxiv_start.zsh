@@ -59,5 +59,5 @@ echo "$COMMAND" | pbcopy
 echo "Get ready to change your account on the browser !"
 
 # 5. Run AppleScript
-# echo "[5/5] Running AppleScript..."
-# osascript "$APPLESCRIPT"
+echo "[5/5] Running AppleScript..."
+osascript "$APPLESCRIPT"
