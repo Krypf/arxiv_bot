@@ -190,3 +190,12 @@ src/core/arxiv_function.py の
 httpcore.ReadTimeout:
 raise exceptions.InvokeTimeoutError from e
 atproto_client.exceptions.InvokeTimeoutError
+
+# Donation
+
+Donation messages are sometimes sent on Twitter because the three accounts are not free plan now since May 2026:
+
+All submissions are posted using HTML tools created by Claude Sonnet 4.6.
+
+Please donate to the project and become a sponsor on GitHub if you find the application convenient!
+https://github.com/Krypf/arxiv_bot
